@@ -1,0 +1,42 @@
+[
+  {
+    "page": "page_01.png",
+    "text": "جامعة الخرطوم\nأمانة الشؤون العلمية\nجامعة الخرطوم\nكراسة إجابة\nالبكالريوس\nالتاريخ ----- 13/12/2025.\n--------: الكلية هندسة\n-------:القسم عصريك\nالعام الدراسي\n2003-2024\n---------:التخصص\nإمتحانات : الفصل الدراسي الأول\nالفصل الدراسي الثاني\nالملاحق و البدائل\nإسم ورقة الإمتحان Java programming\nإسم الطالب الطالبة -  ----- رقم الجلوس \nإرشادات عامة:\n1. إبدأ الإجابة على كل سؤال في صفحة جديدة\n.2. لا تكتب على الهامش جانبي الورقة\n3. يرجى كتابة اسمك ورقم الجلوس و الكلية والقسم واسم المادة\nبوضوح في أعلى كل صفحة من كراسة الإجابة.\n4. يجب أن يتم عمل أي مسودة في كراسة الإجابة على أن تشطب\nالمسودة\n5. لا يسمح بإستعمال كراسة إجابة إضافية إلا إذا إمتلأت كل\nالصفحات المخصصة في الكراسة الأولى\n6. في حالة صرف كراسة إضافية يجب أن يكتب عليها رقم الجلوس وإسم\nالورقة\n7. لا يسمح إطلاقا للطالب بأخذ كراسة إجابة مستعملة أو غير مستعملة خارج\nقاعة الإمتحانات\n8. إكتب داخل المربعات الخالية التالية أرقام الأسئلة التي أجبت عليها حسب\nترتيب الإجابة و أرقام الأسئلة الفرعية إن وجدت\n9. يمنع منعا باتا نزع أي ورقة من كراسة الإيجابة\n10. سيتم عمل تصوير إلكتروني (scanning) لمعظم الإمتحانات في بعض المراكز، لذلك لن\nيكون الأستاذ أو الكلية مسؤولين عن كتابات غير واضحة و غير منظمة.\n11. قم بالإجابة على الأسئلة فقط باستخدام أقلام الحبر الجاف الزرقاء.\nإكتب داخل المربعات الخالية التالية أرقام الأسئلة التي أجبت عليها حسب ترتيب الإجابة\nرقم الجلوس\nلإستعمال الأستاذ الممتحن فقط\nرقم السؤال الدرجة التوقيع\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10"
+  },
+  {
+    "page": "page_02.png",
+    "text": "عصرياء\nرقم الجلوس : 6\n: القسم-----------\nحهندسة\nالكلية :\n: المادة java programming\nالإسم :ح.\n1.1) means java language is not ties on speciffe\noprer operating system architecture\n\n1.2 as the w.w.w occur sharing dato become more\nwide and orgnize at the data previosly stored all in\nand can be accessed by any code, [UNK] a must\ntogather\nto devel\nthe end.\n1.3) OOP (object oriented program) emphasis on\ndata rathe than function eit encapsulate code\nand data inside class to protect it from misuse\npop (sprecedural orinted program) use data to\nachieve the aim of function emphasis on function\n(procedure) rather than data) C is example for this\n1.4) JRE Stand for (jassa Run-time enviroment) its\ncomponent are : Dj VM (java-virtual machine)\n2) Libratries\n③ other needed file\n1.5 inhertance & is & which new caje class gain learn/\nthe property of that it it's inherted from\npolymorphisma is the ability of a messege to be\nin defferent form (poly = many, morphism = form)\nmeans multiple form\n1.6) encapsulation is mechanism that binds togather\ncode and data, and prevent them from interferences.\nor misuse bylt protected by prevent wrapper from\nbe being accessed by class outside defined class.\nsencapsulation use classes\nVor\ndata\npublic class\ndata member+\nmethod\nT\nالصفحة 1 من 9\nmethal (code)"
+  },
+  {
+    "page": "page_03.png",
+    "text": "هندسه القسم : عصراء الكلية :\nالإسم : \nرقم الجلوس: \n)1( : رقم السؤالjava programming السادة :\n1-7) abstraction can be achieved by : inheretent\nclasses or interfaces (1009. achieved by this method).\n1-8) Da thread program terminated by thread if it finish\nexcuting\n2) terminated due to unusual [UNK] value/ cause\n3) if thread is dead and no longer available.\n1) System.in : use Standard input port\n1.9)\n2) system out: Standard auf output port\n3) Sejstem err : for error\n1.10) API jave & swing is part of fundamental\njava classes. it's built on top of AWT.\n( abstract window tool kit)\n1.2\nbecome a must do develop language that\noptimized [UNK] data data to it's function and ocode\nand constraints it's access.\nالصفحة 2 من 9"
+  },
+  {
+    "page": "page_04.png",
+    "text": ".\nعصرياء رقم الجلوس :\n: القسم-----------\nهندسة\nالكلية :\nالإسم : المادة : java programming رقم السؤال : (2)\nPe\n2.1) True\n2.2) false Run-tim polymorphis called Dynamic\n(Dynamic polymorphism) polymorphism\n3) True\n4) false (java doesn't support multiple im\ninheritance at all).\n5) True\n6) True\n7) True\nالصفحة 3 من 9"
+  },
+  {
+    "page": "page_05.png",
+    "text": "\n3\n--القسم : كمربك رقم الجلوس:\nالكلية :\n2 : رقم السؤال Java programming المادة\n(3\nالإسم :م\n3. JDBC (java data-base connative).\n2 light wieght / continous.\n3) inter face\n4) Tools (AWT) abstract window tools\n⑤\nController\n6) (C)\n7\nYun-time poly phor phism\nالصفحة 4 من 9"
+  },
+  {
+    "page": "page_06.png",
+    "text": "الكلية :\n: القسم--------------\nع\n6\nرقم الجلوس: \nالمادة (java programme رقم السؤال : A الاسم : والبعوض الكريم صلاح المادة java programmeg\naim to print aech seat with\nthe code\nin this public class Code\nassociated numbers\nthe program will exeute the says forst\nIntialy\nand then enter the\nSystem.out.println Conce\nfor loop this loop pass throug element via indexes\nStarting from index zero = M Cones G until\nfour\nevery time the value of i increased\nP\nby one automatically\nitteration\nThe fat black code output completion 8-\nh\nsyste system. out print In (Student [i] + \"will\n\"you will take seat\" +\ni)\n(Student [i] + \" you will take seat\"\nsame asabove\njust in one line\n4.2\nCalculate Votes\nor Calculate Votes\n=\nVotes\ntatal Halive\n(double) total vates ; *\nthe program print the total no. of Votes $15\nhere the total noof vates declared as (total votes = 766)\nwe have public static void named calculate\nVotes which it exeept. one witriolve cand & just\none Yabere and multply it and print the outpat\nSo, for sure this value must be (760)\nthe total value (double) just beacuase in declar\nstatment public static ford void the impelt defines as\ndouble\nالصفحة 5 من 9"
+  },
+  {
+    "page": "page_07.png",
+    "text": "\nالكلية :\nالقسم :\nكهرباء\nرقم الجلوس:\nالإسم :-\nو المادة :\njava programmes رقم السؤال:\n(1)\nQ\n(3)\noop\ncode\ndata\ncode\ndata\nclass\njava is example for this\n\nالصفحة 6 من 9"
+  },
+  {
+    "page": "page_08.png",
+    "text": "الكلية :\n----------: الإسم\n: القسم-------\nالمادة:\nرقم الجلوس\n----------رقم السؤال ------------\nالصفحة 7 من 9"
+  },
+  {
+    "page": "page_09.png",
+    "text": "الكلية :\nالإسم :\nالقسم:\nالمادة:\nرقم الجلوس :\nرقم السؤال:\n\nالصفحة 8 من 9"
+  },
+  {
+    "page": "page_10.png",
+    "text": "الكلية :\nالقسم :\nرقم الجلوس:\nالإسم :\nالمادة:\nرقم السؤال:\n\nإنتهى\nالصفحة 9 من 9"
+  }
+]

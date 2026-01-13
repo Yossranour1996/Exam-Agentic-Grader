@@ -1,0 +1,28 @@
+رقم الجلوس
+------------ رقم السؤال ------------
+القسم :
+المادة :--
+الكلية :
+--------: الإسم
+Q2
+2.1
+true
+2.2
+False
+connect: Run time polymorphism is called dynamic polymorphis
+2.3
+true
+2-4
+False
+correct: Java doesn't support the concept of multiple inheritane
+2.5
+true
+2.6
+true
+2-7
+false
+it
+one
+correct: Each database sources have different JDBC driver
+for
+الصفحة 4 من 9

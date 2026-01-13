@@ -1,0 +1,15 @@
+رقم الجلوس
+رقم السؤال
+الكلية :
+القسم
+المادة :-
+: الإسم
+Q3
+3.1 Java Database Connectivity (JDBC)
+3.2 Light weight
+3.3 inter faces
+3.4 container
+3.5 controller
+3.6 C
+3.7 run-time
+الصفحة 5 من 9

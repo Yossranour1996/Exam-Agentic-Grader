@@ -10,8 +10,7 @@ venv/
 Thumbs.db
 
 # Outputs / Data (اختياري حسب رغبتكم)
-data/output/
-data/input/**
+
 
 # Logs
 *.log
