@@ -15,13 +15,13 @@ togather
 to devel
 the end.
 1.3) OOP (object oriented program) emphasis on
-data rathe than function eit encapsulate code
+data rathe than function it encapsulate code
 and data inside class to protect it from misuse
-pop (sprecedural orinted program) use data to
+pop (precedural orinted program) use data to
 achieve the aim of function emphasis on function
 (procedure) rather than data) C is example for this
-1.4) JRE Stand for (jassa Run-time enviroment) its
-component are : Dj VM (java-virtual machine)
+1.4) JRE Stand for (java Run-time enviroment) its
+component are : jVM (java-virtual machine)
 2) Libratries
 ③ other needed file
 1.5 inhertance & is & which new caje class gain learn/

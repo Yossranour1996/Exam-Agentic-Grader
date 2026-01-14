@@ -6,20 +6,20 @@ EEE
 Q1
 1.1. It means that it can be executed in program
 by diffirent enviroments because of JVM.
-1.2. by doping and devoloping enviroment and uses.
-by improving the art of programming..
+1.2. by adapting and devoloping enviroment and uses.
+by improving the art of programming.
 1.3 oop: is organized around code (object) it means
 that (data controlling access to code).
 POP: it is a sienise of presedural ( code ) it means
-that (the code alts on data)
+that (the code acts on data)
 1.4 JVM (Java Virtual Mathine) it execute Program (ran)
 Libraries
 1.5 inheritance: is creating new class depeneds, on existiring
 class the supclass inhertes the super-class methods and
 fields.
 Polymorphism: (many forms) It is one class intentace argentad
-thats react with Jeniral actions.
-many
+thats react with many geniral actions.
+
 1.6 encapsulation: its bends of data and code, and secure
 them from outer interface or misuses
 1.7 a class abstract

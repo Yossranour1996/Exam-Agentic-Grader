@@ -3,7 +3,7 @@
 ---- رقم السؤال :-
 Q(3) Q(2
 Q14)
-②2-1-True
+②
 الكلية :
 هندسه
 ۱---
@@ -12,6 +12,7 @@ Q14)
 الاسم :  المادة :-
 ثالث
 Java prog
+2.1-True
 2.2- False (it's called Dynamic polymorphism)
 2.3-True
 24- False (inbertance Java docent work by multiple inhertance)
@@ -21,7 +22,7 @@ Java prog
 ③
 3-1- FRE JVM.
 3.2- connected
-3-3- thread attributes
+3-3-  attributes
 3,4- thread
 3-5-
 3.8- C programming language.

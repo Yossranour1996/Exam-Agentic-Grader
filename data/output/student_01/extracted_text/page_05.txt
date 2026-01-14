@@ -23,6 +23,6 @@ true
 false
 it
 one
-correct: Each database sources have different JDBC driver
-for
+correct: for Each database sources have different JDBC driver
+
 الصفحة 4 من 9
