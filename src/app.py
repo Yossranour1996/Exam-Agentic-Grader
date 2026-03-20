@@ -1,21 +1,37 @@
 # src/app.py
 from __future__ import annotations
+from dotenv import load_dotenv
 
-from src.graph.workflow import build_extraction_graph
+from src.state import InputState, Context
+from src.graph.workflow import build_graph
 
+load_dotenv()
+
+# Entry point for research test runs.
+# This script builds the workflow graph, invokes it with example input, and prints output paths.
 def main():
-    graph = build_extraction_graph()
+    print("Building workflow graph...")
+    graph = build_graph()
 
-    final_state = graph.invoke({
-        "student_id": "student_03",
-        "student_pdf": "data/input/answers_sheets/student_03.pdf",
+    print("\nInvoking graph with test data...")
+    final_state = graph.invoke(
+        input=InputState({
+        "student_id": "student_01",
         "dpi": 300,
-        "max_pages": 10
-    })
+        "max_pages": 10,
+        "rubric_file": "java_criteria.txt",
+        }),
+        context=Context(
+            model="gpt-4o",
+            temperature=0.0
+            ),
+        # config={"configurable": {"thread_id": "1"}}
+        )
 
     print("\n✅ DONE")
-    print("Saved under:", f"data/output/{final_state['student_id']}/extracted_text")
-    print("Pages OCR'd:", len(final_state.get("ocr_pages", [])))
+    print("Pages saved under:", f"{final_state['extract_dir']}")
+    print("Grading results saved under:", f"{final_state['export_dir']}")
+    print("Message log saved in:", f"{final_state['log_path']}")
 
 if __name__ == "__main__":
     main()

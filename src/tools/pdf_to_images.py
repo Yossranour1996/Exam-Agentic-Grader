@@ -1,7 +1,8 @@
+# src/tools/gemini_ocr.py
 from pathlib import Path
 from pdf2image import convert_from_path
 
-def pdf_to_images(pdf_path: str, out_dir: str, dpi: int = 300) -> list[str]:
+def pdf_to_images(pdf_path: str | Path, out_dir: str | Path, dpi: int = 300) -> list[str]:
     pdf_path = Path(pdf_path)
     out_dir = Path(out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
