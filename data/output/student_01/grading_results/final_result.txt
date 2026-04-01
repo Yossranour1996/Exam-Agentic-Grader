@@ -1,0 +1,122 @@
+Grading:
+Total Mark: 66.0
+
+Evaluations:
+	Question 1.1:
+	Awarded Points: 3.0
+	Justification: Correct: “it can be executed … by diffirent enviroments because of JVM.” This captures architecture neutrality via JVM/bytecode.
+
+	Question 1.2:
+	Awarded Points: 0.0
+	Justification: Missing the core idea of enabling distributed/network-based programming and motivating platform independence/security. Student wrote: “by doping and devoloping enviroment and uses. by improving the art of programming..” which does not mention the web/Internet’s role in distributed, network-centric programming.
+
+	Question 1.3:
+	Awarded Points: 1.5
+	Justification: Partial. Incorrect part: “oop: is organized around code (object) it means that (data controlling access to code).” OOP focuses on objects encapsulating data and behavior, not “code.” POP part is acceptable: “it is a … presedural ( code ) it means that (the code alts on data).”
+
+	Question 1.4:
+	Awarded Points: 3.0
+	Justification: Correct core components given: “JVM (Java Virtual Mathine) … Libraries.” (JVM and core libraries).
+
+	Question 1.5:
+	Awarded Points: 3.0
+	Justification: Correct ideas: “inheritance: … the supclass inhertes the super-class methods and fields.” and “Polymorphism: (many forms) … react with Jeniral actions.”
+
+	Question 1.6:
+	Awarded Points: 3.0
+	Justification: Correct: “its bends of data and code, and secure them from outer interface or misuses” (binding data/methods and hiding details).
+
+	Question 1.7:
+	Awarded Points: 3.0
+	Justification: Correct: “a class abstract” and “interface.”
+
+	Question 1.8:
+	Awarded Points: 1.5
+	Justification: Only one reason is clearly stated. Student wrote: “Finished sate normally” (correct), but the others are unclear/incorrect: “terminated dup Way unusual actions” and “dead or not acollabtre, avaliable.” Missing clear mention of “throws an exception” and “is interrupted/stopped.”
+
+	Question 1.9:
+	Awarded Points: 3.0
+	Justification: Correct streams despite minor formatting: “system.in. system out system, err” → System.in, System.out, System.err.
+
+	Question 1.10:
+	Awarded Points: 3.0
+	Justification: Correct: “AWT (Abstract window Tool)” (Swing is built on AWT).
+
+	Question 2.1:
+	Awarded Points: 3.0
+	Justification: Correct True/False choice: “true.”
+
+	Question 2.2:
+	Awarded Points: 3.0
+	Justification: Correct True/False choice: “False.”
+
+	Question 2.3:
+	Awarded Points: 3.0
+	Justification: Correct True/False choice: “true.”
+
+	Question 2.4:
+	Awarded Points: 3.0
+	Justification: Correct True/False choice: “False.”
+
+	Question 2.5:
+	Awarded Points: 3.0
+	Justification: Correct True/False choice: “true.”
+
+	Question 2.6:
+	Awarded Points: 3.0
+	Justification: Correct True/False choice: “true.”
+
+	Question 2.7:
+	Awarded Points: 3.0
+	Justification: Correct True/False choice: “false.”
+
+	Question 3.1:
+	Awarded Points: 3.0
+	Justification: Correct: “Java Database Connectivity (JDBC).”
+
+	Question 3.2:
+	Awarded Points: 3.0
+	Justification: Correct (minor spacing OK): “Light weight” → Lightweight.
+
+	Question 3.3:
+	Awarded Points: 3.0
+	Justification: Correct (minor spacing OK): “inter faces” → interfaces.
+
+	Question 3.4:
+	Awarded Points: 3.0
+	Justification: Correct: “container.”
+
+	Question 3.5:
+	Awarded Points: 3.0
+	Justification: Correct. The blank reads “model-view-___________.” The student answered: “controller,” which yields “model-view-controller,” the intended term. (QA regrade note acknowledged; prior 0 corrected to full marks.)
+
+	Question 3.6:
+	Awarded Points: 3.0
+	Justification: Correct example: “C.” (Acceptable example of procedural language).
+
+	Question 3.7:
+	Awarded Points: 3.0
+	Justification: Correct (minor hyphenation OK): “run-time” → Runtime.
+
+	Question 4.1:
+	Awarded Points: 0.0
+	Justification: No final output provided; only a code fragment: “seats[i] + " you will take seat "t i”. Per rubric, grading is based ONLY on the final output/result.
+
+	Question 4.2:
+	Awarded Points: 0.0
+	Justification: No final output provided; only fragments: “Coteutate Votes total vo” and “Calculate Votes (total votes);”. Per rubric, grading is based ONLY on the final output/result.
+--------------------------------------------------------------------------------
+
+Feedback: 
+Positive Highlights:
+	- You showed strong understanding of core Java foundations: architecture neutrality via the JVM, JRE components, inheritance vs. polymorphism, encapsulation, abstraction (abstract classes and interfaces), default streams, and Swing’s relationship to AWT.
+	- Excellent accuracy on the True/False and Fill-in-the-Blanks sections (JDBC, lightweight threads, interfaces, containers, MVC, procedural languages, runtime polymorphism)—this shows solid recall of key terms and APIs.
+
+Areas for Improvement:
+	- Q1.2 (WWW/Internet’s role): Your answer was too general and didn’t mention how the Web/Internet drove network-centric, distributed programming and the need for platform-independent, secure code that Java provided. Next steps: Review "What Is Java?" and the motivation for networked applications: https://docs.oracle.com/javase/tutorial/getStarted/intro/definition.html
+	- Q1.3 (OOP vs POP): You described OOP as organized around “code,” but OOP is centered on objects that encapsulate state (data) and behavior (methods). POP focuses on procedures/functions that operate on data. Next steps: Revisit Object-Oriented Programming Concepts: https://docs.oracle.com/javase/tutorial/java/concepts/ and Inheritance/Polymorphism: https://docs.oracle.com/javase/tutorial/java/IandI/polymorphism.html
+	- Q1.8 (Thread termination): You correctly noted normal completion but didn’t clearly state the other causes. A thread ends when it finishes run(), when it throws an uncaught exception, or when it’s interrupted/stopped. Next steps: Read Java Concurrency (interrupts/exceptions): https://docs.oracle.com/javase/tutorial/essential/concurrency/ and specifically interrupts: https://docs.oracle.com/javase/tutorial/essential/concurrency/interrupt.html and exceptions overview: https://docs.oracle.com/javase/tutorial/essential/exceptions/
+	- Q4.1 (Output-only grading): Credit wasn’t given because the final output lines were not written. For this item, you needed to write exactly: "M, you will take seat 0" through "D, you will take seat 4". Hint for producing it in code: System.out.println(seats[i] + ", you will take seat " + i); Next steps: Practice translating loop logic into exact required output (punctuation and spacing matter). See for-loops and arrays: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/for.html and https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html
+	- Q4.2 (Output-only grading): Again, no final output was provided. Expected output: "Statement: If Java was easy, they would call it Python!" and "The number of people who agree with this statement is 114" (because 15% of 760 = 114, with cast to int). Also ensure the exclamation mark matches exactly. Next steps: Practice writing the final printed lines and method calls precisely (calculateVotes(totalVotes);). See methods and parameters: https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html
+
+You have a solid base—focus on clearly stating core concepts and always writing the exact final output, and you’ll push your score even higher next time. Keep going!

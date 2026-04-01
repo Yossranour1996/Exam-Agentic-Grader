@@ -1,0 +1,134 @@
+Grading:
+Total Mark: 55.5
+
+Evaluations:
+	Question 1.1:
+	Awarded Points: 3.0
+	Justification: Full credit. Student wrote: "means java language is not ties on speciffe oprer operating system architecture" which captures architecture-independence.
+
+	Question 1.2:
+	Awarded Points: 1.5
+	Justification: Partial. Student wrote: "as the w.w.w occur sharing dato become more wide and orgnize ... can be accessed by any code ... become a must do develop language..." but did not mention key ideas like "platform-independent, secure, multithreaded" explicitly.
+
+	Question 1.3:
+	Awarded Points: 3.0
+	Justification: Full credit. Student contrasted OOP vs POP correctly: "OOP ... encapsulate code and data inside class ... pop ... emphasis on function (procedure) rather than data) C is example".
+
+	Question 1.4:
+	Awarded Points: 3.0
+	Justification: Full credit. Student listed: "Dj VM (java-virtual machine) 2) Libratries ③ other needed file" which matches JVM, core libraries, supporting files.
+
+	Question 1.5:
+	Awarded Points: 3.0
+	Justification: Full credit. Student: "new ... class gain ... property ... inherted" (inheritance) and "polymorphisma is the ability of a messege to be in defferent form" (polymorphism).
+
+	Question 1.6:
+	Awarded Points: 3.0
+	Justification: Full credit. Student: "encapsulation is mechanism that binds togather code and data, and prevent them from interferences... prevent ... accessed by class outside" captures encapsulation and information hiding.
+
+	Question 1.7:
+	Awarded Points: 1.5
+	Justification: Partial. Student wrote: "abstraction can be achieved by : inheretent classes or interfaces". Missing the mandatory term "abstract classes" ("inheretent classes" is not correct).
+
+	Question 1.8:
+	Awarded Points: 1.5
+	Justification: Partial. Student wrote: "if it finish excuting" (correct), "terminated due to unusual ... cause" (unclear for exception), and "if thread is dead and no longer available" (does not state interruption/stop). Missing explicit "interrupted/stopped" and clear "throws an exception".
+
+	Question 1.9:
+	Awarded Points: 3.0
+	Justification: Full credit. Student listed: "System.in ... system out ... Sejstem err" which are System.in, System.out, System.err.
+
+	Question 1.10:
+	Awarded Points: 3.0
+	Justification: Full credit. Student: "it's built on top of AWT. ( abstract window tool kit)" correctly identifies AWT.
+
+	Question 2.1:
+	Awarded Points: 3.0
+	Justification: Correct True/False choice: "2.1) True".
+
+	Question 2.2:
+	Awarded Points: 3.0
+	Justification: Correct True/False choice: "2.2) false".
+
+	Question 2.3:
+	Awarded Points: 3.0
+	Justification: Correct True/False choice: "3) True".
+
+	Question 2.4:
+	Awarded Points: 3.0
+	Justification: Correct True/False choice: "4) false".
+
+	Question 2.5:
+	Awarded Points: 3.0
+	Justification: Correct True/False choice: "5) True".
+
+	Question 2.6:
+	Awarded Points: 3.0
+	Justification: Correct True/False choice: "6) True".
+
+	Question 2.7:
+	Awarded Points: 0.0
+	Justification: Incorrect. Student wrote: "7) True" but the correct answer is False (there is not one JDBC driver for all databases).
+
+	Question 3.1:
+	Awarded Points: 3.0
+	Justification: Correct term present: "JDBC (java data-base connative)" includes "JDBC".
+
+	Question 3.2:
+	Awarded Points: 3.0
+	Justification: Correct term included: "light wieght / continous." contains "light weight" (minor spelling).
+
+	Question 3.3:
+	Awarded Points: 0.0
+	Justification: Incorrect term. Student wrote: "inter face" but the exact required term is "Interfaces" (plural).
+
+	Question 3.4:
+	Awarded Points: 0.0
+	Justification: Incorrect. Student wrote: "Tools (AWT) abstract window tools"; the correct term is "Container".
+
+	Question 3.5:
+	Awarded Points: 0.0
+	Justification: Incorrect per rubric. Student wrote: "Controller"; rubric expects "MVC".
+
+	Question 3.6:
+	Awarded Points: 3.0
+	Justification: Correct example given: "(C)" is an example of a procedural language.
+
+	Question 3.7:
+	Awarded Points: 3.0
+	Justification: Correct concept despite misspelling: "Yun-time poly phor phism" intended as "Runtime polymorphism".
+
+	Question 4.1:
+	Awarded Points: 0.0
+	Justification: No final output provided. Student gave explanations/code fragments like "syste system. out print In (Student [i] + \"will \"you will take seat\" + i) ..." but did not provide the required final output lines (e.g., "M, you will take seat 0"). Evaluation is based ONLY on final output.
+
+	Question 4.2:
+	Awarded Points: 0.0
+	Justification: No final output provided. Student discussed logic (e.g., "So, for sure this value must be (760)") but did not write the final output lines "Statement: If Java was easy, they would call it Python!" and "The number of people who agree with this statement is 114".
+--------------------------------------------------------------------------------
+
+Feedback: 
+Positive Highlights:
+	- Strong grasp of Java’s platform independence (Q1.1) and solid comparisons between OOP and POP (Q1.3).
+	- Clear understanding of encapsulation (Q1.6), inheritance vs. polymorphism (Q1.5), default I/O streams (Q1.9), and that Swing builds on AWT (Q1.10).
+	- Very good performance on most True/False items (Q2.1–Q2.6).
+	- Correct fills for JDBC (Q3.1), lightweight threads (Q3.2), a procedural language example (Q3.6), and runtime polymorphism (Q3.7).
+
+Areas for Improvement:
+	- Q1.2 (WWW/Internet’s role): Your idea that the web enabled wider data sharing is on the right track, but the key exam points were that the web drove demand for platform-independent, secure, network-ready, and multithreaded languages—exactly what Java provides via the JVM, sandbox/security model, rich networking APIs, and threads. Study focus: Why Java was designed for the Internet era. Resource: https://docs.oracle.com/javase/tutorial/getStarted/intro/definition.html
+	- Q1.7 (Abstraction): You wrote “inheretent classes,” but the exam expects the two mechanisms: abstract classes and interfaces. Abstract classes can have both abstract and concrete methods; interfaces define contracts a class can implement. Resource: Interfaces and abstract classes: https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html and https://docs.oracle.com/javase/tutorial/java/IandI/createinterface.html
+	- Q1.8 (Thread termination): You mentioned finishing execution (correct), but the other two should be explicit: a thread can terminate due to an uncaught exception, or because it was interrupted/stopped. Resource: Concurrency basics and thread lifecycle: https://docs.oracle.com/javase/tutorial/essential/concurrency/
+	- Q2.7 (JDBC driver): Mark lost because there isn’t one universal JDBC driver. Each database requires its own driver (commonly a Type 4 pure Java driver from the vendor). Resource: JDBC overview: https://docs.oracle.com/javase/tutorial/jdbc/basics/index.html
+	- Q3.3 (Plural): The expected fill was “Interfaces” (plural). In Java, a class can implement multiple interfaces (but extend only one class). Resource: https://docs.oracle.com/javase/tutorial/java/IandI/createinterface.html
+	- Q3.4 (GUI term): The blank was “Container,” not “Tools.” A container (e.g., JFrame, JPanel) can hold other components like buttons and labels. Resource: Swing containers overview: https://docs.oracle.com/javase/tutorial/uiswing/components/toplevel.html and panels: https://docs.oracle.com/javase/tutorial/uiswing/components/panel.html
+	- Q3.5 (Architecture): The exam expected “MVC.” You wrote only “Controller,” which is one part. Swing follows an MVC/delegate model separating Model, View, and Controller responsibilities. Resource: Swing architecture overview: https://docs.oracle.com/javase/tutorial/uiswing/overview/index.html
+	- Q4.1 and Q4.2 (Final output required): You explained the logic but didn’t write the exact final output lines, which this exam grades exclusively. For Q4.1, inside the loop the output should be: seats[i] + ", you will take seat " + i, producing lines like “M, you will take seat 0”. For Q4.2, you needed to print the statement line (with the exclamation mark) and then call calculateVotes(760) to get 0.15×760 = 114 (cast to int). Exam tip: When a question says “complete the output,” always copy the exact text, punctuation, and line breaks as your final answer.
+Actionable Next Steps:
+- Practice writing final outputs exactly as shown in examples; simulate exam conditions and double-check punctuation.
+- Review abstraction (abstract classes vs interfaces) and interface implementation rules (multiple interfaces). Docs: https://docs.oracle.com/javase/tutorial/java/IandI/
+- Revisit Java concurrency basics: thread lifecycle, interruption, and exceptions. Docs: https://docs.oracle.com/javase/tutorial/essential/concurrency/
+- Read JDBC basics and drivers; identify the driver you’d use for popular DBs (MySQL, PostgreSQL, Oracle). Docs: https://docs.oracle.com/javase/tutorial/jdbc/basics/index.html
+- Refresh Swing fundamentals: containers vs components and the MVC idea. Docs: https://docs.oracle.com/javase/tutorial/uiswing/overview/index.html
+- Big-picture motivation for Java (platform independence, security, networking, multithreading) for context questions. Overview: https://docs.oracle.com/javase/tutorial/getStarted/intro/definition.html
+
+You’re building a solid foundation—tighten up a few key concepts and, most importantly, practice writing exact final outputs, and you’ll see a strong jump in your score next time.

@@ -1,0 +1,128 @@
+Grading:
+Total Mark: 37.5
+
+Evaluations:
+	Question 1.1:
+	Awarded Points: 1.5
+	Justification: Partial. Student wrote: "means that Java is a Langauge that works with diffirent components architectures" which implies platform independence but misses the key idea of bytecode on the JVM.
+
+	Question 1.2:
+	Awarded Points: 0.0
+	Justification: No answer provided. Student entry shows "2-" with nothing following.
+
+	Question 1.3:
+	Awarded Points: 3.0
+	Justification: Correct. Student wrote: "POP emphisis on the procuders ... OOP emphysis on the classes & objects" conveying the core difference.
+
+	Question 1.4:
+	Awarded Points: 1.5
+	Justification: Partial. Student wrote: "JVM , JRE enviroment". This omits the core Java libraries and supporting files and incorrectly lists "JRE environment" as a component of itself.
+
+	Question 1.5:
+	Awarded Points: 1.5
+	Justification: Partial. Student wrote: "inhertance, means creating classes from an existing ones... polymorphism:". Inheritance definition is fine, but polymorphism was left undefined after the colon.
+
+	Question 1.6:
+	Awarded Points: 0.0
+	Justification: No answer provided. Entry shows "6-" with nothing following.
+
+	Question 1.7:
+	Awarded Points: 1.5
+	Justification: Partial. Student wrote: "= abstract modifiers & interfaces". Interfaces are correct, but "abstract modifiers" does not clearly state "abstract classes" as required.
+
+	Question 1.8:
+	Awarded Points: 1.5
+	Justification: Partial. Student wrote: "a- finished its task nermally. b- dead and no longer executes. c- unpredectable events". Only (a) matches. Missing explicit reasons "throws an exception" and "is interrupted/stopped"; (b) is a state, not a cause; (c) is vague.
+
+	Question 1.9:
+	Awarded Points: 3.0
+	Justification: Correct. Student wrote: "System.in, system.out, system.err" (minor case differences are acceptable).
+
+	Question 1.10:
+	Awarded Points: 0.0
+	Justification: Incorrect. Student wrote: "JDK". Correct answer: "AWT".
+
+	Question 2.1:
+	Awarded Points: 3.0
+	Justification: Correct. Student marked: "True".
+
+	Question 2.2:
+	Awarded Points: 3.0
+	Justification: Correct. Student marked: "False (it's called Dynamic polymorphism)".
+
+	Question 2.3:
+	Awarded Points: 3.0
+	Justification: Correct. Student marked: "True".
+
+	Question 2.4:
+	Awarded Points: 3.0
+	Justification: Correct. Student marked: "False (inbertance Java docent work by multiple inhertance)".
+
+	Question 2.5:
+	Awarded Points: 3.0
+	Justification: Correct. Student marked: "True".
+
+	Question 2.6:
+	Awarded Points: 3.0
+	Justification: Correct. Student marked: "True".
+
+	Question 2.7:
+	Awarded Points: 3.0
+	Justification: Correct. Student marked: "False (each database meeds its own unique JDBC driver)".
+
+	Question 3.1:
+	Awarded Points: 0.0
+	Justification: Incorrect. Student wrote: "FRE JVM.". Correct term: "JDBC".
+
+	Question 3.2:
+	Awarded Points: 0.0
+	Justification: Incorrect. Student wrote: "connected". Correct term: "Lightweight".
+
+	Question 3.3:
+	Awarded Points: 0.0
+	Justification: Incorrect. Student wrote: "thread attributes". Correct term: "Interfaces".
+
+	Question 3.4:
+	Awarded Points: 0.0
+	Justification: Incorrect. Student wrote: "thread". Correct term: "Container".
+
+	Question 3.5:
+	Awarded Points: 0.0
+	Justification: No answer provided. Blank entry.
+
+	Question 3.6:
+	Awarded Points: 3.0
+	Justification: Correct. Student wrote: "C programming language." which is an acceptable example of a procedural language.
+
+	Question 3.7:
+	Awarded Points: 0.0
+	Justification: Incorrect. Student wrote: "Dynamic". Correct term: "Runtime".
+
+	Question 4.1:
+	Awarded Points: 0.0
+	Justification: No valid final output provided. Student wrote: "Outputer seats [i]+", you will take seat" + (i) ..." which is not the required final printed output lines. Per rubric, evaluation is based ONLY on final output.
+
+	Question 4.2:
+	Awarded Points: 0.0
+	Justification: No valid final output provided. Student wrote: "Calculate Votes (total votes)." which is not the required final printed output lines. Per rubric, evaluation is based ONLY on final output.
+--------------------------------------------------------------------------------
+
+Feedback: 
+Positive Highlights:
+	- You clearly distinguished OOP from POP (focusing on objects vs. procedures), which shows a solid grasp of core programming paradigms.
+	- You correctly identified Java’s default streams (System.in, System.out, System.err).
+	- Excellent work on the True/False section—you correctly handled runtime vs. compile-time polymorphism, Java’s lack of multiple inheritance, interface inheritance, user-input errors, and JDBC driver variety.
+
+Areas for Improvement:
+	- Q1.1 Architecture-neutral: Your answer hinted at platform independence but missed the key mechanism—Java compiles to bytecode that runs on the JVM, so the same program can run on any platform with a JVM. Study: https://docs.oracle.com/javase/specs/jvms/se17/html/ (overview of the JVM)
+	- Q1.2 Web/Internet’s role: This was left blank. The WWW/Internet drove demand for portable, networked, secure, multithreaded applications—motivating Java’s design. Review Java’s design goals and history to connect these ideas. Quick read: https://docs.oracle.com/javase/8/docs/technotes/guides/ (see overviews)
+	- Q1.4 JRE components: Listing “JRE environment” as a component is circular. The JRE contains the JVM + core libraries + supporting files (like runtime resources). Clarify these layers (JDK vs JRE vs JVM). Reference: https://docs.oracle.com/javase/8/docs/ (search “JDK, JRE, JVM differences”)
+	- Q1.5 Inheritance vs. Polymorphism: You defined inheritance but didn’t define polymorphism. Add: polymorphism lets the same method call (through a common interface/superclass) behave differently at runtime depending on the object’s actual type. Ref: https://docs.oracle.com/javase/tutorial/java/IandI/polymorphism.html
+	- Q1.6 Encapsulation: Missing. It means bundling data with methods that operate on that data and hiding internal details via access modifiers. Ref: https://docs.oracle.com/javase/tutorial/java/concepts/ (OOP concepts)
+	- Q1.7 Abstraction: You wrote “abstract modifiers.” Examiners expect “abstract classes” and “interfaces” as the two mechanisms. Ref: https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html and https://docs.oracle.com/javase/tutorial/java/IandI/createinterface.html
+	- Q1.8 Thread termination: (a) finishing normally is correct; (b) “dead” is a state, not a cause; (c) “unpredictable events” is vague. The accepted causes are: completes execution, throws an uncaught exception, or is interrupted/stopped. Study interrupts/exceptions in threads: https://docs.oracle.com/javase/tutorial/essential/concurrency/interrupt.html
+	- Q1.10 Swing built on: The correct foundation is AWT (Swing is built on top of AWT), not JDK. Swing overview: https://docs.oracle.com/javase/tutorial/uiswing/overview/architecture.html
+	- Q3 Fill-in-the-blanks corrections: 3.1 JDBC; 3.2 lightweight; 3.3 interfaces; 3.4 container; 3.5 MVC; 3.6 C (you got this right); 3.7 runtime. Create flashcards for these exact terms. JDBC intro: https://docs.oracle.com/javase/tutorial/jdbc/overview/ | Swing MVC: above link.
+	- Q4.1 and Q4.2 Outputs: The rubric awards marks only for the final printed output. You described code instead of writing the exact output lines. For 4.1, you needed lines like: “M, you will take seat 0” … “D, you will take seat 4”. For 4.2, you needed: “Statement: If Java was easy, they would call it Python!” and “The number of people who agree with this statement is 114”. Exam tip: when asked for output, copy the exact lines (including punctuation/spaces). Practice: write and run tiny programs to verify outputs. System.out docs: https://docs.oracle.com/javase/8/docs/api/java/lang/System.html
+
+You have strong instincts on core concepts—tighten the precise definitions and practice writing exact outputs, and you’ll convert many partials into full marks next time. Keep going—you’re close!

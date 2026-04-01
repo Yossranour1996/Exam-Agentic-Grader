@@ -1,0 +1,239 @@
+Attempt 1:
+ 
+Grading:
+Total Mark: 63.0
+
+Evaluations:
+	Question 1.1:
+	Awarded Points: 3.0
+	Justification: Correct: “it can be executed … by diffirent enviroments because of JVM.” This captures architecture neutrality via JVM/bytecode.
+
+	Question 1.2:
+	Awarded Points: 0.0
+	Justification: Missing the core idea of enabling distributed/network-based programming and motivating platform independence/security. Student wrote: “by doping and devoloping enviroment and uses. by improving the art of programming..” which does not mention the web/Internet’s role in distributed, network-centric programming.
+
+	Question 1.3:
+	Awarded Points: 1.5
+	Justification: Partial. Incorrect part: “oop: is organized around code (object) it means that (data controlling access to code).” OOP focuses on objects encapsulating data and behavior, not “code.” POP part is acceptable: “it is a … presedural ( code ) it means that (the code alts on data).”
+
+	Question 1.4:
+	Awarded Points: 3.0
+	Justification: Correct core components given: “JVM (Java Virtual Mathine) … Libraries.” (JVM and core libraries).
+
+	Question 1.5:
+	Awarded Points: 3.0
+	Justification: Correct ideas: “inheritance: … the supclass inhertes the super-class methods and fields.” and “Polymorphism: (many forms)… react with Jeniral actions.”
+
+	Question 1.6:
+	Awarded Points: 3.0
+	Justification: Correct: “its bends of data and code, and secure them from outer interface or misuses” (binding data/methods and hiding details).
+
+	Question 1.7:
+	Awarded Points: 3.0
+	Justification: Correct: “a class abstract” and “interface.”
+
+	Question 1.8:
+	Awarded Points: 1.5
+	Justification: Only one reason is clearly stated. Student wrote: “Finished sate normally” (correct), but the others are unclear/incorrect: “terminated dup Way unusual actions” and “dead or not acollabtre, avaliable.” Missing clear mention of “throws an exception” and “is interrupted/stopped.”
+
+	Question 1.9:
+	Awarded Points: 3.0
+	Justification: Correct streams despite minor formatting: “system.in. system out system, err” → System.in, System.out, System.err.
+
+	Question 1.10:
+	Awarded Points: 3.0
+	Justification: Correct: “AWT (Abstract window Tool)” (Swing is built on AWT).
+
+	Question 2.1:
+	Awarded Points: 3.0
+	Justification: Correct True/False choice: “true.”
+
+	Question 2.2:
+	Awarded Points: 3.0
+	Justification: Correct True/False choice: “False.”
+
+	Question 2.3:
+	Awarded Points: 3.0
+	Justification: Correct True/False choice: “true.”
+
+	Question 2.4:
+	Awarded Points: 3.0
+	Justification: Correct True/False choice: “False.”
+
+	Question 2.5:
+	Awarded Points: 3.0
+	Justification: Correct True/False choice: “true.”
+
+	Question 2.6:
+	Awarded Points: 3.0
+	Justification: Correct True/False choice: “true.”
+
+	Question 2.7:
+	Awarded Points: 3.0
+	Justification: Correct True/False choice: “false.”
+
+	Question 3.1:
+	Awarded Points: 3.0
+	Justification: Correct: “Java Database Connectivity (JDBC).”
+
+	Question 3.2:
+	Awarded Points: 3.0
+	Justification: Correct (minor spacing OK): “Light weight” → Lightweight.
+
+	Question 3.3:
+	Awarded Points: 3.0
+	Justification: Correct (minor spacing OK): “inter faces” → interfaces.
+
+	Question 3.4:
+	Awarded Points: 3.0
+	Justification: Correct: “container.”
+
+	Question 3.5:
+	Awarded Points: 0.0
+	Justification: Incorrect term. Student wrote: “controller”. Rubric requires: “MVC.”
+
+	Question 3.6:
+	Awarded Points: 3.0
+	Justification: Correct example: “C.” (Acceptable example of procedural language).
+
+	Question 3.7:
+	Awarded Points: 3.0
+	Justification: Correct (minor hyphenation OK): “run-time” → Runtime.
+
+	Question 4.1:
+	Awarded Points: 0.0
+	Justification: No final output provided; only a code fragment: “seats[i] + " you will take seat "t i”. Per rubric, grading is based ONLY on the final output/result.
+
+	Question 4.2:
+	Awarded Points: 0.0
+	Justification: No final output provided; only fragments: “Coteutate Votes total vo” and “Calculate Votes (total votes);”. Per rubric, grading is based ONLY on the final output/result.
+
+Review: 
+Regrade Decision: <REGRADE_REQUIRED>
+
+Identified Errors:
+	- Q3.5 marked incorrect though the student’s answer 'controller' correctly completes 'model-view-___________' (i.e., Model-View-Controller). The rubric’s key listing 'MVC' here conflicts with the actual blank and should not override the correct term.
+	- Total mark should be updated after fixing Q3.5 (from 63 to 66).
+
+QA justification:  Arithmetic check: Sub-scores sum to 63 as recorded (Q1=24, Q2=21, Q3=18, Q4=0). Most items align with the rubric, typos were reasonably ignored, and no hallucinated facts were accepted. However, there is a clear rubric/application error on Q3.5. The question explicitly asks to fill ‘model-view-___________’, which must be ‘controller’. The student answered ‘controller’, which is correct. The rubric’s provided answer ‘MVC’ conflicts with the phrasing of the blank; writing ‘MVC’ would render ‘model-view-MVC’ and is not the intended single missing word. Per the general grading rules (answers may be phrased differently as long as the intended meaning is correct) and the specific fill-in-the-blank format (one word), the student’s answer is the exact correct term and should receive 3 marks. Action for Grader: Award 3 marks for Q3.5 instead of 0, update the justification accordingly, and adjust the total score from 63 to 66. All other awarded marks are consistent with the rubric and may stand as is.
+--------------------------------------------------------------------------------
+
+Attempt 2:
+ 
+Grading:
+Total Mark: 66.0
+
+Evaluations:
+	Question 1.1:
+	Awarded Points: 3.0
+	Justification: Correct: “it can be executed … by diffirent enviroments because of JVM.” This captures architecture neutrality via JVM/bytecode.
+
+	Question 1.2:
+	Awarded Points: 0.0
+	Justification: Missing the core idea of enabling distributed/network-based programming and motivating platform independence/security. Student wrote: “by doping and devoloping enviroment and uses. by improving the art of programming..” which does not mention the web/Internet’s role in distributed, network-centric programming.
+
+	Question 1.3:
+	Awarded Points: 1.5
+	Justification: Partial. Incorrect part: “oop: is organized around code (object) it means that (data controlling access to code).” OOP focuses on objects encapsulating data and behavior, not “code.” POP part is acceptable: “it is a … presedural ( code ) it means that (the code alts on data).”
+
+	Question 1.4:
+	Awarded Points: 3.0
+	Justification: Correct core components given: “JVM (Java Virtual Mathine) … Libraries.” (JVM and core libraries).
+
+	Question 1.5:
+	Awarded Points: 3.0
+	Justification: Correct ideas: “inheritance: … the supclass inhertes the super-class methods and fields.” and “Polymorphism: (many forms) … react with Jeniral actions.”
+
+	Question 1.6:
+	Awarded Points: 3.0
+	Justification: Correct: “its bends of data and code, and secure them from outer interface or misuses” (binding data/methods and hiding details).
+
+	Question 1.7:
+	Awarded Points: 3.0
+	Justification: Correct: “a class abstract” and “interface.”
+
+	Question 1.8:
+	Awarded Points: 1.5
+	Justification: Only one reason is clearly stated. Student wrote: “Finished sate normally” (correct), but the others are unclear/incorrect: “terminated dup Way unusual actions” and “dead or not acollabtre, avaliable.” Missing clear mention of “throws an exception” and “is interrupted/stopped.”
+
+	Question 1.9:
+	Awarded Points: 3.0
+	Justification: Correct streams despite minor formatting: “system.in. system out system, err” → System.in, System.out, System.err.
+
+	Question 1.10:
+	Awarded Points: 3.0
+	Justification: Correct: “AWT (Abstract window Tool)” (Swing is built on AWT).
+
+	Question 2.1:
+	Awarded Points: 3.0
+	Justification: Correct True/False choice: “true.”
+
+	Question 2.2:
+	Awarded Points: 3.0
+	Justification: Correct True/False choice: “False.”
+
+	Question 2.3:
+	Awarded Points: 3.0
+	Justification: Correct True/False choice: “true.”
+
+	Question 2.4:
+	Awarded Points: 3.0
+	Justification: Correct True/False choice: “False.”
+
+	Question 2.5:
+	Awarded Points: 3.0
+	Justification: Correct True/False choice: “true.”
+
+	Question 2.6:
+	Awarded Points: 3.0
+	Justification: Correct True/False choice: “true.”
+
+	Question 2.7:
+	Awarded Points: 3.0
+	Justification: Correct True/False choice: “false.”
+
+	Question 3.1:
+	Awarded Points: 3.0
+	Justification: Correct: “Java Database Connectivity (JDBC).”
+
+	Question 3.2:
+	Awarded Points: 3.0
+	Justification: Correct (minor spacing OK): “Light weight” → Lightweight.
+
+	Question 3.3:
+	Awarded Points: 3.0
+	Justification: Correct (minor spacing OK): “inter faces” → interfaces.
+
+	Question 3.4:
+	Awarded Points: 3.0
+	Justification: Correct: “container.”
+
+	Question 3.5:
+	Awarded Points: 3.0
+	Justification: Correct. The blank reads “model-view-___________.” The student answered: “controller,” which yields “model-view-controller,” the intended term. (QA regrade note acknowledged; prior 0 corrected to full marks.)
+
+	Question 3.6:
+	Awarded Points: 3.0
+	Justification: Correct example: “C.” (Acceptable example of procedural language).
+
+	Question 3.7:
+	Awarded Points: 3.0
+	Justification: Correct (minor hyphenation OK): “run-time” → Runtime.
+
+	Question 4.1:
+	Awarded Points: 0.0
+	Justification: No final output provided; only a code fragment: “seats[i] + " you will take seat "t i”. Per rubric, grading is based ONLY on the final output/result.
+
+	Question 4.2:
+	Awarded Points: 0.0
+	Justification: No final output provided; only fragments: “Coteutate Votes total vo” and “Calculate Votes (total votes);”. Per rubric, grading is based ONLY on the final output/result.
+
+Review: 
+Regrade Decision: <NO_REGRADE>
+
+Identified Errors:
+	- None
+
+QA justification:  Arithmetic validation: Sub-scores sum correctly to 66 (Q1=24, Q2=21, Q3=21, Q4=0). The previously flagged issue on Q3.5 has been corrected; awarding 3 marks for “controller” is now aligned with the blank’s wording and the rubric intent. Fact-checking and rubric adherence: All other awarded marks align with the rubric’s correct answers and marking rules. Minor spelling/formatting issues were appropriately ignored per general rules. Q4 was graded strictly on final output as required. No further discrepancies or rubric drift detected.
+--------------------------------------------------------------------------------
+

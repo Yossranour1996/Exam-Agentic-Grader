@@ -7,7 +7,7 @@ from pydantic import BaseModel, Field
 from langgraph.graph import StateGraph, END
 
 from langchain_core.messages import AnyMessage, SystemMessage
-from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain.chat_models import init_chat_model
 from langchain.agents import create_agent
 
@@ -17,6 +17,9 @@ class InputState(TypedDict):
 	student_answers: List[Dict[str, Any]] | str
 	exam: str
 	rubric: str
+	review: str
+
+	messages: List[AnyMessage]
 
 class OutputState(TypedDict):
 	grading_result: str
@@ -33,18 +36,11 @@ class QuestionEvaluation(BaseModel):
     awarded_points: float = Field(description="Points awarded for this specific question.")
     justification: str = Field(description="Detailed explanation of the score. MUST quote the exact part of the student's answer if points were deducted.")
 
-class Feedback(BaseModel):
-    """Structured output for Feedback."""
-    positive_highlights: List[str] = Field(description="1-2 things the student did well or concepts they understood correctly.")
-    areas_for_improvement: List[str] = Field(description="Constructive explanations of where and why the student lost points, avoiding punitive language.")
-    encouraging_closing: str = Field(description="A brief, encouraging final sentence to motivate the student.")
-
 class Result(BaseModel):
 	"""Structured output for the Grader Agent."""
 	total_mark: float = Field(description="The final total score calculated by summing all awarded_points.")
 	evaluations: List[QuestionEvaluation] = Field(description="Step-by-step breakdown of the grading per question.")
-	feedback: Feedback = Field(description="Pedagogical feedback for the student.")
-
+	
 # Prompt template
 template = ChatPromptTemplate(
 	[
@@ -57,8 +53,8 @@ template = ChatPromptTemplate(
 
 CORE DIRECTIVES:
 1. STEP-BY-STEP EVALUATION: Grade one question at a time. Compare the student's answer directly to the rubric criteria.
-2. EVIDENCE-BASED SCORING: For every point deducted, you must quote the exact part of the student's answer that was incorrect or missing.
-3. PROVIDING CONSTRUCTIVE FEEDBACK: Provide specific, actionable feedback. Avoid punitive language. Focus on guiding the student towards improvement.
+2. EVIDENCE-BASED SCORING: For every point deducted, you must quote the exact part of the student's answer that was incorrect or missing. 
+3. INCORPORATING REVIEWER FEEDBACK: If this is a regrade request from the QA Agent, read their critique carefully and adjust your score or justification accordingly. Do not argue with the QA Agent; fix the identified error.
 
 Do not be lenient. If a mandatory keyword or concept from the rubric is missing, deduct the appropriate points.""",
 				},
@@ -79,9 +75,14 @@ Do not be lenient. If a mandatory keyword or concept from the rubric is missing,
         	]
     	),
 		
+		MessagesPlaceholder(variable_name="messages", optional=True),
+		
 		("human",
 """STUDENT ANSWERS:
 {student_answers}
+
+QA REVIEW NOTES (If any):
+{review}
 
 Analyze the student's answers question by question. Determine the final mark and provide a detailed breakdown of where points were awarded or lost."""
 		)
@@ -175,23 +176,7 @@ Evaluations:
 				for evaluation in result.evaluations
 			]
 		)
-	}
-{'-' * 80}
-
-Feedback:
-Positive Highlights:
-	- {"\n\t- ".join(
-			result.feedback.positive_highlights
-		)
-	}
-
-Areas for Improvement:
-	- {"\n\t- ".join(
-			result.feedback.areas_for_improvement
-		)
-	}
-
-{result.feedback.encouraging_closing}"""
+	}"""
 	)
 
 	return grading_result

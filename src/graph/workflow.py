@@ -5,13 +5,15 @@ from langgraph.graph import StateGraph, END
 from langgraph.runtime import Runtime
 
 from src.state import InputState, OutputState, State, Context
-from src.agents import extractor, grader, exporter
+from src.agents import extractor, grader, qa, feedback, exporter
 from src.tools.pdf_to_images import pdf_to_images
 from src.utils import io, logging
 
 
-# Global variable to hold the agents instances
+# Global variables to hold the agent instances
 grader_agent = None
+qa_agent = None
+feedback_agent = None
 exporter_agent = None
 
 
@@ -79,9 +81,11 @@ def node_grader(state: State, runtime: Runtime[Context]) -> State:
     print("\nGrading exam...")
     grader_output = grader_agent.invoke(
         input=grader.InputState({
-            "student_answers": state.get("ocr_pages", "Problem getting answers"),
+            "student_answers": state.get("ocr_pages", "Problem getting answers") if state.get("regrade") != "<REGRADE_REQUIRED>" else "Provided",
             "exam": exam or "Exam content unavailable",
             "rubric": rubric or "Standard evaluation criteria",
+            "review": state.get("qa_results")[-1] if state.get("qa_results") and len(state.get("qa_results")) > 0 else "Unreviewed",
+            "messages": state.get("grader_messages", []),
             }),
         )
     
@@ -94,9 +98,103 @@ def node_grader(state: State, runtime: Runtime[Context]) -> State:
     
     print("Grading completed.")
     return {
-        "grader_result": grader_output["grading_result"],
+        "grader_results": [grader_output["grading_result"]],
+        "grader_messages": grader_output["messages"],
         "messages": grader_output["messages"]
         }
+
+
+def node_qa(state: State, runtime: Runtime[Context]) -> State:
+    """Perform quality assurance on grading results based on review criteria and update state."""
+
+    exam_file = state.get("exam_file")
+    rubric_file = state.get("rubric_file")
+    review_criteria_file = state.get("review_criteria_file")
+    exam_dir = runtime.context.exams_dir
+    criteria_dir = runtime.context.criteria_dir
+
+    exam = io.read_text(exam_dir / exam_file) if exam_file else None
+    rubric = io.read_text(criteria_dir / rubric_file) if rubric_file else None
+    review_criteria = io.read_text(criteria_dir / review_criteria_file) if review_criteria_file else None
+
+    print("\nPerforming quality assurance on grading results...")
+    qa_output = qa_agent.invoke(
+        input=qa.InputState({
+            "student_answers": state.get("ocr_pages", "Problem getting answers") if state.get("regrade") != "<REGRADE_REQUIRED>" else "Provided",
+            "exam": exam or "Exam content unavailable",
+            "rubric": rubric or "Standard evaluation criteria",
+            "criteria": review_criteria or "Standard review criteria",
+            "grading": state.get("grader_results")[-1] if state.get("grader_results") and len(state.get("grader_results")) > 0 else "Ungraded",
+            "regrade_counter": state.get("max_regrade", 1),
+            "messages": state.get("qa_messages", [])
+            }),
+        )
+    
+    # Keep logs of LLM messages for traceability and debugging.
+    logging.log_messages(
+        qa_output["messages"],
+        state["log_path"],
+        step_label="Quality-Assurance"
+        )
+    
+    print("Quality assurance completed.")
+    return {
+        "max_regrade": state.get("max_regrade", 1) - 1,
+        "qa_results": [qa_output["qa_result"]],
+        "regrade": qa_output["regrade"],
+        "qa_messages": qa_output["messages"],
+        "messages": qa_output["messages"]
+        }
+
+
+def node_feedback(state: State, runtime: Runtime[Context]) -> State:
+    """Generate feedback for the student based on grading and QA messages and criteria, and update state."""
+
+    exam_file = state.get("exam_file")
+    rubric_file = state.get("rubric_file")
+    exam_dir = runtime.context.exams_dir
+    criteria_dir = runtime.context.criteria_dir
+
+    exam = io.read_text(exam_dir / exam_file) if exam_file else None
+    rubric = io.read_text(criteria_dir / rubric_file) if rubric_file else None
+
+    print("\nGenerating feedback for the student...")
+    feedback_output = feedback_agent.invoke(
+        input=feedback.InputState({
+            "student_answers": state.get("ocr_pages", "Problem getting answers"),
+            "exam": exam or "Exam content unavailable",
+            "rubric": rubric or "Standard evaluation criteria",
+            "grading": state.get("grader_results")[-1] if state.get("grader_results") and len(state.get("grader_results")) > 0 else "Ungraded",
+            }),
+        )
+    
+    # Keep logs of LLM messages for traceability and debugging.
+    logging.log_messages(
+        feedback_output["messages"],
+        state["log_path"],
+        step_label="Feedback"
+        )
+    
+    print("Feedback generation completed.")
+    return {
+        "feedback_result": feedback_output["feedback_result"],
+        "messages": feedback_output["messages"]
+        }
+
+
+def regrade_decision(state: State) -> str:
+    """Decide routing after QA: return 'regrade' to send back to grader,
+    or 'continue' to proceed to feedback/export."""
+
+    regrade = state["regrade"]
+    counter = state.get("max_regrade", 0)
+    
+    if regrade == "<REGRADE_REQUIRED>" and counter >= 0:
+        print("\nQA requested regrade. Routing back to grader.")
+        return "regrade"
+    else:
+        print("\nQA cleared. Proceeding to feedback.")
+        return "continue"  # default safe behavior
 
 
 def node_exporter(state: State, runtime: Runtime[Context]) -> OutputState:
@@ -110,7 +208,9 @@ def node_exporter(state: State, runtime: Runtime[Context]) -> OutputState:
     print("\nExporting results...")
     exporter_agent.invoke(
         input=exporter.ExporterState({
-            "grader_result": state["grader_result"],
+            "grader_results": state["grader_results"],
+            "qa_results": state["qa_results"],
+            "feedback_result": state["feedback_result"],
             "export_dir": export_dir
             })
         )
@@ -126,8 +226,10 @@ def build_graph(
         max_tokens: int | None = None,
 ):
     
-    global grader_agent, exporter_agent
+    global grader_agent, qa_agent, feedback_agent, exporter_agent
     grader_agent = grader.build_agent(model, temperature, max_tokens)
+    qa_agent = qa.build_agent(model, temperature, max_tokens)
+    feedback_agent = feedback.build_agent(model, temperature, max_tokens)
     exporter_agent = exporter.build_agent()
 
     g = StateGraph(
@@ -139,12 +241,23 @@ def build_graph(
     g.add_node("pdf_to_images", node_pdf_to_images)
     g.add_node("gemini_ocr", node_gemini_ocr)
     g.add_node("grader", node_grader)
+    g.add_node("quality_assurance", node_qa)
+    g.add_node("feedback", node_feedback)
     g.add_node("exporter", node_exporter)
 
     g.set_entry_point("pdf_to_images")
     g.add_edge("pdf_to_images", "gemini_ocr")
     g.add_edge("gemini_ocr", "grader")
-    g.add_edge("grader", "exporter")
+    g.add_edge("grader", "quality_assurance")
+    g.add_conditional_edges(
+        "quality_assurance",
+        regrade_decision,
+        {
+            "regrade": "grader",
+            "continue": "feedback",
+        }
+    )
+    g.add_edge("feedback", "exporter")
     g.add_edge("exporter", END)
 
     return g.compile()

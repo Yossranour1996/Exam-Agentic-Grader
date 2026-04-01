@@ -1,0 +1,119 @@
+Attempt 1:
+ 
+Grading:
+Total Mark: 37.5
+
+Evaluations:
+	Question 1.1:
+	Awarded Points: 1.5
+	Justification: Partial. Student wrote: "means that Java is a Langauge that works with diffirent components architectures" which implies platform independence but misses the key idea of bytecode on the JVM.
+
+	Question 1.2:
+	Awarded Points: 0.0
+	Justification: No answer provided. Student entry shows "2-" with nothing following.
+
+	Question 1.3:
+	Awarded Points: 3.0
+	Justification: Correct. Student wrote: "POP emphisis on the procuders ... OOP emphysis on the classes & objects" conveying the core difference.
+
+	Question 1.4:
+	Awarded Points: 1.5
+	Justification: Partial. Student wrote: "JVM , JRE enviroment". This omits the core Java libraries and supporting files and incorrectly lists "JRE environment" as a component of itself.
+
+	Question 1.5:
+	Awarded Points: 1.5
+	Justification: Partial. Student wrote: "inhertance, means creating classes from an existing ones... polymorphism:". Inheritance definition is fine, but polymorphism was left undefined after the colon.
+
+	Question 1.6:
+	Awarded Points: 0.0
+	Justification: No answer provided. Entry shows "6-" with nothing following.
+
+	Question 1.7:
+	Awarded Points: 1.5
+	Justification: Partial. Student wrote: "= abstract modifiers & interfaces". Interfaces are correct, but "abstract modifiers" does not clearly state "abstract classes" as required.
+
+	Question 1.8:
+	Awarded Points: 1.5
+	Justification: Partial. Student wrote: "a- finished its task nermally. b- dead and no longer executes. c- unpredectable events". Only (a) matches. Missing explicit reasons "throws an exception" and "is interrupted/stopped"; (b) is a state, not a cause; (c) is vague.
+
+	Question 1.9:
+	Awarded Points: 3.0
+	Justification: Correct. Student wrote: "System.in, system.out, system.err" (minor case differences are acceptable).
+
+	Question 1.10:
+	Awarded Points: 0.0
+	Justification: Incorrect. Student wrote: "JDK". Correct answer: "AWT".
+
+	Question 2.1:
+	Awarded Points: 3.0
+	Justification: Correct. Student marked: "True".
+
+	Question 2.2:
+	Awarded Points: 3.0
+	Justification: Correct. Student marked: "False (it's called Dynamic polymorphism)".
+
+	Question 2.3:
+	Awarded Points: 3.0
+	Justification: Correct. Student marked: "True".
+
+	Question 2.4:
+	Awarded Points: 3.0
+	Justification: Correct. Student marked: "False (inbertance Java docent work by multiple inhertance)".
+
+	Question 2.5:
+	Awarded Points: 3.0
+	Justification: Correct. Student marked: "True".
+
+	Question 2.6:
+	Awarded Points: 3.0
+	Justification: Correct. Student marked: "True".
+
+	Question 2.7:
+	Awarded Points: 3.0
+	Justification: Correct. Student marked: "False (each database meeds its own unique JDBC driver)".
+
+	Question 3.1:
+	Awarded Points: 0.0
+	Justification: Incorrect. Student wrote: "FRE JVM.". Correct term: "JDBC".
+
+	Question 3.2:
+	Awarded Points: 0.0
+	Justification: Incorrect. Student wrote: "connected". Correct term: "Lightweight".
+
+	Question 3.3:
+	Awarded Points: 0.0
+	Justification: Incorrect. Student wrote: "thread attributes". Correct term: "Interfaces".
+
+	Question 3.4:
+	Awarded Points: 0.0
+	Justification: Incorrect. Student wrote: "thread". Correct term: "Container".
+
+	Question 3.5:
+	Awarded Points: 0.0
+	Justification: No answer provided. Blank entry.
+
+	Question 3.6:
+	Awarded Points: 3.0
+	Justification: Correct. Student wrote: "C programming language." which is an acceptable example of a procedural language.
+
+	Question 3.7:
+	Awarded Points: 0.0
+	Justification: Incorrect. Student wrote: "Dynamic". Correct term: "Runtime".
+
+	Question 4.1:
+	Awarded Points: 0.0
+	Justification: No valid final output provided. Student wrote: "Outputer seats [i]+", you will take seat" + (i) ..." which is not the required final printed output lines. Per rubric, evaluation is based ONLY on final output.
+
+	Question 4.2:
+	Awarded Points: 0.0
+	Justification: No valid final output provided. Student wrote: "Calculate Votes (total votes)." which is not the required final printed output lines. Per rubric, evaluation is based ONLY on final output.
+
+Review: 
+Regrade Decision: <NO_REGRADE>
+
+Identified Errors:
+	- None
+
+QA justification:  Arithmetic checks out: Q1 subtotal 13.5, Q2 subtotal 21, Q3 subtotal 3, Q4 subtotal 0; total = 37.5/100 as reported. Awarding aligns with rubric throughout: partial credit correctly applied in Q1.1, Q1.4, Q1.5, Q1.7, Q1.8; full credit where answers are correct (Q1.3, Q1.9; all Q2 items); zero where blank or incorrect (Q1.2, Q1.6, Q1.10; Q3.1–3.5, 3.7; both Q4 parts due to no final outputs provided). Fact-checking of accepted statements matches the rubric’s expected answers (e.g., architecture-neutral via JVM bytecode, default streams, Swing on AWT, T/F keys). Penalty consistency is maintained: typos not penalized unless exact term required (Q3 fill-in). No rubric drift or hallucinations detected.
+--------------------------------------------------------------------------------
+
