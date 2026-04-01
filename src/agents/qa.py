@@ -11,6 +11,11 @@ from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain.chat_models import init_chat_model
 from langchain.agents import create_agent
 
+from src.tools.agent_tools import (
+	# retrieve_course_facts,
+	validate_score_constraints,
+)
+
 
 # QA graph state schema
 class InputState(TypedDict):
@@ -58,7 +63,8 @@ YOUR AUDIT CHECKLIST:
 RULES OF ENGAGEMENT:
 - If you find ANY discrepancy, error, or bias, you must return "<REGRADE_REQUIRED>" and explicitly state what the Grader must fix.
 - If the Grader's work is flawless, return "<NO_REGRADE>".
-- You have {regrade_counter} regrade attempts remaining. If the counter is 0, you must return "<NO_REGRADE>" and simply log your final objections.""",
+- You have {regrade_counter} regrade attempts remaining. If the counter is 0, you must return "<NO_REGRADE>" and simply log your final objections.
+- If a tool is available (e.g., a score validator or keyword matcher), you should use it when necessary to audit the Grader Agent's work. (Don't mention the tools in your response, just use them to inform your audit.)""",
 				},
 				{
 					"type": "text",
@@ -150,6 +156,11 @@ def build_agent(
 			temperature=temperature,
 			max_tokens=max_tokens,
 		),
+
+		tools=[
+			# retrieve_course_facts,
+			validate_score_constraints,
+		],
 
 		response_format=Result,
 	

@@ -91,7 +91,8 @@ def node_grader(state: State, runtime: Runtime[Context]) -> State:
     
     # Keep logs of LLM messages for traceability and debugging.
     logging.log_messages(
-        grader_output["messages"],
+        [message for message in
+        grader_output["messages"] if message not in state["grader_messages"]],
         state.get("log_path", "grading_log.txt"),
         step_label="Grader"
         )
@@ -132,7 +133,7 @@ def node_qa(state: State, runtime: Runtime[Context]) -> State:
     
     # Keep logs of LLM messages for traceability and debugging.
     logging.log_messages(
-        qa_output["messages"],
+        [message for message in qa_output["messages"] if message not in state["qa_messages"]],
         state["log_path"],
         step_label="Quality-Assurance"
         )

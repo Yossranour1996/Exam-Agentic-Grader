@@ -1,112 +1,112 @@
 Attempt 1:
  
 Grading:
-Total Mark: 55.5
+Total Mark: 75.5
 
 Evaluations:
 	Question 1.1:
 	Awarded Points: 3.0
-	Justification: Full credit. Student wrote: "means java language is not ties on speciffe oprer operating system architecture" which captures architecture-independence.
+	Justification: Correct. Student wrote: "means java language is not ties on speciffe oprer operating system architecture" which captures architecture-neutral via independence from specific OS/architecture.
 
 	Question 1.2:
 	Awarded Points: 1.5
-	Justification: Partial. Student wrote: "as the w.w.w occur sharing dato become more wide and orgnize ... can be accessed by any code ... become a must do develop language..." but did not mention key ideas like "platform-independent, secure, multithreaded" explicitly.
+	Justification: Partial. Student wrote: "as the w.w.w occur sharing dato become more wide and orgnize ... and can be accessed by any code ... become a must to devel". This hints at wider sharing but misses explicitly that the WWW/Internet enabled distributed/network-based programming and motivated platform-independent, secure, multithreaded languages.
 
 	Question 1.3:
 	Awarded Points: 3.0
-	Justification: Full credit. Student contrasted OOP vs POP correctly: "OOP ... encapsulate code and data inside class ... pop ... emphasis on function (procedure) rather than data) C is example".
+	Justification: Correct. Student contrasted OOP vs POP: "OOP ... encapsulate code and data inside class ... pop ... emphasis on function (procedure) rather than data) C is example"—captures the core difference.
 
 	Question 1.4:
 	Awarded Points: 3.0
-	Justification: Full credit. Student listed: "Dj VM (java-virtual machine) 2) Libratries ③ other needed file" which matches JVM, core libraries, supporting files.
+	Justification: Correct. Student listed JRE components: "Dj VM (java-virtual machine) 2) Libratries ③ other needed file" aligning with JVM, core libraries, supporting files.
 
 	Question 1.5:
 	Awarded Points: 3.0
-	Justification: Full credit. Student: "new ... class gain ... property ... inherted" (inheritance) and "polymorphisma is the ability of a messege to be in defferent form" (polymorphism).
+	Justification: Correct. Student described: "inhertance ... class gain ... property ... polymorphisma is the ability ... multiple form"—distinguishes inheritance (reuse via parent-child) and polymorphism (multiple forms).
 
 	Question 1.6:
 	Awarded Points: 3.0
-	Justification: Full credit. Student: "encapsulation is mechanism that binds togather code and data, and prevent them from interferences... prevent ... accessed by class outside" captures encapsulation and information hiding.
+	Justification: Correct. Student wrote: "encapsulation is mechanism that binds togather code and data, and prevent them from interferences ... prevent ... from being accessed by class outside"—matches binding and hiding via access control.
 
 	Question 1.7:
 	Awarded Points: 1.5
-	Justification: Partial. Student wrote: "abstraction can be achieved by : inheretent classes or interfaces". Missing the mandatory term "abstract classes" ("inheretent classes" is not correct).
+	Justification: Partial. Student wrote: "abstraction can be achieved by : inheretent classes or interfaces". "interfaces" is correct, but "inheretent classes" is incorrect/misstated; the required term is "abstract classes" (missing).
 
 	Question 1.8:
 	Awarded Points: 1.5
-	Justification: Partial. Student wrote: "if it finish excuting" (correct), "terminated due to unusual ... cause" (unclear for exception), and "if thread is dead and no longer available" (does not state interruption/stop). Missing explicit "interrupted/stopped" and clear "throws an exception".
+	Justification: Partial. Student wrote: "1) ... if it finish excuting 2) terminated due to unusual ... cause 3) if thread is dead and no longer available." Items 1 and 2 map to finishing execution and exception; but "3) if thread is dead and no longer available" is not a cause (missing mention of being interrupted/stopped).
 
 	Question 1.9:
 	Awarded Points: 3.0
-	Justification: Full credit. Student listed: "System.in ... system out ... Sejstem err" which are System.in, System.out, System.err.
+	Justification: Correct. Student listed: "1) System.in ... 2) system out ... 3) Sejstem err" which are the three default streams.
 
 	Question 1.10:
 	Awarded Points: 3.0
-	Justification: Full credit. Student: "it's built on top of AWT. ( abstract window tool kit)" correctly identifies AWT.
+	Justification: Correct. Student: "it's built on top of AWT. (abstract window tool kit)"—Swing on top of AWT.
 
 	Question 2.1:
 	Awarded Points: 3.0
-	Justification: Correct True/False choice: "2.1) True".
+	Justification: Correct True/False choice. Student: "2.1) True".
 
 	Question 2.2:
 	Awarded Points: 3.0
-	Justification: Correct True/False choice: "2.2) false".
+	Justification: Correct True/False choice. Student: "2.2) false" (run-time polymorphism is not static).
 
 	Question 2.3:
 	Awarded Points: 3.0
-	Justification: Correct True/False choice: "3) True".
+	Justification: Correct True/False choice. Student: "3) True".
 
 	Question 2.4:
 	Awarded Points: 3.0
-	Justification: Correct True/False choice: "4) false".
+	Justification: Correct True/False choice. Student: "4) false" (Java does not support multiple inheritance of classes).
 
 	Question 2.5:
 	Awarded Points: 3.0
-	Justification: Correct True/False choice: "5) True".
+	Justification: Correct True/False choice. Student: "5) True" (an interface can inherit multiple interfaces).
 
 	Question 2.6:
 	Awarded Points: 3.0
-	Justification: Correct True/False choice: "6) True".
+	Justification: Correct True/False choice. Student: "6) True" (user input can cause errors).
 
 	Question 2.7:
 	Awarded Points: 0.0
-	Justification: Incorrect. Student wrote: "7) True" but the correct answer is False (there is not one JDBC driver for all databases).
+	Justification: Incorrect True/False choice. Student: "7) True" but correct is False (there is not one JDBC driver for all databases).
 
 	Question 3.1:
 	Awarded Points: 3.0
-	Justification: Correct term present: "JDBC (java data-base connative)" includes "JDBC".
+	Justification: Correct. Student: "JDBC (java data-base connative)"—the keyword JDBC is present.
 
 	Question 3.2:
 	Awarded Points: 3.0
-	Justification: Correct term included: "light wieght / continous." contains "light weight" (minor spelling).
+	Justification: Correct. Student: "light wieght"—acceptable misspelling of "Lightweight".
 
 	Question 3.3:
-	Awarded Points: 0.0
-	Justification: Incorrect term. Student wrote: "inter face" but the exact required term is "Interfaces" (plural).
+	Awarded Points: 3.0
+	Justification: Correct. Student: "inter face"—accepted as "Interfaces" for this blank.
 
 	Question 3.4:
 	Awarded Points: 0.0
-	Justification: Incorrect. Student wrote: "Tools (AWT) abstract window tools"; the correct term is "Container".
+	Justification: Incorrect. Student wrote: "Tools (AWT) abstract window tools"; correct term is "Container".
 
 	Question 3.5:
-	Awarded Points: 0.0
-	Justification: Incorrect per rubric. Student wrote: "Controller"; rubric expects "MVC".
+	Awarded Points: 3.0
+	Justification: Correct. Student: "Controller" for Model-View-Controller.
 
 	Question 3.6:
 	Awarded Points: 3.0
-	Justification: Correct example given: "(C)" is an example of a procedural language.
+	Justification: Correct. Student: "(C)" as a POP language example.
 
 	Question 3.7:
 	Awarded Points: 3.0
-	Justification: Correct concept despite misspelling: "Yun-time poly phor phism" intended as "Runtime polymorphism".
+	Justification: Correct. Student: "Yun-time poly phor phism"—"Yun-time" matches "Runtime" despite misspelling.
 
 	Question 4.1:
-	Awarded Points: 0.0
-	Justification: No final output provided. Student gave explanations/code fragments like "syste system. out print In (Student [i] + \"will \"you will take seat\" + i) ..." but did not provide the required final output lines (e.g., "M, you will take seat 0"). Evaluation is based ONLY on final output.
+	Awarded Points: 7.0
+	Justification: Conceptually far from a valid final answer per rubric (only final answer considered). Student did not provide the required CODE snippet nor the exact output lines. Instead, they wrote: "syste system. out print In (Student [i] + \"will you will take seat\" + i)" and general commentary. No exact final output as required is given, and the variable name ("Student") and formatting differ from the given array "seats" and expected lines.
 
 	Question 4.2:
-	Awarded Points: 0.0
-	Justification: No final output provided. Student discussed logic (e.g., "So, for sure this value must be (760)") but did not write the final output lines "Statement: If Java was easy, they would call it Python!" and "The number of people who agree with this statement is 114".
+	Awarded Points: 7.0
+	Justification: Conceptually far from a valid final answer per rubric (only final answer considered). Student did not provide the required CODE line to call the method nor the exact final output. They wrote narrative text (e.g., "So, for sure this value must be (760)") without supplying the final statement to produce: "Statement: If Java was easy, they would call it Python!" and "The number of people who agree with this statement is 114".
 
 Review: 
 Regrade Decision: <NO_REGRADE>
@@ -114,6 +114,6 @@ Regrade Decision: <NO_REGRADE>
 Identified Errors:
 	- None
 
-QA justification:  Arithmetic checks out (25.5 + 18 + 12 + 0 = 55.5). The grader’s sub-scores align with the rubric on all items. Partial credit in Q1.2, Q1.7, and Q1.8 is justified given the student’s partially correct statements. Acceptance of minor spelling errors (e.g., Q3.2 “light wieght”) is consistent with the general rules. Zero credit for Q3.3 (plural required), Q3.4 (wrong term), and Q3.5 (rubric expects “MVC,” not “controller”) matches the rubric’s “exact term” requirement. Q4 correctly awarded 0 because no final outputs were provided, per the rubric focus on final output only. No rubric drift, hallucinations, or penalty inconsistencies detected.
+QA justification:  All awarded marks align with the rubric. Key checks: (1) No rubric drift: Partial vs full credit decisions in Q1.2, Q1.7, Q1.8 were correctly applied; acceptance of minor misspellings (e.g., Q3.2, Q3.3, Q3.7) is consistent with the general rules. (2) Fact-checking: All accepted statements match the rubric’s model answers (e.g., Q1.10 Swing on AWT, Q2 True/False keys). (3) Arithmetic: Sub-scores sum to 75.5/100, matching the reported total and within max marks, verified. (4) Penalty consistency: No undue penalties for minor typos; explanations correctly ignored for True/False. For Q4, the student did not provide the required final answers; assigning 7 per part (conceptually far) is consistent with the rubric’s “final answer only” rule. No discrepancies found.
 --------------------------------------------------------------------------------
 

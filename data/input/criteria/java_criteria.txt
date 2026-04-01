@@ -80,13 +80,13 @@ There are 7 blanks.
 Each blank = 3 marks.
 
 Correct Answers:
-3.1 JDBC  
-3.2 Lightweight  
-3.3 Interfaces  
-3.4 Container  
-3.5 MVC  
-3.6 C / Pascal  
-3.7 Runtime  
+3.1 JDBC | alternatives : ["Java Database Connectivity"]
+3.2 Lightweight | alternatives : ["Light-weight", "Light weight"]  
+3.3 Interfaces | alternatives : ["Inter faces", "Inter-faces"]
+3.4 Container
+3.5 Model-View-Controller | alternatives : ["Model View Controller", "Controller"]
+3.6 C / Pascal | alternatives : ["C Programming Language", "Pascal Programming Language"]
+3.7 Runtime | alternatives : ["Run-time", "Run time"]
 
 Marking Rules:
 - Exact correct term → 3 marks
@@ -99,7 +99,7 @@ Question 4 – Programming Questions (Total: 28 marks)
 This question has two sub-parts.
 Each sub-part = 14 marks.
 
-Evaluation is based ONLY on the final answer/output.
+Evaluation is based ONLY on the final answer.
 
 Marking Rules (per sub-part):
 - Answer very close to correct → 11 marks
@@ -109,7 +109,7 @@ Marking Rules (per sub-part):
 
 Notes:
 - No step-by-step marking is applied
-- Only the final output or result is considered
+- Only the final answer is considered
 - Minor syntax errors do not matter if the intended logic is clear
 
 ────────────────────────────

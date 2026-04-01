@@ -11,6 +11,12 @@ from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain.chat_models import init_chat_model
 from langchain.agents import create_agent
 
+from src.tools.agent_tools import (
+	# retrieve_course_facts
+	fuzzy_keyword_match,
+	execute_java_snippet,
+)
+
 
 # Grader graph state schema
 class InputState(TypedDict):
@@ -55,6 +61,7 @@ CORE DIRECTIVES:
 1. STEP-BY-STEP EVALUATION: Grade one question at a time. Compare the student's answer directly to the rubric criteria.
 2. EVIDENCE-BASED SCORING: For every point deducted, you must quote the exact part of the student's answer that was incorrect or missing. 
 3. INCORPORATING REVIEWER FEEDBACK: If this is a regrade request from the QA Agent, read their critique carefully and adjust your score or justification accordingly. Do not argue with the QA Agent; fix the identified error.
+4. TOOL USAGE: Do not rely too much on your internal knowledge to validate and evaluate code or verify technical definitions. If a tool is available (e.g., a code executor or keyword matcher), you should use it when unsure to test the student's answer before assigning a score. (Don't mention the tools in your response, just use them to inform your grading.)
 
 Do not be lenient. If a mandatory keyword or concept from the rubric is missing, deduct the appropriate points.""",
 				},
@@ -139,6 +146,12 @@ def build_agent(
 			temperature=temperature,
 			max_tokens=max_tokens,
 		),
+		
+		tools=[
+			# retrieve_course_facts
+			fuzzy_keyword_match,
+			execute_java_snippet,
+		],
 
 		response_format=Result,
 	
