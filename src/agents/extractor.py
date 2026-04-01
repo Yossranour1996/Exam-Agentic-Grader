@@ -7,17 +7,15 @@ from typing import Dict, Any, List
 
 from src.tools.gemini_ocr import extract_text_from_image_gemini
 
-def extract_exam_pages(pages_dir: str, out_dir: str, max_pages: int | None = None) -> List[Dict[str, Any]]:
-    pages_dir = Path(pages_dir)
+def extract_exam_pages(images: List[str | Path], out_dir: str | Path, max_pages: int | None = None) -> List[Dict[str, Any]]:
     out_dir = Path(out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    images = sorted(list(pages_dir.glob("*.png")) + list(pages_dir.glob("*.jpg")) + list(pages_dir.glob("*.jpeg")))
-    if max_pages is not None:
-        images = images[:max_pages]
+    images = images[:max_pages]
 
     results = []
     for img_path in images:
+        img_path = Path(img_path)
         print(f"🧠 OCR (Gemini) -> {img_path.name}")
         text = extract_text_from_image_gemini(str(img_path))
 

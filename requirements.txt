@@ -1,6 +1,21 @@
-opencv-python
-numpy
+# Core dependencies
+langgraph
+langchain
+langchain-core
+pydantic
+
+# Image processing
 pdf2image
 pillow
 scikit-image
+opencv-python
+
+# Vision & OCR APIs
+google-generativeai
+torch
+transformers
+
+# Utilities
+python-dotenv
+numpy
 tqdm

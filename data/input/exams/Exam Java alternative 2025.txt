@@ -1,0 +1,85 @@
+Exam Java alternative 2025
+
+---
+
+جامعة الخرطوم
+كلية الهندسة - قسم الهندسة الكهربائية والإلكترونية
+امتحانات الملاحق والبدائل الصف الثالث لنيل درجة بكالوريوس الشرف في الهندسة الكهربائية والإلكترونية
+الفصل الدراسي الثاني للعام الدراسي 2023 - 2024
+رقم المقرر: 32502 EEE اسم المقرر: البرمجة بلغة جافا Java programming
+التاريخ: ديسمبر 2025
+عدد الصفحات: 3
+الزمن: ساعتان
+
+Question 1: briefly answer the following questions.
+1.1 What do we mean by saying that Java is architecture-neutral language?
+1.2 How did the World Wide Web and the internet participate in the programming revolution?
+1.3 What is the main difference between OOP and POP?
+1.4 What are the components of the JRE?
+1.5 What is the difference between inheritance and polymorphism?
+1.6 What do we mean by encapsulation?
+1.7 There are two ways to achieve abstraction. Mention them.
+1.8 A thread could be terminated due to three reasons. Mention them.
+1.9 What are the three default streams in Java?
+1.10 On which API Java swing was built on top of?
+
+Question 2: state if the sentence is true or false and correct the false statements.
+2.1 The private modifier is used when we want the code to be accessible only within the same declared class.
+2.2 Run time polymorphism is called static polymorphism.
+2.3 The Java byte code is a class file that is executed by the Java run-time system.
+2.4 The concept of multiple inheritance is widely used in Java.
+2.5 An interface can inherit as many as other interfaces.
+2.6 Errors could arise due to a user non valid input.
+2.7 There is one JDBC driver for all database sources.
+
+Question 3: fill in the blanks.
+3.1 ___________ is a Java API used to connect to and execute queries against databases, allowing Java applications to interact with structured data.
+3.2 A key advantage of Java threads is that they are ___________ meaning they share the same memory space and can easily communicate.
+3.3. In Java, a class can implement multiple ___________
+3.4 a ___________ is a component which can contain other elements like buttons.
+3.5 The model-view-___________ architecture is used in Swing.
+3.6 Examples of procedural oriented programming languages are ___________ programming language.
+3.7 In Java polymorphism has two types: Compile-time Polymorphism and ___________ Polymorphism.
+
+Question 4: For each block code, complete the output and provide explanation for your answer:
+
+4.1
+```
+public class Exams {
+    public static void main(String[] args) {
+        String[] seats = {"M", "C", "G", "P", "D"};
+        System.out.println("It's time to take your 3th years exams. Please, take your seats.\n");
+        for (int i=0; i < seats.length; i++) {
+            System.out.println(CODE);
+        }
+    }
+}
+```
+Output:
+It's time to take your 3th years exams. Please, take your seats.
+M, you will take seat 0
+C, you will take seat 1
+G, you will take seat 2
+P, you will take seat 3
+D, you will take seat 4
+
+4.2
+```
+public class Agree {
+    public static void main(String[] args) {
+        int totalVotes = 760;
+        System.out.println("Statement: If Java was easy, they would call it Python ");
+        CODE
+    }
+    public static void calculateVotes(double numOfVotes) {
+        // 15% of votes do agree with the statement.
+        double portion = numOfVotes*0.15;
+        System.out.println("The number of people who agree with this statement is " + (int) portion);
+    }
+}
+```
+Output:
+Statement: If Java was easy, they would call it Python!
+The number of people who agree with this statement is 114
+
+---

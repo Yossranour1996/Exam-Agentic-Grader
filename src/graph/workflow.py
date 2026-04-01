@@ -1,54 +1,150 @@
 # src/graph/workflow.py
 from __future__ import annotations
 
-from dataclasses import dataclass
-from typing import TypedDict, Optional, List, Dict, Any
-from pathlib import Path
-
 from langgraph.graph import StateGraph, END
+from langgraph.runtime import Runtime
 
+from src.state import InputState, OutputState, State, Context
+from src.agents import extractor, grader, exporter
 from src.tools.pdf_to_images import pdf_to_images
-from src.agents.extractor import extract_exam_pages
+from src.utils import io, logging
 
-class ExtractState(TypedDict, total=False):
-    student_id: str
-    student_pdf: str
-    dpi: int
-    max_pages: int
 
-    pages_dir: str
-    extracted_dir: str
+# Global variable to hold the agents instances
+grader_agent = None
+exporter_agent = None
 
-    ocr_pages: List[Dict[str, Any]]
 
-def node_pdf_to_images(state: ExtractState) -> ExtractState:
+def node_pdf_to_images(state: InputState, runtime: Runtime[Context]) -> State:
+    """Convert student's answer sheet PDF to images and update state."""
+
     student_id = state["student_id"]
-    out_base = Path("data/output") / student_id
-    pages_dir = out_base / "pages"
-    pages_dir.mkdir(parents=True, exist_ok=True)
+    dpi = state.get("dpi", 300)
+    answer_sheets_dir = runtime.context.answer_sheets_dir
+    output_base = runtime.context.output_base
 
-    pdf_to_images(state["student_pdf"], str(pages_dir), dpi=state.get("dpi", 300))
+    student_pdf_path = answer_sheets_dir / f"{student_id}.pdf"
+    pages_dir = output_base / student_id / "pages"
 
-    state["pages_dir"] = str(pages_dir)
-    state["extracted_dir"] = str(out_base / "extracted_text")
-    return state
+    # pages = pdf_to_images(
+    #     pdf_path=student_pdf_path,
+    #     out_dir=pages_dir,
+    #     dpi=dpi
+    #     )
+    pages = [f"page_{i:02d}.png" for i in range(1, 11)]
 
-def node_gemini_ocr(state: ExtractState) -> ExtractState:
-    pages_dir = state["pages_dir"]
-    extracted_dir = state["extracted_dir"]
+    print("Converted", len(pages), "pages.")
+    return {
+        "pages": pages
+        }
+
+
+def node_gemini_ocr(state: State, runtime: Runtime[Context]) -> State:
+    """Extract text from answer sheet pages using Gemini OCR and update state."""
+
+    student_id = state["student_id"]
     max_pages = state.get("max_pages", 3)  # جرّبي أولاً 3 صفحات
+    output_base = runtime.context.output_base
 
-    ocr_pages = extract_exam_pages(pages_dir=pages_dir, out_dir=extracted_dir, max_pages=max_pages)
-    state["ocr_pages"] = ocr_pages
-    return state
+    extract_dir = output_base / student_id / "extracted_text"
+    log_path = output_base / student_id / "messages_log.log"
+    io.delete_file(log_path)  # Clear previous logs.
 
-def build_extraction_graph():
-    g = StateGraph(ExtractState)
+    # ocr_pages = extractor.extract_exam_pages(
+    #     images=state.get("pages", []),
+    #     out_dir=extract_dir,
+    #     max_pages=max_pages
+    #     )
+    ocr_pages = io.read_json(extract_dir / "raw_extraction.json")
+
+    print("Extracted text from", len(ocr_pages), "pages.")
+    return {
+        "extract_dir": str(extract_dir),
+        "log_path": str(log_path),
+        "ocr_pages": ocr_pages,
+        }
+
+
+def node_grader(state: State, runtime: Runtime[Context]) -> State:
+    """Grade the extracted answers based on the rubric and update state with response."""
+
+    exam_file = state.get("exam_file")
+    rubric_file = state.get("rubric_file")
+    exam_dir = runtime.context.exams_dir
+    criteria_dir = runtime.context.criteria_dir
+
+    exam = io.read_text(exam_dir / exam_file) if exam_file else None
+    rubric = io.read_text(criteria_dir / rubric_file) if rubric_file else None
+    
+    print("\nGrading exam...")
+    grader_output = grader_agent.invoke(
+        input=grader.InputState({
+            "student_answers": state.get("ocr_pages", "Problem getting answers"),
+            "exam": exam or "Exam content unavailable",
+            "rubric": rubric or "Standard evaluation criteria",
+            }),
+        )
+    
+    # Keep logs of LLM messages for traceability and debugging.
+    logging.log_messages(
+        grader_output["messages"],
+        state.get("log_path", "grading_log.txt"),
+        step_label="Grader"
+        )
+    
+    print("Grading completed.")
+    return {
+        "grader_result": grader_output["grading_result"],
+        "messages": grader_output["messages"]
+        }
+
+
+def node_exporter(state: State, runtime: Runtime[Context]) -> OutputState:
+    """Export grading results to specified directory."""
+    
+    student_id = state["student_id"]
+    out_dir = runtime.context.output_base
+
+    export_dir = out_dir / student_id / "grading_results"
+
+    print("\nExporting results...")
+    exporter_agent.invoke(
+        input=exporter.ExporterState({
+            "grader_result": state["grader_result"],
+            "export_dir": export_dir
+            })
+        )
+
+    logging.logging.shutdown()  # Ensure all logs are flushed before program exit.
+    print("Results exported.")
+    return {"export_dir": str(export_dir)}
+
+
+def build_graph(
+        model: str = "gpt-4o",
+        temperature: float = 0.0,
+        max_tokens: int | None = None,
+):
+    
+    global grader_agent, exporter_agent
+    grader_agent = grader.build_agent(model, temperature, max_tokens)
+    exporter_agent = exporter.build_agent()
+
+    g = StateGraph(
+        State,
+        input_schema=InputState,
+        output_schema=OutputState,
+        context_schema=Context
+        )
     g.add_node("pdf_to_images", node_pdf_to_images)
     g.add_node("gemini_ocr", node_gemini_ocr)
+    g.add_node("grader", node_grader)
+    g.add_node("exporter", node_exporter)
 
     g.set_entry_point("pdf_to_images")
     g.add_edge("pdf_to_images", "gemini_ocr")
-    g.add_edge("gemini_ocr", END)
+    g.add_edge("gemini_ocr", "grader")
+    g.add_edge("grader", "exporter")
+    g.add_edge("exporter", END)
 
     return g.compile()

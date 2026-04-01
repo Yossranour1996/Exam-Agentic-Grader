@@ -1,0 +1,117 @@
+Java Programming Exam – Detailed Grading Criteria
+Total Marks: 100
+
+────────────────────────────
+General Grading Rules
+────────────────────────────
+- Minor spelling mistakes do not reduce marks if meaning is clear.
+- Java keywords must be conceptually correct (exact syntax is not required unless explicitly asked).
+- Answers may be phrased differently as long as the intended meaning is correct.
+- If an answer partially matches the correct concept, partial credit may be awarded according to the rules below.
+
+────────────────────────────
+Question 1 – Short Answer Questions (Total: 30 marks)
+────────────────────────────
+There are 10 sub-questions.
+Each sub-question = 3 marks.
+
+Correct Answers:
+
+Q1.1 Java is architecture-neutral:
+Java programs are compiled into bytecode that runs on the Java Virtual Machine (JVM), making them independent of hardware architecture.
+
+Q1.2 Role of WWW and Internet:
+They enabled distributed and network-based programming, motivating the need for platform-independent, secure, multithreaded languages like Java.
+
+Q1.3 Difference between OOP and POP:
+POP focuses on procedures/functions, while OOP focuses on objects that encapsulate data and behavior.
+
+Q1.4 Components of JRE:
+JVM, core Java libraries, and supporting files.
+
+Q1.5 Inheritance vs Polymorphism:
+Inheritance allows code reuse through parent-child class relationships, while polymorphism allows the same interface to have different behaviors.
+
+Q1.6 Encapsulation:
+Binding data and methods together and hiding internal details using access modifiers.
+
+Q1.7 Two ways to achieve abstraction:
+Abstract classes and interfaces.
+
+Q1.8 Thread termination reasons:
+Thread finishes execution, throws an exception, or is interrupted/stopped.
+
+Q1.9 Default streams in Java:
+System.in, System.out, System.err.
+
+Q1.10 Swing is built on top of:
+AWT.
+
+Marking Rules (per sub-question):
+- Full correct answer → 3 marks
+- Partially correct answer (core idea present) → 1.5 marks
+- Answer contains both correct and incorrect parts → 1.5 marks
+- Completely incorrect or missing answer → 0 marks
+
+────────────────────────────
+Question 2 – True / False (Total: 21 marks)
+────────────────────────────
+There are 7 statements.
+Each statement = 3 marks.
+
+Correct Answers:
+2.1 True  
+2.2 False  
+2.3 True  
+2.4 False  
+2.5 True  
+2.6 True  
+2.7 False  
+
+Marking Rules:
+- Correct True/False choice → 3 marks
+- Incorrect choice → 0 marks
+- Any written explanation is ignored and does not affect the mark
+
+────────────────────────────
+Question 3 – Fill in the Blanks (Total: 21 marks)
+────────────────────────────
+There are 7 blanks.
+Each blank = 3 marks.
+
+Correct Answers:
+3.1 JDBC  
+3.2 Lightweight  
+3.3 Interfaces  
+3.4 Container  
+3.5 MVC  
+3.6 C / Pascal  
+3.7 Runtime  
+
+Marking Rules:
+- Exact correct term → 3 marks
+- Incorrect, vague, or missing term → 0 marks
+- Answers are typically one or two words only
+
+────────────────────────────
+Question 4 – Programming Questions (Total: 28 marks)
+────────────────────────────
+This question has two sub-parts.
+Each sub-part = 14 marks.
+
+Evaluation is based ONLY on the final answer/output.
+
+Marking Rules (per sub-part):
+- Answer very close to correct → 11 marks
+- Answer partially correct but missing key logic → 9 marks
+- Answer conceptually incorrect or far from correct → 7 marks
+- No answer / blank → 0 marks
+
+Notes:
+- No step-by-step marking is applied
+- Only the final output or result is considered
+- Minor syntax errors do not matter if the intended logic is clear
+
+────────────────────────────
+End of Grading Criteria
+────────────────────────────
