@@ -1,125 +1,216 @@
+Student Answers:
+Student Answers:
+
+Question: 1.1
+Answer: It means that it can be executed in program by diffirent enviroments because of JVM.
+
+Question: 1.2
+Answer: by doping and devoloping enviroment and uses. by improving the art of programming..
+
+Question: 1.3
+Answer: oop: is organized around code (object) it means that (data controlling access to code). POP: it is a sienise of presedural ( code ) it means that (the code alts on data)
+
+Question: 1.4
+Answer: JVM (Java Virtual Mathine) it execute Program (ran) Libraries
+
+Question: 1.5
+Answer: inheritance: is creating new class depeneds, on existiring class the supclass inhertes the super-class methods and fields. Polymorphism: (many forms) It is one class intentace argentad thats react with Jeniral actions. many
+
+Question: 1.6
+Answer: encapsulation: its bends of data and code, and secure them from outer interface or misuses
+
+Question: 1.7
+Answer: a class abstract b. interface
+
+Question: 1.8
+Answer: there are Finished sate normally terminated dup Way unusual actions dead or not acollabtre, avaliable
+
+Question: 1.9
+Answer: system.in. system out system, err
+
+Question: 1.10
+Answer: AWT (Abstract window Tool)
+
+Question: 2.1
+Answer: true
+
+Question: 2.2
+Answer: False. connect: Run time polymorphism is called dynamic polymorphis
+
+Question: 2.3
+Answer: true
+
+Question: 2.4
+Answer: False correct: Java doesn't support the concept of multiple inheritane
+
+Question: 2.5
+Answer: true
+
+Question: 2.6
+Answer: true
+
+Question: 2.7
+Answer: false it one correct: Each database sources have different JDBC driver for
+
+Question: 3.1
+Answer: Java Database Connectivity (JDBC)
+
+Question: 3.2
+Answer: Light weight
+
+Question: 3.3
+Answer: inter faces
+
+Question: 3.4
+Answer: container
+
+Question: 3.5
+Answer: controller
+
+Question: 3.6
+Answer: C
+
+Question: 3.7
+Answer: run-time
+
+Question: 4.1
+Answer: seats[i] + " you will take seat "t i
+
+Question: 4.2
+Answer: Coteutate Votes total vo Calculate Votes (total votes);
+
+--------------------------------------------------------------------------------
+
 Grading:
-Total Mark: 79.0
+Total Mark: 77.5
 
 Evaluations:
 	Question 1.1:
-	Awarded Points: 3.0
-	Justification: Correct. You stated it “can be executed … by diffirent enviroments because of JVM,” which captures architecture-neutrality via the JVM.
+	Awarded Points: 1.5
+	Justification: Partial. You wrote: "It means that it can be executed in program by diffirent enviroments because of JVM." Core idea (platform independence via JVM) is present, but missing the key point that Java is compiled into bytecode. Missing: "compiled into bytecode that runs on the JVM, independent of hardware."
 
 	Question 1.2:
 	Awarded Points: 0.0
-	Justification: Missing core idea. Your answer “by doping and devoloping enviroment and uses. by improving the art of programming..” does not mention the WWW/Internet enabling distributed, network-based programming and driving platform independence/security.
+	Justification: Incorrect/unclear. You wrote: "by doping and devoloping enviroment and uses. by improving the art of programming.." This does not mention distributed/network-based programming enabled by the WWW/Internet or the motivation for platform-independent, secure, multithreaded languages.
 
 	Question 1.3:
 	Awarded Points: 1.5
-	Justification: Partial. The OOP part is misstated: “oop: is organized around code (object) it means that (data controlling access to code).” OOP is organized around objects that encapsulate data and behavior. Your POP part “the code alts on data” is closer to the idea of procedures acting on data.
+	Justification: Partial. You wrote: "oop: is organized around code (object) it means that (data controlling access to code). POP: it is a sienise of presedural ( code ) it means that (the code alts on data)" The idea is muddled. Correctly, OOP focuses on objects that encapsulate data and behavior; POP focuses on procedures/functions. Incorrect/unclear part: "organized around code (object)"; Missing explicit mention of "procedures/functions" for POP.
 
 	Question 1.4:
 	Awarded Points: 1.5
-	Justification: Partial. You listed “JVM (Java Virtual Mathine) … Libraries,” but omitted the supporting files. The JRE components are JVM, core libraries, and supporting files.
+	Justification: Partial. You wrote: "JVM (Java Virtual Mathine) it execute Program (ran) Libraries" Correctly mentions JVM and libraries, but missing the "supporting files" component of the JRE.
 
 	Question 1.5:
 	Awarded Points: 1.5
-	Justification: Partial. Inheritance part is fine: “creating new class … the supclass inhertes the super-class methods and fields.” The polymorphism part “(many forms) It is one class intentace argentad thats react with Jeniral actions” is unclear and does not state the key idea: same interface with different behaviors.
+	Justification: Partial. Inheritance part is broadly correct. Polymorphism definition is unclear: "Polymorphism: (many forms) It is one class intentace argentad thats react with Jeniral actions. many" Missing: clear idea that the same interface/method call can have different implementations/behaviors.
 
 	Question 1.6:
 	Awarded Points: 3.0
-	Justification: Correct. “its bends of data and code, and secure them from outer interface or misuses” captures binding data/methods and hiding internal details.
+	Justification: Correct. You wrote: "encapsulation: its bends of data and code, and secure them from outer interface or misuses" which captures binding data and methods and hiding/protecting details via access control.
 
 	Question 1.7:
 	Awarded Points: 3.0
-	Justification: Correct. You listed “a class abstract” and “interface” (abstract classes and interfaces).
+	Justification: Correct. You wrote: "a class abstract b. interface" i.e., abstract classes and interfaces.
 
 	Question 1.8:
 	Awarded Points: 1.5
-	Justification: Partial. You wrote “Finished sate normally,” “terminated dup Way unusual actions,” and “dead or not acollabtre, avaliable.” Normal finish is correct; “unusual actions” vaguely suggests an exception, but you did not clearly include “interrupted/stopped.” Clarity on exception/interrupt is missing.
+	Justification: Partial. You wrote: "there are Finished sate normally terminated dup Way unusual actions dead or not acollabtre, avaliable" This suggests finish/normal termination, but the rest is unclear. Missing explicit reasons: "throws an exception" and "is interrupted/stopped."
 
 	Question 1.9:
 	Awarded Points: 3.0
-	Justification: Correct. “system.in. system out system, err” corresponds to System.in, System.out, System.err.
+	Justification: Correct. You wrote: "system.in. system out system, err" which corresponds to System.in, System.out, System.err (minor casing/punctuation ignored).
 
 	Question 1.10:
 	Awarded Points: 3.0
-	Justification: Correct. “AWT (Abstract window Tool)” identifies AWT as the underlying API for Swing.
+	Justification: Correct. You wrote: "AWT (Abstract window Tool)" — Swing is built on top of AWT (minor expansion error ignored).
 
 	Question 2.1:
 	Awarded Points: 3.0
-	Justification: Correct True/False choice. You marked “true.”
+	Justification: Correct (True).
 
 	Question 2.2:
 	Awarded Points: 3.0
-	Justification: Correct True/False choice. You marked “False.”
+	Justification: Correct (False).
 
 	Question 2.3:
 	Awarded Points: 3.0
-	Justification: Correct True/False choice. You marked “true.”
+	Justification: Correct (True).
 
 	Question 2.4:
 	Awarded Points: 3.0
-	Justification: Correct True/False choice. You marked “False.”
+	Justification: Correct (False).
 
 	Question 2.5:
 	Awarded Points: 3.0
-	Justification: Correct True/False choice. You marked “true.”
+	Justification: Correct (True).
 
 	Question 2.6:
 	Awarded Points: 3.0
-	Justification: Correct True/False choice. You marked “true.”
+	Justification: Correct (True).
 
 	Question 2.7:
 	Awarded Points: 3.0
-	Justification: Correct True/False choice. You marked “false.”
+	Justification: Correct (False).
 
 	Question 3.1:
 	Awarded Points: 3.0
-	Justification: Correct. “Java Database Connectivity (JDBC)” matches the required term.
+	Justification: Correct: "Java Database Connectivity (JDBC)"
 
 	Question 3.2:
 	Awarded Points: 3.0
-	Justification: Correct. “Light weight” matches “Lightweight.”
+	Justification: Correct: "Light weight" (accepted variant of Lightweight).
 
 	Question 3.3:
 	Awarded Points: 3.0
-	Justification: Correct. “inter faces” matches “Interfaces.”
+	Justification: Correct: "inter faces" (accepted variant of Interfaces).
 
 	Question 3.4:
 	Awarded Points: 3.0
-	Justification: Correct. “container” matches “Container.”
+	Justification: Correct: "container"
 
 	Question 3.5:
 	Awarded Points: 3.0
-	Justification: Correct. “controller” matches the blank for “Model-View-Controller.”
+	Justification: Correct: "controller" (accepted per rubric).
 
 	Question 3.6:
 	Awarded Points: 3.0
-	Justification: Correct. “C” is a valid POP example.
+	Justification: Correct: "C"
 
 	Question 3.7:
 	Awarded Points: 3.0
-	Justification: Correct. “run-time” matches “Runtime.”
+	Justification: Correct: "run-time" (accepted variant of Runtime).
 
 	Question 4.1:
 	Awarded Points: 9.0
-	Justification: Partially correct but missing key logic. Your line “seats[i] + " you will take seat "t i” shows the intended concatenation of seats[i], the message, and i, but it has syntax/punctuation issues: the invalid token “t” and missing concatenation operator before i, and it omits the comma after the name required for “M, you will take seat 0.” The intended logic is apparent but not fully correct.
+	Justification: Partially correct but missing key logic. You wrote: "seats[i] + \" you will take seat \"t i" The intent to concatenate seats[i], a message, and the index i is clear, but there are syntax/format issues: missing the comma after the name (expected ", you will take seat ") and the index concatenation is malformed ("t i" instead of "+ i"). Per rubric, minor syntax errors with clear intent merit partial credit.
 
 	Question 4.2:
 	Awarded Points: 7.0
-	Justification: Conceptually incorrect or far from correct. Your lines “Coteutate Votes total vo;” and “Calculate Votes (total votes);” use invalid identifiers and method-call syntax and do not correctly invoke calculateVotes(totalVotes). They cannot produce the required output (“…Python!” and “114”).
+	Justification: Conceptually far from correct. You wrote: "Coteutate Votes total vo Calculate Votes (total votes);" which is not a valid Java statement and does not produce the expected output. Missing a correct call to the method with the given variable (e.g., "calculateVotes(totalVotes);") and ensuring the exact expected output.
 --------------------------------------------------------------------------------
 
 Feedback: 
 Positive Highlights:
-	- You correctly explained several core Java concepts: architecture neutrality via the JVM (Q1.1), encapsulation (Q1.6), and the two mechanisms for abstraction—abstract classes and interfaces (Q1.7).
-	- Great recall on practical APIs and platform pieces: default streams (System.in, System.out, System.err) and that Swing is built on AWT (Q1.9, Q1.10).
-	- Excellent performance on the objective sections: all True/False answers were correct (Q2), and you nailed every fill-in-the-blank (Q3), including JDBC, lightweight threads, interfaces, container, MVC, POP examples, and runtime polymorphism.
+	- You correctly identified several core Java concepts: encapsulation (binding data and methods and hiding details), the two ways to achieve abstraction (abstract classes and interfaces), the default I/O streams (System.in, System.out, System.err), and that Swing is built on AWT.
+	- You were strong on the True/False section—great job getting all items right, including dynamic vs. static polymorphism and multiple inheritance in Java.
+	- Your Fill-in-the-Blanks answers were excellent (JDBC, lightweight threads, interfaces, container, MVC/controller, C, runtime).
+	- In Q4.1, you showed the right idea: iterate over the array and print the name with its index—only minor string/concatenation issues kept it from full credit.
 
 Areas for Improvement:
-	- Q1.2 (WWW/Internet and the programming revolution): Your answer didn’t connect the web to programming needs. The key point is that the WWW/Internet enabled distributed, networked applications, which drove the need for portable, secure, and multithreaded languages—Java responded with bytecode on the JVM, security sandboxing, and built‑in networking. Review: Oracle Java Tutorials – Overview of Java and the Internet (archived) https://docs.oracle.com/javase/tutorial/; Java Networking trail https://docs.oracle.com/javase/tutorial/networking/
-	- Q1.3 (OOP vs POP): Your OOP description was unclear. OOP organizes programs around objects that encapsulate data and behavior; POP organizes around procedures/functions that operate on data. Try stating it succinctly: “POP = functions act on data; OOP = objects bundle data + methods.” Review: Object‑Oriented Programming Concepts https://docs.oracle.com/javase/tutorial/java/concepts/ and Classes/Objects https://docs.oracle.com/javase/tutorial/java/javaOO/
-	- Q1.4 (Components of the JRE): You listed JVM and libraries but missed supporting files (runtime resources, configuration). JRE = JVM + core class libraries + supporting files. Also remember: JDK = JRE + development tools (javac, javadoc…). Review: Java Platform overview https://docs.oracle.com/javase/8/docs/; JVM guide https://docs.oracle.com/javase/8/docs/technotes/guides/vm/
-	- Q1.5 (Inheritance vs Polymorphism): Your inheritance idea was fine, but the polymorphism part needs clarity. Polymorphism means the same interface/method call can exhibit different behavior depending on the object’s runtime type (method overriding). Example: List l = new ArrayList(); or new LinkedList(); l.get(0) calls the appropriate implementation. Review: Interfaces and Inheritance https://docs.oracle.com/javase/tutorial/java/IandI/ and Methods/Overriding https://docs.oracle.com/javase/tutorial/java/IandI/override.html
-	- Q1.8 (Thread termination reasons): You hinted at normal completion and unusual actions but didn’t clearly name them. Common reasons: (1) the thread finishes run() normally, (2) it terminates due to an uncaught exception, (3) it is interrupted/stopped by another thread. Review: Concurrency – Thread Interruption and Lifecycle https://docs.oracle.com/javase/tutorial/essential/concurrency/
-	- Q4.1 (Seat assignment print): Your intent was close, but the string concatenation and formatting were off (extra 't', missing + before i, and missing comma). A correct line is: System.out.println(seats[i] + ", you will take seat " + i); This matches the required output exactly, including the comma and spaces. Practice: write a small loop that prints name + index with different separators. Review: For‑loops https://docs.oracle.com/javase/tutorial/java/nutsandbolts/for.html and Strings/concatenation https://docs.oracle.com/javase/tutorial/java/data/strings.html
-	- Q4.2 (Vote calculation and method call): The identifiers and method call syntax were invalid, and you didn’t produce the exact statement with an exclamation mark. Correct approach: print the statement with "!" and then call the method: System.out.println("Statement: If Java was easy, they would call it Python!"); calculateVotes(totalVotes); The method multiplies 760 by 0.15 = 114.0 and casts to int → 114, matching the expected output. Review: Defining/Calling Methods (static) https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html and Numeric casting https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
+	- Q1.1 Architecture-neutral: You mentioned the JVM, which is good, but you lost points for not stating that Java code is compiled into platform-independent bytecode that runs on the JVM (not directly on hardware).
+	- Q1.2 WWW/Internet’s role: Your answer was unclear. What earns marks here is noting that the web enabled distributed, networked applications and drove demand for a language that is portable, secure, and multithreaded—Java addressed this with bytecode/JVM, security model, networking libraries, and concurrency.
+	- Q1.3 OOP vs POP: The distinction needs to be crisper. OOP centers on objects that encapsulate data and behavior; POP centers on procedures/functions operating on data. Saying OOP is “organized around code (object)” was confusing.
+	- Q1.4 JRE components: You listed JVM and libraries but omitted supporting files. A complete JRE = JVM + core class libraries + supporting files.
+	- Q1.5 Polymorphism: You noted “many forms” but didn’t state that the same method call/interface can have different implementations (e.g., overriding a method in different subclasses).
+	- Q1.8 Thread termination: You hinted at normal completion but missed the other clear reasons: a thread terminates when it finishes run(), throws an uncaught exception, or is interrupted/stopped.
+	- Q4.1 Output formatting: The expected line is: seats[i] + ", you will take seat " + i. Include the comma after the name and use + i (not "t i").
+	- Q4.2 Method call and exact output: You needed to call the provided method with the existing variable: calculateVotes(totalVotes); Also ensure the printed statement matches exactly (including the exclamation mark). This produces 15% of 760 = 114, as required.
+	- Next steps – OOP fundamentals (classes, inheritance, interfaces, polymorphism): Study https://docs.oracle.com/javase/tutorial/java/concepts/ and https://docs.oracle.com/javase/tutorial/java/IandI/ to solidify definitions and examples.
+	- Next steps – JVM/bytecode and JRE/JDK basics: Review https://docs.oracle.com/javase/specs/jvms/se17/html/ (overview of bytecode/JVM) and a concise overview of JDK vs JRE vs JVM (e.g., https://docs.oracle.com/javase/specs/ with vendor guides).
+	- Next steps – Concurrency (threads): Read https://docs.oracle.com/javase/tutorial/essential/concurrency/ focusing on thread lifecycle and termination.
+	- Next steps – Core Java syntax practice: Refresh arrays/loops and string concatenation: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/for.html and https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html; methods and static calls: https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html.
+	- Next steps – Swing basics and MVC: Skim https://docs.oracle.com/javase/tutorial/uiswing/architecture/ to connect containers, components, and the MVC idea.
+	- Targeted practice: (1) Rewrite Q4.1 to print exactly: name + ", you will take seat " + index. (2) For Q4.2, write a tiny main that prints the exact statement (with !) and calls calculateVotes(totalVotes); Try different totals (e.g., 1000, 500) to check your understanding.
 
-You’re very strong on core recall and APIs—tighten a few definitions and practice precise Java syntax, and you’ll convert near-misses into full marks next time. Keep going—you’re close!
+You’re close—your foundations are solid, and with a bit of focused review and a few quick coding drills, you’ll master the remaining details. Keep going!

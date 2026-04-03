@@ -10,6 +10,7 @@ from src.utils import io
 
 # Exporter graph state schema
 class ExporterState(TypedDict):
+	extractor_result: str
 	grader_results: List[str]
 	qa_results: List[str]
 	feedback_result: str
@@ -22,6 +23,7 @@ def export(state: ExporterState) -> ExporterState:
 	This exporter writes per-attempt logs, then final overall grading and feedback results.
 	"""
 
+	extractor_result = state["extractor_result"]
 	grader_results = state["grader_results"]
 	qa_results = state["qa_results"]
 	feedback_result = state["feedback_result"]
@@ -53,7 +55,10 @@ Review:
 	io.write_text(
 		export_path,
 		(
-f"""Grading:
+f"""{extractor_result}
+{'-' * 80}
+
+Grading:
 {grader_results[-1]}
 {'-' * 80}
 

@@ -28,7 +28,7 @@ def main():
         context=Context(),
         )
 
-    print("\n✅ DONE")
+    print("✅ DONE")
     print("Pages saved under:", f"{final_state['extract_dir']}")
     print("Grading results saved under:", f"{final_state['export_dir']}")
     print("Message log saved in:", f"{final_state['log_path']}")

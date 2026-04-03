@@ -11,9 +11,9 @@ from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain.chat_models import init_chat_model
 from langchain.agents import create_agent
 
-from src.tools.agent_tools import (
-	# retrieve_course_facts,
+from src.tools.qa_tools import (
 	validate_score_constraints,
+	# retrieve_course_facts,
 )
 
 

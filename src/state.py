@@ -1,7 +1,7 @@
 # src/state.py
 from __future__ import annotations
 
-from typing import TypedDict, Required, Annotated, Literal, List, Dict, Any
+from typing import TypedDict, Required, Annotated, Literal, List
 from operator import add
 from dataclasses import dataclass
 
@@ -28,6 +28,7 @@ class OutputState(TypedDict):
 	export_dir: str
 	log_path: str
 
+	extractor_result: str
 	grader_results: Annotated[List[str], add]
 	qa_results: Annotated[List[str], add]
 	feedback_result: str
@@ -35,9 +36,6 @@ class OutputState(TypedDict):
 	messages: Annotated[List[AnyMessage], add_messages]
 
 class State(InputState, OutputState):
-	pages: List[str]
-	ocr_pages: List[Dict[str, Any]]
-
 	regrade: Literal["<REGRADE_REQUIRED>", "<NO_REGRADE>"]
     
 	grader_messages: Annotated[List[AnyMessage], add_messages]

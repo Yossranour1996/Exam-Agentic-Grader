@@ -1,112 +1,231 @@
 Attempt 1:
  
 Grading:
-Total Mark: 75.5
+Total Mark: 69.5
 
 Evaluations:
 	Question 1.1:
 	Awarded Points: 3.0
-	Justification: Correct. Student wrote: "means java language is not ties on speciffe oprer operating system architecture" which captures architecture-neutral via independence from specific OS/architecture.
+	Justification: Correct. The answer "means java language is not ties on speciffe oprer operating system architecture" captures that Java is not tied to a specific hardware/OS architecture via the JVM/bytecode idea.
 
 	Question 1.2:
 	Awarded Points: 1.5
-	Justification: Partial. Student wrote: "as the w.w.w occur sharing dato become more wide and orgnize ... and can be accessed by any code ... become a must to devel". This hints at wider sharing but misses explicitly that the WWW/Internet enabled distributed/network-based programming and motivated platform-independent, secure, multithreaded languages.
+	Justification: Partial. The answer "as the w.w.w occur sharing dato become more wide... can be accessed by any code" hints at widespread sharing/networked access, but it misses the key idea that the Web/Internet drove distributed, network-based programming and the need for platform-independent, secure, multithreaded languages. Missing explicit mention of "distributed/network programming" and "platform independence/security".
 
 	Question 1.3:
 	Awarded Points: 3.0
-	Justification: Correct. Student contrasted OOP vs POP: "OOP ... encapsulate code and data inside class ... pop ... emphasis on function (procedure) rather than data) C is example"—captures the core difference.
+	Justification: Correct. "OOP ... emphasis on data ... encapsulate code and data inside class... POP ... emphasis on function (procedure) rather than data) C is example ... java is example" correctly contrasts data/objects vs procedures and gives valid examples.
 
 	Question 1.4:
 	Awarded Points: 3.0
-	Justification: Correct. Student listed JRE components: "Dj VM (java-virtual machine) 2) Libratries ③ other needed file" aligning with JVM, core libraries, supporting files.
+	Justification: Correct. Lists "Dj VM (java-virtual machine) 2) Libratries ③ other needed file" which corresponds to JVM, core libraries, and supporting files.
 
 	Question 1.5:
 	Awarded Points: 3.0
-	Justification: Correct. Student described: "inhertance ... class gain ... property ... polymorphisma is the ability ... multiple form"—distinguishes inheritance (reuse via parent-child) and polymorphism (multiple forms).
+	Justification: Correct. "inhertance ... new ... class gain ... property ... inherited" and "polymorphism ... ability ... to be in different form" accurately describe inheritance and polymorphism.
 
 	Question 1.6:
 	Awarded Points: 3.0
-	Justification: Correct. Student wrote: "encapsulation is mechanism that binds togather code and data, and prevent them from interferences ... prevent ... from being accessed by class outside"—matches binding and hiding via access control.
+	Justification: Correct. "encapsulation is mechanism that binds togather code and data, and prevent them from interferences" matches binding data/methods and hiding details via access control.
 
 	Question 1.7:
 	Awarded Points: 1.5
-	Justification: Partial. Student wrote: "abstraction can be achieved by : inheretent classes or interfaces". "interfaces" is correct, but "inheretent classes" is incorrect/misstated; the required term is "abstract classes" (missing).
+	Justification: Partial. The answer "abstraction can be achieved by : inheretent classes or interfaces" includes "interfaces" but "inheretent classes" is incorrect. It should be "abstract classes." Missing the keyword "abstract classes."
 
 	Question 1.8:
 	Awarded Points: 1.5
-	Justification: Partial. Student wrote: "1) ... if it finish excuting 2) terminated due to unusual ... cause 3) if thread is dead and no longer available." Items 1 and 2 map to finishing execution and exception; but "3) if thread is dead and no longer available" is not a cause (missing mention of being interrupted/stopped).
+	Justification: Partial. Provided: "finish excuting" (correct), "terminated due to unusual [UNK] value/ cause" (vaguely suggests an exception), and "if thread is dead and no longer available" (unclear). Missing the explicit reason "is interrupted/stopped." Quote showing vagueness: "if thread is dead and no longer available."
 
 	Question 1.9:
 	Awarded Points: 3.0
-	Justification: Correct. Student listed: "1) System.in ... 2) system out ... 3) Sejstem err" which are the three default streams.
+	Justification: Correct. "System.in ... system out ... Sejstem err" corresponds to System.in, System.out, System.err.
 
 	Question 1.10:
 	Awarded Points: 3.0
-	Justification: Correct. Student: "it's built on top of AWT. (abstract window tool kit)"—Swing on top of AWT.
+	Justification: Correct. "it's built on top of AWT. ( abstract window tool kit)" is the required answer.
 
 	Question 2.1:
 	Awarded Points: 3.0
-	Justification: Correct True/False choice. Student: "2.1) True".
+	Justification: Correct True/False choice. Student answered: "True."
 
 	Question 2.2:
 	Awarded Points: 3.0
-	Justification: Correct True/False choice. Student: "2.2) false" (run-time polymorphism is not static).
+	Justification: Correct True/False choice. Student answered: "false ..." which matches that the statement is False.
 
 	Question 2.3:
 	Awarded Points: 3.0
-	Justification: Correct True/False choice. Student: "3) True".
+	Justification: Correct True/False choice. Student answered: "True."
 
 	Question 2.4:
 	Awarded Points: 3.0
-	Justification: Correct True/False choice. Student: "4) false" (Java does not support multiple inheritance of classes).
+	Justification: Correct True/False choice. Student answered: "false ..." which matches that the statement is False.
 
 	Question 2.5:
 	Awarded Points: 3.0
-	Justification: Correct True/False choice. Student: "5) True" (an interface can inherit multiple interfaces).
+	Justification: Correct True/False choice. Student answered: "True."
 
 	Question 2.6:
 	Awarded Points: 3.0
-	Justification: Correct True/False choice. Student: "6) True" (user input can cause errors).
+	Justification: Correct True/False choice. Student answered: "True."
 
 	Question 2.7:
 	Awarded Points: 0.0
-	Justification: Incorrect True/False choice. Student: "7) True" but correct is False (there is not one JDBC driver for all databases).
+	Justification: Incorrect True/False choice. Student answered: "True," but the correct answer is False (there are multiple JDBC driver types, not one for all databases).
 
 	Question 3.1:
 	Awarded Points: 3.0
-	Justification: Correct. Student: "JDBC (java data-base connative)"—the keyword JDBC is present.
+	Justification: Correct. Student wrote: "JDBC (java data-base connative)." The key term "JDBC" is present.
 
 	Question 3.2:
-	Awarded Points: 3.0
-	Justification: Correct. Student: "light wieght"—acceptable misspelling of "Lightweight".
+	Awarded Points: 0.0
+	Justification: Incorrect. Student wrote: "light wieght / continous." The required term is "Lightweight." The misspelling plus extra word does not match the accepted term.
 
 	Question 3.3:
 	Awarded Points: 3.0
-	Justification: Correct. Student: "inter face"—accepted as "Interfaces" for this blank.
+	Justification: Correct. Student wrote: "inter face" which is an acceptable spelling for "Interfaces."
 
 	Question 3.4:
 	Awarded Points: 0.0
-	Justification: Incorrect. Student wrote: "Tools (AWT) abstract window tools"; correct term is "Container".
+	Justification: Incorrect. Student wrote: "Tools (AWT) abstract window tools." The correct term is "Container."
 
 	Question 3.5:
 	Awarded Points: 3.0
-	Justification: Correct. Student: "Controller" for Model-View-Controller.
+	Justification: Correct. Student wrote: "Controller," which completes "Model-View-Controller."
 
 	Question 3.6:
 	Awarded Points: 3.0
-	Justification: Correct. Student: "(C)" as a POP language example.
+	Justification: Correct. Student wrote: "(C)" which is an accepted example of a procedural language.
 
 	Question 3.7:
-	Awarded Points: 3.0
-	Justification: Correct. Student: "Yun-time poly phor phism"—"Yun-time" matches "Runtime" despite misspelling.
+	Awarded Points: 0.0
+	Justification: Incorrect. Student wrote: "Yun-time poly phor phism." The required term is "Runtime" (or "Run-time"/"Run time").
 
 	Question 4.1:
 	Awarded Points: 7.0
-	Justification: Conceptually far from a valid final answer per rubric (only final answer considered). Student did not provide the required CODE snippet nor the exact output lines. Instead, they wrote: "syste system. out print In (Student [i] + \"will you will take seat\" + i)" and general commentary. No exact final output as required is given, and the variable name ("Student") and formatting differ from the given array "seats" and expected lines.
+	Justification: Conceptually far from the required final answer. The task expected the final code snippet (or exact output). The student did not provide a valid snippet or the exact output; instead they gave a vague description and malformed pseudo-code: "system. out print In (Student [i] + \"will \"you will take seat\" + i) ..." This is not a correct final answer matching the required output.
 
 	Question 4.2:
 	Awarded Points: 7.0
-	Justification: Conceptually far from a valid final answer per rubric (only final answer considered). Student did not provide the required CODE line to call the method nor the exact final output. They wrote narrative text (e.g., "So, for sure this value must be (760)") without supplying the final statement to produce: "Statement: If Java was easy, they would call it Python!" and "The number of people who agree with this statement is 114".
+	Justification: Conceptually far from the required final answer. The task expected the final code snippet (or exact output) calling calculateVotes with 760. The student provided only narrative: "So, for sure this value must be (760) ..." without the required statement (e.g., a call) or the exact output. No valid final answer was given.
+
+Review: 
+Regrade Decision: <REGRADE_REQUIRED>
+
+Identified Errors:
+	- Q3.3: Awarded 3.0 despite incorrect term number/spelling. The blank requires the exact term “Interfaces” (plural). Student wrote “inter face” (singular). Per Q3 marking rules, only the exact correct term earns 3; otherwise 0. This should be 0, not 3.
+
+QA justification:  Rubric drift detected in Q3.3. The Fill-in-the-Blanks section explicitly requires the exact correct term to award 3 marks, with no partial credit. Accepted alternatives for Q3.3 are plural (e.g., “Interfaces”, “Inter faces”, “Inter-faces”). The student’s answer “inter face” is singular and does not match any accepted alternative. Therefore the 3.0 awarded is inconsistent with the rubric and must be corrected to 0. All other items are consistent with the rubric, and the arithmetic otherwise sums correctly. After correction, the total should be reduced by 3.0 (from 69.5 to 66.5). Please fix Q3.3 and update the total score accordingly.
+--------------------------------------------------------------------------------
+
+Attempt 2:
+ 
+Grading:
+Total Mark: 66.5
+
+Evaluations:
+	Question 1.1:
+	Awarded Points: 3.0
+	Justification: Correct. The answer "means java language is not ties on speciffe oprer operating system architecture" captures that Java is not tied to a specific hardware/OS architecture via the JVM/bytecode idea.
+
+	Question 1.2:
+	Awarded Points: 1.5
+	Justification: Partial. The answer "as the w.w.w occur sharing dato become more wide... can be accessed by any code" hints at widespread sharing/networked access, but it misses the key idea that the Web/Internet drove distributed, network-based programming and the need for platform-independent, secure, multithreaded languages. Missing explicit mention of "distributed/network programming" and "platform independence/security."
+
+	Question 1.3:
+	Awarded Points: 3.0
+	Justification: Correct. "OOP ... emphasis on data ... encapsulate code and data inside class... POP ... emphasis on function (procedure) rather than data) C is example ... java is example" correctly contrasts data/objects vs procedures and gives valid examples.
+
+	Question 1.4:
+	Awarded Points: 3.0
+	Justification: Correct. Lists "Dj VM (java-virtual machine) 2) Libratries ③ other needed file" which corresponds to JVM, core libraries, and supporting files.
+
+	Question 1.5:
+	Awarded Points: 3.0
+	Justification: Correct. "inhertance ... new ... class gain ... property ... inherited" and "polymorphism ... ability ... to be in different form" accurately describe inheritance and polymorphism.
+
+	Question 1.6:
+	Awarded Points: 3.0
+	Justification: Correct. "encapsulation is mechanism that binds togather code and data, and prevent them from interferences" matches binding data/methods and hiding details via access control.
+
+	Question 1.7:
+	Awarded Points: 1.5
+	Justification: Partial. The answer "abstraction can be achieved by : inheretent classes or interfaces" includes "interfaces" but "inheretent classes" is incorrect. It should be "abstract classes." Missing the keyword "abstract classes."
+
+	Question 1.8:
+	Awarded Points: 1.5
+	Justification: Partial. Provided: "finish excuting" (correct), "terminated due to unusual [UNK] value/ cause" (vaguely suggests an exception), and "if thread is dead and no longer available" (unclear). Missing the explicit reason "is interrupted/stopped." Quote showing vagueness: "if thread is dead and no longer available."
+
+	Question 1.9:
+	Awarded Points: 3.0
+	Justification: Correct. "System.in ... system out ... Sejstem err" corresponds to System.in, System.out, System.err.
+
+	Question 1.10:
+	Awarded Points: 3.0
+	Justification: Correct. "it's built on top of AWT. ( abstract window tool kit)" is the required answer.
+
+	Question 2.1:
+	Awarded Points: 3.0
+	Justification: Correct True/False choice. Student answered: "True."
+
+	Question 2.2:
+	Awarded Points: 3.0
+	Justification: Correct True/False choice. Student answered: "false ..." which matches that the statement is False.
+
+	Question 2.3:
+	Awarded Points: 3.0
+	Justification: Correct True/False choice. Student answered: "True."
+
+	Question 2.4:
+	Awarded Points: 3.0
+	Justification: Correct True/False choice. Student answered: "false ..." which matches that the statement is False.
+
+	Question 2.5:
+	Awarded Points: 3.0
+	Justification: Correct True/False choice. Student answered: "True."
+
+	Question 2.6:
+	Awarded Points: 3.0
+	Justification: Correct True/False choice. Student answered: "True."
+
+	Question 2.7:
+	Awarded Points: 0.0
+	Justification: Incorrect True/False choice. Student answered: "True," but the correct answer is False (there are multiple JDBC driver types, not one for all databases).
+
+	Question 3.1:
+	Awarded Points: 3.0
+	Justification: Correct. Student wrote: "JDBC (java data-base connative)." The key term "JDBC" is present.
+
+	Question 3.2:
+	Awarded Points: 0.0
+	Justification: Incorrect. Student wrote: "light wieght / continous." The required term is "Lightweight." This does not match the accepted term.
+
+	Question 3.3:
+	Awarded Points: 0.0
+	Justification: Incorrect. Student wrote: "inter face" (singular). The correct term is "Interfaces" (plural). Accepted alternatives are plural-only (e.g., "Interfaces", "Inter faces", "Inter-faces"). Per the rubric, only the exact correct term earns marks.
+
+	Question 3.4:
+	Awarded Points: 0.0
+	Justification: Incorrect. Student wrote: "Tools (AWT) abstract window tools." The correct term is "Container."
+
+	Question 3.5:
+	Awarded Points: 3.0
+	Justification: Correct. Student wrote: "Controller," which completes "Model-View-Controller."
+
+	Question 3.6:
+	Awarded Points: 3.0
+	Justification: Correct. Student wrote: "(C)" which is an accepted example of a procedural language.
+
+	Question 3.7:
+	Awarded Points: 0.0
+	Justification: Incorrect. Student wrote: "Yun-time poly phor phism." The required term is "Runtime" (or "Run-time"/"Run time").
+
+	Question 4.1:
+	Awarded Points: 7.0
+	Justification: Conceptually far from the required final answer. The task expected the final code snippet (or exact output). The student did not provide a valid snippet or the exact output; instead they gave a vague description and malformed pseudo-code: "system. out print In (Student [i] + \"will \"you will take seat\" + i) ..." This is not a correct final answer matching the required output.
+
+	Question 4.2:
+	Awarded Points: 7.0
+	Justification: Conceptually far from the required final answer. The task expected the final code snippet (or exact output) calling calculateVotes with 760. The student provided only narrative: "So, for sure this value must be (760) ..." without the required statement (e.g., a call) or the exact output. No valid final answer was given.
 
 Review: 
 Regrade Decision: <NO_REGRADE>
@@ -114,6 +233,6 @@ Regrade Decision: <NO_REGRADE>
 Identified Errors:
 	- None
 
-QA justification:  All awarded marks align with the rubric. Key checks: (1) No rubric drift: Partial vs full credit decisions in Q1.2, Q1.7, Q1.8 were correctly applied; acceptance of minor misspellings (e.g., Q3.2, Q3.3, Q3.7) is consistent with the general rules. (2) Fact-checking: All accepted statements match the rubric’s model answers (e.g., Q1.10 Swing on AWT, Q2 True/False keys). (3) Arithmetic: Sub-scores sum to 75.5/100, matching the reported total and within max marks, verified. (4) Penalty consistency: No undue penalties for minor typos; explanations correctly ignored for True/False. For Q4, the student did not provide the required final answers; assigning 7 per part (conceptually far) is consistent with the rubric’s “final answer only” rule. No discrepancies found.
+QA justification:  No regrade required. The grader’s allocations align with the rubric throughout. Key checks: Q1 items awarded full/partial precisely per the short-answer marking rules; Q2 True/False matches the provided answer key with 2.7 correctly set to 0; Q3 fill-in-the-blanks strictly follow the “exact term only” rule (e.g., 3.2 ‘light wieght’ → 0; 3.3 singular ‘inter face’ → 0; 3.5 ‘Controller’ → 3); Q4 subparts scored at 7 each as conceptually far from the required final answers, consistent with the programming question rubric. Arithmetic validation: the sub-scores sum to 66.5, within the 100-point total. No rubric drift, hallucinations, or inconsistent penalties detected.
 --------------------------------------------------------------------------------
 

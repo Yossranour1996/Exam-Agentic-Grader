@@ -1,127 +1,210 @@
+Student Answers:
+
+Question: 1.1
+Answer: means java language is not ties on speciffe oprer operating system architecture
+
+Question: 1.2
+Answer: as the w.w.w occur sharing dato become more wide and orgnize at the data previosly stored all in and can be accessed by any code, [UNK] a must togather to devel the end. become a must do develop language that optimized [UNK] data data to it's function and ocode and constraints it's access.
+
+Question: 1.3
+Answer: OOP (object oriented program) emphasis on data rathe than function eit encapsulate code and data inside class to protect it from misuse. pop (sprecedural orinted program) use data to achieve the aim of function emphasis on function (procedure) rather than data) C is example for this. oop code data code data class java is example for this
+
+Question: 1.4
+Answer: JRE Stand for (jassa Run-time enviroment) its component are : Dj VM (java-virtual machine) 2) Libratries ③ other needed file
+
+Question: 1.5
+Answer: inhertance & is & which new caje class gain learn/ the property of that it it's inherted from. polymorphisma is the ability of a messege to be in defferent form (poly = many, morphism = form) means multiple form
+
+Question: 1.6
+Answer: encapsulation is mechanism that binds togather code and data, and prevent them from interferences. or misuse bylt protected by prevent wrapper from be being accessed by class outside defined class. sencapsulation use classes public class data member+ method
+
+Question: 1.7
+Answer: abstraction can be achieved by : inheretent classes or interfaces (1009. achieved by this method).
+
+Question: 1.8
+Answer: Da thread program terminated by thread if it finish excuting 2) terminated due to unusual [UNK] value/ cause 3) if thread is dead and no longer available.
+
+Question: 1.9
+Answer: 1) System.in : use Standard input port 2) system out: Standard auf output port 3) Sejstem err : for error
+
+Question: 1.10
+Answer: API jave & swing is part of fundamental java classes. it's built on top of AWT. ( abstract window tool kit)
+
+Question: 2.1
+Answer: True
+
+Question: 2.2
+Answer: false Run-tim polymorphis called Dynamic (Dynamic polymorphism) polymorphism
+
+Question: 2.3
+Answer: True
+
+Question: 2.4
+Answer: false (java doesn't support multiple im inheritance at all).
+
+Question: 2.5
+Answer: True
+
+Question: 2.6
+Answer: True
+
+Question: 2.7
+Answer: True
+
+Question: 3.1
+Answer: JDBC (java data-base connative).
+
+Question: 3.2
+Answer: light wieght / continous.
+
+Question: 3.3
+Answer: inter face
+
+Question: 3.4
+Answer: Tools (AWT) abstract window tools
+
+Question: 3.5
+Answer: Controller
+
+Question: 3.6
+Answer: (C)
+
+Question: 3.7
+Answer: Yun-time poly phor phism
+
+Question: 4.1
+Answer: aim to print aech seat with the code in this public class Code associated numbers the program will exeute the says forst Intialy and then enter the System.out.println Conce for loop this loop pass throug element via indexes Starting from index zero = M Cones G until four every time the value of i increased P by one automatically itteration The fat black code output completion 8- h syste system. out print In (Student [i] + "will "you will take seat" + i) (Student [i] + " you will take seat" same asabove just in one line
+
+Question: 4.2
+Answer: Calculate Votes or Calculate Votes = Votes tatal Halive (double) total vates ; * the program print the total no. of Votes $15 here the total noof vates declared as (total votes = 766) we have public static void named calculate Votes which it exeept. one witriolve cand & just one Yabere and multply it and print the outpat So, for sure this value must be (760) the total value (double) just beacuase in declar statment public static ford void the impelt defines as double
+
+--------------------------------------------------------------------------------
+
 Grading:
-Total Mark: 75.5
+Total Mark: 66.5
 
 Evaluations:
 	Question 1.1:
 	Awarded Points: 3.0
-	Justification: Correct. Student wrote: "means java language is not ties on speciffe oprer operating system architecture" which captures architecture-neutral via independence from specific OS/architecture.
+	Justification: Correct. The answer "means java language is not ties on speciffe oprer operating system architecture" captures that Java is not tied to a specific hardware/OS architecture via the JVM/bytecode idea.
 
 	Question 1.2:
 	Awarded Points: 1.5
-	Justification: Partial. Student wrote: "as the w.w.w occur sharing dato become more wide and orgnize ... and can be accessed by any code ... become a must to devel". This hints at wider sharing but misses explicitly that the WWW/Internet enabled distributed/network-based programming and motivated platform-independent, secure, multithreaded languages.
+	Justification: Partial. The answer "as the w.w.w occur sharing dato become more wide... can be accessed by any code" hints at widespread sharing/networked access, but it misses the key idea that the Web/Internet drove distributed, network-based programming and the need for platform-independent, secure, multithreaded languages. Missing explicit mention of "distributed/network programming" and "platform independence/security."
 
 	Question 1.3:
 	Awarded Points: 3.0
-	Justification: Correct. Student contrasted OOP vs POP: "OOP ... encapsulate code and data inside class ... pop ... emphasis on function (procedure) rather than data) C is example"—captures the core difference.
+	Justification: Correct. "OOP ... emphasis on data ... encapsulate code and data inside class... POP ... emphasis on function (procedure) rather than data) C is example ... java is example" correctly contrasts data/objects vs procedures and gives valid examples.
 
 	Question 1.4:
 	Awarded Points: 3.0
-	Justification: Correct. Student listed JRE components: "Dj VM (java-virtual machine) 2) Libratries ③ other needed file" aligning with JVM, core libraries, supporting files.
+	Justification: Correct. Lists "Dj VM (java-virtual machine) 2) Libratries ③ other needed file" which corresponds to JVM, core libraries, and supporting files.
 
 	Question 1.5:
 	Awarded Points: 3.0
-	Justification: Correct. Student described: "inhertance ... class gain ... property ... polymorphisma is the ability ... multiple form"—distinguishes inheritance (reuse via parent-child) and polymorphism (multiple forms).
+	Justification: Correct. "inhertance ... new ... class gain ... property ... inherited" and "polymorphism ... ability ... to be in different form" accurately describe inheritance and polymorphism.
 
 	Question 1.6:
 	Awarded Points: 3.0
-	Justification: Correct. Student wrote: "encapsulation is mechanism that binds togather code and data, and prevent them from interferences ... prevent ... from being accessed by class outside"—matches binding and hiding via access control.
+	Justification: Correct. "encapsulation is mechanism that binds togather code and data, and prevent them from interferences" matches binding data/methods and hiding details via access control.
 
 	Question 1.7:
 	Awarded Points: 1.5
-	Justification: Partial. Student wrote: "abstraction can be achieved by : inheretent classes or interfaces". "interfaces" is correct, but "inheretent classes" is incorrect/misstated; the required term is "abstract classes" (missing).
+	Justification: Partial. The answer "abstraction can be achieved by : inheretent classes or interfaces" includes "interfaces" but "inheretent classes" is incorrect. It should be "abstract classes." Missing the keyword "abstract classes."
 
 	Question 1.8:
 	Awarded Points: 1.5
-	Justification: Partial. Student wrote: "1) ... if it finish excuting 2) terminated due to unusual ... cause 3) if thread is dead and no longer available." Items 1 and 2 map to finishing execution and exception; but "3) if thread is dead and no longer available" is not a cause (missing mention of being interrupted/stopped).
+	Justification: Partial. Provided: "finish excuting" (correct), "terminated due to unusual [UNK] value/ cause" (vaguely suggests an exception), and "if thread is dead and no longer available" (unclear). Missing the explicit reason "is interrupted/stopped." Quote showing vagueness: "if thread is dead and no longer available."
 
 	Question 1.9:
 	Awarded Points: 3.0
-	Justification: Correct. Student listed: "1) System.in ... 2) system out ... 3) Sejstem err" which are the three default streams.
+	Justification: Correct. "System.in ... system out ... Sejstem err" corresponds to System.in, System.out, System.err.
 
 	Question 1.10:
 	Awarded Points: 3.0
-	Justification: Correct. Student: "it's built on top of AWT. (abstract window tool kit)"—Swing on top of AWT.
+	Justification: Correct. "it's built on top of AWT. ( abstract window tool kit)" is the required answer.
 
 	Question 2.1:
 	Awarded Points: 3.0
-	Justification: Correct True/False choice. Student: "2.1) True".
+	Justification: Correct True/False choice. Student answered: "True."
 
 	Question 2.2:
 	Awarded Points: 3.0
-	Justification: Correct True/False choice. Student: "2.2) false" (run-time polymorphism is not static).
+	Justification: Correct True/False choice. Student answered: "false ..." which matches that the statement is False.
 
 	Question 2.3:
 	Awarded Points: 3.0
-	Justification: Correct True/False choice. Student: "3) True".
+	Justification: Correct True/False choice. Student answered: "True."
 
 	Question 2.4:
 	Awarded Points: 3.0
-	Justification: Correct True/False choice. Student: "4) false" (Java does not support multiple inheritance of classes).
+	Justification: Correct True/False choice. Student answered: "false ..." which matches that the statement is False.
 
 	Question 2.5:
 	Awarded Points: 3.0
-	Justification: Correct True/False choice. Student: "5) True" (an interface can inherit multiple interfaces).
+	Justification: Correct True/False choice. Student answered: "True."
 
 	Question 2.6:
 	Awarded Points: 3.0
-	Justification: Correct True/False choice. Student: "6) True" (user input can cause errors).
+	Justification: Correct True/False choice. Student answered: "True."
 
 	Question 2.7:
 	Awarded Points: 0.0
-	Justification: Incorrect True/False choice. Student: "7) True" but correct is False (there is not one JDBC driver for all databases).
+	Justification: Incorrect True/False choice. Student answered: "True," but the correct answer is False (there are multiple JDBC driver types, not one for all databases).
 
 	Question 3.1:
 	Awarded Points: 3.0
-	Justification: Correct. Student: "JDBC (java data-base connative)"—the keyword JDBC is present.
+	Justification: Correct. Student wrote: "JDBC (java data-base connative)." The key term "JDBC" is present.
 
 	Question 3.2:
-	Awarded Points: 3.0
-	Justification: Correct. Student: "light wieght"—acceptable misspelling of "Lightweight".
+	Awarded Points: 0.0
+	Justification: Incorrect. Student wrote: "light wieght / continous." The required term is "Lightweight." This does not match the accepted term.
 
 	Question 3.3:
-	Awarded Points: 3.0
-	Justification: Correct. Student: "inter face"—accepted as "Interfaces" for this blank.
+	Awarded Points: 0.0
+	Justification: Incorrect. Student wrote: "inter face" (singular). The correct term is "Interfaces" (plural). Accepted alternatives are plural-only (e.g., "Interfaces", "Inter faces", "Inter-faces"). Per the rubric, only the exact correct term earns marks.
 
 	Question 3.4:
 	Awarded Points: 0.0
-	Justification: Incorrect. Student wrote: "Tools (AWT) abstract window tools"; correct term is "Container".
+	Justification: Incorrect. Student wrote: "Tools (AWT) abstract window tools." The correct term is "Container."
 
 	Question 3.5:
 	Awarded Points: 3.0
-	Justification: Correct. Student: "Controller" for Model-View-Controller.
+	Justification: Correct. Student wrote: "Controller," which completes "Model-View-Controller."
 
 	Question 3.6:
 	Awarded Points: 3.0
-	Justification: Correct. Student: "(C)" as a POP language example.
+	Justification: Correct. Student wrote: "(C)" which is an accepted example of a procedural language.
 
 	Question 3.7:
-	Awarded Points: 3.0
-	Justification: Correct. Student: "Yun-time poly phor phism"—"Yun-time" matches "Runtime" despite misspelling.
+	Awarded Points: 0.0
+	Justification: Incorrect. Student wrote: "Yun-time poly phor phism." The required term is "Runtime" (or "Run-time"/"Run time").
 
 	Question 4.1:
 	Awarded Points: 7.0
-	Justification: Conceptually far from a valid final answer per rubric (only final answer considered). Student did not provide the required CODE snippet nor the exact output lines. Instead, they wrote: "syste system. out print In (Student [i] + \"will you will take seat\" + i)" and general commentary. No exact final output as required is given, and the variable name ("Student") and formatting differ from the given array "seats" and expected lines.
+	Justification: Conceptually far from the required final answer. The task expected the final code snippet (or exact output). The student did not provide a valid snippet or the exact output; instead they gave a vague description and malformed pseudo-code: "system. out print In (Student [i] + \"will \"you will take seat\" + i) ..." This is not a correct final answer matching the required output.
 
 	Question 4.2:
 	Awarded Points: 7.0
-	Justification: Conceptually far from a valid final answer per rubric (only final answer considered). Student did not provide the required CODE line to call the method nor the exact final output. They wrote narrative text (e.g., "So, for sure this value must be (760)") without supplying the final statement to produce: "Statement: If Java was easy, they would call it Python!" and "The number of people who agree with this statement is 114".
+	Justification: Conceptually far from the required final answer. The task expected the final code snippet (or exact output) calling calculateVotes with 760. The student provided only narrative: "So, for sure this value must be (760) ..." without the required statement (e.g., a call) or the exact output. No valid final answer was given.
 --------------------------------------------------------------------------------
 
 Feedback: 
 Positive Highlights:
-	- Strong fundamentals overall (score: 75.5/100). You clearly explained Java’s architecture neutrality and correctly listed the JRE components (JVM, core libraries, supporting files).
-	- You differentiated OOP vs POP well and correctly described inheritance vs polymorphism and encapsulation.
-	- Good command of core APIs and concepts: default streams (System.in/out/err), Swing built on AWT, and several fill‑in/True–False items (JDBC, lightweight threads, interfaces, MVC, C as POP example, runtime polymorphism).
+	- Strong grasp of core OOP ideas. Your answers clearly distinguished OOP vs POP (Q1.3), defined encapsulation well (Q1.6), and contrasted inheritance and polymorphism correctly (Q1.5).
+	- Solid understanding of Java platform basics: architecture-neutral via JVM/bytecode (Q1.1), JRE components (Q1.4), default streams (Q1.9), and that Swing is built on AWT (Q1.10).
+	- True/False was mostly accurate (6/7 correct), and you nailed several fills (JDBC, MVC “Controller,” and C as a procedural language in Q3.1, Q3.5, Q3.6).
 
 Areas for Improvement:
-	- Q1.2 – Role of the WWW/Internet: Your answer hinted at wider data sharing, but to earn full marks you needed to state that the Web and Internet enabled distributed, network‑based programming and drove the need for platform‑independent, secure, multithreaded languages like Java (with built‑in networking libraries). Study: Java Networking (java.net) – https://docs.oracle.com/javase/tutorial/networking/ and Java’s design goals (platform independence, security, multithreading) – https://docs.oracle.com/javase/overview/.
-	- Q1.7 – Abstraction mechanisms: You wrote “inherent classes,” but the expected term is “abstract classes.” Abstraction in Java is achieved via abstract classes and interfaces. Quick contrast: abstract classes can hold state and provide partial implementations; interfaces define contracts (since Java 8 they can have default/static methods). Study: Abstract classes – https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html and Interfaces – https://docs.oracle.com/javase/tutorial/java/IandI/createinterface.html.
-	- Q1.8 – Thread termination: You correctly included normal completion and exceptions, but the third key reason is being interrupted/stopped. In modern Java, Thread.stop() is deprecated; cooperative interruption via Thread.interrupt() and handling InterruptedException is the expected mechanism. Study: Concurrency (thread lifecycle and interruption) – https://docs.oracle.com/javase/tutorial/essential/concurrency/ .
-	- Q2.7 – JDBC drivers: Mark lost because there isn’t a single universal JDBC driver. Each database typically provides its own (most apps use a Type 4 “pure Java” driver). Learn how JDBC URLs and drivers vary by vendor. Study: JDBC overview – https://docs.oracle.com/javase/tutorial/jdbc/overview/ .
-	- Q3.4 – Swing terminology: The blank was “Container” (e.g., JFrame, JPanel), a component that can hold other components. AWT is the underlying toolkit, not the specific answer here. Study: How to Use Containers (Swing) – https://docs.oracle.com/javase/tutorial/uiswing/containers/index.html and Swing overview/MVC – https://docs.oracle.com/javase/tutorial/uiswing/overview/ .
-	- Q4.1 – Final answer format: You described the idea but didn’t supply the exact required output or the precise CODE line. The minimal correct CODE inside the loop is: System.out.println(seats[i] + ", you will take seat " + i); This would produce exactly the expected five lines. Exam tip: mirror the given variable names (seats) and match punctuation/spaces exactly.
-	- Q4.2 – Final answer format: You needed to 1) print the exact statement with an exclamation point and 2) call the method with totalVotes. A correct solution would be: System.out.println("Statement: If Java was easy, they would call it Python!"); calculateVotes(totalVotes); This yields “The number of people who agree with this statement is 114” because (int)(760 * 0.15) = 114. Remember: when the rubric says only the final answer is considered, provide the exact code/output, not narrative.
-	- Actionable practice – Exact‑output drills: Practice writing the precise System.out.println lines the question demands and keep variable names identical to the prompt. For loops: write 2–3 small exercises printing indexed items (like seats) and verify your console output matches the sample character‑for‑character.
-	- Actionable study plan – Targeted review: (1) Abstraction: abstract classes vs interfaces (links above). (2) Concurrency: thread lifecycle, exceptions, cooperative interruption (link above). (3) JDBC drivers and URLs (link above). (4) Swing containers vs components and MVC (links above). Apply by writing one short code snippet for each topic and running it to confirm behavior/output.
+	- Q1.2 – Role of the Web/Internet: You hinted at wider data sharing, but the key is that the Web drove distributed, networked applications and the need for platform-independent, secure, and multithreaded languages (like Java). Study: The Java Tutorials – “Object-Oriented Programming Concepts” (overview context) https://docs.oracle.com/javase/tutorial/java/concepts/ and “Trail: Concurrency” (why multithreading matters) https://docs.oracle.com/javase/tutorial/essential/concurrency/.
+	- Q1.7 – Ways to achieve abstraction: Use the precise terms: abstract classes and interfaces (not “inherent classes”). Study: Interfaces and Inheritance https://docs.oracle.com/javase/tutorial/java/IandI/createinterface.html and Abstract Classes https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html.
+	- Q1.8 – Thread termination reasons: The three expected reasons are: (1) the run method finishes normally, (2) an uncaught exception terminates the thread, or (3) the thread is interrupted/stopped by another thread. Your third point was too vague. Study: Concurrency Basics – Thread Interruption https://docs.oracle.com/javase/tutorial/essential/concurrency/interrupt.html.
+	- Q2.7 – JDBC drivers: Marked wrong because there isn’t a single driver for all databases. JDBC defines multiple driver types (Type 1–4), and vendors provide their own. Correct truth value is False. Study: JDBC Basics/Drivers Overview https://docs.oracle.com/javase/tutorial/jdbc/basics/overview.html and JDBC Guide https://docs.oracle.com/javase/8/docs/technotes/guides/jdbc/.
+	- Q3.2 – Term: The correct word is “Lightweight” (describes how Java threads share memory and are cheaper than processes). Your answer didn’t match exactly. Study: Concurrency Intro https://docs.oracle.com/javase/tutorial/essential/concurrency/.
+	- Q3.3 – Plural form: “Interfaces” (plural) is required. Singular “inter face” was not accepted by the rubric. Study: Interfaces https://docs.oracle.com/javase/tutorial/java/IandI/createinterface.html.
+	- Q3.4 – UI term: The correct term is “Container” (a component that can contain other components, e.g., JPanel, JFrame). Study: Swing Overview and Containers https://docs.oracle.com/javase/tutorial/uiswing/overview/index.html and https://docs.oracle.com/javase/tutorial/uiswing/components/toplevel.html.
+	- Q3.7 – Polymorphism type: The correct term is “Runtime” (a.k.a. dynamic polymorphism). Practice distinguishing compile-time vs runtime behavior. Study: Polymorphism overview https://docs.oracle.com/javase/tutorial/java/IandI/polymorphism.html.
+	- Q4.1 – Provide the exact printing logic: The loop should print the name and index exactly as shown. A correct line inside the loop would be: System.out.println(seats[i] + ", you will take seat " + i); Your response described the idea but didn’t supply the exact line/output required. Practice writing exact output strings (punctuation/spacing matter). Study: Arrays and for-loops https://docs.oracle.com/javase/tutorial/java/nutsandbolts/for.html and Strings/concatenation https://docs.oracle.com/javase/tutorial/java/data/strings.html.
+	- Q4.2 – Method call and exact output: You identified the right value (760) but didn’t show the required call or exact text. A correct solution would print the exact statement line with the exclamation and then call the method: System.out.println("Statement: If Java was easy, they would call it Python!"); calculateVotes(totalVotes); This yields 114 because 15% of 760 is 114. Study: Defining and calling methods https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html and paying attention to exact output formatting.
 
-You’re very close—your core Java understanding is solid. With a bit more precision on terminology and by practicing exact outputs for coding questions, you can confidently reach a top score next time.
+You showed strong conceptual understanding across many core Java topics—keep going! With a bit more precision on terminology and exact outputs, you’ll be in excellent shape for full marks next time.

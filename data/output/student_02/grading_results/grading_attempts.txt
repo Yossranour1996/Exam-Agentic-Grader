@@ -1,48 +1,48 @@
 Attempt 1:
  
 Grading:
-Total Mark: 55.5
+Total Mark: 59.5
 
 Evaluations:
 	Question 1.1:
 	Awarded Points: 1.5
-	Justification: Partial. Student wrote: "means that Java is a Langauge that works with diffirent components architectures". This suggests platform/architecture independence but does not mention compilation to bytecode or running on the JVM, which is required for full credit.
+	Justification: Partial. You conveyed cross-architecture intent but missed the key mechanism (bytecode on the JVM). Your answer: "works with diffirent components architectures" does not mention JVM/bytecode.
 
 	Question 1.2:
 	Awarded Points: 0.0
-	Justification: No answer provided. The line "2-" is blank; missing any mention of the Web/Internet enabling distributed, network-based, platform-independent programming.
+	Justification: No answer provided: "[NO_RESPONSE_PROVIDED]". Missing mention of how the WWW/Internet enabled distributed, networked, platform-independent programming that drove Java’s design.
 
 	Question 1.3:
 	Awarded Points: 3.0
-	Justification: Correct. Student wrote: "POP emphisis on the procuders (Code of the data OOP emphysis on the classes & objects" capturing that POP focuses on procedures/functions while OOP focuses on objects/classes.
+	Justification: Correct core contrast. You stated POP focuses on procedures and OOP on classes/objects: "POP emphisis on the procuders ... OOP emphysis on the classes & objects".
 
 	Question 1.4:
 	Awarded Points: 1.5
-	Justification: Partial. Student wrote: "JVM , JRE enviroment". Correct components should include JVM and core Java libraries (and supporting files). "JRE environment" is circular and omits core libraries/supporting files.
+	Justification: Partial. You wrote: "JVM , JRE enviroment". Missing core Java libraries and supporting files. Also "JRE environment" is tautological and not a component.
 
 	Question 1.5:
 	Awarded Points: 1.5
-	Justification: Partial. Student wrote: "inhertance, means creating classes from an existing ones..." (acceptable for inheritance) but gave no definition for polymorphism beyond writing "polymorphism:".
+	Justification: Partial. You correctly described inheritance: "creating classes from an existing ones... hasse the methods" but gave no explanation for polymorphism: "polymorphism:" (nothing follows).
 
 	Question 1.6:
 	Awarded Points: 0.0
-	Justification: No answer provided. The line "6-" is blank; missing the idea of binding data/methods and hiding internal details via access modifiers.
+	Justification: No answer provided: "[NO_RESPONSE_PROVIDED]". Missing definition of encapsulation (binding data and methods, hiding implementation via access modifiers).
 
 	Question 1.7:
 	Awarded Points: 1.5
-	Justification: Partial. Student wrote: "= abstract modifiers & interfaces". Correct answer is "abstract classes and interfaces". "abstract modifiers" is not the correct term.
+	Justification: Partial. You wrote: "abstract modifiers & interfaces". The required term is "abstract classes and interfaces"; "abstract modifiers" is not accurate as a way to achieve abstraction.
 
 	Question 1.8:
 	Awarded Points: 1.5
-	Justification: Partial. Student wrote: "a- finished its task nermally." (correct) but "b- dead and no longer executes." and "c- unpredectable events" are incorrect/vague. Missing explicit causes like exception thrown or being interrupted/stopped.
+	Justification: Partial. One correct reason: "finished its task nermally". The others are incorrect/vague: "dead and no longer executes" and "unpredectable events". Missing specific causes like exception or interrupt/stop.
 
 	Question 1.9:
 	Awarded Points: 3.0
-	Justification: Correct. Student wrote: "System.in, system.out, system.err". Minor case on System.out/System.err ignored; streams identified correctly.
+	Justification: Correct: "System.in, system.out, system.err" (case differences ignored).
 
 	Question 1.10:
 	Awarded Points: 0.0
-	Justification: Incorrect. Student wrote: "JDK". Correct: Swing is built on top of AWT.
+	Justification: Incorrect. You wrote: "JDK". Swing is built on top of AWT.
 
 	Question 2.1:
 	Awarded Points: 3.0
@@ -74,39 +74,39 @@ Evaluations:
 
 	Question 3.1:
 	Awarded Points: 0.0
-	Justification: Incorrect. Student wrote: "FRE JVM."; expected "JDBC" (Java Database Connectivity).
+	Justification: Incorrect. You wrote: "FRE JVM.". Expected: "JDBC" (Java Database Connectivity).
 
 	Question 3.2:
 	Awarded Points: 0.0
-	Justification: Incorrect. Student wrote: "connected"; expected "Lightweight" (or equivalent spelling).
+	Justification: Incorrect. You wrote: "connected". Expected: "Lightweight".
 
 	Question 3.3:
 	Awarded Points: 0.0
-	Justification: Incorrect. Student wrote: "thread attributes"; expected "Interfaces".
+	Justification: Incorrect. You wrote: "thread attributes". Expected: "interfaces".
 
 	Question 3.4:
 	Awarded Points: 0.0
-	Justification: Incorrect. Student wrote: "thread"; expected "Container".
+	Justification: Incorrect. You wrote: "thread". Expected: "container".
 
 	Question 3.5:
 	Awarded Points: 0.0
-	Justification: No answer provided; expected "Model-View-Controller" (or acceptable variant).
+	Justification: No answer provided: "[NO_RESPONSE_PROVIDED]". Expected: "Model-View-Controller" (MVC).
 
 	Question 3.6:
 	Awarded Points: 3.0
-	Justification: Correct. Student wrote: "C programming language." which matches an accepted example.
+	Justification: Correct: "C programming language." is an accepted example.
 
 	Question 3.7:
 	Awarded Points: 0.0
-	Justification: Incorrect. Student wrote: "Dynamic"; expected "Runtime" (Run-time/Run time).
+	Justification: Incorrect. You wrote: "Dynamic". Expected: "Runtime" (Run-time).
 
 	Question 4.1:
 	Awarded Points: 11.0
-	Justification: Very close. Student snippet: "seats [i]+", you will take seat" + (i)" produces lines like "M, you will take seat0" (missing a space before the index). Expected: "M, you will take seat 0" with a space. Logic is otherwise correct.
+	Justification: Very close to correct. You indicated the essential concatenation: "seats [i]+", you will take seat" + (i)" but omitted the actual print call (e.g., System.out.println(...)) and spacing/punctuation. The intended logic is clear but not fully specified.
 
 	Question 4.2:
-	Awarded Points: 7.0
-	Justification: Conceptually incorrect/far. Student wrote: "Calculate Votes (total votes)." which does not compile and does not call the provided method. Expected a valid call like calculateVotes(totalVotes); and matching the expected output (including the count of 114).
+	Awarded Points: 11.0
+	Justification: Very close to correct. You wrote: "Calculate Votes (total votes)." which suggests the right method call with the correct argument, but with incorrect capitalization/spacing and not actual Java syntax. Intended logic is clear (call calculateVotes(totalVotes);).
 
 Review: 
 Regrade Decision: <NO_REGRADE>
@@ -114,6 +114,6 @@ Regrade Decision: <NO_REGRADE>
 Identified Errors:
 	- None
 
-QA justification:  Arithmetic check: Sub-scores sum to 55.5, matching the reported total and within the 100-point limit. Rubric adherence: - Q1: Partial/full/zero awards align with the specified marking rules. Notably: 1.1 (partial for vague architecture-neutral), 1.3 (full for clear POP vs OOP distinction), 1.4 (partial; only JVM named, incorrect second component), 1.5 (partial; inheritance defined, polymorphism not), 1.7 (partial; ‘abstract modifiers’ vs abstract classes), 1.8 (partial; one correct cause plus vague/incorrect others), 1.9 (full; correct streams), 1.10 (zero; JDK vs AWT). - Q2: All True/False selections match the key and were awarded correctly; explanations properly ignored per rubric. - Q3: Blanks graded strictly as per accepted terms; only 3.6 correct. - Q4: Scoring matches the rubric’s categorical marks. 4.1 judged “very close” (only spacing in output), awarding 11; 4.2 far from correct (no valid method call/output alignment), awarding 7. Penalty consistency: Typos did not incur undue penalties; conceptual correctness drove scoring. No rubric drift or factual acceptance errors found.
+QA justification:  All awarded marks align with the rubric. Spot checks: Q1 partial-credit applications (1.1, 1.4, 1.5, 1.7, 1.8) are consistent with the rubric’s partial-credit rule; Q2 True/False all match the specified answers with explanations correctly ignored; Q3 strictly enforced exact-term rule with only 3.6 correct; Q4 both subparts reasonably categorized as “very close to correct” (11/14) given the intended logic was clear though syntax/punctuation was imperfect. Arithmetic verification confirms sub-scores sum to 59.5 and are within the 100-point limit. No undue penalty for typos. No rubric drift or factual acceptance errors found. Therefore, no regrade is required.
 --------------------------------------------------------------------------------
 

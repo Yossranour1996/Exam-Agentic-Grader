@@ -2,6 +2,7 @@
 """Unified file I/O utilities for reading and writing various file types."""
 
 import json
+from base64 import b64encode
 from pathlib import Path
 from typing import Any, List, Dict
 
@@ -90,9 +91,25 @@ def write_json(filepath: str | Path, data: List[Dict[str, Any]], indent: int = 2
         return False
 
 
+def read_base64(filepath: str | Path) -> str | None:
+    """Safely read file and return its content as base64 string.
+    
+    :param filepath: Path to file
+    :return: Base64 string of file content or None if error
+    """
+    path = Path(filepath)
+    try:
+        file_b64 = path.read_bytes()
+        return b64encode(file_b64).decode("utf-8")
+    except Exception as e:
+        print(f"Error reading {filepath}: {e}")
+        return None
+
+
 def truncate_text(text: str, limit: int = 40) -> str:
     """
-    Safely write text to file.
+    Truncate text by keeping the first and last parts, 
+    and replacing the middle with ellipsis if it exceeds the line limit.
 
     :param text: Text to truncate.
     :param limit: Min text lenght to apply truncation.
@@ -118,6 +135,7 @@ def file_exists(filepath: str | Path) -> bool:
     :return: True if file exists, False otherwise
     """
     return Path(filepath).exists()
+
 
 def delete_file(filepath: str | Path) -> bool:
     """
