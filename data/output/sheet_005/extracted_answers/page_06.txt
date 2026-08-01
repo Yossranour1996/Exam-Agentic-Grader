@@ -1,0 +1,8 @@
+Qs:
+3.1 (OOP)
+3.2: C programming language
+3.3: data
+3.4: aplet
+3.5: Container
+4.6: [UNK] controller
+3.7: (JDBC) Java Data Bases Connectly

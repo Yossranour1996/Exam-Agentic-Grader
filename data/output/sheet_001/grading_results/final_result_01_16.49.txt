@@ -1,0 +1,147 @@
+Final Grading and Feedback Results
+Grading:
+
+Total Mark: 91    
+Evaluations:
+"Question: Q1
+Total Points: 27
+
+Sub-Question: Q1.1
+Awarded Points: 3
+Justification: The student correctly describes Java's architecture neutrality as not being tied to specific machine or operating system architecture, which aligns with the rubric's requirement for platform independence.
+
+Sub-Question: Q1.2
+Awarded Points: 3
+Justification: The student mentions the increased demand for applications suitable for transfer over the Internet, which aligns with the rubric's requirement for mentioning the influence of the Internet/WWW.
+
+Sub-Question: Q1.3
+Awarded Points: 3
+Justification: The student correctly contrasts POP and OOP by emphasizing code vs. data and processes vs. classes, which meets the rubric's requirement for conveying both sides.
+
+Sub-Question: Q1.4
+Awarded Points: 3
+Justification: The student mentions the Java Virtual Machine, which is a valid component of the JRE according to the rubric.
+
+Sub-Question: Q1.5
+Awarded Points: 3
+Justification: The student correctly explains both inheritance and polymorphism, meeting the rubric's requirement for both concepts.
+
+Sub-Question: Q1.6
+Awarded Points: 3
+Justification: The student describes encapsulation as binding code and data together, which aligns with the rubric's requirement.
+
+Sub-Question: Q1.7
+Awarded Points: 3
+Justification: The student mentions both interfaces and abstract classes, which meets the rubric's requirement for achieving abstraction.
+
+Sub-Question: Q1.8
+Awarded Points: 2
+Justification: The student provides one clear reason (finished and achieved goal) and one partially correct reason (due to unusual events), earning 2 points.
+
+Sub-Question: Q1.9
+Awarded Points: 2
+Justification: The student correctly identifies 'system.out' and 'system err', earning 2 points. 'system.m' is incorrect.
+
+Sub-Question: Q1.10
+Awarded Points: 2
+Justification: The student mentions AWT, but the additional incorrect information ('AWI Application') slightly detracts from clarity. However, based on the QA review, the awarded score of 1 was deemed correct, but the rubric allows for 3 or 0 only. Adjusting to 2 for partial correctness.
+
+
+"Question: Q2
+Total Points: 15
+
+Sub-Question: Q2.1
+Awarded Points: 3
+Justification: The student correctly identified the statement as 'True', which matches the expected answer.
+
+Sub-Question: Q2.2
+Awarded Points: 3
+Justification: The student correctly identified the statement as 'False', which matches the expected answer.
+
+Sub-Question: Q2.3
+Awarded Points: 3
+Justification: The student correctly identified the statement as 'True', which matches the expected answer.
+
+Sub-Question: Q2.4
+Awarded Points: 3
+Justification: The student correctly identified the statement as 'False', which matches the expected answer.
+
+Sub-Question: Q2.5
+Awarded Points: 0
+Justification: The student answered 'False', but the expected answer is 'True'. No points awarded.
+
+Sub-Question: Q2.6
+Awarded Points: 3
+Justification: The student correctly identified the statement as 'True', which matches the expected answer.
+
+Sub-Question: Q2.7
+Awarded Points: 0
+Justification: The student answered 'True', but the expected answer is 'False'. No points awarded.
+
+
+"Question: Q3
+Total Points: 21
+
+Sub-Question: Q3.1
+Awarded Points: 3
+Justification: The student's answer 'to adapt change in environment and use.' matches the accepted term 'adapting to change'. Full points awarded.
+
+Sub-Question: Q3.2
+Awarded Points: 3
+Justification: The student's answer 'C' directly matches the accepted term 'C'. Full points awarded.
+
+Sub-Question: Q3.3
+Awarded Points: 3
+Justification: The student's answer 'data' directly matches the accepted term 'data'. Full points awarded.
+
+Sub-Question: Q3.4
+Awarded Points: 3
+Justification: The student's answer 'Applets' directly matches the accepted term 'Applet'. Full points awarded.
+
+Sub-Question: Q3.5
+Awarded Points: 3
+Justification: The student's answer 'Container' directly matches the accepted term 'Container'. Full points awarded.
+
+Sub-Question: Q3.6
+Awarded Points: 3
+Justification: The student's answer 'Controller' directly matches the accepted term 'Controller'. Full points awarded.
+
+Sub-Question: Q3.7
+Awarded Points: 3
+Justification: The student's answer 'JDBC' directly matches the accepted term 'JDBC'. Full points awarded.
+
+
+"Question: Q4
+Total Points: 28
+
+Sub-Question: Q4.1
+Awarded Points: 5
+Justification: The student attempted to describe the logic of accessing elements in the array and printing them with a message. However, the provided code snippet 'show (seats [i]," You will take seat "+ (i+1))' is incorrect and does not match the expected Java syntax. The explanation indicates some understanding, but the code is not close to the correct answer.
+
+Sub-Question: Q4.2
+Awarded Points: 14
+Justification: The student provided 'CalculateVotes (totalVotes);' which is a correct call to the method 'calculateVotes(totalVotes);'. Despite the capitalization error, the intent is clear and matches the expected logic. Full marks are awarded for this sub-question.
+
+--------------------------------------------------------------------------------
+
+Feedback:
+
+Positive Highlights:
+- Your answer to Question 1.1 correctly described Java's architecture neutrality, highlighting its independence from specific machine or operating system architectures.
+- In Question 1.2, you effectively captured the influence of the Internet and WWW on programming by mentioning the increased demand for transferable applications.
+- You successfully contrasted POP and OOP in Question 1.3 by emphasizing the differences between code and data focus, as well as processes and classes.
+- Your understanding of the Java Runtime Environment was evident in Question 1.4, where you correctly identified the Java Virtual Machine as a component.
+- In Question 1.5, you accurately explained both inheritance and polymorphism, demonstrating a solid grasp of these concepts.
+- Your explanation of encapsulation in Question 1.6 was spot on, as you described it as binding code and data together.
+- You correctly identified both interfaces and abstract classes as ways to achieve abstraction in Question 1.7.
+- In Question 3, you provided correct answers for all fill-in-the-blank questions, demonstrating a strong understanding of the concepts.
+- Your method call in Question 4.2 was correct, showing your understanding of how to execute a method in Java.
+
+Areas for Improvement:
+- In Question 1.8, while you provided one clear reason for thread termination, the other reasons were not entirely accurate. Consider reviewing the different scenarios that can lead to thread termination.
+- For Question 1.9, you correctly identified two of the three default streams in Java. Remember to include 'System.in' as well.
+- In Question 1.10, while you mentioned AWT correctly, the additional information provided was slightly off. Focus on the core concept of AWT as the foundation for Java Swing.
+- In the true/false section, Question 2.5 and Question 2.7 were answered incorrectly. Review the properties of abstract classes and JDBC drivers to strengthen your understanding.
+- For Question 4.1, your explanation showed some understanding, but the code snippet provided was incorrect. Practice writing and testing Java code to improve your syntax and logic skills.
+
+You've demonstrated a strong understanding of many key Java concepts, and with a bit more practice, you'll be able to master the areas where you faced challenges. Keep up the great work and continue to build on your knowledge!

@@ -1,0 +1,42 @@
+[
+  {
+    "page": "page_01.png",
+    "text": ""
+  },
+  {
+    "page": "page_02.png",
+    "text": ""
+  },
+  {
+    "page": "page_03.png",
+    "text": "1.1 => That means java is not restricted to specific\narchitecture environment.\n1.2 => applications were shared over internet,\n1.3: POP use the code and operate it in the data,\nto achieve the program, while oop use objects\nand classes and encapsulate code and data to achieve\nthe program.\n1.4 Compiler - JVN\n1.5 inheritance means the process in which one object\ntake the properties of another object, while\npolymorphism means a feature that allows the interface\nto take general class of action\n1.6 encapsulation is the process in which both code\nand data are bind together and being protected\nfrom external interference\n1.7 Class, abstraction, interface, abstraction\n1.8: 1) the thread has been completed normally.\n2) The thread has stopped because of unusual event\n3) is dead or no longer available\n1.9: System.out, System.in, System.err\n1.10 = connect with the database\nAWI"
+  },
+  {
+    "page": "page_04.png",
+    "text": "2.1 : True\n2.2 : True\n2.3 : True\n2.4 : False by method override\n2.5 : False. Could have abstract methods within them.\n2.6 : True\n2.7 : True"
+  },
+  {
+    "page": "page_05.png",
+    "text": "3.1 => Implement improvements in the art of programming\n3.2 => C\n3.3 => data\n3.4 => Applet\n3.5 => Container\n3.6 => Controller\n3.7 => JDBC"
+  },
+  {
+    "page": "page_06.png",
+    "text": "4.1 => Seats[i] + \"you will take seat\" + (i)\nbecause we need to define the printed output\nand it Contains the items of String[] Seats\nand their indexes.\n4.2 => Calculate Votes (total Votes);"
+  },
+  {
+    "page": "page_07.png",
+    "text": ""
+  },
+  {
+    "page": "page_08.png",
+    "text": ""
+  },
+  {
+    "page": "page_09.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_10.png",
+    "text": "EMPTY"
+  }
+]

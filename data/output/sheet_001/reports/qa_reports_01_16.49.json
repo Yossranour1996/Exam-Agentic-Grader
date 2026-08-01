@@ -1,0 +1,47 @@
+[
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q1",
+        "identified_errors": [
+          {
+            "sub_question": "Q1.10",
+            "description": "The awarded score of 1 does not match the calculated net score of 1.0 after deducting for incorrect additional information. The arithmetic error in the total score calculation needs correction."
+          }
+        ],
+        "summary": "The arithmetic validation revealed that the sum of sub-scores (82) does not match the total awarded score (91). Additionally, the deduction for Q1.10 was correctly calculated to result in a net score of 1, but the total score calculation needs correction."
+      }
+    ]
+  },
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q1",
+        "identified_errors": [
+          {
+            "sub_question": "Q1.10",
+            "description": "The awarded score of 1 for Q1.10 is correct based on the rubric, but the total score calculation is incorrect. The sum of sub-scores is 82, not 91 as reported."
+          }
+        ],
+        "summary": "The arithmetic verification revealed an error in the total score calculation. The sum of sub-scores is 82, not 91. The awarded score for Q1.10 is correct based on the rubric, but the total score needs adjustment."
+      }
+    ]
+  },
+  {
+    "decision": "<NO_REGRADE>",
+    "audits": [
+      {
+        "question": "Q1",
+        "identified_errors": [
+          {
+            "sub_question": "Q1.10",
+            "description": "The awarded score of 2 for Q1.10 is not valid according to the rubric, which only allows scores of 0 or 3. The correct deduction for incorrect information should result in a score of 2, but the rubric does not permit this score."
+          }
+        ],
+        "summary": "The arithmetic validation failed as the sum of sub-scores (82) does not equal the total awarded score (91). However, due to 0 regrade attempts remaining, no changes can be made. The score for Q1.10 should have been adjusted to 2 based on the rubric's leniency for incorrect information, but the rubric does not allow this score."
+      }
+    ]
+  }
+]

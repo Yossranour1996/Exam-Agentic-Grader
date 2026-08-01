@@ -1,0 +1,22 @@
+1.1 => That means java is not restricted to specific
+architecture environment.
+1.2 => applications were shared over internet,
+1.3: POP use the code and operate it in the data,
+to achieve the program, while oop use objects
+and classes and encapsulate code and data to achieve
+the program.
+1.4 Compiler - JVN
+1.5 inheritance means the process in which one object
+take the properties of another object, while
+polymorphism means a feature that allows the interface
+to take general class of action
+1.6 encapsulation is the process in which both code
+and data are bind together and being protected
+from external interference
+1.7 Class, abstraction, interface, abstraction
+1.8: 1) the thread has been completed normally.
+2) The thread has stopped because of unusual event
+3) is dead or no longer available
+1.9: System.out, System.in, System.err
+1.10 = connect with the database
+AWI

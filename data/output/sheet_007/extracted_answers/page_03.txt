@@ -1,0 +1,23 @@
+1.1 It means that Java isn't specified for specific machine
+or Operating system architecture.
+1.2 The complexity increased so Java was made in labs and
+Java is ene enhancement in programming
+languages.
+1.3 - While POP have a procedure to deal with data "Code"
+OOP uses classes and objects to encapsulate code and
+its data.
+1.4 Java virtual machine JVM
+executing programmes "java"
+and compiling ones "javac"
+1.5 inheritance: making new classes based on already existing
+ones but & polymorphism: mechanism of having many
+forms of each class.
+1.6 Encapsulation is the mechanism of binding up data
+and its code together.
+1.7 Interface, abstracted classes
+1.8 (i) the program accomplished its goal.
+(ii) Oet Unusual events occure
+(iii) The program is dead or no longer available.
+1.9 (i) System.in
+(ii) System.out
+(iii) System.err

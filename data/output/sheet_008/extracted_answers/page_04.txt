@@ -1,0 +1,7 @@
+1) True
+2) False = o other True
+3) True
+4) False = o by over overriding method or you can say compile time
+5) False = o could not
+6) True
+7) True

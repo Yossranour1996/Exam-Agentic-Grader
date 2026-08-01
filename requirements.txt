@@ -2,6 +2,10 @@
 langgraph
 langchain
 langchain-core
+langchain-openai
+langchain-community
+langchain-text-splitters
+langchain-chroma
 pydantic
 
 # Image processing
@@ -12,6 +16,7 @@ opencv-python
 
 # Vision & OCR APIs
 google-generativeai
+google-genai
 torch
 transformers
 
@@ -19,3 +24,6 @@ transformers
 python-dotenv
 numpy
 tqdm
+openpyxl
+pyyaml
+python-dotenv

@@ -1,0 +1,16 @@
+# src/core/paths.yaml
+
+# Contains the paths for all the base directories used in the worklfow
+
+base_directories:
+  base_dir: "data"
+  input_base: "data/input"
+  output_base: "data/output"
+
+inputs:
+  exams_dir: "data/input/exams"
+  criteria_dir: "data/input/rubrics"
+  sheets_dir: "data/input/answer_sheets"
+
+outputs:
+  exports_dir: "data/output/exports"

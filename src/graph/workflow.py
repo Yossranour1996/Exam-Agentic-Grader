@@ -1,264 +1,257 @@
 # src/graph/workflow.py
 from __future__ import annotations
 
-from langgraph.graph import StateGraph, END
+import json
+from datetime import datetime
+from pathlib import Path
+from typing import Any
+
+from langgraph.graph import END, StateGraph
 from langgraph.runtime import Runtime
 
-from src.state import InputState, OutputState, State, Context
-from src.agents import extractor, grader, qa, feedback, exporter
-from src.tools.pdf_to_images import pdf_to_images
-from src.utils import io, logging
+from src.agents.feedback import FeedbackAgent
+from src.agents.qa import QAAgent
+from src.core.state import Context, InputState, OutputState, State
+from src.subgraphs.export_graph import ExportGraph
+from src.subgraphs.extraction_graph import ExtractionGraph
+from src.subgraphs.grading_graph import GradingGraph
+from src.utils import io
+from src.utils.logging import Logger
 
 
-# Global variables to hold the agent instances
-grader_agent = None
-qa_agent = None
-feedback_agent = None
-exporter_agent = None
+class GradingWorkflow:
+    """Coordinate extraction, parallel grading, QA, feedback, and export."""
 
+    def __init__(self, model="gpt-4o", ocr_model="gpt-4o", temperature=0.0, max_tokens=None):
+        self.extractor = ExtractionGraph(ocr_model, model, temperature, max_tokens)
+        self.grader = GradingGraph(model, temperature, max_tokens)
+        self.qa = QAAgent(model, temperature, max_tokens)
+        self.feedback = FeedbackAgent(model, temperature, max_tokens)
+        self.exporter = ExportGraph()
 
-def node_pdf_to_images(state: InputState, runtime: Runtime[Context]) -> State:
-    """Convert student's answer sheet PDF to images and update state."""
+    @staticmethod
+    def _load_yaml(path: Path, logger: Logger) -> dict[str, Any]:
+        """Load one required mapping and fail early with a useful log entry."""
+        if not path.is_file():
+            logger.log(f"Required input not found: {path}", level="error", step_label="Prepare")
+            raise FileNotFoundError(path)
 
-    student_id = state["student_id"]
-    dpi = state.get("dpi", 300)
-    answer_sheets_dir = runtime.context.answer_sheets_dir
-    output_base = runtime.context.output_base
+        value = io.read_yaml(path, logger)
 
-    student_pdf_path = answer_sheets_dir / f"{student_id}.pdf"
-    pages_dir = output_base / student_id / "pages"
+        if not isinstance(value, dict):
+            logger.log(f"Invalid YAML mapping: {path}", level="error", step_label="Prepare")
+            raise ValueError(f"Expected a YAML mapping in {path}")
 
-    # pages = pdf_to_images(
-    #     pdf_path=student_pdf_path,
-    #     out_dir=pages_dir,
-    #     dpi=dpi
-    #     )
-    pages = [f"page_{i:02d}.png" for i in range(1, 11)]
+        return value
 
-    print("Converted", len(pages), "pages.")
-    return {
-        "pages": pages
+    def node_prepare(self, state: InputState, runtime: Runtime[Context]) -> State:
+        """Resolve paths, initialize logging, and load immutable grading inputs."""
+        required = ("exam_file", "rubric_file", "review_criteria_file")
+        missing = [name for name in required if not state.get(name)]
+        if missing:
+            raise ValueError(f"Missing input configuration: {', '.join(missing)}")
+
+        context, sheet_id = runtime.context, state['sheet_id']
+        output_dir = context.output_base / sheet_id
+        run_id = datetime.now().strftime("%d_%H.%M")
+        directories = {
+            "pages_dir": output_dir / "pages",
+            "extract_dir": output_dir / "extracted_answers",
+            "reports_dir": output_dir / "reports",
+            "results_dir": output_dir / "grading_results",
+        }
+        log_path = output_dir / "logs" / f"log_{run_id}.log"
+        logger = Logger(log_path)
+        files = {
+            "exam": self._load_yaml(context.exams_dir / state['exam_file'], logger),
+            "rubric": self._load_yaml(context.criteria_dir / state['rubric_file'], logger),
+            "review_criteria": self._load_yaml(context.criteria_dir / state['review_criteria_file'], logger)
+        }
+
+        logger.log(f"Prepared state for {sheet_id}.\nPaths ready.", level="debug", step_label="Prepare")
+
+        return {
+            "run_id": run_id,
+            "sheet_path": context.sheets_dir / f"{sheet_id}.pdf",
+            **directories,
+            "log_path": log_path,
+            "logger": logger,
+            **files,
+            "regrade_counter": state.get('max_regrade', 1)
         }
 
 
-def node_gemini_ocr(state: State, runtime: Runtime[Context]) -> State:
-    """Extract text from answer sheet pages using Gemini OCR and update state."""
+    def node_extractor(self, state: State, runtime: Runtime[Context]) -> State:
+        """Extract and structure answers, or reuse the latest extraction."""
+        logger = state['logger']
+        if not state.get('do_extract', True):
+            print("Extraction step skipped as per configuration.\n")
+            return self.extractor.skip(state['extract_dir'], logger)
 
-    student_id = state["student_id"]
-    max_pages = state.get("max_pages", 3)  # جرّبي أولاً 3 صفحات
-    output_base = runtime.context.output_base
+        print("Extracting answers...")
+        logger.log(f"Extracting answers for {state['sheet_id']} from {state['sheet_path']}", level="debug", step_label="Extractor")
 
-    extract_dir = output_base / student_id / "extracted_text"
-    log_path = output_base / student_id / "messages_log.log"
-    io.delete_file(log_path)  # Clear previous logs.
+        state = self.extractor.invoke(state)
 
-    # ocr_pages = extractor.extract_exam_pages(
-    #     images=state.get("pages", []),
-    #     out_dir=extract_dir,
-    #     max_pages=max_pages
-    #     )
-    ocr_pages = io.read_json(extract_dir / "raw_extraction.json")
+        print("Extracted answers.\n")
+        logger.log(f"Extracted answers, saved at {state['extract_dir']}.", level="info", step_label="Extractor")
 
-    print("Extracted text from", len(ocr_pages), "pages.")
-    return {
-        "extract_dir": str(extract_dir),
-        "log_path": str(log_path),
-        "ocr_pages": ocr_pages,
+        return state
+
+
+    def node_grader(self, state: State, runtime: Runtime[Context]) -> State:
+        """Run the requested question workers and save the aggregated attempt."""
+        logger = state['logger']
+        if not state.get('do_grade', True):
+            print("Grading step skipped as per configuration.\n")
+            return self.grader.skip(state['results_dir'], logger)
+
+        print("Grading exam...")
+        logger.log("Grading exam based on extracted answers and rubric.", level="debug", step_label="Grader")
+
+        state = self.grader.invoke(state)
+
+        io.write_json(filepath=state['reports_dir'] / f"grading_reports_{state['run_id']}.json", data=[state['grading_result']], logger=logger)
+
+        print("Grading completed.\n")
+        logger.log(f"Grading completed. Reports saved at {state['reports_dir']}", level="debug", step_label="Grader")
+
+        return state
+
+
+    def node_qa(self, state: State, runtime: Runtime[Context]) -> State:
+        """Audit the combined grade and identify only questions needing another pass."""
+        logger = state['logger']
+        if not state.get('do_qa', True):
+            print("Quality assurance step skipped as per configuration.\n")
+            output = self.qa.skip(logger)
+            data, text = output['result_json'], output['result_str']
+            return {
+                "regrade": "<NO_REGRADE>",
+                "regrade_counter": 0,
+                "qa_result": data,
+                "qa_result_str": text,
+                "messages": output.get('messages', [])
+            }
+
+        if state.get('regrade'):
+            state['regrade_counter'] -= 1
+
+        print("Performing quality assurance on grading results...")
+        logger.log("Performing quality assurance on grading results based on review criteria.", level="debug", step_label="Quality-Assurance")
+
+        output = self.qa.invoke({
+            "rubric": json.dumps(state['rubric'], ensure_ascii=False),
+            "review_criteria": json.dumps(state['review_criteria'], ensure_ascii=False),
+            "remaining_regrade_attempts": state['regrade_counter'],
+            "student_answers": json.dumps(state['student_answers'], ensure_ascii=False),
+            "grading": json.dumps(state['grading_result'], ensure_ascii=False)
+        })
+
+        io.write_json(filepath=state['reports_dir'] / f"qa_reports_{state['run_id']}.json", data=[output['result_json']], logger=logger)
+
+        logger.log_messages(output['messages'], step_label="Quality-Assurance")
+        print("Quality assurance completed.\n")
+        logger.log(f"Quality assurance completed. Reports saved at {state['reports_dir']}", level="debug", step_label="Quality-Assurance")
+
+        data, text = output['result_json'], output['result_str']
+        question_ids = sorted([audit.get('question', '') for audit in data.get('audits', [])])
+        return {
+            "regrade": data.get('decision', '') == "<REGRADE_REQUIRED>",
+            "regrade_question_ids": question_ids,
+            "regrade_counter": state['regrade_counter'],
+            "qa_result": data,
+            "qa_result_str": text,
+            "messages": output.get('messages', [])
         }
 
 
-def node_grader(state: State, runtime: Runtime[Context]) -> State:
-    """Grade the extracted answers based on the rubric and update state with response."""
+    def node_feedback(self, state: State, runtime: Runtime[Context]) -> State:
+        """Convert final grading evidence into student-facing guidance."""
+        logger = state['logger']
+        if not state.get('do_feedback', True):
+            print("Feedback generation step skipped as per configuration.\n")
+            result = self.feedback.skip(logger)
+            return {
+                "feedback_result_str": result['result_str'],
+                "feedback_result_json": result['result_json'],
+                "messages": []
+            }
 
-    exam_file = state.get("exam_file")
-    rubric_file = state.get("rubric_file")
-    exam_dir = runtime.context.exams_dir
-    criteria_dir = runtime.context.criteria_dir
+        print("Generating feedback for the student...")
+        logger.log("Generating feedback for the student based on grading and QA results.", level="debug", step_label="Feedback")
 
-    exam = io.read_text(exam_dir / exam_file) if exam_file else None
-    rubric = io.read_text(criteria_dir / rubric_file) if rubric_file else None
-    
-    print("\nGrading exam...")
-    grader_output = grader_agent.invoke(
-        input=grader.InputState({
-            "student_answers": state.get("ocr_pages", "Problem getting answers") if state.get("regrade") != "<REGRADE_REQUIRED>" else "Provided",
-            "exam": exam or "Exam content unavailable",
-            "rubric": rubric or "Standard evaluation criteria",
-            "review": state.get("qa_results")[-1] if state.get("qa_results") and len(state.get("qa_results")) > 0 else "Unreviewed",
-            "messages": state.get("grader_messages", []),
-            }),
-        )
-    
-    # Keep logs of LLM messages for traceability and debugging.
-    logging.log_messages(
-        [message for message in
-        grader_output["messages"] if message not in state["grader_messages"]],
-        state.get("log_path", "grading_log.txt"),
-        step_label="Grader"
-        )
-    
-    print("Grading completed.")
-    return {
-        "grader_results": [grader_output["grading_result"]],
-        "grader_messages": grader_output["messages"],
-        "messages": grader_output["messages"]
+        result = self.feedback.invoke({
+            "exam": json.dumps(state['exam'], ensure_ascii=False),
+            "rubric": json.dumps(state['rubric'], ensure_ascii=False),
+            "student_answers": json.dumps(state['student_answers'], ensure_ascii=False),
+            "grading": json.dumps(state['grading_result'], ensure_ascii=False)
+        })
+
+        logger.log_messages(result['messages'], step_label="Feedback")
+        print("Feedback generation completed.\n")
+        logger.log("Feedback generation completed.", level="debug", step_label="Feedback")
+        return {
+            "feedback_result": result['result_json'],
+            "feedback_result_str": result['result_str'],
+            "messages": result['messages']
         }
 
 
-def node_qa(state: State, runtime: Runtime[Context]) -> State:
-    """Perform quality assurance on grading results based on review criteria and update state."""
+    def node_export(self, state: State, runtime: Runtime[Context]) -> OutputState:
+        """Persist final artifacts and close the per-run logger."""
+        logger = state['logger']
+        if not state.get('do_export', True):
+            print("Exporting step skipped as per configuration.\n")
+            logger.log("Exporting step skipped as per configuration.", level="warning", step_label="Exporter")
+            return state
 
-    exam_file = state.get("exam_file")
-    rubric_file = state.get("rubric_file")
-    review_criteria_file = state.get("review_criteria_file")
-    exam_dir = runtime.context.exams_dir
-    criteria_dir = runtime.context.criteria_dir
+        print("Exporting results...")
+        logger.log("Exporting grading results to specified directory.", level="debug", step_label="Exporter")
 
-    exam = io.read_text(exam_dir / exam_file) if exam_file else None
-    rubric = io.read_text(criteria_dir / rubric_file) if rubric_file else None
-    review_criteria = io.read_text(criteria_dir / review_criteria_file) if review_criteria_file else None
+        self.exporter.invoke(state, runtime.context)
 
-    print("\nPerforming quality assurance on grading results...")
-    qa_output = qa_agent.invoke(
-        input=qa.InputState({
-            "student_answers": state.get("ocr_pages", "Problem getting answers") if state.get("regrade") != "<REGRADE_REQUIRED>" else "Provided",
-            "exam": exam or "Exam content unavailable",
-            "rubric": rubric or "Standard evaluation criteria",
-            "criteria": review_criteria or "Standard review criteria",
-            "grading": state.get("grader_results")[-1] if state.get("grader_results") and len(state.get("grader_results")) > 0 else "Ungraded",
-            "regrade_counter": state.get("max_regrade", 1),
-            "messages": state.get("qa_messages", [])
-            }),
-        )
-    
-    # Keep logs of LLM messages for traceability and debugging.
-    logging.log_messages(
-        [message for message in qa_output["messages"] if message not in state["qa_messages"]],
-        state["log_path"],
-        step_label="Quality-Assurance"
-        )
-    
-    print("Quality assurance completed.")
-    return {
-        "max_regrade": state.get("max_regrade", 1) - 1,
-        "qa_results": [qa_output["qa_result"]],
-        "regrade": qa_output["regrade"],
-        "qa_messages": qa_output["messages"],
-        "messages": qa_output["messages"]
-        }
+        print("Results exported.\n")
+        logger.log(f"Exported final grading, qa and feedback results to {state['results_dir']}. Exported data to {runtime.context.export_dir}\n", level="debug", step_label="Exporter")
+        logger.shutdown()  # Flush the run-specific handler before returning.
+        return state
 
+    def regrade_decision(self, state: State) -> str:
+        """Route QA failures back only while the configured budget remains."""
+        logger = state['logger']
+        if state['regrade'] and state['regrade_counter'] > 0:
+            print("QA requested regrade. Routing back to grader.\n")
+            logger.log(f"QA requested regrade. Remaining regrade attempts: {state['regrade_counter']}. Routing back to grader.", level="warning", step_label="Quality-Assurance (Regrade Decision)")
+            return "regrade"
 
-def node_feedback(state: State, runtime: Runtime[Context]) -> State:
-    """Generate feedback for the student based on grading and QA messages and criteria, and update state."""
+        if state['regrade'] and state['regrade_counter'] <= 0:
+            print("QA requested regrade. Reached maximum regrades allowed. Proceeding to feedback.\n")
+            logger.log("QA requested regrade. Reached maximum regrades allowed. Proceeding to feedback.", level="debug", step_label="Quality-Assurance (Regrade Decision)")
 
-    exam_file = state.get("exam_file")
-    rubric_file = state.get("rubric_file")
-    exam_dir = runtime.context.exams_dir
-    criteria_dir = runtime.context.criteria_dir
+        else:
+            print("QA cleared. Proceeding to feedback.\n")
+            logger.log("QA cleared. Proceeding to feedback.", level="debug", step_label="Quality-Assurance (Regrade Decision)")
 
-    exam = io.read_text(exam_dir / exam_file) if exam_file else None
-    rubric = io.read_text(criteria_dir / rubric_file) if rubric_file else None
+        return "continue"
 
-    print("\nGenerating feedback for the student...")
-    feedback_output = feedback_agent.invoke(
-        input=feedback.InputState({
-            "student_answers": state.get("ocr_pages", "Problem getting answers"),
-            "exam": exam or "Exam content unavailable",
-            "rubric": rubric or "Standard evaluation criteria",
-            "grading": state.get("grader_results")[-1] if state.get("grader_results") and len(state.get("grader_results")) > 0 else "Ungraded",
-            }),
-        )
-    
-    # Keep logs of LLM messages for traceability and debugging.
-    logging.log_messages(
-        feedback_output["messages"],
-        state["log_path"],
-        step_label="Feedback"
-        )
-    
-    print("Feedback generation completed.")
-    return {
-        "feedback_result": feedback_output["feedback_result"],
-        "messages": feedback_output["messages"]
-        }
+    def compile(self):
+        """Build the linear workflow with one conditional QA loop."""
+        graph = StateGraph(State, input_schema=InputState, output_schema=OutputState, context_schema=Context)
+
+        for name, node in (("prepare", self.node_prepare), ("extractor", self.node_extractor), ("grader", self.node_grader), ("quality_assurance", self.node_qa), ("feedback", self.node_feedback), ("export", self.node_export)):
+            graph.add_node(name, node)
+
+        graph.set_entry_point("prepare")
+        graph.add_edge("prepare", "extractor")
+        graph.add_edge("extractor", "grader")
+        graph.add_edge("grader", "quality_assurance")
+        graph.add_conditional_edges("quality_assurance", self.regrade_decision, {"regrade": "grader", "continue": "feedback"})
+        graph.add_edge("feedback", "export")
+        graph.add_edge("export", END)
+
+        return graph.compile()
 
 
-def regrade_decision(state: State) -> str:
-    """Decide routing after QA: return 'regrade' to send back to grader,
-    or 'continue' to proceed to feedback/export."""
-
-    regrade = state["regrade"]
-    counter = state.get("max_regrade", 0)
-    
-    if regrade == "<REGRADE_REQUIRED>" and counter >= 0:
-        print("\nQA requested regrade. Routing back to grader.")
-        return "regrade"
-    else:
-        print("\nQA cleared. Proceeding to feedback.")
-        return "continue"  # default safe behavior
-
-
-def node_exporter(state: State, runtime: Runtime[Context]) -> OutputState:
-    """Export grading results to specified directory."""
-    
-    student_id = state["student_id"]
-    out_dir = runtime.context.output_base
-
-    export_dir = out_dir / student_id / "grading_results"
-
-    print("\nExporting results...")
-    exporter_agent.invoke(
-        input=exporter.ExporterState({
-            "grader_results": state["grader_results"],
-            "qa_results": state["qa_results"],
-            "feedback_result": state["feedback_result"],
-            "export_dir": export_dir
-            })
-        )
-
-    logging.logging.shutdown()  # Ensure all logs are flushed before program exit.
-    print("Results exported.")
-    return {"export_dir": str(export_dir)}
-
-
-def build_graph(
-        model: str = "gpt-4o",
-        temperature: float = 0.0,
-        max_tokens: int | None = None,
-):
-    
-    global grader_agent, qa_agent, feedback_agent, exporter_agent
-    grader_agent = grader.build_agent(model, temperature, max_tokens)
-    qa_agent = qa.build_agent(model, temperature, max_tokens)
-    feedback_agent = feedback.build_agent(model, temperature, max_tokens)
-    exporter_agent = exporter.build_agent()
-
-    g = StateGraph(
-        State,
-        input_schema=InputState,
-        output_schema=OutputState,
-        context_schema=Context
-        )
-    g.add_node("pdf_to_images", node_pdf_to_images)
-    g.add_node("gemini_ocr", node_gemini_ocr)
-    g.add_node("grader", node_grader)
-    g.add_node("quality_assurance", node_qa)
-    g.add_node("feedback", node_feedback)
-    g.add_node("exporter", node_exporter)
-
-    g.set_entry_point("pdf_to_images")
-    g.add_edge("pdf_to_images", "gemini_ocr")
-    g.add_edge("gemini_ocr", "grader")
-    g.add_edge("grader", "quality_assurance")
-    g.add_conditional_edges(
-        "quality_assurance",
-        regrade_decision,
-        {
-            "regrade": "grader",
-            "continue": "feedback",
-        }
-    )
-    g.add_edge("feedback", "exporter")
-    g.add_edge("exporter", END)
-
-    return g.compile()
+def build_graph(model="gpt-4o", ocr_model="gpt-4o", temperature=0.0, max_tokens=None):
+    """Public factory used by the application and tests."""
+    return GradingWorkflow(model, ocr_model, temperature, max_tokens).compile()

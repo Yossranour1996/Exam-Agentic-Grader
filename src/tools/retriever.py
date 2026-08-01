@@ -1,3 +1,5 @@
+"""Optional course-material retriever used by future grounded agents."""
+
 import os
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
@@ -6,10 +8,11 @@ from langchain_openai import OpenAIEmbeddings
 
 
 KNOWLEDGE_BASE = [
-	"",
 ]
 
 def create_retriever():
+	if not KNOWLEDGE_BASE:
+		raise ValueError("KNOWLEDGE_BASE is empty; configure course PDF paths first.")
 	# Create documents
 	documents = []
 	for path in KNOWLEDGE_BASE:
@@ -47,7 +50,7 @@ def create_retriever():
 	try:
 		# Here, we actually create the chroma database using our embeddigns model
 		vectorstore = Chroma.from_documents(
-			documents=pages,
+			documents=documents,
 			embedding=embeddings,
 			persist_directory=persist_directory,
 			collection_name=collection_name

@@ -1,0 +1,7 @@
+2.1 : True
+2.2 : True
+2.3 : True
+2.4 : False by method override
+2.5 : False. Could have abstract methods within them.
+2.6 : True
+2.7 : True

@@ -1,0 +1,6 @@
+We added the missing statemented and printed it on
+a new line -
+System.out.println("the amount of people who agrees with this")
+statement is
+System.out.println("Statement. if Java was easy they would
+call it Python!")

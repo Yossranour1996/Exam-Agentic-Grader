@@ -1,4 +1,4 @@
-# src/tools/hunyuan_ocr.py
+"""Optional local Hunyuan OCR backend with lazy model loading."""
 from __future__ import annotations
 
 from functools import lru_cache

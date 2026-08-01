@@ -1,0 +1,479 @@
+[
+  {
+    "total_mark": 72,
+    "evaluations": [
+      {
+        "question": "Q1",
+        "total_points": 27,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q1.1",
+            "awarded_points": 3,
+            "justification": "The student correctly identifies that Java is not tied to a specific machine or operating system architecture, indicating an understanding of architecture neutrality."
+          },
+          {
+            "sub_question": "Q1.2",
+            "awarded_points": 3,
+            "justification": "The student mentions that the Internet and WWW helped catapult Java to the forefront of programming, which aligns with the rubric's requirement for recognizing the influence of the Internet/WWW on Java's platform-independent demand."
+          },
+          {
+            "sub_question": "Q1.3",
+            "awarded_points": 3,
+            "justification": "The student correctly describes both POP and OOP, highlighting the focus on procedures in POP and objects in OOP, fulfilling the rubric's requirement for both sides to be conveyed."
+          },
+          {
+            "sub_question": "Q1.4",
+            "awarded_points": 0,
+            "justification": "The student describes the purpose of JRE but does not mention any specific components like JVM or core libraries, which is required for points."
+          },
+          {
+            "sub_question": "Q1.5",
+            "awarded_points": 3,
+            "justification": "The student correctly explains both inheritance and polymorphism, meeting the rubric's requirement for full marks."
+          },
+          {
+            "sub_question": "Q1.6",
+            "awarded_points": 3,
+            "justification": "The student accurately describes encapsulation as binding data and code together and protecting them from outside interference, which aligns with the rubric's expectations."
+          },
+          {
+            "sub_question": "Q1.7",
+            "awarded_points": 3,
+            "justification": "The student mentions both abstract classes and interfaces as ways to achieve abstraction, fulfilling the rubric's requirement."
+          },
+          {
+            "sub_question": "Q1.8",
+            "awarded_points": 3,
+            "justification": "The student provides three valid reasons for thread termination: normal completion, termination due to an unusual event, and being dead/no longer available, which aligns with the rubric's expectations."
+          },
+          {
+            "sub_question": "Q1.9",
+            "awarded_points": 3,
+            "justification": "The student correctly lists System.out, System.in, and System.err as the three default streams in Java, meeting the rubric's requirement."
+          },
+          {
+            "sub_question": "Q1.10",
+            "awarded_points": 3,
+            "justification": "The student correctly identifies AWT (Abstract Window Toolkit) as the API on which Java Swing was built, fulfilling the rubric's requirement."
+          }
+        ]
+      },
+      {
+        "question": "Q2",
+        "total_points": 12,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q2.1",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as True."
+          },
+          {
+            "sub_question": "Q2.2",
+            "awarded_points": 0,
+            "justification": "The student incorrectly identified the statement as True; the correct answer is False."
+          },
+          {
+            "sub_question": "Q2.3",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as True."
+          },
+          {
+            "sub_question": "Q2.4",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as False."
+          },
+          {
+            "sub_question": "Q2.5",
+            "awarded_points": 0,
+            "justification": "The student incorrectly identified the statement as False; the correct answer is True."
+          },
+          {
+            "sub_question": "Q2.6",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as True."
+          },
+          {
+            "sub_question": "Q2.7",
+            "awarded_points": 0,
+            "justification": "The student incorrectly identified the statement as True; the correct answer is False."
+          }
+        ]
+      },
+      {
+        "question": "Q3",
+        "total_points": 21,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q3.1",
+            "awarded_points": 3,
+            "justification": "The answer 'adapt to changing environment and uses is one of reasons.' matches the accepted term 'adapting to change'. Full points awarded."
+          },
+          {
+            "sub_question": "Q3.2",
+            "awarded_points": 3,
+            "justification": "The answer 'C is an example of a POP language.' directly matches the accepted concept 'C'. Full points awarded."
+          },
+          {
+            "sub_question": "Q3.3",
+            "awarded_points": 3,
+            "justification": "The answer 'POP does not allow data' directly matches the accepted concept 'data'. Full points awarded."
+          },
+          {
+            "sub_question": "Q3.4",
+            "awarded_points": 3,
+            "justification": "The answer 'Applet are small programs' directly matches the accepted concept 'Applet'. Full points awarded."
+          },
+          {
+            "sub_question": "Q3.5",
+            "awarded_points": 3,
+            "justification": "The answer 'a From container is a component which' directly matches the accepted concept 'Container'. Full points awarded."
+          },
+          {
+            "sub_question": "Q3.6",
+            "awarded_points": 3,
+            "justification": "The answer 'The model view controlled architecture.' matches the accepted term 'Controller'. Full points awarded."
+          },
+          {
+            "sub_question": "Q3.7",
+            "awarded_points": 3,
+            "justification": "The answer 'JDBC is a Java API' directly matches the accepted concept 'JDBC'. Full points awarded."
+          }
+        ]
+      },
+      {
+        "question": "Q4",
+        "total_points": 12,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q4.1",
+            "awarded_points": 5,
+            "justification": "The student attempted to concatenate elements and index, but the syntax is incorrect. The use of 'Students E I ]' is not recognizable as a valid Java expression. However, the intent to concatenate a seat and its index is evident, which merits partial credit."
+          },
+          {
+            "sub_question": "Q4.2",
+            "awarded_points": 7,
+            "justification": "The student wrote 'Calculate Votes (total votes);' which shows an understanding of calling a method with a parameter. The capitalization and spacing errors are minor, and the logic direction is correct, thus deserving partial credit."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "total_mark": 75,
+    "evaluations": [
+      {
+        "question": "Q1",
+        "total_points": 30,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q1.1",
+            "awarded_points": 3,
+            "justification": "The student correctly identified that Java is not tied to a specific machine or operating system architecture, indicating architecture neutrality."
+          },
+          {
+            "sub_question": "Q1.2",
+            "awarded_points": 3,
+            "justification": "The student mentioned the influence of the Internet/WWW in promoting Java, which aligns with the rubric's requirement for recognizing the Internet's role in Java's popularity."
+          },
+          {
+            "sub_question": "Q1.3",
+            "awarded_points": 3,
+            "justification": "The student accurately described both POP and OOP, highlighting the procedural focus of POP and the object-oriented focus of OOP."
+          },
+          {
+            "sub_question": "Q1.4",
+            "awarded_points": 3,
+            "justification": "The student mentioned the Java Runtime Environment (JRE) as a component, which is valid according to the rubric and confirmed by the QA review notes."
+          },
+          {
+            "sub_question": "Q1.5",
+            "awarded_points": 3,
+            "justification": "The student correctly explained both inheritance and polymorphism, meeting the rubric's criteria for full marks."
+          },
+          {
+            "sub_question": "Q1.6",
+            "awarded_points": 3,
+            "justification": "The student correctly described encapsulation as binding data and code together, protecting them from outside interference."
+          },
+          {
+            "sub_question": "Q1.7",
+            "awarded_points": 3,
+            "justification": "The student mentioned both abstract classes and interfaces as ways to achieve abstraction, fulfilling the rubric's requirements."
+          },
+          {
+            "sub_question": "Q1.8",
+            "awarded_points": 3,
+            "justification": "The student provided three valid reasons for thread termination, each aligning with the rubric's expectations."
+          },
+          {
+            "sub_question": "Q1.9",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the three default streams in Java: System.in, System.out, and System.err."
+          },
+          {
+            "sub_question": "Q1.10",
+            "awarded_points": 3,
+            "justification": "The student correctly identified AWT (Abstract Window Toolkit) as the API on which Java Swing was built."
+          }
+        ]
+      },
+      {
+        "question": "Q2",
+        "total_points": 12,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q2.1",
+            "awarded_points": 3,
+            "justification": "The student correctly answered 'True', which matches the expected answer."
+          },
+          {
+            "sub_question": "Q2.2",
+            "awarded_points": 0,
+            "justification": "The student answered 'True', but the expected answer is 'False'."
+          },
+          {
+            "sub_question": "Q2.3",
+            "awarded_points": 3,
+            "justification": "The student correctly answered 'True', which matches the expected answer."
+          },
+          {
+            "sub_question": "Q2.4",
+            "awarded_points": 3,
+            "justification": "The student correctly answered 'False', which matches the expected answer."
+          },
+          {
+            "sub_question": "Q2.5",
+            "awarded_points": 0,
+            "justification": "The student answered 'False', but the expected answer is 'True'."
+          },
+          {
+            "sub_question": "Q2.6",
+            "awarded_points": 3,
+            "justification": "The student correctly answered 'True', which matches the expected answer."
+          },
+          {
+            "sub_question": "Q2.7",
+            "awarded_points": 0,
+            "justification": "The student answered 'True', but the expected answer is 'False'."
+          }
+        ]
+      },
+      {
+        "question": "Q3",
+        "total_points": 21,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q3.1",
+            "awarded_points": 3,
+            "justification": "The answer 'adapt to changing environment and uses is one of reasons.' matches the accepted term 'adapting to change'. Full points awarded."
+          },
+          {
+            "sub_question": "Q3.2",
+            "awarded_points": 3,
+            "justification": "The answer 'C is an example of a POP language.' directly matches the accepted concept 'C'. Full points awarded."
+          },
+          {
+            "sub_question": "Q3.3",
+            "awarded_points": 3,
+            "justification": "The answer 'POP does not allow data' directly matches the accepted concept 'data'. Full points awarded."
+          },
+          {
+            "sub_question": "Q3.4",
+            "awarded_points": 3,
+            "justification": "The answer 'Applet are small programs' directly matches the accepted concept 'Applet'. Full points awarded."
+          },
+          {
+            "sub_question": "Q3.5",
+            "awarded_points": 3,
+            "justification": "The answer 'a From container is a component which' directly matches the accepted concept 'Container'. Full points awarded."
+          },
+          {
+            "sub_question": "Q3.6",
+            "awarded_points": 3,
+            "justification": "The answer 'The model view controlled architecture.' matches the accepted term 'Controller'. Full points awarded."
+          },
+          {
+            "sub_question": "Q3.7",
+            "awarded_points": 3,
+            "justification": "The answer 'JDBC is a Java API' directly matches the accepted concept 'JDBC'. Full points awarded."
+          }
+        ]
+      },
+      {
+        "question": "Q4",
+        "total_points": 12,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q4.1",
+            "awarded_points": 5,
+            "justification": "The student attempted to concatenate elements and index, but the syntax is incorrect. The use of 'Students E I ]' is not recognizable as a valid Java expression. However, the intent to concatenate a seat and its index is evident, which merits partial credit."
+          },
+          {
+            "sub_question": "Q4.2",
+            "awarded_points": 7,
+            "justification": "The student wrote 'Calculate Votes (total votes);' which shows an understanding of calling a method with a parameter. The capitalization and spacing errors are minor, and the logic direction is correct, thus deserving partial credit."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "total_mark": 77,
+    "evaluations": [
+      {
+        "question": "Q1",
+        "total_points": 30,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q1.1",
+            "awarded_points": 3,
+            "justification": "The student correctly identified that Java is not tied to a specific machine or operating system architecture, indicating architecture neutrality."
+          },
+          {
+            "sub_question": "Q1.2",
+            "awarded_points": 3,
+            "justification": "The student mentioned the influence of the Internet/WWW in promoting Java, which aligns with the rubric's requirement for recognizing the Internet's role in Java's popularity."
+          },
+          {
+            "sub_question": "Q1.3",
+            "awarded_points": 3,
+            "justification": "The student accurately described both POP and OOP, highlighting the procedural focus of POP and the object-oriented focus of OOP."
+          },
+          {
+            "sub_question": "Q1.4",
+            "awarded_points": 3,
+            "justification": "The student mentioned the Java Runtime Environment (JRE) as a component, which is valid according to the rubric and confirmed by the QA review notes."
+          },
+          {
+            "sub_question": "Q1.5",
+            "awarded_points": 3,
+            "justification": "The student correctly explained both inheritance and polymorphism, meeting the rubric's criteria for full marks."
+          },
+          {
+            "sub_question": "Q1.6",
+            "awarded_points": 3,
+            "justification": "The student correctly described encapsulation as binding data and code together, protecting them from outside interference."
+          },
+          {
+            "sub_question": "Q1.7",
+            "awarded_points": 3,
+            "justification": "The student mentioned both abstract classes and interfaces as ways to achieve abstraction, fulfilling the rubric's requirements."
+          },
+          {
+            "sub_question": "Q1.8",
+            "awarded_points": 3,
+            "justification": "The student provided three valid reasons for thread termination, each aligning with the rubric's expectations."
+          },
+          {
+            "sub_question": "Q1.9",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the three default streams in Java: System.in, System.out, and System.err."
+          },
+          {
+            "sub_question": "Q1.10",
+            "awarded_points": 3,
+            "justification": "The student correctly identified AWT (Abstract Window Toolkit) as the API on which Java Swing was built."
+          }
+        ]
+      },
+      {
+        "question": "Q2",
+        "total_points": 12,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q2.1",
+            "awarded_points": 3,
+            "justification": "The student correctly answered 'True', which matches the expected answer."
+          },
+          {
+            "sub_question": "Q2.2",
+            "awarded_points": 0,
+            "justification": "The student answered 'True', but the expected answer is 'False'. No points awarded."
+          },
+          {
+            "sub_question": "Q2.3",
+            "awarded_points": 3,
+            "justification": "The student correctly answered 'True', which matches the expected answer."
+          },
+          {
+            "sub_question": "Q2.4",
+            "awarded_points": 3,
+            "justification": "The student correctly answered 'False', which matches the expected answer."
+          },
+          {
+            "sub_question": "Q2.5",
+            "awarded_points": 0,
+            "justification": "The student answered 'False', but the expected answer is 'True'. No points awarded."
+          },
+          {
+            "sub_question": "Q2.6",
+            "awarded_points": 3,
+            "justification": "The student correctly answered 'True', which matches the expected answer."
+          },
+          {
+            "sub_question": "Q2.7",
+            "awarded_points": 0,
+            "justification": "The student answered 'True', but the expected answer is 'False'. No points awarded."
+          }
+        ]
+      },
+      {
+        "question": "Q3",
+        "total_points": 21,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q3.1",
+            "awarded_points": 3,
+            "justification": "The answer 'adapt to changing environment and uses is one of reasons.' matches the accepted term 'adapting to change'. Full points awarded."
+          },
+          {
+            "sub_question": "Q3.2",
+            "awarded_points": 3,
+            "justification": "The answer 'C is an example of a POP language.' directly matches the accepted concept 'C'. Full points awarded."
+          },
+          {
+            "sub_question": "Q3.3",
+            "awarded_points": 3,
+            "justification": "The answer 'POP does not allow data' directly matches the accepted concept 'data'. Full points awarded."
+          },
+          {
+            "sub_question": "Q3.4",
+            "awarded_points": 3,
+            "justification": "The answer 'Applet are small programs' directly matches the accepted concept 'Applet'. Full points awarded."
+          },
+          {
+            "sub_question": "Q3.5",
+            "awarded_points": 3,
+            "justification": "The answer 'a From container is a component which' directly matches the accepted concept 'Container'. Full points awarded."
+          },
+          {
+            "sub_question": "Q3.6",
+            "awarded_points": 3,
+            "justification": "The answer 'The model view controlled architecture.' matches the accepted term 'Controller'. Full points awarded."
+          },
+          {
+            "sub_question": "Q3.7",
+            "awarded_points": 3,
+            "justification": "The answer 'JDBC is a Java API' directly matches the accepted concept 'JDBC'. Full points awarded."
+          }
+        ]
+      },
+      {
+        "question": "Q4",
+        "total_points": 14,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q4.1",
+            "awarded_points": 7,
+            "justification": "The student demonstrated an understanding of the task by attempting to concatenate elements and index, which aligns with the rubric's criteria for 7 points. The syntax errors do not obscure the intended logic."
+          },
+          {
+            "sub_question": "Q4.2",
+            "awarded_points": 7,
+            "justification": "The student attempted to call the function with the correct logic direction, despite minor syntax issues. This aligns with the rubric's criteria for 7 points."
+          }
+        ]
+      }
+    ]
+  }
+]

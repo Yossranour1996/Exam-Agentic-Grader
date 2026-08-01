@@ -1,0 +1,7 @@
+(3.1) adaptation, improvement
+(3.2) C language
+(3.3) DATA
+(3.4) HTML
+(3.5) JADP
+(3.6) mobile
+(3.7) swing

@@ -1,0 +1,20 @@
+3) Stopped due to runtime error
+9) System.In System.out System.err
+10) JAVA swing was built on top of AWT
+Question 2
+1) The C++ language was called "C with classes"
+True
+2) It is not possible for an interface to inherit another interfaces
+properties
+True
+3) The Java byte code is a .class file that is executed
+by the Java run-time system
+True
+4) Run time polymorphism could be achieved by method
+Overloading
+False, it is achieved by Overriding
+5) Abstract classes could have non-abstract methods within them
+False, that would lead to the diamond problem,
+which causes the class to exted extend till [UNK] errors out
+6) JAVA threads are light weigh threads
+True

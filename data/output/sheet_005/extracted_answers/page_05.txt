@@ -1,0 +1,10 @@
+2.1 -> true
+2.2 -> False -> It is possible for an interface to inherit another interface's properties
+2.3 -> true
+2.4 -> False
+Runtime polymorphism could be achieved by
+method Overriding
+2.5 -> true
+2.6 -> true False
+Java threads are heavy weight threads
+2.7 -> true

@@ -1,82 +1,53 @@
-# src/utils/logging.py
+"""Per-run logging with readable LLM message traces."""
+
 import logging
-from typing import Sequence
 from pathlib import Path
+from typing import Literal, Sequence
 
-from langchain_core.messages import BaseMessage, SystemMessage, HumanMessage, AIMessage, ToolMessage
-from src.utils import io
-
-
-def get_logger(path: str | Path) -> logging.Logger:
-	"""
-    Sets up and returns a Python logger dedicated to a specific student's run path.
-    """
-	log_path = Path(path)
-	logger = logging.getLogger(log_path.parent.name)
-
-	if not logger.handlers:
-		log_path.parent.mkdir(parents=True, exist_ok=True)
-
-		# Create a file handler
-		file_handler = logging.FileHandler(log_path, mode='a', encoding='utf-8')
-
-		formatter = logging.Formatter(
-			'%(asctime)s | %(levelname)-7s\n%(message)s', 
-			datefmt='%Y-%m-%d %H:%M:%S'
-		)
-
-		file_handler.setLevel(logging.DEBUG)
-		file_handler.setFormatter(formatter)
-		
-		logger.setLevel(logging.DEBUG)
-		logger.addHandler(file_handler)
-
-		return logger
-	
-	return logger
-
-def get_log_entry(messages: Sequence[BaseMessage], step_label: str) -> str:
-	"""
-	Combines a sequence of messages into a single log entry.
-	"""
-	log_entry = f"{'=' * 80}\n[{step_label}] Message log:\n\n"
-	for message in messages:
-		if isinstance(message, SystemMessage):
-			content = io.truncate_text(str(message.content), limit=40)
-			log_entry += (f"{'-' * 60}\nSYSTEM: {content}\n\n")
-
-		elif isinstance(message, HumanMessage):
-			content = io.truncate_text(str(message.content), limit=40)
-			log_entry += (f"{'-' * 60}\nHUMAN : {content}\n\n")
-
-		elif isinstance(message, AIMessage):
-			# If the AI used a tool, log it distinctly
-			if hasattr(message, "tool_calls") and message.tool_calls:
-				log_entry += (f"{'-' * 60}\nAI TOOL CALL: {message.tool_calls}\n\n")
-			else:
-				log_entry += (f"{'-' * 60}\nAI    : {message.content}\n\n")
-
-		elif isinstance(message, ToolMessage):
-			log_entry += (f"{'-' * 60}\nTOOL  : {message.content}\n\n")
-
-		else:
-			log_entry += (f"{'-' * 60}\nOTHER : {message.content}\n\n")
-		
-	return log_entry
+from langchain_core.messages import AIMessage, BaseMessage, HumanMessage, SystemMessage, ToolMessage
 
 
-def log_messages(
-		messages: Sequence[BaseMessage],
-		path: str | Path,
-		step_label: str = "step"
-		) -> None:
-	"""
-	Log messages in the specified directory.
+class Logger:
+    levels = {"info": logging.INFO, "warning": logging.WARNING, "error": logging.ERROR, "debug": logging.DEBUG}
 
-	:param messages: Sequence of BaseMessage objects to log
-	:param path: file path where the message log will be saved
-	:param step_label: Grading step to log messages under.
-	"""
-	logger = get_logger(path)
-	entry = get_log_entry(messages, step_label)
-	logger.info(entry)
+    def __init__(self, path: str | Path):
+        log_path = Path(path)
+        log_path.parent.mkdir(parents=True, exist_ok=True)
+        self.logger = logging.getLogger(str(log_path.resolve()))
+        self.logger.setLevel(logging.DEBUG)
+        self.logger.handlers.clear()
+        self.logger.propagate = False
+        handler = logging.FileHandler(log_path, mode="a", encoding="utf-8")
+        handler.setFormatter(logging.Formatter("%(asctime)s | %(levelname)-7s\n%(message)s", "%Y-%m-%d %H:%M:%S"))
+        self.logger.addHandler(handler)
+
+    def log(self, entry: str, level: Literal["info", "warning", "error", "debug"] = "info", step_label="log") -> None:
+        self.logger.log(self.levels.get(level, logging.INFO), f"{'=' * 80}\n[{step_label}]: {entry}")
+
+    def get_messages_entry(self, messages: Sequence[BaseMessage], step_label: str) -> str:
+        output = f"{'=' * 80}\n[{step_label}] Message log:\n\n"
+        labels = {SystemMessage: "SYSTEM", HumanMessage: "HUMAN", AIMessage: "AI", ToolMessage: "TOOL"}
+        for message in messages:
+            if isinstance(message, AIMessage) and message.tool_calls:
+                content = "\n".join(f"AI TOOL CALL: {call}" for call in message.tool_calls)
+            else:
+                label = next((value for kind, value in labels.items() if isinstance(message, kind)), "OTHER")
+                content = f"{label}: {truncate_text(str(message.content))}"
+            output += f"{'-' * 60}\n{content}\n\n"
+        return output
+
+    def log_messages(self, messages: Sequence[BaseMessage], step_label="step") -> None:
+        self.logger.info(self.get_messages_entry(messages, step_label))
+
+    def shutdown(self) -> None:
+        for handler in self.logger.handlers[:]:
+            handler.close()
+            self.logger.removeHandler(handler)
+
+
+def truncate_text(text: str, max_lines=40) -> str:
+    lines = text.splitlines()
+    if len(lines) <= max_lines:
+        return text
+    half = max_lines // 2
+    return "\n".join(lines[:half] + [".", ".", "."] + lines[-half:])

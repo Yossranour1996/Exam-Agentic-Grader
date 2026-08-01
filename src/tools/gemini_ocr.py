@@ -1,4 +1,4 @@
-# src/tools/gemini_ocr.py
+"""Optional Gemini OCR backend for direct image transcription."""
 from __future__ import annotations
 
 import os

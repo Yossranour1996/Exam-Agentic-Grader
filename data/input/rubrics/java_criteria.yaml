@@ -1,0 +1,57 @@
+exam_id: java
+total_marks: 100
+policy:
+  tolerate_ocr_noise: true
+  semantic_equivalence: true
+  penalize_extra_incorrect_content: false
+sections:
+  - id: Q1
+    type: short_answer
+    total_marks: 30
+    questions:
+      - {id: Q1.1, marks: 3, allowed_scores: [0, 3], expected: "Java works across architectures; JVM/bytecode is supporting detail.", rule: "3 for platform, device, system, or architecture independence, even if wording is weak or grammatically wrong; otherwise 0."}
+      - {id: Q1.2, marks: 3, allowed_scores: [0, 3], expected: "The Internet/WWW created demand for platform-independent or distributed Java programs, applets, or web applications.", rule: "3 for ANY valid meaning related to Internet/WWW influence; award full marks for weak wording if intended meaning is clear; otherwise 0."}
+      - {id: Q1.3, marks: 3, allowed_scores: [0, 3], expected: "POP uses procedures/functions/data flow; OOP uses objects/classes.", rule: "3 if both sides are conveyed; exact textbook wording is not required; otherwise 0."}
+      - {id: Q1.4, marks: 3, allowed_scores: [0, 3], expected: "Java Virtual Machine, JVM, core libraries, or supporting files/components.", rule: "3 for ANY ONE valid JRE component; student does not need to list all; ignore additional incorrect items."}
+      - {id: Q1.5, marks: 3, allowed_scores: [0, 2, 3], expected: "Inheritance reuses/derives from existing classes; polymorphism means many forms or implementations.", rule: "3 if both concepts are correct; 2 if only one is clearly correct; 0 if neither."}
+      - {id: Q1.6, marks: 3, allowed_scores: [0, 3], expected: "Bundling data and code/methods in one unit/class.", rule: "3 for expressing binding/bundling code and data together or equivalent meaning; otherwise 0."}
+      - {id: Q1.7, marks: 3, allowed_scores: [0, 3], expected: "Abstract classes and interfaces.", rule: "3 if abstract classes and interfaces are both mentioned, even if grammar is weak (e.g., 'class abstract'); otherwise 0."}
+      - {id: Q1.8, marks: 3, allowed_scores: [0, 1, 2, 3], expected: "Normal completion; exception/error; stopped/interrupted/terminated.", rule: "1 mark per clearly correct reason; accept equivalent wording; maximum 3."}
+      - {id: Q1.9, marks: 3, allowed_scores: [0, 1, 2, 3], expected: "System.in, System.out, System.err.", rule: "1 mark per correct intended stream; minor spelling or OCR mistakes must not reduce the mark if intent is clear; maximum 3."}
+      - {id: Q1.10, marks: 3, allowed_scores: [0, 3], expected: "AWT or Abstract Window Toolkit.", rule: "3 for AWT, Abstract Window Toolkit, or a very clear equivalent; otherwise 0."}
+  - id: Q2
+    type: true_false
+    total_marks: 21
+    questions:
+      - {id: Q2.1, marks: 3, allowed_scores: [0, 3], expected: "True", rule: "Ignore explanation; exact selection only; give 3 only if True."}
+      - {id: Q2.2, marks: 3, allowed_scores: [0, 3], expected: "False", rule: "Ignore explanation; exact selection only; give 3 only if False."}
+      - {id: Q2.3, marks: 3, allowed_scores: [0, 3], expected: "True", rule: "Ignore explanation; exact selection only; give 3 only if True."}
+      - {id: Q2.4, marks: 3, allowed_scores: [0, 3], expected: "False", rule: "Ignore explanation; exact selection only; give 3 only if False."}
+      - {id: Q2.5, marks: 3, allowed_scores: [0, 3], expected: "True", rule: "Ignore explanation; exact selection only; give 3 only if True."}
+      - {id: Q2.6, marks: 3, allowed_scores: [0, 3], expected: "True", rule: "Ignore explanation; exact selection only; give 3 only if True."}
+      - {id: Q2.7, marks: 3, allowed_scores: [0, 3], expected: "False", rule: "Ignore explanation; exact selection only; give 3 only if False."}
+  - id: Q3
+    type: fill_blank
+    total_marks: 21
+    questions:
+      - {id: Q3.1, marks: 3, allowed_scores: [0, 3], accepted: [improvement, "improvement in programming", "improving programming", "adapting to change", "adapting to changing environments", "adapting to changing uses"], rule: "3 if student mentions improvement or adapting to change; weak spelling counts if intended meaning is clear; otherwise 0."}
+      - {id: Q3.2, marks: 3, allowed_scores: [0, 3], accepted: [C, Pascal, "C programming language", "Pascal programming language"], rule: "3 if C or Pascal is given, even inside a longer phrase; otherwise 0."}
+      - {id: Q3.3, marks: 3, allowed_scores: [0, 3], accepted: [data, "and data"], rule: "3 if the intended answer is data, even in a phrase like 'and data'; otherwise 0."}
+      - {id: Q3.4, marks: 3, allowed_scores: [0, 3], accepted: [Applet, Applets], rule: "3 for Applet/Applets or a very clear equivalent/OCR form; otherwise 0."}
+      - {id: Q3.5, marks: 3, allowed_scores: [0, 3], accepted: [Container, Frame], rule: "3 for Container or Frame; accept even if extra noise appears; otherwise 0."}
+      - {id: Q3.6, marks: 3, allowed_scores: [0, 3], accepted: [Controller], rule: "3 if Controller is given; otherwise 0."}
+      - {id: Q3.7, marks: 3, allowed_scores: [0, 3], accepted: [JDBC, "Java Database Connectivity"], rule: "3 for JDBC or Java Database Connectivity; otherwise 0."}
+  - id: Q4
+    type: code_completion
+    total_marks: 28
+    questions:
+      - id: Q4.1
+        marks: 14
+        allowed_scores: [0, 5, 7, 14]
+        expected: 'System.out.println(seats[i] + ", you will take seat " + i);'
+        rule: "14 for ANY of the accepted full answers or a very clear equivalent with spelling/OCR or minor syntax issues; 7 if answer is close but incomplete; 5 for a weak but relevant attempt; 0 if blank."
+      - id: Q4.2
+        marks: 14
+        allowed_scores: [0, 5, 7, 14]
+        expected: "calculateVotes(totalVotes);"
+        rule: "14 for ANY of the accepted full answers or a very clear equivalent with spelling/OCR or minor syntax issues; 7 for attempted correct logic/direction but wrong final code; 5 for weaker relevant attempt; 0 if blank. Do NOT give zero for valid attempted logic."

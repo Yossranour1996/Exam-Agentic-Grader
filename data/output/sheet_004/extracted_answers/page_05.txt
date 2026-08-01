@@ -1,0 +1,7 @@
+(1) limitation
+(2) C
+(3) data
+(4) servlet and Applet
+(5) Frame
+(6) controller
+(7) JBDC
