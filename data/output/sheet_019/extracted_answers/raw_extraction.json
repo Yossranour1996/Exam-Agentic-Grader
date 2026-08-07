@@ -1,0 +1,42 @@
+[
+  {
+    "page": "page_01.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_02.png",
+    "text": ""
+  },
+  {
+    "page": "page_03.png",
+    "text": "1- It's not restricted to a specific system architecture.\n2- By the wide spread of information that led to the need for\nnew improvement in programming to adopt to this new\nChanges and new thinking about programs and their design.\n3- OOP focuses mainly on data and keep the code closely tied to its\ndata, while POP focuses on procedure rather than data.\n4- a running tool (not development) and also the JVM\n5- Inheritance takes the methods and attributes of an existing class\nand inherit it to a new class, allowing it to reusit a add new things\nwhile polymorphism is basically means many forms and that\na message or a method can be defined differently many times.\n6- It is the process of binding together the code and the data it is\nmanipulate and protect them from outside interference and\nmisuse.\n7- Interfaces and abstract classes.\n8- (i) Completing the task normally.\n(ii) due to unusual event.\n(iii) It's no longer available or dead.\n9- System.in, System.out, System.err\n10- AWT API to add new feature"
+  },
+  {
+    "page": "page_04.png",
+    "text": "1- True\n2- False\nCorrections:\nIt's possible\nIt's not possible for an interface to implement another\n3- True\n4- False\nCorrection:\nCould be achieved by method overriding.\n5- False\nCorrection:\nCould not have\n6- True\n7- False\nCorrection:\nmore than one JDBC driver."
+  },
+  {
+    "page": "page_05.png",
+    "text": "① adapting to the new environmental changes in the\nworld.\n② C Language\n③ Applet Data\n④ Applet\n⑤ Container\n⑥ Control Pantaler\n⑦ JDBC"
+  },
+  {
+    "page": "page_06.png",
+    "text": "(1) System.out.println(\"Seats[i], you will take seat\"+i);\nExplanations The output is the members of Seats array followed\nby these indexes, So the (for loop) was used to print\ntheses members one by one.\nSeat[i] = gives the element of index (i).\nand the (i) at the end is printing the counter\nof the Loop, which goes from (0-4).\n(2) Agree Vote = new Agree(); initiate an object\nVote.CalculateVotes (76088); of class Agree\nExplanations The Basic idea that I tried to use \"Maybe the syntax\nlet me down\" is to use the method (CalculateVotes)\nto get the desired output. So I initiated/Created\na new object and used the function with the\nrequired parameter to get the correct number.\nWe can also pass to the fun."
+  },
+  {
+    "page": "page_07.png",
+    "text": ""
+  },
+  {
+    "page": "page_08.png",
+    "text": ""
+  },
+  {
+    "page": "page_09.png",
+    "text": ""
+  },
+  {
+    "page": "page_10.png",
+    "text": ""
+  }
+]

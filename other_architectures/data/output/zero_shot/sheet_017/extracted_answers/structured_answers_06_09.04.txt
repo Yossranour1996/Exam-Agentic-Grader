@@ -1,0 +1,86 @@
+STUDENT ANSWERS:
+
+Question: Q1
+Sub-Question: Q1.1
+Answer: that java is not tied to a specific machine or operating system architecture.
+
+Sub-Question: Q1.2
+Answer: Programs can be transmitted over the internet
+
+Sub-Question: Q1.3
+Answer: The POP uses procedures (code) in which controll and data while in oop it uses classes and acts on the program. (in POP the major emphasize in on the procedure whole in oop the data is treated as critical element when developing the program)
+
+Sub-Question: Q1.4
+Answer: The component of the java runtime environments are: - java virtual Machine (JVM) - libraries. - other files.
+
+Sub-Question: Q1.5
+Answer: Inheritance is the creation of new classes class that depending on exsisting ones. and the inherits from another have the same methods and field as the other class Polymorphism is the same (variable I masseage | data) can exist in different forms depending on the situation.
+
+Sub-Question: Q1.6
+Answer: the wrapped of data by a single unit. and it is the mechanism that ties the code with the data it manipulates.
+
+Sub-Question: Q1.7
+Answer: abstraction abstrac classes inter face.
+
+Sub-Question: Q1.8
+Answer: - completed its task normally. - it terminated due to unexpected events. - dead or no longer available.
+
+Sub-Question: Q1.9
+Answer: System.in System.out System.err
+
+Sub-Question: Q1.10
+Answer: C++
+
+
+Question: Q2
+Sub-Question: Q2.1
+Answer: True
+
+Sub-Question: Q2.2
+Answer: True
+
+Sub-Question: Q2.3
+Answer: True
+
+Sub-Question: Q2.4
+Answer: False by method overriding
+
+Sub-Question: Q2.5
+Answer: False Abstract classes only have abstract methods and they don't have a body.
+
+Sub-Question: Q2.6
+Answer: True
+
+Sub-Question: Q2.7
+Answer: True
+
+
+Question: Q3
+Sub-Question: Q3.1
+Answer: To adapt to changing environments and uses.
+
+Sub-Question: Q3.2
+Answer: C
+
+Sub-Question: Q3.3
+Answer: Data ec
+
+Sub-Question: Q3.4
+Answer: Applet
+
+Sub-Question: Q3.5
+Answer: Frame
+
+Sub-Question: Q3.6
+Answer: collecter.
+
+Sub-Question: Q3.7
+Answer: JDBC
+
+
+Question: Q4
+Sub-Question: Q4.1
+Answer: seats Student[i] + " you will take seat " + (i) seats[i] + " you will take seat "i" The CODE I wrote is inside the For loop which will be printed 5 times starting from i=0 till i = 4 which is the last one less than the length of the String seats[i] when i=0 will be "u" and the statement "you will take seat" and then the current value of i which is == 0 The i will keep increasing by one giving the rest of the elements in seats and the value of i at the end which is also increased by 1.
+
+Sub-Question: Q4.2
+Answer: int totalVotes = (double) numOFVotes; we changed the type of totalVotes from int to double giving it anew name numOFVotes to be able to use the value of totalVotes = 760 in the CalculateVotes.

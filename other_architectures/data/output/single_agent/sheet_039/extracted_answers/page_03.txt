@@ -1,0 +1,23 @@
+It means that
+question 1.
+1.1. It means the execution of Java program does
+nor depend on the Environment it runs on it [UNK] The
+architecture of the Hardware and operating system
+of this environment I.
+1.2 WWW and Internet necessitated Cross-Platform
+Programs to be distributed over many platform
+Which consisted WWW and Internet. This necessity
+derived inventions and development of architecture-
+neutral languages.
+1.3
+POP:-
+1- Its code is a sequence of functions acting on data.
+2- The concentration is on functions not data.
+3- In a multifunction programs, it defines some data be global
+in order to be used by multiple functions. That makes
+absolute no restrictions on using data which increases
+the possibility of being corrupted by misusing.
+When the program becomes much larger it is
+very difficult to determine for data used by
+those functions.
+4- They are described as code acting on data.

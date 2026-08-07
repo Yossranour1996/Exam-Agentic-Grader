@@ -1,0 +1,121 @@
+Total Mark: 67
+
+Evaluations:
+Question: Q1
+Total Score: 21
+
+Sub-Question: Q1.1
+Score: 3
+Justification: The student correctly conveyed that Java is not tied to a specific machine or operating system architecture.
+
+Sub-Question: Q1.2
+Score: 3
+Justification: The student provided a non-blank answer that did not mention Applet or Servlet.
+
+Sub-Question: Q1.3
+Score: 3
+Justification: The student correctly differentiated between POP and OOP, mentioning procedures and classes.
+
+Sub-Question: Q1.4
+Score: 3
+Justification: The student mentioned JVM, libraries, and other files, covering all components of the JRE.
+
+Sub-Question: Q1.5
+Score: 2
+Justification: The student correctly explained inheritance but provided a vague explanation for polymorphism.
+
+Sub-Question: Q1.6
+Score: 3
+Justification: The student correctly described encapsulation as wrapping data and tying code with data.
+
+Sub-Question: Q1.7
+Score: 3
+Justification: The student mentioned abstract classes and interfaces, fulfilling the requirement.
+
+Sub-Question: Q1.8
+Score: 3
+Justification: The student provided three valid reasons for thread termination.
+
+Sub-Question: Q1.9
+Score: 3
+Justification: The student correctly listed System.in, System.out, and System.err.
+
+Sub-Question: Q1.10
+Score: 0
+Justification: The student incorrectly answered C++ instead of AWT or Abstract Window Toolkit.
+
+
+Question: Q2
+Total Score: 12
+
+Sub-Question: Q2.1
+Score: 3
+Justification: The student correctly answered True.
+
+Sub-Question: Q2.2
+Score: 0
+Justification: The student incorrectly answered True; the correct answer is False.
+
+Sub-Question: Q2.3
+Score: 3
+Justification: The student correctly answered True.
+
+Sub-Question: Q2.4
+Score: 3
+Justification: The student correctly answered False.
+
+Sub-Question: Q2.5
+Score: 0
+Justification: The student incorrectly answered False; the correct answer is True.
+
+Sub-Question: Q2.6
+Score: 3
+Justification: The student correctly answered True.
+
+Sub-Question: Q2.7
+Score: 0
+Justification: The student incorrectly answered True; the correct answer is False.
+
+
+Question: Q3
+Total Score: 18
+
+Sub-Question: Q3.1
+Score: 3
+Justification: The student provided a valid answer related to adapting to changing environments.
+
+Sub-Question: Q3.2
+Score: 3
+Justification: The student correctly answered C.
+
+Sub-Question: Q3.3
+Score: 3
+Justification: The student correctly mentioned data.
+
+Sub-Question: Q3.4
+Score: 3
+Justification: The student correctly answered Applet.
+
+Sub-Question: Q3.5
+Score: 3
+Justification: The student correctly answered Frame.
+
+Sub-Question: Q3.6
+Score: 0
+Justification: The student incorrectly answered collecter; the correct answer is Controller.
+
+Sub-Question: Q3.7
+Score: 3
+Justification: The student correctly answered JDBC.
+
+
+Question: Q4
+Total Score: 16
+
+Sub-Question: Q4.1
+Score: 14
+Justification: Full marks are awarded regardless of the answer.
+
+Sub-Question: Q4.2
+Score: 2
+Justification: The student provided an incorrect answer but mentioned vote-related terms.

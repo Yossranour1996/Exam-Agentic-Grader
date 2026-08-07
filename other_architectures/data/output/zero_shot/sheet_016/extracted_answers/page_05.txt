@@ -1,0 +1,8 @@
+3.1 implement new refinements & improvements in the art of
+programming
+3-2 C
+3-3 The Data
+3-4 Applet
+3-5 Frame
+3-6 Controller
+3.7 JDBC (Java Database Connectivity)

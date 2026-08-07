@@ -1,0 +1,26 @@
+1- It doesn't relay on the architecture of the System level.
+2- It helped programming language like Java large that are able
+to create desktop based programs that can be transferred
+ex: apps and mobile.
+1.3 DOP Object Oriented programming focuses on data
+rather than code it decompose problems to small parts
+and (object) and bind data and code to its (1)
+POP process oriented programming focuses on the procedure
+that is the code that is a series of functions
+and instruction. the data is isolated to be access by all [UNK]
+in the case of getting modified. fig (2)
+All Code
+fig (1)
+data
+Code
+data
+fig (2)
+1.4 what are the Components of Java and the other
+Java virtual machine / libraries and other things
+lang
+JVM
+libraries
+files
+JRE
+JDK
+toolkits

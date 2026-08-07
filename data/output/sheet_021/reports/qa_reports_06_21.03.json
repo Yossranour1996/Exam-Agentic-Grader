@@ -1,0 +1,58 @@
+[
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q1",
+        "identified_errors": [
+          {
+            "sub_question": "Q1.5",
+            "description": "The student provided a correct explanation of polymorphism as allowing an interface to be used by all public classes, which aligns with the rubric's requirement for full marks. The awarded score should be 3 instead of 2."
+          },
+          {
+            "sub_question": "Q1.8",
+            "description": "The student mentioned 'finished the task' and 'unusual situations', which correspond to two correct reasons for thread termination. However, the awarded score should be 2, not 3, as per the rubric."
+          },
+          {
+            "sub_question": "Q1.9",
+            "description": "The student correctly identified System.in and System.out, but not System.err. The awarded score should be 2, not 3, as per the rubric."
+          }
+        ],
+        "summary": "Arithmetic error: Sum of sub-scores (18) does not equal total awarded score (21). Errors in Q1.5, Q1.8, and Q1.9 need correction."
+      }
+    ]
+  },
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q1",
+        "identified_errors": [
+          {
+            "sub_question": "Q1.4",
+            "description": "The student's answer 'For fann, contApps program' may have been penalized for OCR noise or spelling errors. The rubric allows for partial credit if any component like JVM, libraries, or supporting files is mentioned. The answer should be reviewed for potential OCR errors."
+          },
+          {
+            "sub_question": "Q1.6",
+            "description": "The student's answer 'is encrypting data in mainplus and protect it from our side interface.' may have been misunderstood. The rubric allows for semantic equivalence, and the answer could be interpreted as an attempt to describe encapsulation. This should be reviewed for potential leniency."
+          }
+        ],
+        "summary": "Q1.4 and Q1.6 require re-evaluation due to potential OCR noise and semantic equivalence issues."
+      },
+      {
+        "question": "Q3",
+        "identified_errors": [
+          {
+            "sub_question": "Q3.5",
+            "description": "The student's answer 'form' was accepted as 'Frame', which is incorrect. The rubric does not list 'form' as an accepted answer. This needs correction."
+          }
+        ],
+        "summary": "Q3.5 was incorrectly awarded full marks for 'form', which is not an accepted answer."
+      }
+    ]
+  },
+  {
+    "decision": "<NO_REGRADE>",
+    "audits": []
+  }
+]

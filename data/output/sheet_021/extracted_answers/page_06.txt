@@ -1,0 +1,8 @@
+2.1 - true
+2.2 - true
+2.3 - true
+2.4 - False
+By data overloading
+2.5 - False
+abstract classes is protected from
+any abstract method

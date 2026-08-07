@@ -1,4 +1,6 @@
 # src/agents/shredder.py
+"""Shredder agent used to group raw page text under canonical exam question IDs."""
+
 from typing import Dict, Any
 from pathlib import Path
 
@@ -9,6 +11,8 @@ from src.utils.logging import Logger
 from src.utils import io
 
 
+# Shredder-focused agent responsible for mapping raw page text to canonical exam question IDs
+# so the rest of the pipeline can process the content in a structured way.
 class ShredderAgent(AgentBase):
     """Group raw page text under the canonical exam question IDs."""
 
@@ -34,7 +38,7 @@ class ShredderAgent(AgentBase):
 
     @staticmethod
     def parse_result(result: Result) -> str:
-        """Render mapped answers for saved extraction reports."""
+        """Return the structured mapping of questions and answers as readable text for reports."""
         text = (
 f"""STUDENT ANSWERS:
 

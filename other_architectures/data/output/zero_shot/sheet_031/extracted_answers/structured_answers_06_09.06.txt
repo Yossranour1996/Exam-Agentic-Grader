@@ -1,0 +1,144 @@
+STUDENT ANSWERS:
+
+Question: Q1
+Sub-Question: Q1.1
+Answer: we mean that Java is not restrrited to a specific
+architecture.
+
+Sub-Question: Q1.2
+Answer: Java introduces integrated multi threading and it allows
+for writing simplified programs to access of internal (automatically), Also
+Java came with an applet which is a small program that
+can be transmitted over the Internet exceented by a compatible
+Java Runtime system in web browser, it extend dynamically the
+functionality of web browser, Servlet is also a program that extend
+→ functionality of web server.
+
+Sub-Question: Q1.3
+Answer: OOP is Object oriented programming that has classes
+and objects, the data and code are encapsulated together
+and act on code while POP which is procedure [UNK]
+Oriented programming which consist of series of instruction
+(code) acting on data, the functions are called by others.
+→ code
+→ data
+OOP
+code
+data
+POP
+OOP code & data tightly
+POP code & data are encapsulated.
+
+Sub-Question: Q1.4
+Answer: JRE stands for Java Runtime Environment, it
+has JUM on it which is engine time to execute the
+code which is known also as interpreter.
+(JUM for windows)
+(JUM for linux)
+(JUM for MAC)
+
+Sub-Question: Q1.5
+Answer: Inheritance is the creation of new classes based on
+existing ones, the new class inherits method and field
+of Super class and it can add its new Fields & methods.
+While polymorphism is when you get a message
+appear in multiple form, it can override methods of
+the super class and change it to a new form.
+
+Sub-Question: Q1.6
+Answer: encapsulation is a protective shield for data and
+Code, it protect them from being access by anything
+outside the shield, it is a data hiding and achieved
+in Implementation level, it can be achieved by data hiding
+and abstraction.
+
+Sub-Question: Q1.7
+Answer: 1. Abstract classes
+2. Interface.
+
+Sub-Question: Q1.8
+Answer: 1. the task is finished.
+2. due to unusual event.
+3. cloud or no Longer available.
+
+Sub-Question: Q1.9
+Answer: 1- System.in
+2- System.out
+3- System.err
+
+Sub-Question: Q1.10
+Answer: It is built in top of Abstraction Window Tool (AWT)
+
+
+Question: Q2
+Sub-Question: Q2.1
+Answer: True
+
+Sub-Question: Q2.2
+Answer: False
+
+Sub-Question: Q2.3
+Answer: True
+
+Sub-Question: Q2.4
+Answer: False
+
+Sub-Question: Q2.5
+Answer: False
+
+Sub-Question: Q2.6
+Answer: True
+
+Sub-Question: Q2.7
+Answer: True
+
+
+Question: Q3
+Sub-Question: Q3.1
+Answer: adapt the environmental change and uses
+
+Sub-Question: Q3.2
+Answer: C
+
+Sub-Question: Q3.3
+Answer: Data.
+
+Sub-Question: Q3.4
+Answer: Applets -
+
+Sub-Question: Q3.5
+Answer: Panel
+
+Sub-Question: Q3.6
+Answer: Controller.
+
+Sub-Question: Q3.7
+Answer: Data base manyal connectivity "DBMC"
+
+
+Question: Q4
+Sub-Question: Q4.1
+Answer: System.out.println(X student);
+System.out.println(seats[i] + " you will take seat" + 1);
+System.out.println (seats[i] + ", " + " " + "you will
+take seat " + i )
+Explanation.
+seats[i] ≡ the component number i in seats List.
+i ≡ the index of the list Start from 0 to n-1
+(length -1)
+the component will take seat value of their
+indexes in the list.
+{ 'M', 'C', G, 'P', O' }
+i = 0, 1, 2, 3, 4
+
+Sub-Question: Q4.2
+Answer: calculate votes (totalvotes)
+Explanation.
+the calculate vote function must be invoked to
+get the value of the people who agreed, the
+method include a double number stands for
+the number of votes, when function is invoked
+with aparameter take value of 760, the value will
+enter the function and be multiplied with 0.15
+, the value will be type casting to integer
+and that will be the agreed number-

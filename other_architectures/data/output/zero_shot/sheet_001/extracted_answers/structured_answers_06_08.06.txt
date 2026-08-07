@@ -1,0 +1,86 @@
+STUDENT ANSWERS:
+
+Question: Q1
+Sub-Question: Q1.1
+Answer: That java is not tied to or restricted to specific machine or operating system architecture.
+
+Sub-Question: Q1.2
+Answer: They increase the demand for application and programs that were set suitable to be transferred over internet, to make share of data easier.
+
+Sub-Question: Q1.3
+Answer: POP emphasize code rather than data and divide the program into smaller processes parts each with set of instructions. OOP emphasize data and build functions around it. each class has its own variable which save them from accidental change. pop code oop data data General data
+
+Sub-Question: Q1.4
+Answer: Java Runtime Environment ⇒ environment to run the java program only, It component are 1- Compiler 2- Java virtual machine.
+
+Sub-Question: Q1.5
+Answer: inheritance is to creat class based on existed class and the subclass can share all features of super class. Polymorphism is feature allow objects to be used as general and can take different forms according to required needs.
+
+Sub-Question: Q1.6
+Answer: Mechanism to bind Code and data it's manipulate together and keep -them safe from interference and misuse outside
+
+Sub-Question: Q1.7
+Answer: @ Interface - ® Abstraction classes
+
+Sub-Question: Q1.8
+Answer: A Finished and achived goal ® due to unusul events © dead and no longer anttable available.
+
+Sub-Question: Q1.9
+Answer: A system.m ® system.out © system err
+
+Sub-Question: Q1.10
+Answer: Java swing was built over AWT windows Interface (AWI) Application
+
+
+Question: Q2
+Sub-Question: Q2.1
+Answer: True it is possible to inherit properties
+
+Sub-Question: Q2.2
+Answer: False overrid overriding
+
+Sub-Question: Q2.3
+Answer: True have abstract methods only with them
+
+Sub-Question: Q2.4
+Answer: False
+
+Sub-Question: Q2.5
+Answer: False
+
+Sub-Question: Q2.6
+Answer: True
+
+Sub-Question: Q2.7
+Answer: True
+
+
+Question: Q3
+Sub-Question: Q3.1
+Answer: to adapt change in environment and use.
+
+Sub-Question: Q3.2
+Answer: C
+
+Sub-Question: Q3.3
+Answer: data
+
+Sub-Question: Q3.4
+Answer: Applets
+
+Sub-Question: Q3.5
+Answer: Container
+
+Sub-Question: Q3.6
+Answer: Controller
+
+Sub-Question: Q3.7
+Answer: JDBC
+
+
+Question: Q4
+Sub-Question: Q4.1
+Answer: show (seats [i]," You will take seat "+ (i+1)). Code Exp the first part seats[i] call the elements of seat[i] according to index then the text you will take seat " then ? because count is from o to u same as the index. double
+
+Sub-Question: Q4.2
+Answer: CalculateVotes (totalVotes); Code explain = we call method calculateVotes to be executed for the total votes and then give out-put portions in form of integer, after the second statment.

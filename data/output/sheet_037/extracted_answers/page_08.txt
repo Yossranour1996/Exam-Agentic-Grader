@@ -1,0 +1,20 @@
+1.1) It doesn't depend on a specific
+machine or operating system architectura.
+1.2) There was a need for more effecient
+programming language to handle more
+1.3) P.O.P uses procedure applied on
+data to achieve some goal.
+O.O.P uses Classes and Objects
+and binding data and codes.
+1.4) Java Virtual machine and many
+other running tools.
+1.5) -Inheritance is to Create a new class
+from excisted one.
+- polymorphism is an object that can
+take many forms.
+1.6) The mechanism that binds data
+and codes.
+1.7) Abstract class and Interface.
+1.8) 1) It reaches it's terminal.
+2) unusual events.
+3) Dead and no longer available.

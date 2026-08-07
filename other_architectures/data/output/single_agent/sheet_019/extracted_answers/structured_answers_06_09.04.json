@@ -1,0 +1,128 @@
+{
+  "questions": [
+    {
+      "question": "Q1",
+      "sub_questions": [
+        {
+          "sub_question": "Q1.1",
+          "answer": "It's not restricted to a specific system architecture."
+        },
+        {
+          "sub_question": "Q1.2",
+          "answer": "By the wide spread of information that led to the need for new improvement in programming to adopt to this new Changes and new thinking about programs and their design."
+        },
+        {
+          "sub_question": "Q1.3",
+          "answer": "OOP focuses mainly on data and keep the code closely tied to its data, while POP focuses on procedure rather than data."
+        },
+        {
+          "sub_question": "Q1.4",
+          "answer": "a running tool (not development) and also the JVM"
+        },
+        {
+          "sub_question": "Q1.5",
+          "answer": "Inheritance takes the methods and attributes of an existing class and inherit it to a new class, allowing it to reusit a add new things while polymorphism is basically means many forms and that a message or a method can be defined differently many times."
+        },
+        {
+          "sub_question": "Q1.6",
+          "answer": "It is the process of binding together the code and the data it is manipulate and protect them from outside interference and misuse."
+        },
+        {
+          "sub_question": "Q1.7",
+          "answer": "Interfaces and abstract classes."
+        },
+        {
+          "sub_question": "Q1.8",
+          "answer": "(i) Completing the task normally. (ii) due to unusual event. (iii) It's no longer available or dead."
+        },
+        {
+          "sub_question": "Q1.9",
+          "answer": "System.in, System.out, System.err"
+        },
+        {
+          "sub_question": "Q1.10",
+          "answer": "AWT API to add new feature"
+        }
+      ]
+    },
+    {
+      "question": "Q2",
+      "sub_questions": [
+        {
+          "sub_question": "Q2.1",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.2",
+          "answer": "False"
+        },
+        {
+          "sub_question": "Q2.3",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.4",
+          "answer": "False"
+        },
+        {
+          "sub_question": "Q2.5",
+          "answer": "False"
+        },
+        {
+          "sub_question": "Q2.6",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.7",
+          "answer": "False"
+        }
+      ]
+    },
+    {
+      "question": "Q3",
+      "sub_questions": [
+        {
+          "sub_question": "Q3.1",
+          "answer": "adapting to the new environmental changes in the world."
+        },
+        {
+          "sub_question": "Q3.2",
+          "answer": "C Language"
+        },
+        {
+          "sub_question": "Q3.3",
+          "answer": "Applet Data"
+        },
+        {
+          "sub_question": "Q3.4",
+          "answer": "Applet"
+        },
+        {
+          "sub_question": "Q3.5",
+          "answer": "Container"
+        },
+        {
+          "sub_question": "Q3.6",
+          "answer": "Control Pantaler"
+        },
+        {
+          "sub_question": "Q3.7",
+          "answer": "JDBC"
+        }
+      ]
+    },
+    {
+      "question": "Q4",
+      "sub_questions": [
+        {
+          "sub_question": "Q4.1",
+          "answer": "System.out.println(\"Seats[i], you will take seat\"+i);"
+        },
+        {
+          "sub_question": "Q4.2",
+          "answer": "Agree Vote = new Agree(); initiate an object Vote.CalculateVotes (76088); of class Agree"
+        }
+      ]
+    }
+  ]
+}

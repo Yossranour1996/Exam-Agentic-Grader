@@ -1,0 +1,86 @@
+STUDENT ANSWERS:
+
+Question: Q1
+Sub-Question: Q1.1
+Answer: It means that Java is not represented to a specific system
+
+Sub-Question: Q1.2
+Answer: It participated by holding the programming languages inside the network. and created Java
+
+Sub-Question: Q1.3
+Answer: POP uses the data operate (codes) to achieve program goal, OOP interacts with the classes and encapsulate it with code and data
+
+Sub-Question: Q1.4
+Answer: develop environment run [UNK] execute the code
+
+Sub-Question: Q1.5
+Answer: inheritance means create class over existing one, polymorphism means interacting only once with the class
+
+Sub-Question: Q1.6
+Answer: Expect encapsulation is to ban between code and data, also manipulate them and protect it and keep it safe
+
+Sub-Question: Q1.7
+Answer: abstract classes and interface
+
+Sub-Question: Q1.8
+Answer: do-perform normally terminated due unusual events dead and no longer available
+
+Sub-Question: Q1.9
+Answer: System.in System.out System.err
+
+Sub-Question: Q1.10
+Answer: built on multilayer system architecture JDBC JPBC
+
+
+Question: Q2
+Sub-Question: Q2.1
+Answer: TRUE
+
+Sub-Question: Q2.2
+Answer: FALSE (Possible)
+
+Sub-Question: Q2.3
+Answer: TRUE
+
+Sub-Question: Q2.4
+Answer: FALSE
+
+Sub-Question: Q2.5
+Answer: TRUE
+
+Sub-Question: Q2.6
+Answer: TRUE
+
+Sub-Question: Q2.7
+Answer: FALSE
+
+
+Question: Q3
+Sub-Question: Q3.1
+Answer: need of Solving Problems
+
+Sub-Question: Q3.2
+Answer: C
+
+Sub-Question: Q3.3
+Answer: data
+
+Sub-Question: Q3.4
+Answer: Abstraction
+
+Sub-Question: Q3.5
+Answer: container
+
+Sub-Question: Q3.6
+Answer: controller
+
+Sub-Question: Q3.7
+Answer: JDBC
+
+
+Question: Q4
+Sub-Question: Q4.1
+Answer: Student[i]+", you will take a seat" + Cstudent.length-i-1] Student[i]+" you will take a Seat" +(4-i)
+
+Sub-Question: Q4.2
+Answer: [NO_ANSWER]

@@ -1,0 +1,9 @@
+2-1 True
+2-2 True
+2-3 True
+2-4 False
+Run time polymer phism could be acheived by method overriding
+2-5 False
+abstract classes only could have abstract methods within them
+2-6 True
+2-7 True

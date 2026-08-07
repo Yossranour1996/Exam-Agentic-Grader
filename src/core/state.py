@@ -1,4 +1,6 @@
 # src/core/state.py
+"""Typed state definitions for the grading workflow and its runtime context."""
+
 from __future__ import annotations
 
 from typing import TypedDict, Required, Annotated, List, Dict, Any
@@ -13,7 +15,7 @@ from src.utils.logging import Logger
 
 
 class InputState(TypedDict, total=False):
-    """User-controlled inputs and optional stage switches."""
+    """User-controlled inputs and optional stage switches for a single run."""
 
     sheet_id: Required[str]
     exam_file: str
@@ -34,7 +36,7 @@ class InputState(TypedDict, total=False):
 
 
 class OutputState(TypedDict):
-    """Small public result returned to callers."""
+    """Summary fields returned to callers after the workflow completes."""
 
     extract_dir: Path
     reports_dir: Path
@@ -46,8 +48,10 @@ class OutputState(TypedDict):
     feedback_result_str: str
 
 
+# Shared workflow state object that carries information between stages of the
+# exam-grading pipeline, such as extracted content, grading results, and export data.
 class State(InputState, OutputState):
-    """Only data exchanged between workflow stages or parallel branches."""
+    """Mutable state passed between workflow nodes and parallel branches."""
 
     # Run resources.
     run_id: str
@@ -79,7 +83,7 @@ class State(InputState, OutputState):
 
 
 class QuestionTask(TypedDict):
-    """Minimal isolated payload sent to one parallel grader."""
+    """Minimal payload sent to a single parallel grading worker."""
 
     id: str
     do_grade: bool
@@ -93,7 +97,7 @@ class QuestionTask(TypedDict):
 
 @dataclass(frozen=True)
 class Context:
-    """Stable directory configuration kept outside mutable graph state."""
+    """Stable directory configuration that stays outside the mutable graph state."""
 
     sheets_dir: Path
     exams_dir: Path

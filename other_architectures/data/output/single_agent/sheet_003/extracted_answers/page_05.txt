@@ -1,0 +1,7 @@
+21. true
+22. False - interfaces can inherit from each others.
+23. true
+24. False - it can be achieved by overriding.
+25. true.
+26. true.
+27. False - there are many drivens for all data base sources.

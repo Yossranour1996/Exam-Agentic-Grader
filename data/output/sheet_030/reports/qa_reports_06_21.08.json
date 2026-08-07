@@ -1,0 +1,84 @@
+[
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q1",
+        "identified_errors": [
+          {
+            "sub_question": "Q1.4",
+            "description": "The student mentioned 'Java Virtual Machine (JVM)' and 'Java compiler (javac)', which should be considered as supporting files/components. The student should receive 2 marks instead of 1."
+          }
+        ],
+        "summary": "Q1.4 requires a regrade as the student mentioned 'Java Virtual Machine (JVM)' and 'Java compiler (javac)', which should be considered as supporting files/components, warranting 2 marks instead of 1."
+      },
+      {
+        "question": "Q3",
+        "identified_errors": [
+          {
+            "sub_question": "Q3.1",
+            "description": "The rubric states that Q3.1 should always receive full marks, even if the answer is blank. The student provided a valid answer, so full marks are justified."
+          }
+        ],
+        "summary": "Q3.1 was correctly graded with full marks as per the rubric's instruction to always award full marks."
+      }
+    ]
+  },
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q1",
+        "identified_errors": [
+          {
+            "sub_question": "Q1.4",
+            "description": "The student mentioned 'Java Virtual Machine (JVM)' and 'Java compiler (javac)'. The rubric allows 1 mark for JVM and 1 mark for libraries or supporting files. 'javac' should be considered as a supporting file, so the awarded score of 2 is correct."
+          },
+          {
+            "sub_question": "Q1.10",
+            "description": "The student incorrectly stated 'model-view-controller architecture' instead of AWT or Abstract Window Toolkit. The awarded score of 0 is correct."
+          }
+        ],
+        "summary": "The grading for Q1.4 and Q1.10 is correct. No changes needed."
+      },
+      {
+        "question": "Q2",
+        "identified_errors": [
+          {
+            "sub_question": "Q2.2",
+            "description": "The student answered 'True', but the expected answer is 'False'. The awarded score of 0 is correct."
+          }
+        ],
+        "summary": "The grading for Q2.2 is correct. No changes needed."
+      },
+      {
+        "question": "Q3",
+        "identified_errors": [
+          {
+            "sub_question": "Q3.3",
+            "description": "The student's answer 'Procedures' does not match the accepted term 'data'. The awarded score of 0 is correct."
+          },
+          {
+            "sub_question": "Q3.4",
+            "description": "The student did not provide an answer, and thus receives 0 points."
+          }
+        ],
+        "summary": "The grading for Q3.3 and Q3.4 is correct. No changes needed."
+      },
+      {
+        "question": "Q4",
+        "identified_errors": [
+          {
+            "sub_question": "Q4.2",
+            "description": "The student mentioned 'totalVotes' but did not explicitly call 'calculateVotes'. According to the rubric, mentioning only one of them warrants 11 points. The awarded score of 11 is correct."
+          }
+        ],
+        "summary": "The grading for Q4.2 is correct. No changes needed."
+      }
+    ]
+  },
+  {
+    "decision": "<NO_REGRADE>",
+    "audits": []
+  }
+]

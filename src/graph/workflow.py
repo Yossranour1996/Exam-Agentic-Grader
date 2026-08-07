@@ -1,4 +1,6 @@
 # src/graph/workflow.py
+"""Builds the top-level LangGraph workflow for extraction, grading, QA, feedback, and export."""
+
 from __future__ import annotations
 
 import json
@@ -11,18 +13,19 @@ from langgraph.runtime import Runtime
 
 from src.agents.feedback import FeedbackAgent
 from src.agents.qa import QAAgent
-from src.core.state import Context, InputState, OutputState, State
 from src.subgraphs.export_graph import ExportGraph
 from src.subgraphs.extraction_graph import ExtractionGraph
 from src.subgraphs.grading_graph import GradingGraph
+from src.core.state import Context, InputState, OutputState, State
 from src.utils import io
 from src.utils.logging import Logger
 
 
 class GradingWorkflow:
-    """Coordinate extraction, parallel grading, QA, feedback, and export."""
+    """Coordinate the full grading pipeline from raw input to exported results."""
 
     def __init__(self, model="gpt-4o", ocr_model="gpt-4o", temperature=0.0, max_tokens=None):
+        """Instantiate the extractor, grader, QA, feedback, and exporter components."""
         self.extractor = ExtractionGraph(ocr_model, model, temperature, max_tokens)
         self.grader = GradingGraph(model, temperature, max_tokens)
         self.qa = QAAgent(model, temperature, max_tokens)
@@ -45,7 +48,7 @@ class GradingWorkflow:
         return value
 
     def node_prepare(self, state: InputState, runtime: Runtime[Context]) -> State:
-        """Resolve paths, initialize logging, and load immutable grading inputs."""
+        """Resolve runtime paths, create a per-run logger, and load immutable inputs."""
         required = ("exam_file", "rubric_file", "review_criteria_file")
         missing = [name for name in required if not state.get(name)]
         if missing:
@@ -81,46 +84,48 @@ class GradingWorkflow:
         }
 
 
-    def node_extractor(self, state: State, runtime: Runtime[Context]) -> State:
-        """Extract and structure answers, or reuse the latest extraction."""
+    def node_extraction(self, state: State, runtime: Runtime[Context]) -> State:
+        """Run the extraction subgraph or reuse the latest extraction when disabled."""
         logger = state['logger']
         if not state.get('do_extract', True):
             print("Extraction step skipped as per configuration.\n")
             return self.extractor.skip(state['extract_dir'], logger)
 
         print("Extracting answers...")
-        logger.log(f"Extracting answers for {state['sheet_id']} from {state['sheet_path']}", level="debug", step_label="Extractor")
+        logger.log(f"Extracting answers for {state['sheet_id']} from {state['sheet_path']}", level="debug", step_label="Extraction")
 
         state = self.extractor.invoke(state)
 
         print("Extracted answers.\n")
-        logger.log(f"Extracted answers, saved at {state['extract_dir']}.", level="info", step_label="Extractor")
+        logger.log(f"Extracted answers, saved at {state['extract_dir']}.", level="info", step_label="Extraction")
 
         return state
 
 
-    def node_grader(self, state: State, runtime: Runtime[Context]) -> State:
-        """Run the requested question workers and save the aggregated attempt."""
+    def node_grading(self, state: State, runtime: Runtime[Context]) -> State:
+        """Run the grading subgraph and persist a grading report for the run."""
         logger = state['logger']
         if not state.get('do_grade', True):
             print("Grading step skipped as per configuration.\n")
-            return self.grader.skip(state['results_dir'], logger)
+            if not state.get('do_qa', True) and not state.get('do_feedback', True):
+                return self.grader.skip(state['results_dir'], read_results=False, logger=logger)
+            return self.grader.skip(state['results_dir'], read_results=True, logger=logger)
 
         print("Grading exam...")
-        logger.log("Grading exam based on extracted answers and rubric.", level="debug", step_label="Grader")
+        logger.log("Grading exam based on extracted answers and rubric.", level="debug", step_label="Grading")
 
         state = self.grader.invoke(state)
 
         io.write_json(filepath=state['reports_dir'] / f"grading_reports_{state['run_id']}.json", data=[state['grading_result']], logger=logger)
 
         print("Grading completed.\n")
-        logger.log(f"Grading completed. Reports saved at {state['reports_dir']}", level="debug", step_label="Grader")
+        logger.log(f"Grading completed. Reports saved at {state['reports_dir']}", level="debug", step_label="Grading")
 
         return state
 
 
     def node_qa(self, state: State, runtime: Runtime[Context]) -> State:
-        """Audit the combined grade and identify only questions needing another pass."""
+        """Audit the grading output and decide whether any questions need a regrade."""
         logger = state['logger']
         if not state.get('do_qa', True):
             print("Quality assurance step skipped as per configuration.\n")
@@ -167,14 +172,14 @@ class GradingWorkflow:
 
 
     def node_feedback(self, state: State, runtime: Runtime[Context]) -> State:
-        """Convert final grading evidence into student-facing guidance."""
+        """Convert grading evidence into human-readable student feedback."""
         logger = state['logger']
         if not state.get('do_feedback', True):
             print("Feedback generation step skipped as per configuration.\n")
             result = self.feedback.skip(logger)
             return {
+                "feedback_result": result['result_json'],
                 "feedback_result_str": result['result_str'],
-                "feedback_result_json": result['result_json'],
                 "messages": []
             }
 
@@ -199,7 +204,7 @@ class GradingWorkflow:
 
 
     def node_export(self, state: State, runtime: Runtime[Context]) -> OutputState:
-        """Persist final artifacts and close the per-run logger."""
+        """Persist the final artifacts and close the per-run logger."""
         logger = state['logger']
         if not state.get('do_export', True):
             print("Exporting step skipped as per configuration.\n")
@@ -217,7 +222,7 @@ class GradingWorkflow:
         return state
 
     def regrade_decision(self, state: State) -> str:
-        """Route QA failures back only while the configured budget remains."""
+        """Route QA failures back to grading only while regrade attempts remain."""
         logger = state['logger']
         if state['regrade'] and state['regrade_counter'] > 0:
             print("QA requested regrade. Routing back to grader.\n")
@@ -234,24 +239,27 @@ class GradingWorkflow:
 
         return "continue"
 
+
     def compile(self):
-        """Build the linear workflow with one conditional QA loop."""
+        """Build the workflow graph with the main pipeline and the QA regrade loop."""
         graph = StateGraph(State, input_schema=InputState, output_schema=OutputState, context_schema=Context)
 
-        for name, node in (("prepare", self.node_prepare), ("extractor", self.node_extractor), ("grader", self.node_grader), ("quality_assurance", self.node_qa), ("feedback", self.node_feedback), ("export", self.node_export)):
+        for name, node in (("prepare", self.node_prepare), ("extraction", self.node_extraction), ("grading", self.node_grading), ("quality_assurance", self.node_qa), ("feedback", self.node_feedback), ("export", self.node_export)):
             graph.add_node(name, node)
 
         graph.set_entry_point("prepare")
-        graph.add_edge("prepare", "extractor")
-        graph.add_edge("extractor", "grader")
-        graph.add_edge("grader", "quality_assurance")
-        graph.add_conditional_edges("quality_assurance", self.regrade_decision, {"regrade": "grader", "continue": "feedback"})
+        graph.add_edge("prepare", "extraction")
+        graph.add_edge("extraction", "grading")
+        graph.add_edge("grading", "quality_assurance")
+        graph.add_conditional_edges("quality_assurance", self.regrade_decision, {"regrade": "grading", "continue": "feedback"})
         graph.add_edge("feedback", "export")
         graph.add_edge("export", END)
 
         return graph.compile()
 
 
+# Compose the full grading pipeline as a stateful graph so each stage can
+# read and update the same shared context as the process advances.
 def build_graph(model="gpt-4o", ocr_model="gpt-4o", temperature=0.0, max_tokens=None):
     """Public factory used by the application and tests."""
     return GradingWorkflow(model, ocr_model, temperature, max_tokens).compile()

@@ -1,0 +1,12 @@
+2-1 True
+2-2 False
+→ it is possible and it Can inherit
+as many times
+2-3 True
+2-4 False
+→ method override overwrite
+2-5 True
+2-6 True
+2-7 False
+→ A lot of Java Database Connectivity
+for Database Sources

@@ -1,0 +1,12 @@
+6. Encapsulation -> it's a Java mechanism binds
+both code and the data it manipulates into the
+Same Package "hidden data".
+7. (A) Abstraction classes (B) Interface
+8. (A) When it finishs it's normal task Procedure.
+(B) Terminated due to unusual events.
+(C) When it becomes dead or unavailable.
+9. (A) System.in -> (Input)
+(B) System.out -> (Output)
+(C) System.err -> (Error)
+10. AWT
+Abstraction Window Toolkit.

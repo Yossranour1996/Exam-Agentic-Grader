@@ -1,0 +1,20 @@
+1- It's not restricted to a specific system architecture.
+2- By the wide spread of information that led to the need for
+new improvement in programming to adopt to this new
+Changes and new thinking about programs and their design.
+3- OOP focuses mainly on data and keep the code closely tied to its
+data, while POP focuses on procedure rather than data.
+4- a running tool (not development) and also the JVM
+5- Inheritance takes the methods and attributes of an existing class
+and inherit it to a new class, allowing it to reusit a add new things
+while polymorphism is basically means many forms and that
+a message or a method can be defined differently many times.
+6- It is the process of binding together the code and the data it is
+manipulate and protect them from outside interference and
+misuse.
+7- Interfaces and abstract classes.
+8- (i) Completing the task normally.
+(ii) due to unusual event.
+(iii) It's no longer available or dead.
+9- System.in, System.out, System.err
+10- AWT API to add new feature

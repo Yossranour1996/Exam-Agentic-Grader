@@ -1,0 +1,86 @@
+STUDENT ANSWERS:
+
+Question: Q1
+Sub-Question: Q1.1
+Answer: We mean by that is Java is not restricted to certain type of a computer architecture.
+
+Sub-Question: Q1.2
+Answer: The World Wide Web and internet participate in the programming revolution because the users mass for reaching of them led to development & the (Java) to connect between different platforms.
+
+Sub-Question: Q1.3
+Answer: The main difference is that procedure oriented programming (pop) uses the process (code) as a core, while object oriented programming uses the object (data) as core which binds the code and the data.
+
+Sub-Question: Q1.4
+Answer: The components of the JRE are getter, classes, interfaces, etc.
+
+Sub-Question: Q1.5
+Answer: The inheritance the creating of new class on top of existing one which can uses its methods and fields, while polymorphism allow the multithreading of programs.
+
+Sub-Question: Q1.6
+Answer: We mean by encapsulation is binding the data and the code together and restrict the accesses to it, only if its allowed.
+
+Sub-Question: Q1.7
+Answer: The two ways to achieve abstraction is by default like interface or by defining the abstraction itself.
+
+Sub-Question: Q1.8
+Answer: A thread could by terminated due to: 1- achieving its normal task 2- due to unusual event. 3- dead and no longer available.
+
+Sub-Question: Q1.9
+Answer: The three default streams are: 1- system.out (output stream) 2- system.in (input stream) 3- system.err (error stream)
+
+Sub-Question: Q1.10
+Answer: The API Javaswing was built on top of AWT (application windows)
+
+
+Question: Q2
+Sub-Question: Q2.1
+Answer: True
+
+Sub-Question: Q2.2
+Answer: False
+
+Sub-Question: Q2.3
+Answer: False
+
+Sub-Question: Q2.4
+Answer: False
+
+Sub-Question: Q2.5
+Answer: True
+
+Sub-Question: Q2.6
+Answer: True
+
+Sub-Question: Q2.7
+Answer: False
+
+
+Question: Q3
+Sub-Question: Q3.1
+Answer: To deal with even environmental changes is one of the reasons that computer language innovation occurred.
+
+Sub-Question: Q3.2
+Answer: C is an example of a POP Language.
+
+Sub-Question: Q3.3
+Answer: POP does not allow data to flow freely in the program.
+
+Sub-Question: Q3.4
+Answer: JDK → JRE, JVM are small programs that need a java enabled webbrowser to be executed.
+
+Sub-Question: Q3.5
+Answer: a container (frame) is a component which can contain other elements like buttons.
+
+Sub-Question: Q3.6
+Answer: The model-view-controller architecture is used in Swing.
+
+Sub-Question: Q3.7
+Answer: JDBC is a java API to connect and interact with databases.
+
+
+Question: Q4
+Sub-Question: Q4.1
+Answer: student s[i]. " you will take seat" "student length -it)" Oh:- student [i]. you will take seat', i * for the student [i] (for example) will have the seat * (i-1) => [UNK] will be seated up to and G = 2 For seat student[i] when i=0 the seat will be 0 i = 1 i = 4 the seat will be 4
+
+Sub-Question: Q4.2
+Answer: Private String U:

@@ -1,4 +1,5 @@
-"""Question-scoped grading agent."""
+# src/agents/grader.py
+"""Grading agent used to score exam answers question by question."""
 
 from src.agents.agent_base import AgentBase
 from src.tools.grader_tools import (
@@ -8,8 +9,10 @@ from src.schemas.grader_schema import Result
 from src.prompts.grader_prompt import prompt_template
 
 
+# Grading agent that evaluates extracted answers against the expected rubric or
+# reference output and produces a score or feedback signal.
 class GraderAgent(AgentBase):
-    """Grade one question and its sub-questions in isolation, with optional tool use."""
+    """Grade one question and its sub-questions in isolation with section-specific tools."""
 
     def __init__(self, model: str, temperature: float, max_tokens: int | None, section: str):
         tools = {
@@ -28,7 +31,7 @@ class GraderAgent(AgentBase):
 
     @staticmethod
     def parse_result(result: Result) -> str:
-        """Render one question and its item-level evidence."""
+        """Render one question and its sub-question evidence as readable text."""
         text = (
 f""""Question: {result.question}
 Total Points: {result.total_points}

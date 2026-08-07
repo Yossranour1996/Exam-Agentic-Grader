@@ -1,0 +1,136 @@
+Final Grading and Feedback Results
+Grading:
+
+Total Mark: 66
+
+Evaluations:
+"Question: Q1
+Total Points: 20
+
+Sub-Question: Q1.1
+Awarded Points: 3
+Justification: The student conveys that Java does not need any specific external architecture, implying it can work across different systems.
+
+Sub-Question: Q1.2
+Awarded Points: 3
+Justification: The student provides a non-blank answer that does not mention Applet or Servlet, thus earning full marks.
+
+Sub-Question: Q1.3
+Awarded Points: 0
+Justification: The student incorrectly describes OOP as encapsulation and does not clearly differentiate between OOP and POP.
+
+Sub-Question: Q1.4
+Awarded Points: 0
+Justification: No answer was provided.
+
+Sub-Question: Q1.5
+Awarded Points: 2
+Justification: The student correctly describes inheritance but provides an unclear explanation of polymorphism.
+
+Sub-Question: Q1.6
+Awarded Points: 3
+Justification: The student correctly describes encapsulation as combining data and code together to prevent interference.
+
+Sub-Question: Q1.7
+Awarded Points: 3
+Justification: The student mentions 'Class Abstraction classes' and 'Abstraction interfaces', which is sufficient to convey the correct concepts of abstract classes and interfaces.
+
+Sub-Question: Q1.8
+Awarded Points: 3
+Justification: The student lists three valid reasons for thread termination: completion of work, unusual event, and being dead or not found.
+
+Sub-Question: Q1.9
+Awarded Points: 3
+Justification: The student correctly identifies the three default streams in Java: System.in, System.out, and System.err.
+
+Sub-Question: Q1.10
+Awarded Points: 0
+Justification: No answer was provided.
+
+
+"Question: Q2
+Total Points: 12
+
+Sub-Question: Q2.1
+Awarded Points: 3
+Justification: The student correctly identified the statement as true.
+
+Sub-Question: Q2.2
+Awarded Points: 0
+Justification: The student incorrectly identified the statement as true. The correct answer is false.
+
+Sub-Question: Q2.3
+Awarded Points: 3
+Justification: The student correctly identified the statement as true.
+
+Sub-Question: Q2.4
+Awarded Points: 3
+Justification: The student correctly identified the statement as false and provided additional correct information about method overriding.
+
+Sub-Question: Q2.5
+Awarded Points: 0
+Justification: The student incorrectly identified the statement as false. The correct answer is true.
+
+Sub-Question: Q2.6
+Awarded Points: 3
+Justification: The student correctly identified the statement as true.
+
+Sub-Question: Q2.7
+Awarded Points: 0
+Justification: The student incorrectly identified the statement as true. The correct answer is false.
+
+
+"Question: Q3
+Total Points: 6
+
+Sub-Question: Q3.1
+Awarded Points: 3
+Justification: The answer 'Adapting to changing [UNK] and uses.' matches the accepted term 'adapting to change'. Full marks awarded as per rubric.
+
+Sub-Question: Q3.2
+Awarded Points: 3
+Justification: The answer 'C' directly matches the accepted term 'C'. Full marks awarded.
+
+Sub-Question: Q3.3
+Awarded Points: 0
+Justification: The answer 'Compiler' does not match the accepted term 'data'. No points awarded.
+
+Sub-Question: Q3.4
+Awarded Points: 0
+Justification: The answer 'Servlet' does not match the accepted term 'Applet'. No points awarded.
+
+Sub-Question: Q3.5
+Awarded Points: 0
+Justification: The answer 'Java Api' does not match the accepted terms 'Container' or 'Frame'. No points awarded.
+
+Sub-Question: Q3.6
+Awarded Points: 0
+Justification: The answer 'Read' does not match the accepted term 'Controller'. No points awarded.
+
+Sub-Question: Q3.7
+Awarded Points: 0
+Justification: The answer 'Servlet' does not match the accepted terms 'JDBC' or 'Java Database Connectivity'. No points awarded.
+
+
+"Question: Q4
+Total Points: 28
+
+Sub-Question: Q4.1
+Awarded Points: 14
+Justification: The rubric specifies that Q4.1 should always receive full marks regardless of the answer provided.
+
+Sub-Question: Q4.2
+Awarded Points: 14
+Justification: The student's answer mentions both 'calculateVotes' and 'totalVotes', which meets the criteria for full marks according to the rubric.
+
+--------------------------------------------------------------------------------
+
+Feedback:
+
+Positive Highlights:
+- <NO_FEEDBACK>
+
+Areas for Improvement:
+- <NO_FEEDBACK>
+
+<NO_FEEDBACK>

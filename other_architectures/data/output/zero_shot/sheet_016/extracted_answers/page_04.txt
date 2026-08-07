@@ -1,0 +1,7 @@
+2-1 "true"
+2-2 "true"
+2-3 "true"
+2-4 "False" achieved by method overriding
+2-5 "False" have an abstract method with then
+2-6 "true"
+2-7 "False" two database drivers

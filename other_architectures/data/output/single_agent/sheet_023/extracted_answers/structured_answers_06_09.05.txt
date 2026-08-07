@@ -1,0 +1,86 @@
+STUDENT ANSWERS:
+
+Question: Q1
+Sub-Question: Q1.1
+Answer: It doesn't rely on the architecture of the System level.
+
+Sub-Question: Q1.2
+Answer: It helped programming language like Java large that are able to create desktop based programs that can be transferred ex: apps and mobile.
+
+Sub-Question: Q1.3
+Answer: OOP Object Oriented programming focuses on data rather than code it decomposes problems to small parts and (object) and bind data and code to its (1) POP process oriented programming focuses on the procedure that is the code that is a series of functions and instruction. the data is isolated to be accessed by all in the case of getting modified.
+
+Sub-Question: Q1.4
+Answer: Java virtual machine / libraries and other things lang JVM libraries files JRE JDK toolkits
+
+Sub-Question: Q1.5
+Answer: Inheritance: The Creation of a new Class using an existing one the new class have all the method and attributes of the classes inherited and can add new. It helps= reuse code, Create Class hierarchy. Polymorphism: meaning many forms allow interface reuse access to classes and it has two types: Run time polymorphism - Compile time polymorphism. It also means to take more than one form.
+
+Sub-Question: Q1.6
+Answer: Encapsulation: The mechanism that binds together the data and the code that manages it and by that protect the data from being modified by an outside code. it can be achieved using abstraction and data hiding it is added as implementation.
+
+Sub-Question: Q1.7
+Answer: abstract Classes and interfaces.
+
+Sub-Question: Q1.8
+Answer: It finished working normally Stopped due to unusual errors it no Longer exist.
+
+Sub-Question: Q1.9
+Answer: System - in System-out System.err. For input For output For errors.
+
+Sub-Question: Q1.10
+Answer: On top of AWT Abstract windows tool kit.
+
+
+Question: Q2
+Sub-Question: Q2.1
+Answer: True
+
+Sub-Question: Q2.2
+Answer: True
+
+Sub-Question: Q2.3
+Answer: True = Java virtual machine
+
+Sub-Question: Q2.4
+Answer: False = Can be achieved by method overloading
+
+Sub-Question: Q2.5
+Answer: False = Could have method, when they can be used to run
+
+Sub-Question: Q2.6
+Answer: True
+
+Sub-Question: Q2.7
+Answer: False = There are multiple JDBC drivers depend on data
+
+
+Question: Q3
+Sub-Question: Q3.1
+Answer: To adapt to the changes in the environments.
+
+Sub-Question: Q3.2
+Answer: C
+
+Sub-Question: Q3.3
+Answer: the data
+
+Sub-Question: Q3.4
+Answer: applets
+
+Sub-Question: Q3.5
+Answer: Panels and frames and menus
+
+Sub-Question: Q3.6
+Answer: model View Controller
+
+Sub-Question: Q3.7
+Answer: JDBC = Java database connection.
+
+
+Question: Q4
+Sub-Question: Q4.1
+Answer: System.out.print(String seat[i] + "you will take seat[ for (i=0; i< seat.length(); i++) + invalid.i[i] The list that is printed on the output can be achieved using the I/O stream System. out that prints a new line. at (i) represents the value in the string in the list and the number the invalid, suppose to achieve the number of 4 of you can use. a time of 4.
+
+Sub-Question: Q4.2
+Answer: int numOfvotes = total votes The numOf votes in the public class means that is used to calculate the double 'portion' is not identified.

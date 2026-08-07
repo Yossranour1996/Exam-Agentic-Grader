@@ -1,3 +1,4 @@
+# src/tools/extractor_tools.py
 """Optional image enhancement and text-boundary extraction helpers."""
 import os
 import re

@@ -1,0 +1,161 @@
+{
+  "grading": {
+    "total_mark": 76,
+    "evaluations": [
+      {
+        "question": "Q1",
+        "total_points": 23,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q1.1",
+            "awarded_points": 3,
+            "justification": "The student conveyed that Java is not restricted to a specific system architecture."
+          },
+          {
+            "sub_question": "Q1.2",
+            "awarded_points": 3,
+            "justification": "The answer did not mention Applet or Servlet, so it is accepted."
+          },
+          {
+            "sub_question": "Q1.3",
+            "awarded_points": 3,
+            "justification": "The student correctly differentiated between POP and OOP in terms of data and class orientation."
+          },
+          {
+            "sub_question": "Q1.4",
+            "awarded_points": 0,
+            "justification": "The answer did not mention any components of the JRE."
+          },
+          {
+            "sub_question": "Q1.5",
+            "awarded_points": 2,
+            "justification": "The student correctly explained inheritance but not polymorphism."
+          },
+          {
+            "sub_question": "Q1.6",
+            "awarded_points": 3,
+            "justification": "The student expressed the concept of encapsulation as binding code and data together."
+          },
+          {
+            "sub_question": "Q1.7",
+            "awarded_points": 3,
+            "justification": "The student mentioned abstract classes and interfaces."
+          },
+          {
+            "sub_question": "Q1.8",
+            "awarded_points": 3,
+            "justification": "The student provided three valid reasons for thread termination."
+          },
+          {
+            "sub_question": "Q1.9",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the three default streams in Java."
+          },
+          {
+            "sub_question": "Q1.10",
+            "awarded_points": 0,
+            "justification": "The student did not mention AWT or Abstract Window Toolkit."
+          }
+        ]
+      },
+      {
+        "question": "Q2",
+        "total_points": 21,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q2.1",
+            "awarded_points": 3,
+            "justification": "The student correctly answered True."
+          },
+          {
+            "sub_question": "Q2.2",
+            "awarded_points": 3,
+            "justification": "The student correctly answered False."
+          },
+          {
+            "sub_question": "Q2.3",
+            "awarded_points": 3,
+            "justification": "The student correctly answered True."
+          },
+          {
+            "sub_question": "Q2.4",
+            "awarded_points": 3,
+            "justification": "The student correctly answered False."
+          },
+          {
+            "sub_question": "Q2.5",
+            "awarded_points": 3,
+            "justification": "The student correctly answered True."
+          },
+          {
+            "sub_question": "Q2.6",
+            "awarded_points": 3,
+            "justification": "The student correctly answered True."
+          },
+          {
+            "sub_question": "Q2.7",
+            "awarded_points": 3,
+            "justification": "The student correctly answered False."
+          }
+        ]
+      },
+      {
+        "question": "Q3",
+        "total_points": 18,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q3.1",
+            "awarded_points": 3,
+            "justification": "Always full marks."
+          },
+          {
+            "sub_question": "Q3.2",
+            "awarded_points": 3,
+            "justification": "The student correctly answered C."
+          },
+          {
+            "sub_question": "Q3.3",
+            "awarded_points": 3,
+            "justification": "The student correctly answered data."
+          },
+          {
+            "sub_question": "Q3.4",
+            "awarded_points": 0,
+            "justification": "The student did not provide Applet or Applets."
+          },
+          {
+            "sub_question": "Q3.5",
+            "awarded_points": 3,
+            "justification": "The student correctly answered container."
+          },
+          {
+            "sub_question": "Q3.6",
+            "awarded_points": 3,
+            "justification": "The student correctly answered controller."
+          },
+          {
+            "sub_question": "Q3.7",
+            "awarded_points": 3,
+            "justification": "The student correctly answered JDBC."
+          }
+        ]
+      },
+      {
+        "question": "Q4",
+        "total_points": 14,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q4.1",
+            "awarded_points": 14,
+            "justification": "Always full marks."
+          },
+          {
+            "sub_question": "Q4.2",
+            "awarded_points": 0,
+            "justification": "The student did not provide an answer."
+          }
+        ]
+      }
+    ]
+  }
+}

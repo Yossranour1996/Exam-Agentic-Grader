@@ -1,0 +1,38 @@
+1.1 It is mean Java is not restricted
+specific response architecture.
+1-5 The Inheritance =-
+Create new classe bebase on exsitang one.
+polymorphism-
+it is mean having many formes -
+1-6 encapsulation it is mean warning up
+of data to use - (method, fields).
+1-8 if the Thread
+finished it task normaly
+dead
+1-9 stream-in stream-out stream-err
+1.3) POP And is producer (code) only not with Labo
+oop it take important code and data
+together
+OOP
+pop
+Code
+data
+Code
+data
+Code
+Code
+Code
+data
+data
+data
+Code
+Code
+Code
+data
+data
+data
+Code
+Code
+data
+data
+data

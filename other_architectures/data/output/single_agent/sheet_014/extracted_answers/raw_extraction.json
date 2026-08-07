@@ -1,0 +1,34 @@
+[
+  {
+    "page": "page_01.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_02.png",
+    "text": ""
+  },
+  {
+    "page": "page_03.png",
+    "text": "1.1) It does not rely on one architecture\nonly, and you can write Java code once\nand run it everywhere thanks to the JVM\n1.2) it was a new and fast way to connect\nbetween devices and created a whole\nnew ecosystem including browsers which\nrequired new technologies to work with like\nJava applets. also the need for language that run\nin every computer architecture.\n1.3) OOP stands for Object Oriented\nProgramming. which focused on data and its\nstructure more than the functions (procedures)\nPOP stands for procedural Oriented Programming\nwhich focused more in the functions instead of\ndata. Thus it wasn't good enough when project\nscales and become more complex.\n1.4) JRE: Java Runtime Environment.\nit has 2 main components:\n1- JVM: which execute Java bytecode\n2- a set of classes and libraries required\nby Java program. for example: Scanner\nclass is a class offered by the JRE\n1.5) inheritance is the process where one class\nobtain all data (like fields and functions) from another\nclass and extend it.\npolymorphism is the ability to interact with a\nclass without needing to specify the imp"
+  },
+  {
+    "page": "page_04.png",
+    "text": "implementation details. for example: you can\ninteract with Car class without needing to know\nif it is of type Normal Car or SportCar\n1.6) encapsulation is hiding the data and\nimplementations & and make visible in certain\nclasses\n1.7) 1- abstract classes\n2- interfaces\n1.8) 1- it finishes all [UNK] instructions successfully\nand normally\n2- it stops due to unexpected behavior\nbehavior or error\n3- it takes too long so it is dead or locked\n1.9) 1- System.in [standard input]\n2- System.out [standard output]\n3- System.err [standard error]\n1.10) Swing is built on top of AWT JWT\n(Java window toolkit) API."
+  },
+  {
+    "page": "page_05.png",
+    "text": "2.1) True\n2-2) False, if it is possible\n2-3) True\n2.4) False, it is acheived by method overriding\n2.5) False, it cannot\n2.6) True\n2.7) False, there is a seperate driver foreach source."
+  },
+  {
+    "page": "page_06.png",
+    "text": "3.1) changing environment and use cases\n3.2) C. language\n3.3) data\n3.4) Java applets\n3.5) Frame\n3.6) Controller\n3.7) JDBC (Java Database Connector)"
+  },
+  {
+    "page": "page_07.png",
+    "text": "4.1)\nseats[i] + \" You will take seat \"+ i\nwe can see the pattern from the output.\nFirst, we have a for loop with variable i\nstarting from 0 and ending with 4\nSecond, we start every output line with seat\nthat is the same index as i so we\nused {seats[i]}.\nFinally the middle part is the same so we just\nused a string, and the final part is the same\nas i value.\n4.2)\ndouble votes = calculateVotes(totalVotes);\nSystem.out.println(\nthe number of people\n4.2)\ncalculateVotes (totalVotes);\nin this code we have a function that accept number\nof votes and calculate number of people agreeing\nwith the statement. it just require number of\nvotes which we have declared in the start of\nmain function"
+  },
+  {
+    "page": "page_08.png",
+    "text": ""
+  }
+]

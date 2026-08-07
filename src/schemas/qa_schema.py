@@ -1,4 +1,6 @@
 # src/schemas/qa_schema.py
+"""Structured schema for the QA agent's audit findings and regrade decision."""
+
 from typing import List, Literal
 from pydantic import BaseModel, Field
 

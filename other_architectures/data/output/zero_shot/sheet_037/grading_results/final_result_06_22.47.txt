@@ -1,0 +1,121 @@
+Total Mark: 100
+
+Evaluations:
+Question: Q1
+Total Score: 30
+
+Sub-Question: Q1.1
+Score: 3
+Justification: The student correctly conveyed that Java is not dependent on a specific machine or operating system architecture.
+
+Sub-Question: Q1.2
+Score: 3
+Justification: The student's answer did not mention Applet or Servlet, so it is accepted.
+
+Sub-Question: Q1.3
+Score: 3
+Justification: The student correctly described POP as procedure-oriented and OOP as class/object-oriented.
+
+Sub-Question: Q1.4
+Score: 1
+Justification: The student mentioned Java Virtual Machine but did not mention libraries or supporting files.
+
+Sub-Question: Q1.5
+Score: 3
+Justification: The student correctly explained both inheritance and polymorphism.
+
+Sub-Question: Q1.6
+Score: 3
+Justification: The student correctly described encapsulation as binding data and codes.
+
+Sub-Question: Q1.7
+Score: 3
+Justification: The student correctly mentioned abstract class and interface.
+
+Sub-Question: Q1.8
+Score: 3
+Justification: The student provided three valid reasons for thread termination.
+
+Sub-Question: Q1.9
+Score: 2
+Justification: The student correctly identified System.in and System.err but had a minor error with System.out.
+
+Sub-Question: Q1.10
+Score: 3
+Justification: The student correctly identified Java AWT as the API on which Java Swing was built.
+
+
+Question: Q2
+Total Score: 21
+
+Sub-Question: Q2.1
+Score: 3
+Justification: The student correctly answered True.
+
+Sub-Question: Q2.2
+Score: 3
+Justification: The student correctly answered False.
+
+Sub-Question: Q2.3
+Score: 3
+Justification: The student correctly answered True.
+
+Sub-Question: Q2.4
+Score: 3
+Justification: The student correctly answered False.
+
+Sub-Question: Q2.5
+Score: 3
+Justification: The student correctly answered True.
+
+Sub-Question: Q2.6
+Score: 3
+Justification: The student correctly answered True.
+
+Sub-Question: Q2.7
+Score: 3
+Justification: The student correctly answered False.
+
+
+Question: Q3
+Total Score: 21
+
+Sub-Question: Q3.1
+Score: 3
+Justification: The student provided a valid reason for computer-language innovation.
+
+Sub-Question: Q3.2
+Score: 3
+Justification: The student correctly identified C programming language as an example of a POP language.
+
+Sub-Question: Q3.3
+Score: 3
+Justification: The student correctly identified 'data' as the answer.
+
+Sub-Question: Q3.4
+Score: 3
+Justification: The student correctly identified Applet as the answer.
+
+Sub-Question: Q3.5
+Score: 3
+Justification: The student correctly identified Containers as the answer.
+
+Sub-Question: Q3.6
+Score: 3
+Justification: The student correctly identified Controller as the answer.
+
+Sub-Question: Q3.7
+Score: 3
+Justification: The student correctly identified JDBC as the answer.
+
+
+Question: Q4
+Total Score: 28
+
+Sub-Question: Q4.1
+Score: 14
+Justification: Full marks are awarded as per the rubric.
+
+Sub-Question: Q4.2
+Score: 9
+Justification: The student's answer was incorrect but mentioned 'Votes', which is vote-related.

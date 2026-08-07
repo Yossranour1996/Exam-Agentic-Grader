@@ -1,0 +1,16 @@
+1.1 Java is not tied to external architecture
+1.2 make it hereach easy to develop programs.
+1.3 the POP have Procedure with data, but OOP treat
+by Classes and objects to encapsulate data and codes.
+1.4 JVD
+1.5 Inheritance is to decide with which class has the properties of the
+other, but polymorphism is features deffent
+inactions (many forms), that program can be implemented
+by different forms.
+1.6 hiding data and codes to not be achieved by
+external code of interface
+1.7. abstraction interface, and abstraction class
+1.8. unusual treated terminated
+finish
+1.9 System.in, System.out, System.err
+1.10 Data

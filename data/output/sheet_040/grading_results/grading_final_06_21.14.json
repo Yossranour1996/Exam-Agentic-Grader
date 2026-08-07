@@ -1,0 +1,159 @@
+{
+  "total_mark": 97,
+  "evaluations": [
+    {
+      "question": "Q1",
+      "total_points": 27,
+      "sub_evaluations": [
+        {
+          "sub_question": "Q1.1",
+          "awarded_points": 3,
+          "justification": "The student correctly conveyed that Java is independent of device and operating system, which aligns with the concept of architecture-neutral."
+        },
+        {
+          "sub_question": "Q1.2",
+          "awarded_points": 0,
+          "justification": "The answer mentions 'applets', which is explicitly prohibited by the rubric, resulting in a score of 0."
+        },
+        {
+          "sub_question": "Q1.3",
+          "awarded_points": 3,
+          "justification": "The student correctly differentiated between OOP and POP, mentioning that OOP focuses on objects/classes and POP on procedures/functions."
+        },
+        {
+          "sub_question": "Q1.4",
+          "awarded_points": 3,
+          "justification": "The student correctly identified the components of the JRE as JVM, libraries, and other files, earning full marks."
+        },
+        {
+          "sub_question": "Q1.5",
+          "awarded_points": 3,
+          "justification": "Upon re-evaluation, the student's explanation of polymorphism meets the rubric's criteria for semantic equivalence, mentioning 'one interface' and 'different forms'. Full marks awarded."
+        },
+        {
+          "sub_question": "Q1.6",
+          "awarded_points": 3,
+          "justification": "The student correctly described encapsulation as binding code and data together, aligning with the rubric's expectations."
+        },
+        {
+          "sub_question": "Q1.7",
+          "awarded_points": 3,
+          "justification": "The student mentioned 'classes' and 'interface abstraction', which aligns with the rubric's requirement for abstract classes and interfaces."
+        },
+        {
+          "sub_question": "Q1.8",
+          "awarded_points": 3,
+          "justification": "The student provided three valid reasons for thread termination: task completion, unusual events, and being dead, earning full marks."
+        },
+        {
+          "sub_question": "Q1.9",
+          "awarded_points": 3,
+          "justification": "The student correctly identified the three default streams in Java as System.in, System.out, and System.err, despite minor spelling errors."
+        },
+        {
+          "sub_question": "Q1.10",
+          "awarded_points": 3,
+          "justification": "The student correctly identified AWT as the API on which Java Swing was built, earning full marks."
+        }
+      ]
+    },
+    {
+      "question": "Q2",
+      "total_points": 21,
+      "sub_evaluations": [
+        {
+          "sub_question": "Q2.1",
+          "awarded_points": 3,
+          "justification": "The student correctly identified the statement as True."
+        },
+        {
+          "sub_question": "Q2.2",
+          "awarded_points": 3,
+          "justification": "The student correctly identified the statement as False and provided additional correct information."
+        },
+        {
+          "sub_question": "Q2.3",
+          "awarded_points": 3,
+          "justification": "The student correctly identified the statement as True."
+        },
+        {
+          "sub_question": "Q2.4",
+          "awarded_points": 3,
+          "justification": "The student correctly identified the statement as False and provided additional correct information."
+        },
+        {
+          "sub_question": "Q2.5",
+          "awarded_points": 3,
+          "justification": "The student correctly identified the statement as True."
+        },
+        {
+          "sub_question": "Q2.6",
+          "awarded_points": 3,
+          "justification": "The student correctly identified the statement as True."
+        },
+        {
+          "sub_question": "Q2.7",
+          "awarded_points": 3,
+          "justification": "The student correctly identified the statement as False and provided additional correct information."
+        }
+      ]
+    },
+    {
+      "question": "Q3",
+      "total_points": 21,
+      "sub_evaluations": [
+        {
+          "sub_question": "Q3.1",
+          "awarded_points": 3,
+          "justification": "The rubric specifies that Q3.1 should always receive full marks regardless of the answer provided."
+        },
+        {
+          "sub_question": "Q3.2",
+          "awarded_points": 3,
+          "justification": "The answer 'C' matches the accepted term 'C'. Full points awarded."
+        },
+        {
+          "sub_question": "Q3.3",
+          "awarded_points": 3,
+          "justification": "The answer 'data' matches the accepted term 'data'. Full points awarded."
+        },
+        {
+          "sub_question": "Q3.4",
+          "awarded_points": 3,
+          "justification": "The answer 'applet' matches the accepted term 'Applet'. Full points awarded."
+        },
+        {
+          "sub_question": "Q3.5",
+          "awarded_points": 3,
+          "justification": "The answer 'Container' matches the accepted term 'Container'. Full points awarded."
+        },
+        {
+          "sub_question": "Q3.6",
+          "awarded_points": 3,
+          "justification": "The answer 'Controller' matches the accepted term 'Controller'. Full points awarded."
+        },
+        {
+          "sub_question": "Q3.7",
+          "awarded_points": 3,
+          "justification": "The answer 'JDBC' matches the accepted term 'JDBC'. Full points awarded."
+        }
+      ]
+    },
+    {
+      "question": "Q4",
+      "total_points": 28,
+      "sub_evaluations": [
+        {
+          "sub_question": "Q4.1",
+          "awarded_points": 14,
+          "justification": "The rubric specifies that full marks are awarded regardless of the answer's content."
+        },
+        {
+          "sub_question": "Q4.2",
+          "awarded_points": 14,
+          "justification": "The student's answer mentions both 'CalculateVotes' and 'total votes', which qualifies for full marks according to the rubric. The QA review notes confirm this interpretation."
+        }
+      ]
+    }
+  ]
+}

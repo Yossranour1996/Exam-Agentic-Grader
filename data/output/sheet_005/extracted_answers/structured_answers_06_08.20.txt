@@ -1,0 +1,86 @@
+STUDENT ANSWERS:
+
+Question: Q1
+Sub-Question: Q1.1
+Answer: It's mean Java is not restricted to a spicific systems architecture
+
+Sub-Question: Q1.2
+Answer: by platforms independence based to distribution program interpreted. (Java allow that) (aplat)
+
+Sub-Question: Q1.3
+Answer: While POP has procedures (code) that operate in data to achieve the program good. but OOP uses a classes and Objects that encapsulate both Code and data. POP OOP code data code data
+
+Sub-Question: Q1.4
+Answer: JRE (Java Running Engine) Components = - JVM - Byte Code
+
+Sub-Question: Q1.5
+Answer: Inheritance is anew classes based existing on one's, and uses (methods and properties of that class Polymorphism features that allowed in one interface and used of a general. (Polymorphism is interface but inheritance is (create a new class))
+
+Sub-Question: Q1.6
+Answer: encapsulation: is a mechanism to bind data and Code is together in manipulations, to be both safe for outside and misuse.
+
+Sub-Question: Q1.7
+Answer: two ways to achieve abstractions ① abstract classes ② interface
+
+Sub-Question: Q1.8
+Answer: terminated due to three reasons: ① finished it's a task normally ② terminated due to unusual events ③ dead and no longer available
+
+Sub-Question: Q1.9
+Answer: three default streams in Java: ① system.in ② system.out ③ system.err
+
+Sub-Question: Q1.10
+Answer: Wendows interface.
+
+
+Question: Q2
+Sub-Question: Q2.1
+Answer: true
+
+Sub-Question: Q2.2
+Answer: False -> It is possible for an interface to inherit another interface's properties
+
+Sub-Question: Q2.3
+Answer: true
+
+Sub-Question: Q2.4
+Answer: False Runtime polymorphism could be achieved by method Overriding
+
+Sub-Question: Q2.5
+Answer: true
+
+Sub-Question: Q2.6
+Answer: true False Java threads are heavy weight threads
+
+Sub-Question: Q2.7
+Answer: true
+
+
+Question: Q3
+Sub-Question: Q3.1
+Answer: OOP
+
+Sub-Question: Q3.2
+Answer: C programming language
+
+Sub-Question: Q3.3
+Answer: data
+
+Sub-Question: Q3.4
+Answer: aplet
+
+Sub-Question: Q3.5
+Answer: Container
+
+Sub-Question: Q3.6
+Answer: [UNK] controller
+
+Sub-Question: Q3.7
+Answer: (JDBC) Java Data Bases Connectly
+
+
+Question: Q4
+Sub-Question: Q4.1
+Answer: Code: Seats[i]+"You will take seat." + (4-i)
+
+Sub-Question: Q4.2
+Answer: Code: X = new calculate Votes (total Votes); calculate Votes (780);

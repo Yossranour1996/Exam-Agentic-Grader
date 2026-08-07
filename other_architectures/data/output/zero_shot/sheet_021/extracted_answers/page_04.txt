@@ -1,0 +1,11 @@
+1.5- inheritance is creating a Class based on
+the old one and use their is ability.
+polymorphism is it allow to let the the
+interface to be used by all public classes
+- 1.6- is encrypting data in mainplus and protect it
+from our side interface.
+1.7- abstract
+interface
+1.8- is finished the task
+interface with unusual situations ( [UNK] )
+ability to make Change.

@@ -1,0 +1,23 @@
+1.1) JAVA's motto is "write once, run anywhere", but meaning
+it could run in multiple environments and architecture.
+1.2) The internet required flexible languages to work
+on multiple platforms, it also required more complex
+programs which required more complex programming languages.
+1.3) OOP :- object oriented programming. the "object" or
+data are an integral part of the program and it's not
+for just free flowing, contains classes.
+POP :- procedural oriented programming, divides the program
+into smaller procedure's or "functions".
+1.4) JRE = contains Byte compiler and JVE (JAVA
+virtual Environment).
+(1.5) inheritance - is the idea that a parent class can inherit modifiers
+and functionality from another parent class.
+Polymorphism :- the using of interface to get around the
+multi inheritance problem (Diamond problem)
+(1.6) encapsulation :- the use of setters for read-only
+and getters for write-only.
+(1.7) abstract classes
+in interface
+(1.8) if you catch a threat or made an exception, finally
+(1.9) system. In , system.err, system.out
+(1.10) the JAVA language was an improvement of C and C++

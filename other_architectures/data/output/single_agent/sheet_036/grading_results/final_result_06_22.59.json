@@ -1,0 +1,161 @@
+{
+  "grading": {
+    "total_mark": 63,
+    "evaluations": [
+      {
+        "question": "Q1",
+        "total_points": 19,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q1.1",
+            "awarded_points": 3,
+            "justification": "The student correctly conveyed that Java is not restricted to a specific system architecture."
+          },
+          {
+            "sub_question": "Q1.2",
+            "awarded_points": 0,
+            "justification": "The answer was blank, which does not meet the rubric requirement."
+          },
+          {
+            "sub_question": "Q1.3",
+            "awarded_points": 0,
+            "justification": "The student did not clearly differentiate between POP and OOP as required by the rubric."
+          },
+          {
+            "sub_question": "Q1.4",
+            "awarded_points": 1,
+            "justification": "The student mentioned JVM, which earns 1 point. Libraries and supporting files were not mentioned."
+          },
+          {
+            "sub_question": "Q1.5",
+            "awarded_points": 3,
+            "justification": "The student correctly explained both inheritance and polymorphism."
+          },
+          {
+            "sub_question": "Q1.6",
+            "awarded_points": 3,
+            "justification": "The student correctly described encapsulation as binding data and code together."
+          },
+          {
+            "sub_question": "Q1.7",
+            "awarded_points": 3,
+            "justification": "The student mentioned abstract classes and interfaces, which is correct."
+          },
+          {
+            "sub_question": "Q1.8",
+            "awarded_points": 3,
+            "justification": "The student provided three correct reasons for thread termination."
+          },
+          {
+            "sub_question": "Q1.9",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the three default streams in Java."
+          },
+          {
+            "sub_question": "Q1.10",
+            "awarded_points": 0,
+            "justification": "The answer did not mention AWT or Abstract Window Toolkit."
+          }
+        ]
+      },
+      {
+        "question": "Q2",
+        "total_points": 9,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q2.1",
+            "awarded_points": 3,
+            "justification": "The student correctly answered True."
+          },
+          {
+            "sub_question": "Q2.2",
+            "awarded_points": 0,
+            "justification": "The student incorrectly answered True; the correct answer is False."
+          },
+          {
+            "sub_question": "Q2.3",
+            "awarded_points": 3,
+            "justification": "The student correctly answered True."
+          },
+          {
+            "sub_question": "Q2.4",
+            "awarded_points": 3,
+            "justification": "The student correctly answered False."
+          },
+          {
+            "sub_question": "Q2.5",
+            "awarded_points": 0,
+            "justification": "The student incorrectly answered False; the correct answer is True."
+          },
+          {
+            "sub_question": "Q2.6",
+            "awarded_points": 0,
+            "justification": "The student incorrectly answered False; the correct answer is True."
+          },
+          {
+            "sub_question": "Q2.7",
+            "awarded_points": 0,
+            "justification": "The student incorrectly answered True; the correct answer is False."
+          }
+        ]
+      },
+      {
+        "question": "Q3",
+        "total_points": 21,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q3.1",
+            "awarded_points": 3,
+            "justification": "Full marks are awarded as per rubric policy."
+          },
+          {
+            "sub_question": "Q3.2",
+            "awarded_points": 3,
+            "justification": "The student correctly answered C."
+          },
+          {
+            "sub_question": "Q3.3",
+            "awarded_points": 3,
+            "justification": "The student correctly identified 'data'."
+          },
+          {
+            "sub_question": "Q3.4",
+            "awarded_points": 3,
+            "justification": "The student correctly answered 'applet'."
+          },
+          {
+            "sub_question": "Q3.5",
+            "awarded_points": 3,
+            "justification": "The student correctly answered 'container'."
+          },
+          {
+            "sub_question": "Q3.6",
+            "awarded_points": 3,
+            "justification": "The student correctly answered 'controller'."
+          },
+          {
+            "sub_question": "Q3.7",
+            "awarded_points": 3,
+            "justification": "The student correctly answered 'JDBC'."
+          }
+        ]
+      },
+      {
+        "question": "Q4",
+        "total_points": 14,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q4.1",
+            "awarded_points": 14,
+            "justification": "Full marks are awarded as per rubric policy."
+          },
+          {
+            "sub_question": "Q4.2",
+            "awarded_points": 0,
+            "justification": "The answer was blank, which does not meet the rubric requirement."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+STUDENT ANSWERS:
+
+Question: Q1
+Sub-Question: Q1.1
+Answer: That mean Java is not restrict to specific a system architecture.
+
+Sub-Question: Q1.2
+Answer: [NO_ANSWER]
+
+Sub-Question: Q1.3
+Answer: POP has procedure (code) that operate the data to achieve program goals.
+
+Sub-Question: Q1.4
+Answer: JRE (Java Runtime Environment) is its environment for only run the Java program - l- JVM
+
+Sub-Question: Q1.5
+Answer: the difference is (inheritance is creating a new class based on another class. The class inherits from another class can reuse the method and field of the another) and the polymorphism is (the feature feature that allows interface to be used from general class of actions)
+
+Sub-Question: Q1.6
+Answer: its the mechanism that binds both data and code it manipulates. and keep them safe from the interference and misuse.
+
+Sub-Question: Q1.7
+Answer: abstraction class and interface.
+
+Sub-Question: Q1.8
+Answer: 1- finished it's task normally - 2- terminated due to unusul event. 3- dead or no longer available -
+
+Sub-Question: Q1.9
+Answer: 1- system.in , system.out , system.err .
+
+Sub-Question: Q1.10
+Answer: Run command to run Java application.
+
+
+Question: Q2
+Sub-Question: Q2.1
+Answer: True
+
+Sub-Question: Q2.2
+Answer: True
+
+Sub-Question: Q2.3
+Answer: True
+
+Sub-Question: Q2.4
+Answer: False (Compile time Polymorphism could be achieved by method overloading)
+
+Sub-Question: Q2.5
+Answer: False
+
+Sub-Question: Q2.6
+Answer: False
+
+Sub-Question: Q2.7
+Answer: True
+
+
+Question: Q3
+Sub-Question: Q3.1
+Answer: To implement improvment to the art of Programing.
+
+Sub-Question: Q3.2
+Answer: C
+
+Sub-Question: Q3.3
+Answer: a data
+
+Sub-Question: Q3.4
+Answer: applet
+
+Sub-Question: Q3.5
+Answer: container
+
+Sub-Question: Q3.6
+Answer: controller
+
+Sub-Question: Q3.7
+Answer: JDBC
+
+
+Question: Q4
+Sub-Question: Q4.1
+Answer: Public class Example {
+Public static Void main (String[] ag.s) {
+String[] seats = {"M", "C", "B", "P"};
+System.out.print("it's time to take your seat exm.");
+for (int i=0; i < seats.length; i++) {
+for (int i=0; i < seats.length; i++) {
+seats[i] +
+4-1
+seats[i] + ", you will take seat" + i
+
+Sub-Question: Q4.2
+Answer: [NO_ANSWER]

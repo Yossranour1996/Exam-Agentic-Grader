@@ -1,0 +1,8 @@
+4.1
+Seats [i] + ", you will take Seat " + (seats.length -i-1
+Seats [i] + ", you will take seat " + (4 - i)
+4 - 2
+if num of Votr
+int total Voters
+(int) portion = double portion
+(int) portion = int total Votes * 0.15

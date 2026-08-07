@@ -1,3 +1,4 @@
+# src/tools/qa_tools.py
 """Deterministic arithmetic checks available to the QA agent."""
 import json
 from typing import Union, Dict

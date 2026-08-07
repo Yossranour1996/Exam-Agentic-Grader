@@ -1,0 +1,86 @@
+STUDENT ANSWERS:
+
+Question: Q1
+Sub-Question: Q1.1
+Answer: It does not rely on one architecture only, and you can write Java code once and run it everywhere thanks to the JVM
+
+Sub-Question: Q1.2
+Answer: it was a new and fast way to connect between devices and created a whole new ecosystem including browsers which required new technologies to work with like Java applets. also the need for language that run in every computer architecture.
+
+Sub-Question: Q1.3
+Answer: OOP stands for Object Oriented Programming. which focused on data and its structure more than the functions (procedures) POP stands for procedural Oriented Programming which focused more in the functions instead of data. Thus it wasn't good enough when project scales and become more complex.
+
+Sub-Question: Q1.4
+Answer: JRE: Java Runtime Environment. it has 2 main components: 1- JVM: which execute Java bytecode 2- a set of classes and libraries required by Java program. for example: Scanner class is a class offered by the JRE
+
+Sub-Question: Q1.5
+Answer: inheritance is the process where one class obtain all data (like fields and functions) from another class and extend it. polymorphism is the ability to interact with a class without needing to specify the implementation details. for example: you can interact with Car class without needing to know if it is of type Normal Car or SportCar
+
+Sub-Question: Q1.6
+Answer: encapsulation is hiding the data and implementations & and make visible in certain classes
+
+Sub-Question: Q1.7
+Answer: 1- abstract classes 2- interfaces
+
+Sub-Question: Q1.8
+Answer: 1- it finishes all [UNK] instructions successfully and normally 2- it stops due to unexpected behavior behavior or error 3- it takes too long so it is dead or locked
+
+Sub-Question: Q1.9
+Answer: 1- System.in [standard input] 2- System.out [standard output] 3- System.err [standard error]
+
+Sub-Question: Q1.10
+Answer: Swing is built on top of AWT JWT (Java window toolkit) API.
+
+
+Question: Q2
+Sub-Question: Q2.1
+Answer: True
+
+Sub-Question: Q2.2
+Answer: False, if it is possible
+
+Sub-Question: Q2.3
+Answer: True
+
+Sub-Question: Q2.4
+Answer: False, it is acheived by method overriding
+
+Sub-Question: Q2.5
+Answer: False, it cannot
+
+Sub-Question: Q2.6
+Answer: True
+
+Sub-Question: Q2.7
+Answer: False, there is a seperate driver foreach source.
+
+
+Question: Q3
+Sub-Question: Q3.1
+Answer: changing environment and use cases
+
+Sub-Question: Q3.2
+Answer: C. language
+
+Sub-Question: Q3.3
+Answer: data
+
+Sub-Question: Q3.4
+Answer: Java applets
+
+Sub-Question: Q3.5
+Answer: Frame
+
+Sub-Question: Q3.6
+Answer: Controller
+
+Sub-Question: Q3.7
+Answer: JDBC (Java Database Connector)
+
+
+Question: Q4
+Sub-Question: Q4.1
+Answer: seats[i] + " You will take seat "+ i we can see the pattern from the output. First, we have a for loop with variable i starting from 0 and ending with 4 Second, we start every output line with seat that is the same index as i so we used {seats[i]}. Finally the middle part is the same so we just used a string, and the final part is the same as i value.
+
+Sub-Question: Q4.2
+Answer: double votes = calculateVotes(totalVotes); System.out.println( the number of people calculateVotes (totalVotes); in this code we have a function that accept number of votes and calculate number of people agreeing with the statement. it just require number of votes which we have declared in the start of main function

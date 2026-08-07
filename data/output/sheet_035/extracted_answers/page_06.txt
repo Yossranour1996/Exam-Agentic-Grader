@@ -1,0 +1,5 @@
+4.1 :
+seats [i] + " you will take seat" + i
+4.2 :
+doubl numOFVotes = total Votes + 200 ;
+Calculate Votes

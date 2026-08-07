@@ -1,0 +1,159 @@
+{
+  "total_mark": 63,
+  "evaluations": [
+    {
+      "question": "Q1",
+      "total_points": 19,
+      "sub_evaluations": [
+        {
+          "sub_question": "Q1.1",
+          "awarded_points": 3,
+          "justification": "The student conveyed that Java is not restricted to a specific system architecture, which aligns with the rubric's requirement for full marks."
+        },
+        {
+          "sub_question": "Q1.2",
+          "awarded_points": 0,
+          "justification": "The student did not provide an answer, which results in 0 points as per the rubric."
+        },
+        {
+          "sub_question": "Q1.3",
+          "awarded_points": 0,
+          "justification": "The student only described POP and did not mention OOP, which is required for any points according to the rubric."
+        },
+        {
+          "sub_question": "Q1.4",
+          "awarded_points": 1,
+          "justification": "The student mentioned JVM, which earns 1 point. The mention of JRE is noted but does not align with the rubric's criteria for additional points."
+        },
+        {
+          "sub_question": "Q1.5",
+          "awarded_points": 3,
+          "justification": "The student correctly described both inheritance and polymorphism, meeting the rubric's criteria for full marks."
+        },
+        {
+          "sub_question": "Q1.6",
+          "awarded_points": 3,
+          "justification": "The student expressed the concept of encapsulation as binding data and code together, which meets the rubric's criteria for full marks."
+        },
+        {
+          "sub_question": "Q1.7",
+          "awarded_points": 3,
+          "justification": "The student mentioned 'abstraction class and interface', which aligns with the rubric's requirement for full marks."
+        },
+        {
+          "sub_question": "Q1.8",
+          "awarded_points": 3,
+          "justification": "The student provided three correct reasons for thread termination, meeting the rubric's criteria for full marks."
+        },
+        {
+          "sub_question": "Q1.9",
+          "awarded_points": 3,
+          "justification": "The student correctly listed the three default streams in Java, meeting the rubric's criteria for full marks."
+        },
+        {
+          "sub_question": "Q1.10",
+          "awarded_points": 0,
+          "justification": "The student did not mention AWT or Abstract Window Toolkit, which is required for any points according to the rubric."
+        }
+      ]
+    },
+    {
+      "question": "Q2",
+      "total_points": 9,
+      "sub_evaluations": [
+        {
+          "sub_question": "Q2.1",
+          "awarded_points": 3,
+          "justification": "The student correctly answered 'True', which matches the expected answer."
+        },
+        {
+          "sub_question": "Q2.2",
+          "awarded_points": 0,
+          "justification": "The student answered 'True', but the expected answer is 'False'. No points awarded."
+        },
+        {
+          "sub_question": "Q2.3",
+          "awarded_points": 3,
+          "justification": "The student correctly answered 'True', which matches the expected answer."
+        },
+        {
+          "sub_question": "Q2.4",
+          "awarded_points": 3,
+          "justification": "The student correctly answered 'False', which matches the expected answer."
+        },
+        {
+          "sub_question": "Q2.5",
+          "awarded_points": 0,
+          "justification": "The student answered 'False', but the expected answer is 'True'. No points awarded."
+        },
+        {
+          "sub_question": "Q2.6",
+          "awarded_points": 0,
+          "justification": "The student answered 'False', but the expected answer is 'True'. No points awarded."
+        },
+        {
+          "sub_question": "Q2.7",
+          "awarded_points": 0,
+          "justification": "The student answered 'True', but the expected answer is 'False'. No points awarded."
+        }
+      ]
+    },
+    {
+      "question": "Q3",
+      "total_points": 21,
+      "sub_evaluations": [
+        {
+          "sub_question": "Q3.1",
+          "awarded_points": 3,
+          "justification": "The answer 'To implement improvment to the art of Programing.' matches the accepted term 'improvement in programming' with sufficient similarity."
+        },
+        {
+          "sub_question": "Q3.2",
+          "awarded_points": 3,
+          "justification": "The answer 'C' directly matches the accepted term 'C'."
+        },
+        {
+          "sub_question": "Q3.3",
+          "awarded_points": 3,
+          "justification": "The answer 'a data' matches the accepted term 'data'."
+        },
+        {
+          "sub_question": "Q3.4",
+          "awarded_points": 3,
+          "justification": "The answer 'applet' matches the accepted term 'Applet'."
+        },
+        {
+          "sub_question": "Q3.5",
+          "awarded_points": 3,
+          "justification": "The answer 'container' matches the accepted term 'Container'."
+        },
+        {
+          "sub_question": "Q3.6",
+          "awarded_points": 3,
+          "justification": "The answer 'controller' matches the accepted term 'Controller'."
+        },
+        {
+          "sub_question": "Q3.7",
+          "awarded_points": 3,
+          "justification": "The answer 'JDBC' matches the accepted term 'JDBC'."
+        }
+      ]
+    },
+    {
+      "question": "Q4",
+      "total_points": 14,
+      "sub_evaluations": [
+        {
+          "sub_question": "Q4.1",
+          "awarded_points": 14,
+          "justification": "The rubric specifies that full marks are awarded for this sub-question regardless of the student's answer."
+        },
+        {
+          "sub_question": "Q4.2",
+          "awarded_points": 0,
+          "justification": "The student provided no answer for this sub-question, which according to the rubric, results in 0 points."
+        }
+      ]
+    }
+  ]
+}

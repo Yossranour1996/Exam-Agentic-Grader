@@ -1,4 +1,6 @@
 # src/prompts/grader_prompt.py
+"""Prompt template used by the grading agent to evaluate answers against the rubric."""
+
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 
 

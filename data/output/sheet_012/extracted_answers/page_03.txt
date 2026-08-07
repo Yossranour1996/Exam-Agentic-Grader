@@ -1,0 +1,16 @@
+1. It means that Java is not represented to
+a spesific system
+2- It participated by holding the programming
+languages inside the network. and created Java
+3- POP uses the data oprate (codes) to achieve
+program goal, OOP interacts withe the classes
+and enrasulate it with code and data
+= code
+= data
+Code
+Dat
+4- develop enviroment
+  run [UNK] execute the code
+5- inheritance means create class over exsisting
+one, polymorphism means interacting only
+once withe the class

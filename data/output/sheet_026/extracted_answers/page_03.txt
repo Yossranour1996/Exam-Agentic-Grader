@@ -1,0 +1,15 @@
+Q.1.
+1.18- We mean that Java is not restricted to a specific architecture
+language.
+1.38-
+While POP has a procedures (code) make opperates in data to
+achive the program goal, OOP use classes and objectes to
+encapsulate both data and code.
+1.78-
+Abstract classes and interfaces.
+1.98-
+(system.in), (system.out), (system.err).
+1.108-
+JDBC.
+1.28-
+By use it in many websites.

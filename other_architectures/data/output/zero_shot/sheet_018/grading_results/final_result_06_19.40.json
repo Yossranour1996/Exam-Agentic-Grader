@@ -1,0 +1,161 @@
+{
+  "grading": {
+    "total_mark": 66,
+    "evaluations": [
+      {
+        "question_id": "Q1",
+        "total_score": 21,
+        "sub_evaluations": [
+          {
+            "sub_question_id": "Q1.1",
+            "score": 3,
+            "justification": "The student conveyed that Java is not restricted by a specific operating system, which aligns with the idea of architecture-neutral."
+          },
+          {
+            "sub_question_id": "Q1.2",
+            "score": 0,
+            "justification": "The answer mentioned 'Applet', which is not accepted according to the rubric."
+          },
+          {
+            "sub_question_id": "Q1.3",
+            "score": 3,
+            "justification": "The student conveyed that POP is procedure-oriented and OOP is class/object-oriented, despite the answer being somewhat disorganized."
+          },
+          {
+            "sub_question_id": "Q1.4",
+            "score": 1,
+            "justification": "The student mentioned JVM but did not mention libraries or supporting files."
+          },
+          {
+            "sub_question_id": "Q1.5",
+            "score": 2,
+            "justification": "The student correctly described inheritance but the explanation of polymorphism was unclear."
+          },
+          {
+            "sub_question_id": "Q1.6",
+            "score": 3,
+            "justification": "The student expressed the concept of encapsulation as protecting class data and code from outside interference."
+          },
+          {
+            "sub_question_id": "Q1.7",
+            "score": 3,
+            "justification": "The student mentioned 'abstracted classes and InTer Face', which is accepted despite spelling errors."
+          },
+          {
+            "sub_question_id": "Q1.8",
+            "score": 3,
+            "justification": "The student provided three correct reasons for thread termination."
+          },
+          {
+            "sub_question_id": "Q1.9",
+            "score": 0,
+            "justification": "The student did not correctly identify the default streams as System.in, System.out, and System.err."
+          },
+          {
+            "sub_question_id": "Q1.10",
+            "score": 0,
+            "justification": "The student did not mention AWT or Abstract Window Toolkit."
+          }
+        ]
+      },
+      {
+        "question_id": "Q2",
+        "total_score": 12,
+        "sub_evaluations": [
+          {
+            "sub_question_id": "Q2.1",
+            "score": 3,
+            "justification": "The student correctly chose True."
+          },
+          {
+            "sub_question_id": "Q2.2",
+            "score": 0,
+            "justification": "The student incorrectly chose True instead of False."
+          },
+          {
+            "sub_question_id": "Q2.3",
+            "score": 3,
+            "justification": "The student correctly chose True."
+          },
+          {
+            "sub_question_id": "Q2.4",
+            "score": 3,
+            "justification": "The student correctly chose False."
+          },
+          {
+            "sub_question_id": "Q2.5",
+            "score": 0,
+            "justification": "The student incorrectly chose False instead of True."
+          },
+          {
+            "sub_question_id": "Q2.6",
+            "score": 3,
+            "justification": "The student correctly chose True."
+          },
+          {
+            "sub_question_id": "Q2.7",
+            "score": 0,
+            "justification": "The student incorrectly chose False instead of True."
+          }
+        ]
+      },
+      {
+        "question_id": "Q3",
+        "total_score": 15,
+        "sub_evaluations": [
+          {
+            "sub_question_id": "Q3.1",
+            "score": 3,
+            "justification": "Always full marks."
+          },
+          {
+            "sub_question_id": "Q3.2",
+            "score": 3,
+            "justification": "The student correctly mentioned 'C Language'."
+          },
+          {
+            "sub_question_id": "Q3.3",
+            "score": 0,
+            "justification": "The student incorrectly mentioned 'attributes' instead of 'data'."
+          },
+          {
+            "sub_question_id": "Q3.4",
+            "score": 3,
+            "justification": "The student correctly mentioned 'Applet'."
+          },
+          {
+            "sub_question_id": "Q3.5",
+            "score": 3,
+            "justification": "The student correctly mentioned 'a container'."
+          },
+          {
+            "sub_question_id": "Q3.6",
+            "score": 0,
+            "justification": "The student incorrectly mentioned 'Controlling' instead of 'Controller'."
+          },
+          {
+            "sub_question_id": "Q3.7",
+            "score": 3,
+            "justification": "The student correctly mentioned 'JDBC'."
+          }
+        ]
+      },
+      {
+        "question_id": "Q4",
+        "total_score": 18,
+        "sub_evaluations": [
+          {
+            "sub_question_id": "Q4.1",
+            "score": 14,
+            "justification": "Always full marks."
+          },
+          {
+            "sub_question_id": "Q4.2",
+            "score": 4,
+            "justification": "The answer was incorrect but mentioned 'vote', so 9 marks were awarded."
+          }
+        ]
+      }
+    ]
+  }
+}

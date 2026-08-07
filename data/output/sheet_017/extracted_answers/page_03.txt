@@ -1,0 +1,22 @@
+1.1- that java is not tied to a specific machine
+or operating system architecture.
+1.2- Programs can be transmitted over the internet
+1.3- The POP uses procedures (code) in which*
+controll and data while in oop it uses classes
+and acts on the program.
+(in POP the major emphasize in on the procedure
+whole in oop the data is treated as critical
+element when developing the program)
+1.4- The component of the java runtime
+environments are:
+- java virtual Machine (JVM)
+- libraries.
+- other files.
+1.5- Inheritance is the creation of new classes
+class that
+depending on exsisting ones. and the inherits
+from another have the same methods and
+field as the other class Polymorphism is
+the same (variable I masseage | data) can
+exist in different forms depending on the
+situation.

@@ -1,0 +1,26 @@
+auditing_categories:
+  short_answer_and_fill_in_the_blank:
+    - check: "Grammar and Phrasing"
+      rule: "Flag penalties for poor English grammar, weak writing style, or reversed word orders."
+    - check: "OCR and Scanning Artifacts"
+      rule: "Flag penalties for spelling mistakes or syntax errors that are clearly a result of OCR degradation (e.g., 'System.i' for 'System.in', '1nt' for 'int')."
+    - check: "Textbook Equivalence"
+      rule: "Flag penalties for requiring exact textbook wording instead of semantic equivalence."
+    - check: "Spelling Tolerances"
+      rule: "Flag penalties for slight misspellings or correct terms wrapped in noisy text (e.g., 'the Container class')."
+    - check: "Partial Credit"
+      rule: "Flag failures to divide points properly where allowed (e.g., Question 1.5)."
+      
+  code_execution_auditing:
+    - check: "Syntax Over Logic"
+      rule: "Flag penalties for missing semicolons, brackets, or minor syntax bugs that would fail a build but leave the algorithmic intent clear."
+    - check: "Mathematical Equivalencies"
+      rule: "Accept any logical approach that correctly solves the problem; flag bias toward only one implementation style."
+    - check: "Tier Assignment Failures"
+      rule: "Flag assignments of 0 for uncompilable but earnest structural attempts instead of the mandatory partial marks."
+      
+  evidence_and_scoring_validation:
+    - check: "Quote Verification"
+      rule: "Ensure the Grader included a direct quote from the student's text for every point deduction; flag if missing or if the quote shows a valid attempt."
+    - check: "Arithmetic Verification"
+      rule: "Use the validate_score_constraints tool to calculate totals; flag if the Grader's arithmetic is flawed."

@@ -1,0 +1,15 @@
+1- True
+2- True
+3- True = Jurn [UNK] machine
+4- False = Can be achived by method over[UNK]
+5- False = Couthave method, when they can be used to run [UNK]
+6- True
+7- False = There are multiple JDBC drivers depend on data [UNK]
+8- False = cannot be used to create objects.
+1- To adapt to the changes in the invironments.
+2- C
+3- the data -
+4- applets
+5- Panels and frames and menus
+6- model View Conrolle -
+7- JDBC = Java database connection.

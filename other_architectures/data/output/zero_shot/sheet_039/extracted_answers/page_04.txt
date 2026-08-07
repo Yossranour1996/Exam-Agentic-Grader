@@ -1,0 +1,30 @@
+OOP:-
+1- The code is a messages between objects
+which hold data and defining functions called
+on that data.
+2- The concentration is on data rather than
+functions
+3- The data are grouped into objects which
+define the functions called on this data and make
+restrictions on access and modifying this data.
+4- The code can be described as data controlling
+functions.
+1.4:-
+1- JVM
+2- Built-in packages
+3- programs for compiling, running Java code
+1.5:-
+1- polymorphism is a design concept or
+design method of making single object acts on many
+forms and inheritance is the actual implementation
+of that paradigm by making multiple objects
+of a given on different manner inherits a single
+object.
+2- polymorphism is a design paradigm, but
+inheritance is implementation part by code.
+3- Inheritance is done used in class definition.
+polymorphism is used in calling of objects' functions
+4- Inheritance enables a programmer design a class
+by concentrate on only specific details of the class,
+and transfer but polymorphism and enables programmer
+in calling methods to concentrate on the function of

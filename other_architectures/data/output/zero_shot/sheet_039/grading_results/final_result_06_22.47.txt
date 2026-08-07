@@ -1,0 +1,121 @@
+Total Mark: 78
+
+Evaluations:
+Question: Q1
+Total Score: 24
+
+Sub-Question: Q1.1
+Score: 3
+Justification: The student correctly conveyed that Java is architecture-neutral by stating it does not depend on the environment it runs on.
+
+Sub-Question: Q1.2
+Score: 3
+Justification: The student provided a valid explanation without mentioning Applets or Servlets.
+
+Sub-Question: Q1.3
+Score: 3
+Justification: The student correctly differentiated between POP and OOP, focusing on functions and data for POP and objects for OOP.
+
+Sub-Question: Q1.4
+Score: 1
+Justification: The student mentioned JVM but did not correctly identify libraries or supporting files.
+
+Sub-Question: Q1.5
+Score: 2
+Justification: The student correctly explained inheritance but did not clearly explain polymorphism.
+
+Sub-Question: Q1.6
+Score: 3
+Justification: The student correctly described encapsulation as wrapping code and data into a single entity.
+
+Sub-Question: Q1.7
+Score: 3
+Justification: The student correctly mentioned abstract classes and interfaces.
+
+Sub-Question: Q1.8
+Score: 3
+Justification: The student provided three valid reasons for thread termination.
+
+Sub-Question: Q1.9
+Score: 3
+Justification: The student correctly identified System.in, System.out, and System.err.
+
+Sub-Question: Q1.10
+Score: 0
+Justification: The student incorrectly stated JFC API instead of AWT.
+
+
+Question: Q2
+Total Score: 15
+
+Sub-Question: Q2.1
+Score: 3
+Justification: The student correctly answered True.
+
+Sub-Question: Q2.2
+Score: 3
+Justification: The student correctly answered False.
+
+Sub-Question: Q2.3
+Score: 3
+Justification: The student correctly answered True.
+
+Sub-Question: Q2.4
+Score: 3
+Justification: The student correctly answered False.
+
+Sub-Question: Q2.5
+Score: 0
+Justification: The student incorrectly answered False.
+
+Sub-Question: Q2.6
+Score: 3
+Justification: The student correctly answered True.
+
+Sub-Question: Q2.7
+Score: 0
+Justification: The student incorrectly answered True.
+
+
+Question: Q3
+Total Score: 15
+
+Sub-Question: Q3.1
+Score: 3
+Justification: Full marks are given as per the rubric.
+
+Sub-Question: Q3.2
+Score: 3
+Justification: The student correctly answered C language.
+
+Sub-Question: Q3.3
+Score: 0
+Justification: The student did not mention 'data'.
+
+Sub-Question: Q3.4
+Score: 3
+Justification: The student correctly answered 'applets'.
+
+Sub-Question: Q3.5
+Score: 3
+Justification: The student correctly answered 'a container'.
+
+Sub-Question: Q3.6
+Score: 3
+Justification: The student correctly answered 'Controller'.
+
+Sub-Question: Q3.7
+Score: 0
+Justification: The student incorrectly answered 'DBC'.
+
+
+Question: Q4
+Total Score: 24
+
+Sub-Question: Q4.1
+Score: 14
+Justification: Full marks are given as per the rubric.
+
+Sub-Question: Q4.2
+Score: 10
+Justification: The student mentioned 'calculateVotes' but not 'totalVotes', and the answer was vote-related.

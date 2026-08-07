@@ -1,4 +1,6 @@
 # src/app.py
+"""Application entry point that loads configuration and runs the grading workflow."""
+
 from __future__ import annotations
 
 import yaml
@@ -8,10 +10,16 @@ from dotenv import load_dotenv
 from src.core.state import InputState, Context
 from src.graph.workflow import build_graph
 
+# Load configuration from the local environment file so the app can access
+# API keys and runtime settings without hard-coding them into the source.
 load_dotenv()
 
 def get_config(config_dir: str = "src/core") -> dict:
-    """Load model and path settings into one application mapping."""
+    """Load model, path, and directory settings into a single config mapping.
+
+    The application keeps runtime settings in separate YAML files, so this helper
+    merges them into one dictionary that the workflow can consume consistently.
+    """
     config_dir_path = Path(config_dir)
 
     with open(config_dir_path / "config.yaml", "r") as file:
@@ -23,6 +31,7 @@ def get_config(config_dir: str = "src/core") -> dict:
 
 
 def main():
+    """Build and run the workflow against a sample exam input for local testing."""
     print("Loading application configuration...\n")
     app_config = get_config()
 
@@ -43,11 +52,11 @@ def main():
     print("Invoking graph with test data...\n")
     final_state = graph.invoke(
         input=InputState({
-            "sheet_id": "sheet_003",
-            "dpi": 300,
-            "max_regrade": 2,
-            "do_pdf_to_imgs": False,
-            "do_ocr": False,
+            "sheet_id": "sheet_001",
+            "dpi": global_settings["dpi_default"],
+            "max_regrade": global_settings["max_regrade_attempts"],
+            "do_extract": False,
+            "do_feedback": False,
             "exam_file": "exam_java.yaml",
             "rubric_file": "java_criteria.yaml",
             "review_criteria_file": "review_criteria.yaml"

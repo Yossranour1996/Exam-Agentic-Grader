@@ -1,0 +1,86 @@
+STUDENT ANSWERS:
+
+Question: Q1
+Sub-Question: Q1.1
+Answer: it is not tied on specific machine on operating Systems Architect.
+
+Sub-Question: Q1.2
+Answer: it came up with Some problems in security and pretable, So programing language had to adopt the changing in the Environment
+
+Sub-Question: Q1.3
+Answer: OOP / POP -POP: processer-oriented procedures & it focuses on generate data on Code. So, in large number of procedure could. be more Complex and too long. -OOP: object oriented programing forces on the Code and method developing rather than data. -POP: data process in term of sequence but OOP: grouped code around data, So we have much controlling on data -OOP: is flexibility & efficency more than POP.
+
+Sub-Question: Q1.4
+Answer: what are component of JBE - JBE, Java Runtime environment consist of developement component and alse JVM JVM laibary somefiles controlling tools JRE JDK
+
+Sub-Question: Q1.5
+Answer: inheritance is to create new class base on an existing one polymorphism poly mean more, morphsm meen formg inheritance is a data hiding • Implement information and instruction by delifing common featers to sub class polymorphism if is result of inheritanse after Sub class inherte the member of Super class It can be modified by adding anther (attribute, constructor)
+
+Sub-Question: Q1.6
+Answer: encapsulation is a maganism to binds data and code, and prevent them from outside changing
+
+Sub-Question: Q1.7
+Answer: 2way to achieve abstracts: 1- call it in place we difinition 2- use modifier access modifier
+
+Sub-Question: Q1.8
+Answer: Thread could be terminated 3 reason 1- Some Application doesn't terminated 2- protect from autsid strong
+
+Sub-Question: Q1.9
+Answer: 3 defult streams 1- Input stream System.in Output stream System.Out error stream: System.err
+
+Sub-Question: Q1.10
+Answer: build in top of interase.
+
+
+Question: Q2
+Sub-Question: Q2.1
+Answer: true
+
+Sub-Question: Q2.2
+Answer: false, It is possible, but 2.3 inherit from inherited one
+
+Sub-Question: Q2.3
+Answer: true
+
+Sub-Question: Q2.4
+Answer: false, Runtime polymorphism could be achieved by method overriding
+
+Sub-Question: Q2.5
+Answer: False, Abstract classes should only have abstract method within them
+
+Sub-Question: Q2.6
+Answer: true
+
+Sub-Question: Q2.7
+Answer: true
+
+
+Question: Q3
+Sub-Question: Q3.1
+Answer: To adapt the changing of environment and uses.
+
+Sub-Question: Q3.2
+Answer: C programming language
+
+Sub-Question: Q3.3
+Answer: instruction
+
+Sub-Question: Q3.4
+Answer: applet
+
+Sub-Question: Q3.5
+Answer: [NO_ANSWER]
+
+Sub-Question: Q3.6
+Answer: [NO_ANSWER]
+
+Sub-Question: Q3.7
+Answer: JDBE
+
+
+Question: Q4
+Sub-Question: Q4.1
+Answer: box & seats X [UNK] #Pactenter Succees
+
+Sub-Question: Q4.2
+Answer: double numOFVal[UNK] = int total Volteg Lx1 & Seats [i] + "you will take seat" + i [UNK]

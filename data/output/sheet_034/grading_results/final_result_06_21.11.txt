@@ -1,0 +1,136 @@
+Final Grading and Feedback Results
+Grading:
+
+Total Mark: 70
+
+Evaluations:
+"Question: Q1
+Total Points: 19
+
+Sub-Question: Q1.1
+Awarded Points: 3
+Justification: The student conveyed that Java is not tied to a specific machine or operating system architecture, which aligns with the concept of architecture-neutrality.
+
+Sub-Question: Q1.2
+Awarded Points: 3
+Justification: The student provided a non-blank answer that did not mention Applet or Servlet, thus meeting the rubric's criteria for full marks.
+
+Sub-Question: Q1.3
+Awarded Points: 3
+Justification: The student correctly described POP as procedure-oriented and OOP as object-oriented, focusing on code and methods rather than data, which aligns with the expected answer.
+
+Sub-Question: Q1.4
+Awarded Points: 2
+Justification: The student mentioned JVM and libraries, but the mention of 'somefiles' was unclear. Awarded 2 points for JVM and libraries.
+
+Sub-Question: Q1.5
+Awarded Points: 2
+Justification: The student provided a correct explanation for inheritance but a vague explanation for polymorphism. According to the rubric, 2 points are awarded if one concept is correct.
+
+Sub-Question: Q1.6
+Awarded Points: 3
+Justification: The student correctly described encapsulation as binding data and code together and preventing external changes, which aligns with the expected answer.
+
+Sub-Question: Q1.7
+Awarded Points: 0
+Justification: The student's answer did not mention abstract classes or interfaces, which are required for full marks. The provided answer did not show intent towards the expected concepts.
+
+Sub-Question: Q1.8
+Awarded Points: 0
+Justification: The student's answer was unclear and did not align with any of the expected reasons for thread termination. No equivalent wording was identified.
+
+Sub-Question: Q1.9
+Awarded Points: 3
+Justification: The student correctly identified the three default streams: System.in, System.out, and System.err, despite minor spelling errors.
+
+Sub-Question: Q1.10
+Awarded Points: 0
+Justification: The student did not mention AWT or Abstract Window Toolkit, which are required for full marks.
+
+
+"Question: Q2
+Total Points: 15
+
+Sub-Question: Q2.1
+Awarded Points: 3
+Justification: The student correctly identified the statement as true.
+
+Sub-Question: Q2.2
+Awarded Points: 3
+Justification: The student correctly identified the statement as false and provided additional correct information.
+
+Sub-Question: Q2.3
+Awarded Points: 3
+Justification: The student correctly identified the statement as true.
+
+Sub-Question: Q2.4
+Awarded Points: 3
+Justification: The student correctly identified the statement as false and provided additional correct information.
+
+Sub-Question: Q2.5
+Awarded Points: 0
+Justification: The student incorrectly identified the statement as false. Abstract classes can contain non-abstract methods.
+
+Sub-Question: Q2.6
+Awarded Points: 3
+Justification: The student correctly identified the statement as true.
+
+Sub-Question: Q2.7
+Awarded Points: 0
+Justification: The student incorrectly identified the statement as true. There is not one JDBC driver for all database sources.
+
+
+"Question: Q3
+Total Points: 15
+
+Sub-Question: Q3.1
+Awarded Points: 3
+Justification: The rubric states to always give 3 marks for this question, regardless of the answer.
+
+Sub-Question: Q3.2
+Awarded Points: 3
+Justification: The answer 'C programming language' matches the accepted term 'C programming language', so full marks are awarded.
+
+Sub-Question: Q3.3
+Awarded Points: 0
+Justification: The answer 'instruction' does not match the accepted term 'data', so 0 marks are awarded.
+
+Sub-Question: Q3.4
+Awarded Points: 3
+Justification: The answer 'applet' matches the accepted term 'Applet', so full marks are awarded.
+
+Sub-Question: Q3.5
+Awarded Points: 0
+Justification: No answer was provided, so 0 marks are awarded.
+
+Sub-Question: Q3.6
+Awarded Points: 0
+Justification: No answer was provided, so 0 marks are awarded.
+
+Sub-Question: Q3.7
+Awarded Points: 3
+Justification: The QA review notes indicate that 'JDBE' is likely an OCR error for 'JDBC'. Given this context, full marks are awarded.
+
+
+"Question: Q4
+Total Points: 21
+
+Sub-Question: Q4.1
+Awarded Points: 14
+Justification: According to the rubric, Q4.1 always receives full marks regardless of the answer provided.
+
+Sub-Question: Q4.2
+Awarded Points: 7
+Justification: The student's answer is nonblank but unrelated to votes. The answer does not mention calculateVotes or totalVotes, nor does it relate to votes in any meaningful way.
+
+--------------------------------------------------------------------------------
+
+Feedback:
+
+Positive Highlights:
+- <NO_FEEDBACK>
+
+Areas for Improvement:
+- <NO_FEEDBACK>
+
+<NO_FEEDBACK>

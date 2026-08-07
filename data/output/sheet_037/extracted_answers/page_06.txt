@@ -1,0 +1,13 @@
+2.1) True.
+2.2) False
+" It's not possible for an interface
+to implement another interface properties.
+2.3) True.
+2.4) False
+" Could be achieved by
+method overridden.
+2.5) True
+2.6) True
+2.7) False
+" The is Drive manager and
+Drivers."

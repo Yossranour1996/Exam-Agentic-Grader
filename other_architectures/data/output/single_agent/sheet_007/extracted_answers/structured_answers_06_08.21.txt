@@ -1,0 +1,86 @@
+STUDENT ANSWERS:
+
+Question: Q1
+Sub-Question: Q1.1
+Answer: It means that Java isn't specified for specific machine or Operating system architecture.
+
+Sub-Question: Q1.2
+Answer: The complexity increased so Java was made in labs and Java is ene enhancement in programming languages.
+
+Sub-Question: Q1.3
+Answer: - While POP have a procedure to deal with data "Code" OOP uses classes and objects to encapsulate code and its data.
+
+Sub-Question: Q1.4
+Answer: Java virtual machine JVM executing programmes "java" and compiling ones "javac"
+
+Sub-Question: Q1.5
+Answer: inheritance: making new classes based on already existing ones but & polymorphism: mechanism of having many forms of each class.
+
+Sub-Question: Q1.6
+Answer: Encapsulation is the mechanism of binding up data and its code together.
+
+Sub-Question: Q1.7
+Answer: Interface, abstracted classes
+
+Sub-Question: Q1.8
+Answer: (i) the program accomplished its goal. (ii) Oet Unusual events occure (iii) The program is dead or no longer available.
+
+Sub-Question: Q1.9
+Answer: (i) System.in (ii) System.out (iii) System.err
+
+Sub-Question: Q1.10
+Answer: Java API
+
+
+Question: Q2
+Sub-Question: Q2.1
+Answer: True
+
+Sub-Question: Q2.2
+Answer: True
+
+Sub-Question: Q2.3
+Answer: True
+
+Sub-Question: Q2.4
+Answer: False
+
+Sub-Question: Q2.5
+Answer: True
+
+Sub-Question: Q2.6
+Answer: False True
+
+Sub-Question: Q2.7
+Answer: True False
+
+
+Question: Q3
+Sub-Question: Q3.1
+Answer: To adapt to changing in Environments and users.
+
+Sub-Question: Q3.2
+Answer: C programming language
+
+Sub-Question: Q3.3
+Answer: data Code.
+
+Sub-Question: Q3.4
+Answer: Applet
+
+Sub-Question: Q3.5
+Answer: Frame "as a container"
+
+Sub-Question: Q3.6
+Answer: Control "represents the interface between model and view"
+
+Sub-Question: Q3.7
+Answer: JDBE JDBC .
+
+
+Question: Q4
+Sub-Question: Q4.1
+Answer: set Seats [i] + "/" + Seats [i] + "/" , you will take seat" + i To get outputs as desiered.
+
+Sub-Question: Q4.2
+Answer: BreakLn to go to the next class.

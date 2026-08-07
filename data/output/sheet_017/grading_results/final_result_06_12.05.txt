@@ -1,0 +1,136 @@
+Final Grading and Feedback Results
+Grading:
+
+Total Mark: 80
+
+Evaluations:
+"Question: Q1
+Total Points: 27
+
+Sub-Question: Q1.1
+Awarded Points: 3
+Justification: The student correctly conveyed that Java is not tied to a specific machine or operating system architecture, which aligns with the rubric's requirement.
+
+Sub-Question: Q1.2
+Awarded Points: 3
+Justification: The student provided a non-blank answer that does not mention Applet or Servlet, thus meeting the rubric's criteria for full marks.
+
+Sub-Question: Q1.3
+Awarded Points: 3
+Justification: The student correctly described POP as using procedures and OOP as using classes, emphasizing the difference in focus between procedures and data, which satisfies the rubric's requirement.
+
+Sub-Question: Q1.4
+Awarded Points: 3
+Justification: The student mentioned JVM, libraries, and other files, covering all components expected in the rubric for full marks.
+
+Sub-Question: Q1.5
+Awarded Points: 3
+Justification: The student correctly explained both inheritance and polymorphism, meeting the rubric's criteria for full marks.
+
+Sub-Question: Q1.6
+Awarded Points: 3
+Justification: The student expressed the concept of encapsulation as wrapping data in a single unit and tying code with data, which aligns with the rubric's requirement.
+
+Sub-Question: Q1.7
+Awarded Points: 3
+Justification: The student mentioned 'abstrac classes' and 'inter face', which are recognized as abstract classes and interfaces, meeting the rubric's criteria for full marks.
+
+Sub-Question: Q1.8
+Awarded Points: 3
+Justification: The student provided three valid reasons for thread termination: completed task, unexpected events, and dead/no longer available, satisfying the rubric's criteria for full marks.
+
+Sub-Question: Q1.9
+Awarded Points: 3
+Justification: The student correctly listed System.in, System.out, and System.err, meeting the rubric's criteria for full marks.
+
+Sub-Question: Q1.10
+Awarded Points: 0
+Justification: The student incorrectly stated 'C++' instead of AWT or Abstract Window Toolkit, which does not meet the rubric's requirement for any marks.
+
+
+"Question: Q2
+Total Points: 12
+
+Sub-Question: Q2.1
+Awarded Points: 3
+Justification: The student correctly answered 'True', which matches the expected answer.
+
+Sub-Question: Q2.2
+Awarded Points: 0
+Justification: The student answered 'True', but the correct answer is 'False'. An interface can inherit another interface's properties.
+
+Sub-Question: Q2.3
+Awarded Points: 3
+Justification: The student correctly answered 'True', which matches the expected answer.
+
+Sub-Question: Q2.4
+Awarded Points: 3
+Justification: The student correctly answered 'False', which matches the expected answer. They also provided additional correct information about method overriding.
+
+Sub-Question: Q2.5
+Awarded Points: 0
+Justification: The student answered 'False', but the correct answer is 'True'. Abstract classes can contain non-abstract methods.
+
+Sub-Question: Q2.6
+Awarded Points: 3
+Justification: The student correctly answered 'True', which matches the expected answer.
+
+Sub-Question: Q2.7
+Awarded Points: 0
+Justification: The student answered 'True', but the correct answer is 'False'. There is not one JDBC driver for all database sources.
+
+
+"Question: Q3
+Total Points: 18
+
+Sub-Question: Q3.1
+Awarded Points: 3
+Justification: The answer 'To adapt to changing environments and uses.' matches the accepted term 'adapting to change'. Full marks awarded as per rubric.
+
+Sub-Question: Q3.2
+Awarded Points: 3
+Justification: The answer 'C' directly matches the accepted term 'C'. Full marks awarded.
+
+Sub-Question: Q3.3
+Awarded Points: 3
+Justification: The answer 'Data ec' matches the accepted term 'data'. Full marks awarded.
+
+Sub-Question: Q3.4
+Awarded Points: 3
+Justification: The answer 'Applet' directly matches the accepted term 'Applet'. Full marks awarded.
+
+Sub-Question: Q3.5
+Awarded Points: 3
+Justification: The answer 'Frame' directly matches the accepted term 'Frame'. Full marks awarded.
+
+Sub-Question: Q3.6
+Awarded Points: 0
+Justification: The answer 'collecter.' does not match the accepted term 'Controller'. No points awarded.
+
+Sub-Question: Q3.7
+Awarded Points: 3
+Justification: The answer 'JDBC' directly matches the accepted term 'JDBC'. Full marks awarded.
+
+
+"Question: Q4
+Total Points: 23
+
+Sub-Question: Q4.1
+Awarded Points: 14
+Justification: According to the rubric, Q4.1 always receives full marks regardless of the answer's content.
+
+Sub-Question: Q4.2
+Awarded Points: 9
+Justification: The student's answer is incorrect but mentions 'numOFVotes' and 'totalVotes', indicating a vote-related context. This aligns with the rubric's criteria for awarding 9 points.
+
+--------------------------------------------------------------------------------
+
+Feedback:
+
+Positive Highlights:
+- <NO_FEEDBACK>
+
+Areas for Improvement:
+- <NO_FEEDBACK>
+
+<NO_FEEDBACK>

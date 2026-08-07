@@ -1,0 +1,86 @@
+STUDENT ANSWERS:
+
+Question: Q1
+Sub-Question: Q1.1
+Answer: We mean that Java is not restricted to a specific architecture language.
+
+Sub-Question: Q1.2
+Answer: By use it in many websites.
+
+Sub-Question: Q1.3
+Answer: While POP has a procedures (code) make opperates in data to achive the program goal, OOP use classes and objectes to encapsulate both data and code.
+
+Sub-Question: Q1.4
+Answer: [NO_ANSWER]
+
+Sub-Question: Q1.5
+Answer: [NO_ANSWER]
+
+Sub-Question: Q1.6
+Answer: [NO_ANSWER]
+
+Sub-Question: Q1.7
+Answer: Abstract classes and interfaces.
+
+Sub-Question: Q1.8
+Answer: [NO_ANSWER]
+
+Sub-Question: Q1.9
+Answer: (system.in), (system.out), (system.err).
+
+Sub-Question: Q1.10
+Answer: JDBC.
+
+
+Question: Q2
+Sub-Question: Q2.1
+Answer: True
+
+Sub-Question: Q2.2
+Answer: False. It is possible for an interface to inherit another interface's properties.
+
+Sub-Question: Q2.3
+Answer: True.
+
+Sub-Question: Q2.4
+Answer: False. Run time polymorphism could be achieved by method overloading.
+
+Sub-Question: Q2.5
+Answer: False. Abstract classes could have abstract methods within them
+
+Sub-Question: Q2.6
+Answer: True.
+
+Sub-Question: Q2.7
+Answer: True.
+
+
+Question: Q3
+Sub-Question: Q3.1
+Answer: To adapt to Changing environment and uses.
+
+Sub-Question: Q3.2
+Answer: C language.
+
+Sub-Question: Q3.3
+Answer: data.
+
+Sub-Question: Q3.4
+Answer: Aplet.
+
+Sub-Question: Q3.5
+Answer: Frame.
+
+Sub-Question: Q3.6
+Answer: Control.
+
+Sub-Question: Q3.7
+Answer: JDBC.
+
+
+Question: Q4
+Sub-Question: Q4.1
+Answer: [NO_ANSWER]
+
+Sub-Question: Q4.2
+Answer: [NO_ANSWER]

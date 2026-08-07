@@ -1,0 +1,13 @@
+System.out.print(String seat[i] + "you will take seat[
+for (i=0; i< seat.length(); i++)
++ invaild.i[i]
+The list that is printed on the output can be achieved
+using the I/O stream System. out that prints a new lig.
+at (i) represents the value in the string in the list and the number
+the invalid, suppose to achieve the number of 4
+of you can use.
+a time of 4.
+2 -int numOfvotes = total votes
+The numOf votes in the public classe means that
+is used to calculate the double 'portion' is not
+identified. غير معرفة للبرنامج

@@ -1,0 +1,136 @@
+Final Grading and Feedback Results
+Grading:
+
+Total Mark: 79
+
+Evaluations:
+"Question: Q1
+Total Points: 24
+
+Sub-Question: Q1.1
+Awarded Points: 3
+Justification: The student correctly conveyed that Java is not tied to a specific machine or operating system, indicating architecture neutrality.
+
+Sub-Question: Q1.2
+Awarded Points: 3
+Justification: The student provided a non-blank answer that did not mention Applet or Servlet, thus meeting the rubric criteria.
+
+Sub-Question: Q1.3
+Awarded Points: 3
+Justification: The student correctly differentiated between OOP and POP, emphasizing data in OOP and procedures in POP.
+
+Sub-Question: Q1.4
+Awarded Points: 0
+Justification: No answer was provided for this sub-question.
+
+Sub-Question: Q1.5
+Awarded Points: 3
+Justification: The student correctly explained both inheritance and polymorphism, meeting the rubric criteria.
+
+Sub-Question: Q1.6
+Awarded Points: 3
+Justification: The student correctly described encapsulation as binding code and data together, meeting the rubric criteria.
+
+Sub-Question: Q1.7
+Awarded Points: 3
+Justification: The student correctly mentioned interfaces and abstract classes as ways to achieve abstraction.
+
+Sub-Question: Q1.8
+Awarded Points: 3
+Justification: The student provided three valid reasons for thread termination, meeting the rubric criteria.
+
+Sub-Question: Q1.9
+Awarded Points: 3
+Justification: The student correctly identified the three default streams in Java.
+
+Sub-Question: Q1.10
+Awarded Points: 0
+Justification: The student incorrectly mentioned 'Applet' instead of 'AWT' or 'Abstract Window Toolkit'.
+
+
+"Question: Q2
+Total Points: 6
+
+Sub-Question: Q2.1
+Awarded Points: 0
+Justification: The student's answer 'true' does not match the rubric's expected 'True' with a capital 'T', as noted in the QA review.
+
+Sub-Question: Q2.2
+Awarded Points: 0
+Justification: The student answered 'true', but the correct answer is 'False' according to the rubric.
+
+Sub-Question: Q2.3
+Awarded Points: 0
+Justification: The student's answer 'true' does not match the rubric's expected 'True' with a capital 'T', as noted in the QA review.
+
+Sub-Question: Q2.4
+Awarded Points: 3
+Justification: The student correctly identified that runtime polymorphism is achieved by method overriding, not overloading, which aligns with the rubric's expected 'False'.
+
+Sub-Question: Q2.5
+Awarded Points: 0
+Justification: The student answered 'False', but the correct answer is 'True' according to the rubric.
+
+Sub-Question: Q2.6
+Awarded Points: 0
+Justification: The student's answer 'true' does not match the rubric's expected 'True' with a capital 'T', as noted in the QA review.
+
+Sub-Question: Q2.7
+Awarded Points: 3
+Justification: The student correctly answered 'False', which matches the rubric's expected answer.
+
+
+"Question: Q3
+Total Points: 21
+
+Sub-Question: Q3.1
+Awarded Points: 3
+Justification: The answer 'implement new refinements & improvements in the art of programming' matches the accepted concept 'improvement'. Full marks awarded as per rubric.
+
+Sub-Question: Q3.2
+Awarded Points: 3
+Justification: The answer 'C' matches the accepted term 'C'. Full marks awarded.
+
+Sub-Question: Q3.3
+Awarded Points: 3
+Justification: The answer 'The Data' matches the accepted term 'data'. Full marks awarded.
+
+Sub-Question: Q3.4
+Awarded Points: 3
+Justification: The answer 'Applet' matches the accepted term 'Applet'. Full marks awarded.
+
+Sub-Question: Q3.5
+Awarded Points: 3
+Justification: The answer 'Frame' matches the accepted term 'Frame'. Full marks awarded.
+
+Sub-Question: Q3.6
+Awarded Points: 3
+Justification: The answer 'Controller' matches the accepted term 'Controller'. Full marks awarded.
+
+Sub-Question: Q3.7
+Awarded Points: 3
+Justification: The answer 'JDBC (Java Database Connectivity)' matches the accepted term 'JDBC'. Full marks awarded.
+
+
+"Question: Q4
+Total Points: 28
+
+Sub-Question: Q4.1
+Awarded Points: 14
+Justification: The rubric specifies that Q4.1 should always receive full marks regardless of the answer provided.
+
+Sub-Question: Q4.2
+Awarded Points: 14
+Justification: The student's answer correctly mentions both 'calculateVotes' and 'totalVotes', which aligns with the rubric's requirement for full marks.
+
+--------------------------------------------------------------------------------
+
+Feedback:
+
+Positive Highlights:
+- <NO_FEEDBACK>
+
+Areas for Improvement:
+- <NO_FEEDBACK>
+
+<NO_FEEDBACK>

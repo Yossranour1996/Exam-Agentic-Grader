@@ -1,0 +1,86 @@
+STUDENT ANSWERS:
+
+Question: Q1
+Sub-Question: Q1.1
+Answer: We mean that the JAVA is not restricted by a specific system architecture.
+
+Sub-Question: Q1.2
+Answer: They introduced Applets which extend the functionality of the web, and also servlet that extended functionality of the server.
+
+Sub-Question: Q1.3
+Answer: The OOP treats the code lines as instructions and emphasizes on the procedure, on the other hand OOP encapsulate the code and data is manipulates and emphasized on data.
+
+Sub-Question: Q1.4
+Answer: JRE or JAVA Runtime Environment consists of library and JVM to Run the code.
+
+Sub-Question: Q1.5
+Answer: Inheritance: new classes inherits the attributes and methods of older classes. Polymorphism: Allow one interface to be used for general use case, Inheritance keep the old classes methods while polymorphism might alter them.
+
+Sub-Question: Q1.6
+Answer: Encapsulations is the mechanism that binds the code and data is manipulates, and Keep them safe from outside interference and misuse.
+
+Sub-Question: Q1.7
+Answer: Class abstracts and interfaces.
+
+Sub-Question: Q1.8
+Answer: 1) finished and completed the task normally. 2) terminated due to unusual events. 3) Stopped due to runtime error.
+
+Sub-Question: Q1.9
+Answer: System.In System.out System.err
+
+Sub-Question: Q1.10
+Answer: JAVA swing was built on top of AWT
+
+
+Question: Q2
+Sub-Question: Q2.1
+Answer: True
+
+Sub-Question: Q2.2
+Answer: True
+
+Sub-Question: Q2.3
+Answer: True
+
+Sub-Question: Q2.4
+Answer: False, it is achieved by Overriding
+
+Sub-Question: Q2.5
+Answer: False, that would lead to the diamond problem, which causes the class to exted extend till [UNK] errors out
+
+Sub-Question: Q2.6
+Answer: True
+
+Sub-Question: Q2.7
+Answer: False each source has its own implementations for JDBC driver - True
+
+
+Question: Q3
+Sub-Question: Q3.1
+Answer: Enhancement is one of the reason that computer language innovation occurred
+
+Sub-Question: Q3.2
+Answer: C is an example of a POP language
+
+Sub-Question: Q3.3
+Answer: POP does not allow [UNK] flow freely in the Program
+
+Sub-Question: Q3.4
+Answer: Applets are small programs that need a Java enabled web browser to be executed
+
+Sub-Question: Q3.5
+Answer: a frame is a component which can contain other elements like buttons
+
+Sub-Question: Q3.6
+Answer: The model-view controller (MVC) architecture is used in Swing.
+
+Sub-Question: Q3.7
+Answer: JDBC is a Java API to connect and interact with databases
+
+
+Question: Q4
+Sub-Question: Q4.1
+Answer: [NO_ANSWER]
+
+Sub-Question: Q4.2
+Answer: We added the missing statemented and printed it on a new line - System.out.println("the amount of people who agrees with this") statement is System.out.println("Statement. if Java was easy they would call it Python!")

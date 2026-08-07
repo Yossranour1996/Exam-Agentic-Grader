@@ -1,4 +1,3 @@
-# scripts/init_repo.py
 from pathlib import Path
 
 STRUCTURE = [

@@ -1,0 +1,40 @@
+[
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q1",
+        "identified_errors": [
+          {
+            "sub_question": "Q1.4",
+            "description": "The student mentioned 'Java Virtual Machine' and 'Compiler', which should be considered as part of supporting components. The rubric allows for partial credit for supporting files/components, which was not awarded."
+          },
+          {
+            "sub_question": "Q1.9",
+            "description": "The rubric allows for minor spelling/OCR mistakes to be tolerated. The student's 'system.m' should be considered as 'System.in' due to OCR noise tolerance policy, thus deserving full marks."
+          }
+        ],
+        "summary": "Errors in Q1.4 and Q1.9 were identified where the student should have received more points based on rubric leniency for partial credit and OCR noise tolerance."
+      }
+    ]
+  },
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q1",
+        "identified_errors": [
+          {
+            "sub_question": "Q1.4",
+            "description": "The Grader awarded 2 points for mentioning 'Java Virtual Machine' and 'Compiler'. However, the rubric specifies 1 point for JVM and 1 point for supporting files/components. 'Compiler' should not be considered as supporting files/components. The correct score should be 1 point for JVM only."
+          }
+        ],
+        "summary": "Q1.4 was incorrectly scored. The student should receive 1 point for mentioning 'Java Virtual Machine', but 'Compiler' does not qualify as supporting files/components. Adjust the score to 1 point."
+      }
+    ]
+  },
+  {
+    "decision": "<NO_REGRADE>",
+    "audits": []
+  }
+]

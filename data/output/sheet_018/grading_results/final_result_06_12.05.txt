@@ -1,0 +1,136 @@
+Final Grading and Feedback Results
+Grading:
+
+Total Mark: 78
+
+Evaluations:
+"Question: Q1
+Total Points: 22
+
+Sub-Question: Q1.1
+Awarded Points: 3
+Justification: The student conveyed that Java is not restricted by a specific operating system, which aligns with the concept of architecture-neutral.
+
+Sub-Question: Q1.2
+Awarded Points: 0
+Justification: The answer mentions 'applet', which is explicitly prohibited by the rubric.
+
+Sub-Question: Q1.3
+Awarded Points: 3
+Justification: The student conveyed that POP is procedure-oriented and OOP is class/object-oriented, despite the answer being somewhat disorganized.
+
+Sub-Question: Q1.4
+Awarded Points: 1
+Justification: The student mentioned 'JVM (Java Virtual Machin)', which earns 1 point. No mention of libraries or supporting files.
+
+Sub-Question: Q1.5
+Awarded Points: 3
+Justification: The student correctly described inheritance and polymorphism, despite some grammatical errors.
+
+Sub-Question: Q1.6
+Awarded Points: 3
+Justification: The student expressed the concept of encapsulation as protecting class data and code, which aligns with the rubric.
+
+Sub-Question: Q1.7
+Awarded Points: 3
+Justification: The student mentioned 'abstracted classes and InTer Face', which is acceptable as abstract classes and interfaces.
+
+Sub-Question: Q1.8
+Awarded Points: 3
+Justification: The student provided three valid reasons for thread termination: dead/no longer available, finished task normally, and terminated due to an unusual event.
+
+Sub-Question: Q1.9
+Awarded Points: 3
+Justification: Based on the QA review notes, the student's answer 'Streams - in', 'Streams - out', and 'Streams - err' should be considered correct as the intended streams are clear.
+
+Sub-Question: Q1.10
+Awarded Points: 0
+Justification: The student did not mention AWT or Abstract Window Toolkit, which is required by the rubric.
+
+
+"Question: Q2
+Total Points: 15
+
+Sub-Question: Q2.1
+Awarded Points: 3
+Justification: The student correctly answered 'True', which matches the expected answer.
+
+Sub-Question: Q2.2
+Awarded Points: 0
+Justification: The student answered 'True', but the expected answer is 'False'.
+
+Sub-Question: Q2.3
+Awarded Points: 3
+Justification: The student correctly answered 'True', which matches the expected answer.
+
+Sub-Question: Q2.4
+Awarded Points: 3
+Justification: The student correctly answered 'False', which matches the expected answer. The additional explanation does not affect the score.
+
+Sub-Question: Q2.5
+Awarded Points: 0
+Justification: The student answered 'False', but the expected answer is 'True'. The justification provided does not align with the rubric's requirement.
+
+Sub-Question: Q2.6
+Awarded Points: 3
+Justification: The student correctly answered 'True', which matches the expected answer.
+
+Sub-Question: Q2.7
+Awarded Points: 3
+Justification: The student correctly answered 'False', which matches the expected answer. The additional explanation does not affect the score.
+
+
+"Question: Q3
+Total Points: 18
+
+Sub-Question: Q3.1
+Awarded Points: 3
+Justification: The rubric specifies to always award full marks for this question, regardless of the answer.
+
+Sub-Question: Q3.2
+Awarded Points: 3
+Justification: The answer 'C Language' matches the accepted term 'C'. Full points awarded.
+
+Sub-Question: Q3.3
+Awarded Points: 0
+Justification: The answer 'attributes' does not match the accepted term 'data'. No points awarded.
+
+Sub-Question: Q3.4
+Awarded Points: 3
+Justification: The answer 'Applet' matches the accepted term 'Applet'. Full points awarded.
+
+Sub-Question: Q3.5
+Awarded Points: 3
+Justification: The answer 'a container' matches the accepted term 'Container'. Full points awarded.
+
+Sub-Question: Q3.6
+Awarded Points: 3
+Justification: The answer 'Controlling' matches the accepted term 'Controller' with sufficient similarity. Full points awarded.
+
+Sub-Question: Q3.7
+Awarded Points: 3
+Justification: The answer 'JDBC' matches the accepted term 'JDBC'. Full points awarded.
+
+
+"Question: Q4
+Total Points: 23
+
+Sub-Question: Q4.1
+Awarded Points: 14
+Justification: According to the rubric, Q4.1 always receives full marks regardless of the answer provided.
+
+Sub-Question: Q4.2
+Awarded Points: 9
+Justification: The student's answer is incorrect but mentions 'vote' and is clearly vote-related, which according to the rubric warrants 9 points.
+
+--------------------------------------------------------------------------------
+
+Feedback:
+
+Positive Highlights:
+- <NO_FEEDBACK>
+
+Areas for Improvement:
+- <NO_FEEDBACK>
+
+<NO_FEEDBACK>

@@ -1,0 +1,24 @@
+1.4 JVM (Java Virtual Machin)
+byt code
+1.5 inheritence is creatin new class From exesting one
+and allow the [UNK] for 'it' to used method and
+[UNK] Function of Super class when it need it [UNK]
+[UNK] plus Attribut
+and method defind For specialization used - while
+Polymorphism Class has many Form and [UNK]
+do not able to inhert -
+1.6 encapsulation = Es machanism Previde
+[UNK] to Protect
+Class [UNK] data and Code From
+oulsid intrFance & and misuse. its
+wrapper encapsulated Cade and data
+1.7 abstracted classes and InTer Face
+1.8 1. dead [UNK] or no longer avialable
+2. Finished their task normaly
+3. terminated due to unormal event
+1.9 Streams - in
+Streams - out
+Streams - err
+1.10 it Java API (Application Programing Interface)
+to connect and Interact with database
+connect

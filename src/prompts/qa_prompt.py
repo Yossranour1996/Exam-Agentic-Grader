@@ -1,4 +1,6 @@
 # src/prompts/qa_prompt.py
+"""Prompt template used by the QA agent to audit grading decisions and request regrades."""
+
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 
 

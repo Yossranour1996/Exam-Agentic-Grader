@@ -1,0 +1,34 @@
+[
+  {
+    "page": "page_01.png",
+    "text": ""
+  },
+  {
+    "page": "page_02.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_03.png",
+    "text": "1.1 It is mean Java is not restricted\nspecific response architecture.\n1-5 The Inheritance =-\nCreate new classe bebase on exsitang one.\npolymorphism-\nit is mean having many formes -\n1-6 encapsulation it is mean warning up\nof data to use - (method, fields).\n1-8 if the Thread\nfinished it task normaly\ndead\n1-9 stream-in stream-out stream-err\n1.3) POP And is producer (code) only not with Labo\noop it take important code and data\ntogether\nOOP\npop\nCode\ndata\nCode\ndata\nCode\nCode\nCode\ndata\ndata\ndata\nCode\nCode\nCode\ndata\ndata\ndata\nCode\nCode\ndata\ndata\ndata"
+  },
+  {
+    "page": "page_04.png",
+    "text": "1.7) 1-"
+  },
+  {
+    "page": "page_05.png",
+    "text": "2.1 true\n2.2 true\n2.3 true\n2.4 false\n2.5 false\n2.6 true\n2.7 false"
+  },
+  {
+    "page": "page_06.png",
+    "text": "3.2 C language\n3.3 data\n3.1 To adapt to changing environment\nand users."
+  },
+  {
+    "page": "page_07.png",
+    "text": "4. 1\nfor looking for output we see miss\nthe method print name of seat\nand the words \"you will take seat\".\nNext the definition of seat\nThe method it will be let user intering\nthe sheet\nThe Solutions -\nScanner seat = new Scanner (Scanner.in);\nexam seat;\nprint system\nScanner exam seat = str.nextLine();\nsystem.out.prin(\"you will take seat\");\nSystem.out.println(\"you will take seat\" + (int)i);\n4.2 The method defines here\nsolution"
+  },
+  {
+    "page": "page_08.png",
+    "text": "EMPTY"
+  }
+]

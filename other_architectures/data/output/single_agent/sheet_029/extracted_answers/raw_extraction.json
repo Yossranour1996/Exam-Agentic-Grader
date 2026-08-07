@@ -1,0 +1,42 @@
+[
+  {
+    "page": "page_01.png",
+    "text": ""
+  },
+  {
+    "page": "page_02.png",
+    "text": "1) Isn't restricted to a specific system\narchitecture\n2) As a new Problems arise with revolution of WWW\nand invention of internet. We need to adapt changing\nenvironment and uses and Implement improvements in art\nof Programming.\n3) A POP divide large Programs into smaller to overcome\nparts considered as a sequence of these Problems\nProcedures or functions. Major emphasis on Procedures\nnot on data. In multifunction program, many\nimportant data are placed as Global.\nGlobal data are more vulnerable to change by Function.\nOOP treats data as a critical element in the\nProgram. It ties data closely to function operates\non it and Protect them both from accidental\nchange. OOP allows decomposition of a problem\ninto entities called objects and then builds\nfunction and data around these objects. Major\nEmphasis on Data.\n4) Compiler, Interpreter, JVM, Applets, Java Programs\n5) Inheritance is a process by which one object acquires\nProperties of another object. It's main advantage\nare Abstraction, Data Reusability, class hierarchy and\nPolymorphism, Inheritance."
+  },
+  {
+    "page": "page_03.png",
+    "text": "Polymorphism is a process by which one interface can\nbe used as a general class of action. Specific action\nis determined by exact nature of situation. It has two\ntwo types. Compile time and Run time. Compile time & a known\nas static and Runtime as Dynamic Method Dispatch. Instance\nPolymorphism which is mean \"many forms\" enables us to\ncreate Images of different Forms\n6) Mechanism binds together code and data it\nmanipulates and protect both from [UNK] outside\nmisuse\n7) Interface and abstract class\n8) Thread Finishes its task normally\nTermination could be due to unusual events\nTerminated thread means its dead and no longer\navailable\n9) System.in , System.out , System.err\n10) AWT (Abstract Windowing ToolKit)"
+  },
+  {
+    "page": "page_04.png",
+    "text": "1) True\n2) False \"It's possible for an interface to inherit another interface's properties\"\n3) True\n4) False \"could be achieved by method overriden\"\n5) False \"Abstract interfaces\"\n6) True\n7) False \"There are two. Drive manager and JDBC dive\""
+  },
+  {
+    "page": "page_05.png",
+    "text": "Q 3)\n- Need For Programmed Platform & In dependant Program\n- C\n- [UNK] Procedure/Function\n- [UNK] Applet\n- Frame\n- Controller\n- JDBC"
+  },
+  {
+    "page": "page_06.png",
+    "text": "4.1 -> seats [i] \" you will take seat\", i\ndouble\nPublic num Of Votes = total Votes\n-In Block code numbe 1, We have an array called\nseats that has 5 elements starting with index\nfrom \"zero to 4\" .Because We have a \"for loop\"\nstarts from i=0 until i < seats.length\" Which is number\nof elements = 5\" and \"i\" Ts incremented by \"one\"\nWe will notice the output starts with first member\nof an array which is a seats [0] and seat numbe 0 .\nHence when we First we enter the loop, initial value\nof \"i\" would be \"zero\" so we can Write inside\nthe Print function \"seats [i], \"you will take seat\",i\nto output the First member of the array seats and\nseats numbe zero. The loop continues and Print\nElement numbe \"2\" which is seats [1] and seat numbe\none. Remeber that\"i\" incremented by one after the\nFirst loop. [UNK] \"i=i+1\" . The loop continues until\nit prints all values of the seats array and their\ncorresponding seats number."
+  },
+  {
+    "page": "page_07.png",
+    "text": "In Block code number 2,\nThe We have two Public class called \"Agree\" which\nincludes the integer total number of votes = 760 in this\ncase\". It also includes print function. In second part\nof code we have to print number of Votes\nmultiplied by 0.15 of the total votes and store the\nresult in \"Portion\" of kind double. We can define\na public integer called \"NumOfVotes\" takes the\nValue of total votes. It's defined public to be accessed\nby any other other classes. \"numOfVotes\" can has the\nValue of total Votes in class \"Agree\" which be used to\ndetermine the votes of people who agree. Then print\nthe \"Portion\" in \"int\" form because Votes can't be\nanything other than integer values. The \"Portion\" is equal\nto numOfVotes multiplied by 0.15."
+  },
+  {
+    "page": "page_08.png",
+    "text": ""
+  },
+  {
+    "page": "page_09.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_10.png",
+    "text": ""
+  }
+]

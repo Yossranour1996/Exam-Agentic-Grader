@@ -1,0 +1,22 @@
+1.5 Inheritance
+The Creation of a new Class using an existing
+one the new class have all the method and attributes of
+the classes inherited and can add new.
+It helps= reuse code, Creat Class hierarchy.
+Polymorphism : meaning many forms allow interface reuse
+access to classes and it has two types:
+Run time polymorphism - Compile time polymorphism.
+It also means to take more than one form
+1.6. Encapsulation: The mechanism that binds together
+the data and the code that manages it and
+by that protect the data from being modified by an
+outside code. it can be achieved using abstraction and
+data hiding it is added as implementation.
+1.7 - abstract Classes and interfaces.
+1.8 - It finished working normally
+Stopped due to unusual errors
+it no Longer exist..
+1.9 - System - in System-out System.err.
+For input For output For errors
+1.10. An top of AWT
+Abstract windows tool kit

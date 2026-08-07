@@ -1,0 +1,86 @@
+STUDENT ANSWERS:
+
+Question: Q1
+Sub-Question: Q1.1
+Answer: It means Java is not restricted to a specific architecture system.
+
+Sub-Question: Q1.2
+Answer: The people changed the thoughts that By innovating applet which is a kind of Java programs designed to be transmitted over the internet and executed by Java compatible web browser, and serverlet which is a small programs executed by web server which changed the & thought about content
+
+Sub-Question: Q1.3
+Answer: POP has procedure (code) on data to achieve program goal, while OOP & uses classes and objects to encapsulates both code and data.
+
+Sub-Question: Q1.4
+Answer: JRE : Java run environment is an environment to run Java programs and inside it is the Java virtual machine (JVM) which acts as run time engine to run Java Programs into the machine.
+
+Sub-Question: Q1.5
+Answer: Inheritance is creating new classes based on the existing ones, the class that inherited from other class can reuse the methods and fields of that class, while polymorphism is a feature that allows interfaces to be used for a general class of actions, the specific action is determined by the exact nature of situation.
+
+Sub-Question: Q1.6
+Answer: Encapsulation is a mechanism that binds together Code and data to be manipulated and keeps them safe from outside interference and misuse, the basis of encapsulation is classes, and it protectivity wrapper to prevent data and code.
+
+Sub-Question: Q1.7
+Answer: Abstract classes and interfaces
+
+Sub-Question: Q1.8
+Answer: If thread: (1) Finished it's task normally. (2) Terminated because of unusual events. (3) Dead or no longer available.
+
+Sub-Question: Q1.9
+Answer: System.in, System.out, System.err
+
+Sub-Question: Q1.10
+Answer: JAP I swing was built on top of Java Data Base connectivity (JDBC) to connect and interact with databases.
+
+
+Question: Q2
+Sub-Question: Q2.1
+Answer: True
+
+Sub-Question: Q2.2
+Answer: True
+
+Sub-Question: Q2.3
+Answer: True
+
+Sub-Question: Q2.4
+Answer: False -> Run time polymorphism could be achieved by method overriding and compile time could be achieved by method overloading.
+
+Sub-Question: Q2.5
+Answer: False True. Abstract class has constructors, while interface doesn't. True
+
+Sub-Question: Q2.6
+Answer: True
+
+Sub-Question: Q2.7
+Answer: True
+
+
+Question: Q3
+Sub-Question: Q3.1
+Answer: To adapt to changing environments and uses - or to implement improvements in the art of programming-
+
+Sub-Question: Q3.2
+Answer: C
+
+Sub-Question: Q3.3
+Answer: encapsulated data
+
+Sub-Question: Q3.4
+Answer: Applet
+
+Sub-Question: Q3.5
+Answer: Frame
+
+Sub-Question: Q3.6
+Answer: Controller
+
+Sub-Question: Q3.7
+Answer: JDBC
+
+
+Question: Q4
+Sub-Question: Q4.1
+Answer: Students[i]+", "You will take seat." + (Students.length-(i)) or Students[i]+", "You will take seat." + (i-1)
+
+Sub-Question: Q4.2
+Answer: If number of votes do agree with the statement = 15% * 760 System.out.println("The number of people who agree with this statement is 114") or: int num of votes = 15% * 760 System.out.println("The number of people who agree with this statement is 114")

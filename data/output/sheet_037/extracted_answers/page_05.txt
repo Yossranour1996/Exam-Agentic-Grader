@@ -1,0 +1,10 @@
+3.1) Adapt to change in environments
+and uses. 3.1) Internet.
+3.2) C programming language.
+3.3) Data.
+3.4) Applet. Servlet.
+3.5) Containers.
+3.6) Controller.
+3.7) JDBC.
+3.1) Adapt to change in environments and
+uses.

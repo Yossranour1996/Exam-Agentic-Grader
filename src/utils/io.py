@@ -1,3 +1,4 @@
+# src/utils/io.py
 """Small, consistent file I/O helpers."""
 
 import json
@@ -19,6 +20,17 @@ def _error(message: str, error: Exception, logger: Logger | None) -> None:
 
 
 def read_text(filepath: str | Path, logger: Logger | None = None, encoding="utf-8") -> str | None:
+    """"
+    Read the contents of a text file and return it as a string.
+    
+    Args:
+        filepath: Path to the text file.
+        logger: Optional Logger instance for logging errors.
+        encoding: Encoding to use when reading the file (default is 'utf-8').
+
+    Returns:
+            The contents of the file as a string, or None if an error occurred.
+    """
     try:
         return Path(filepath).read_text(encoding=encoding)
     except Exception as error:
@@ -27,6 +39,19 @@ def read_text(filepath: str | Path, logger: Logger | None = None, encoding="utf-
 
 
 def write_text(filepath: str | Path, content: str, logger: Logger | None = None, encoding="utf-8", append=False) -> bool:
+    """"
+    Write content to a text file.
+
+    Args:
+        filepath: Path to the text file.
+        content: The string to write to the file.
+        logger: Optional Logger instance for logging errors.
+        encoding: Encoding to use when writing the file (default is 'utf-8').
+        append: If True, append to the file instead of overwriting it.
+
+    Returns:
+        True if the operation was successful, False otherwise.
+    """
     path = Path(filepath)
     try:
         path.parent.mkdir(parents=True, exist_ok=True)
@@ -39,6 +64,16 @@ def write_text(filepath: str | Path, content: str, logger: Logger | None = None,
 
 
 def read_json(filepath: str | Path, logger: Logger | None = None) -> Any | None:
+    """"
+    Read a JSON file and return its contents as a Python object.
+
+    Args:
+        filepath: Path to the JSON file.
+        logger: Optional Logger instance for logging errors.
+
+    Returns:
+        The parsed JSON data as a Python object, or None if an error occurred.
+    """
     try:
         text = Path(filepath).read_text(encoding="utf-8").strip()
         return json.loads(text) if text else None
@@ -50,6 +85,16 @@ def read_json(filepath: str | Path, logger: Logger | None = None) -> Any | None:
 
 
 def read_yaml(filepath: str | Path, logger: Logger | None = None) -> Any | None:
+    """"
+    Read a YAML file and return its contents as a Python object.
+
+    Args:
+        filepath: Path to the YAML file.
+        logger: Optional Logger instance for logging errors.
+
+    Returns:
+        The parsed YAML data as a Python object, or None if an error occurred.
+    """
     try:
         return yaml.safe_load(Path(filepath).read_text(encoding="utf-8"))
     except Exception as error:
@@ -58,6 +103,19 @@ def read_yaml(filepath: str | Path, logger: Logger | None = None) -> Any | None:
 
 
 def write_json(filepath: str | Path, data: Any, logger: Logger | None = None, indent=2, ensure_ascii=False) -> bool:
+    """"
+    Write a Python object to a JSON file.
+
+    Args:
+        filepath: Path to the JSON file.
+        data: The Python object to write to the file.
+        logger: Optional Logger instance for logging errors.
+        indent: The number of spaces to use for indentation (default is 2).
+        ensure_ascii: If True, escape non-ASCII characters (default is False).
+
+    Returns:
+        True if the operation was successful, False otherwise.
+    """
     path = Path(filepath)
     try:
         path.parent.mkdir(parents=True, exist_ok=True)
@@ -73,6 +131,16 @@ def write_json(filepath: str | Path, data: Any, logger: Logger | None = None, in
 
 
 def read_excel(filepath: str | Path, logger: Logger | None = None) -> dict[str, list[dict[str, Any]]] | None:
+    """"
+    Read an Excel file and return its contents as a dictionary of sheets.
+
+    Args:
+        filepath: Path to the Excel file.
+        logger: Optional Logger instance for logging errors.
+
+    Returns:
+        A dictionary where keys are sheet names and values are lists of dictionaries representing rows, or None if an error occurred.
+    """
     try:
         workbook = load_workbook(filepath, data_only=True)
         result = {}
@@ -87,6 +155,17 @@ def read_excel(filepath: str | Path, logger: Logger | None = None) -> dict[str, 
 
 
 def write_excel(filepath: str | Path, data: dict[str, list[dict[str, Any]]], logger: Logger | None = None) -> bool:
+    """"
+    Write data to an Excel file.
+
+    Args:
+        filepath: Path to the Excel file.
+        data: A dictionary where keys are sheet names and values are lists of dictionaries representing rows.
+        logger: Optional Logger instance for logging errors.
+
+    Returns:
+        True if the operation was successful, False otherwise.
+    """
     path = Path(filepath)
     try:
         path.parent.mkdir(parents=True, exist_ok=True)
@@ -111,6 +190,16 @@ def write_excel(filepath: str | Path, data: dict[str, list[dict[str, Any]]], log
 
 
 def read_base64(filepath: str | Path, logger: Logger | None = None) -> str | None:
+    """"
+    Read a file and return its base64-encoded string.
+
+    Args:
+        filepath: Path to the file.
+        logger: Optional Logger instance for logging errors.
+
+    Returns:
+        The base64-encoded string, or None if an error occurred.
+    """
     try:
         return b64encode(Path(filepath).read_bytes()).decode("ascii")
     except Exception as error:

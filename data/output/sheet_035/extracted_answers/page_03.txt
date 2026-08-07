@@ -1,0 +1,23 @@
+Q 1
+1.1: Java is not restricted to a specific system
+architecture
+1.2: Because it create the need for programs that
+can be executed in different operating systems
+and system architectures
+1.3: POP use procedure code to operate on the data
+OOP use object and classes to Encapsulate Code
+and data
+1.4: JVM
+1.5: inheritance is an operation that let you creat classes
+and interfaces based on existing one and polymorphism
+is a feature that allows interface to be used in general
+class actions
+1.6: it is a mechanism that bind the code and
+the data it's manipulate
+1.7: abstract classes and interfaces
+1.8: 1- finish its task
+2- terminated due an unusual event
+3- dead or no longer available
+1.9:
+System.in , System.out , System.err
+1.10: JDBC

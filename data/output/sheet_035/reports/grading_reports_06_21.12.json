@@ -1,0 +1,479 @@
+[
+  {
+    "total_mark": 89,
+    "evaluations": [
+      {
+        "question": "Q1",
+        "total_points": 25,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q1.1",
+            "awarded_points": 3,
+            "justification": "The student correctly conveyed that Java is not restricted to a specific system architecture."
+          },
+          {
+            "sub_question": "Q1.2",
+            "awarded_points": 3,
+            "justification": "The student provided a valid explanation without mentioning Applets or Servlets."
+          },
+          {
+            "sub_question": "Q1.3",
+            "awarded_points": 3,
+            "justification": "The student correctly differentiated between POP and OOP, mentioning procedures for POP and objects/classes for OOP."
+          },
+          {
+            "sub_question": "Q1.4",
+            "awarded_points": 1,
+            "justification": "The student mentioned JVM, which is one component of the JRE."
+          },
+          {
+            "sub_question": "Q1.5",
+            "awarded_points": 3,
+            "justification": "The student correctly explained both inheritance and polymorphism."
+          },
+          {
+            "sub_question": "Q1.6",
+            "awarded_points": 3,
+            "justification": "The student correctly described encapsulation as binding code and data together."
+          },
+          {
+            "sub_question": "Q1.7",
+            "awarded_points": 3,
+            "justification": "The student correctly mentioned abstract classes and interfaces as ways to achieve abstraction."
+          },
+          {
+            "sub_question": "Q1.8",
+            "awarded_points": 3,
+            "justification": "The student provided three valid reasons for thread termination."
+          },
+          {
+            "sub_question": "Q1.9",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the three default streams in Java."
+          },
+          {
+            "sub_question": "Q1.10",
+            "awarded_points": 0,
+            "justification": "The student incorrectly mentioned JDBC instead of AWT or Abstract Window Toolkit."
+          }
+        ]
+      },
+      {
+        "question": "Q2",
+        "total_points": 18,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q2.1",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as 'True', which matches the expected answer."
+          },
+          {
+            "sub_question": "Q2.2",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as 'False', which matches the expected answer. The additional explanation provided is accurate."
+          },
+          {
+            "sub_question": "Q2.3",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as 'True', which matches the expected answer."
+          },
+          {
+            "sub_question": "Q2.4",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as 'False', which matches the expected answer. The additional explanation provided is accurate."
+          },
+          {
+            "sub_question": "Q2.5",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as 'True', which matches the expected answer."
+          },
+          {
+            "sub_question": "Q2.6",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as 'True', which matches the expected answer."
+          },
+          {
+            "sub_question": "Q2.7",
+            "awarded_points": 0,
+            "justification": "The student incorrectly identified the statement as 'True', whereas the expected answer is 'False'."
+          }
+        ]
+      },
+      {
+        "question": "Q3",
+        "total_points": 21,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q3.1",
+            "awarded_points": 3,
+            "justification": "The answer 'adapt changing envalironment and uses' matches the accepted term 'adapting to change'. Full marks awarded as per rubric."
+          },
+          {
+            "sub_question": "Q3.2",
+            "awarded_points": 3,
+            "justification": "The answer 'C' directly matches the accepted term 'C'. Full marks awarded."
+          },
+          {
+            "sub_question": "Q3.3",
+            "awarded_points": 3,
+            "justification": "The answer 'Data' directly matches the accepted term 'data'. Full marks awarded."
+          },
+          {
+            "sub_question": "Q3.4",
+            "awarded_points": 3,
+            "justification": "The answer 'applet' directly matches the accepted term 'Applet'. Full marks awarded."
+          },
+          {
+            "sub_question": "Q3.5",
+            "awarded_points": 3,
+            "justification": "The answer 'Frame' directly matches the accepted term 'Frame'. Full marks awarded."
+          },
+          {
+            "sub_question": "Q3.6",
+            "awarded_points": 3,
+            "justification": "The answer 'Controle' matches the accepted term 'Controller' with high similarity. Full marks awarded."
+          },
+          {
+            "sub_question": "Q3.7",
+            "awarded_points": 3,
+            "justification": "The answer 'JDBC' directly matches the accepted term 'JDBC'. Full marks awarded."
+          }
+        ]
+      },
+      {
+        "question": "Q4",
+        "total_points": 25,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q4.1",
+            "awarded_points": 14,
+            "justification": "According to the rubric, Q4.1 always receives full marks regardless of the answer."
+          },
+          {
+            "sub_question": "Q4.2",
+            "awarded_points": 11,
+            "justification": "The student mentioned 'Calculate Votes' and 'total Votes', which satisfies the condition for 11 points as per the rubric."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "total_mark": 92,
+    "evaluations": [
+      {
+        "question": "Q1",
+        "total_points": 25,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q1.1",
+            "awarded_points": 3,
+            "justification": "The student correctly conveyed that Java is not restricted to a specific system architecture."
+          },
+          {
+            "sub_question": "Q1.2",
+            "awarded_points": 3,
+            "justification": "The student provided a valid explanation without mentioning Applets or Servlets."
+          },
+          {
+            "sub_question": "Q1.3",
+            "awarded_points": 3,
+            "justification": "The student correctly differentiated between POP and OOP, mentioning procedures for POP and objects/classes for OOP."
+          },
+          {
+            "sub_question": "Q1.4",
+            "awarded_points": 1,
+            "justification": "The student mentioned JVM, which is one component of the JRE."
+          },
+          {
+            "sub_question": "Q1.5",
+            "awarded_points": 3,
+            "justification": "The student correctly explained both inheritance and polymorphism."
+          },
+          {
+            "sub_question": "Q1.6",
+            "awarded_points": 3,
+            "justification": "The student correctly described encapsulation as binding code and data together."
+          },
+          {
+            "sub_question": "Q1.7",
+            "awarded_points": 3,
+            "justification": "The student correctly mentioned abstract classes and interfaces as ways to achieve abstraction."
+          },
+          {
+            "sub_question": "Q1.8",
+            "awarded_points": 3,
+            "justification": "The student provided three valid reasons for thread termination."
+          },
+          {
+            "sub_question": "Q1.9",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the three default streams in Java."
+          },
+          {
+            "sub_question": "Q1.10",
+            "awarded_points": 0,
+            "justification": "The student incorrectly mentioned JDBC instead of AWT or Abstract Window Toolkit."
+          }
+        ]
+      },
+      {
+        "question": "Q2",
+        "total_points": 18,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q2.1",
+            "awarded_points": 3,
+            "justification": "The student correctly answered 'true', which matches the expected answer."
+          },
+          {
+            "sub_question": "Q2.2",
+            "awarded_points": 3,
+            "justification": "The student correctly answered 'False', which matches the expected answer."
+          },
+          {
+            "sub_question": "Q2.3",
+            "awarded_points": 3,
+            "justification": "The student correctly answered 'True', which matches the expected answer."
+          },
+          {
+            "sub_question": "Q2.4",
+            "awarded_points": 3,
+            "justification": "The student correctly answered 'False', which matches the expected answer."
+          },
+          {
+            "sub_question": "Q2.5",
+            "awarded_points": 3,
+            "justification": "The student correctly answered 'true', which matches the expected answer."
+          },
+          {
+            "sub_question": "Q2.6",
+            "awarded_points": 3,
+            "justification": "The student correctly answered 'True', which matches the expected answer."
+          },
+          {
+            "sub_question": "Q2.7",
+            "awarded_points": 0,
+            "justification": "The student answered 'True', which is incorrect. The expected answer is 'False'. The student's answer was: 'True'."
+          }
+        ]
+      },
+      {
+        "question": "Q3",
+        "total_points": 21,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q3.1",
+            "awarded_points": 3,
+            "justification": "The answer 'adapt changing envalironment and uses' matches the accepted term 'adapting to change'. Full marks awarded as per rubric."
+          },
+          {
+            "sub_question": "Q3.2",
+            "awarded_points": 3,
+            "justification": "The answer 'C' directly matches the accepted term 'C'. Full marks awarded."
+          },
+          {
+            "sub_question": "Q3.3",
+            "awarded_points": 3,
+            "justification": "The answer 'Data' directly matches the accepted term 'data'. Full marks awarded."
+          },
+          {
+            "sub_question": "Q3.4",
+            "awarded_points": 3,
+            "justification": "The answer 'applet' directly matches the accepted term 'Applet'. Full marks awarded."
+          },
+          {
+            "sub_question": "Q3.5",
+            "awarded_points": 3,
+            "justification": "The answer 'Frame' directly matches the accepted term 'Frame'. Full marks awarded."
+          },
+          {
+            "sub_question": "Q3.6",
+            "awarded_points": 3,
+            "justification": "The answer 'Controle' matches the accepted term 'Controller' with high similarity. Full marks awarded."
+          },
+          {
+            "sub_question": "Q3.7",
+            "awarded_points": 3,
+            "justification": "The answer 'JDBC' directly matches the accepted term 'JDBC'. Full marks awarded."
+          }
+        ]
+      },
+      {
+        "question": "Q4",
+        "total_points": 28,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q4.1",
+            "awarded_points": 14,
+            "justification": "The rubric specifies that Q4.1 should always receive full marks regardless of the answer provided."
+          },
+          {
+            "sub_question": "Q4.2",
+            "awarded_points": 14,
+            "justification": "The student mentioned both 'Calculate Votes' and 'total Votes', which satisfies the condition for full marks as per the rubric. The QA review correctly identified this error in the initial grading."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "total_mark": 92,
+    "evaluations": [
+      {
+        "question": "Q1",
+        "total_points": 25,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q1.1",
+            "awarded_points": 3,
+            "justification": "The student correctly conveyed that Java is not restricted to a specific system architecture."
+          },
+          {
+            "sub_question": "Q1.2",
+            "awarded_points": 3,
+            "justification": "The student provided a valid explanation without mentioning Applets or Servlets."
+          },
+          {
+            "sub_question": "Q1.3",
+            "awarded_points": 3,
+            "justification": "The student correctly differentiated between POP and OOP, mentioning procedures for POP and objects/classes for OOP."
+          },
+          {
+            "sub_question": "Q1.4",
+            "awarded_points": 1,
+            "justification": "The student mentioned JVM, which is one component of the JRE."
+          },
+          {
+            "sub_question": "Q1.5",
+            "awarded_points": 3,
+            "justification": "The student correctly explained both inheritance and polymorphism."
+          },
+          {
+            "sub_question": "Q1.6",
+            "awarded_points": 3,
+            "justification": "The student correctly described encapsulation as binding code and data together."
+          },
+          {
+            "sub_question": "Q1.7",
+            "awarded_points": 3,
+            "justification": "The student correctly mentioned abstract classes and interfaces as ways to achieve abstraction."
+          },
+          {
+            "sub_question": "Q1.8",
+            "awarded_points": 3,
+            "justification": "The student provided three valid reasons for thread termination."
+          },
+          {
+            "sub_question": "Q1.9",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the three default streams in Java."
+          },
+          {
+            "sub_question": "Q1.10",
+            "awarded_points": 0,
+            "justification": "The student incorrectly mentioned JDBC instead of AWT or Abstract Window Toolkit."
+          }
+        ]
+      },
+      {
+        "question": "Q2",
+        "total_points": 18,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q2.1",
+            "awarded_points": 3,
+            "justification": "The student correctly answered 'true', which matches the expected answer."
+          },
+          {
+            "sub_question": "Q2.2",
+            "awarded_points": 3,
+            "justification": "The student correctly answered 'False', which matches the expected answer."
+          },
+          {
+            "sub_question": "Q2.3",
+            "awarded_points": 3,
+            "justification": "The student correctly answered 'True', which matches the expected answer."
+          },
+          {
+            "sub_question": "Q2.4",
+            "awarded_points": 3,
+            "justification": "The student correctly answered 'False', which matches the expected answer."
+          },
+          {
+            "sub_question": "Q2.5",
+            "awarded_points": 3,
+            "justification": "The student correctly answered 'true', which matches the expected answer."
+          },
+          {
+            "sub_question": "Q2.6",
+            "awarded_points": 3,
+            "justification": "The student correctly answered 'True', which matches the expected answer."
+          },
+          {
+            "sub_question": "Q2.7",
+            "awarded_points": 0,
+            "justification": "The student answered 'True', which is incorrect. The expected answer is 'False'. The student's answer was: 'True'."
+          }
+        ]
+      },
+      {
+        "question": "Q3",
+        "total_points": 21,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q3.1",
+            "awarded_points": 3,
+            "justification": "The answer 'adapt changing envalironment and uses' matches the accepted term 'adapting to change'. Full marks awarded as per rubric."
+          },
+          {
+            "sub_question": "Q3.2",
+            "awarded_points": 3,
+            "justification": "The answer 'C' directly matches the accepted term 'C'. Full marks awarded."
+          },
+          {
+            "sub_question": "Q3.3",
+            "awarded_points": 3,
+            "justification": "The answer 'Data' directly matches the accepted term 'data'. Full marks awarded."
+          },
+          {
+            "sub_question": "Q3.4",
+            "awarded_points": 3,
+            "justification": "The answer 'applet' directly matches the accepted term 'Applet'. Full marks awarded."
+          },
+          {
+            "sub_question": "Q3.5",
+            "awarded_points": 3,
+            "justification": "The answer 'Frame' directly matches the accepted term 'Frame'. Full marks awarded."
+          },
+          {
+            "sub_question": "Q3.6",
+            "awarded_points": 3,
+            "justification": "The answer 'Controle' matches the accepted term 'Controller' with high similarity. Full marks awarded."
+          },
+          {
+            "sub_question": "Q3.7",
+            "awarded_points": 3,
+            "justification": "The answer 'JDBC' directly matches the accepted term 'JDBC'. Full marks awarded."
+          }
+        ]
+      },
+      {
+        "question": "Q4",
+        "total_points": 28,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q4.1",
+            "awarded_points": 14,
+            "justification": "The rubric specifies that full marks are awarded for this sub-question regardless of the answer provided."
+          },
+          {
+            "sub_question": "Q4.2",
+            "awarded_points": 14,
+            "justification": "The student mentioned both 'Calculate Votes' and 'total Votes', which aligns with the rubric's criteria for full marks. The QA review notes confirm that the initial grading was correct."
+          }
+        ]
+      }
+    ]
+  }
+]

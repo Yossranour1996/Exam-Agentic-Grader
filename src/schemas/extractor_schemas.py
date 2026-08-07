@@ -1,4 +1,6 @@
 # src/schemas/extractor_schemas.py
+"""Structured schemas for OCR extraction and answer mapping results."""
+
 from typing import List
 from pydantic import BaseModel, Field
 

@@ -1,0 +1,8 @@
+3-1 adapt to changing environment and uses is one of reasons.
+3-2 C is an example of a POP language.
+3-3 POP does not allow data
+3-4 a container is a component which
+3-4 Applet are small programs
+3-5 a From container is a component which
+3-6 The model view controlled architecture.
+3-7 JDBC is a Java API

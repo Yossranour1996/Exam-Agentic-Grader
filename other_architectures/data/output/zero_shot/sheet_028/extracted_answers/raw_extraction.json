@@ -1,0 +1,42 @@
+[
+  {
+    "page": "page_01.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_02.png",
+    "text": ""
+  },
+  {
+    "page": "page_03.png",
+    "text": "Q(1)\n1. Java has no restriction on the destined\nSystem architecture so it can work on different\nOperating System and platforms .\n2. World wide web + Internet at that time with\nweb 1 technology and the creation of web\napplications -> contribute to the appearness\nof \"Applet\" -> which is a special Java program\ndesigned to be transmitted over the Internet and\nautomatically being executed by Java compatible\nweb browsers .\n3. \"OOP\" -> Object oriented Programming is\nworking with (Data having access over code) principle.\nBeside (code + data + attributes + methods) are all\nencapsulated together into the same package ."
+  },
+  {
+    "page": "page_04.png",
+    "text": "\"Pop\" -> Procedure Oriented Programming is working\nwith \"Code\" acts on Data principle \"\n\"operate\"\n4. JRE -> Java Run-Time Environment Ps\nincluding \"JVM\" Java Virtual Machine.\nbeside other packages and libraries.\n(A) Inheritance -> is when a new class inherit new\nfeatures \"attributes + methods\" from an existing class,\nor it's when an object acquires new features from\na new existing object.\n(B) Polymorphism -> Comes from the Greek words\n\"Poly\" -> many + \"morph\" -> form = many forms\nIt's when a message could be delivered in more than\none forms.\nPS: Both of them are from \"OOP\" main features."
+  },
+  {
+    "page": "page_05.png",
+    "text": "6. Encapsulation -> it's a Java mechanism binds\nboth code and the data it manipulates into the\nSame Package \"hidden data\".\n7. (A) Abstraction classes (B) Interface\n8. (A) When it finishs it's normal task Procedure.\n(B) Terminated due to unusual events.\n(C) When it becomes dead or unavailable.\n9. (A) System.in -> (Input)\n(B) System.out -> (Output)\n(C) System.err -> (Error)\n10. AWT\nAbstraction Window Toolkit."
+  },
+  {
+    "page": "page_06.png",
+    "text": "1. True => it was renamed at \"1985\".\n2. False => Interface ✔️ Class ❌\n3. True => Specificly => Java Virtual Machine\n\"JVM\"\n4. False => Overridding\n5. False => Must be defined.\n6. True\n7. False => There is another Driver Manager\nTrue =>\nJava Application\nJDBC\nthus, it's just one => JDBC Drive\nDriver Manager\nOracle MySQL MS Access"
+  },
+  {
+    "page": "page_07.png",
+    "text": "1.- Adapt to changes.\n- Implement improvements on the art of programming.\n2. C Language \"1970\"\n3. Data Information.\n4. Applet\n5. Frame\n6. Model view controlled \"MVC\"\n7. Java Data Base connectivity \"JDBC\""
+  },
+  {
+    "page": "page_08.png",
+    "text": "Q (4)\n1- \" seat [i], \" you will take seat\" + (i)\nSystem.out.println( // this line will take seat index\nfrom the seat list and substitute its value\non the pointer place, repeat this until it reaches\nseat[i] + \" , you will take seat\" + (i) i=5 then it will\n// space stop\n// space\n2. num Of Votes = total Votes\n// we will notice 740 * 0.15 = 114 #"
+  },
+  {
+    "page": "page_09.png",
+    "text": ""
+  },
+  {
+    "page": "page_10.png",
+    "text": "EMPTY"
+  }
+]

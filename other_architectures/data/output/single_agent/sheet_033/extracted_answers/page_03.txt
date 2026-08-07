@@ -1,0 +1,9 @@
+1.9 System.in, System.out, System.err
+1.10 JAP I swing was built on top of Java Data Base connectivity (JDBC) to connect and interact with databases.
+2.1 True
+2.2 True
+2.3 True
+2.4 False -> Run time polymorphism could be achieved by method overriding and compile time could be achieved by method overloading.
+2.5 False True. Abstract class has constructors, while interface doesn't. True
+2.6 True
+2.7 True

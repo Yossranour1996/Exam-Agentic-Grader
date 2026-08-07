@@ -1,0 +1,170 @@
+{
+  "grading": {
+    "total_mark": 70,
+    "evaluations": [
+      {
+        "question": "Q1",
+        "total_points": 19,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q1.1",
+            "awarded_points": 3,
+            "justification": "The student conveyed that Java is not tied to a specific machine or operating system architecture, which aligns with the concept of architecture-neutrality."
+          },
+          {
+            "sub_question": "Q1.2",
+            "awarded_points": 3,
+            "justification": "The student provided a non-blank answer that did not mention Applet or Servlet, thus meeting the rubric's criteria for full marks."
+          },
+          {
+            "sub_question": "Q1.3",
+            "awarded_points": 3,
+            "justification": "The student correctly described POP as procedure-oriented and OOP as object-oriented, focusing on code and methods rather than data, which aligns with the expected answer."
+          },
+          {
+            "sub_question": "Q1.4",
+            "awarded_points": 2,
+            "justification": "The student mentioned JVM and libraries, but the mention of 'somefiles' was unclear. Awarded 2 points for JVM and libraries."
+          },
+          {
+            "sub_question": "Q1.5",
+            "awarded_points": 2,
+            "justification": "The student provided a correct explanation for inheritance but a vague explanation for polymorphism. According to the rubric, 2 points are awarded if one concept is correct."
+          },
+          {
+            "sub_question": "Q1.6",
+            "awarded_points": 3,
+            "justification": "The student correctly described encapsulation as binding data and code together and preventing external changes, which aligns with the expected answer."
+          },
+          {
+            "sub_question": "Q1.7",
+            "awarded_points": 0,
+            "justification": "The student's answer did not mention abstract classes or interfaces, which are required for full marks. The provided answer did not show intent towards the expected concepts."
+          },
+          {
+            "sub_question": "Q1.8",
+            "awarded_points": 0,
+            "justification": "The student's answer was unclear and did not align with any of the expected reasons for thread termination. No equivalent wording was identified."
+          },
+          {
+            "sub_question": "Q1.9",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the three default streams: System.in, System.out, and System.err, despite minor spelling errors."
+          },
+          {
+            "sub_question": "Q1.10",
+            "awarded_points": 0,
+            "justification": "The student did not mention AWT or Abstract Window Toolkit, which are required for full marks."
+          }
+        ]
+      },
+      {
+        "question": "Q2",
+        "total_points": 15,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q2.1",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as true."
+          },
+          {
+            "sub_question": "Q2.2",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as false and provided additional correct information."
+          },
+          {
+            "sub_question": "Q2.3",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as true."
+          },
+          {
+            "sub_question": "Q2.4",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as false and provided additional correct information."
+          },
+          {
+            "sub_question": "Q2.5",
+            "awarded_points": 0,
+            "justification": "The student incorrectly identified the statement as false. Abstract classes can contain non-abstract methods."
+          },
+          {
+            "sub_question": "Q2.6",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as true."
+          },
+          {
+            "sub_question": "Q2.7",
+            "awarded_points": 0,
+            "justification": "The student incorrectly identified the statement as true. There is not one JDBC driver for all database sources."
+          }
+        ]
+      },
+      {
+        "question": "Q3",
+        "total_points": 15,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q3.1",
+            "awarded_points": 3,
+            "justification": "The rubric states to always give 3 marks for this question, regardless of the answer."
+          },
+          {
+            "sub_question": "Q3.2",
+            "awarded_points": 3,
+            "justification": "The answer 'C programming language' matches the accepted term 'C programming language', so full marks are awarded."
+          },
+          {
+            "sub_question": "Q3.3",
+            "awarded_points": 0,
+            "justification": "The answer 'instruction' does not match the accepted term 'data', so 0 marks are awarded."
+          },
+          {
+            "sub_question": "Q3.4",
+            "awarded_points": 3,
+            "justification": "The answer 'applet' matches the accepted term 'Applet', so full marks are awarded."
+          },
+          {
+            "sub_question": "Q3.5",
+            "awarded_points": 0,
+            "justification": "No answer was provided, so 0 marks are awarded."
+          },
+          {
+            "sub_question": "Q3.6",
+            "awarded_points": 0,
+            "justification": "No answer was provided, so 0 marks are awarded."
+          },
+          {
+            "sub_question": "Q3.7",
+            "awarded_points": 3,
+            "justification": "The QA review notes indicate that 'JDBE' is likely an OCR error for 'JDBC'. Given this context, full marks are awarded."
+          }
+        ]
+      },
+      {
+        "question": "Q4",
+        "total_points": 21,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q4.1",
+            "awarded_points": 14,
+            "justification": "According to the rubric, Q4.1 always receives full marks regardless of the answer provided."
+          },
+          {
+            "sub_question": "Q4.2",
+            "awarded_points": 7,
+            "justification": "The student's answer is nonblank but unrelated to votes. The answer does not mention calculateVotes or totalVotes, nor does it relate to votes in any meaningful way."
+          }
+        ]
+      }
+    ]
+  },
+  "feedback": {
+    "positive_highlights": [
+      "<NO_FEEDBACK>"
+    ],
+    "areas_for_improvement": [
+      "<NO_FEEDBACK>"
+    ],
+    "encouraging_closing": "<NO_FEEDBACK>"
+  }
+}

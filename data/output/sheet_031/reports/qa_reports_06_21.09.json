@@ -1,0 +1,46 @@
+[
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q1",
+        "identified_errors": [
+          {
+            "sub_question": "Q1.4",
+            "description": "The student mentioned 'JUM', which is likely an OCR error for 'JVM'. The rubric allows for leniency with OCR errors, so the student should receive 1 point for 'JVM' and potentially more if other components are mentioned."
+          }
+        ],
+        "summary": "Q1.4 requires re-evaluation due to potential OCR error leniency not being applied."
+      },
+      {
+        "question": "Q4",
+        "identified_errors": [
+          {
+            "sub_question": "Q4.2",
+            "description": "The rubric specifies that mentioning both 'calculateVotes' and 'totalVotes' should result in full marks. The deduction for syntax issues is not justified as the rubric allows for semantic equivalence and does not penalize minor syntax errors."
+          }
+        ],
+        "summary": "Q4.2 requires re-evaluation as the deduction for syntax issues contradicts the rubric's leniency on semantic equivalence."
+      }
+    ]
+  },
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q1",
+        "identified_errors": [
+          {
+            "sub_question": "Q1.4",
+            "description": "The student mentioned 'JUM', which is likely an OCR error for 'JVM'. The rubric allows leniency for OCR errors, and the student should be awarded 1 point for 'JVM'. However, the student also mentioned 'interpreter', which could be considered as a supporting component, deserving an additional point. The awarded score should be 2 instead of 1."
+          }
+        ],
+        "summary": "Q1.4 requires a regrade due to the misinterpretation of 'JUM' as an OCR error for 'JVM' and the mention of 'interpreter' as a supporting component."
+      }
+    ]
+  },
+  {
+    "decision": "<NO_REGRADE>",
+    "audits": []
+  }
+]

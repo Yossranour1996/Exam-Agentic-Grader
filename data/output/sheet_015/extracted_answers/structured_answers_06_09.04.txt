@@ -1,0 +1,86 @@
+STUDENT ANSWERS:
+
+Question: Q1
+Sub-Question: Q1.1
+Answer: It is mean Java is not restricted specific response architecture.
+
+Sub-Question: Q1.2
+Answer: [NO_ANSWER]
+
+Sub-Question: Q1.3
+Answer: POP And is producer (code) only not with Labo oop it take important code and data together OOP pop Code data Code data Code Code Code data data data Code Code Code data data data Code Code data data data
+
+Sub-Question: Q1.4
+Answer: [NO_ANSWER]
+
+Sub-Question: Q1.5
+Answer: The Inheritance =- Create new classe bebase on exsitang one. polymorphism- it is mean having many formes -
+
+Sub-Question: Q1.6
+Answer: encapsulation it is mean warning up of data to use - (method, fields).
+
+Sub-Question: Q1.7
+Answer: 1-
+
+Sub-Question: Q1.8
+Answer: if the Thread finished it task normaly dead
+
+Sub-Question: Q1.9
+Answer: stream-in stream-out stream-err
+
+Sub-Question: Q1.10
+Answer: [NO_ANSWER]
+
+
+Question: Q2
+Sub-Question: Q2.1
+Answer: true
+
+Sub-Question: Q2.2
+Answer: true
+
+Sub-Question: Q2.3
+Answer: true
+
+Sub-Question: Q2.4
+Answer: false
+
+Sub-Question: Q2.5
+Answer: false
+
+Sub-Question: Q2.6
+Answer: true
+
+Sub-Question: Q2.7
+Answer: false
+
+
+Question: Q3
+Sub-Question: Q3.1
+Answer: To adapt to changing environment and users.
+
+Sub-Question: Q3.2
+Answer: C language
+
+Sub-Question: Q3.3
+Answer: data
+
+Sub-Question: Q3.4
+Answer: [NO_ANSWER]
+
+Sub-Question: Q3.5
+Answer: [NO_ANSWER]
+
+Sub-Question: Q3.6
+Answer: [NO_ANSWER]
+
+Sub-Question: Q3.7
+Answer: [NO_ANSWER]
+
+
+Question: Q4
+Sub-Question: Q4.1
+Answer: for looking for output we see miss the method print name of seat and the words "you will take seat". Next the definition of seat The method it will be let user intering the sheet The Solutions - Scanner seat = new Scanner (Scanner.in); exam seat; print system Scanner exam seat = str.nextLine(); system.out.prin("you will take seat"); System.out.println("you will take seat" + (int)i);
+
+Sub-Question: Q4.2
+Answer: The method defines here solution

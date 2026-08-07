@@ -1,0 +1,15 @@
+1.6 We mean by encapsulation: dealing with data and
+code at the same time, as capsuls and we
+use it in OOP
+1.7 Abstract class and interface
+1.8 A thread could be terminate if:
+it finished his jop
+Broke for unusual reson
+Dead
+1.9 The three Default streams in Java are:
+System.in
+System.out
+System.err
+1.10 Java API is used for dealing with data base
+But API Java swing was built on top of model
+view of multilayer architecture

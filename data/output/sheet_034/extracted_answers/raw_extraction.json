@@ -1,0 +1,34 @@
+[
+  {
+    "page": "page_01.png",
+    "text": ""
+  },
+  {
+    "page": "page_02.png",
+    "text": ""
+  },
+  {
+    "page": "page_03.png",
+    "text": "1-1 & it is not tied on specific\nmachine on operating Systems Architect.\n1-2 & it came up with Some problems\nin security and pretable, So programing\nlanguage had to adopt the changing in\nthe Environment\n1-3 OOP / POP\n-POP: processer-oriented procedures &\nit focuses on generate data on Code.\nSo, in large number of procedure could.\nbe more Complex and too long.\n-OOP: object oriented programing\nforces on the Code and method\ndeveloping rather than data.\n-POP: data process in term of sequence\nbut OOP: grouped code around data,\nSo we have much controlling on data\n-OOP: is flexibility & efficency more than\nPOP."
+  },
+  {
+    "page": "page_04.png",
+    "text": "1.4 = what are component of JBE\n- JBE, Java Runtime environment\nconsist of developement component and\nalse JVM\nJVM\nlaibary somefiles\ncontrolling tools\nJRE\nJDK\n1.5 = inheritance is to create new\nclass base on an existing one\npolymorphism poly mean more,\nmorphsm meen formg\ninheritance is a data hiding\n• Implement information and instruction\nby delifing common featers to sub class\npolymorphism if is result of inheritanse\nafter Sub class inherte the member of\nSuper class It can be modified by adding\nanther (attribute, constructor)"
+  },
+  {
+    "page": "page_05.png",
+    "text": "1-6 = encapsulation is a maganism to binds data and code, and\nprevent them from outside changing\n1-7- 2way to achieve abstracts:\n1- call it in place we difinition\n2- use modifier access modifier\n1-8- Thread could be terminated\n3 reason\n1- Some Application doesn't terminated\n2- protect from autsid strong\n1-9. 3 defult streams\n1- Input stream System.in\nOutput stream System.Out\nerror stream: System.err\n1-10= build in top of interase."
+  },
+  {
+    "page": "page_06.png",
+    "text": "2-1 true\n2-2 false, It is possible, but\n2.3 inherit from inherited one\n2-3 true\n2-4 false, Runtime polymorphism could\nbe achieved by method overriding\n2-5 False, Abstract classes\nshould only have abstract method\nwithin them\n2-6 true\n2-7 true\nQ3. 3.1 To adapt the changing\nof environment and uses.\n3.2- C programming language\n3.3 instruction\n3.4 applet\n3.5 [UNK] package\n3.6. [UNK] system"
+  },
+  {
+    "page": "page_07.png",
+    "text": "3.7 JDBE\nQ 40-\nbox & seats\nX [UNK]\n#Pactenter Succees\nanswer (4-2)\ndouble numOFVal[UNK] = int total Volteg\nLx1\n& Seats [i] + \"you will take seat\" + i [UNK]"
+  },
+  {
+    "page": "page_08.png",
+    "text": ""
+  }
+]

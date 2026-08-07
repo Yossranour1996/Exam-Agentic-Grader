@@ -1,0 +1,12 @@
+4.1
+seats[i] + ", you will take seat " + i
+explanations element orders in arrays start from 0,
+i starts from 0 up to 4 because seats.length = 5,
+and each member of the array is assigned their array
+order in the output.
+4.2.1
+double numOFVotes = (double) totalVotes;
+explanations: totalVotes is defined as int value, but the
+input to calculateVotes is defined as double, so we
+need to define the total number of votes in the double
+type.

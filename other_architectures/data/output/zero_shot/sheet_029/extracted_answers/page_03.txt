@@ -1,0 +1,17 @@
+Polymorphism is a process by which one interface can
+be used as a general class of action. Specific action
+is determined by exact nature of situation. It has two
+two types. Compile time and Run time. Compile time & a known
+as static and Runtime as Dynamic Method Dispatch. Instance
+Polymorphism which is mean "many forms" enables us to
+create Images of different Forms
+6) Mechanism binds together code and data it
+manipulates and protect both from [UNK] outside
+misuse
+7) Interface and abstract class
+8) Thread Finishes its task normally
+Termination could be due to unusual events
+Terminated thread means its dead and no longer
+available
+9) System.in , System.out , System.err
+10) AWT (Abstract Windowing ToolKit)

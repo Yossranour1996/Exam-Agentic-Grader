@@ -1,0 +1,128 @@
+{
+  "questions": [
+    {
+      "question": "Q1",
+      "sub_questions": [
+        {
+          "sub_question": "Q1.1",
+          "answer": "Java program is not tied to a specific machine or operating system"
+        },
+        {
+          "sub_question": "Q1.2",
+          "answer": "by providing access to critical mass Of Information"
+        },
+        {
+          "sub_question": "Q1.3",
+          "answer": "In oop the major emphasis is on data whereas in pop the major emphasis is on the procedure \"function\""
+        },
+        {
+          "sub_question": "Q1.4",
+          "answer": "[NO_ANSWER]"
+        },
+        {
+          "sub_question": "Q1.5",
+          "answer": "inheritance is the creation of new classes based on the existing ones & the new class can take the fields & methods of the parent class, whereas polymorphism is a feature that allows one Interface to be used in multiple classes or actions."
+        },
+        {
+          "sub_question": "Q1.6",
+          "answer": "Encapsulation A mechanism that binds together the code & data it manipulates & prevents it from being accessed by another Interface or mis use."
+        },
+        {
+          "sub_question": "Q1.7",
+          "answer": "through Interfaces or abstract classes"
+        },
+        {
+          "sub_question": "Q1.8",
+          "answer": "1. No action occurs 2. dead or no longer available 3. Due to unusual events"
+        },
+        {
+          "sub_question": "Q1.9",
+          "answer": "1. System.in 2. System.out 3 System.err"
+        },
+        {
+          "sub_question": "Q1.10",
+          "answer": "Applet"
+        }
+      ]
+    },
+    {
+      "question": "Q2",
+      "sub_questions": [
+        {
+          "sub_question": "Q2.1",
+          "answer": "true"
+        },
+        {
+          "sub_question": "Q2.2",
+          "answer": "true"
+        },
+        {
+          "sub_question": "Q2.3",
+          "answer": "true"
+        },
+        {
+          "sub_question": "Q2.4",
+          "answer": "False achieved by method overriding"
+        },
+        {
+          "sub_question": "Q2.5",
+          "answer": "False have an abstract method with then"
+        },
+        {
+          "sub_question": "Q2.6",
+          "answer": "true"
+        },
+        {
+          "sub_question": "Q2.7",
+          "answer": "False two database drivers"
+        }
+      ]
+    },
+    {
+      "question": "Q3",
+      "sub_questions": [
+        {
+          "sub_question": "Q3.1",
+          "answer": "implement new refinements & improvements in the art of programming"
+        },
+        {
+          "sub_question": "Q3.2",
+          "answer": "C"
+        },
+        {
+          "sub_question": "Q3.3",
+          "answer": "The Data"
+        },
+        {
+          "sub_question": "Q3.4",
+          "answer": "Applet"
+        },
+        {
+          "sub_question": "Q3.5",
+          "answer": "Frame"
+        },
+        {
+          "sub_question": "Q3.6",
+          "answer": "Controller"
+        },
+        {
+          "sub_question": "Q3.7",
+          "answer": "JDBC (Java Database Connectivity)"
+        }
+      ]
+    },
+    {
+      "question": "Q4",
+      "sub_questions": [
+        {
+          "sub_question": "Q4.1",
+          "answer": "system.out.println (seats[i] + \", \" + \"You will take seat \" + i); seats [i] Access The array elements through the index & i is the loop iterator which starts from zero & stop at 4\". it will not include \"5\" the array length because of less than operator."
+        },
+        {
+          "sub_question": "Q4.2",
+          "answer": "calculateVotes (totalVotes) ; by Calling the \"calculateVotes\" function & passing the parameter \"totalVotes\"."
+        }
+      ]
+    }
+  ]
+}

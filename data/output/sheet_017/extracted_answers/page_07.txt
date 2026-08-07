@@ -1,0 +1,18 @@
+4.1- seats
+Student[i] + " you will take seat " + (i)
+seats[i] + " you will take seat "i"
+The CODE I wrote is inside the For loop which
+will be printed 5 times starting from i=0 till
+i = 4 which is the last one less than the length
+of the String seats[i] when i=0 will be "u"
+and the statement "you will take seat" and
+then the current value of i which is == 0
+The i will keep increasing by one giving the rest
+of the elements in seats and the value of i
+at the end which is also increased by 1.
+4.2-
+int totalVotes = (double) numOFVotes;
+we changed the type of totalVotes from int
+to double giving it anew name numOFVotes
+to be able to use the value of totalVotes = 760
+in the CalculateVotes.

@@ -1,0 +1,86 @@
+STUDENT ANSWERS:
+
+Question: Q1
+Sub-Question: Q1.1
+Answer: Java is not tied to specific machine or operating System architecture.
+
+Sub-Question: Q1.2
+Answer: They help catapult Java to the forefront of programming, and They will soon reach critical mass.
+
+Sub-Question: Q1.3
+Answer: POP: Process oriented model can be thought as code acting on data & its major emphasize is on developing Procedures (Function) rather than data & can divide program into smaller part & each part consist of sequence of procedures & function. While OOP: object oriented programming can be thought as data controlling access to code, it uses class & methods to manipulate data & code, it can divide problems into smaller entities called "object" & build function and data around these objects.
+
+Sub-Question: Q1.4
+Answer: JRE: is Java runtime environment to only run (execute) not develop the Java application Program.
+
+Sub-Question: Q1.5
+Answer: Inheritance is a process in which one object acquire the properties of other objects (creating new class based on already existing one. Subclass reuse all method & attributes of super class. While polymorphism is a feature that allow one interface to be used for general class of action, and specific action is determined based on nature of the situation.
+
+Sub-Question: Q1.6
+Answer: encapsulation mean bind together data & code it manipulate & keep both safe from outside interference & misuse.
+
+Sub-Question: Q1.7
+Answer: achieve abstraction by : abstract classes & Interface (we can achieve 100% abstraction using interface-
+
+Sub-Question: Q1.8
+Answer: reasons are : normally finished the task . 2- Terminated due to un usual event . 3- Dead & no longer available.
+
+Sub-Question: Q1.9
+Answer: 1-System.out 2-System.in 3.system.err
+
+Sub-Question: Q1.10
+Answer: model view controller AWT
+
+
+Question: Q2
+Sub-Question: Q2.1
+Answer: True
+
+Sub-Question: Q2.2
+Answer: True
+
+Sub-Question: Q2.3
+Answer: True
+
+Sub-Question: Q2.4
+Answer: False
+
+Sub-Question: Q2.5
+Answer: False
+
+Sub-Question: Q2.6
+Answer: True
+
+Sub-Question: Q2.7
+Answer: True
+
+
+Question: Q3
+Sub-Question: Q3.1
+Answer: adapt to changing environment and uses is one of reasons.
+
+Sub-Question: Q3.2
+Answer: C is an example of a POP language.
+
+Sub-Question: Q3.3
+Answer: POP does not allow data
+
+Sub-Question: Q3.4
+Answer: Applet are small programs
+
+Sub-Question: Q3.5
+Answer: a From container is a component which
+
+Sub-Question: Q3.6
+Answer: The model view controlled architecture.
+
+Sub-Question: Q3.7
+Answer: JDBC is a Java API
+
+
+Question: Q4
+Sub-Question: Q4.1
+Answer: Code = (Students E I ] + "You will take seat" + (i))
+
+Sub-Question: Q4.2
+Answer: Code = Calculate Votes (total votes);

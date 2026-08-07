@@ -1,4 +1,6 @@
 # src/subgraphs/export_graph.py
+"""Exports the final grading artifacts as text, JSON, and spreadsheet data."""
+
 from __future__ import annotations
 
 from typing import Dict, Any
@@ -12,14 +14,14 @@ from src.utils import io
 
 
 class ExportGraph:
-    """Save readable artifacts first, then append analysis-friendly workbooks."""
+    """Persist readable artifacts and append analysis-friendly workbook rows."""
 
     def __init__(self):
         self.graph = self.compile()
 
 
     def node_save_results(self, state: State, runtime: Runtime[Context]) -> State:
-        """Persist final grading, QA, and feedback as text and JSON."""
+        """Persist the final grading, QA, and feedback results as text and JSON."""
         logger = state['logger']
         if not state.get('do_save_results', True):
             print("Skipping save_results step as per configuration.")
@@ -47,7 +49,7 @@ Feedback:
 
 
     def node_data_to_sheet(self, state: State, runtime: Runtime[Context]) -> State:
-        """Append one compact results row and one tool-usage row to Excel."""
+        """Append a compact results row and a tool-usage row to Excel workbooks."""
         logger = state['logger']
         if not state.get('do_export_to_sheet', True):
             print("Skipping data_to_sheet step as per configuration.")
@@ -64,7 +66,7 @@ Feedback:
 
     @staticmethod
     def get_results_data(state: State) -> Dict[str, Any]:
-        """Flatten nested item scores into one row per answer sheet."""
+        """Flatten nested evaluation data into one row per answer sheet."""
         row = {"sheet_id": state['sheet_id'], "regrade_attempts": state.get('max_regrade', 1) - state['regrade_counter']}
         grading = state['grading_result']
         row["total_mark"] = grading.get('total_mark', "")
@@ -76,7 +78,7 @@ Feedback:
 
     @staticmethod
     def get_tools_data(state: State) -> Dict[str, Any]:
-        """Count tool calls retained in the shared trace channel."""
+        """Summarize tool-call activity captured in the shared message trace."""
         row, total = {"sheet_id": state['sheet_id']}, 0
         for message in state.get('messages', []):
             if isinstance(message, AIMessage):
@@ -88,7 +90,7 @@ Feedback:
 
 
     def compile(self):
-        """Build the same wrapper-style two-node subgraph used elsewhere."""
+        """Build the two-step export subgraph used to save artifacts and workbook rows."""
         graph = StateGraph(State, context_schema=Context)
         graph.add_node("save_results", self.node_save_results)
         graph.add_node("data_to_sheet", self.node_data_to_sheet)
@@ -100,5 +102,5 @@ Feedback:
         return graph.compile()
 
     def invoke(self, state: State, context: Context) -> State:
-        """Execute both export stages."""
+        """Execute both export stages using the provided runtime context."""
         return self.graph.invoke(state, context=context)

@@ -1,0 +1,12 @@
+6. Expect encapsulation is to ban between
+code and data , also manipulate them and
+protect it and keep it safe-
+7- abstract classes and interface
+8. do-perform normally
+terminated due unusual events
+dead and no longer available
+9. System.in
+System.out
+System.err
+10. built on multilayer system architecture
+JDBC JPBC

@@ -1,0 +1,19 @@
+1.6:
+Encapsulation is the mechanism that binds both code and data it
+manipulates and keeps them safe and secure.
+1.7
+Two ways to achieve abstractions:
+① Class abstract
+② Interfaces abstract.
+1.8
+A thread could be terminated due:
+① IF it completedits task completely.
+② Stopped because of unusual events.
+③ lost Turned off and stopped
+1.9
+Three default streams in Java:
+① System.i
+② System.o
+③ System.err
+1.10
+JDBC to connect and interact with database.

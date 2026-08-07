@@ -1,0 +1,8 @@
+4.1 CODE: String [i] + " you will take seat" + (4-i)
+Saving [i] will print one of the letters: M, C, ..
+" you will be printed as it is every time in the
+loop.
+(4-i): represent the number of seat
+4.2 forLint
+Private string id;
+for loop

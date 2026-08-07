@@ -1,0 +1,121 @@
+Total Mark: 66
+
+Evaluations:
+Question: Q1
+Total Score: 21
+
+Sub-Question: Q1.1
+Score: 3
+Justification: The student conveyed that Java doesn't need a specific architecture, which aligns with the idea of being architecture-neutral.
+
+Sub-Question: Q1.2
+Score: 3
+Justification: The student provided a non-blank answer that did not mention Applet or Servlet.
+
+Sub-Question: Q1.3
+Score: 3
+Justification: The student mentioned OOP as encapsulating code and data, and POP as procedure-oriented, which is correct.
+
+Sub-Question: Q1.4
+Score: 0
+Justification: No answer was provided.
+
+Sub-Question: Q1.5
+Score: 2
+Justification: The student correctly described inheritance but the explanation of polymorphism was not clear.
+
+Sub-Question: Q1.6
+Score: 3
+Justification: The student correctly described encapsulation as combining data and code together.
+
+Sub-Question: Q1.7
+Score: 3
+Justification: The student mentioned abstract classes and interfaces, which are correct ways to achieve abstraction.
+
+Sub-Question: Q1.8
+Score: 3
+Justification: The student provided three correct reasons for thread termination.
+
+Sub-Question: Q1.9
+Score: 3
+Justification: The student correctly listed System.in, System.out, and System.err.
+
+Sub-Question: Q1.10
+Score: 0
+Justification: No answer was provided.
+
+
+Question: Q2
+Total Score: 12
+
+Sub-Question: Q2.1
+Score: 3
+Justification: The student correctly chose True.
+
+Sub-Question: Q2.2
+Score: 0
+Justification: The student incorrectly chose True; the correct answer is False.
+
+Sub-Question: Q2.3
+Score: 3
+Justification: The student correctly chose True.
+
+Sub-Question: Q2.4
+Score: 3
+Justification: The student correctly chose False.
+
+Sub-Question: Q2.5
+Score: 0
+Justification: The student incorrectly chose False; the correct answer is True.
+
+Sub-Question: Q2.6
+Score: 3
+Justification: The student correctly chose True.
+
+Sub-Question: Q2.7
+Score: 0
+Justification: The student incorrectly chose True; the correct answer is False.
+
+
+Question: Q3
+Total Score: 9
+
+Sub-Question: Q3.1
+Score: 3
+Justification: Always full marks.
+
+Sub-Question: Q3.2
+Score: 3
+Justification: The student correctly answered C.
+
+Sub-Question: Q3.3
+Score: 0
+Justification: The student incorrectly answered Compiler; the correct answer is data.
+
+Sub-Question: Q3.4
+Score: 0
+Justification: The student incorrectly answered Servlet; the correct answer is Applet.
+
+Sub-Question: Q3.5
+Score: 0
+Justification: The student incorrectly answered Java Api; the correct answer is Container or Frame.
+
+Sub-Question: Q3.6
+Score: 0
+Justification: The student incorrectly answered Read; the correct answer is Controller.
+
+Sub-Question: Q3.7
+Score: 0
+Justification: The student incorrectly answered Servlet; the correct answer is JDBC.
+
+
+Question: Q4
+Total Score: 24
+
+Sub-Question: Q4.1
+Score: 14
+Justification: Always full marks.
+
+Sub-Question: Q4.2
+Score: 10
+Justification: The student mentioned calculateVotes but did not correctly use totalVotes. Partial credit given.

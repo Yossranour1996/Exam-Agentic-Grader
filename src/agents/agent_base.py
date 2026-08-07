@@ -1,4 +1,6 @@
 # src/agents/agent_base.py
+"""Shared base class for agents that use LangChain prompts and structured responses."""
+
 from __future__ import annotations
 
 from typing import Dict, Any
@@ -12,7 +14,7 @@ from langchain_core.prompts import ChatPromptTemplate
 
 
 class AgentBase:
-    """Base class for all agents, providing a unified interface for initialization and invocation."""
+    """Base class for agents that wrap a prompt template with structured output."""
 
     def __init__(
         self,
@@ -32,7 +34,7 @@ class AgentBase:
         self.chain = prompt_template | agent
 
     def invoke(self, state: Dict[str, Any]) -> Dict[str, Any]:
-        """Return JSON, text, and only messages created by this invocation."""
+        """Execute the prompt chain and return structured output plus new messages."""
         output = self.chain.invoke(state)
         result = output.get('structured_response')
 
@@ -52,5 +54,5 @@ class AgentBase:
 
     @staticmethod
     def parse_result(result: BaseModel) -> str:
-        """Render a model-specific structured result for reports and prompts."""
+        """Render a structured model result into human-readable text for logs or reports."""
         raise NotImplementedError

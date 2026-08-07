@@ -1,0 +1,128 @@
+{
+  "questions": [
+    {
+      "question": "Q1",
+      "sub_questions": [
+        {
+          "sub_question": "Q1.1",
+          "answer": "We mean that the JAVA is not restricted by a specific system architecture."
+        },
+        {
+          "sub_question": "Q1.2",
+          "answer": "They introduced Applets which extend the functionality of the web, and also servlet that extended functionality of the server."
+        },
+        {
+          "sub_question": "Q1.3",
+          "answer": "The OOP treats the code lines as instructions and emphasizes on the procedure, on the other hand OOP encapsulate the code and data is manipulates and emphasized on data."
+        },
+        {
+          "sub_question": "Q1.4",
+          "answer": "JRE or JAVA Runtime Environment consists of library and JVM to Run the code."
+        },
+        {
+          "sub_question": "Q1.5",
+          "answer": "Inheritance: new classes inherits the attributes and methods of older classes. Polymorphism: Allow one interface to be used for general use case, Inheritance keep the old classes methods while polymorphism might alter them."
+        },
+        {
+          "sub_question": "Q1.6",
+          "answer": "Encapsulations is the mechanism that binds the code and data is manipulates, and Keep them safe from outside interference and misuse."
+        },
+        {
+          "sub_question": "Q1.7",
+          "answer": "Class abstracts and interfaces."
+        },
+        {
+          "sub_question": "Q1.8",
+          "answer": "1) finished and completed the task normally. 2) terminated due to unusual events. 3) Stopped due to runtime error."
+        },
+        {
+          "sub_question": "Q1.9",
+          "answer": "System.In System.out System.err"
+        },
+        {
+          "sub_question": "Q1.10",
+          "answer": "JAVA swing was built on top of AWT"
+        }
+      ]
+    },
+    {
+      "question": "Q2",
+      "sub_questions": [
+        {
+          "sub_question": "Q2.1",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.2",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.3",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.4",
+          "answer": "False, it is achieved by Overriding"
+        },
+        {
+          "sub_question": "Q2.5",
+          "answer": "False, that would lead to the diamond problem, which causes the class to exted extend till [UNK] errors out"
+        },
+        {
+          "sub_question": "Q2.6",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.7",
+          "answer": "False each source has its own implementations for JDBC driver - True"
+        }
+      ]
+    },
+    {
+      "question": "Q3",
+      "sub_questions": [
+        {
+          "sub_question": "Q3.1",
+          "answer": "Enhancement is one of the reason that computer language innovation occurred"
+        },
+        {
+          "sub_question": "Q3.2",
+          "answer": "C is an example of a POP language"
+        },
+        {
+          "sub_question": "Q3.3",
+          "answer": "POP does not allow [UNK] flow freely in the Program"
+        },
+        {
+          "sub_question": "Q3.4",
+          "answer": "Applets are small programs that need a Java enabled web browser to be executed"
+        },
+        {
+          "sub_question": "Q3.5",
+          "answer": "a frame is a component which can contain other elements like buttons"
+        },
+        {
+          "sub_question": "Q3.6",
+          "answer": "The model-view controller (MVC) architecture is used in Swing."
+        },
+        {
+          "sub_question": "Q3.7",
+          "answer": "JDBC is a Java API to connect and interact with databases"
+        }
+      ]
+    },
+    {
+      "question": "Q4",
+      "sub_questions": [
+        {
+          "sub_question": "Q4.1",
+          "answer": "[NO_ANSWER]"
+        },
+        {
+          "sub_question": "Q4.2",
+          "answer": "We added the missing statemented and printed it on a new line - System.out.println(\"the amount of people who agrees with this\") statement is System.out.println(\"Statement. if Java was easy they would call it Python!\")"
+        }
+      ]
+    }
+  ]
+}

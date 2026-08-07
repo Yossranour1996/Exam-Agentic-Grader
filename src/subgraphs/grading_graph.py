@@ -1,4 +1,6 @@
 # src/subgraphs/grading_graph.py
+"""Builds the grading subgraph that fans out question-level grading work and merges the results."""
+
 from __future__ import annotations
 
 import json
@@ -20,7 +22,7 @@ class GradingState(State):
 
 
 class GradingGraph:
-    """Parallel, question-scoped grading with deterministic aggregation."""
+    """Run question-scoped grading in parallel and merge the results deterministically."""
 
     def __init__(self, model="gpt-4o", temperature=0.0, max_tokens=None):
         self.graders = {
@@ -31,7 +33,7 @@ class GradingGraph:
 
 
     def map_questions(self, state: State) -> list[Send]:
-        """Fan out all questions initially, or only QA-selected questions later."""
+        """Fan out all questions initially, or only the QA-selected questions on regrade."""
         logger = state["logger"]
         logger.log("Fanning out grading tasks per question.", level="debug", step_label="Grader-Map/Reduce")
 
@@ -70,7 +72,7 @@ class GradingGraph:
 
 
     def node_grader(self, state: QuestionTask) -> GradingState:
-        """Run one isolated grader and tag its output for deterministic merging."""
+        """Run one isolated grader and tag its output so it can be merged cleanly."""
         logger = state["logger"]
         if not state.get('do_grade', True):
             data = state['evaluation']
@@ -91,7 +93,7 @@ class GradingGraph:
 
 
     def node_synthesizer(self, state: GradingState) -> State:
-        """Keep the newest result per ID, validate it, and calculate the exam total."""
+        """Keep the latest result per question, validate it, and calculate the exam total."""
         logger = state["logger"]
         logger.log("Synthesizing parallel grading results.", level="debug", step_label="Synthesizer")
 
@@ -108,7 +110,7 @@ class GradingGraph:
 
     @staticmethod
     def parse_result(total: int, results: list[str]) -> str:
-        """Join question reports beneath the deterministic total."""
+        """Join each question report beneath the aggregate total for a readable summary."""
         text = (
 f"""Total Mark: {total}
 
@@ -121,7 +123,7 @@ Evaluations:
 
 
     def compile(self):
-        """Build a map/reduce graph whose worker outputs share list reducers."""
+        """Build the map/reduce graph used to grade questions in parallel."""
         graph = StateGraph(State)
 
         graph.add_node("grader", self.node_grader)
@@ -137,20 +139,26 @@ Evaluations:
         """Execute the grading fan-out and aggregation."""
         return self.graph.invoke(state)
 
-    def skip(self, results_dir: Path, logger: Logger | None) -> State:
+    def skip(self, results_dir: Path, read_results: bool, logger: Logger | None) -> State:
         """Reuse the most recent final grading result."""
         if logger:
             logger.log("Grading step skipped as per configuration.", level="warning", step_label="Grader")
 
-        paths = sorted(results_dir.glob("grading_final*.json"))
-        if not paths:
-            raise FileNotFoundError(f"No prior grading result in {results_dir}")
+        if read_results:
+            paths = sorted(results_dir.glob("grading_final*.json"))
+            if not paths:
+                raise FileNotFoundError(f"No prior grading result in {results_dir}")
 
-        data = io.read_json(paths[-1], logger)
-        results = [self.graders['Q1'].response_format(**eval) for eval in data.get("evaluations", [])]
-        text = self.parse_result(data.get('total_mark', 0), [self.graders['Q1'].parse_result(result) for result in results])
+            data = io.read_json(paths[-1], logger)
+            results = [self.graders['Q1'].response_format(**eval) for eval in data.get("evaluations", [])]
+            text = self.parse_result(data.get('total_mark', 0), [self.graders['Q1'].parse_result(result) for result in results])
+
+            return {
+                "grader_result_json": data,
+                "grader_result_str": text
+            }
 
         return {
-            "grader_result_json": data,
-            "grader_result_str": text
+            "grading_result": {"total_mark": 0, "evaluations": []},
+            "grading_result_str": "Total Mark: 0\n\nEvaluations:\n"
         }

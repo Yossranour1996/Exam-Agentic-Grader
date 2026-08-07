@@ -1,0 +1,20 @@
+1.5 inheritance means making new class from
+an existing class, so it works on classes and interfaces
+and the inherited class can use methods of the other class.
+while polymorphism means methods having many
+forms such as overloading or overriding, so polymorphism
+works on methods.
+1.6 encapsulation can mean wrapping data together
+so that only commissioned classes or packages can have
+access to it and that's by declaring attributes private.
+1.7 it can be made by declaring attributes private
+or classes, or making interface so its methods and
+attributes by default.
+1.8 A when it has finished its assigned task.
+B unknown behaviours.
+C it reached dead end.
+1.9 A system.in (input stream)
+B system.out (output stream)
+C system.err (error stream)
+1.10 it was built on top of AWTC application window
+(toolkit)

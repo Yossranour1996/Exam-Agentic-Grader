@@ -1,0 +1,5 @@
+4.1
+Code = (Students E I ] + "You will take seat" + (i))
+4.2
+Code =
+Calculate Votes (total votes);

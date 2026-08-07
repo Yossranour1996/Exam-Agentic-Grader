@@ -1,0 +1,136 @@
+Final Grading and Feedback Results
+Grading:
+
+Total Mark: 91
+
+Evaluations:
+"Question: Q1
+Total Points: 30
+
+Sub-Question: Q1.1
+Awarded Points: 3
+Justification: The student correctly conveys that Java does not rely on the architecture of the system, which aligns with the concept of being architecture-neutral.
+
+Sub-Question: Q1.2
+Awarded Points: 3
+Justification: The student provides a non-blank answer that does not mention Applet or Servlet, thus earning full marks.
+
+Sub-Question: Q1.3
+Awarded Points: 3
+Justification: The student correctly distinguishes between OOP and POP, mentioning that OOP focuses on objects and data, while POP focuses on procedures and functions.
+
+Sub-Question: Q1.4
+Awarded Points: 3
+Justification: The student mentions 'Java virtual machine', 'libraries', and 'files', covering all components of the JRE.
+
+Sub-Question: Q1.5
+Awarded Points: 3
+Justification: The student correctly explains both inheritance and polymorphism, covering the essential concepts for full marks.
+
+Sub-Question: Q1.6
+Awarded Points: 3
+Justification: The student accurately describes encapsulation as binding data and code together, protecting data from outside modification.
+
+Sub-Question: Q1.7
+Awarded Points: 3
+Justification: The student correctly mentions 'abstract classes' and 'interfaces', which are the two ways to achieve abstraction.
+
+Sub-Question: Q1.8
+Awarded Points: 3
+Justification: The student lists three valid reasons for thread termination: finished normally, stopped due to errors, and no longer exists.
+
+Sub-Question: Q1.9
+Awarded Points: 3
+Justification: The student correctly identifies the three default streams in Java: System.in, System.out, and System.err.
+
+Sub-Question: Q1.10
+Awarded Points: 3
+Justification: The student correctly states that Java Swing is built on top of AWT (Abstract Window Toolkit).
+
+
+"Question: Q2
+Total Points: 15
+
+Sub-Question: Q2.1
+Awarded Points: 3
+Justification: The student correctly answered 'True', which matches the expected answer.
+
+Sub-Question: Q2.2
+Awarded Points: 0
+Justification: The student answered 'True', but the expected answer is 'False'. No points awarded.
+
+Sub-Question: Q2.3
+Awarded Points: 3
+Justification: The student correctly answered 'True', which matches the expected answer. Additional information provided is correct.
+
+Sub-Question: Q2.4
+Awarded Points: 3
+Justification: The student correctly answered 'False', which matches the expected answer. Additional information provided is correct.
+
+Sub-Question: Q2.5
+Awarded Points: 0
+Justification: The student answered 'False', but the expected answer is 'True'. No points awarded.
+
+Sub-Question: Q2.6
+Awarded Points: 3
+Justification: The student correctly answered 'True', which matches the expected answer.
+
+Sub-Question: Q2.7
+Awarded Points: 3
+Justification: The student correctly answered 'False', which matches the expected answer. Additional information provided is correct.
+
+
+"Question: Q3
+Total Points: 21
+
+Sub-Question: Q3.1
+Awarded Points: 3
+Justification: The answer 'To adapt to the changes in the environments.' matches the accepted term 'adapting to change'. Full marks awarded as per rubric.
+
+Sub-Question: Q3.2
+Awarded Points: 3
+Justification: The answer 'C' directly matches the accepted term 'C'. Full marks awarded.
+
+Sub-Question: Q3.3
+Awarded Points: 3
+Justification: The answer 'the data' directly matches the accepted term 'data'. Full marks awarded.
+
+Sub-Question: Q3.4
+Awarded Points: 3
+Justification: The answer 'applets' directly matches the accepted term 'Applet'. Full marks awarded.
+
+Sub-Question: Q3.5
+Awarded Points: 3
+Justification: The answer 'Panels and frames and menus' includes 'Frame', which is an accepted term. Full marks awarded.
+
+Sub-Question: Q3.6
+Awarded Points: 3
+Justification: The answer 'model View Controller' includes 'Controller', which is an accepted term. Full marks awarded.
+
+Sub-Question: Q3.7
+Awarded Points: 3
+Justification: The answer 'JDBC = Java database connection.' includes 'JDBC', which is an accepted term. Full marks awarded.
+
+
+"Question: Q4
+Total Points: 25
+
+Sub-Question: Q4.1
+Awarded Points: 14
+Justification: The rubric specifies that Q4.1 should always receive full marks regardless of the answer provided.
+
+Sub-Question: Q4.2
+Awarded Points: 11
+Justification: The student's answer mentions 'total votes' and 'numOfvotes', which indicates an understanding of the vote-related context. However, the exact function call 'calculateVotes(totalVotes);' is not present. According to the rubric, mentioning either 'calculateVotes' or 'totalVotes' warrants 11 points.
+
+--------------------------------------------------------------------------------
+
+Feedback:
+
+Positive Highlights:
+- <NO_FEEDBACK>
+
+Areas for Improvement:
+- <NO_FEEDBACK>
+
+<NO_FEEDBACK>

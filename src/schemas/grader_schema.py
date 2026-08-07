@@ -1,4 +1,6 @@
 # src/schemas/grader_schema.py
+"""Structured schema for the detailed grading output produced per question."""
+
 from typing import List
 from pydantic import BaseModel, Field
 

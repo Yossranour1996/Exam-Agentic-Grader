@@ -1,0 +1,40 @@
+[
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q3",
+        "identified_errors": [
+          {
+            "sub_question": "Q3.6",
+            "description": "The student's answer 'Control \"represents the interface between model and view\"' should be considered for partial credit. The term 'Control' is close to 'Controller', and the explanation shows understanding of the concept. The rubric allows for semantic equivalence, and the deduction of full marks is too harsh."
+          }
+        ],
+        "summary": "Q3.6 requires re-evaluation for partial credit due to semantic equivalence and understanding shown in the student's answer."
+      }
+    ]
+  },
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q2",
+        "identified_errors": [
+          {
+            "sub_question": "Q2.6",
+            "description": "The student provided both 'False' and 'True'. The rubric does not specify how to handle multiple answers, but the intent seems to be to choose one. Given the ambiguity, a lenient approach could award partial credit."
+          },
+          {
+            "sub_question": "Q2.7",
+            "description": "The student provided both 'True' and 'False'. The rubric does not specify how to handle multiple answers, but the intent seems to be to choose one. Given the ambiguity, a lenient approach could award partial credit."
+          }
+        ],
+        "summary": "Questions Q2.6 and Q2.7 were marked as 0 due to ambiguous answers. However, the rubric does not explicitly address how to handle multiple answers. A lenient interpretation could allow for partial credit if the student shows understanding by including the correct answer among their choices."
+      }
+    ]
+  },
+  {
+    "decision": "<NO_REGRADE>",
+    "audits": []
+  }
+]

@@ -1,0 +1,86 @@
+STUDENT ANSWERS:
+
+Question: Q1
+Sub-Question: Q1.1
+Answer: Jave not restricted by specifaing machine or operating system Architecture
+
+Sub-Question: Q1.2
+Answer: by using Web browser and Create Java Applets
+
+Sub-Question: Q1.3
+Answer: POP = procedural oriented language operates on data to achieve Some goal OOP = use objects and classes and instruction to encapsulated both data and Code data With Code encapsulate
+
+Sub-Question: Q1.4
+Answer: Java Runtime environment that has (JVM) = Java Virtual machine
+
+Sub-Question: Q1.5
+Answer: inheritance = creat new classes based on existing ones and a class inherit from anther class reuse all fields and methods of that class in addition new fields from polymorphism = having many forms in word or ability of massege to be disably in more then one form
+
+Sub-Question: Q1.6
+Answer: machnism that bind together code and data it manipultes and Keep them safe from outside inter farance
+
+Sub-Question: Q1.7
+Answer: interfaces and abstract classes
+
+Sub-Question: Q1.8
+Answer: finisheel task normally —® terminet due to unusual events x —® dead or No longer avalible —®
+
+Sub-Question: Q1.9
+Answer: System.in / System.out / system.err
+
+Sub-Question: Q1.10
+Answer: Java AWT (Abstract Window toolKit) we built API Swing on top of it
+
+
+Question: Q2
+Sub-Question: Q2.1
+Answer: True
+
+Sub-Question: Q2.2
+Answer: False = o other True
+
+Sub-Question: Q2.3
+Answer: True
+
+Sub-Question: Q2.4
+Answer: False = o by over overriding method or you can say compile time
+
+Sub-Question: Q2.5
+Answer: False = o could not
+
+Sub-Question: Q2.6
+Answer: True
+
+Sub-Question: Q2.7
+Answer: True
+
+
+Question: Q3
+Sub-Question: Q3.1
+Answer: adapt changeing in environments and uses
+
+Sub-Question: Q3.2
+Answer: (C) language
+
+Sub-Question: Q3.3
+Answer: procedures (functions)
+
+Sub-Question: Q3.4
+Answer: Jave Applets
+
+Sub-Question: Q3.5
+Answer: [UNK] container
+
+Sub-Question: Q3.6
+Answer: model view controller
+
+Sub-Question: Q3.7
+Answer: JDBC = Jave data base conectivity
+
+
+Question: Q4
+Sub-Question: Q4.1
+Answer: ① Student student seats student [i] + "you will take seat" + stor seat.length [i] first you call choractor from list = seats and then goes through loop and after that length of seats => like index [0] = ["M"] and less than length of list so + "you will take seat"
+
+Sub-Question: Q4.2
+Answer: double num Of Votes = total Votes;

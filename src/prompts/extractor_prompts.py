@@ -1,4 +1,6 @@
 # src/prompts/extractor_prompts.py
+"""Prompt templates used to transcribe scanned pages and map OCR output to exam questions."""
+
 from langchain_core.prompts import ChatPromptTemplate
 
 

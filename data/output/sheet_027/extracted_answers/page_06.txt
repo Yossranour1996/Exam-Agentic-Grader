@@ -1,0 +1,11 @@
+4.1
+System.out.println(Seats[i] + ", You will take Seat" + i);
+The code will print each element in the Seats
+array one by one, starting from 0 to seats.length-1
+4.2
+CalculateVotes (totalVotes)
+CalculateVotes ((double) totalVotes);
+The execute ( CalculateVotes (1)) Eatss class
+we must call it in the main section and
+passing the value of (num of votes) between its
+parenthis.

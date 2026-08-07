@@ -1,0 +1,161 @@
+{
+  "grading": {
+    "total_mark": 75,
+    "evaluations": [
+      {
+        "question": "Q1",
+        "total_points": 22,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q1.1",
+            "awarded_points": 3,
+            "justification": "The student conveyed that Java is not restricted to a specific operating system, which aligns with the concept of architecture-neutral."
+          },
+          {
+            "sub_question": "Q1.2",
+            "awarded_points": 0,
+            "justification": "The answer mentioned 'Applet', which is explicitly not allowed according to the rubric."
+          },
+          {
+            "sub_question": "Q1.3",
+            "awarded_points": 3,
+            "justification": "The student correctly differentiated between POP (procedure/data oriented) and OOP (object/class oriented)."
+          },
+          {
+            "sub_question": "Q1.4",
+            "awarded_points": 1,
+            "justification": "The student mentioned JVM, which is worth 1 point. Other components were not mentioned."
+          },
+          {
+            "sub_question": "Q1.5",
+            "awarded_points": 3,
+            "justification": "The student correctly explained both inheritance and polymorphism."
+          },
+          {
+            "sub_question": "Q1.6",
+            "awarded_points": 3,
+            "justification": "The student expressed the concept of encapsulation as protecting class data and code, which is correct."
+          },
+          {
+            "sub_question": "Q1.7",
+            "awarded_points": 3,
+            "justification": "The student mentioned 'abstracted classes and InTer Face', which is acceptable for full marks."
+          },
+          {
+            "sub_question": "Q1.8",
+            "awarded_points": 3,
+            "justification": "The student provided three correct reasons for thread termination."
+          },
+          {
+            "sub_question": "Q1.9",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the three default streams in Java."
+          },
+          {
+            "sub_question": "Q1.10",
+            "awarded_points": 0,
+            "justification": "The answer did not mention AWT or Abstract Window Toolkit."
+          }
+        ]
+      },
+      {
+        "question": "Q2",
+        "total_points": 15,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q2.1",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as True."
+          },
+          {
+            "sub_question": "Q2.2",
+            "awarded_points": 0,
+            "justification": "The student incorrectly identified the statement as True; it should be False."
+          },
+          {
+            "sub_question": "Q2.3",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as True."
+          },
+          {
+            "sub_question": "Q2.4",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as False."
+          },
+          {
+            "sub_question": "Q2.5",
+            "awarded_points": 0,
+            "justification": "The student incorrectly identified the statement as False; it should be True."
+          },
+          {
+            "sub_question": "Q2.6",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as True."
+          },
+          {
+            "sub_question": "Q2.7",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as False."
+          }
+        ]
+      },
+      {
+        "question": "Q3",
+        "total_points": 15,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q3.1",
+            "awarded_points": 3,
+            "justification": "Full marks are awarded regardless of the answer."
+          },
+          {
+            "sub_question": "Q3.2",
+            "awarded_points": 3,
+            "justification": "The student correctly identified 'C Language' as an example of a POP language."
+          },
+          {
+            "sub_question": "Q3.3",
+            "awarded_points": 0,
+            "justification": "The student answered 'attributes', but the correct answer is 'data'."
+          },
+          {
+            "sub_question": "Q3.4",
+            "awarded_points": 3,
+            "justification": "The student correctly identified 'Applet'."
+          },
+          {
+            "sub_question": "Q3.5",
+            "awarded_points": 3,
+            "justification": "The student correctly identified 'a container'."
+          },
+          {
+            "sub_question": "Q3.6",
+            "awarded_points": 0,
+            "justification": "The student answered 'Controlling', but the correct answer is 'Controller'."
+          },
+          {
+            "sub_question": "Q3.7",
+            "awarded_points": 3,
+            "justification": "The student correctly identified 'JDBC'."
+          }
+        ]
+      },
+      {
+        "question": "Q4",
+        "total_points": 23,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q4.1",
+            "awarded_points": 14,
+            "justification": "Full marks are awarded regardless of the answer."
+          },
+          {
+            "sub_question": "Q4.2",
+            "awarded_points": 9,
+            "justification": "The answer was incorrect but mentioned 'vote', which is related to the expected answer."
+          }
+        ]
+      }
+    ]
+  }
+}

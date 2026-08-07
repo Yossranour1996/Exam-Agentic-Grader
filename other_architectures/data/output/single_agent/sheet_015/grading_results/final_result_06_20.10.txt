@@ -1,0 +1,121 @@
+"Total Mark: 59
+
+Evaluations:
+Question: Q1
+Total Points: 14
+
+Sub-Question: Q1.1
+Awarded Points: 3
+Justification: The student conveyed that Java is not restricted to a specific architecture, which aligns with the concept of architecture-neutral.
+
+Sub-Question: Q1.2
+Awarded Points: 0
+Justification: The answer was blank, which does not meet the rubric requirement for a nonblank answer.
+
+Sub-Question: Q1.3
+Awarded Points: 0
+Justification: The answer was incoherent and did not clearly convey the difference between POP and OOP.
+
+Sub-Question: Q1.4
+Awarded Points: 0
+Justification: The answer was blank, which does not meet the rubric requirement.
+
+Sub-Question: Q1.5
+Awarded Points: 3
+Justification: The student correctly explained inheritance and polymorphism, mentioning 'many forms' for polymorphism.
+
+Sub-Question: Q1.6
+Awarded Points: 3
+Justification: The student expressed encapsulation as wrapping data and methods, which aligns with the concept.
+
+Sub-Question: Q1.7
+Awarded Points: 0
+Justification: The answer was incomplete and did not mention abstract classes or interfaces.
+
+Sub-Question: Q1.8
+Awarded Points: 2
+Justification: The student mentioned 'finished task' and 'dead', which are two correct reasons for thread termination.
+
+Sub-Question: Q1.9
+Awarded Points: 3
+Justification: The student correctly identified the default streams, albeit with minor spelling variations.
+
+Sub-Question: Q1.10
+Awarded Points: 0
+Justification: The answer was blank, which does not meet the rubric requirement.
+
+
+Question: Q2
+Total Points: 15
+
+Sub-Question: Q2.1
+Awarded Points: 3
+Justification: The student correctly identified the statement as True.
+
+Sub-Question: Q2.2
+Awarded Points: 0
+Justification: The student incorrectly identified the statement as True; it should be False.
+
+Sub-Question: Q2.3
+Awarded Points: 3
+Justification: The student correctly identified the statement as True.
+
+Sub-Question: Q2.4
+Awarded Points: 3
+Justification: The student correctly identified the statement as False.
+
+Sub-Question: Q2.5
+Awarded Points: 0
+Justification: The student incorrectly identified the statement as False; it should be True.
+
+Sub-Question: Q2.6
+Awarded Points: 3
+Justification: The student correctly identified the statement as True.
+
+Sub-Question: Q2.7
+Awarded Points: 3
+Justification: The student correctly identified the statement as False.
+
+
+Question: Q3
+Total Points: 9
+
+Sub-Question: Q3.1
+Awarded Points: 3
+Justification: The student provided a valid reason for computer-language innovation.
+
+Sub-Question: Q3.2
+Awarded Points: 3
+Justification: The student correctly identified 'C language' as an example of a POP language.
+
+Sub-Question: Q3.3
+Awarded Points: 3
+Justification: The student correctly identified 'data' as the missing word.
+
+Sub-Question: Q3.4
+Awarded Points: 0
+Justification: The answer was blank, which does not meet the rubric requirement.
+
+Sub-Question: Q3.5
+Awarded Points: 0
+Justification: The answer was blank, which does not meet the rubric requirement.
+
+Sub-Question: Q3.6
+Awarded Points: 0
+Justification: The answer was blank, which does not meet the rubric requirement.
+
+Sub-Question: Q3.7
+Awarded Points: 0
+Justification: The answer was blank, which does not meet the rubric requirement.
+
+
+Question: Q4
+Total Points: 21
+
+Sub-Question: Q4.1
+Awarded Points: 14
+Justification: Full marks are awarded as per rubric policy.
+
+Sub-Question: Q4.2
+Awarded Points: 7
+Justification: The answer was nonblank but unrelated to votes, thus receiving partial credit.

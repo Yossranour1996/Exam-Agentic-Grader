@@ -1,0 +1,479 @@
+[
+  {
+    "total_mark": 74,
+    "evaluations": [
+      {
+        "question": "Q1",
+        "total_points": 23,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q1.1",
+            "awarded_points": 3,
+            "justification": "The student conveyed that Java does not depend on a specific architecture, which aligns with the concept of being architecture-neutral."
+          },
+          {
+            "sub_question": "Q1.2",
+            "awarded_points": 3,
+            "justification": "The student provided a non-blank answer that does not mention Applets or Servlets, thus meeting the rubric criteria."
+          },
+          {
+            "sub_question": "Q1.3",
+            "awarded_points": 3,
+            "justification": "The student correctly identified that POP focuses on functions and OOP focuses on data and access, which aligns with the expected distinction between POP and OOP."
+          },
+          {
+            "sub_question": "Q1.4",
+            "awarded_points": 3,
+            "justification": "The student mentioned JVM and libraries, which are two components of the JRE, and also referred to the process handling, which can be interpreted as supporting files. This earns full marks."
+          },
+          {
+            "sub_question": "Q1.5",
+            "awarded_points": 2,
+            "justification": "The student correctly described inheritance but provided an unclear explanation for polymorphism. Thus, partial credit is awarded."
+          },
+          {
+            "sub_question": "Q1.6",
+            "awarded_points": 0,
+            "justification": "The student's answer did not convey the concept of binding code and data together, which is essential for encapsulation."
+          },
+          {
+            "sub_question": "Q1.7",
+            "awarded_points": 3,
+            "justification": "The student mentioned abstract classes and interfaces, which are the two ways to achieve abstraction."
+          },
+          {
+            "sub_question": "Q1.8",
+            "awarded_points": 3,
+            "justification": "The student provided three valid reasons for thread termination: finished, interrupted by unusual actions, and dead."
+          },
+          {
+            "sub_question": "Q1.9",
+            "awarded_points": 3,
+            "justification": "The student correctly listed System.in, System.out, and System.err, which are the three default streams in Java."
+          },
+          {
+            "sub_question": "Q1.10",
+            "awarded_points": 0,
+            "justification": "The student did not provide an answer for this question."
+          }
+        ]
+      },
+      {
+        "question": "Q2",
+        "total_points": 18,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q2.1",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as True."
+          },
+          {
+            "sub_question": "Q2.2",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as False. Additional information provided does not affect the correctness."
+          },
+          {
+            "sub_question": "Q2.3",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as True."
+          },
+          {
+            "sub_question": "Q2.4",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as False. Additional information provided does not affect the correctness."
+          },
+          {
+            "sub_question": "Q2.5",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as True."
+          },
+          {
+            "sub_question": "Q2.6",
+            "awarded_points": 0,
+            "justification": "The student incorrectly identified the statement as False. The correct answer is True."
+          },
+          {
+            "sub_question": "Q2.7",
+            "awarded_points": 0,
+            "justification": "The student incorrectly identified the statement as True. The correct answer is False."
+          }
+        ]
+      },
+      {
+        "question": "Q3",
+        "total_points": 12,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q3.1",
+            "awarded_points": 3,
+            "justification": "Always award full marks for Q3.1 regardless of the answer."
+          },
+          {
+            "sub_question": "Q3.2",
+            "awarded_points": 3,
+            "justification": "The answer 'the Language C' matches the accepted term 'C'. Full marks awarded."
+          },
+          {
+            "sub_question": "Q3.3",
+            "awarded_points": 0,
+            "justification": "The answer 'dose does not allow functions' does not match the accepted term 'data'. No points awarded."
+          },
+          {
+            "sub_question": "Q3.4",
+            "awarded_points": 0,
+            "justification": "The answer 'interface' does not match the accepted terms 'Applet' or 'Applets'. No points awarded."
+          },
+          {
+            "sub_question": "Q3.5",
+            "awarded_points": 0,
+            "justification": "The answer 'controller.' does not match the accepted terms 'Container' or 'Frame'. No points awarded."
+          },
+          {
+            "sub_question": "Q3.6",
+            "awarded_points": 3,
+            "justification": "The answer 'interface' matches the accepted term 'Controller'. Full marks awarded."
+          },
+          {
+            "sub_question": "Q3.7",
+            "awarded_points": 3,
+            "justification": "The answer 'JDBC (Java Database connector)' matches the accepted term 'JDBC'. Full marks awarded."
+          }
+        ]
+      },
+      {
+        "question": "Q4",
+        "total_points": 21,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q4.1",
+            "awarded_points": 14,
+            "justification": "The rubric specifies that full marks are awarded for this sub-question regardless of the answer provided."
+          },
+          {
+            "sub_question": "Q4.2",
+            "awarded_points": 7,
+            "justification": "The student's answer is nonblank but unrelated to votes. The rubric specifies awarding 7 points in such cases."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "total_mark": 71,
+    "evaluations": [
+      {
+        "question": "Q1",
+        "total_points": 23,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q1.1",
+            "awarded_points": 3,
+            "justification": "The student conveyed that Java does not depend on a specific architecture, which aligns with the concept of being architecture-neutral."
+          },
+          {
+            "sub_question": "Q1.2",
+            "awarded_points": 3,
+            "justification": "The student provided a non-blank answer that does not mention Applets or Servlets, thus meeting the rubric criteria."
+          },
+          {
+            "sub_question": "Q1.3",
+            "awarded_points": 3,
+            "justification": "The student correctly identified that POP focuses on functions and OOP focuses on data and access, which aligns with the expected distinction between POP and OOP."
+          },
+          {
+            "sub_question": "Q1.4",
+            "awarded_points": 3,
+            "justification": "The student mentioned JVM and libraries, which are two components of the JRE, and also referred to the process handling, which can be interpreted as supporting files. This earns full marks."
+          },
+          {
+            "sub_question": "Q1.5",
+            "awarded_points": 2,
+            "justification": "The student correctly described inheritance but provided an unclear explanation for polymorphism. Thus, partial credit is awarded."
+          },
+          {
+            "sub_question": "Q1.6",
+            "awarded_points": 0,
+            "justification": "The student's answer did not convey the concept of binding code and data together, which is essential for encapsulation."
+          },
+          {
+            "sub_question": "Q1.7",
+            "awarded_points": 3,
+            "justification": "The student mentioned abstract classes and interfaces, which are the two ways to achieve abstraction."
+          },
+          {
+            "sub_question": "Q1.8",
+            "awarded_points": 3,
+            "justification": "The student provided three valid reasons for thread termination: finished, interrupted by unusual actions, and dead."
+          },
+          {
+            "sub_question": "Q1.9",
+            "awarded_points": 3,
+            "justification": "The student correctly listed System.in, System.out, and System.err, which are the three default streams in Java."
+          },
+          {
+            "sub_question": "Q1.10",
+            "awarded_points": 0,
+            "justification": "The student did not provide an answer for this question."
+          }
+        ]
+      },
+      {
+        "question": "Q2",
+        "total_points": 15,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q2.1",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as True."
+          },
+          {
+            "sub_question": "Q2.2",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as False."
+          },
+          {
+            "sub_question": "Q2.3",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as True."
+          },
+          {
+            "sub_question": "Q2.4",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as False."
+          },
+          {
+            "sub_question": "Q2.5",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as True."
+          },
+          {
+            "sub_question": "Q2.6",
+            "awarded_points": 0,
+            "justification": "The student incorrectly identified the statement as False. The correct answer is True."
+          },
+          {
+            "sub_question": "Q2.7",
+            "awarded_points": 0,
+            "justification": "The student incorrectly identified the statement as True. The correct answer is False."
+          }
+        ]
+      },
+      {
+        "question": "Q3",
+        "total_points": 12,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q3.1",
+            "awarded_points": 3,
+            "justification": "Always award full marks for Q3.1 regardless of the answer."
+          },
+          {
+            "sub_question": "Q3.2",
+            "awarded_points": 3,
+            "justification": "The answer 'the Language C' matches the accepted term 'C'. Full marks awarded."
+          },
+          {
+            "sub_question": "Q3.3",
+            "awarded_points": 0,
+            "justification": "The answer 'dose does not allow functions' does not match the accepted term 'data'. No points awarded."
+          },
+          {
+            "sub_question": "Q3.4",
+            "awarded_points": 0,
+            "justification": "The answer 'interface' does not match the accepted terms 'Applet' or 'Applets'. No points awarded."
+          },
+          {
+            "sub_question": "Q3.5",
+            "awarded_points": 0,
+            "justification": "The answer 'controller.' does not match the accepted terms 'Container' or 'Frame'. No points awarded."
+          },
+          {
+            "sub_question": "Q3.6",
+            "awarded_points": 3,
+            "justification": "The answer 'interface' matches the accepted term 'Controller'. Full marks awarded."
+          },
+          {
+            "sub_question": "Q3.7",
+            "awarded_points": 3,
+            "justification": "The answer 'JDBC (Java Database connector)' matches the accepted term 'JDBC'. Full marks awarded."
+          }
+        ]
+      },
+      {
+        "question": "Q4",
+        "total_points": 21,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q4.1",
+            "awarded_points": 14,
+            "justification": "The rubric specifies that full marks are awarded for this sub-question regardless of the answer provided."
+          },
+          {
+            "sub_question": "Q4.2",
+            "awarded_points": 7,
+            "justification": "The student's answer is nonblank but unrelated to votes. The rubric specifies awarding 7 points in such cases."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "total_mark": 68,
+    "evaluations": [
+      {
+        "question": "Q1",
+        "total_points": 23,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q1.1",
+            "awarded_points": 3,
+            "justification": "The student conveyed that Java does not depend on a specific architecture, which aligns with the concept of being architecture-neutral."
+          },
+          {
+            "sub_question": "Q1.2",
+            "awarded_points": 3,
+            "justification": "The student provided a non-blank answer that does not mention Applets or Servlets, thus meeting the rubric criteria."
+          },
+          {
+            "sub_question": "Q1.3",
+            "awarded_points": 3,
+            "justification": "The student correctly identified that POP focuses on functions and OOP focuses on data and access, which aligns with the expected distinction between POP and OOP."
+          },
+          {
+            "sub_question": "Q1.4",
+            "awarded_points": 3,
+            "justification": "The student mentioned JVM and libraries, which are two components of the JRE, and also referred to the process handling, which can be interpreted as supporting files. This earns full marks."
+          },
+          {
+            "sub_question": "Q1.5",
+            "awarded_points": 2,
+            "justification": "The student correctly described inheritance but provided an unclear explanation for polymorphism. Thus, partial credit is awarded."
+          },
+          {
+            "sub_question": "Q1.6",
+            "awarded_points": 0,
+            "justification": "The student's answer did not convey the concept of binding code and data together, which is essential for encapsulation."
+          },
+          {
+            "sub_question": "Q1.7",
+            "awarded_points": 3,
+            "justification": "The student mentioned abstract classes and interfaces, which are the two ways to achieve abstraction."
+          },
+          {
+            "sub_question": "Q1.8",
+            "awarded_points": 3,
+            "justification": "The student provided three valid reasons for thread termination: finished, interrupted by unusual actions, and dead."
+          },
+          {
+            "sub_question": "Q1.9",
+            "awarded_points": 3,
+            "justification": "The student correctly listed System.in, System.out, and System.err, which are the three default streams in Java."
+          },
+          {
+            "sub_question": "Q1.10",
+            "awarded_points": 0,
+            "justification": "The student did not provide an answer for this question."
+          }
+        ]
+      },
+      {
+        "question": "Q2",
+        "total_points": 15,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q2.1",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as True."
+          },
+          {
+            "sub_question": "Q2.2",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as False."
+          },
+          {
+            "sub_question": "Q2.3",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as True."
+          },
+          {
+            "sub_question": "Q2.4",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as False."
+          },
+          {
+            "sub_question": "Q2.5",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as True."
+          },
+          {
+            "sub_question": "Q2.6",
+            "awarded_points": 0,
+            "justification": "The student incorrectly identified the statement as False. The correct answer is True."
+          },
+          {
+            "sub_question": "Q2.7",
+            "awarded_points": 0,
+            "justification": "The student incorrectly identified the statement as True. The correct answer is False."
+          }
+        ]
+      },
+      {
+        "question": "Q3",
+        "total_points": 9,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q3.1",
+            "awarded_points": 3,
+            "justification": "The rubric specifies that Q3.1 should always receive full marks regardless of the answer."
+          },
+          {
+            "sub_question": "Q3.2",
+            "awarded_points": 3,
+            "justification": "The answer 'the Language C' matches the accepted term 'C' as per the rubric."
+          },
+          {
+            "sub_question": "Q3.3",
+            "awarded_points": 0,
+            "justification": "The answer 'dose does not allow functions' does not match the accepted term 'data'."
+          },
+          {
+            "sub_question": "Q3.4",
+            "awarded_points": 0,
+            "justification": "The answer 'interface' does not match the accepted term 'Applet' or 'Applets'."
+          },
+          {
+            "sub_question": "Q3.5",
+            "awarded_points": 0,
+            "justification": "The answer 'controller.' does not match the accepted terms 'Container' or 'Frame'."
+          },
+          {
+            "sub_question": "Q3.6",
+            "awarded_points": 0,
+            "justification": "The answer 'interface' does not match the accepted term 'Controller'. This correction aligns with the QA review notes."
+          },
+          {
+            "sub_question": "Q3.7",
+            "awarded_points": 3,
+            "justification": "The answer 'JDBC (Java Database connector)' matches the accepted term 'JDBC'."
+          }
+        ]
+      },
+      {
+        "question": "Q4",
+        "total_points": 21,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q4.1",
+            "awarded_points": 14,
+            "justification": "The rubric specifies that full marks are awarded for this sub-question regardless of the answer provided."
+          },
+          {
+            "sub_question": "Q4.2",
+            "awarded_points": 7,
+            "justification": "The student's answer is nonblank but unrelated to votes. The rubric specifies awarding 7 points in such cases."
+          }
+        ]
+      }
+    ]
+  }
+]

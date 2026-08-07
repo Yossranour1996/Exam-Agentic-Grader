@@ -1,0 +1,161 @@
+{
+  "grading": {
+    "total_mark": 62,
+    "evaluations": [
+      {
+        "question": "Q1",
+        "total_points": 17,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q1.1",
+            "awarded_points": 3,
+            "justification": "The student conveyed that Java is not restricted to a specific architecture, despite spelling errors."
+          },
+          {
+            "sub_question": "Q1.2",
+            "awarded_points": 3,
+            "justification": "The student provided a non-blank answer without mentioning Applets or Servlets."
+          },
+          {
+            "sub_question": "Q1.3",
+            "awarded_points": 3,
+            "justification": "The student correctly differentiated between POP and OOP, mentioning procedures and objects/classes."
+          },
+          {
+            "sub_question": "Q1.4",
+            "awarded_points": 0,
+            "justification": "The answer did not mention any components of the JRE."
+          },
+          {
+            "sub_question": "Q1.5",
+            "awarded_points": 2,
+            "justification": "The student correctly described inheritance but provided an unclear explanation of polymorphism."
+          },
+          {
+            "sub_question": "Q1.6",
+            "awarded_points": 0,
+            "justification": "The answer did not correctly describe encapsulation."
+          },
+          {
+            "sub_question": "Q1.7",
+            "awarded_points": 3,
+            "justification": "The student mentioned abstract classes and interfaces, fulfilling the requirement."
+          },
+          {
+            "sub_question": "Q1.8",
+            "awarded_points": 1,
+            "justification": "The student mentioned finishing a task but did not clearly state other reasons for thread termination."
+          },
+          {
+            "sub_question": "Q1.9",
+            "awarded_points": 2,
+            "justification": "The student correctly identified System.in and System.out, but not System.err."
+          },
+          {
+            "sub_question": "Q1.10",
+            "awarded_points": 0,
+            "justification": "The answer did not mention AWT or Abstract Window Toolkit."
+          }
+        ]
+      },
+      {
+        "question": "Q2",
+        "total_points": 12,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q2.1",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as True."
+          },
+          {
+            "sub_question": "Q2.2",
+            "awarded_points": 0,
+            "justification": "The student incorrectly identified the statement as True."
+          },
+          {
+            "sub_question": "Q2.3",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as True."
+          },
+          {
+            "sub_question": "Q2.4",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as False."
+          },
+          {
+            "sub_question": "Q2.5",
+            "awarded_points": 0,
+            "justification": "The student incorrectly identified the statement as False."
+          },
+          {
+            "sub_question": "Q2.6",
+            "awarded_points": 0,
+            "justification": "The student incorrectly identified the statement as False."
+          },
+          {
+            "sub_question": "Q2.7",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as False."
+          }
+        ]
+      },
+      {
+        "question": "Q3",
+        "total_points": 12,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q3.1",
+            "awarded_points": 3,
+            "justification": "Full marks awarded as per rubric policy."
+          },
+          {
+            "sub_question": "Q3.2",
+            "awarded_points": 3,
+            "justification": "The student correctly identified C as a POP language."
+          },
+          {
+            "sub_question": "Q3.3",
+            "awarded_points": 0,
+            "justification": "The answer did not correctly identify 'data'."
+          },
+          {
+            "sub_question": "Q3.4",
+            "awarded_points": 3,
+            "justification": "The student correctly identified Applets."
+          },
+          {
+            "sub_question": "Q3.5",
+            "awarded_points": 0,
+            "justification": "The answer did not correctly identify Container or Frame."
+          },
+          {
+            "sub_question": "Q3.6",
+            "awarded_points": 0,
+            "justification": "The answer did not correctly identify Controller."
+          },
+          {
+            "sub_question": "Q3.7",
+            "awarded_points": 3,
+            "justification": "The student correctly identified JDBC."
+          }
+        ]
+      },
+      {
+        "question": "Q4",
+        "total_points": 21,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q4.1",
+            "awarded_points": 14,
+            "justification": "Full marks awarded as per rubric policy."
+          },
+          {
+            "sub_question": "Q4.2",
+            "awarded_points": 7,
+            "justification": "The answer was nonblank but unrelated to votes."
+          }
+        ]
+      }
+    ]
+  }
+}

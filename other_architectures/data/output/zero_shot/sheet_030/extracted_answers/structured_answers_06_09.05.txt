@@ -1,0 +1,86 @@
+STUDENT ANSWERS:
+
+Question: Q1
+Sub-Question: Q1.1
+Answer: It means that Java is not restricted by a specific system architecture.
+
+Sub-Question: Q1.2
+Answer: WWW provided a better overall environment for developing programs, introduced new uses for programming, made the shortcomings of early programming languages more prominent and allow worldwide collective effort to solve them.
+
+Sub-Question: Q1.3
+Answer: POP uses procedure (code) to act on data to achieve the program goal. OOP uses classes and objects to encapsulate both code and data.
+
+Sub-Question: Q1.4
+Answer: Java Virtual Machine (JVM) which acts as a run time engine to execute Java applications (interpreter) & Java compiler (javac).
+
+Sub-Question: Q1.5
+Answer: Inheritance is the process by which one object acquires the properties of another object. This is important because it allows heirarchical classification. polymorphism (Greek for "many forms") is the feature that allows an interface to be used for a general set of actions. The specific action is determined by the exact nature of the situation.
+
+Sub-Question: Q1.6
+Answer: Encapsulation is the mechanism that binds code and data, and protects both from outside interference or misuse.
+
+Sub-Question: Q1.7
+Answer: abstraction of class and interface
+
+Sub-Question: Q1.8
+Answer: a) The thread finished its task normally b) The thread was terminated due to unusual events. c) The thread is dead or no longer available.
+
+Sub-Question: Q1.9
+Answer: System.in, System.out and System.err
+
+Sub-Question: Q1.10
+Answer: on the model-view -controller architecture
+
+
+Question: Q2
+Sub-Question: Q2.1
+Answer: True
+
+Sub-Question: Q2.2
+Answer: True
+
+Sub-Question: Q2.3
+Answer: True
+
+Sub-Question: Q2.4
+Answer: False
+
+Sub-Question: Q2.5
+Answer: True
+
+Sub-Question: Q2.6
+Answer: True
+
+Sub-Question: Q2.7
+Answer: False
+
+
+Question: Q3
+Sub-Question: Q3.1
+Answer: Implementing improvements to the art of programming, and, adapting to changes in environment and uses.
+
+Sub-Question: Q3.2
+Answer: C programming language
+
+Sub-Question: Q3.3
+Answer: Procedures
+
+Sub-Question: Q3.4
+Answer: [NO_ANSWER]
+
+Sub-Question: Q3.5
+Answer: Frame
+
+Sub-Question: Q3.6
+Answer: controller
+
+Sub-Question: Q3.7
+Answer: Java DataBase Connectivity (JDBC)
+
+
+Question: Q4
+Sub-Question: Q4.1
+Answer: seats[i] + ", you will take seat " + i explanations element orders in arrays start from 0, i starts from 0 up to 4 because seats.length = 5, and each member of the array is assigned their array order in the output.
+
+Sub-Question: Q4.2
+Answer: double numOFVotes = (double) totalVotes; explanations: totalVotes is defined as int value, but the input to calculateVotes is defined as double, so we need to define the total number of votes in the double type.

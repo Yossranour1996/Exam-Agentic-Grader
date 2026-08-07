@@ -1,0 +1,161 @@
+{
+  "grading": {
+    "total_mark": 79,
+    "evaluations": [
+      {
+        "question": "Q1",
+        "total_points": 26,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q1.1",
+            "awarded_points": 3,
+            "justification": "The student correctly conveyed that Java is not restricted to a specific architecture."
+          },
+          {
+            "sub_question": "Q1.2",
+            "awarded_points": 0,
+            "justification": "The answer mentioned 'Applet' and 'Servlet', which are not allowed according to the rubric."
+          },
+          {
+            "sub_question": "Q1.3",
+            "awarded_points": 3,
+            "justification": "The student correctly differentiated between POP and OOP, focusing on procedures and objects respectively."
+          },
+          {
+            "sub_question": "Q1.4",
+            "awarded_points": 2,
+            "justification": "The student mentioned 'JVM' and 'files', but 'libraries' was misspelled as 'liberties'."
+          },
+          {
+            "sub_question": "Q1.5",
+            "awarded_points": 3,
+            "justification": "The student correctly explained both inheritance and polymorphism."
+          },
+          {
+            "sub_question": "Q1.6",
+            "awarded_points": 3,
+            "justification": "The student correctly described encapsulation as binding data and code together."
+          },
+          {
+            "sub_question": "Q1.7",
+            "awarded_points": 3,
+            "justification": "The student mentioned 'abstract class' and 'interface', which are correct."
+          },
+          {
+            "sub_question": "Q1.8",
+            "awarded_points": 3,
+            "justification": "The student provided three valid reasons for thread termination."
+          },
+          {
+            "sub_question": "Q1.9",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the three default streams in Java."
+          },
+          {
+            "sub_question": "Q1.10",
+            "awarded_points": 3,
+            "justification": "The student correctly identified 'AWT' as the API on which Java Swing was built."
+          }
+        ]
+      },
+      {
+        "question": "Q2",
+        "total_points": 21,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q2.1",
+            "awarded_points": 3,
+            "justification": "The student correctly answered 'True'."
+          },
+          {
+            "sub_question": "Q2.2",
+            "awarded_points": 3,
+            "justification": "The student correctly answered 'False'."
+          },
+          {
+            "sub_question": "Q2.3",
+            "awarded_points": 3,
+            "justification": "The student correctly answered 'True'."
+          },
+          {
+            "sub_question": "Q2.4",
+            "awarded_points": 3,
+            "justification": "The student correctly answered 'False'."
+          },
+          {
+            "sub_question": "Q2.5",
+            "awarded_points": 3,
+            "justification": "The student correctly answered 'True'."
+          },
+          {
+            "sub_question": "Q2.6",
+            "awarded_points": 3,
+            "justification": "The student correctly answered 'True'."
+          },
+          {
+            "sub_question": "Q2.7",
+            "awarded_points": 3,
+            "justification": "The student correctly answered 'False'."
+          }
+        ]
+      },
+      {
+        "question": "Q3",
+        "total_points": 18,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q3.1",
+            "awarded_points": 3,
+            "justification": "Full marks are awarded as per rubric policy."
+          },
+          {
+            "sub_question": "Q3.2",
+            "awarded_points": 3,
+            "justification": "The student correctly identified 'C language' as an example of a POP language."
+          },
+          {
+            "sub_question": "Q3.3",
+            "awarded_points": 3,
+            "justification": "The student correctly identified 'data' as the missing word."
+          },
+          {
+            "sub_question": "Q3.4",
+            "awarded_points": 3,
+            "justification": "The student correctly identified 'Applet'."
+          },
+          {
+            "sub_question": "Q3.5",
+            "awarded_points": 0,
+            "justification": "The answer 'package Container' is incorrect."
+          },
+          {
+            "sub_question": "Q3.6",
+            "awarded_points": 3,
+            "justification": "The student correctly identified 'Controller'."
+          },
+          {
+            "sub_question": "Q3.7",
+            "awarded_points": 3,
+            "justification": "The student correctly identified 'JDBC'."
+          }
+        ]
+      },
+      {
+        "question": "Q4",
+        "total_points": 14,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q4.1",
+            "awarded_points": 14,
+            "justification": "Full marks are awarded as per rubric policy."
+          },
+          {
+            "sub_question": "Q4.2",
+            "awarded_points": 0,
+            "justification": "The student did not provide an answer."
+          }
+        ]
+      }
+    ]
+  }
+}

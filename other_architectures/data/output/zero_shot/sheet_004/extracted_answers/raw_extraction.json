@@ -1,0 +1,42 @@
+[
+  {
+    "page": "page_01.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_02.png",
+    "text": ""
+  },
+  {
+    "page": "page_03.png",
+    "text": "(1) We mean that Java is not restricted to a specific\narchitechure of computer.\n(2) Java has taken a lot of instructions and Internet\nallowed and gave new features to the world of programing and Java\ncreated a special package simplified the internet.\n(3) POP deals more about procedures (methods or code) and\nthey are there major emphasis, on the other hand OOP uses\nthe concept of classes to combine and focus on both data\n(which is not much focused on on POP) and methods (codes)\nand uses the concept of classes and objects.\n(4) Compiler and implementation tools\n(5) Inheritance means to use create a class from initial\nclass. The new class can content the methods and dat attributes\nof the first class (created from), but polymorphism that inst.\nis taking instruction and features of a class and use it in general and can be.\n(6) Encapsulation is to combine together data and codes (methods)\nand secure them from outside (interfaces) the classes.\n(7) run time compile time class abstraction, function abstraction\nand unusual unusual.\n(8) @ Instructions executed normally. @ Execution stopped due to an event\n@ Could be dead and unavailable.\n(9) System. In\nSystem. out\nSystem. err\n(10) API Java swing was built on the top of JDBC\nto connet and interact to database."
+  },
+  {
+    "page": "page_04.png",
+    "text": "(1) True\n(2) True\n(3) True\n(4) False. It is achieved by method overriding.\n(5) False. It couldn't have a non-abstracted method inside it.\n(6) True\n(7) False There are more than one driver True"
+  },
+  {
+    "page": "page_05.png",
+    "text": "(1) limitation\n(2) C\n(3) data\n(4) servlet and Applet\n(5) Frame\n(6) controller\n(7) JBDC"
+  },
+  {
+    "page": "page_06.png",
+    "text": "(1) [UNK] You will take seat\nStudent's [UNK] # \"You will take seat\" (4-1):\n(2) Calculate [UNK] votes ():"
+  },
+  {
+    "page": "page_07.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_08.png",
+    "text": ""
+  },
+  {
+    "page": "page_09.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_10.png",
+    "text": "EMPTY"
+  }
+]

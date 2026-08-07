@@ -1,0 +1,128 @@
+{
+  "questions": [
+    {
+      "question": "Q1",
+      "sub_questions": [
+        {
+          "sub_question": "Q1.1",
+          "answer": "It doesn't depend on a specific machine or operating system architecture."
+        },
+        {
+          "sub_question": "Q1.2",
+          "answer": "There was a need for more efficient programming language to handle more"
+        },
+        {
+          "sub_question": "Q1.3",
+          "answer": "P.O.P uses procedure applied on data to achieve some goal. O.O.P uses Classes and Objects and binding data and codes."
+        },
+        {
+          "sub_question": "Q1.4",
+          "answer": "Java Virtual machine and many other running tools."
+        },
+        {
+          "sub_question": "Q1.5",
+          "answer": "-Inheritance is to Create a new class from existing one. - polymorphism is an object that can take many forms."
+        },
+        {
+          "sub_question": "Q1.6",
+          "answer": "The mechanism that binds data and codes."
+        },
+        {
+          "sub_question": "Q1.7",
+          "answer": "Abstract class and Interface."
+        },
+        {
+          "sub_question": "Q1.8",
+          "answer": "1) It reaches its terminal. 2) unusual events. 3) Dead and no longer available."
+        },
+        {
+          "sub_question": "Q1.9",
+          "answer": "- System.in - System.err - System.Out"
+        },
+        {
+          "sub_question": "Q1.10",
+          "answer": "Java AWT."
+        }
+      ]
+    },
+    {
+      "question": "Q2",
+      "sub_questions": [
+        {
+          "sub_question": "Q2.1",
+          "answer": "True."
+        },
+        {
+          "sub_question": "Q2.2",
+          "answer": "False. It's not possible for an interface to implement another interface properties."
+        },
+        {
+          "sub_question": "Q2.3",
+          "answer": "True."
+        },
+        {
+          "sub_question": "Q2.4",
+          "answer": "False. Could be achieved by method overridden."
+        },
+        {
+          "sub_question": "Q2.5",
+          "answer": "True."
+        },
+        {
+          "sub_question": "Q2.6",
+          "answer": "True."
+        },
+        {
+          "sub_question": "Q2.7",
+          "answer": "False. There is Drive manager and Drivers."
+        }
+      ]
+    },
+    {
+      "question": "Q3",
+      "sub_questions": [
+        {
+          "sub_question": "Q3.1",
+          "answer": "Adapt to change in environments and uses."
+        },
+        {
+          "sub_question": "Q3.2",
+          "answer": "C programming language."
+        },
+        {
+          "sub_question": "Q3.3",
+          "answer": "Data."
+        },
+        {
+          "sub_question": "Q3.4",
+          "answer": "Applet. Servlet."
+        },
+        {
+          "sub_question": "Q3.5",
+          "answer": "Containers."
+        },
+        {
+          "sub_question": "Q3.6",
+          "answer": "Controller."
+        },
+        {
+          "sub_question": "Q3.7",
+          "answer": "JDBC."
+        }
+      ]
+    },
+    {
+      "question": "Q4",
+      "sub_questions": [
+        {
+          "sub_question": "Q4.1",
+          "answer": "Student [i] t\", You\nStudent [i] t\", you will take seat\" + [UNK] length\n(student.length)\nStudent [i] t\", you will take seat\" + i [UNK] the output String.\n- You will take seat is the output String.\n- i (Student.length), because the Counting\nStarted from i=0."
+        },
+        {
+          "sub_question": "Q4.2",
+          "answer": "private S&r\nAgree. Calculate Votes (total Votes)\nCalculate Votes (total Votes)\nno. Of Votes = total Votes.\nWe have to define the function\nfirstly."
+        }
+      ]
+    }
+  ]
+}

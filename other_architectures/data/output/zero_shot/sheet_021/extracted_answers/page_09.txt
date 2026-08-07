@@ -1,0 +1,7 @@
+3.1: to Apapr to environment and the usos.
+3.2 Cta (C) Language
+3-3 - interface
+3-4 - Java applets
+3-5 - form
+3-6 - control
+3-7 [UNK] JDBC

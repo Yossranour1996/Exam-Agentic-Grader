@@ -1,0 +1,136 @@
+Final Grading and Feedback Results
+Grading:
+
+Total Mark: 59
+
+Evaluations:
+"Question: Q1
+Total Points: 15
+
+Sub-Question: Q1.1
+Awarded Points: 3
+Justification: The student correctly conveyed that Java is not restricted to a specific architecture, which aligns with the rubric's requirement.
+
+Sub-Question: Q1.2
+Awarded Points: 3
+Justification: The student provided a non-blank answer that does not mention Applet or Servlet, thus earning full marks as per the rubric.
+
+Sub-Question: Q1.3
+Awarded Points: 3
+Justification: The student correctly described POP as procedure-oriented and OOP as class/object-oriented, meeting the rubric's criteria.
+
+Sub-Question: Q1.4
+Awarded Points: 0
+Justification: The student did not provide an answer, resulting in 0 points as per the rubric.
+
+Sub-Question: Q1.5
+Awarded Points: 0
+Justification: The student did not provide an answer, resulting in 0 points as per the rubric.
+
+Sub-Question: Q1.6
+Awarded Points: 0
+Justification: The student did not provide an answer, resulting in 0 points as per the rubric.
+
+Sub-Question: Q1.7
+Awarded Points: 3
+Justification: The student correctly mentioned 'abstract classes and interfaces', fulfilling the rubric's requirement.
+
+Sub-Question: Q1.8
+Awarded Points: 0
+Justification: The student did not provide an answer, resulting in 0 points as per the rubric.
+
+Sub-Question: Q1.9
+Awarded Points: 3
+Justification: The student correctly identified the three default streams in Java, despite minor formatting issues, which are acceptable as per the rubric.
+
+Sub-Question: Q1.10
+Awarded Points: 0
+Justification: The student incorrectly identified the API as JDBC instead of AWT, resulting in 0 points as per the rubric.
+
+
+"Question: Q2
+Total Points: 12
+
+Sub-Question: Q2.1
+Awarded Points: 3
+Justification: The student correctly answered 'True', which matches the expected answer.
+
+Sub-Question: Q2.2
+Awarded Points: 3
+Justification: The student correctly answered 'False', which matches the expected answer.
+
+Sub-Question: Q2.3
+Awarded Points: 3
+Justification: The student correctly answered 'True', which matches the expected answer.
+
+Sub-Question: Q2.4
+Awarded Points: 0
+Justification: The student answered 'False', but incorrectly justified that runtime polymorphism can be achieved by method overloading, which is incorrect.
+
+Sub-Question: Q2.5
+Awarded Points: 0
+Justification: The student answered 'False', but the correct answer is 'True'. Abstract classes can contain non-abstract methods.
+
+Sub-Question: Q2.6
+Awarded Points: 3
+Justification: The student correctly answered 'True', which matches the expected answer.
+
+Sub-Question: Q2.7
+Awarded Points: 0
+Justification: The student answered 'True', but the correct answer is 'False'. There is not one JDBC driver for all database sources.
+
+
+"Question: Q3
+Total Points: 18
+
+Sub-Question: Q3.1
+Awarded Points: 3
+Justification: The answer 'To adapt to Changing environment and uses.' matches the accepted term 'adapting to change'. Full marks awarded as per rubric.
+
+Sub-Question: Q3.2
+Awarded Points: 3
+Justification: The answer 'C language.' directly matches the accepted concept 'C'. Full marks awarded.
+
+Sub-Question: Q3.3
+Awarded Points: 3
+Justification: The answer 'data.' directly matches the accepted concept 'data'. Full marks awarded.
+
+Sub-Question: Q3.4
+Awarded Points: 3
+Justification: The answer 'Aplet.' matches the accepted term 'Applet'. Full marks awarded.
+
+Sub-Question: Q3.5
+Awarded Points: 3
+Justification: The answer 'Frame.' directly matches the accepted concept 'Frame'. Full marks awarded.
+
+Sub-Question: Q3.6
+Awarded Points: 0
+Justification: The answer 'Control.' does not match the accepted term 'Controller'. No points awarded.
+
+Sub-Question: Q3.7
+Awarded Points: 3
+Justification: The answer 'JDBC.' directly matches the accepted concept 'JDBC'. Full marks awarded.
+
+
+"Question: Q4
+Total Points: 14
+
+Sub-Question: Q4.1
+Awarded Points: 14
+Justification: According to the rubric, Q4.1 always receives full marks regardless of the answer provided.
+
+Sub-Question: Q4.2
+Awarded Points: 0
+Justification: The answer is blank, and according to the rubric, a blank answer receives 0 points.
+
+--------------------------------------------------------------------------------
+
+Feedback:
+
+Positive Highlights:
+- <NO_FEEDBACK>
+
+Areas for Improvement:
+- <NO_FEEDBACK>
+
+<NO_FEEDBACK>

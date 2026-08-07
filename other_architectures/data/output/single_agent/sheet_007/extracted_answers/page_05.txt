@@ -1,0 +1,6 @@
+4.1 set
+Seats [i] + "/" +
+Seats [i] + "/" , you will take seat" + i
+To get outputs as desiered.
+4.2 BreakLn
+to go to the next class.

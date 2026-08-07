@@ -1,0 +1,9 @@
+# other_architectures/single_agent/core/config.yaml
+
+# ---------------------------------------------------------
+# Global Project Settings
+# ---------------------------------------------------------
+global:
+  default_model: "gpt-4o"
+  default_temperature: 0.0
+  max_tokens: 4096

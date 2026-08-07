@@ -1,0 +1,42 @@
+[
+  {
+    "page": "page_01.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_02.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_03.png",
+    "text": "Q.1.\n1.1 Java not restricted to specific system Architecture.\n1.2 World Wide Web is in all the world become famous and\nbecause of entering it Some Kind of matter download automatic.\nit is become problem in security and portability but\nJava fix these problem in security and portability\nprogrammable\n1.3 pop has Code that operate in Data to achieve prograus\ngoals.\nOOP: has class That encapsulate both code and data\nPoP OOP\ncode\nData\n1.4 JRE (Java Run-time Environment) provide environment\nfor only Run (not develop) program on machine.\nit component of JVM [Java Virtual Machine] it is act\nas a Run time engine also Known by java interpreter.\n1.5.- inheritance is the inherit class [the process by which\nthe inherit the attributes by another class]\nclass.\n- polymorphism: the class can present and use in multiple form\n[is the feature that allow interface to be use for\ngeneral class of action]"
+  },
+  {
+    "page": "page_04.png",
+    "text": "process which\n1-6- Encapsulation : It binds together data and code\nand keep it safe from any outside interference and misuse.\nabstraction\n1-7- 1. Run time: which Dynamic and\nachieved by method Overriden.\n2. climb abstraction : which static and achieve\nby function overriding or operator overriding.\n1-8- 1- finished it task normally.\n2- terminated due to unusall event.\n3- Dead and no longer available.\n1-9- (1)- system in\n(2)- system out\n(3)- system Err.\n1-10 [AWT]"
+  },
+  {
+    "page": "page_05.png",
+    "text": "2.1 True\n2.2 False - possible\n2.3 True\n2.4 False - by method overriden\n2.5 True could have abstract\n2.6 True\n2.7 False - for API"
+  },
+  {
+    "page": "page_06.png",
+    "text": "3.1 adapp+\n3.2 C\n3.3 data\n3.4 Applet\n3.5 frame\n3.6 control\n3.7 JDBC"
+  },
+  {
+    "page": "page_07.png",
+    "text": "4.2\nStudent [UNK] you will take Seat \" + (4-2)\nbecause in Line 3 for (Int i=0; i<seats.length; i++)\nit is like the seat is opposite and the first be last one\n4.2\nprivate class\nnumber of Notes = double portion"
+  },
+  {
+    "page": "page_08.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_09.png",
+    "text": ""
+  },
+  {
+    "page": "page_10.png",
+    "text": ""
+  }
+]

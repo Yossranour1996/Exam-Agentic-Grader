@@ -1,0 +1,128 @@
+{
+  "questions": [
+    {
+      "question": "Q1",
+      "sub_questions": [
+        {
+          "sub_question": "Q1.1",
+          "answer": "it means that java is not restricted to any specific system architecture, and that it can run on almost all systems with its bytecode."
+        },
+        {
+          "sub_question": "Q1.2",
+          "answer": "when the world wide web came to view, many new languages came such as Java, which had the revolutionary applets, temm and service, that can run java applications on browser."
+        },
+        {
+          "sub_question": "Q1.3",
+          "answer": "POP works on procedural code, the data is it focuses on code by making many functions and using them to work on data. but in OOP, the focus was at grouping all the data together in form of objects and interfaces so its data working on code."
+        },
+        {
+          "sub_question": "Q1.4",
+          "answer": "Encapsulation can mean wrapping the data so that only the permissioned objects can have access to them, and that's by declaring it private."
+        },
+        {
+          "sub_question": "Q1.5",
+          "answer": "inheritance means making new class from an existing class, so it works on classes and interfaces and the inherited class can use methods of the other class. while polymorphism means methods having many forms such as overloading or overriding, so polymorphism works on methods."
+        },
+        {
+          "sub_question": "Q1.6",
+          "answer": "encapsulation can mean wrapping data together so that only commissioned classes or packages can have access to it and that's by declaring attributes private."
+        },
+        {
+          "sub_question": "Q1.7",
+          "answer": "it can be made by declaring attributes private or classes, or making interface so its methods and attributes by default."
+        },
+        {
+          "sub_question": "Q1.8",
+          "answer": "A when it has finished its assigned task. B unknown behaviours. C it reached dead end."
+        },
+        {
+          "sub_question": "Q1.9",
+          "answer": "A system.in (input stream) B system.out (output stream) C system.err (error stream)"
+        },
+        {
+          "sub_question": "Q1.10",
+          "answer": "it was built on top of AWTC application window (toolkit)"
+        }
+      ]
+    },
+    {
+      "question": "Q2",
+      "sub_questions": [
+        {
+          "sub_question": "Q2.1",
+          "answer": "true"
+        },
+        {
+          "sub_question": "Q2.2",
+          "answer": "False - interfaces can inherit from each others."
+        },
+        {
+          "sub_question": "Q2.3",
+          "answer": "true"
+        },
+        {
+          "sub_question": "Q2.4",
+          "answer": "False - it can be achieved by overriding."
+        },
+        {
+          "sub_question": "Q2.5",
+          "answer": "true."
+        },
+        {
+          "sub_question": "Q2.6",
+          "answer": "true."
+        },
+        {
+          "sub_question": "Q2.7",
+          "answer": "False - there are many drivens for all data base sources."
+        }
+      ]
+    },
+    {
+      "question": "Q3",
+      "sub_questions": [
+        {
+          "sub_question": "Q3.1",
+          "answer": "the need to improve in art of programming (like WWE or internet)"
+        },
+        {
+          "sub_question": "Q3.2",
+          "answer": "c"
+        },
+        {
+          "sub_question": "Q3.3",
+          "answer": "data"
+        },
+        {
+          "sub_question": "Q3.4",
+          "answer": "applets"
+        },
+        {
+          "sub_question": "Q3.5",
+          "answer": "Frame"
+        },
+        {
+          "sub_question": "Q3.6",
+          "answer": "Web (widgets)"
+        },
+        {
+          "sub_question": "Q3.7",
+          "answer": "JDBC (java database connectivity)"
+        }
+      ]
+    },
+    {
+      "question": "Q4",
+      "sub_questions": [
+        {
+          "sub_question": "Q4.1",
+          "answer": "CODE = seats[i] + \" you will take seat \" + i\nexplanation: Consist we can observe the series that the letters are been printed for each line as the letters from empty string seats printed in ascending index order (starting from 0) compensate letters second: we read the string to string (you will take seats) and concatenate all the seats with (i) which is the index of the letters"
+        },
+        {
+          "sub_question": "Q4.2",
+          "answer": "CODE = calculateVotes(totalVotes);\nexplanation:- we have an already defined Function (calculateVotes) and we have a parameter total Votes with a value 769.50 we can pass the function and get the parameter and call to it to get the final output viewed."
+        }
+      ]
+    }
+  ]
+}

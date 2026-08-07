@@ -1,0 +1,6 @@
+Q4:
+4.1
+Code: Seats[i]+"You will take seat." + (4-i)
+4.2:
+Code: X = new calculate Votes (total Votes);
+calculate Votes (780);

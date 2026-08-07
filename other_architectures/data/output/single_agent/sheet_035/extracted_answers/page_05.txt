@@ -1,0 +1,7 @@
+3.1 : adapt changing envalironment and uses
+3.2 : C
+3.3 : Data
+3.4 : applet
+3.5 : Frame
+3.6 : Controle
+3.7 : JDBC

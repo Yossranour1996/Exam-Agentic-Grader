@@ -1,0 +1,42 @@
+[
+  {
+    "page": "page_01.png",
+    "text": ""
+  },
+  {
+    "page": "page_02.png",
+    "text": "تطبيق قواعد\n[UNK] الخط\nالرسمي\n[UNK] قواعد الخط\n[UNK] القواعد\nعلاقة [UNK] الرسم مخطط\nبالخط ال[UNK]\nبالشكل التحضير\nوالا [UNK] ال[UNK]\nالتنفيذ التصميم\nنصيب التحليل\nوالعلاقة [UNK] الرسم ال[UNK]\nبالشكل التقييم\nال[UNK]"
+  },
+  {
+    "page": "page_03.png",
+    "text": "1- It doesn't relay on the architecture of the System level.\n2- It helped programming language like Java large that are able\nto create desktop based programs that can be transferred\nex: apps and mobile.\n1.3 DOP Object Oriented programming focuses on data\nrather than code it decompose problems to small parts\nand (object) and bind data and code to its (1)\nPOP process oriented programming focuses on the procedure\nthat is the code that is a series of functions\nand instruction. the data is isolated to be access by all [UNK]\nin the case of getting modified. fig (2)\nAll Code\nfig (1)\ndata\nCode\ndata\nfig (2)\n1.4 what are the Components of Java and the other\nJava virtual machine / libraries and other things\nlang\nJVM\nlibraries\nfiles\nJRE\nJDK\ntoolkits"
+  },
+  {
+    "page": "page_04.png",
+    "text": "1.5 Inheritance\nThe Creation of a new Class using an existing\none the new class have all the method and attributes of\nthe classes inherited and can add new.\nIt helps= reuse code, Creat Class hierarchy.\nPolymorphism : meaning many forms allow interface reuse\naccess to classes and it has two types:\nRun time polymorphism - Compile time polymorphism.\nIt also means to take more than one form\n1.6. Encapsulation: The mechanism that binds together\nthe data and the code that manages it and\nby that protect the data from being modified by an\noutside code. it can be achieved using abstraction and\ndata hiding it is added as implementation.\n1.7 - abstract Classes and interfaces.\n1.8 - It finished working normally\nStopped due to unusual errors\nit no Longer exist..\n1.9 - System - in System-out System.err.\nFor input For output For errors\n1.10. An top of AWT\nAbstract windows tool kit"
+  },
+  {
+    "page": "page_05.png",
+    "text": "1- True\n2- True\n3- True = Jurn [UNK] machine\n4- False = Can be achived by method over[UNK]\n5- False = Couthave method, when they can be used to run [UNK]\n6- True\n7- False = There are multiple JDBC drivers depend on data [UNK]\n8- False = cannot be used to create objects.\n1- To adapt to the changes in the invironments.\n2- C\n3- the data -\n4- applets\n5- Panels and frames and menus\n6- model View Conrolle -\n7- JDBC = Java database connection."
+  },
+  {
+    "page": "page_06.png",
+    "text": "System.out.print(String seat[i] + \"you will take seat[\nfor (i=0; i< seat.length(); i++)\n+ invaild.i[i]\nThe list that is printed on the output can be achieved\nusing the I/O stream System. out that prints a new lig.\nat (i) represents the value in the string in the list and the number\nthe invalid, suppose to achieve the number of 4\nof you can use.\na time of 4.\n2 -int numOfvotes = total votes\nThe numOf votes in the public classe means that\nis used to calculate the double 'portion' is not\nidentified. غير معرفة للبرنامج"
+  },
+  {
+    "page": "page_07.png",
+    "text": ""
+  },
+  {
+    "page": "page_08.png",
+    "text": ""
+  },
+  {
+    "page": "page_09.png",
+    "text": ""
+  },
+  {
+    "page": "page_10.png",
+    "text": ""
+  }
+]

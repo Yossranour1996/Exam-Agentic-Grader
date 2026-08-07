@@ -1,0 +1,128 @@
+{
+  "questions": [
+    {
+      "question": "Q1",
+      "sub_questions": [
+        {
+          "sub_question": "Q1.1",
+          "answer": "Isn't restricted to a specific system architecture"
+        },
+        {
+          "sub_question": "Q1.2",
+          "answer": "As a new Problems arise with revolution of WWW and invention of internet. We need to adapt changing environment and uses and Implement improvements in art of Programming."
+        },
+        {
+          "sub_question": "Q1.3",
+          "answer": "A POP divide large Programs into smaller to overcome parts considered as a sequence of these Problems Procedures or functions. Major emphasis on Procedures not on data. In multifunction program, many important data are placed as Global. Global data are more vulnerable to change by Function. OOP treats data as a critical element in the Program. It ties data closely to function operates on it and Protect them both from accidental change. OOP allows decomposition of a problem into entities called objects and then builds function and data around these objects. Major Emphasis on Data."
+        },
+        {
+          "sub_question": "Q1.4",
+          "answer": "Compiler, Interpreter, JVM, Applets, Java Programs"
+        },
+        {
+          "sub_question": "Q1.5",
+          "answer": "Inheritance is a process by which one object acquires Properties of another object. It's main advantage are Abstraction, Data Reusability, class hierarchy and Polymorphism, Inheritance. Polymorphism is a process by which one interface can be used as a general class of action. Specific action is determined by exact nature of situation. It has two two types. Compile time and Run time. Compile time & a known as static and Runtime as Dynamic Method Dispatch. Instance Polymorphism which is mean \"many forms\" enables us to create Images of different Forms"
+        },
+        {
+          "sub_question": "Q1.6",
+          "answer": "Mechanism binds together code and data it manipulates and protect both from [UNK] outside misuse"
+        },
+        {
+          "sub_question": "Q1.7",
+          "answer": "Interface and abstract class"
+        },
+        {
+          "sub_question": "Q1.8",
+          "answer": "Thread Finishes its task normally Termination could be due to unusual events Terminated thread means its dead and no longer available"
+        },
+        {
+          "sub_question": "Q1.9",
+          "answer": "System.in , System.out , System.err"
+        },
+        {
+          "sub_question": "Q1.10",
+          "answer": "AWT (Abstract Windowing ToolKit)"
+        }
+      ]
+    },
+    {
+      "question": "Q2",
+      "sub_questions": [
+        {
+          "sub_question": "Q2.1",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.2",
+          "answer": "False \"It's possible for an interface to inherit another interface's properties\""
+        },
+        {
+          "sub_question": "Q2.3",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.4",
+          "answer": "False \"could be achieved by method overriden\""
+        },
+        {
+          "sub_question": "Q2.5",
+          "answer": "False \"Abstract interfaces\""
+        },
+        {
+          "sub_question": "Q2.6",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.7",
+          "answer": "False \"There are two. Drive manager and JDBC dive\""
+        }
+      ]
+    },
+    {
+      "question": "Q3",
+      "sub_questions": [
+        {
+          "sub_question": "Q3.1",
+          "answer": "Need For Programmed Platform & In dependant Program"
+        },
+        {
+          "sub_question": "Q3.2",
+          "answer": "C"
+        },
+        {
+          "sub_question": "Q3.3",
+          "answer": "[NO_ANSWER]"
+        },
+        {
+          "sub_question": "Q3.4",
+          "answer": "[NO_ANSWER]"
+        },
+        {
+          "sub_question": "Q3.5",
+          "answer": "Frame"
+        },
+        {
+          "sub_question": "Q3.6",
+          "answer": "Controller"
+        },
+        {
+          "sub_question": "Q3.7",
+          "answer": "JDBC"
+        }
+      ]
+    },
+    {
+      "question": "Q4",
+      "sub_questions": [
+        {
+          "sub_question": "Q4.1",
+          "answer": "seats [i] \" you will take seat\", i double Public num Of Votes = total Votes -In Block code numbe 1, We have an array called seats that has 5 elements starting with index from \"zero to 4\" .Because We have a \"for loop\" starts from i=0 until i < seats.length\" Which is number of elements = 5\" and \"i\" Ts incremented by \"one\" We will notice the output starts with first member of an array which is a seats [0] and seat numbe 0 . Hence when we First we enter the loop, initial value of \"i\" would be \"zero\" so we can Write inside the Print function \"seats [i], \"you will take seat\",i to output the First member of the array seats and seats numbe zero. The loop continues and Print Element numbe \"2\" which is seats [1] and seat numbe one. Remeber that\"i\" incremented by one after the First loop. [UNK] \"i=i+1\" . The loop continues until it prints all values of the seats array and their corresponding seats number."
+        },
+        {
+          "sub_question": "Q4.2",
+          "answer": "In Block code number 2, The We have two Public class called \"Agree\" which includes the integer total number of votes = 760 in this case\". It also includes print function. In second part of code we have to print number of Votes multiplied by 0.15 of the total votes and store the result in \"Portion\" of kind double. We can define a public integer called \"NumOfVotes\" takes the Value of total votes. It's defined public to be accessed by any other other classes. \"numOfVotes\" can has the Value of total Votes in class \"Agree\" which be used to determine the votes of people who agree. Then print the \"Portion\" in \"int\" form because Votes can't be anything other than integer values. The \"Portion\" is equal to numOfVotes multiplied by 0.15."
+        }
+      ]
+    }
+  ]
+}

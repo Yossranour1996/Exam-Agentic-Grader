@@ -1,0 +1,136 @@
+Final Grading and Feedback Results
+Grading:
+
+Total Mark: 84
+
+Evaluations:
+"Question: Q1
+Total Points: 26
+
+Sub-Question: Q1.1
+Awarded Points: 3
+Justification: The student correctly stated that Java is not restricted by a specific system architecture, which aligns with the rubric's requirement.
+
+Sub-Question: Q1.2
+Awarded Points: 3
+Justification: The student provided a non-blank answer that does not mention Applet or Servlet, thus meeting the rubric's criteria for full marks.
+
+Sub-Question: Q1.3
+Awarded Points: 3
+Justification: The student correctly differentiated between POP and OOP, mentioning procedures for POP and classes/objects for OOP.
+
+Sub-Question: Q1.4
+Awarded Points: 2
+Justification: The student mentioned 'Java Virtual Machine (JVM)' and 'Java compiler (javac)'. According to the rubric and QA notes, JVM earns 1 mark and 'javac' is considered a supporting file, earning another mark. Total 2 marks.
+
+Sub-Question: Q1.5
+Awarded Points: 3
+Justification: The student correctly explained both inheritance and polymorphism, meeting the rubric's criteria for full marks.
+
+Sub-Question: Q1.6
+Awarded Points: 3
+Justification: The student correctly described encapsulation as binding code and data together, which aligns with the rubric's requirement.
+
+Sub-Question: Q1.7
+Awarded Points: 3
+Justification: The student mentioned 'abstraction of class and interface', which is acceptable as it includes both abstract classes and interfaces.
+
+Sub-Question: Q1.8
+Awarded Points: 3
+Justification: The student provided three correct reasons for thread termination: finished task, unusual events, and dead/no longer available.
+
+Sub-Question: Q1.9
+Awarded Points: 3
+Justification: The student correctly listed the three default streams: System.in, System.out, and System.err.
+
+Sub-Question: Q1.10
+Awarded Points: 0
+Justification: The student incorrectly stated 'model-view-controller architecture' instead of AWT or Abstract Window Toolkit, which does not meet the rubric's criteria.
+
+
+"Question: Q2
+Total Points: 18
+
+Sub-Question: Q2.1
+Awarded Points: 3
+Justification: The student correctly answered 'True', which matches the expected answer.
+
+Sub-Question: Q2.2
+Awarded Points: 0
+Justification: The student answered 'True', but the expected answer is 'False'. The awarded score of 0 is correct as per the QA review notes.
+
+Sub-Question: Q2.3
+Awarded Points: 3
+Justification: The student correctly answered 'True', which matches the expected answer.
+
+Sub-Question: Q2.4
+Awarded Points: 3
+Justification: The student correctly answered 'False', which matches the expected answer.
+
+Sub-Question: Q2.5
+Awarded Points: 3
+Justification: The student correctly answered 'True', which matches the expected answer.
+
+Sub-Question: Q2.6
+Awarded Points: 3
+Justification: The student correctly answered 'True', which matches the expected answer.
+
+Sub-Question: Q2.7
+Awarded Points: 3
+Justification: The student correctly answered 'False', which matches the expected answer.
+
+
+"Question: Q3
+Total Points: 15
+
+Sub-Question: Q3.1
+Awarded Points: 3
+Justification: The rubric specifies that full marks are awarded regardless of the answer provided.
+
+Sub-Question: Q3.2
+Awarded Points: 3
+Justification: The student's answer 'C programming language' matches the accepted term 'C programming language'.
+
+Sub-Question: Q3.3
+Awarded Points: 0
+Justification: The student's answer 'Procedures' does not match the accepted term 'data'. The awarded score of 0 is correct as per the QA review notes.
+
+Sub-Question: Q3.4
+Awarded Points: 0
+Justification: The student did not provide an answer, and thus receives 0 points as confirmed by the QA review notes.
+
+Sub-Question: Q3.5
+Awarded Points: 3
+Justification: The student's answer 'Frame' matches the accepted term 'Frame'.
+
+Sub-Question: Q3.6
+Awarded Points: 3
+Justification: The student's answer 'controller' matches the accepted term 'Controller', considering case insensitivity.
+
+Sub-Question: Q3.7
+Awarded Points: 3
+Justification: The student's answer 'Java DataBase Connectivity (JDBC)' matches the accepted term 'Java Database Connectivity'.
+
+
+"Question: Q4
+Total Points: 25
+
+Sub-Question: Q4.1
+Awarded Points: 14
+Justification: According to the rubric, Q4.1 always receives full marks regardless of the answer provided.
+
+Sub-Question: Q4.2
+Awarded Points: 11
+Justification: The student mentioned 'totalVotes' but did not explicitly call 'calculateVotes'. According to the rubric, mentioning only one of them warrants 11 points. The QA review confirmed this score is correct.
+
+--------------------------------------------------------------------------------
+
+Feedback:
+
+Positive Highlights:
+- <NO_FEEDBACK>
+
+Areas for Improvement:
+- <NO_FEEDBACK>
+
+<NO_FEEDBACK>

@@ -1,0 +1,42 @@
+[
+  {
+    "page": "page_01.png",
+    "text": ""
+  },
+  {
+    "page": "page_02.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_03.png",
+    "text": "1.1. That java is not tied to or restricted\nto specific machine or operating system\narchitecture.\n1.2. They increase the demand for application\nand programs that were set suitable to\nbe transferred over internet, to make\nshare of data easier.\n1.3. POP emphasize code rather than data and\ndivide the program into smaller processes\nparts each with set of instructions.\nOOP emphasize data and build functions\naround it. each class has its own variable\nwhich save them from accidental change.\npop code oop\ndata data\nGeneral\ndata\n1.4. Java Runtime Environment ⇒ environment to\nrun the java program only, It component are\n1- Compiler 2- Java virtual machine.\n1.5. inheritance is to creat class based on existed\nclass and the subclass can share all features of\nsuper class.\nPolymorphism is feature allow objects to\nbe used as general and can take different forms\naccording to required needs."
+  },
+  {
+    "page": "page_04.png",
+    "text": "1.6 - Mechanism to bind Code and data\nit's manipulate together and keep -them safe\nfrom interference and misuse\noutside\n1.7 - @ Interface\n- ® Abstraction classes\n1.8 - A Finished and achived goal\n® due to unusul events\n© dead and no longer anttable available.\n1.9 - A system.m\n® system.out\n© system err\n1.10 - Java swing was built over AWT\nwindows Interface (AWI) Application"
+  },
+  {
+    "page": "page_05.png",
+    "text": "Q.2\n1. True it is possible to inherit properties\n2. False overrid overriding\n3. True have abstract methods only with them\n4. False\n5. False\n6. True\n7. True\nQ.3\n1. to adapt change in environment and use.\n2. C\n3. data\n4. Applets\n5. Container\n6. Controller\n7. JDBC\nQ.4 4.1 show (seats [i],\" You will take seat \"+ (i+1)). Code\nExp the first part seats[i] call the elements of seat[i]\naccording to index then the text you will take\nseat \" then ? because count is from o to\nu same as the index.\ndouble\n4.2 CalculateVotes (totalVotes); Code\nexplain = we call method calculateVotes to be executed\nfor the total votes and then give out-put portions\nin form of integer, after the second statment."
+  },
+  {
+    "page": "page_06.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_07.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_08.png",
+    "text": ""
+  },
+  {
+    "page": "page_09.png",
+    "text": ""
+  },
+  {
+    "page": "page_10.png",
+    "text": ""
+  }
+]

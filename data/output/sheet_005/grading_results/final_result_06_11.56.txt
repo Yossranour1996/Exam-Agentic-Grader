@@ -1,0 +1,136 @@
+Final Grading and Feedback Results
+Grading:
+
+Total Mark: 84
+
+Evaluations:
+"Question: Q1
+Total Points: 24
+
+Sub-Question: Q1.1
+Awarded Points: 3
+Justification: The student correctly conveyed that Java is not restricted to a specific system architecture, which aligns with the rubric's requirement for full marks.
+
+Sub-Question: Q1.2
+Awarded Points: 3
+Justification: Upon re-evaluation, the mention of 'aplat' is considered an OCR error for 'applet'. The rubric allows for leniency in spelling errors due to OCR issues, and the student did not explicitly mention 'applet' or 'servlet'. Therefore, full marks are awarded.
+
+Sub-Question: Q1.3
+Awarded Points: 3
+Justification: The student correctly described POP as procedure-oriented and OOP as object/class-oriented, meeting the rubric's criteria for full marks.
+
+Sub-Question: Q1.4
+Awarded Points: 1
+Justification: The student mentioned 'JVM', which earns 1 mark. However, they did not mention libraries or supporting files, so only partial credit is awarded.
+
+Sub-Question: Q1.5
+Awarded Points: 2
+Justification: The student correctly described inheritance but provided a vague explanation for polymorphism. Thus, 2 marks are awarded for the correct explanation of inheritance.
+
+Sub-Question: Q1.6
+Awarded Points: 3
+Justification: The student correctly described encapsulation as binding code and data together, which meets the rubric's criteria for full marks.
+
+Sub-Question: Q1.7
+Awarded Points: 3
+Justification: The student correctly mentioned abstract classes and interfaces as ways to achieve abstraction, meeting the rubric's criteria for full marks.
+
+Sub-Question: Q1.8
+Awarded Points: 3
+Justification: The student provided three correct reasons for thread termination: finished task, unusual events, and dead/no longer available, earning full marks.
+
+Sub-Question: Q1.9
+Awarded Points: 3
+Justification: The student correctly identified the three default streams in Java: System.in, System.out, and System.err, earning full marks.
+
+Sub-Question: Q1.10
+Awarded Points: 0
+Justification: The student incorrectly mentioned 'Wendows interface' instead of AWT or Abstract Window Toolkit, which does not meet the rubric's criteria for any marks.
+
+
+"Question: Q2
+Total Points: 18
+
+Sub-Question: Q2.1
+Awarded Points: 3
+Justification: The student correctly identified the statement as true.
+
+Sub-Question: Q2.2
+Awarded Points: 3
+Justification: The student correctly identified the statement as false and provided a correct explanation.
+
+Sub-Question: Q2.3
+Awarded Points: 3
+Justification: The student correctly identified the statement as true.
+
+Sub-Question: Q2.4
+Awarded Points: 3
+Justification: The student correctly identified the statement as false and provided a correct explanation.
+
+Sub-Question: Q2.5
+Awarded Points: 3
+Justification: The student correctly identified the statement as true.
+
+Sub-Question: Q2.6
+Awarded Points: 3
+Justification: The student correctly identified the statement as true, despite providing additional incorrect information.
+
+Sub-Question: Q2.7
+Awarded Points: 0
+Justification: The student incorrectly identified the statement as true, while it is false.
+
+
+"Question: Q3
+Total Points: 21
+
+Sub-Question: Q3.1
+Awarded Points: 3
+Justification: The rubric specifies to always award full marks for Q3.1, regardless of the answer.
+
+Sub-Question: Q3.2
+Awarded Points: 3
+Justification: The answer 'C programming language' matches the accepted term 'C'. Full points awarded.
+
+Sub-Question: Q3.3
+Awarded Points: 3
+Justification: The answer 'data' matches the accepted term 'data'. Full points awarded.
+
+Sub-Question: Q3.4
+Awarded Points: 3
+Justification: The answer 'aplet' matches the accepted term 'Applet' with high similarity. Full points awarded.
+
+Sub-Question: Q3.5
+Awarded Points: 3
+Justification: The answer 'Container' matches the accepted term 'Container'. Full points awarded.
+
+Sub-Question: Q3.6
+Awarded Points: 3
+Justification: The answer '[UNK] controller' matches the accepted term 'Controller'. Full points awarded.
+
+Sub-Question: Q3.7
+Awarded Points: 3
+Justification: The answer '(JDBC) Java Data Bases Connectly' matches the accepted term 'JDBC'. Full points awarded.
+
+
+"Question: Q4
+Total Points: 21
+
+Sub-Question: Q4.1
+Awarded Points: 14
+Justification: According to the rubric, Q4.1 always receives full marks regardless of the answer provided.
+
+Sub-Question: Q4.2
+Awarded Points: 7
+Justification: The student's answer is nonblank but unrelated to votes. The rubric specifies 7 points for nonblank answers that are unrelated to votes.
+
+--------------------------------------------------------------------------------
+
+Feedback:
+
+Positive Highlights:
+- <NO_FEEDBACK>
+
+Areas for Improvement:
+- <NO_FEEDBACK>
+
+<NO_FEEDBACK>

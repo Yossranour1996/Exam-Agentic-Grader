@@ -1,0 +1,109 @@
+2026-08-06 22:59:23 | DEBUG  
+================================================================================
+[Prepare]: Prepared state for sheet_035.
+Paths ready.
+2026-08-06 22:59:23 | DEBUG  
+================================================================================
+[Extraction]: Extracting answers for sheet_035 from data\input\answer_sheets\sheet_035.pdf
+2026-08-06 22:59:23 | DEBUG  
+================================================================================
+[Grading]: Grading exam based on extracted answers and rubric.
+2026-08-06 22:59:34 | INFO   
+================================================================================
+[Grader] Message log:
+
+------------------------------------------------------------
+SYSTEM: [{'type': 'text', 'text': 'You are a fair and lenient academic grading agent. Your objective is to evaluate student answers against the provided rubric, prioritizing conceptual understanding over perfect syntax, spelling, or grammar.\n\n## INPUT:\n- Exam.\n- Rubric.\n- Student answers.\n\n## DECISION RULES:\n1. If a student clearly understands the target concept, you MUST award full marks, even if their formatting, grammar, or spelling is flawed.\n2. If the answer contains spelling anomalies or OCR noise, evaluate the semantic intent and look for keywords, ignoring adjacent typographical garbage.\n3. If the student includes incorrect additional information alongside the correct answer, do NOT penalize them unless the rubric explicitly demands it.\n4. If the rubric provides an array of allowed scores, you MUST strictly use only those exact numbers. Never invent intermediate scores.\n\n# TOOL POLICY:\n- Use `check_java_syntax` to analyze structural logic and determine appropriate partial credit.\n- You MUST use `calculate_total_score` to sum the awarded points of all sub-questions before submitting your final evaluation for a parent question. Never calculate the total score purely from memory.'}, {'type': 'text', 'text': 'EXAM:\n\n{"id": "java", "title": "Java Programming Exam", "total_marks": 100, "questions": [{"id": "Q1", "type": "short_answer", "total_marks": 30, "prompt": "Briefly answer each question.", "sub_questions": [{"id": "Q1.1", "text": "What does it mean that Java is architecture-neutral?"}, {"id": "Q1.2", "text": "How did the World Wide Web and Internet participate in the programming revolution?"}, {"id": "Q1.3", "text": "What is the main difference between OOP and POP?"}, {"id": "Q1.4", "text": "What are the components of the JRE?"}, {"id": "Q1.5", "text": "What is the difference between inheritance and polymorphism?"}, {"id": "Q1.6", "text": "What is encapsulation?"}, {"id": "Q1.7", "text": "Mention the two ways to achieve abstraction."}, {"id": "Q1.8", "text": "Mention three reasons a thread can terminate."}, {"id": "Q1.9", "text": "What are the three default streams in Java?"}, {"id": "Q1.10", "text": "On which API was Java Swing built?"}]}, {"id": "Q2", "type": "true_false", "total_marks": 21, "prompt": "State whether each statement is true or false.", "sub_questions": [{"id": "Q2.1", "text": "C++ was called C with classes."}, {"id": "Q2.2", "text": "An interface cannot inherit another interface\'s properties."}, {"id": "Q2.3", "text": "Java bytecode is a class file executed by the Java runtime system."}, {"id": "Q2.4", "text": "Runtime polymorphism can be achieved by method overloading."}, {"id": "Q2.5", "text": "Abstract classes can contain non-abstract methods."}, {"id": "Q2.6", "text": "Java threads are lightweight threads."}, {"id": "Q2.7", "text": "There is one JDBC driver for all database sources."}]}, {"id": "Q3", "type": "fill_blank", "total_marks": 21, "prompt": "Fill in each blank.", "sub_questions": [{"id": "Q3.1", "text": "_____ is one reason computer-language innovation occurred."}, {"id": "Q3.2", "text": "_____ is an example of a POP language."}, {"id": "Q3.3", "text": "POP does not allow _____ to flow freely in the program."}, {"id": "Q3.4", "text": "_____ are small programs requiring a Java-enabled browser."}, {"id": "Q3.5", "text": "A _____ is a component that can contain elements such as buttons."}, {"id": "Q3.6", "text": "The model-view-_____ architecture is used in Swing."}, {"id": "Q3.7", "text": "_____ is the Java API for interacting with databases."}]}, {"id": "Q4", "type": "code_completion", "total_marks": 28, "prompt": "Complete CODE to produce the stated output.", "sub_questions": [{"id": "Q4.1", "text": "public class Exams {\\n  public static void main(String[] args) {\\n    String[] seats = {\'M\', \'C\', \'G\', \'P\', \'D\'};\\n    for (int i = 0; i < seats.length; i++) {\\n      System.out.println(CODE);\\n    }\\n  }\\n}\\nRequired output: M, you will take seat 0 (and equivalently for each seat).\\n"}, {"id": "Q4.2", "text": "int totalVotes = 760;\\nCODE\\npublic static void calculateVotes(double numOfVotes) {\\n  double portion = numOfVotes * 0.15;\\n  System.out.println((int) portion);\\n}\\nRequired output: 114.\\n"}]}]}'}, {'type': 'text', 'text': 'RUBRIC:\n\n{"exam_id": "java", "total_marks": 100, "policy": {"tolerate_ocr_noise": true, "semantic_equivalence": true, "penalize_extra_incorrect_content": false}, "sections": [{"id": "Q1", "type": "short_answer", "total_marks": 30, "questions": [{"id": "Q1.1", "marks": 3, "allowed_scores": [0, 3], "expected": "Student should express that Java can work across different architectures / is not restricted to one specific system architecture.", "rule": "Give 3 if the student conveys the idea that Java can work on different architectures/devices/systems, even if the wording is weak or grammatically wrong. Otherwise 0."}, {"id": "Q1.2", "marks": 3, "allowed_scores": [0, 3], "expected": "Any nonblank answer is accepted unless it mentions Applet/Applets or Servlet/Servlets.", "rule": "Give 0 if the answer is blank. Give 0 if the answer mentions Applet, Applets, Servlet, or Servlets. Otherwise give 3."}, {"id": "Q1.3", "marks": 3, "allowed_scores": [0, 3], "expected": "POP is procedure/data oriented; OOP is object/class oriented.", "rule": "Give 3 if the student conveys that POP is related to procedures/functions/data and OOP is related to objects/classes. Exact textbook wording is not required. Otherwise 0."}, {"id": "Q1.4", "marks": 3, "allowed_scores": [0, 1, 2, 3], "expected": "JVM, libraries, supporting files/components.", "rule": "Give 1 mark for JVM or Java Virtual Machine, 1 mark for library/libraries, and 1 mark for file/files/supporting files. Maximum 3. Blank answer gets 0."}, {"id": "Q1.5", "marks": 3, "allowed_scores": [0, 2, 3], "expected": "Inheritance = class gets properties/behavior from another existing class. Polymorphism = many forms / one interface / general class of actions / common type with different forms.", "rule": "Give 3 if both inheritance and polymorphism meanings are correct. Give 2 if only one of the two is clearly correct. Give 0 if neither is correct."}, {"id": "Q1.6", "marks": 3, "allowed_scores": [0, 3], "expected": "Binding/bundling code and data together in one unit/class.", "rule": "Give 3 if the student expresses binding/bundling code and data together, or an equivalent meaning. Otherwise 0."}, {"id": "Q1.7", "marks": 3, "allowed_scores": [0, 3], "expected": "Abstract classes and interfaces.", "rule": "Give 3 if the student mentions abstract class/classes and interfaces, even if grammar/order is weak such as \'class abstract\' or \'interfaces abstract\'. Otherwise 0."}, {"id": "Q1.8", "marks": 3, "allowed_scores": [0, 1, 2, 3], "expected": "Finished normally, unusual event/exception/error, dead/stopped/terminated.", "rule": "Give 1 mark for each clearly correct reason among: (1) finished/completed task, (2) unusual event/exception/error, (3) dead/stopped/terminated/no longer available. Accept equivalent wording. Max 3."}, {"id": "Q1.9", "marks": 3, "allowed_scores": [0, 1, 2, 3], "expected": "System.in, System.out, System.err", "rule": "Give 1 mark for each correct intended stream among System.in, System.out, System.err. IMPORTANT: if the student writes weak spellings like System.i or System.o but the intended stream is clearly System.in and System.out, count them as correct. Minor spelling/OCR mistakes must not reduce the mark. Max 3."}, {"id": "Q1.10", "marks": 3, "allowed_scores": [0, 3], "expected": "AWT / Abstract Window Toolkit", "rule": "Give 3 only if the student gives AWT or Abstract Window Toolkit or a very clear equivalent. Otherwise 0."}]}, {"id": "Q2", "type": "true_false", "total_marks": 21, "questions": [{"id": "Q2.1", "marks": 3, "allowed_scores": [0, 3], "expected": "True", "rule": "Give 3 only if the student chose True. Otherwise 0."}, {"id": "Q2.2", "marks": 3, "allowed_scores": [0, 3], "expected": "False", "rule": "Give 3 only if the student chose False. Otherwise 0."}, {"id": "Q2.3", "marks": 3, "allowed_scores": [0, 3], "expected": "True", "rule": "Give 3 only if the student chose True. Otherwise 0."}, {"id": "Q2.4", "marks": 3, "allowed_scores": [0, 3], "expected": "False", "rule": "Give 3 only if the student chose False. Otherwise 0."}, {"id": "Q2.5", "marks": 3, "allowed_scores": [0, 3], "expected": "True", "rule": "Give 3 only if the student chose True. Otherwise 0."}, {"id": "Q2.6", "marks": 3, "allowed_scores": [0, 3], "expected": "True", "rule": "Give 3 only if the student chose True. Otherwise 0."}, {"id": "Q2.7", "marks": 3, "allowed_scores": [0, 3], "expected": "False", "rule": "Give 3 only if the student chose False. Otherwise 0."}]}, {"id": "Q3", "type": "fill_blank", "total_marks": 21, "questions": [{"id": "Q3.1", "marks": 3, "allowed_scores": [3], "accepted": ["improvement", "improvement in programming", "improving programming", "adapting to change", "adapting to changing environments", "adapting to changing uses"], "expected": "Always full marks.", "rule": "Always give 3 marks, even if the answer is blank."}, {"id": "Q3.2", "marks": 3, "allowed_scores": [0, 3], "accepted": ["C", "Pascal", "C programming language", "Pascal programming language"], "expected": "C or Pascal", "rule": "Give 3 if the student gives C or Pascal, even inside a longer phrase such as \'C programming language\'. Otherwise 0."}, {"id": "Q3.3", "marks": 3, "allowed_scores": [0, 3], "accepted": ["data", "and data"], "expected": "data", "rule": "Give 3 if the intended answer is data, even if it appears in a phrase like \'and data\'. Otherwise 0."}, {"id": "Q3.4", "marks": 3, "allowed_scores": [0, 3], "accepted": ["Applet", "Applets"], "expected": "Applets", "rule": "Give 3 if the student gives Applet/Applets or a very clear equivalent/OCR form. Otherwise 0."}, {"id": "Q3.5", "marks": 3, "allowed_scores": [0, 3], "accepted": ["Container", "Frame"], "expected": "Container or Frame", "rule": "Give 3 if the student gives Container or Frame. Accept spelling/OCR variations when the intended word is clear. Otherwise 0. Blank answer gets 0."}, {"id": "Q3.6", "marks": 3, "allowed_scores": [0, 3], "accepted": ["Controller"], "expected": "Controller", "rule": "Give 3 if the student gives Controller. Otherwise 0."}, {"id": "Q3.7", "marks": 3, "allowed_scores": [0, 3], "accepted": ["JDBC", "Java Database Connectivity"], "expected": "JDBC or Java Database Connectivity", "rule": "Give 3 if the student gives JDBC or Java Database Connectivity. Otherwise 0."}]}, {"id": "Q4", "type": "code_completion", "total_marks": 28, "questions": [{"id": "Q4.1", "marks": 14, "allowed_scores": [14], "expected": "Always full marks.", "rule": "Always give 14 marks, even if the answer is blank."}, {"id": "Q4.2", "marks": 14, "allowed_scores": [0, 7, 9, 11, 14], "expected": "calculateVotes(totalVotes);", "rule": "Give 14 if both calculateVotes and totalVotes are mentioned. Give 11 if only one of them is mentioned. Give 9 if the answer is incorrect but mentions vote/votes or is clearly vote-related. Give 7 if the answer is nonblank but unrelated to votes. Give 0 if blank."}]}]}'}]
+
+------------------------------------------------------------
+HUMAN: [{'type': 'text', 'text': 'STUDENT ANSEWERS:\n\n{"questions": [{"question": "Q1", "sub_questions": [{"sub_question": "Q1.1", "answer": "Java is not restricted to a specific system architecture"}, {"sub_question": "Q1.2", "answer": "Because it create the need for programs that can be executed in different operating systems and system architectures"}, {"sub_question": "Q1.3", "answer": "POP use procedure code to operate on the data OOP use object and classes to Encapsulate Code and data"}, {"sub_question": "Q1.4", "answer": "JVM"}, {"sub_question": "Q1.5", "answer": "inheritance is an operation that let you creat classes and interfaces based on existing one and polymorphism is a feature that allows interface to be used in general class actions"}, {"sub_question": "Q1.6", "answer": "it is a mechanism that bind the code and the data it\'s manipulate"}, {"sub_question": "Q1.7", "answer": "abstract classes and interfaces"}, {"sub_question": "Q1.8", "answer": "1- finish its task 2- terminated due an unusual event 3- dead or no longer available"}, {"sub_question": "Q1.9", "answer": "System.in , System.out , System.err"}, {"sub_question": "Q1.10", "answer": "JDBC"}]}, {"question": "Q2", "sub_questions": [{"sub_question": "Q2.1", "answer": "true"}, {"sub_question": "Q2.2", "answer": "False => it is not possible For an interface to implement another interFace properties"}, {"sub_question": "Q2.3", "answer": "True"}, {"sub_question": "Q2.4", "answer": "False => runtime polymorphism could be achieved by method overriding"}, {"sub_question": "Q2.5", "answer": "true"}, {"sub_question": "Q2.6", "answer": "True"}, {"sub_question": "Q2.7", "answer": "True"}]}, {"question": "Q3", "sub_questions": [{"sub_question": "Q3.1", "answer": "adapt changing envalironment and uses"}, {"sub_question": "Q3.2", "answer": "C"}, {"sub_question": "Q3.3", "answer": "Data"}, {"sub_question": "Q3.4", "answer": "applet"}, {"sub_question": "Q3.5", "answer": "Frame"}, {"sub_question": "Q3.6", "answer": "Controle"}, {"sub_question": "Q3.7", "answer": "JDBC"}]}, {"question": "Q4", "sub_questions": [{"sub_question": "Q4.1", "answer": "seats [i] + \\" you will take seat\\" + i"}, {"sub_question": "Q4.2", "answer": "doubl numOFVotes = total Votes + 200 ; Calculate Votes"}]}]}'}]
+
+------------------------------------------------------------
+AI TOOL CALL: {'name': 'calculate_total_score', 'args': {'sub_scores': '{"Q1.1": 3, "Q1.2": 3, "Q1.3": 3, "Q1.4": 1, "Q1.5": 3, "Q1.6": 3, "Q1.7": 3, "Q1.8": 3, "Q1.9": 3, "Q1.10": 0}'}, 'id': 'call_U4ExOIGG5VgC5FnfAdrfW4Ft', 'type': 'tool_call'}
+AI TOOL CALL: {'name': 'calculate_total_score', 'args': {'sub_scores': '{"Q2.1": 3, "Q2.2": 3, "Q2.3": 3, "Q2.4": 3, "Q2.5": 3, "Q2.6": 3, "Q2.7": 0}'}, 'id': 'call_MOxfAFv9LiPUTYwt2nPoOAlI', 'type': 'tool_call'}
+AI TOOL CALL: {'name': 'calculate_total_score', 'args': {'sub_scores': '{"Q3.1": 3, "Q3.2": 3, "Q3.3": 3, "Q3.4": 3, "Q3.5": 3, "Q3.6": 0, "Q3.7": 3}'}, 'id': 'call_UPVIQ8NfMYdhwPSHRIEPr2Ss', 'type': 'tool_call'}
+AI TOOL CALL: {'name': 'calculate_total_score', 'args': {'sub_scores': '{"Q4.1": 14, "Q4.2": 9}'}, 'id': 'call_MNh8vZGmAd7A0IuJlQRoIEBG', 'type': 'tool_call'}
+
+------------------------------------------------------------
+TOOL: {
+  "status": "SUCCESS",
+  "message": "Total score calculated successfully.",
+  "calculated_total": 25,
+  "breakdown": {
+    "Q1.1": 3,
+    "Q1.2": 3,
+    "Q1.3": 3,
+    "Q1.4": 1,
+    "Q1.5": 3,
+    "Q1.6": 3,
+    "Q1.7": 3,
+    "Q1.8": 3,
+    "Q1.9": 3,
+    "Q1.10": 0
+  }
+}
+
+------------------------------------------------------------
+TOOL: {
+  "status": "SUCCESS",
+  "message": "Total score calculated successfully.",
+  "calculated_total": 18,
+  "breakdown": {
+    "Q2.1": 3,
+    "Q2.2": 3,
+    "Q2.3": 3,
+    "Q2.4": 3,
+    "Q2.5": 3,
+    "Q2.6": 3,
+    "Q2.7": 0
+  }
+}
+
+------------------------------------------------------------
+TOOL: {
+  "status": "SUCCESS",
+  "message": "Total score calculated successfully.",
+  "calculated_total": 18,
+  "breakdown": {
+    "Q3.1": 3,
+    "Q3.2": 3,
+    "Q3.3": 3,
+    "Q3.4": 3,
+    "Q3.5": 3,
+    "Q3.6": 0,
+    "Q3.7": 3
+  }
+}
+
+------------------------------------------------------------
+TOOL: {
+  "status": "SUCCESS",
+  "message": "Total score calculated successfully.",
+  "calculated_total": 23,
+  "breakdown": {
+    "Q4.1": 14,
+    "Q4.2": 9
+  }
+}
+
+------------------------------------------------------------
+AI: {"total_mark":84,"evaluations":[{"question":"Q1","total_points":25,"sub_evaluations":[{"sub_question":"Q1.1","awarded_points":3,"justification":"The student correctly stated that Java is not restricted to a specific system architecture."},{"sub_question":"Q1.2","awarded_points":3,"justification":"The student provided a valid reason related to the need for cross-platform compatibility, without mentioning Applets or Servlets."},{"sub_question":"Q1.3","awarded_points":3,"justification":"The student correctly differentiated between POP and OOP, mentioning procedures and objects/classes."},{"sub_question":"Q1.4","awarded_points":1,"justification":"The student mentioned JVM, which is one component of the JRE."},{"sub_question":"Q1.5","awarded_points":3,"justification":"The student correctly explained both inheritance and polymorphism."},{"sub_question":"Q1.6","awarded_points":3,"justification":"The student correctly described encapsulation as binding code and data together."},{"sub_question":"Q1.7","awarded_points":3,"justification":"The student correctly mentioned abstract classes and interfaces as ways to achieve abstraction."},{"sub_question":"Q1.8","awarded_points":3,"justification":"The student provided three valid reasons for thread termination."},{"sub_question":"Q1.9","awarded_points":3,"justification":"The student correctly listed the three default streams in Java."},{"sub_question":"Q1.10","awarded_points":0,"justification":"The student incorrectly answered JDBC instead of AWT."}]},{"question":"Q2","total_points":18,"sub_evaluations":[{"sub_question":"Q2.1","awarded_points":3,"justification":"The student correctly answered True."},{"sub_question":"Q2.2","awarded_points":3,"justification":"The student correctly answered False."},{"sub_question":"Q2.3","awarded_points":3,"justification":"The student correctly answered True."},{"sub_question":"Q2.4","awarded_points":3,"justification":"The student correctly answered False."},{"sub_question":"Q2.5","awarded_points":3,"justification":"The student correctly answered True."},{"sub_question":"Q2.6","awarded_points":3,"justification":"The student correctly answered True."},{"sub_question":"Q2.7","awarded_points":0,"justification":"The student incorrectly answered True instead of False."}]},{"question":"Q3","total_points":18,"sub_evaluations":[{"sub_question":"Q3.1","awarded_points":3,"justification":"Full marks are awarded as per rubric policy."},{"sub_question":"Q3.2","awarded_points":3,"justification":"The student correctly answered C."},{"sub_question":"Q3.3","awarded_points":3,"justification":"The student correctly answered Data."},{"sub_question":"Q3.4","awarded_points":3,"justification":"The student correctly answered Applet."},{"sub_question":"Q3.5","awarded_points":3,"justification":"The student correctly answered Frame."},{"sub_question":"Q3.6","awarded_points":0,"justification":"The student incorrectly answered Controle instead of Controller."},{"sub_question":"Q3.7","awarded_points":3,"justification":"The student correctly answered JDBC."}]},{"question":"Q4","total_points":23,"sub_evaluations":[{"sub_question":"Q4.1","awarded_points":14,"justification":"Full marks are awarded as per rubric policy."},{"sub_question":"Q4.2","awarded_points":9,"justification":"The student's answer was incorrect but mentioned votes, which is related to the expected answer."}]}]}
+
+
+2026-08-06 22:59:34 | DEBUG  
+================================================================================
+[Grading]: Grading completed.
+2026-08-06 22:59:34 | DEBUG  
+================================================================================
+[Exporter]: Exporting grading results to specified directory.
+2026-08-06 22:59:34 | INFO   
+================================================================================
+[Exporter]: Saved final grading results to data\output\single_agent\sheet_035\grading_results.
+2026-08-06 22:59:34 | DEBUG  
+================================================================================
+[Exporter]: Exported final grading, qa and feedback results to data\output\single_agent\sheet_035\grading_results. Exported data to data\output\single_agent\exports
+
+2026-08-06 22:59:34 | DEBUG  
+================================================================================
+[Exporter]: Exported final grading, qa and feedback results to data\output\single_agent\sheet_035\grading_results. Exported data to data\output\single_agent\exports
+

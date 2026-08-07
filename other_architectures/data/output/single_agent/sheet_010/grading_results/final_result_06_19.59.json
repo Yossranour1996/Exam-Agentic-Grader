@@ -1,0 +1,161 @@
+{
+  "grading": {
+    "total_mark": 66,
+    "evaluations": [
+      {
+        "question": "Q1",
+        "total_points": 15,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q1.1",
+            "awarded_points": 3,
+            "justification": "The student correctly conveyed that Java can run in multiple environments and architectures."
+          },
+          {
+            "sub_question": "Q1.2",
+            "awarded_points": 3,
+            "justification": "The student provided a valid explanation without mentioning Applets or Servlets."
+          },
+          {
+            "sub_question": "Q1.3",
+            "awarded_points": 3,
+            "justification": "The student correctly differentiated between OOP and POP, mentioning objects/classes and procedures/functions."
+          },
+          {
+            "sub_question": "Q1.4",
+            "awarded_points": 0,
+            "justification": "The answer did not correctly identify the components of the JRE."
+          },
+          {
+            "sub_question": "Q1.5",
+            "awarded_points": 0,
+            "justification": "The explanation of inheritance and polymorphism was incorrect."
+          },
+          {
+            "sub_question": "Q1.6",
+            "awarded_points": 0,
+            "justification": "The explanation of encapsulation was incorrect."
+          },
+          {
+            "sub_question": "Q1.7",
+            "awarded_points": 3,
+            "justification": "The student correctly mentioned abstract classes and interfaces."
+          },
+          {
+            "sub_question": "Q1.8",
+            "awarded_points": 0,
+            "justification": "The reasons provided for thread termination were incorrect."
+          },
+          {
+            "sub_question": "Q1.9",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the default streams in Java, despite minor spelling errors."
+          },
+          {
+            "sub_question": "Q1.10",
+            "awarded_points": 0,
+            "justification": "The answer did not correctly identify the API on which Java Swing was built."
+          }
+        ]
+      },
+      {
+        "question": "Q2",
+        "total_points": 21,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q2.1",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as True."
+          },
+          {
+            "sub_question": "Q2.2",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as False."
+          },
+          {
+            "sub_question": "Q2.3",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as True."
+          },
+          {
+            "sub_question": "Q2.4",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as False."
+          },
+          {
+            "sub_question": "Q2.5",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as True."
+          },
+          {
+            "sub_question": "Q2.6",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as True."
+          },
+          {
+            "sub_question": "Q2.7",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as False."
+          }
+        ]
+      },
+      {
+        "question": "Q3",
+        "total_points": 9,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q3.1",
+            "awarded_points": 3,
+            "justification": "Full marks awarded as per rubric policy."
+          },
+          {
+            "sub_question": "Q3.2",
+            "awarded_points": 3,
+            "justification": "The student correctly identified C as an example of a POP language."
+          },
+          {
+            "sub_question": "Q3.3",
+            "awarded_points": 3,
+            "justification": "The student correctly identified 'data' as the missing word."
+          },
+          {
+            "sub_question": "Q3.4",
+            "awarded_points": 0,
+            "justification": "The answer was incorrect; expected 'Applets'."
+          },
+          {
+            "sub_question": "Q3.5",
+            "awarded_points": 0,
+            "justification": "The answer was incorrect; expected 'Container' or 'Frame'."
+          },
+          {
+            "sub_question": "Q3.6",
+            "awarded_points": 0,
+            "justification": "The answer was incorrect; expected 'Controller'."
+          },
+          {
+            "sub_question": "Q3.7",
+            "awarded_points": 0,
+            "justification": "The answer was incorrect; expected 'JDBC' or 'Java Database Connectivity'."
+          }
+        ]
+      },
+      {
+        "question": "Q4",
+        "total_points": 21,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q4.1",
+            "awarded_points": 14,
+            "justification": "Full marks awarded as per rubric policy."
+          },
+          {
+            "sub_question": "Q4.2",
+            "awarded_points": 7,
+            "justification": "The answer was nonblank but unrelated to votes."
+          }
+        ]
+      }
+    ]
+  }
+}

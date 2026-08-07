@@ -1,4 +1,6 @@
 # src/subgraphs/extraction_graph.py
+"""Builds the extraction subgraph that turns scanned pages into structured student answers."""
+
 from __future__ import annotations
 
 import json
@@ -15,7 +17,7 @@ from src.utils import io
 
 
 class ExtractionGraph:
-    """Convert pages, OCR each page, then map text to exam question IDs."""
+    """Convert pages, OCR them, and map the text to exam question IDs."""
 
     def __init__(self, ocr_model="gpt-4o", model="gpt-4o", temperature=0.0, max_tokens=None):
         self.ocr = OCRAgent(ocr_model, temperature, max_tokens)
@@ -24,7 +26,7 @@ class ExtractionGraph:
 
 
     def node_pdf_to_images(self, state: State) -> State:
-        """Create page images or reuse images already present for the sheet."""
+        """Create page images or reuse any images already present for the sheet."""
         logger = state['logger']
         if not state.get('do_pdf_to_imgs', True):
             print("Image extraction step skipped as per configuration.")
@@ -46,7 +48,7 @@ class ExtractionGraph:
 
 
     def node_ocr(self, state: State) -> State:
-        """Transcribe one page; the graph loops until every page is processed."""
+        """Transcribe one page and advance the page cursor until all pages are processed."""
         logger = state['logger']
         if not state.get('do_ocr', True):
             print("OCR step skipped as per configuration.")
@@ -75,7 +77,7 @@ class ExtractionGraph:
 
 
     def node_shredder(self, state: State) -> State:
-        """Map accumulated OCR text into the canonical structured answer schema."""
+        """Map the accumulated OCR text into the canonical structured answer schema."""
         logger = state['logger']
         if not state.get('do_shredder', True):
             print("Shredder step skipped as per configuration.")
@@ -106,7 +108,7 @@ class ExtractionGraph:
 
 
     def compile(self):
-        """Build the page loop followed by one structuring pass."""
+        """Build the page loop followed by one structuring pass for the extracted answers."""
         graph = StateGraph(State)
 
         graph.add_node("pdf_to_images", self.node_pdf_to_images)

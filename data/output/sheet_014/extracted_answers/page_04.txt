@@ -1,0 +1,18 @@
+implementation details. for example: you can
+interact with Car class without needing to know
+if it is of type Normal Car or SportCar
+1.6) encapsulation is hiding the data and
+implementations & and make visible in certain
+classes
+1.7) 1- abstract classes
+2- interfaces
+1.8) 1- it finishes all [UNK] instructions successfully
+and normally
+2- it stops due to unexpected behavior
+behavior or error
+3- it takes too long so it is dead or locked
+1.9) 1- System.in [standard input]
+2- System.out [standard output]
+3- System.err [standard error]
+1.10) Swing is built on top of AWT JWT
+(Java window toolkit) API.

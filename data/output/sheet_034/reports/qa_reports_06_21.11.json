@@ -1,0 +1,54 @@
+[
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q2",
+        "identified_errors": [
+          {
+            "sub_question": "Q2",
+            "description": "Arithmetic error: The sum of sub-scores (15) does not equal the total awarded score (18)."
+          }
+        ],
+        "summary": "There is an arithmetic error in the grading of Q2. The sum of the sub-scores is 15, but the total awarded score is incorrectly listed as 18."
+      }
+    ]
+  },
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q1",
+        "identified_errors": [
+          {
+            "sub_question": "Q1.5",
+            "description": "The student provided a vague explanation for polymorphism, but the rubric allows for 2 points if one concept is correct. The Grader correctly awarded 2 points, but the justification should reflect the rubric's leniency."
+          },
+          {
+            "sub_question": "Q1.7",
+            "description": "The student's answer did not mention abstract classes or interfaces, but the rubric allows for weak grammar/order. The Grader should have considered if the student's intent was clear despite poor phrasing."
+          },
+          {
+            "sub_question": "Q1.8",
+            "description": "The student's answer was unclear, but the rubric allows for equivalent wording. The Grader should have considered if the student's intent was clear despite poor phrasing."
+          }
+        ],
+        "summary": "Errors in Q1.5, Q1.7, and Q1.8 were identified. The Grader's justification for Q1.5 was not aligned with the rubric's leniency. Q1.7 and Q1.8 require reevaluation for potential semantic equivalence."
+      },
+      {
+        "question": "Q3",
+        "identified_errors": [
+          {
+            "sub_question": "Q3.7",
+            "description": "The student's answer 'JDBE' is likely an OCR error for 'JDBC'. The rubric allows for spelling/OCR variations when the intended word is clear."
+          }
+        ],
+        "summary": "Error in Q3.7 identified. The Grader should have considered the possibility of an OCR error for 'JDBC'."
+      }
+    ]
+  },
+  {
+    "decision": "<NO_REGRADE>",
+    "audits": []
+  }
+]

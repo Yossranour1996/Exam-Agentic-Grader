@@ -1,0 +1,159 @@
+{
+  "total_mark": 81,
+  "evaluations": [
+    {
+      "question": "Q1",
+      "total_points": 23,
+      "sub_evaluations": [
+        {
+          "sub_question": "Q1.1",
+          "awarded_points": 3,
+          "justification": "The student correctly conveyed that Java is not restricted to a specific architecture, which aligns with the rubric's requirement."
+        },
+        {
+          "sub_question": "Q1.2",
+          "awarded_points": 0,
+          "justification": "The answer mentions 'applet' and 'servlet', which are explicitly prohibited by the rubric, resulting in a score of 0."
+        },
+        {
+          "sub_question": "Q1.3",
+          "awarded_points": 3,
+          "justification": "The student correctly described OOP as object/class oriented and POP as procedure/data oriented, meeting the rubric's criteria."
+        },
+        {
+          "sub_question": "Q1.4",
+          "awarded_points": 2,
+          "justification": "The student mentioned 'JUM', likely an OCR error for 'JVM', and 'interpreter', which can be considered a supporting component. Based on the auditor's notes, the score is adjusted to 2."
+        },
+        {
+          "sub_question": "Q1.5",
+          "awarded_points": 3,
+          "justification": "The student correctly explained inheritance and polymorphism, meeting the rubric's criteria for full marks."
+        },
+        {
+          "sub_question": "Q1.6",
+          "awarded_points": 0,
+          "justification": "The student's answer focused on data hiding and protection, but did not clearly express the concept of binding/bundling code and data together, as required by the rubric."
+        },
+        {
+          "sub_question": "Q1.7",
+          "awarded_points": 3,
+          "justification": "The student correctly mentioned 'abstract classes' and 'interface', fulfilling the rubric's requirements."
+        },
+        {
+          "sub_question": "Q1.8",
+          "awarded_points": 3,
+          "justification": "The student provided three valid reasons for thread termination: task finished, unusual event, and no longer available, meeting the rubric's criteria."
+        },
+        {
+          "sub_question": "Q1.9",
+          "awarded_points": 3,
+          "justification": "The student correctly listed System.in, System.out, and System.err, fulfilling the rubric's requirements."
+        },
+        {
+          "sub_question": "Q1.10",
+          "awarded_points": 3,
+          "justification": "The student correctly identified AWT (Abstract Window Toolkit) as the API on which Java Swing was built, meeting the rubric's criteria."
+        }
+      ]
+    },
+    {
+      "question": "Q2",
+      "total_points": 15,
+      "sub_evaluations": [
+        {
+          "sub_question": "Q2.1",
+          "awarded_points": 3,
+          "justification": "The student correctly answered 'True', which matches the expected answer."
+        },
+        {
+          "sub_question": "Q2.2",
+          "awarded_points": 3,
+          "justification": "The student correctly answered 'False', which matches the expected answer."
+        },
+        {
+          "sub_question": "Q2.3",
+          "awarded_points": 3,
+          "justification": "The student correctly answered 'True', which matches the expected answer."
+        },
+        {
+          "sub_question": "Q2.4",
+          "awarded_points": 3,
+          "justification": "The student correctly answered 'False', which matches the expected answer."
+        },
+        {
+          "sub_question": "Q2.5",
+          "awarded_points": 0,
+          "justification": "The student answered 'False', but the expected answer is 'True'."
+        },
+        {
+          "sub_question": "Q2.6",
+          "awarded_points": 3,
+          "justification": "The student correctly answered 'True', which matches the expected answer."
+        },
+        {
+          "sub_question": "Q2.7",
+          "awarded_points": 0,
+          "justification": "The student answered 'True', but the expected answer is 'False'."
+        }
+      ]
+    },
+    {
+      "question": "Q3",
+      "total_points": 15,
+      "sub_evaluations": [
+        {
+          "sub_question": "Q3.1",
+          "awarded_points": 3,
+          "justification": "The answer 'adapt the environmental change and uses' matches the accepted term 'adapting to change'. Full marks awarded as per rubric."
+        },
+        {
+          "sub_question": "Q3.2",
+          "awarded_points": 3,
+          "justification": "The answer 'C' directly matches the accepted term 'C'. Full marks awarded."
+        },
+        {
+          "sub_question": "Q3.3",
+          "awarded_points": 3,
+          "justification": "The answer 'Data.' directly matches the accepted term 'data'. Full marks awarded."
+        },
+        {
+          "sub_question": "Q3.4",
+          "awarded_points": 3,
+          "justification": "The answer 'Applets -' directly matches the accepted term 'Applet'. Full marks awarded."
+        },
+        {
+          "sub_question": "Q3.5",
+          "awarded_points": 0,
+          "justification": "The answer 'Panel' does not match the accepted terms 'Container' or 'Frame'. No points awarded."
+        },
+        {
+          "sub_question": "Q3.6",
+          "awarded_points": 3,
+          "justification": "The answer 'Controller.' directly matches the accepted term 'Controller'. Full marks awarded."
+        },
+        {
+          "sub_question": "Q3.7",
+          "awarded_points": 0,
+          "justification": "The answer 'Data base manyal connectivity \"DBMC\"' does not match the accepted terms 'JDBC' or 'Java Database Connectivity'. No points awarded."
+        }
+      ]
+    },
+    {
+      "question": "Q4",
+      "total_points": 28,
+      "sub_evaluations": [
+        {
+          "sub_question": "Q4.1",
+          "awarded_points": 14,
+          "justification": "The rubric specifies that full marks are awarded regardless of the answer's content."
+        },
+        {
+          "sub_question": "Q4.2",
+          "awarded_points": 14,
+          "justification": "The student mentioned both 'calculateVotes' and 'totalVotes', which according to the rubric, warrants full marks. The QA review notes confirm that syntax issues should not affect the score as long as semantic intent is clear."
+        }
+      ]
+    }
+  ]
+}

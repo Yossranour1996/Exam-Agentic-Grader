@@ -1,0 +1,159 @@
+{
+  "total_mark": 59,
+  "evaluations": [
+    {
+      "question": "Q1",
+      "total_points": 15,
+      "sub_evaluations": [
+        {
+          "sub_question": "Q1.1",
+          "awarded_points": 3,
+          "justification": "The student correctly conveyed that Java is not restricted to a specific architecture, which aligns with the rubric's requirement."
+        },
+        {
+          "sub_question": "Q1.2",
+          "awarded_points": 3,
+          "justification": "The student provided a non-blank answer that does not mention Applet or Servlet, thus earning full marks as per the rubric."
+        },
+        {
+          "sub_question": "Q1.3",
+          "awarded_points": 3,
+          "justification": "The student correctly described POP as procedure-oriented and OOP as class/object-oriented, meeting the rubric's criteria."
+        },
+        {
+          "sub_question": "Q1.4",
+          "awarded_points": 0,
+          "justification": "The student did not provide an answer, resulting in 0 points as per the rubric."
+        },
+        {
+          "sub_question": "Q1.5",
+          "awarded_points": 0,
+          "justification": "The student did not provide an answer, resulting in 0 points as per the rubric."
+        },
+        {
+          "sub_question": "Q1.6",
+          "awarded_points": 0,
+          "justification": "The student did not provide an answer, resulting in 0 points as per the rubric."
+        },
+        {
+          "sub_question": "Q1.7",
+          "awarded_points": 3,
+          "justification": "The student correctly mentioned 'abstract classes and interfaces', fulfilling the rubric's requirement."
+        },
+        {
+          "sub_question": "Q1.8",
+          "awarded_points": 0,
+          "justification": "The student did not provide an answer, resulting in 0 points as per the rubric."
+        },
+        {
+          "sub_question": "Q1.9",
+          "awarded_points": 3,
+          "justification": "The student correctly identified the three default streams in Java, despite minor formatting issues, which are acceptable as per the rubric."
+        },
+        {
+          "sub_question": "Q1.10",
+          "awarded_points": 0,
+          "justification": "The student incorrectly identified the API as JDBC instead of AWT, resulting in 0 points as per the rubric."
+        }
+      ]
+    },
+    {
+      "question": "Q2",
+      "total_points": 12,
+      "sub_evaluations": [
+        {
+          "sub_question": "Q2.1",
+          "awarded_points": 3,
+          "justification": "The student correctly answered 'True', which matches the expected answer."
+        },
+        {
+          "sub_question": "Q2.2",
+          "awarded_points": 3,
+          "justification": "The student correctly answered 'False', which matches the expected answer."
+        },
+        {
+          "sub_question": "Q2.3",
+          "awarded_points": 3,
+          "justification": "The student correctly answered 'True', which matches the expected answer."
+        },
+        {
+          "sub_question": "Q2.4",
+          "awarded_points": 0,
+          "justification": "The student answered 'False', but incorrectly justified that runtime polymorphism can be achieved by method overloading, which is incorrect."
+        },
+        {
+          "sub_question": "Q2.5",
+          "awarded_points": 0,
+          "justification": "The student answered 'False', but the correct answer is 'True'. Abstract classes can contain non-abstract methods."
+        },
+        {
+          "sub_question": "Q2.6",
+          "awarded_points": 3,
+          "justification": "The student correctly answered 'True', which matches the expected answer."
+        },
+        {
+          "sub_question": "Q2.7",
+          "awarded_points": 0,
+          "justification": "The student answered 'True', but the correct answer is 'False'. There is not one JDBC driver for all database sources."
+        }
+      ]
+    },
+    {
+      "question": "Q3",
+      "total_points": 18,
+      "sub_evaluations": [
+        {
+          "sub_question": "Q3.1",
+          "awarded_points": 3,
+          "justification": "The answer 'To adapt to Changing environment and uses.' matches the accepted term 'adapting to change'. Full marks awarded as per rubric."
+        },
+        {
+          "sub_question": "Q3.2",
+          "awarded_points": 3,
+          "justification": "The answer 'C language.' directly matches the accepted concept 'C'. Full marks awarded."
+        },
+        {
+          "sub_question": "Q3.3",
+          "awarded_points": 3,
+          "justification": "The answer 'data.' directly matches the accepted concept 'data'. Full marks awarded."
+        },
+        {
+          "sub_question": "Q3.4",
+          "awarded_points": 3,
+          "justification": "The answer 'Aplet.' matches the accepted term 'Applet'. Full marks awarded."
+        },
+        {
+          "sub_question": "Q3.5",
+          "awarded_points": 3,
+          "justification": "The answer 'Frame.' directly matches the accepted concept 'Frame'. Full marks awarded."
+        },
+        {
+          "sub_question": "Q3.6",
+          "awarded_points": 0,
+          "justification": "The answer 'Control.' does not match the accepted term 'Controller'. No points awarded."
+        },
+        {
+          "sub_question": "Q3.7",
+          "awarded_points": 3,
+          "justification": "The answer 'JDBC.' directly matches the accepted concept 'JDBC'. Full marks awarded."
+        }
+      ]
+    },
+    {
+      "question": "Q4",
+      "total_points": 14,
+      "sub_evaluations": [
+        {
+          "sub_question": "Q4.1",
+          "awarded_points": 14,
+          "justification": "According to the rubric, Q4.1 always receives full marks regardless of the answer provided."
+        },
+        {
+          "sub_question": "Q4.2",
+          "awarded_points": 0,
+          "justification": "The answer is blank, and according to the rubric, a blank answer receives 0 points."
+        }
+      ]
+    }
+  ]
+}

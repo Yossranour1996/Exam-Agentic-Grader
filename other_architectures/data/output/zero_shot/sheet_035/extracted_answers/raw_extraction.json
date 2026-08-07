@@ -1,0 +1,26 @@
+[
+  {
+    "page": "page_01.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_02.png",
+    "text": ""
+  },
+  {
+    "page": "page_03.png",
+    "text": "Q 1\n1.1: Java is not restricted to a specific system\narchitecture\n1.2: Because it create the need for programs that\ncan be executed in different operating systems\nand system architectures\n1.3: POP use procedure code to operate on the data\nOOP use object and classes to Encapsulate Code\nand data\n1.4: JVM\n1.5: inheritance is an operation that let you creat classes\nand interfaces based on existing one and polymorphism\nis a feature that allows interface to be used in general\nclass actions\n1.6: it is a mechanism that bind the code and\nthe data it's manipulate\n1.7: abstract classes and interfaces\n1.8: 1- finish its task\n2- terminated due an unusual event\n3- dead or no longer available\n1.9:\nSystem.in , System.out , System.err\n1.10: JDBC"
+  },
+  {
+    "page": "page_04.png",
+    "text": "2.1: true\n2.2: False => it is not possible For an interface to implement\nanother interFace properties\n2.3: True\n2.4: False => runtime polymorphism could be achieved\nby method overriding\n2.5: true\n2.6: True\n2.7: True"
+  },
+  {
+    "page": "page_05.png",
+    "text": "3.1 : adapt changing envalironment and uses\n3.2 : C\n3.3 : Data\n3.4 : applet\n3.5 : Frame\n3.6 : Controle\n3.7 : JDBC"
+  },
+  {
+    "page": "page_06.png",
+    "text": "4.1 :\nseats [i] + \" you will take seat\" + i\n4.2 :\ndoubl numOFVotes = total Votes + 200 ;\nCalculate Votes"
+  }
+]

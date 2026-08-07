@@ -1,0 +1,8 @@
+1.- Adapt to changes.
+- Implement improvements on the art of programming.
+2. C Language "1970"
+3. Data Information.
+4. Applet
+5. Frame
+6. Model view controlled "MVC"
+7. Java Data Base connectivity "JDBC"

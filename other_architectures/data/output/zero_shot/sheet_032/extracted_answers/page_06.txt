@@ -1,0 +1,25 @@
+4.1
+Student [i] + "You will take seat" + (i)
+According to the out put:-
+Each student will take a seat with an index equals to the index
+written above.
+Student M was in index O and took seat O
+Student C was in index 1 and took seat 1
+Student G was in index 2 and took seat 2
+Student P was in index 3 and took seat 3
+Student D was in index 4 and took seat 4
+.. The missing is:
+Student [i] + "you will take seat" + (i)
+4.2
+The code above contains 760 votes from people.
+The code will print the statement:-
+① Statement "If Java was easy, they would call it python!"
+② The number of people agreeing with this statement
+It will Calculate the number of people agreeing by multiplying
+the total number of them by 15%.
+= 760 x 0.15 = 114
+∴ will print: "The number of people who agree with the
+Statement is 114.
+The missing code is:
+private String totalVotes
+private String totalVotes

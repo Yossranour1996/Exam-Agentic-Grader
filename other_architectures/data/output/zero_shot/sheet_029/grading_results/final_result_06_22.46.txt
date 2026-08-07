@@ -1,0 +1,121 @@
+Total Mark: 85
+
+Evaluations:
+Question: Q1
+Total Score: 27
+
+Sub-Question: Q1.1
+Score: 3
+Justification: The student correctly conveyed that Java is not restricted to a specific system architecture.
+
+Sub-Question: Q1.2
+Score: 3
+Justification: The student provided a nonblank answer that did not mention Applet or Servlet.
+
+Sub-Question: Q1.3
+Score: 3
+Justification: The student correctly explained the difference between POP and OOP, focusing on procedures and data for POP and objects for OOP.
+
+Sub-Question: Q1.4
+Score: 1
+Justification: The student mentioned JVM but did not mention libraries or supporting files.
+
+Sub-Question: Q1.5
+Score: 2
+Justification: The student correctly explained polymorphism but did not clearly explain inheritance.
+
+Sub-Question: Q1.6
+Score: 3
+Justification: The student correctly described encapsulation as binding code and data together.
+
+Sub-Question: Q1.7
+Score: 3
+Justification: The student correctly mentioned interface and abstract class as ways to achieve abstraction.
+
+Sub-Question: Q1.8
+Score: 3
+Justification: The student correctly mentioned three reasons a thread can terminate.
+
+Sub-Question: Q1.9
+Score: 3
+Justification: The student correctly identified System.in, System.out, and System.err as the three default streams in Java.
+
+Sub-Question: Q1.10
+Score: 3
+Justification: The student correctly identified AWT as the API on which Java Swing was built.
+
+
+Question: Q2
+Total Score: 15
+
+Sub-Question: Q2.1
+Score: 3
+Justification: The student correctly identified the statement as True.
+
+Sub-Question: Q2.2
+Score: 3
+Justification: The student correctly identified the statement as False.
+
+Sub-Question: Q2.3
+Score: 3
+Justification: The student correctly identified the statement as True.
+
+Sub-Question: Q2.4
+Score: 3
+Justification: The student correctly identified the statement as False.
+
+Sub-Question: Q2.5
+Score: 0
+Justification: The student incorrectly identified the statement as False.
+
+Sub-Question: Q2.6
+Score: 3
+Justification: The student correctly identified the statement as True.
+
+Sub-Question: Q2.7
+Score: 0
+Justification: The student incorrectly identified the statement as False.
+
+
+Question: Q3
+Total Score: 18
+
+Sub-Question: Q3.1
+Score: 3
+Justification: Full marks are awarded as per the rubric.
+
+Sub-Question: Q3.2
+Score: 3
+Justification: The student correctly identified C as an example of a POP language.
+
+Sub-Question: Q3.3
+Score: 0
+Justification: The student did not provide an answer.
+
+Sub-Question: Q3.4
+Score: 0
+Justification: The student did not provide an answer.
+
+Sub-Question: Q3.5
+Score: 3
+Justification: The student correctly identified Frame as a component that can contain elements such as buttons.
+
+Sub-Question: Q3.6
+Score: 3
+Justification: The student correctly identified Controller as part of the model-view-controller architecture.
+
+Sub-Question: Q3.7
+Score: 3
+Justification: The student correctly identified JDBC as the Java API for interacting with databases.
+
+
+Question: Q4
+Total Score: 25
+
+Sub-Question: Q4.1
+Score: 14
+Justification: Full marks are awarded as per the rubric.
+
+Sub-Question: Q4.2
+Score: 11
+Justification: The student mentioned 'numOfVotes' but did not clearly mention 'calculateVotes'.

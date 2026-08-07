@@ -1,0 +1,44 @@
+[
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q2",
+        "identified_errors": [
+          {
+            "sub_question": "Q2.5",
+            "description": "The student provided both 'False' and 'True' as answers, which is contradictory. The Grader awarded 3 points for 'True', but the rubric requires a single correct answer. This needs clarification."
+          },
+          {
+            "sub_question": "Q2.7",
+            "description": "The student answered 'True', but the rubric requires 'False' for full marks. The Grader correctly awarded 0 points."
+          }
+        ],
+        "summary": "Q2.5 contains a contradiction in the student's answer, which the Grader did not address. Q2.7 was graded correctly."
+      }
+    ]
+  },
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q2",
+        "identified_errors": [
+          {
+            "sub_question": "Q2.5",
+            "description": "The student provided both 'False' and 'True', but the rubric requires a single correct answer of 'True'. The Grader awarded 0 points, which is correct according to the rubric."
+          },
+          {
+            "sub_question": "Q2.7",
+            "description": "The student answered 'True', but the expected answer is 'False'. The Grader awarded 0 points, which is correct according to the rubric."
+          }
+        ],
+        "summary": "The grading for Q2.5 and Q2.7 is consistent with the rubric, but the justification for Q2.5 should have been clearer about the contradiction in the student's answer."
+      }
+    ]
+  },
+  {
+    "decision": "<NO_REGRADE>",
+    "audits": []
+  }
+]

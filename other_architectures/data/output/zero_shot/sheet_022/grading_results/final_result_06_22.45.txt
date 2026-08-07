@@ -1,0 +1,121 @@
+Total Mark: 82
+
+Evaluations:
+Question: Q1
+Total Score: 24
+
+Sub-Question: Q1.1
+Score: 3
+Justification: The student correctly conveyed that Java is not restricted to a specific system architecture.
+
+Sub-Question: Q1.2
+Score: 3
+Justification: The student provided a non-blank answer that did not mention Applet or Servlet.
+
+Sub-Question: Q1.3
+Score: 3
+Justification: The student correctly differentiated between POP and OOP in terms of code/data and class/object orientation.
+
+Sub-Question: Q1.4
+Score: 1
+Justification: The student mentioned JVM but did not mention libraries or supporting files.
+
+Sub-Question: Q1.5
+Score: 3
+Justification: The student correctly explained both inheritance and polymorphism.
+
+Sub-Question: Q1.6
+Score: 3
+Justification: The student correctly described encapsulation as binding data and code together.
+
+Sub-Question: Q1.7
+Score: 0
+Justification: The student did not mention abstract classes and interfaces.
+
+Sub-Question: Q1.8
+Score: 3
+Justification: The student provided three correct reasons for thread termination.
+
+Sub-Question: Q1.9
+Score: 3
+Justification: The student correctly identified System.in, System.out, and System.err.
+
+Sub-Question: Q1.10
+Score: 3
+Justification: The student correctly identified AWT as the API on which Java Swing was built.
+
+
+Question: Q2
+Total Score: 21
+
+Sub-Question: Q2.1
+Score: 3
+Justification: The student correctly chose True.
+
+Sub-Question: Q2.2
+Score: 3
+Justification: The student correctly chose False.
+
+Sub-Question: Q2.3
+Score: 3
+Justification: The student correctly chose True.
+
+Sub-Question: Q2.4
+Score: 3
+Justification: The student correctly chose False.
+
+Sub-Question: Q2.5
+Score: 3
+Justification: The student correctly chose True.
+
+Sub-Question: Q2.6
+Score: 3
+Justification: The student correctly chose True.
+
+Sub-Question: Q2.7
+Score: 3
+Justification: The student correctly chose False.
+
+
+Question: Q3
+Total Score: 18
+
+Sub-Question: Q3.1
+Score: 3
+Justification: Full marks are given regardless of the answer.
+
+Sub-Question: Q3.2
+Score: 3
+Justification: The student correctly identified C as an example of a POP language.
+
+Sub-Question: Q3.3
+Score: 3
+Justification: The student correctly identified 'data' as the answer.
+
+Sub-Question: Q3.4
+Score: 3
+Justification: The student correctly identified 'Applet' as the answer.
+
+Sub-Question: Q3.5
+Score: 3
+Justification: The student correctly identified 'frame' as the answer.
+
+Sub-Question: Q3.6
+Score: 0
+Justification: The student incorrectly identified 'control' instead of 'Controller'.
+
+Sub-Question: Q3.7
+Score: 3
+Justification: The student correctly identified 'JDBC' as the answer.
+
+
+Question: Q4
+Total Score: 19
+
+Sub-Question: Q4.1
+Score: 14
+Justification: Full marks are given regardless of the answer.
+
+Sub-Question: Q4.2
+Score: 5
+Justification: The answer was incorrect but mentioned 'vote', so 9 marks are given.

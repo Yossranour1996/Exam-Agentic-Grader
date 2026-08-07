@@ -1,0 +1,5 @@
+4.1 => Seats[i] + "you will take seat" + (i)
+because we need to define the printed output
+and it Contains the items of String[] Seats
+and their indexes.
+4.2 => Calculate Votes (total Votes);

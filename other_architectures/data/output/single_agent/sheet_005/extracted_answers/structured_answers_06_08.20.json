@@ -1,0 +1,128 @@
+{
+  "questions": [
+    {
+      "question": "Q1",
+      "sub_questions": [
+        {
+          "sub_question": "Q1.1",
+          "answer": "It's mean Java is not restricted to a spicific systems architecture"
+        },
+        {
+          "sub_question": "Q1.2",
+          "answer": "by platforms independence based to distribution program interpreted. (Java allow that) (aplat)"
+        },
+        {
+          "sub_question": "Q1.3",
+          "answer": "While POP has procedures (code) that operate in data to achieve the program good. but OOP uses a classes and Objects that encapsulate both Code and data. POP OOP code data code data"
+        },
+        {
+          "sub_question": "Q1.4",
+          "answer": "JRE (Java Running Engine) Components = - JVM - Byte Code"
+        },
+        {
+          "sub_question": "Q1.5",
+          "answer": "Inheritance is anew classes based existing on one's, and uses (methods and properties of that class Polymorphism features that allowed in one interface and used of a general. (Polymorphism is interface but inheritance is (create a new class))"
+        },
+        {
+          "sub_question": "Q1.6",
+          "answer": "encapsulation: is a mechanism to bind data and Code is together in manipulations, to be both safe for outside and misuse."
+        },
+        {
+          "sub_question": "Q1.7",
+          "answer": "two ways to achieve abstractions ① abstract classes ② interface"
+        },
+        {
+          "sub_question": "Q1.8",
+          "answer": "terminated due to three reasons: ① finished it's a task normally ② terminated due to unusual events ③ dead and no longer available"
+        },
+        {
+          "sub_question": "Q1.9",
+          "answer": "three default streams in Java: ① system.in ② system.out ③ system.err"
+        },
+        {
+          "sub_question": "Q1.10",
+          "answer": "Wendows interface."
+        }
+      ]
+    },
+    {
+      "question": "Q2",
+      "sub_questions": [
+        {
+          "sub_question": "Q2.1",
+          "answer": "true"
+        },
+        {
+          "sub_question": "Q2.2",
+          "answer": "False -> It is possible for an interface to inherit another interface's properties"
+        },
+        {
+          "sub_question": "Q2.3",
+          "answer": "true"
+        },
+        {
+          "sub_question": "Q2.4",
+          "answer": "False Runtime polymorphism could be achieved by method Overriding"
+        },
+        {
+          "sub_question": "Q2.5",
+          "answer": "true"
+        },
+        {
+          "sub_question": "Q2.6",
+          "answer": "true False Java threads are heavy weight threads"
+        },
+        {
+          "sub_question": "Q2.7",
+          "answer": "true"
+        }
+      ]
+    },
+    {
+      "question": "Q3",
+      "sub_questions": [
+        {
+          "sub_question": "Q3.1",
+          "answer": "OOP"
+        },
+        {
+          "sub_question": "Q3.2",
+          "answer": "C programming language"
+        },
+        {
+          "sub_question": "Q3.3",
+          "answer": "data"
+        },
+        {
+          "sub_question": "Q3.4",
+          "answer": "aplet"
+        },
+        {
+          "sub_question": "Q3.5",
+          "answer": "Container"
+        },
+        {
+          "sub_question": "Q3.6",
+          "answer": "[UNK] controller"
+        },
+        {
+          "sub_question": "Q3.7",
+          "answer": "(JDBC) Java Data Bases Connectly"
+        }
+      ]
+    },
+    {
+      "question": "Q4",
+      "sub_questions": [
+        {
+          "sub_question": "Q4.1",
+          "answer": "Code: Seats[i]+\"You will take seat.\" + (4-i)"
+        },
+        {
+          "sub_question": "Q4.2",
+          "answer": "Code: X = new calculate Votes (total Votes); calculate Votes (780);"
+        }
+      ]
+    }
+  ]
+}

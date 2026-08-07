@@ -1,0 +1,128 @@
+{
+  "questions": [
+    {
+      "question": "Q1",
+      "sub_questions": [
+        {
+          "sub_question": "Q1.1",
+          "answer": "It is mean Java is not restricted specific response architecture."
+        },
+        {
+          "sub_question": "Q1.2",
+          "answer": "[NO_ANSWER]"
+        },
+        {
+          "sub_question": "Q1.3",
+          "answer": "POP And is producer (code) only not with Labo oop it take important code and data together OOP pop Code data Code data Code Code Code data data data Code Code Code data data data Code Code data data data"
+        },
+        {
+          "sub_question": "Q1.4",
+          "answer": "[NO_ANSWER]"
+        },
+        {
+          "sub_question": "Q1.5",
+          "answer": "The Inheritance =- Create new classe bebase on exsitang one. polymorphism- it is mean having many formes -"
+        },
+        {
+          "sub_question": "Q1.6",
+          "answer": "encapsulation it is mean warning up of data to use - (method, fields)."
+        },
+        {
+          "sub_question": "Q1.7",
+          "answer": "1-"
+        },
+        {
+          "sub_question": "Q1.8",
+          "answer": "if the Thread finished it task normaly dead"
+        },
+        {
+          "sub_question": "Q1.9",
+          "answer": "stream-in stream-out stream-err"
+        },
+        {
+          "sub_question": "Q1.10",
+          "answer": "[NO_ANSWER]"
+        }
+      ]
+    },
+    {
+      "question": "Q2",
+      "sub_questions": [
+        {
+          "sub_question": "Q2.1",
+          "answer": "true"
+        },
+        {
+          "sub_question": "Q2.2",
+          "answer": "true"
+        },
+        {
+          "sub_question": "Q2.3",
+          "answer": "true"
+        },
+        {
+          "sub_question": "Q2.4",
+          "answer": "false"
+        },
+        {
+          "sub_question": "Q2.5",
+          "answer": "false"
+        },
+        {
+          "sub_question": "Q2.6",
+          "answer": "true"
+        },
+        {
+          "sub_question": "Q2.7",
+          "answer": "false"
+        }
+      ]
+    },
+    {
+      "question": "Q3",
+      "sub_questions": [
+        {
+          "sub_question": "Q3.1",
+          "answer": "To adapt to changing environment and users."
+        },
+        {
+          "sub_question": "Q3.2",
+          "answer": "C language"
+        },
+        {
+          "sub_question": "Q3.3",
+          "answer": "data"
+        },
+        {
+          "sub_question": "Q3.4",
+          "answer": "[NO_ANSWER]"
+        },
+        {
+          "sub_question": "Q3.5",
+          "answer": "[NO_ANSWER]"
+        },
+        {
+          "sub_question": "Q3.6",
+          "answer": "[NO_ANSWER]"
+        },
+        {
+          "sub_question": "Q3.7",
+          "answer": "[NO_ANSWER]"
+        }
+      ]
+    },
+    {
+      "question": "Q4",
+      "sub_questions": [
+        {
+          "sub_question": "Q4.1",
+          "answer": "for looking for output we see miss the method print name of seat and the words \"you will take seat\". Next the definition of seat The method it will be let user intering the sheet The Solutions - Scanner seat = new Scanner (Scanner.in); exam seat; print system Scanner exam seat = str.nextLine(); system.out.prin(\"you will take seat\"); System.out.println(\"you will take seat\" + (int)i);"
+        },
+        {
+          "sub_question": "Q4.2",
+          "answer": "The method defines here solution"
+        }
+      ]
+    }
+  ]
+}

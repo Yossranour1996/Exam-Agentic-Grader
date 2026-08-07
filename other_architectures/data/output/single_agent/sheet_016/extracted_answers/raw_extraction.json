@@ -1,0 +1,26 @@
+[
+  {
+    "page": "page_01.png",
+    "text": ""
+  },
+  {
+    "page": "page_02.png",
+    "text": ""
+  },
+  {
+    "page": "page_03.png",
+    "text": "1.1 Java program is not tied to a specific machine\nor operating system\n1.2 by providing access to critical mass Of Information\n1.3 In oop the major emphasis is on data whereas in pop\nthe major emphasis is on the procedure \"function\"\n1.5 inheritance is the creation of new classes based on the existing\nones & the new class can take the fields & methods of the parent\nclass, whereas polymorphism is a feature that allows one Interface\nto be used in multiple classes or actions.\n1.6 Encapsulation A mechanism that binds together the code &\ndata it manipulates & prevents it from being accessed by another\nInterface or mis use.\n1.7 through Interfaces or abstract classes\n1.8 1. No action occurs 2. dead or no longer available\n3. Due to unusual events\n1.9 1. System.in 2. System.out 3 System.err\n1.10 Applet"
+  },
+  {
+    "page": "page_04.png",
+    "text": "2-1 \"true\"\n2-2 \"true\"\n2-3 \"true\"\n2-4 \"False\" achieved by method overriding\n2-5 \"False\" have an abstract method with then\n2-6 \"true\"\n2-7 \"False\" two database drivers"
+  },
+  {
+    "page": "page_05.png",
+    "text": "3.1 implement new refinements & improvements in the art of\nprogramming\n3-2 C\n3-3 The Data\n3-4 Applet\n3-5 Frame\n3-6 Controller\n3.7 JDBC (Java Database Connectivity)"
+  },
+  {
+    "page": "page_06.png",
+    "text": "4. 1\nsystem.out.println (seats[i] + \", \" + \"You will take\nseat \" + i);\nseats [i] Access The array elements\nthrough the index\n& i is the loop iterator which starts from zero & stop\nat 4\". it will not include \"5\" the array length because of\nless than operator.\n4. 2\ncalculateVotes (totalVotes) ;\nby Calling the \"calculateVotes\" function & passing the\nparameter \"totalVotes\"."
+  }
+]

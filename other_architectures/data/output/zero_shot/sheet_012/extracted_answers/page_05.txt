@@ -1,0 +1,18 @@
+1- TRUE
+2- FALSE (Possible)
+3- TRUE
+4- FALSE
+5- TRUE
+6- TRUE
+7- FALSE
+1- need of Solving Problems
+2- C
+3- data
+4- Abstraction
+5- container
+6- controller
+7- JDBC
+Student[i]+", you will take a seat" +
+Cstudent.length-i-1]
+Student[i]+" you will take a Seat" +(4-i)
+Q5 Private String id;

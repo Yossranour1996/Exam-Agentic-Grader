@@ -1,0 +1,136 @@
+Final Grading and Feedback Results
+Grading:
+
+Total Mark: 68
+
+Evaluations:
+"Question: Q1
+Total Points: 23
+
+Sub-Question: Q1.1
+Awarded Points: 3
+Justification: The student conveyed that Java does not depend on a specific architecture, which aligns with the concept of being architecture-neutral.
+
+Sub-Question: Q1.2
+Awarded Points: 3
+Justification: The student provided a non-blank answer that does not mention Applets or Servlets, thus meeting the rubric criteria.
+
+Sub-Question: Q1.3
+Awarded Points: 3
+Justification: The student correctly identified that POP focuses on functions and OOP focuses on data and access, which aligns with the expected distinction between POP and OOP.
+
+Sub-Question: Q1.4
+Awarded Points: 3
+Justification: The student mentioned JVM and libraries, which are two components of the JRE, and also referred to the process handling, which can be interpreted as supporting files. This earns full marks.
+
+Sub-Question: Q1.5
+Awarded Points: 2
+Justification: The student correctly described inheritance but provided an unclear explanation for polymorphism. Thus, partial credit is awarded.
+
+Sub-Question: Q1.6
+Awarded Points: 0
+Justification: The student's answer did not convey the concept of binding code and data together, which is essential for encapsulation.
+
+Sub-Question: Q1.7
+Awarded Points: 3
+Justification: The student mentioned abstract classes and interfaces, which are the two ways to achieve abstraction.
+
+Sub-Question: Q1.8
+Awarded Points: 3
+Justification: The student provided three valid reasons for thread termination: finished, interrupted by unusual actions, and dead.
+
+Sub-Question: Q1.9
+Awarded Points: 3
+Justification: The student correctly listed System.in, System.out, and System.err, which are the three default streams in Java.
+
+Sub-Question: Q1.10
+Awarded Points: 0
+Justification: The student did not provide an answer for this question.
+
+
+"Question: Q2
+Total Points: 15
+
+Sub-Question: Q2.1
+Awarded Points: 3
+Justification: The student correctly identified the statement as True.
+
+Sub-Question: Q2.2
+Awarded Points: 3
+Justification: The student correctly identified the statement as False.
+
+Sub-Question: Q2.3
+Awarded Points: 3
+Justification: The student correctly identified the statement as True.
+
+Sub-Question: Q2.4
+Awarded Points: 3
+Justification: The student correctly identified the statement as False.
+
+Sub-Question: Q2.5
+Awarded Points: 3
+Justification: The student correctly identified the statement as True.
+
+Sub-Question: Q2.6
+Awarded Points: 0
+Justification: The student incorrectly identified the statement as False. The correct answer is True.
+
+Sub-Question: Q2.7
+Awarded Points: 0
+Justification: The student incorrectly identified the statement as True. The correct answer is False.
+
+
+"Question: Q3
+Total Points: 9
+
+Sub-Question: Q3.1
+Awarded Points: 3
+Justification: The rubric specifies that Q3.1 should always receive full marks regardless of the answer.
+
+Sub-Question: Q3.2
+Awarded Points: 3
+Justification: The answer 'the Language C' matches the accepted term 'C' as per the rubric.
+
+Sub-Question: Q3.3
+Awarded Points: 0
+Justification: The answer 'dose does not allow functions' does not match the accepted term 'data'.
+
+Sub-Question: Q3.4
+Awarded Points: 0
+Justification: The answer 'interface' does not match the accepted term 'Applet' or 'Applets'.
+
+Sub-Question: Q3.5
+Awarded Points: 0
+Justification: The answer 'controller.' does not match the accepted terms 'Container' or 'Frame'.
+
+Sub-Question: Q3.6
+Awarded Points: 0
+Justification: The answer 'interface' does not match the accepted term 'Controller'. This correction aligns with the QA review notes.
+
+Sub-Question: Q3.7
+Awarded Points: 3
+Justification: The answer 'JDBC (Java Database connector)' matches the accepted term 'JDBC'.
+
+
+"Question: Q4
+Total Points: 21
+
+Sub-Question: Q4.1
+Awarded Points: 14
+Justification: The rubric specifies that full marks are awarded for this sub-question regardless of the answer provided.
+
+Sub-Question: Q4.2
+Awarded Points: 7
+Justification: The student's answer is nonblank but unrelated to votes. The rubric specifies awarding 7 points in such cases.
+
+--------------------------------------------------------------------------------
+
+Feedback:
+
+Positive Highlights:
+- <NO_FEEDBACK>
+
+Areas for Improvement:
+- <NO_FEEDBACK>
+
+<NO_FEEDBACK>

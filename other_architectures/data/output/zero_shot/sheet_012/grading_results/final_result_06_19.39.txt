@@ -1,0 +1,121 @@
+Total Mark: 78
+
+Evaluations:
+Question: Q1
+Total Score: 21
+
+Sub-Question: Q1.1
+Score: 3
+Justification: The student conveyed that Java is not restricted to a specific system, which aligns with the idea of architecture-neutral.
+
+Sub-Question: Q1.2
+Score: 3
+Justification: The answer is nonblank and does not mention Applet or Servlet, so it is accepted.
+
+Sub-Question: Q1.3
+Score: 3
+Justification: The student correctly described POP as data-oriented and OOP as class-oriented.
+
+Sub-Question: Q1.4
+Score: 0
+Justification: The answer does not mention JVM, libraries, or supporting files.
+
+Sub-Question: Q1.5
+Score: 2
+Justification: The student correctly described inheritance but did not clearly explain polymorphism.
+
+Sub-Question: Q1.6
+Score: 3
+Justification: The student expressed the idea of binding code and data together, which is encapsulation.
+
+Sub-Question: Q1.7
+Score: 3
+Justification: The student mentioned abstract classes and interfaces, which are correct.
+
+Sub-Question: Q1.8
+Score: 3
+Justification: The student provided three valid reasons for thread termination.
+
+Sub-Question: Q1.9
+Score: 3
+Justification: The student correctly listed System.in, System.out, and System.err.
+
+Sub-Question: Q1.10
+Score: 0
+Justification: The answer does not mention AWT or Abstract Window Toolkit.
+
+
+Question: Q2
+Total Score: 21
+
+Sub-Question: Q2.1
+Score: 3
+Justification: The student correctly chose True.
+
+Sub-Question: Q2.2
+Score: 3
+Justification: The student correctly chose False.
+
+Sub-Question: Q2.3
+Score: 3
+Justification: The student correctly chose True.
+
+Sub-Question: Q2.4
+Score: 3
+Justification: The student correctly chose False.
+
+Sub-Question: Q2.5
+Score: 3
+Justification: The student correctly chose True.
+
+Sub-Question: Q2.6
+Score: 3
+Justification: The student correctly chose True.
+
+Sub-Question: Q2.7
+Score: 3
+Justification: The student correctly chose False.
+
+
+Question: Q3
+Total Score: 18
+
+Sub-Question: Q3.1
+Score: 3
+Justification: Always full marks.
+
+Sub-Question: Q3.2
+Score: 3
+Justification: The student correctly answered C.
+
+Sub-Question: Q3.3
+Score: 3
+Justification: The student correctly answered data.
+
+Sub-Question: Q3.4
+Score: 0
+Justification: The student answered Abstraction, which is incorrect.
+
+Sub-Question: Q3.5
+Score: 3
+Justification: The student correctly answered container.
+
+Sub-Question: Q3.6
+Score: 3
+Justification: The student correctly answered controller.
+
+Sub-Question: Q3.7
+Score: 3
+Justification: The student correctly answered JDBC.
+
+
+Question: Q4
+Total Score: 18
+
+Sub-Question: Q4.1
+Score: 14
+Justification: Always full marks.
+
+Sub-Question: Q4.2
+Score: 4
+Justification: The answer is blank, so 0 marks.

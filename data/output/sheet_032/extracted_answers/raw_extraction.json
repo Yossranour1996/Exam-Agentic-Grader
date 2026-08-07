@@ -1,0 +1,42 @@
+[
+  {
+    "page": "page_01.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_02.png",
+    "text": "1.1\nIt means that Java does not reject working on specific\narchitectural devices. So, it can work in any architectural environment\nor device.\n1.2\nIt derived to the innovation of more programming languages like\nC++ which was invented after C with more features.\nSo the programming revolution was fixing and meeting some of\nthe world wide web and internet needs.\n1.3\nPOP has procedures that operates on data to achieve the program\ngoal.\nWhile OOP uses classes and objects that encapsulate code and\ndata.\n1.4\nJRE is the Java run time environment which offers and environment\nto run the program.\nIt contains the JVM (Java Virtual machine which works as\na runtime engine to run Java applications and also known as an\ninterpreter.\n1.5\nInheritance is the Mechanism that allows a class to acquire properties\nfrom of another class that already existed.\nPolymorphism is the mechanism that allows one interface to work\nfor general class of actions."
+  },
+  {
+    "page": "page_03.png",
+    "text": "1.6:\nEncapsulation is the mechanism that binds both code and data it\nmanipulates and keeps them safe and secure.\n1.7\nTwo ways to achieve abstractions:\n① Class abstract\n② Interfaces abstract.\n1.8\nA thread could be terminated due:\n① IF it completedits task completely.\n② Stopped because of unusual events.\n③ lost Turned off and stopped\n1.9\nThree default streams in Java:\n① System.i\n② System.o\n③ System.err\n1.10\nJDBC to connect and interact with database."
+  },
+  {
+    "page": "page_04.png",
+    "text": "2.1 True\n2.2 True\n2.3 True\n2.4 False\nRuntime polymorphism could not be achieved by method overloading\n2.5 False\nAbstracts could not have non abstracts method within them\n2.6 True\n2.7 True"
+  },
+  {
+    "page": "page_05.png",
+    "text": "3.1 Improvement\n3.2 C programming language.\n3.3 data.\n3.4 Applet\n3.5 Container\n3.6 Controller\n3.7 JDBC"
+  },
+  {
+    "page": "page_06.png",
+    "text": "4.1\nStudent [i] + \"You will take seat\" + (i)\nAccording to the out put:-\nEach student will take a seat with an index equals to the index\nwritten above.\nStudent M was in index O and took seat O\nStudent C was in index 1 and took seat 1\nStudent G was in index 2 and took seat 2\nStudent P was in index 3 and took seat 3\nStudent D was in index 4 and took seat 4\n.. The missing is:\nStudent [i] + \"you will take seat\" + (i)\n4.2\nThe code above contains 760 votes from people.\nThe code will print the statement:-\n① Statement \"If Java was easy, they would call it python!\"\n② The number of people agreeing with this statement\nIt will Calculate the number of people agreeing by multiplying\nthe total number of them by 15%.\n= 760 x 0.15 = 114\n∴ will print: \"The number of people who agree with the\nStatement is 114.\nThe missing code is:\nprivate String totalVotes\nprivate String totalVotes"
+  },
+  {
+    "page": "page_07.png",
+    "text": ""
+  },
+  {
+    "page": "page_08.png",
+    "text": ""
+  },
+  {
+    "page": "page_09.png",
+    "text": ""
+  },
+  {
+    "page": "page_10.png",
+    "text": ""
+  }
+]

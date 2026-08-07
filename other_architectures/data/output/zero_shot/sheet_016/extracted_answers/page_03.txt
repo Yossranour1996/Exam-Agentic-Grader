@@ -1,0 +1,17 @@
+1.1 Java program is not tied to a specific machine
+or operating system
+1.2 by providing access to critical mass Of Information
+1.3 In oop the major emphasis is on data whereas in pop
+the major emphasis is on the procedure "function"
+1.5 inheritance is the creation of new classes based on the existing
+ones & the new class can take the fields & methods of the parent
+class, whereas polymorphism is a feature that allows one Interface
+to be used in multiple classes or actions.
+1.6 Encapsulation A mechanism that binds together the code &
+data it manipulates & prevents it from being accessed by another
+Interface or mis use.
+1.7 through Interfaces or abstract classes
+1.8 1. No action occurs 2. dead or no longer available
+3. Due to unusual events
+1.9 1. System.in 2. System.out 3 System.err
+1.10 Applet

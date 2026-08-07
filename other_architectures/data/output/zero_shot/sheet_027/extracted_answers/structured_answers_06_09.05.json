@@ -1,0 +1,128 @@
+{
+  "questions": [
+    {
+      "question": "Q1",
+      "sub_questions": [
+        {
+          "sub_question": "Q1.1",
+          "answer": "It doesn't need any external architecture System."
+        },
+        {
+          "sub_question": "Q1.2",
+          "answer": "It needs to be used in different devices with different characteristics, so there was a deep need to find a language that is secure and could be used in web in different devices."
+        },
+        {
+          "sub_question": "Q1.3",
+          "answer": "OOP is encapsulate code and data together pop is procedure the code over data"
+        },
+        {
+          "sub_question": "Q1.4",
+          "answer": "[NO_ANSWER]"
+        },
+        {
+          "sub_question": "Q1.5",
+          "answer": "Inheritance is the feature that allows a class to take any other class field attributes objects polymorphism is the feature that allows to reuse the particular code in different data type without any modifying."
+        },
+        {
+          "sub_question": "Q1.6",
+          "answer": "Encapsulation is to combine data and code together to keep them away from interference and misuses."
+        },
+        {
+          "sub_question": "Q1.7",
+          "answer": "① Class Abstraction classes ② Abstraction interfaces"
+        },
+        {
+          "sub_question": "Q1.8",
+          "answer": "① done its work ② Unusual event ③ dead or not found"
+        },
+        {
+          "sub_question": "Q1.9",
+          "answer": "① System.in ② System.out ③ System.err"
+        },
+        {
+          "sub_question": "Q1.10",
+          "answer": "[NO_ANSWER]"
+        }
+      ]
+    },
+    {
+      "question": "Q2",
+      "sub_questions": [
+        {
+          "sub_question": "Q2.1",
+          "answer": "true"
+        },
+        {
+          "sub_question": "Q2.2",
+          "answer": "true"
+        },
+        {
+          "sub_question": "Q2.3",
+          "answer": "true"
+        },
+        {
+          "sub_question": "Q2.4",
+          "answer": "false / could be achieved by method overriding"
+        },
+        {
+          "sub_question": "Q2.5",
+          "answer": "false / should have abstract methods within the"
+        },
+        {
+          "sub_question": "Q2.6",
+          "answer": "true"
+        },
+        {
+          "sub_question": "Q2.7",
+          "answer": "true"
+        }
+      ]
+    },
+    {
+      "question": "Q3",
+      "sub_questions": [
+        {
+          "sub_question": "Q3.1",
+          "answer": "Adapting to changing [UNK] and uses."
+        },
+        {
+          "sub_question": "Q3.2",
+          "answer": "C"
+        },
+        {
+          "sub_question": "Q3.3",
+          "answer": "Compiler"
+        },
+        {
+          "sub_question": "Q3.4",
+          "answer": "Servlet"
+        },
+        {
+          "sub_question": "Q3.5",
+          "answer": "Java Api"
+        },
+        {
+          "sub_question": "Q3.6",
+          "answer": "Read"
+        },
+        {
+          "sub_question": "Q3.7",
+          "answer": "Servlet"
+        }
+      ]
+    },
+    {
+      "question": "Q4",
+      "sub_questions": [
+        {
+          "sub_question": "Q4.1",
+          "answer": "System.out.println(Seats[i] + \", You will take Seat\" + i); The code will print each element in the Seats array one by one, starting from 0 to seats.length-1"
+        },
+        {
+          "sub_question": "Q4.2",
+          "answer": "CalculateVotes (totalVotes) CalculateVotes ((double) totalVotes); The execute ( CalculateVotes (1)) Eatss class we must call it in the main section and passing the value of (num of votes) between its parenthesis."
+        }
+      ]
+    }
+  ]
+}

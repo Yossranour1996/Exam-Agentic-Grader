@@ -1,0 +1,121 @@
+Total Mark: 88
+
+Evaluations:
+Question: Q1
+Total Score: 27
+
+Sub-Question: Q1.1
+Score: 3
+Justification: The student correctly conveyed that Java can work on different architectures and platforms.
+
+Sub-Question: Q1.2
+Score: 0
+Justification: The answer mentioned 'Applet', which is not allowed according to the rubric.
+
+Sub-Question: Q1.3
+Score: 3
+Justification: The student correctly differentiated between OOP and POP, mentioning objects/classes and procedures/functions.
+
+Sub-Question: Q1.4
+Score: 2
+Justification: The student mentioned JVM and libraries but did not clearly mention supporting files.
+
+Sub-Question: Q1.5
+Score: 3
+Justification: The student correctly explained both inheritance and polymorphism.
+
+Sub-Question: Q1.6
+Score: 3
+Justification: The student correctly described encapsulation as binding code and data together.
+
+Sub-Question: Q1.7
+Score: 3
+Justification: The student correctly mentioned abstract classes and interfaces.
+
+Sub-Question: Q1.8
+Score: 3
+Justification: The student provided three correct reasons for thread termination.
+
+Sub-Question: Q1.9
+Score: 3
+Justification: The student correctly listed System.in, System.out, and System.err.
+
+Sub-Question: Q1.10
+Score: 3
+Justification: The student correctly identified AWT as the API on which Java Swing was built.
+
+
+Question: Q2
+Total Score: 18
+
+Sub-Question: Q2.1
+Score: 3
+Justification: The student correctly answered True.
+
+Sub-Question: Q2.2
+Score: 3
+Justification: The student correctly answered False.
+
+Sub-Question: Q2.3
+Score: 3
+Justification: The student correctly answered True.
+
+Sub-Question: Q2.4
+Score: 3
+Justification: The student correctly answered False.
+
+Sub-Question: Q2.5
+Score: 0
+Justification: The student incorrectly answered False; the correct answer is True.
+
+Sub-Question: Q2.6
+Score: 3
+Justification: The student correctly answered True.
+
+Sub-Question: Q2.7
+Score: 3
+Justification: The student correctly answered False.
+
+
+Question: Q3
+Total Score: 21
+
+Sub-Question: Q3.1
+Score: 3
+Justification: Full marks are given as per the rubric.
+
+Sub-Question: Q3.2
+Score: 3
+Justification: The student correctly answered 'C Language'.
+
+Sub-Question: Q3.3
+Score: 3
+Justification: The student correctly answered 'Data'.
+
+Sub-Question: Q3.4
+Score: 3
+Justification: The student correctly answered 'Applet'.
+
+Sub-Question: Q3.5
+Score: 3
+Justification: The student correctly answered 'Frame'.
+
+Sub-Question: Q3.6
+Score: 0
+Justification: The student incorrectly answered 'controlled'; the correct answer is 'Controller'.
+
+Sub-Question: Q3.7
+Score: 3
+Justification: The student correctly answered 'Java Data Base connectivity'.
+
+
+Question: Q4
+Total Score: 22
+
+Sub-Question: Q4.1
+Score: 14
+Justification: Full marks are given as per the rubric.
+
+Sub-Question: Q4.2
+Score: 8
+Justification: The answer was incorrect but mentioned 'vote', so 9 marks are awarded.

@@ -1,0 +1,26 @@
+[
+  {
+    "page": "page_01.png",
+    "text": ""
+  },
+  {
+    "page": "page_02.png",
+    "text": ""
+  },
+  {
+    "page": "page_03.png",
+    "text": "1. It means that Java is not represented to\na spesific system\n2- It participated by holding the programming\nlanguages inside the network. and created Java\n3- POP uses the data oprate (codes) to achieve\nprogram goal, OOP interacts withe the classes\nand enrasulate it with code and data\n= code\n= data\nCode\nDat\n4- develop enviroment\n  run [UNK] execute the code\n5- inheritance means create class over exsisting\none, polymorphism means interacting only\nonce withe the class"
+  },
+  {
+    "page": "page_04.png",
+    "text": "6. Expect encapsulation is to ban between\ncode and data , also manipulate them and\nprotect it and keep it safe-\n7- abstract classes and interface\n8. do-perform normally\nterminated due unusual events\ndead and no longer available\n9. System.in\nSystem.out\nSystem.err\n10. built on multilayer system architecture\nJDBC JPBC"
+  },
+  {
+    "page": "page_05.png",
+    "text": "1- TRUE\n2- FALSE (Possible)\n3- TRUE\n4- FALSE\n5- TRUE\n6- TRUE\n7- FALSE\n1- need of Solving Problems\n2- C\n3- data\n4- Abstraction\n5- container\n6- controller\n7- JDBC\nStudent[i]+\", you will take a seat\" +\nCstudent.length-i-1]\nStudent[i]+\" you will take a Seat\" +(4-i)\nQ5 Private String id;"
+  },
+  {
+    "page": "page_06.png",
+    "text": ""
+  }
+]

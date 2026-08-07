@@ -1,0 +1,42 @@
+[
+  {
+    "page": "page_01.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_02.png",
+    "text": "1.1) It means that Java is not restricted by a specific\nsystem architecture.\n1.2) WWW provided a better overall environment for developing\nprograms, introduced new uses for programming, made the\nshortcomings of early programming languages more prominent\nand allow worldwide collective effort to solve them.\n1.3) POP uses procedure (code) to act on data to achieve\nthe program goal. OOP uses classes and objects to\nencapsulate both code and data.\n1.4) Java Virtual Machine (JVM) which acts as a\nrun time engine to execute Java applications (interpreter)\n& Java compiler (javac).\n1.5) Inheritance is the process by which one object acquires\nthe properties of another object. This is important because\nit allows heirarchical classification.\npolymorphism (Greek for \"many forms\") is the feature that\nallows an interface to be used for a general set of actions.\nThe specific action is determined by the exact nature\nof the situation.\n1.6) Encapsulation is the mechanism that binds code\nand data, and protects both from outside interference\nor misuse.\n1.7) abstraction of class and interface\n1.8) a) The thread finished its task normally\nb) The thread was terminated due to unusual events.\nc) The thread is dead or no longer available."
+  },
+  {
+    "page": "page_03.png",
+    "text": "1.9 System.in, System.out and System.err\n1.10 on the model-view -controller architecture"
+  },
+  {
+    "page": "page_04.png",
+    "text": "string private id;\n2.1 True\n2.2 True\n2.3 True\n2.4 False\n2.5 True\n2.6 True\n2.7 False"
+  },
+  {
+    "page": "page_05.png",
+    "text": "3.1) Implementing improvements to the art of\nprogramming,\nand, adapting to changes in environment and uses.\n3.2) C programming language\n3.3) Procedures\n3.4)\n3.5) Frame\n3.6) controller\n3.7) Java DataBase Connectivity (JDBC)"
+  },
+  {
+    "page": "page_06.png",
+    "text": "4.1\nseats[i] + \", you will take seat \" + i\nexplanations element orders in arrays start from 0,\ni starts from 0 up to 4 because seats.length = 5,\nand each member of the array is assigned their array\norder in the output.\n4.2.1\ndouble numOFVotes = (double) totalVotes;\nexplanations: totalVotes is defined as int value, but the\ninput to calculateVotes is defined as double, so we\nneed to define the total number of votes in the double\ntype."
+  },
+  {
+    "page": "page_07.png",
+    "text": ""
+  },
+  {
+    "page": "page_08.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_09.png",
+    "text": ""
+  },
+  {
+    "page": "page_10.png",
+    "text": ""
+  }
+]

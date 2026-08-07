@@ -1,0 +1,27 @@
+1.1) It does not rely on one architecture
+only, and you can write Java code once
+and run it everywhere thanks to the JVM
+1.2) it was a new and fast way to connect
+between devices and created a whole
+new ecosystem including browsers which
+required new technologies to work with like
+Java applets. also the need for language that run
+in every computer architecture.
+1.3) OOP stands for Object Oriented
+Programming. which focused on data and its
+structure more than the functions (procedures)
+POP stands for procedural Oriented Programming
+which focused more in the functions instead of
+data. Thus it wasn't good enough when project
+scales and become more complex.
+1.4) JRE: Java Runtime Environment.
+it has 2 main components:
+1- JVM: which execute Java bytecode
+2- a set of classes and libraries required
+by Java program. for example: Scanner
+class is a class offered by the JRE
+1.5) inheritance is the process where one class
+obtain all data (like fields and functions) from another
+class and extend it.
+polymorphism is the ability to interact with a
+class without needing to specify the imp

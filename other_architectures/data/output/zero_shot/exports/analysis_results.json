@@ -1,0 +1,37 @@
+{
+  "mean_absolute_error": 8.28,
+  "root_mean_squared_error": 9.35,
+  "exact_match": "0.00%",
+  "within_3_points": "12.50%",
+  "within_5_points": "32.50%",
+  "within_10_points": "70.00%",
+  "grade_agreement(±5)": "32.50%",
+  "cohen_kappa": 0.41,
+  "grade_range_stats": {
+    "F": {
+      "MAE": NaN,
+      "Error Variance": NaN,
+      "Sample Size": 0
+    },
+    "D": {
+      "MAE": NaN,
+      "Error Variance": NaN,
+      "Sample Size": 0
+    },
+    "C": {
+      "MAE": NaN,
+      "Error Variance": NaN,
+      "Sample Size": 0
+    },
+    "B": {
+      "MAE": 6.82,
+      "Error Variance": 13.56,
+      "Sample Size": 11
+    },
+    "A": {
+      "MAE": 8.83,
+      "Error Variance": 21.15,
+      "Sample Size": 29
+    }
+  }
+}

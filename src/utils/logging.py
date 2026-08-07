@@ -1,3 +1,4 @@
+# src/utils/logging.py
 """Per-run logging with readable LLM message traces."""
 
 import logging
@@ -11,6 +12,10 @@ class Logger:
     levels = {"info": logging.INFO, "warning": logging.WARNING, "error": logging.ERROR, "debug": logging.DEBUG}
 
     def __init__(self, path: str | Path):
+        """
+        A simple logger that writes log entries to a specified file with timestamps and severity levels.
+        It also provides methods to log sequences of messages and retrieve formatted message logs.
+        """
         log_path = Path(path)
         log_path.parent.mkdir(parents=True, exist_ok=True)
         self.logger = logging.getLogger(str(log_path.resolve()))
@@ -22,6 +27,14 @@ class Logger:
         self.logger.addHandler(handler)
 
     def log(self, entry: str, level: Literal["info", "warning", "error", "debug"] = "info", step_label="log") -> None:
+        """
+        Log an entry to the log file with a specified level and step label.
+        
+        Args:
+            entry: The log message to be recorded.
+            level: The severity level of the log message (default is "info").
+            step_label: The label for the step being logged.
+        """
         self.logger.log(self.levels.get(level, logging.INFO), f"{'=' * 80}\n[{step_label}]: {entry}")
 
     def get_messages_entry(self, messages: Sequence[BaseMessage], step_label: str) -> str:
@@ -37,9 +50,19 @@ class Logger:
         return output
 
     def log_messages(self, messages: Sequence[BaseMessage], step_label="step") -> None:
+        """
+        Log a sequence of messages to the log file with a specified step label.
+        
+        Args:
+            messages: A sequence of BaseMessage instances to be logged.
+            step_label: The label for the step being logged.
+        """
         self.logger.info(self.get_messages_entry(messages, step_label))
 
     def shutdown(self) -> None:
+        """
+        Shutdown the logger and close all handlers.
+        """
         for handler in self.logger.handlers[:]:
             handler.close()
             self.logger.removeHandler(handler)

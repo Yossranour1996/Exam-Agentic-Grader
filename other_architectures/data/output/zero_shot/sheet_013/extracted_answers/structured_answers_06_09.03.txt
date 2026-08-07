@@ -1,0 +1,86 @@
+STUDENT ANSWERS:
+
+Question: Q1
+Sub-Question: Q1.1
+Answer: That it's a language that don't depend on an architecture system.
+
+Sub-Question: Q1.2
+Answer: The world wide web participate in improving the programming language to deal with servers after being only for local Data transfer between computers.
+
+Sub-Question: Q1.3
+Answer: POP is a language that handels the functions more than organising data. but oop focus on data and how to axioss it more than functions.
+
+Sub-Question: Q1.4
+Answer: Java Run-time Environment is to contain of a Laibraries and JVM (Java virtual machin) the handle the run prod of the program process.
+
+Sub-Question: Q1.5
+Answer: inhepitence is used to implement a classes from the main class & polymorphism that you can't inherets don't depend on the small inherited classes but focus to get instructions from the main class directly.
+
+Sub-Question: Q1.6
+Answer: encapsulation : is the privet room that contains All of the data but-on and keep it praivet.
+
+Sub-Question: Q1.7
+Answer: abstract classes and interface.
+
+Sub-Question: Q1.8
+Answer: when the Program is fully finished. when it intrrupts due to unisuad actions when it's dead (loong run without results)
+
+Sub-Question: Q1.9
+Answer: 1. system.in 2. system.out 3. system.err
+
+Sub-Question: Q1.10
+Answer: [NO_ANSWER]
+
+
+Question: Q2
+Sub-Question: Q2.1
+Answer: True.
+
+Sub-Question: Q2.2
+Answer: False, & possible for an interface to inherit from another main class prob.
+
+Sub-Question: Q2.3
+Answer: True.
+
+Sub-Question: Q2.4
+Answer: False, by method override.
+
+Sub-Question: Q2.5
+Answer: True.
+
+Sub-Question: Q2.6
+Answer: False, heavyweight and tight
+
+Sub-Question: Q2.7
+Answer: True.
+
+
+Question: Q3
+Sub-Question: Q3.1
+Answer: internet.
+
+Sub-Question: Q3.2
+Answer: the Language C
+
+Sub-Question: Q3.3
+Answer: dose does not allow functions
+
+Sub-Question: Q3.4
+Answer: interface
+
+Sub-Question: Q3.5
+Answer: controller.
+
+Sub-Question: Q3.6
+Answer: interface
+
+Sub-Question: Q3.7
+Answer: JDBC (Java Database connector)
+
+
+Question: Q4
+Sub-Question: Q4.1
+Answer: system.out.println( System[i] + "You will take seat " + (i+1)); from that we read (i) and let it read (i) then print our statment in addition of (i) after every seat written.
+
+Sub-Question: Q4.2
+Answer: Privet int [UNK] Votes; we don't need the program to edit in the number of votes.

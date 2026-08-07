@@ -1,0 +1,15 @@
+(1) System.out.println("Seats[i], you will take seat"+i);
+Explanations The output is the members of Seats array followed
+by these indexes, So the (for loop) was used to print
+theses members one by one.
+Seat[i] = gives the element of index (i).
+and the (i) at the end is printing the counter
+of the Loop, which goes from (0-4).
+(2) Agree Vote = new Agree(); initiate an object
+Vote.CalculateVotes (76088); of class Agree
+Explanations The Basic idea that I tried to use "Maybe the syntax
+let me down" is to use the method (CalculateVotes)
+to get the desired output. So I initiated/Created
+a new object and used the function with the
+required parameter to get the correct number.
+We can also pass to the fun.

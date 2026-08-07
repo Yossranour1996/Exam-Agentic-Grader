@@ -1,0 +1,159 @@
+{
+  "total_mark": 86,
+  "evaluations": [
+    {
+      "question": "Q1",
+      "total_points": 25,
+      "sub_evaluations": [
+        {
+          "sub_question": "Q1.1",
+          "awarded_points": 3,
+          "justification": "The student correctly conveyed that Java is architecture-neutral by stating that Java programs do not depend on the environment, hardware, or operating system."
+        },
+        {
+          "sub_question": "Q1.2",
+          "awarded_points": 3,
+          "justification": "The student provided a valid explanation of how the WWW and Internet necessitated cross-platform programs, which aligns with the rubric's requirement for a non-blank answer without mentioning Applets or Servlets."
+        },
+        {
+          "sub_question": "Q1.3",
+          "awarded_points": 3,
+          "justification": "The student clearly differentiated between POP and OOP, mentioning that POP is function/data-oriented and OOP is object/class-oriented."
+        },
+        {
+          "sub_question": "Q1.4",
+          "awarded_points": 2,
+          "justification": "The student mentioned JVM and built-in packages, which corresponds to 2 points according to the rubric. The mention of 'programs for compiling, running Java code' does not clearly align with 'supporting files/components'."
+        },
+        {
+          "sub_question": "Q1.5",
+          "awarded_points": 2,
+          "justification": "The student correctly explained inheritance but provided a less clear explanation of polymorphism. The explanation of polymorphism as a design concept is not fully aligned with the rubric's expected answer."
+        },
+        {
+          "sub_question": "Q1.6",
+          "awarded_points": 3,
+          "justification": "The student correctly described encapsulation as wrapping up code and data into a single entity, which aligns with the rubric's requirement."
+        },
+        {
+          "sub_question": "Q1.7",
+          "awarded_points": 3,
+          "justification": "The student correctly mentioned abstract classes and interfaces as ways to achieve abstraction."
+        },
+        {
+          "sub_question": "Q1.8",
+          "awarded_points": 3,
+          "justification": "The student provided three valid reasons for thread termination: finishing task, being dead, and terminating due to unusual events."
+        },
+        {
+          "sub_question": "Q1.9",
+          "awarded_points": 3,
+          "justification": "The student correctly identified the three default streams in Java: System.in, System.out, and System.err."
+        },
+        {
+          "sub_question": "Q1.10",
+          "awarded_points": 0,
+          "justification": "The student incorrectly stated 'JFC API' instead of 'AWT' or 'Abstract Window Toolkit'."
+        }
+      ]
+    },
+    {
+      "question": "Q2",
+      "total_points": 18,
+      "sub_evaluations": [
+        {
+          "sub_question": "Q2.1",
+          "awarded_points": 3,
+          "justification": "The student correctly answered 'True', which matches the expected answer in the rubric."
+        },
+        {
+          "sub_question": "Q2.2",
+          "awarded_points": 3,
+          "justification": "The student correctly answered 'False', which matches the expected answer in the rubric. The additional explanation provided by the student is accurate and does not contradict the rubric."
+        },
+        {
+          "sub_question": "Q2.3",
+          "awarded_points": 3,
+          "justification": "The student correctly answered 'True', which matches the expected answer in the rubric."
+        },
+        {
+          "sub_question": "Q2.4",
+          "awarded_points": 3,
+          "justification": "The student correctly answered 'False', which matches the expected answer in the rubric. The additional explanation provided by the student is accurate and does not contradict the rubric."
+        },
+        {
+          "sub_question": "Q2.5",
+          "awarded_points": 0,
+          "justification": "The student answered 'False', which is incorrect according to the rubric. The correct answer is 'True', as abstract classes can contain non-abstract methods."
+        },
+        {
+          "sub_question": "Q2.6",
+          "awarded_points": 3,
+          "justification": "The student correctly answered 'True', which matches the expected answer in the rubric."
+        },
+        {
+          "sub_question": "Q2.7",
+          "awarded_points": 0,
+          "justification": "The student answered 'True', which is incorrect according to the rubric. The correct answer is 'False', as there are multiple JDBC drivers for different database sources. The rubric is clear that the expected answer is 'False', and the student's reasoning does not align with the standard understanding of JDBC drivers."
+        }
+      ]
+    },
+    {
+      "question": "Q3",
+      "total_points": 15,
+      "sub_evaluations": [
+        {
+          "sub_question": "Q3.1",
+          "awarded_points": 3,
+          "justification": "The rubric specifies always awarding full marks for this question."
+        },
+        {
+          "sub_question": "Q3.2",
+          "awarded_points": 3,
+          "justification": "The answer 'C language' matches the accepted term 'C'. Full marks awarded."
+        },
+        {
+          "sub_question": "Q3.3",
+          "awarded_points": 0,
+          "justification": "The answer does not match the accepted term 'data'. No points awarded."
+        },
+        {
+          "sub_question": "Q3.4",
+          "awarded_points": 3,
+          "justification": "The answer 'applets' matches the accepted term 'Applet'. Full marks awarded."
+        },
+        {
+          "sub_question": "Q3.5",
+          "awarded_points": 3,
+          "justification": "The answer 'a container' matches the accepted term 'Container'. Full marks awarded."
+        },
+        {
+          "sub_question": "Q3.6",
+          "awarded_points": 3,
+          "justification": "The answer 'The Model-View-Controller' matches the accepted term 'Controller'. Full marks awarded."
+        },
+        {
+          "sub_question": "Q3.7",
+          "awarded_points": 0,
+          "justification": "The answer 'DBC' does not match the accepted term 'JDBC'. No points awarded as per QA review notes."
+        }
+      ]
+    },
+    {
+      "question": "Q4",
+      "total_points": 28,
+      "sub_evaluations": [
+        {
+          "sub_question": "Q4.1",
+          "awarded_points": 14,
+          "justification": "The rubric specifies that full marks are awarded for this sub-question regardless of the answer provided."
+        },
+        {
+          "sub_question": "Q4.2",
+          "awarded_points": 14,
+          "justification": "The student's answer mentions both 'calculateVotes' and 'totalVotes', which meets the criteria for full marks according to the rubric."
+        }
+      ]
+    }
+  ]
+}

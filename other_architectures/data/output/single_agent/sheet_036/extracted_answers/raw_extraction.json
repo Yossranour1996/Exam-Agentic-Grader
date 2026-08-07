@@ -1,0 +1,42 @@
+[
+  {
+    "page": "page_01.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_02.png",
+    "text": "1-1\nThat mean Java is not restrict to specific a system\narchitecture.\n1-3.\nPOP has procedure (code) that operate the data\nto achieve program goals.\n1-4.\nJRE (Java Runtime Environment) is\nits environment for only run the Java program -\nl- JVM\n1-5\nthe difference is (inheritance is creating a new\nclass based on another class. The class inherits from\nanother class can reuse the method and field\nof the another) and the polymorphism is (the\nfeature feature that allows interface to be used\nfrom general class of actions)\n1-6.\nits the mechanism that binds both data and\ncode it manipulates. and keep them safe from\nthe interference and misuse.\n1-7.\nabstraction class and interface."
+  },
+  {
+    "page": "page_03.png",
+    "text": "1-8.\n1- finished it's task normally -\n2- terminated due to unusul event.\n3- dead or no longer [UNK] available -\n1.9.\n1- system.in , system.out , system.err .\n1-10\nRun command to run Java application."
+  },
+  {
+    "page": "page_04.png",
+    "text": "السؤال الثالث\n3.1) To implement improvment to the art of Programing.\n3.2) C\n3.3) a data\n3.4) applet\n3.5) container\n3.6) controller\n3.7) JDBC\nالسؤال الرابع\nPublic class Example {\nPublic static Void main (String[] ag.s) {\nString[] seats = {\"M\", \"C\", \"B\", \"P\"};\nSystem.out.print(\"it's time to take your seat exm.\");\nfor (int i=0; i < seats.length; i++) {\nfor (int i=0; i < seats.length; i++) {\nseats[i] +\n4-1\nseats[i] + \", you will take seat\" + i"
+  },
+  {
+    "page": "page_05.png",
+    "text": "2.1 True\n2.2 True\n2.3 True\n2.4 False (Compile time Polymorphism could be achieved by method overloading)\n2.5 False\n2.6 False\n2.7 True"
+  },
+  {
+    "page": "page_06.png",
+    "text": ""
+  },
+  {
+    "page": "page_07.png",
+    "text": ""
+  },
+  {
+    "page": "page_08.png",
+    "text": ""
+  },
+  {
+    "page": "page_09.png",
+    "text": ""
+  },
+  {
+    "page": "page_10.png",
+    "text": "EMPTY"
+  }
+]

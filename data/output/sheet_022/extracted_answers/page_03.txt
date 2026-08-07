@@ -1,0 +1,23 @@
+Q.1.
+1.1 Java not restricted to specific system Architecture.
+1.2 World Wide Web is in all the world become famous and
+because of entering it Some Kind of matter download automatic.
+it is become problem in security and portability but
+Java fix these problem in security and portability
+programmable
+1.3 pop has Code that operate in Data to achieve prograus
+goals.
+OOP: has class That encapsulate both code and data
+PoP OOP
+code
+Data
+1.4 JRE (Java Run-time Environment) provide environment
+for only Run (not develop) program on machine.
+it component of JVM [Java Virtual Machine] it is act
+as a Run time engine also Known by java interpreter.
+1.5.- inheritance is the inherit class [the process by which
+the inherit the attributes by another class]
+class.
+- polymorphism: the class can present and use in multiple form
+[is the feature that allow interface to be use for
+general class of action]

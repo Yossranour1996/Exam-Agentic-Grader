@@ -1,0 +1,86 @@
+STUDENT ANSWERS:
+
+Question: Q1
+Sub-Question: Q1.1
+Answer: Java not restricted to specific system Architecture.
+
+Sub-Question: Q1.2
+Answer: World Wide Web is in all the world become famous and because of entering it Some Kind of matter download automatic. it is become problem in security and portability but Java fix these problem in security and portability programmable
+
+Sub-Question: Q1.3
+Answer: pop has Code that operate in Data to achieve prograus goals. OOP: has class That encapsulate both code and data PoP OOP code Data
+
+Sub-Question: Q1.4
+Answer: JRE (Java Run-time Environment) provide environment for only Run (not develop) program on machine. it component of JVM [Java Virtual Machine] it is act as a Run time engine also Known by java interpreter.
+
+Sub-Question: Q1.5
+Answer: - inheritance is the inherit class [the process by which the inherit the attributes by another class] class. - polymorphism: the class can present and use in multiple form [is the feature that allow interface to be use for general class of action] process which
+
+Sub-Question: Q1.6
+Answer: Encapsulation : It binds together data and code and keep it safe from any outside interference and misuse.
+
+Sub-Question: Q1.7
+Answer: 1. Run time: which Dynamic and achieved by method Overriden. 2. climb abstraction : which static and achieve by function overriding or operator overriding.
+
+Sub-Question: Q1.8
+Answer: 1- finished it task normally. 2- terminated due to unusall event. 3- Dead and no longer available.
+
+Sub-Question: Q1.9
+Answer: (1)- system in (2)- system out (3)- system Err.
+
+Sub-Question: Q1.10
+Answer: [AWT]
+
+
+Question: Q2
+Sub-Question: Q2.1
+Answer: True
+
+Sub-Question: Q2.2
+Answer: False - possible
+
+Sub-Question: Q2.3
+Answer: True
+
+Sub-Question: Q2.4
+Answer: False - by method overriden
+
+Sub-Question: Q2.5
+Answer: True could have abstract
+
+Sub-Question: Q2.6
+Answer: True
+
+Sub-Question: Q2.7
+Answer: False - for API
+
+
+Question: Q3
+Sub-Question: Q3.1
+Answer: adapp+
+
+Sub-Question: Q3.2
+Answer: C
+
+Sub-Question: Q3.3
+Answer: data
+
+Sub-Question: Q3.4
+Answer: Applet
+
+Sub-Question: Q3.5
+Answer: frame
+
+Sub-Question: Q3.6
+Answer: control
+
+Sub-Question: Q3.7
+Answer: JDBC
+
+
+Question: Q4
+Sub-Question: Q4.1
+Answer: [NO_ANSWER]
+
+Sub-Question: Q4.2
+Answer: Student [UNK] you will take Seat " + (4-2) because in Line 3 for (Int i=0; i<seats.length; i++) it is like the seat is opposite and the first be last one private class number of Notes = double portion

@@ -1,4 +1,6 @@
 # src/prompts/feedback_prompt.py
+"""Prompt template used to turn grading output into student-facing feedback."""
+
 from langchain_core.prompts import ChatPromptTemplate
 
 

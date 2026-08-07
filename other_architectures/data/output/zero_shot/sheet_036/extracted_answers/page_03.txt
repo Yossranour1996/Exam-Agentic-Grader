@@ -1,0 +1,8 @@
+1-8.
+1- finished it's task normally -
+2- terminated due to unusul event.
+3- dead or no longer [UNK] available -
+1.9.
+1- system.in , system.out , system.err .
+1-10
+Run command to run Java application.

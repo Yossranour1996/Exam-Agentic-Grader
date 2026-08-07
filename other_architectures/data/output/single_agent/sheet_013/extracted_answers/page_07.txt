@@ -1,0 +1,10 @@
+4.1
+system.out.println(
+System[i] + "You will take seat " + (i+1));
+from that we read (i) and let it read (i)
+then print our statment in addition of
+(i) after every seat written.
+4.2
+Privet int [UNK] Votes;
+we don't need the program to edit in the
+number of votes.

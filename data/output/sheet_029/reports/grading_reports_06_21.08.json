@@ -1,0 +1,161 @@
+[
+  {
+    "total_mark": 89,
+    "evaluations": [
+      {
+        "question": "Q1",
+        "total_points": 28,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q1.1",
+            "awarded_points": 3,
+            "justification": "The student correctly conveyed that Java is not restricted to a specific system architecture, which aligns with the rubric's requirement for full marks."
+          },
+          {
+            "sub_question": "Q1.2",
+            "awarded_points": 3,
+            "justification": "The student's answer did not mention Applet or Servlet, and provided a non-blank response, thus earning full marks according to the rubric."
+          },
+          {
+            "sub_question": "Q1.3",
+            "awarded_points": 3,
+            "justification": "The student clearly differentiated between POP and OOP, emphasizing procedures/functions for POP and objects/classes for OOP, meeting the rubric's criteria for full marks."
+          },
+          {
+            "sub_question": "Q1.4",
+            "awarded_points": 1,
+            "justification": "The student mentioned JVM, which earns 1 mark. Other components listed do not match the rubric's expected components (libraries, supporting files)."
+          },
+          {
+            "sub_question": "Q1.5",
+            "awarded_points": 3,
+            "justification": "The student correctly explained both inheritance and polymorphism, meeting the rubric's criteria for full marks."
+          },
+          {
+            "sub_question": "Q1.6",
+            "awarded_points": 3,
+            "justification": "The student expressed the concept of binding code and data together, which aligns with the rubric's requirement for full marks."
+          },
+          {
+            "sub_question": "Q1.7",
+            "awarded_points": 3,
+            "justification": "The student mentioned both interface and abstract class, meeting the rubric's criteria for full marks."
+          },
+          {
+            "sub_question": "Q1.8",
+            "awarded_points": 3,
+            "justification": "The student provided three valid reasons for thread termination: finishing task, unusual events, and being dead/no longer available, earning full marks."
+          },
+          {
+            "sub_question": "Q1.9",
+            "awarded_points": 3,
+            "justification": "The student correctly listed System.in, System.out, and System.err, meeting the rubric's criteria for full marks."
+          },
+          {
+            "sub_question": "Q1.10",
+            "awarded_points": 3,
+            "justification": "The student correctly identified AWT (Abstract Window Toolkit) as the API on which Java Swing was built, earning full marks."
+          }
+        ]
+      },
+      {
+        "question": "Q2",
+        "total_points": 18,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q2.1",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as True."
+          },
+          {
+            "sub_question": "Q2.2",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as False and provided a correct explanation."
+          },
+          {
+            "sub_question": "Q2.3",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as True."
+          },
+          {
+            "sub_question": "Q2.4",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as False and provided a correct explanation."
+          },
+          {
+            "sub_question": "Q2.5",
+            "awarded_points": 0,
+            "justification": "The student incorrectly identified the statement as False. The correct answer is True."
+          },
+          {
+            "sub_question": "Q2.6",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as True."
+          },
+          {
+            "sub_question": "Q2.7",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as False and provided a correct explanation."
+          }
+        ]
+      },
+      {
+        "question": "Q3",
+        "total_points": 15,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q3.1",
+            "awarded_points": 3,
+            "justification": "The rubric specifies that Q3.1 should always receive full marks regardless of the answer provided."
+          },
+          {
+            "sub_question": "Q3.2",
+            "awarded_points": 3,
+            "justification": "The answer 'C' matches the accepted term 'C'. Full marks awarded."
+          },
+          {
+            "sub_question": "Q3.3",
+            "awarded_points": 0,
+            "justification": "No answer was provided, and thus it does not match the accepted term 'data'."
+          },
+          {
+            "sub_question": "Q3.4",
+            "awarded_points": 0,
+            "justification": "No answer was provided, and thus it does not match the accepted term 'Applet' or 'Applets'."
+          },
+          {
+            "sub_question": "Q3.5",
+            "awarded_points": 3,
+            "justification": "The answer 'Frame' matches the accepted term 'Frame'. Full marks awarded."
+          },
+          {
+            "sub_question": "Q3.6",
+            "awarded_points": 3,
+            "justification": "The answer 'Controller' matches the accepted term 'Controller'. Full marks awarded."
+          },
+          {
+            "sub_question": "Q3.7",
+            "awarded_points": 3,
+            "justification": "The answer 'JDBC' matches the accepted term 'JDBC'. Full marks awarded."
+          }
+        ]
+      },
+      {
+        "question": "Q4",
+        "total_points": 28,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q4.1",
+            "awarded_points": 14,
+            "justification": "According to the rubric, Q4.1 always receives full marks regardless of the answer provided."
+          },
+          {
+            "sub_question": "Q4.2",
+            "awarded_points": 14,
+            "justification": "The student's answer mentions both 'totalVotes' and 'numOfVotes', which aligns with the rubric's requirement for full marks."
+          }
+        ]
+      }
+    ]
+  }
+]

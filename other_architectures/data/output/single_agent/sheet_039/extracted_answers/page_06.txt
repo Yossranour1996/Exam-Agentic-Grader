@@ -1,0 +1,28 @@
+Question TWO :-
+2.1 : True
+2.2 : Flase ; It is possible for an interface to inherits
+from multiple other interfaces, Properties,
+2.3 : True
+2.4 : Flase ; Runtime polymorphism could
+be achieved by method overriding
+2.5 : flase ; abstract classes could have
+abstract methods within them
+2.6 : True
+2.7 : True
+Question 3 :-
+3.1 :- Implementing new innovations and features
+in the art of programming.
+3.2 : C language
+3.3 : The execution order of functions' definition
+3.4 : applets
+3.5 : a container
+3.6 : The Model-View-Controller
+3.7 : DBC
+Question 4 :-
+4.1 :-
+System.out.println (seats [i] + ", you will take
+seat " + seats.get(i));
+// Because this code will print the name of the seat
+and its index in the list [seats] which is equal
+to the set seat's number. So the code will print
+the desired output.

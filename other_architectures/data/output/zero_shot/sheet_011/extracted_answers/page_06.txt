@@ -1,0 +1,15 @@
+1 To deal with even environmental changes is one
+of the reasons that computer language innovation
+occurred.
+2 C is an example of a POP Language.
+3 POP does not allow data
+to flow freely in
+the program.
+4 JDK → JRE, JVM are small programs that need
+a java enabled webbrowser to be executed.
+5 a container (frame) is a component which
+can contain other elements like buttons.
+6 The model-view-controller architecture is
+used in Swing.
+7 JDBC is a java API to connect and interact
+with databases.

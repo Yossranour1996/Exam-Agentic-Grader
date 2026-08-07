@@ -1,0 +1,17 @@
+1-1 It mean the Java is not restricted by
+SPECIFIC opreation system .
+1.2 by Small Programe called APPLE
+has function the binds together Code and data
+that it manipulate and transmited by Internet
+and excuted them by Java applet browser web
+1.3 that
+while pop procedure (Code) oprating on
+Data the oop classes and object encapsulated
+Data and Code
+Class                  code
+                             data
+oop
+                       Code opration
+                       Code
+                             dat
+                       Pop

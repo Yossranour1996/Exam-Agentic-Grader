@@ -1,0 +1,108 @@
+STUDENT ANSWERS:
+
+Question: Q1
+Sub-Question: Q1.1
+Answer: It means the execution of Java program does not depend on the Environment it runs on it. The architecture of the Hardware and operating system of this environment.
+
+Sub-Question: Q1.2
+Answer: WWW and Internet necessitated Cross-Platform Programs to be distributed over many platforms. This necessity derived inventions and development of architecture-neutral languages.
+
+Sub-Question: Q1.3
+Answer: POP:-
+1- Its code is a sequence of functions acting on data.
+2- The concentration is on functions not data.
+3- In a multifunction programs, it defines some data be global in order to be used by multiple functions. That makes absolute no restrictions on using data which increases the possibility of being corrupted by misusing.
+When the program becomes much larger it is very difficult to determine for data used by those functions.
+4- They are described as code acting on data.
+OOP:-
+1- The code is a messages between objects which hold data and defining functions called on that data.
+2- The concentration is on data rather than functions
+3- The data are grouped into objects which define the functions called on this data and make restrictions on access and modifying this data.
+4- The code can be described as data controlling functions.
+
+Sub-Question: Q1.4
+Answer: 1- JVM
+2- Built-in packages
+3- programs for compiling, running Java code
+
+Sub-Question: Q1.5
+Answer: 1- polymorphism is a design concept or design method of making single object acts on many forms and inheritance is the actual implementation of that paradigm by making multiple objects of a given on different manner inherits a single object.
+2- polymorphism is a design paradigm, but inheritance is implementation part by code.
+3- Inheritance is done used in class definition. polymorphism is used in calling of objects' functions
+4- Inheritance enables a programmer design a class by concentrate on only specific details of the class, and transfer but polymorphism and enables programmer in calling methods to concentrate on the function of action of the method regardless of the specific object calls it.
+
+Sub-Question: Q1.6
+Answer: Wrapping up code and data into a single entity.
+
+Sub-Question: Q1.7
+Answer: 1- Abstract classes 2- Interfaces.
+
+Sub-Question: Q1.8
+Answer: 1- Finishes their task and terminate normally
+2- It is dead and becomes not available.
+3- It terminates before finishing task due to unusual events.
+
+Sub-Question: Q1.9
+Answer: 1- Standard Input Stream [System.in]
+2- Standard Output Stream [System.out]
+3- Standard Error Stream [System.err]
+
+Sub-Question: Q1.10
+Answer: JFC API
+
+
+Question: Q2
+Sub-Question: Q2.1
+Answer: True
+
+Sub-Question: Q2.2
+Answer: False; It is possible for an interface to inherit from multiple other interfaces, Properties.
+
+Sub-Question: Q2.3
+Answer: True
+
+Sub-Question: Q2.4
+Answer: False; Runtime polymorphism could be achieved by method overriding.
+
+Sub-Question: Q2.5
+Answer: False; abstract classes could have abstract methods within them.
+
+Sub-Question: Q2.6
+Answer: True
+
+Sub-Question: Q2.7
+Answer: True
+
+
+Question: Q3
+Sub-Question: Q3.1
+Answer: Implementing new innovations and features in the art of programming.
+
+Sub-Question: Q3.2
+Answer: C language
+
+Sub-Question: Q3.3
+Answer: The execution order of functions' definition
+
+Sub-Question: Q3.4
+Answer: applets
+
+Sub-Question: Q3.5
+Answer: a container
+
+Sub-Question: Q3.6
+Answer: The Model-View-Controller
+
+Sub-Question: Q3.7
+Answer: DBC
+
+
+Question: Q4
+Sub-Question: Q4.1
+Answer: System.out.println (seats [i] + ", you will take seat " + seats.get(i));
+// Because this code will print the name of the seat and its index in the list [seats] which is equal to the set seat's number. So the code will print the desired output.
+
+Sub-Question: Q4.2
+Answer: Calculate Votes (760,0);
+calculate Votes (total Votes);
+Because when calling calculateVotes method with argument (760). The value of portion becomes 760 x 0.15 = 114. Then, the method will print the desired output according to these circumstances.

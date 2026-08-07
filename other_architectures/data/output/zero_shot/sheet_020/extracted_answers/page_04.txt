@@ -1,0 +1,13 @@
+2.1 False - The Java language
+2.2 False - Possible
+2.3 True
+2.4 False - threading
+2.5 False - couldnot
+2.6 True
+2.7 False - for AP1
+3.1 To adapt the changing in environment and users.
+3.2 C
+3.3 error
+3.4 applet
+3.6 API
+3.7 JDBC

@@ -1,0 +1,128 @@
+{
+  "questions": [
+    {
+      "question": "Q1",
+      "sub_questions": [
+        {
+          "sub_question": "Q1.1",
+          "answer": "It means the execution of Java program does not depend on the Environment it runs on it. The architecture of the Hardware and operating system of this environment."
+        },
+        {
+          "sub_question": "Q1.2",
+          "answer": "WWW and Internet necessitated Cross-Platform Programs to be distributed over many platforms. This necessity derived inventions and development of architecture-neutral languages."
+        },
+        {
+          "sub_question": "Q1.3",
+          "answer": "POP:-\n1- Its code is a sequence of functions acting on data.\n2- The concentration is on functions not data.\n3- In a multifunction programs, it defines some data be global in order to be used by multiple functions. That makes absolute no restrictions on using data which increases the possibility of being corrupted by misusing.\nWhen the program becomes much larger it is very difficult to determine for data used by those functions.\n4- They are described as code acting on data.\nOOP:-\n1- The code is a messages between objects which hold data and defining functions called on that data.\n2- The concentration is on data rather than functions\n3- The data are grouped into objects which define the functions called on this data and make restrictions on access and modifying this data.\n4- The code can be described as data controlling functions."
+        },
+        {
+          "sub_question": "Q1.4",
+          "answer": "1- JVM\n2- Built-in packages\n3- programs for compiling, running Java code"
+        },
+        {
+          "sub_question": "Q1.5",
+          "answer": "1- polymorphism is a design concept or design method of making single object acts on many forms and inheritance is the actual implementation of that paradigm by making multiple objects of a given on different manner inherits a single object.\n2- polymorphism is a design paradigm, but inheritance is implementation part by code.\n3- Inheritance is done used in class definition. polymorphism is used in calling of objects' functions\n4- Inheritance enables a programmer design a class by concentrate on only specific details of the class, and transfer but polymorphism and enables programmer in calling methods to concentrate on the function of action of the method regardless of the specific object calls it."
+        },
+        {
+          "sub_question": "Q1.6",
+          "answer": "Wrapping up code and data into a single entity."
+        },
+        {
+          "sub_question": "Q1.7",
+          "answer": "1- Abstract classes 2- Interfaces."
+        },
+        {
+          "sub_question": "Q1.8",
+          "answer": "1- Finishes their task and terminate normally\n2- It is dead and becomes not available.\n3- It terminates before finishing task due to unusual events."
+        },
+        {
+          "sub_question": "Q1.9",
+          "answer": "1- Standard Input Stream [System.in]\n2- Standard Output Stream [System.out]\n3- Standard Error Stream [System.err]"
+        },
+        {
+          "sub_question": "Q1.10",
+          "answer": "JFC API"
+        }
+      ]
+    },
+    {
+      "question": "Q2",
+      "sub_questions": [
+        {
+          "sub_question": "Q2.1",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.2",
+          "answer": "False; It is possible for an interface to inherit from multiple other interfaces, Properties."
+        },
+        {
+          "sub_question": "Q2.3",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.4",
+          "answer": "False; Runtime polymorphism could be achieved by method overriding."
+        },
+        {
+          "sub_question": "Q2.5",
+          "answer": "False; abstract classes could have abstract methods within them."
+        },
+        {
+          "sub_question": "Q2.6",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.7",
+          "answer": "True"
+        }
+      ]
+    },
+    {
+      "question": "Q3",
+      "sub_questions": [
+        {
+          "sub_question": "Q3.1",
+          "answer": "Implementing new innovations and features in the art of programming."
+        },
+        {
+          "sub_question": "Q3.2",
+          "answer": "C language"
+        },
+        {
+          "sub_question": "Q3.3",
+          "answer": "The execution order of functions' definition"
+        },
+        {
+          "sub_question": "Q3.4",
+          "answer": "applets"
+        },
+        {
+          "sub_question": "Q3.5",
+          "answer": "a container"
+        },
+        {
+          "sub_question": "Q3.6",
+          "answer": "The Model-View-Controller"
+        },
+        {
+          "sub_question": "Q3.7",
+          "answer": "DBC"
+        }
+      ]
+    },
+    {
+      "question": "Q4",
+      "sub_questions": [
+        {
+          "sub_question": "Q4.1",
+          "answer": "System.out.println (seats [i] + \", you will take seat \" + seats.get(i));\n// Because this code will print the name of the seat and its index in the list [seats] which is equal to the set seat's number. So the code will print the desired output."
+        },
+        {
+          "sub_question": "Q4.2",
+          "answer": "Calculate Votes (760,0);\ncalculate Votes (total Votes);\nBecause when calling calculateVotes method with argument (760). The value of portion becomes 760 x 0.15 = 114. Then, the method will print the desired output according to these circumstances."
+        }
+      ]
+    }
+  ]
+}

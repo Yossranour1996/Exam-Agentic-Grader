@@ -1,0 +1,116 @@
+STUDENT ANSWERS:
+
+Question: Q1
+Sub-Question: Q1.1
+Answer: It means that its independentent on the
+device and it's operating system.
+
+Sub-Question: Q1.2
+Answer: It supported the revolution of Java, that handled
+programming Languages like Java, that handled
+the complexity Needed to deal with the WWWs,
+with the technologies like applets
+
+Sub-Question: Q1.3
+Answer: OOP (Object oriented programming)
+binds the data with code with the data
+It manipulates using encapsulation and gives
+more focus on the data than POP.
+POP (procedure oriented programming)
+It is a serial of procedures and
+functions that work on the data
+POP
+OOP
+Data , Code, procedures.
+
+Sub-Question: Q1.4
+Answer: JRE consists of the JVM
+(Java virtual machine) and other files
+and libraries.
+
+Sub-Question: Q1.5
+Answer: Inheritance is the process in which an object
+acquires the properties from another object.
+polymorphism is the procedure in which one
+interface can do a Class of different of group
+
+Sub-Question: Q1.6
+Answer: encapsulation is the property that
+binds the code to the data that it
+manipulates and wraps it from changes
+from external misuses.
+
+Sub-Question: Q1.7
+Answer: calsses and& interface absraction
+
+Sub-Question: Q1.8
+Answer: ① If it completed it task
+② due to unusual events
+③ if it's dead
+
+Sub-Question: Q1.9
+Answer: System.in Stream.in
+System.out Stream.out
+System.err Stream.err
+
+Sub-Question: Q1.10
+Answer: java AWT
+
+
+Question: Q2
+Sub-Question: Q2.1
+Answer: True
+
+Sub-Question: Q2.2
+Answer: False it is possible
+
+Sub-Question: Q2.3
+Answer: True
+
+Sub-Question: Q2.4
+Answer: False , by method overriding
+
+Sub-Question: Q2.5
+Answer: True
+
+Sub-Question: Q2.6
+Answer: True
+
+Sub-Question: Q2.7
+Answer: False , there are several JDBC drivers
+
+
+Question: Q3
+Sub-Question: Q3.1
+Answer: Internet and the World Wide Web
+
+Sub-Question: Q3.2
+Answer: C
+
+Sub-Question: Q3.3
+Answer: data
+
+Sub-Question: Q3.4
+Answer: applet
+
+Sub-Question: Q3.5
+Answer: Container
+
+Sub-Question: Q3.6
+Answer: Controller
+
+Sub-Question: Q3.7
+Answer: JDBC
+
+
+Question: Q4
+Sub-Question: Q4.1
+Answer: String [i] + " " you will take seat" + i
+II each each time
+the Code will
+print the i'th element in the
+"seats" array, then it will then
+print the index
+
+Sub-Question: Q4.2
+Answer: Agree CalculateVotes (int total votes);

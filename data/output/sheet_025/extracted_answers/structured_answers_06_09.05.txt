@@ -1,0 +1,86 @@
+STUDENT ANSWERS:
+
+Question: Q1
+Sub-Question: Q1.1
+Answer: we mean that Java isn't tied to a specific machine or operating system, but can work anywhere.
+
+Sub-Question: Q1.2
+Answer: The world wide web made sharing of computer software over it a very easy task, hence a need for a language that could work equally well in the variety of platforms involved. This marked the birth of the Java programming language.
+
+Sub-Question: Q1.3
+Answer: Object oriented programming (OOP) is a paradigm at which data is the central focus. It works on the principle of encapsulation which groups data and code into blocks. While procedure oriented programming (POP) is where the code (procedure/process) comes first. Programs are broken up to parts that are executed via a sequence of functions, and data is usually available globally for use in procedures.
+
+Sub-Question: Q1.4
+Answer: J.R.E. (Java Runtime Environment) is composed of the J.V.M. (Java Virtual Machine), standard libraries (e.g. rt.jar) and other files that help in execution of programs.
+
+Sub-Question: Q1.5
+Answer: In inheritance is the ability to build multiple classes based on the same base classes. Polymorphism on the other hand is the ability of an object to take different forms (poly = morphs = many + forms).
+
+Sub-Question: Q1.6
+Answer: Encapsulation is the wrapping up of data in a single unit. It is the process of grouping data and code, and acts as a protective shield for the data from outside interference.
+
+Sub-Question: Q1.7
+Answer: Abstraction can be achieved either through the usage of abstract classes, or interfaces.
+
+Sub-Question: Q1.8
+Answer: 1/ The task has finished execution normally 2/ Execution ended unexpectedly due to a problem. 3/ Thread has been going for too long and was terminated.
+
+Sub-Question: Q1.9
+Answer: 1/ System.in stream 2/ System.out stream 3/ System.err stream
+
+Sub-Question: Q1.10
+Answer: Java AWT (Abstract window Toolkit) API
+
+
+Question: Q2
+Sub-Question: Q2.1
+Answer: True
+
+Sub-Question: Q2.2
+Answer: False, it is possible
+
+Sub-Question: Q2.3
+Answer: True
+
+Sub-Question: Q2.4
+Answer: False, achieved by method overwriting
+
+Sub-Question: Q2.5
+Answer: False, abstract classes can only have abstract methods
+
+Sub-Question: Q2.6
+Answer: True
+
+Sub-Question: Q2.7
+Answer: True
+
+
+Question: Q3
+Sub-Question: Q3.1
+Answer: Adapting to new environments and uses (eg: internet boom)
+
+Sub-Question: Q3.2
+Answer: C
+
+Sub-Question: Q3.3
+Answer: Data
+
+Sub-Question: Q3.4
+Answer: Applets
+
+Sub-Question: Q3.5
+Answer: Container (window, panel, dialogue, frame)
+
+Sub-Question: Q3.6
+Answer: Controller
+
+Sub-Question: Q3.7
+Answer: JDBC (Java Database Connectivity)
+
+
+Question: Q4
+Sub-Question: Q4.1
+Answer: seats[i] + " , you will take seat " + i
+
+Sub-Question: Q4.2
+Answer: calculateVotes (totalVotes);

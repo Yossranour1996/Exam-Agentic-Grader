@@ -1,0 +1,26 @@
+(1) We mean that Java is not restricted to a specific
+architechure of computer.
+(2) Java has taken a lot of instructions and Internet
+allowed and gave new features to the world of programing and Java
+created a special package simplified the internet.
+(3) POP deals more about procedures (methods or code) and
+they are there major emphasis, on the other hand OOP uses
+the concept of classes to combine and focus on both data
+(which is not much focused on on POP) and methods (codes)
+and uses the concept of classes and objects.
+(4) Compiler and implementation tools
+(5) Inheritance means to use create a class from initial
+class. The new class can content the methods and dat attributes
+of the first class (created from), but polymorphism that inst.
+is taking instruction and features of a class and use it in general and can be.
+(6) Encapsulation is to combine together data and codes (methods)
+and secure them from outside (interfaces) the classes.
+(7) run time compile time class abstraction, function abstraction
+and unusual unusual.
+(8) @ Instructions executed normally. @ Execution stopped due to an event
+@ Could be dead and unavailable.
+(9) System. In
+System. out
+System. err
+(10) API Java swing was built on the top of JDBC
+to connet and interact to database.

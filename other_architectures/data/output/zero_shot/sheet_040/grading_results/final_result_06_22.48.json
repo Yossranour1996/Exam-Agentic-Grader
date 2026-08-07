@@ -1,0 +1,161 @@
+{
+  "grading": {
+    "total_mark": 89,
+    "evaluations": [
+      {
+        "question_id": "Q1",
+        "total_score": 27,
+        "sub_evaluations": [
+          {
+            "sub_question_id": "Q1.1",
+            "score": 3,
+            "justification": "The student correctly conveyed that Java is independent of device and operating system, which aligns with the architecture-neutral concept."
+          },
+          {
+            "sub_question_id": "Q1.2",
+            "score": 0,
+            "justification": "The answer mentions applets, which is not allowed according to the rubric."
+          },
+          {
+            "sub_question_id": "Q1.3",
+            "score": 3,
+            "justification": "The student correctly differentiated between OOP and POP, mentioning data/code binding and procedures/functions."
+          },
+          {
+            "sub_question_id": "Q1.4",
+            "score": 3,
+            "justification": "The student mentioned JVM, libraries, and other files, which covers the components of the JRE."
+          },
+          {
+            "sub_question_id": "Q1.5",
+            "score": 2,
+            "justification": "The student correctly explained inheritance but provided an unclear explanation for polymorphism."
+          },
+          {
+            "sub_question_id": "Q1.6",
+            "score": 3,
+            "justification": "The student correctly described encapsulation as binding code and data together."
+          },
+          {
+            "sub_question_id": "Q1.7",
+            "score": 0,
+            "justification": "The student did not clearly mention abstract classes and interfaces."
+          },
+          {
+            "sub_question_id": "Q1.8",
+            "score": 3,
+            "justification": "The student provided three correct reasons for thread termination."
+          },
+          {
+            "sub_question_id": "Q1.9",
+            "score": 3,
+            "justification": "The student correctly identified System.in, System.out, and System.err, despite minor spelling errors."
+          },
+          {
+            "sub_question_id": "Q1.10",
+            "score": 3,
+            "justification": "The student correctly identified AWT as the API on which Java Swing was built."
+          }
+        ]
+      },
+      {
+        "question_id": "Q2",
+        "total_score": 21,
+        "sub_evaluations": [
+          {
+            "sub_question_id": "Q2.1",
+            "score": 3,
+            "justification": "The student correctly marked the statement as True."
+          },
+          {
+            "sub_question_id": "Q2.2",
+            "score": 3,
+            "justification": "The student correctly marked the statement as False."
+          },
+          {
+            "sub_question_id": "Q2.3",
+            "score": 3,
+            "justification": "The student correctly marked the statement as True."
+          },
+          {
+            "sub_question_id": "Q2.4",
+            "score": 3,
+            "justification": "The student correctly marked the statement as False."
+          },
+          {
+            "sub_question_id": "Q2.5",
+            "score": 3,
+            "justification": "The student correctly marked the statement as True."
+          },
+          {
+            "sub_question_id": "Q2.6",
+            "score": 3,
+            "justification": "The student correctly marked the statement as True."
+          },
+          {
+            "sub_question_id": "Q2.7",
+            "score": 3,
+            "justification": "The student correctly marked the statement as False."
+          }
+        ]
+      },
+      {
+        "question_id": "Q3",
+        "total_score": 21,
+        "sub_evaluations": [
+          {
+            "sub_question_id": "Q3.1",
+            "score": 3,
+            "justification": "Full marks are awarded as per the rubric."
+          },
+          {
+            "sub_question_id": "Q3.2",
+            "score": 3,
+            "justification": "The student correctly identified C as an example of a POP language."
+          },
+          {
+            "sub_question_id": "Q3.3",
+            "score": 3,
+            "justification": "The student correctly identified 'data' as the missing word."
+          },
+          {
+            "sub_question_id": "Q3.4",
+            "score": 3,
+            "justification": "The student correctly identified 'applet' as the missing word."
+          },
+          {
+            "sub_question_id": "Q3.5",
+            "score": 3,
+            "justification": "The student correctly identified 'Container' as the missing word."
+          },
+          {
+            "sub_question_id": "Q3.6",
+            "score": 3,
+            "justification": "The student correctly identified 'Controller' as the missing word."
+          },
+          {
+            "sub_question_id": "Q3.7",
+            "score": 3,
+            "justification": "The student correctly identified 'JDBC' as the missing word."
+          }
+        ]
+      },
+      {
+        "question_id": "Q4",
+        "total_score": 20,
+        "sub_evaluations": [
+          {
+            "sub_question_id": "Q4.1",
+            "score": 14,
+            "justification": "Full marks are awarded as per the rubric."
+          },
+          {
+            "sub_question_id": "Q4.2",
+            "score": 6,
+            "justification": "The answer is incorrect but mentions 'votes', which aligns with the rubric for 9 marks. However, the rubric specifies 7 marks for nonblank unrelated answers, so 7 marks are awarded."
+          }
+        ]
+      }
+    ]
+  }
+}

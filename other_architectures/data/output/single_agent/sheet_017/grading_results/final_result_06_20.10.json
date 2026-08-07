@@ -1,0 +1,161 @@
+{
+  "grading": {
+    "total_mark": 68,
+    "evaluations": [
+      {
+        "question": "Q1",
+        "total_points": 24,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q1.1",
+            "awarded_points": 3,
+            "justification": "The student correctly conveyed that Java is not tied to a specific machine or operating system architecture."
+          },
+          {
+            "sub_question": "Q1.2",
+            "awarded_points": 3,
+            "justification": "The answer is nonblank and does not mention Applet or Servlet."
+          },
+          {
+            "sub_question": "Q1.3",
+            "awarded_points": 3,
+            "justification": "The student correctly described POP as procedure-oriented and OOP as class-oriented."
+          },
+          {
+            "sub_question": "Q1.4",
+            "awarded_points": 3,
+            "justification": "The student mentioned JVM, libraries, and other files, covering all components."
+          },
+          {
+            "sub_question": "Q1.5",
+            "awarded_points": 3,
+            "justification": "The student correctly explained both inheritance and polymorphism."
+          },
+          {
+            "sub_question": "Q1.6",
+            "awarded_points": 3,
+            "justification": "The student correctly described encapsulation as wrapping data and tying code with data."
+          },
+          {
+            "sub_question": "Q1.7",
+            "awarded_points": 3,
+            "justification": "The student mentioned abstract classes and interfaces, fulfilling the requirement."
+          },
+          {
+            "sub_question": "Q1.8",
+            "awarded_points": 3,
+            "justification": "The student provided three correct reasons for thread termination."
+          },
+          {
+            "sub_question": "Q1.9",
+            "awarded_points": 3,
+            "justification": "The student correctly listed System.in, System.out, and System.err."
+          },
+          {
+            "sub_question": "Q1.10",
+            "awarded_points": 0,
+            "justification": "The student incorrectly answered 'C++' instead of 'AWT' or 'Abstract Window Toolkit'."
+          }
+        ]
+      },
+      {
+        "question": "Q2",
+        "total_points": 9,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q2.1",
+            "awarded_points": 3,
+            "justification": "The student correctly answered True."
+          },
+          {
+            "sub_question": "Q2.2",
+            "awarded_points": 0,
+            "justification": "The student incorrectly answered True; the correct answer is False."
+          },
+          {
+            "sub_question": "Q2.3",
+            "awarded_points": 3,
+            "justification": "The student correctly answered True."
+          },
+          {
+            "sub_question": "Q2.4",
+            "awarded_points": 3,
+            "justification": "The student correctly answered False."
+          },
+          {
+            "sub_question": "Q2.5",
+            "awarded_points": 0,
+            "justification": "The student incorrectly answered False; the correct answer is True."
+          },
+          {
+            "sub_question": "Q2.6",
+            "awarded_points": 3,
+            "justification": "The student correctly answered True."
+          },
+          {
+            "sub_question": "Q2.7",
+            "awarded_points": 0,
+            "justification": "The student incorrectly answered True; the correct answer is False."
+          }
+        ]
+      },
+      {
+        "question": "Q3",
+        "total_points": 18,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q3.1",
+            "awarded_points": 3,
+            "justification": "Always full marks."
+          },
+          {
+            "sub_question": "Q3.2",
+            "awarded_points": 3,
+            "justification": "The student correctly answered 'C'."
+          },
+          {
+            "sub_question": "Q3.3",
+            "awarded_points": 3,
+            "justification": "The student correctly identified 'data'."
+          },
+          {
+            "sub_question": "Q3.4",
+            "awarded_points": 3,
+            "justification": "The student correctly answered 'Applet'."
+          },
+          {
+            "sub_question": "Q3.5",
+            "awarded_points": 3,
+            "justification": "The student correctly answered 'Frame'."
+          },
+          {
+            "sub_question": "Q3.6",
+            "awarded_points": 0,
+            "justification": "The student incorrectly answered 'collecter'; the correct answer is 'Controller'."
+          },
+          {
+            "sub_question": "Q3.7",
+            "awarded_points": 3,
+            "justification": "The student correctly answered 'JDBC'."
+          }
+        ]
+      },
+      {
+        "question": "Q4",
+        "total_points": 17,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q4.1",
+            "awarded_points": 14,
+            "justification": "Always full marks."
+          },
+          {
+            "sub_question": "Q4.2",
+            "awarded_points": 3,
+            "justification": "The answer is incorrect but mentions 'vote', which is related to the question."
+          }
+        ]
+      }
+    ]
+  }
+}

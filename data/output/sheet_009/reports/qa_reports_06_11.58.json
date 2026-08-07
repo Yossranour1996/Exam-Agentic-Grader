@@ -1,0 +1,50 @@
+[
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q1",
+        "identified_errors": [
+          {
+            "sub_question": "Q1.3",
+            "description": "The student's answer for Q1.3, while not perfectly aligned with the rubric, does mention OOP encapsulating code and data, which is a concept related to OOP. The penalty seems harsh given the rubric's leniency on wording."
+          }
+        ],
+        "summary": "Q1.3 requires a re-evaluation as the student's answer partially aligns with the rubric's expectations for OOP, and the penalty was too strict."
+      },
+      {
+        "question": "Q2",
+        "identified_errors": [
+          {
+            "sub_question": "Q2.5",
+            "description": "The student's answer for Q2.5 was marked incorrect, but the justification provided by the grader does not align with the rubric. The rubric expects 'True', but the student's reasoning about the diamond problem is a valid point that should be considered."
+          }
+        ],
+        "summary": "Q2.5 requires a re-evaluation as the student's reasoning about the diamond problem is valid and should be considered in the grading."
+      }
+    ]
+  },
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q2",
+        "identified_errors": [
+          {
+            "sub_question": "Q2.2",
+            "description": "The student answered 'True', but the correct answer is 'False'. The justification provided by the grader is correct, and the score of 0 is appropriate."
+          },
+          {
+            "sub_question": "Q2.5",
+            "description": "The student answered 'False', but the correct answer is 'True'. The grader awarded full marks based on conceptual understanding, which is not aligned with the rubric that requires the exact answer 'True'."
+          }
+        ],
+        "summary": "Q2.5 was incorrectly awarded full marks despite the student's answer not matching the expected 'True'. The rubric requires the exact answer, and conceptual understanding should not override this requirement."
+      }
+    ]
+  },
+  {
+    "decision": "<NO_REGRADE>",
+    "audits": []
+  }
+]

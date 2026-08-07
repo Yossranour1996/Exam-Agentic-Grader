@@ -1,0 +1,18 @@
+1.1 We mean that it is not restricted by aspasific
+architecture system
+1.2 WWW and Internet participat in programming
+revolution because every code is written can't be shared
+and all the information about programming is available.
+1.3 POP: pruduse code that operate in program's goal
+OOP: uses class and opjeces to capsulate code and
+data
+POP
+code
+data
+OOP
+code
+data
+1.4 there are many componenes of the JRE
+1.5 Inheritance is making class based on existing one
+bue run time polymorphism can't be achieved by method
+overloading

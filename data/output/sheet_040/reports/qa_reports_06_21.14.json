@@ -1,0 +1,31 @@
+[
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q1",
+        "identified_errors": [
+          {
+            "sub_question": "Q1.5",
+            "description": "The student's explanation of polymorphism, although not perfectly clear, mentions 'one interface' and 'different forms', which aligns with the rubric's requirement for semantic equivalence. The student should receive full marks for this question."
+          }
+        ],
+        "summary": "Q1.5 requires a regrade as the student's explanation of polymorphism meets the rubric's criteria for semantic equivalence."
+      },
+      {
+        "question": "Q4",
+        "identified_errors": [
+          {
+            "sub_question": "Q4.2",
+            "description": "The student's answer mentions both 'CalculateVotes' and 'total votes', which should qualify for full marks (14 points) according to the rubric, as both required elements are present."
+          }
+        ],
+        "summary": "Q4.2 requires a regrade as the student's answer meets the criteria for full marks."
+      }
+    ]
+  },
+  {
+    "decision": "<NO_REGRADE>",
+    "audits": []
+  }
+]

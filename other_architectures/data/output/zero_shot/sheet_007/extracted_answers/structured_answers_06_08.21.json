@@ -1,0 +1,128 @@
+{
+  "questions": [
+    {
+      "question": "Q1",
+      "sub_questions": [
+        {
+          "sub_question": "Q1.1",
+          "answer": "It means that Java isn't specified for specific machine or Operating system architecture."
+        },
+        {
+          "sub_question": "Q1.2",
+          "answer": "The complexity increased so Java was made in labs and Java is ene enhancement in programming languages."
+        },
+        {
+          "sub_question": "Q1.3",
+          "answer": "- While POP have a procedure to deal with data \"Code\" OOP uses classes and objects to encapsulate code and its data."
+        },
+        {
+          "sub_question": "Q1.4",
+          "answer": "Java virtual machine JVM executing programmes \"java\" and compiling ones \"javac\""
+        },
+        {
+          "sub_question": "Q1.5",
+          "answer": "inheritance: making new classes based on already existing ones but & polymorphism: mechanism of having many forms of each class."
+        },
+        {
+          "sub_question": "Q1.6",
+          "answer": "Encapsulation is the mechanism of binding up data and its code together."
+        },
+        {
+          "sub_question": "Q1.7",
+          "answer": "Interface, abstracted classes"
+        },
+        {
+          "sub_question": "Q1.8",
+          "answer": "(i) the program accomplished its goal. (ii) Oet Unusual events occure (iii) The program is dead or no longer available."
+        },
+        {
+          "sub_question": "Q1.9",
+          "answer": "(i) System.in (ii) System.out (iii) System.err"
+        },
+        {
+          "sub_question": "Q1.10",
+          "answer": "Java API"
+        }
+      ]
+    },
+    {
+      "question": "Q2",
+      "sub_questions": [
+        {
+          "sub_question": "Q2.1",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.2",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.3",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.4",
+          "answer": "False"
+        },
+        {
+          "sub_question": "Q2.5",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.6",
+          "answer": "False True"
+        },
+        {
+          "sub_question": "Q2.7",
+          "answer": "True False"
+        }
+      ]
+    },
+    {
+      "question": "Q3",
+      "sub_questions": [
+        {
+          "sub_question": "Q3.1",
+          "answer": "To adapt to changing in Environments and users."
+        },
+        {
+          "sub_question": "Q3.2",
+          "answer": "C programming language"
+        },
+        {
+          "sub_question": "Q3.3",
+          "answer": "data Code."
+        },
+        {
+          "sub_question": "Q3.4",
+          "answer": "Applet"
+        },
+        {
+          "sub_question": "Q3.5",
+          "answer": "Frame \"as a container\""
+        },
+        {
+          "sub_question": "Q3.6",
+          "answer": "Control \"represents the interface between model and view\""
+        },
+        {
+          "sub_question": "Q3.7",
+          "answer": "JDBE JDBC ."
+        }
+      ]
+    },
+    {
+      "question": "Q4",
+      "sub_questions": [
+        {
+          "sub_question": "Q4.1",
+          "answer": "set Seats [i] + \"/\" + Seats [i] + \"/\" , you will take seat\" + i To get outputs as desiered."
+        },
+        {
+          "sub_question": "Q4.2",
+          "answer": "BreakLn to go to the next class."
+        }
+      ]
+    }
+  ]
+}

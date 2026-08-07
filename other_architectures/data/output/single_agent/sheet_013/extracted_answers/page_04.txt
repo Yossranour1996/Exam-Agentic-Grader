@@ -1,0 +1,10 @@
+1.6 encapsulation : is the privet room
+that contains All of the data but-on and
+keep it praivet.
+1.7 abstract classes and interface .
+1.8 when the Program is fully finished.
+when it intrrupts due to unisuad actions
+when it's dead (loong run without results)
+1.9 1. system.in 2. system.out
+3. system.err
+1.10

@@ -1,0 +1,86 @@
+STUDENT ANSWERS:
+
+Question: Q1
+Sub-Question: Q1.1
+Answer: Java has no restriction on the destined System architecture so it can work on different Operating System and platforms.
+
+Sub-Question: Q1.2
+Answer: World wide web + Internet at that time with web 1 technology and the creation of web applications -> contribute to the appearness of "Applet" -> which is a special Java program designed to be transmitted over the Internet and automatically being executed by Java compatible web browsers.
+
+Sub-Question: Q1.3
+Answer: "OOP" -> Object oriented Programming is working with (Data having access over code) principle. Beside (code + data + attributes + methods) are all encapsulated together into the same package. "Pop" -> Procedure Oriented Programming is working with "Code" acts on Data principle "operate"
+
+Sub-Question: Q1.4
+Answer: JRE -> Java Run-Time Environment Ps including "JVM" Java Virtual Machine. beside other packages and libraries.
+
+Sub-Question: Q1.5
+Answer: (A) Inheritance -> is when a new class inherit new features "attributes + methods" from an existing class, or it's when an object acquires new features from a new existing object. (B) Polymorphism -> Comes from the Greek words "Poly" -> many + "morph" -> form = many forms It's when a message could be delivered in more than one forms. PS: Both of them are from "OOP" main features.
+
+Sub-Question: Q1.6
+Answer: Encapsulation -> it's a Java mechanism binds both code and the data it manipulates into the Same Package "hidden data".
+
+Sub-Question: Q1.7
+Answer: (A) Abstraction classes (B) Interface
+
+Sub-Question: Q1.8
+Answer: (A) When it finishs it's normal task Procedure. (B) Terminated due to unusual events. (C) When it becomes dead or unavailable.
+
+Sub-Question: Q1.9
+Answer: (A) System.in -> (Input) (B) System.out -> (Output) (C) System.err -> (Error)
+
+Sub-Question: Q1.10
+Answer: AWT Abstraction Window Toolkit.
+
+
+Question: Q2
+Sub-Question: Q2.1
+Answer: True => it was renamed at "1985".
+
+Sub-Question: Q2.2
+Answer: False => Interface ✔️ Class ❌
+
+Sub-Question: Q2.3
+Answer: True => Specificly => Java Virtual Machine "JVM"
+
+Sub-Question: Q2.4
+Answer: False => Overridding
+
+Sub-Question: Q2.5
+Answer: False => Must be defined.
+
+Sub-Question: Q2.6
+Answer: True
+
+Sub-Question: Q2.7
+Answer: False => There is another Driver Manager True => Java Application JDBC thus, it's just one => JDBC Drive Driver Manager Oracle MySQL MS Access
+
+
+Question: Q3
+Sub-Question: Q3.1
+Answer: Adapt to changes. - Implement improvements on the art of programming.
+
+Sub-Question: Q3.2
+Answer: C Language "1970"
+
+Sub-Question: Q3.3
+Answer: Data Information.
+
+Sub-Question: Q3.4
+Answer: Applet
+
+Sub-Question: Q3.5
+Answer: Frame
+
+Sub-Question: Q3.6
+Answer: Model view controlled "MVC"
+
+Sub-Question: Q3.7
+Answer: Java Data Base connectivity "JDBC"
+
+
+Question: Q4
+Sub-Question: Q4.1
+Answer: " seat [i], " you will take seat" + (i) System.out.println( // this line will take seat index from the seat list and substitute its value on the pointer place, repeat this until it reaches seat[i] + " , you will take seat" + (i) i=5 then it will // space stop // space
+
+Sub-Question: Q4.2
+Answer: num Of Votes = total Votes // we will notice 740 * 0.15 = 114 #

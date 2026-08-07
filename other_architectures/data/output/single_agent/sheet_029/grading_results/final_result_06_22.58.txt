@@ -1,0 +1,121 @@
+"Total Mark: 86
+
+Evaluations:
+Question: Q1
+Total Points: 28
+
+Sub-Question: Q1.1
+Awarded Points: 3
+Justification: The student correctly conveyed that Java is not restricted to a specific system architecture.
+
+Sub-Question: Q1.2
+Awarded Points: 3
+Justification: The student provided a non-blank answer that did not mention Applet or Servlet, thus earning full marks.
+
+Sub-Question: Q1.3
+Awarded Points: 3
+Justification: The student correctly described the difference between POP and OOP, focusing on procedures and objects.
+
+Sub-Question: Q1.4
+Awarded Points: 1
+Justification: The student mentioned JVM, which earns 1 mark. Other components listed were incorrect.
+
+Sub-Question: Q1.5
+Awarded Points: 3
+Justification: The student correctly explained both inheritance and polymorphism.
+
+Sub-Question: Q1.6
+Awarded Points: 3
+Justification: The student correctly described encapsulation as binding code and data together.
+
+Sub-Question: Q1.7
+Awarded Points: 3
+Justification: The student correctly mentioned interface and abstract class as ways to achieve abstraction.
+
+Sub-Question: Q1.8
+Awarded Points: 3
+Justification: The student correctly listed three reasons a thread can terminate.
+
+Sub-Question: Q1.9
+Awarded Points: 3
+Justification: The student correctly identified the three default streams in Java.
+
+Sub-Question: Q1.10
+Awarded Points: 3
+Justification: The student correctly identified AWT as the API on which Java Swing was built.
+
+
+Question: Q2
+Total Points: 18
+
+Sub-Question: Q2.1
+Awarded Points: 3
+Justification: The student correctly answered True.
+
+Sub-Question: Q2.2
+Awarded Points: 3
+Justification: The student correctly answered False.
+
+Sub-Question: Q2.3
+Awarded Points: 3
+Justification: The student correctly answered True.
+
+Sub-Question: Q2.4
+Awarded Points: 3
+Justification: The student correctly answered False.
+
+Sub-Question: Q2.5
+Awarded Points: 0
+Justification: The student incorrectly answered False.
+
+Sub-Question: Q2.6
+Awarded Points: 3
+Justification: The student correctly answered True.
+
+Sub-Question: Q2.7
+Awarded Points: 3
+Justification: The student correctly answered False.
+
+
+Question: Q3
+Total Points: 15
+
+Sub-Question: Q3.1
+Awarded Points: 3
+Justification: Full marks are awarded as per rubric policy.
+
+Sub-Question: Q3.2
+Awarded Points: 3
+Justification: The student correctly identified C as an example of a POP language.
+
+Sub-Question: Q3.3
+Awarded Points: 0
+Justification: The student did not provide an answer.
+
+Sub-Question: Q3.4
+Awarded Points: 0
+Justification: The student did not provide an answer.
+
+Sub-Question: Q3.5
+Awarded Points: 3
+Justification: The student correctly identified Frame as a component that can contain elements such as buttons.
+
+Sub-Question: Q3.6
+Awarded Points: 3
+Justification: The student correctly identified Controller as part of the model-view-controller architecture.
+
+Sub-Question: Q3.7
+Awarded Points: 3
+Justification: The student correctly identified JDBC as the Java API for interacting with databases.
+
+
+Question: Q4
+Total Points: 25
+
+Sub-Question: Q4.1
+Awarded Points: 14
+Justification: Full marks are awarded as per rubric policy.
+
+Sub-Question: Q4.2
+Awarded Points: 11
+Justification: The student mentioned 'votes' and provided a relevant explanation, earning partial credit.

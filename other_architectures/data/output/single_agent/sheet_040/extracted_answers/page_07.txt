@@ -1,0 +1,9 @@
+4.1
+String [i] + " " you will take seat" + i
+II each each time
+the Code will
+print the i'th element in the
+"seats" array, then it will then
+print the index
+4.2
+Agree CalculateVotes (int total votes);

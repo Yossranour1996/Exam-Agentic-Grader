@@ -1,0 +1,10 @@
+2026-08-06 19:45:53 | DEBUG  
+================================================================================
+[Prepare]: Prepared state for sheet_002.
+Paths ready.
+2026-08-06 19:45:53 | DEBUG  
+================================================================================
+[Extraction]: Extracting answers for sheet_002 from data\input\answer_sheets\sheet_002.pdf
+2026-08-06 19:45:53 | DEBUG  
+================================================================================
+[Grading]: Grading exam based on extracted answers and rubric.

@@ -1,0 +1,54 @@
+[
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q1",
+        "identified_errors": [
+          {
+            "sub_question": "Q1.3",
+            "description": "The student's answer, although unclear, mentions 'POP' and 'OOP' and attempts to differentiate them. The grader should consider the semantic intent and award partial credit if possible."
+          },
+          {
+            "sub_question": "Q1.6",
+            "description": "The student's answer mentions 'encapsulation' and 'wrapping up data', which aligns with the concept of binding code and data together. The grader should award full marks as per the rubric's leniency."
+          },
+          {
+            "sub_question": "Q1.9",
+            "description": "The student's answer 'stream-in stream-out stream-err' should be considered correct due to the rubric's tolerance for minor spelling/OCR mistakes. The intended streams are clear."
+          }
+        ],
+        "summary": "Errors found in Q1.3, Q1.6, and Q1.9. The grader did not apply the rubric's leniency for semantic equivalence and minor spelling errors."
+      }
+    ]
+  },
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q2",
+        "identified_errors": [
+          {
+            "sub_question": "Q2.5",
+            "description": "The student answered 'false' for Q2.5, which is incorrect according to the rubric. The Grader correctly awarded 0 points."
+          }
+        ],
+        "summary": "The grading for Q2.5 is correct as per the rubric, but the justification should have been clearer about the student's incorrect answer."
+      },
+      {
+        "question": "Q4",
+        "identified_errors": [
+          {
+            "sub_question": "Q4.2",
+            "description": "The student's answer was not blank but unrelated to votes. According to the rubric, a nonblank but unrelated answer should receive 7 points, not 0."
+          }
+        ],
+        "summary": "Q4.2 was incorrectly graded. The student's nonblank answer should have received 7 points as per the rubric."
+      }
+    ]
+  },
+  {
+    "decision": "<NO_REGRADE>",
+    "audits": []
+  }
+]

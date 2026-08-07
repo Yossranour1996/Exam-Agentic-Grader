@@ -1,0 +1,42 @@
+[
+  {
+    "page": "page_01.png",
+    "text": ""
+  },
+  {
+    "page": "page_02.png",
+    "text": "1. [UNK]\n2. [UNK]\n3. [UNK]\n4. [UNK] المناخية\n5. [UNK] البيولوجية\n6. [UNK] الاجتماعية\n7. [UNK] الاقتصادية\n8. [UNK] البيئية"
+  },
+  {
+    "page": "page_03.png",
+    "text": "1-1 It mean the Java is not restricted by\nSPECIFIC opreation system .\n1.2 by Small Programe called APPLE\nhas function the binds together Code and data\nthat it manipulate and transmited by Internet\nand excuted them by Java applet browser web\n1.3 that\nwhile pop procedure (Code) oprating on\nData the oop classes and object encapsulated\nData and Code\nClass                  code\n                             data\noop\n                       Code opration\n                       Code\n                             dat\n                       Pop"
+  },
+  {
+    "page": "page_04.png",
+    "text": "1.4 JVM (Java Virtual Machin)\nbyt code\n1.5 inheritence is creatin new class From exesting one\nand allow the [UNK] for 'it' to used method and\n[UNK] Function of Super class when it need it [UNK]\n[UNK] plus Attribut\nand method defind For specialization used - while\nPolymorphism Class has many Form and [UNK]\ndo not able to inhert -\n1.6 encapsulation = Es machanism Previde\n[UNK] to Protect\nClass [UNK] data and Code From\noulsid intrFance & and misuse. its\nwrapper encapsulated Cade and data\n1.7 abstracted classes and InTer Face\n1.8 1. dead [UNK] or no longer avialable\n2. Finished their task normaly\n3. terminated due to unormal event\n1.9 Streams - in\nStreams - out\nStreams - err\n1.10 it Java API (Application Programing Interface)\nto connect and Interact with database\nconnect"
+  },
+  {
+    "page": "page_05.png",
+    "text": "2.1 True\n2.2 True\n2.3 True\n2.4 False\nRun time ploy morphism could be\nachieved by method overriden -\n2.5 False\nCould have qbstract method within them\nachieved also by Interface -\n2.6 True\n2.7 False =\nThere is many JDBC driver"
+  },
+  {
+    "page": "page_06.png",
+    "text": "3-1 environment\n3-2 C Language\n3-3 attributes\n3-4 Applet\n3-5 a container\n3-6 Controlling\n3-7 JDBC"
+  },
+  {
+    "page": "page_07.png",
+    "text": "4.1\nSeats [i] + \", you will take Seat \" + (seats.length -i-1\nSeats [i] + \", you will take seat \" + (4 - i)\n4 - 2\nif num of Votr\nint total Voters\n(int) portion = double portion\n(int) portion = int total Votes * 0.15"
+  },
+  {
+    "page": "page_08.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_09.png",
+    "text": ""
+  },
+  {
+    "page": "page_10.png",
+    "text": ""
+  }
+]

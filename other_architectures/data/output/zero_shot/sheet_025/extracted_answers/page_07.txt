@@ -1,0 +1,19 @@
+(4.1) seats[i] + " , you will take seat " + i
+(4.2) System.out.println ("The number
+(4.2) calculatedVotes (totalVotes);
+(4.2) caculatedVotes (totalVotes);
+(4-1)
+Code: seats[i] + ", you will take seat " + i
+Explanation: It is apparent that the output is
+looping over the array "seats" printing every
+element and its corresponding index along with
+an appropriate text message.
+(4-2)
+Code: calculateVotes (totalVotes);
+Explanation: The function "calculateVotes" calculates
+"proportion" which is 15% of its input parameter
+"numOfVotes", then prints the result with an
+appropriate message. From this it is clear that
+to get the needed output, we only need to
+call the function "calculateVotes" and pass the
+totalVotes variable on the parameter slot.

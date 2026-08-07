@@ -1,0 +1,86 @@
+STUDENT ANSWERS:
+
+Question: Q1
+Sub-Question: Q1.1
+Answer: It doesn't need any external architecture System.
+
+Sub-Question: Q1.2
+Answer: It needs to be used in different devices with different characteristics, so there was a deep need to find a language that is secure and could be used in web in different devices.
+
+Sub-Question: Q1.3
+Answer: OOP is encapsulate code and data together pop is procedure the code over data
+
+Sub-Question: Q1.4
+Answer: [NO_ANSWER]
+
+Sub-Question: Q1.5
+Answer: Inheritance is the feature that allows a class to take any other class field attributes objects polymorphism is the feature that allows to reuse the particular code in different data type without any modifying.
+
+Sub-Question: Q1.6
+Answer: Encapsulation is to combine data and code together to keep them away from interference and misuses.
+
+Sub-Question: Q1.7
+Answer: ① Class Abstraction classes ② Abstraction interfaces
+
+Sub-Question: Q1.8
+Answer: ① done its work ② Unusual event ③ dead or not found
+
+Sub-Question: Q1.9
+Answer: ① System.in ② System.out ③ System.err
+
+Sub-Question: Q1.10
+Answer: [NO_ANSWER]
+
+
+Question: Q2
+Sub-Question: Q2.1
+Answer: true
+
+Sub-Question: Q2.2
+Answer: true
+
+Sub-Question: Q2.3
+Answer: true
+
+Sub-Question: Q2.4
+Answer: false / could be achieved by method overriding
+
+Sub-Question: Q2.5
+Answer: false / should have abstract methods within the
+
+Sub-Question: Q2.6
+Answer: true
+
+Sub-Question: Q2.7
+Answer: true
+
+
+Question: Q3
+Sub-Question: Q3.1
+Answer: Adapting to changing [UNK] and uses.
+
+Sub-Question: Q3.2
+Answer: C
+
+Sub-Question: Q3.3
+Answer: Compiler
+
+Sub-Question: Q3.4
+Answer: Servlet
+
+Sub-Question: Q3.5
+Answer: Java Api
+
+Sub-Question: Q3.6
+Answer: Read
+
+Sub-Question: Q3.7
+Answer: Servlet
+
+
+Question: Q4
+Sub-Question: Q4.1
+Answer: System.out.println(Seats[i] + ", You will take Seat" + i); The code will print each element in the Seats array one by one, starting from 0 to seats.length-1
+
+Sub-Question: Q4.2
+Answer: CalculateVotes (totalVotes) CalculateVotes ((double) totalVotes); The execute ( CalculateVotes (1)) Eatss class we must call it in the main section and passing the value of (num of votes) between its parenthesis.
