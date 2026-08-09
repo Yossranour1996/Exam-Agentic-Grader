@@ -1,0 +1,7 @@
+① Student
+student seats
+student [i] + "you will take seat" + stor seat.length [i]
+first you call choractor from list = seats and then goes through loop and
+after that length of seats => like index [0] = ["M"] and less than length
+of list so + "you will take seat"
+double num Of Votes = total Votes;

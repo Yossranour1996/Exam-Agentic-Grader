@@ -1,0 +1,9 @@
+1) student s[i]. " you will take seat" "student length -it)"
+Oh:-
+student [i]. you will take seat', i
+* for the student [i] (for example) will have the seat
+* (i-1) => [UNK] will be seated up to and G = 2
+For seat student[i] when i=0 the seat will be 0
+i = 1
+i = 4 the seat will be 4
+2] Private String U:

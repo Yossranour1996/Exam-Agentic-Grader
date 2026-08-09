@@ -1,0 +1,56 @@
+[
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q1",
+        "identified_errors": [
+          {
+            "sub_question": "Q1.6",
+            "description": "The student's answer focused on hiding data and implementations, which aligns with the concept of encapsulation. The rubric allows for semantic equivalence, and the student's answer should be considered correct."
+          }
+        ],
+        "summary": "Q1.6 was unfairly graded. The student's answer aligns with the concept of encapsulation as per the rubric's allowance for semantic equivalence."
+      },
+      {
+        "question": "Q2",
+        "identified_errors": [
+          {
+            "sub_question": "Q2.5",
+            "description": "The student answered 'False, it cannot', which is incorrect. However, the rubric does not allow for partial credit in true/false questions, so the score of 0 is justified."
+          }
+        ],
+        "summary": "Q2.5 was correctly graded as 0, but the justification should not have included additional information since the rubric does not allow for partial credit."
+      },
+      {
+        "question": "Q4",
+        "identified_errors": [
+          {
+            "sub_question": "Q4.2",
+            "description": "The student's answer mentions both 'calculateVotes' and 'totalVotes', which should warrant full marks (14) according to the rubric. The syntax error should not have reduced the score to 11."
+          }
+        ],
+        "summary": "Q4.2 was unfairly graded. The rubric specifies full marks for mentioning both 'calculateVotes' and 'totalVotes', regardless of syntax errors."
+      }
+    ]
+  },
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q2",
+        "identified_errors": [
+          {
+            "sub_question": "Q2.5",
+            "description": "The student answered 'False, it cannot', which is incorrect. However, the rubric does not allow for partial credit, so the score of 0 is correct."
+          }
+        ],
+        "summary": "The grading for Q2.5 is correct according to the rubric, but the justification should have been clearer that partial credit is not allowed."
+      }
+    ]
+  },
+  {
+    "decision": "<NO_REGRADE>",
+    "audits": []
+  }
+]

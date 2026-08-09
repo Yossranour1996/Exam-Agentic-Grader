@@ -1,0 +1,42 @@
+[
+  {
+    "page": "page_01.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_02.png",
+    "text": "Question (4)\n1] We mean that the JAVA is not restricted by a\nspecific system architecture .\n2] They introduced Applets which extend the\nfunctionality of the web, and also servlet that extended\nfunctionality of the server.\n3] The OOP treats the code lines as instructions\nand emphasizes on the procedure, on the other hand\nOOP encapsulate the code and data is manipulates and\nemphasized on data.\n4] JRE or JAVA Runtime Environment consists of library\nand JVM to Run the code.\n5] Inheritance: new classes inherits the attributes and\nmethods of older classes. Polymorphism: Allow one\ninterface to be used for general use case, Inheritance keep\nthe old classes methods while polymorphism might alter them\n6] Encapsulations is the mechanism that binds the code\nand data is manipulates, and Keep them safe from\noutside interference and misuse.\n7] Class abstracts and interfaces.\n8] 1) finished and completed the task normally.\n2) terminated due to unusual events."
+  },
+  {
+    "page": "page_03.png",
+    "text": "3) Stopped due to runtime error\n9) System.In System.out System.err\n10) JAVA swing was built on top of AWT\nQuestion 2\n1) The C++ language was called \"C with classes\"\nTrue\n2) It is not possible for an interface to inherit another interfaces\nproperties\nTrue\n3) The Java byte code is a .class file that is executed\nby the Java run-time system\nTrue\n4) Run time polymorphism could be achieved by method\nOverloading\nFalse, it is achieved by Overriding\n5) Abstract classes could have non-abstract methods within them\nFalse, that would lead to the diamond problem,\nwhich causes the class to exted extend till [UNK] errors out\n6) JAVA threads are light weigh threads\nTrue"
+  },
+  {
+    "page": "page_04.png",
+    "text": "7] There is one JDBC driver for all database sources\n⊗ False each source has its own implementations for\nJDBC driver - True\n1] Enhancement is one of the reason that computer\nlanguage innovation occurred\n2] C is an example of a POP language\ninstructions\n3] POP does not allow [UNK] flow freely in the\nProgram\n4] Applets are small programs that need a Java\nenabled web browser to be executed\n5] a frame is a component which can contain other\nelements like buttons\n6] The model-view controller (MVC) architecture is used in Swing.\n7] JDBC is a Java API to connect and interact with\ndatabases"
+  },
+  {
+    "page": "page_05.png",
+    "text": ""
+  },
+  {
+    "page": "page_06.png",
+    "text": "We added the missing statemented and printed it on\na new line -\nSystem.out.println(\"the amount of people who agrees with this\")\nstatement is\nSystem.out.println(\"Statement. if Java was easy they would\ncall it Python!\")"
+  },
+  {
+    "page": "page_07.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_08.png",
+    "text": ""
+  },
+  {
+    "page": "page_09.png",
+    "text": ""
+  },
+  {
+    "page": "page_10.png",
+    "text": "EMPTY"
+  }
+]

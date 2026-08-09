@@ -1,0 +1,121 @@
+Total Mark: 85
+
+Evaluations:
+Question: Q1
+Total Score: 24
+
+Sub-Question: Q1.1
+Score: 3
+Justification: The student correctly conveyed that Java is not restricted by a specific system architecture.
+
+Sub-Question: Q1.2
+Score: 3
+Justification: The student provided a nonblank answer that did not mention Applet or Servlet.
+
+Sub-Question: Q1.3
+Score: 3
+Justification: The student correctly explained the difference between POP and OOP.
+
+Sub-Question: Q1.4
+Score: 1
+Justification: The student mentioned JVM but did not mention libraries or supporting files.
+
+Sub-Question: Q1.5
+Score: 3
+Justification: The student correctly explained both inheritance and polymorphism.
+
+Sub-Question: Q1.6
+Score: 3
+Justification: The student correctly explained encapsulation as binding code and data together.
+
+Sub-Question: Q1.7
+Score: 3
+Justification: The student mentioned abstract classes and interfaces.
+
+Sub-Question: Q1.8
+Score: 3
+Justification: The student provided three correct reasons for thread termination.
+
+Sub-Question: Q1.9
+Score: 3
+Justification: The student correctly listed System.in, System.out, and System.err.
+
+Sub-Question: Q1.10
+Score: 0
+Justification: The student incorrectly mentioned the model-view-controller architecture instead of AWT.
+
+
+Question: Q2
+Total Score: 15
+
+Sub-Question: Q2.1
+Score: 3
+Justification: The student correctly chose True.
+
+Sub-Question: Q2.2
+Score: 0
+Justification: The student incorrectly chose True instead of False.
+
+Sub-Question: Q2.3
+Score: 3
+Justification: The student correctly chose True.
+
+Sub-Question: Q2.4
+Score: 3
+Justification: The student correctly chose False.
+
+Sub-Question: Q2.5
+Score: 3
+Justification: The student correctly chose True.
+
+Sub-Question: Q2.6
+Score: 3
+Justification: The student correctly chose True.
+
+Sub-Question: Q2.7
+Score: 0
+Justification: The student incorrectly chose False instead of True.
+
+
+Question: Q3
+Total Score: 18
+
+Sub-Question: Q3.1
+Score: 3
+Justification: Full marks are given regardless of the answer.
+
+Sub-Question: Q3.2
+Score: 3
+Justification: The student correctly mentioned 'C programming language'.
+
+Sub-Question: Q3.3
+Score: 0
+Justification: The student incorrectly mentioned 'Procedures' instead of 'data'.
+
+Sub-Question: Q3.4
+Score: 0
+Justification: The student did not provide an answer.
+
+Sub-Question: Q3.5
+Score: 3
+Justification: The student correctly mentioned 'Frame'.
+
+Sub-Question: Q3.6
+Score: 3
+Justification: The student correctly mentioned 'controller'.
+
+Sub-Question: Q3.7
+Score: 3
+Justification: The student correctly mentioned 'Java DataBase Connectivity (JDBC)'.
+
+
+Question: Q4
+Total Score: 28
+
+Sub-Question: Q4.1
+Score: 14
+Justification: Full marks are given regardless of the answer.
+
+Sub-Question: Q4.2
+Score: 14
+Justification: The student correctly mentioned both 'calculateVotes' and 'totalVotes'.

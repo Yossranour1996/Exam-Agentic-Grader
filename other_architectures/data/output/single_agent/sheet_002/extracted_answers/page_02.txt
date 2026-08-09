@@ -1,0 +1,23 @@
+1.1 Java is not tied to specific machine or operating
+System architecture.
+1.2 They help catapult Java to the forefront of programming, and
+They will soon reach critical mass.
+1.3 POP: Process oriented model can be thought as code acting on
+data & its major emphasize is on developing Procedures (Function)
+rather than data & can divide program into smaller part & each
+part consist of sequence of procedures & function. While
+OOP: object oriented programming can be thought as
+data controlling access to code, it uses class & methods
+to manipulate data & code, it can divide problems into smaller
+entities called "object" & build function and data around
+these objects.
+1.4 JRE: is Java runtime environment to only run (execute)
+not develop the Java application Program.
+1.5 Inheritance is a process in which one object acquire the
+properties of other objects (creating new class based on already
+existing one. Subclass reuse all method & attributes of super
+class. While polymorphism is a feature that allow one interface
+to be used for general class of action, and specific action is
+determined based on nature of the situation.
+1.6 encapsulation mean bind together data & code it manipulate
+& keep both safe from outside interference & misuse.

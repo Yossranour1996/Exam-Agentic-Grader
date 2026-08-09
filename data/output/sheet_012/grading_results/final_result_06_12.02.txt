@@ -1,0 +1,136 @@
+Final Grading and Feedback Results
+Grading:
+
+Total Mark: 77
+
+Evaluations:
+"Question: Q1
+Total Points: 24
+
+Sub-Question: Q1.1
+Awarded Points: 3
+Justification: The student conveyed that Java is not restricted to a specific system, which aligns with the concept of architecture-neutral.
+
+Sub-Question: Q1.2
+Awarded Points: 3
+Justification: The student provided a non-blank answer that did not mention Applet or Servlet, thus receiving full marks.
+
+Sub-Question: Q1.3
+Awarded Points: 3
+Justification: The student correctly differentiated between POP and OOP, mentioning data operations for POP and classes for OOP.
+
+Sub-Question: Q1.4
+Awarded Points: 0
+Justification: The answer did not mention any of the components of the JRE such as JVM, libraries, or supporting files.
+
+Sub-Question: Q1.5
+Awarded Points: 3
+Justification: Based on the auditor's notes, the student's explanation for polymorphism was accepted as correct, and full marks were awarded.
+
+Sub-Question: Q1.6
+Awarded Points: 3
+Justification: The student expressed the concept of encapsulation as binding code and data together, which is correct.
+
+Sub-Question: Q1.7
+Awarded Points: 3
+Justification: The student mentioned abstract classes and interfaces, which are the two ways to achieve abstraction.
+
+Sub-Question: Q1.8
+Awarded Points: 3
+Justification: The student provided three valid reasons for thread termination: normal completion, unusual events, and being no longer available.
+
+Sub-Question: Q1.9
+Awarded Points: 3
+Justification: The student correctly identified the three default streams in Java: System.in, System.out, and System.err.
+
+Sub-Question: Q1.10
+Awarded Points: 0
+Justification: The student did not mention AWT or Abstract Window Toolkit, which are required for full marks.
+
+
+"Question: Q2
+Total Points: 21
+
+Sub-Question: Q2.1
+Awarded Points: 3
+Justification: The student correctly identified the statement as True.
+
+Sub-Question: Q2.2
+Awarded Points: 3
+Justification: The student correctly identified the statement as False, despite the additional note 'Possible'.
+
+Sub-Question: Q2.3
+Awarded Points: 3
+Justification: The student correctly identified the statement as True.
+
+Sub-Question: Q2.4
+Awarded Points: 3
+Justification: The student correctly identified the statement as False.
+
+Sub-Question: Q2.5
+Awarded Points: 3
+Justification: The student correctly identified the statement as True.
+
+Sub-Question: Q2.6
+Awarded Points: 3
+Justification: The student correctly identified the statement as True.
+
+Sub-Question: Q2.7
+Awarded Points: 3
+Justification: The student correctly identified the statement as False.
+
+
+"Question: Q3
+Total Points: 18
+
+Sub-Question: Q3.1
+Awarded Points: 3
+Justification: The rubric mandates full marks for Q3.1 regardless of the answer.
+
+Sub-Question: Q3.2
+Awarded Points: 3
+Justification: The answer 'C' matches the accepted term 'C'. Full marks awarded.
+
+Sub-Question: Q3.3
+Awarded Points: 3
+Justification: The answer 'data' matches the accepted term 'data'. Full marks awarded.
+
+Sub-Question: Q3.4
+Awarded Points: 0
+Justification: The answer 'Abstraction' does not match the accepted terms 'Applet' or 'Applets'.
+
+Sub-Question: Q3.5
+Awarded Points: 3
+Justification: The answer 'container' matches the accepted term 'Container'. Full marks awarded.
+
+Sub-Question: Q3.6
+Awarded Points: 3
+Justification: The answer 'controller' matches the accepted term 'Controller'. Full marks awarded.
+
+Sub-Question: Q3.7
+Awarded Points: 3
+Justification: The answer 'JDBC' matches the accepted term 'JDBC'. Full marks awarded.
+
+
+"Question: Q4
+Total Points: 14
+
+Sub-Question: Q4.1
+Awarded Points: 14
+Justification: The rubric specifies that full marks are awarded for this sub-question regardless of the student's answer.
+
+Sub-Question: Q4.2
+Awarded Points: 0
+Justification: The student did not provide an answer for this sub-question, and according to the rubric, a blank answer receives 0 points.
+
+--------------------------------------------------------------------------------
+
+Feedback:
+
+Positive Highlights:
+- <NO_FEEDBACK>
+
+Areas for Improvement:
+- <NO_FEEDBACK>
+
+<NO_FEEDBACK>

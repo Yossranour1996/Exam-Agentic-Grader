@@ -1,0 +1,86 @@
+STUDENT ANSWERS:
+
+Question: Q1
+Sub-Question: Q1.1
+Answer: It's not restricted to a specific system architecture.
+
+Sub-Question: Q1.2
+Answer: By the wide spread of information that led to the need for new improvement in programming to adopt to this new Changes and new thinking about programs and their design.
+
+Sub-Question: Q1.3
+Answer: OOP focuses mainly on data and keep the code closely tied to its data, while POP focuses on procedure rather than data.
+
+Sub-Question: Q1.4
+Answer: a running tool (not development) and also the JVM
+
+Sub-Question: Q1.5
+Answer: Inheritance takes the methods and attributes of an existing class and inherit it to a new class, allowing it to reusit a add new things while polymorphism is basically means many forms and that a message or a method can be defined differently many times.
+
+Sub-Question: Q1.6
+Answer: It is the process of binding together the code and the data it is manipulate and protect them from outside interference and misuse.
+
+Sub-Question: Q1.7
+Answer: Interfaces and abstract classes.
+
+Sub-Question: Q1.8
+Answer: (i) Completing the task normally. (ii) due to unusual event. (iii) It's no longer available or dead.
+
+Sub-Question: Q1.9
+Answer: System.in, System.out, System.err
+
+Sub-Question: Q1.10
+Answer: AWT API to add new feature
+
+
+Question: Q2
+Sub-Question: Q2.1
+Answer: True
+
+Sub-Question: Q2.2
+Answer: False
+
+Sub-Question: Q2.3
+Answer: True
+
+Sub-Question: Q2.4
+Answer: False
+
+Sub-Question: Q2.5
+Answer: False
+
+Sub-Question: Q2.6
+Answer: True
+
+Sub-Question: Q2.7
+Answer: False
+
+
+Question: Q3
+Sub-Question: Q3.1
+Answer: adapting to the new environmental changes in the world.
+
+Sub-Question: Q3.2
+Answer: C Language
+
+Sub-Question: Q3.3
+Answer: Applet Data
+
+Sub-Question: Q3.4
+Answer: Applet
+
+Sub-Question: Q3.5
+Answer: Container
+
+Sub-Question: Q3.6
+Answer: Control Pantaler
+
+Sub-Question: Q3.7
+Answer: JDBC
+
+
+Question: Q4
+Sub-Question: Q4.1
+Answer: System.out.println("Seats[i], you will take seat"+i);
+
+Sub-Question: Q4.2
+Answer: Agree Vote = new Agree(); initiate an object Vote.CalculateVotes (76088); of class Agree

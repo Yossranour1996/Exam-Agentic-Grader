@@ -1,0 +1,121 @@
+Total Mark: 54
+
+Evaluations:
+Question: Q1
+Total Score: 12
+
+Sub-Question: Q1.1
+Score: 3
+Justification: The student conveyed that Java is not restricted to a specific architecture, which aligns with the expected answer.
+
+Sub-Question: Q1.2
+Score: 3
+Justification: The student provided a nonblank answer that did not mention Applet or Servlet, thus meeting the criteria for full marks.
+
+Sub-Question: Q1.3
+Score: 3
+Justification: The student correctly differentiated between POP and OOP, mentioning procedures for POP and objects/classes for OOP.
+
+Sub-Question: Q1.4
+Score: 0
+Justification: The answer did not mention any of the components of the JRE such as JVM, libraries, or supporting files.
+
+Sub-Question: Q1.5
+Score: 2
+Justification: The student correctly described inheritance but provided an unclear explanation for polymorphism.
+
+Sub-Question: Q1.6
+Score: 0
+Justification: The answer did not convey the concept of encapsulation as binding code and data together.
+
+Sub-Question: Q1.7
+Score: 3
+Justification: The student mentioned 'abstract interface', which is interpreted as abstract classes and interfaces, meeting the criteria for full marks.
+
+Sub-Question: Q1.8
+Score: 1
+Justification: The student mentioned 'finished the task', which is one correct reason for thread termination.
+
+Sub-Question: Q1.9
+Score: 2
+Justification: The student correctly identified System.in and System.out, but not System.err.
+
+Sub-Question: Q1.10
+Score: 0
+Justification: The answer did not mention AWT or Abstract Window Toolkit.
+
+
+Question: Q2
+Total Score: 9
+
+Sub-Question: Q2.1
+Score: 3
+Justification: The student correctly identified the statement as True.
+
+Sub-Question: Q2.2
+Score: 0
+Justification: The student incorrectly identified the statement as True.
+
+Sub-Question: Q2.3
+Score: 3
+Justification: The student correctly identified the statement as True.
+
+Sub-Question: Q2.4
+Score: 3
+Justification: The student correctly identified the statement as False.
+
+Sub-Question: Q2.5
+Score: 0
+Justification: The student incorrectly identified the statement as False.
+
+Sub-Question: Q2.6
+Score: 0
+Justification: The student incorrectly identified the statement as False.
+
+Sub-Question: Q2.7
+Score: 0
+Justification: The student incorrectly identified the statement as False.
+
+
+Question: Q3
+Total Score: 15
+
+Sub-Question: Q3.1
+Score: 3
+Justification: Full marks are awarded as per the rubric policy.
+
+Sub-Question: Q3.2
+Score: 3
+Justification: The student mentioned 'C', which is an accepted answer.
+
+Sub-Question: Q3.3
+Score: 0
+Justification: The student incorrectly answered 'interface' instead of 'data'.
+
+Sub-Question: Q3.4
+Score: 3
+Justification: The student correctly answered 'Java applets'.
+
+Sub-Question: Q3.5
+Score: 0
+Justification: The student answered 'form', which is not an accepted answer.
+
+Sub-Question: Q3.6
+Score: 0
+Justification: The student answered 'control', which is not the accepted answer 'Controller'.
+
+Sub-Question: Q3.7
+Score: 3
+Justification: The student mentioned 'JDBC', which is an accepted answer.
+
+
+Question: Q4
+Total Score: 18
+
+Sub-Question: Q4.1
+Score: 14
+Justification: Full marks are awarded as per the rubric policy.
+
+Sub-Question: Q4.2
+Score: 4
+Justification: The answer was incorrect and did not mention votes, but it was nonblank.

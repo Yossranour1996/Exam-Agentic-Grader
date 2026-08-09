@@ -1,0 +1,16 @@
+4. 1
+for looking for output we see miss
+the method print name of seat
+and the words "you will take seat".
+Next the definition of seat
+The method it will be let user intering
+the sheet
+The Solutions -
+Scanner seat = new Scanner (Scanner.in);
+exam seat;
+print system
+Scanner exam seat = str.nextLine();
+system.out.prin("you will take seat");
+System.out.println("you will take seat" + (int)i);
+4.2 The method defines here
+solution

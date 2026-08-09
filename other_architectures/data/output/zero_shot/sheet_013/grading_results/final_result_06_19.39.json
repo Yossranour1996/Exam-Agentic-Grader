@@ -1,0 +1,161 @@
+{
+  "grading": {
+    "total_mark": 61,
+    "evaluations": [
+      {
+        "question_id": "Q1",
+        "total_score": 19,
+        "sub_evaluations": [
+          {
+            "sub_question_id": "Q1.1",
+            "score": 3,
+            "justification": "The student conveyed that Java does not depend on a specific architecture, which aligns with the expected answer."
+          },
+          {
+            "sub_question_id": "Q1.2",
+            "score": 3,
+            "justification": "The student provided a non-blank answer that did not mention Applet or Servlet, thus meeting the criteria for full marks."
+          },
+          {
+            "sub_question_id": "Q1.3",
+            "score": 3,
+            "justification": "The student correctly differentiated between POP and OOP, focusing on functions and data for POP and data access for OOP."
+          },
+          {
+            "sub_question_id": "Q1.4",
+            "score": 2,
+            "justification": "The student mentioned JVM and libraries but did not clearly mention supporting files."
+          },
+          {
+            "sub_question_id": "Q1.5",
+            "score": 0,
+            "justification": "The explanation of inheritance and polymorphism was unclear and incorrect."
+          },
+          {
+            "sub_question_id": "Q1.6",
+            "score": 0,
+            "justification": "The explanation of encapsulation was incorrect and did not convey the expected meaning."
+          },
+          {
+            "sub_question_id": "Q1.7",
+            "score": 3,
+            "justification": "The student correctly mentioned abstract classes and interfaces."
+          },
+          {
+            "sub_question_id": "Q1.8",
+            "score": 3,
+            "justification": "The student provided three valid reasons for thread termination."
+          },
+          {
+            "sub_question_id": "Q1.9",
+            "score": 3,
+            "justification": "The student correctly identified System.in, System.out, and System.err."
+          },
+          {
+            "sub_question_id": "Q1.10",
+            "score": 0,
+            "justification": "The student did not provide an answer."
+          }
+        ]
+      },
+      {
+        "question_id": "Q2",
+        "total_score": 12,
+        "sub_evaluations": [
+          {
+            "sub_question_id": "Q2.1",
+            "score": 3,
+            "justification": "The student correctly answered True."
+          },
+          {
+            "sub_question_id": "Q2.2",
+            "score": 3,
+            "justification": "The student correctly answered False."
+          },
+          {
+            "sub_question_id": "Q2.3",
+            "score": 3,
+            "justification": "The student correctly answered True."
+          },
+          {
+            "sub_question_id": "Q2.4",
+            "score": 3,
+            "justification": "The student correctly answered False."
+          },
+          {
+            "sub_question_id": "Q2.5",
+            "score": 3,
+            "justification": "The student correctly answered True."
+          },
+          {
+            "sub_question_id": "Q2.6",
+            "score": 0,
+            "justification": "The student incorrectly answered False."
+          },
+          {
+            "sub_question_id": "Q2.7",
+            "score": 0,
+            "justification": "The student incorrectly answered True."
+          }
+        ]
+      },
+      {
+        "question_id": "Q3",
+        "total_score": 9,
+        "sub_evaluations": [
+          {
+            "sub_question_id": "Q3.1",
+            "score": 3,
+            "justification": "Full marks are awarded regardless of the answer."
+          },
+          {
+            "sub_question_id": "Q3.2",
+            "score": 3,
+            "justification": "The student correctly mentioned 'the Language C'."
+          },
+          {
+            "sub_question_id": "Q3.3",
+            "score": 0,
+            "justification": "The student did not mention 'data'."
+          },
+          {
+            "sub_question_id": "Q3.4",
+            "score": 0,
+            "justification": "The student incorrectly answered 'interface'."
+          },
+          {
+            "sub_question_id": "Q3.5",
+            "score": 0,
+            "justification": "The student incorrectly answered 'controller'."
+          },
+          {
+            "sub_question_id": "Q3.6",
+            "score": 0,
+            "justification": "The student incorrectly answered 'interface'."
+          },
+          {
+            "sub_question_id": "Q3.7",
+            "score": 3,
+            "justification": "The student correctly mentioned 'JDBC'."
+          }
+        ]
+      },
+      {
+        "question_id": "Q4",
+        "total_score": 21,
+        "sub_evaluations": [
+          {
+            "sub_question_id": "Q4.1",
+            "score": 14,
+            "justification": "Full marks are awarded regardless of the answer."
+          },
+          {
+            "sub_question_id": "Q4.2",
+            "score": 7,
+            "justification": "The answer was nonblank but unrelated to votes."
+          }
+        ]
+      }
+    ]
+  }
+}

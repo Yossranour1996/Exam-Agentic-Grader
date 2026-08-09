@@ -1,0 +1,239 @@
+{
+    "1.1": {
+        "question": "What is meant by Java is architecture-neutral?",
+        "expected": "Student should express that Java can work across different architectures / is not restricted to one specific system architecture.",
+        "allowed_scores": [0, 3],
+        "grading_policy": (
+            "Give 3 if the student conveys the idea that Java can work on different "
+            "architectures/devices/systems, even if the wording is weak or grammatically wrong. "
+            "Otherwise 0."
+        ),
+    },
+"1.2": {
+    "question": "What was the role of WWW and Internet in Java's emergence?",
+    "expected": (
+        "Any nonblank answer is accepted unless it mentions Applet/Applets "
+        "or Servlet/Servlets."
+    ),
+    "allowed_scores": [0, 3],
+    "grading_policy": (
+        "Give 0 if the answer is blank. "
+        "Give 0 if the answer mentions Applet, Applets, Servlet, or Servlets. "
+        "Otherwise give 3."
+    ),
+},"1.3": {
+        "question": "Difference between OOP and POP.",
+        "expected": "POP is procedure/data oriented; OOP is object/class oriented.",
+        "allowed_scores": [0, 3],
+        "grading_policy": (
+            "Give 3 if the student conveys that POP is related to procedures/functions/data "
+            "and OOP is related to objects/classes. Exact textbook wording is not required. "
+            "Otherwise 0."
+        ),
+    },
+
+"1.4": {
+    "question": "Components of JRE.",
+    "expected": "JVM, libraries, supporting files/components.",
+    "allowed_scores": [0, 1, 2, 3],
+    "grading_policy": (
+        "Give 1 mark for JVM or Java Virtual Machine, "
+        "1 mark for library/libraries, and "
+        "1 mark for file/files/supporting files. "
+        "Maximum 3. Blank answer gets 0."
+    ),
+},
+    "1.5": {
+        "question": "Inheritance vs polymorphism.",
+        "expected": (
+            "Inheritance = class gets properties/behavior from another existing class. "
+            "Polymorphism = many forms / one interface / general class of actions / "
+            "common type with different forms."
+        ),
+        "allowed_scores": [0, 2, 3],
+        "grading_policy": (
+            "Give 3 if both inheritance and polymorphism meanings are correct. "
+            "Give 2 if only one of the two is clearly correct. "
+            "Give 0 if neither is correct."
+        ),
+    },
+    "1.6": {
+        "question": "What is encapsulation?",
+        "expected": "Binding/bundling code and data together in one unit/class.",
+        "allowed_scores": [0, 3],
+        "grading_policy": (
+            "Give 3 if the student expresses binding/bundling code and data together, "
+            "or an equivalent meaning. Otherwise 0."
+        ),
+    },
+    "1.7": {
+        "question": "Two ways to achieve abstraction.",
+        "expected": "Abstract classes and interfaces.",
+        "allowed_scores": [0, 3],
+        "grading_policy": (
+            "Give 3 if the student mentions abstract class/classes and interfaces, "
+            "even if grammar/order is weak such as 'class abstract' or 'interfaces abstract'. "
+            "Otherwise 0."
+        ),
+    },
+    "1.8": {
+        "question": "Reasons a thread may terminate.",
+        "expected": "Finished normally, unusual event/exception/error, dead/stopped/terminated.",
+        "allowed_scores": [0, 1, 2, 3],
+        "grading_policy": (
+            "Give 1 mark for each clearly correct reason among: "
+            "(1) finished/completed task, "
+            "(2) unusual event/exception/error, "
+            "(3) dead/stopped/terminated/no longer available. "
+            "Accept equivalent wording. Max 3."
+        ),
+    },
+    "1.9": {
+        "question": "Default streams in Java.",
+        "expected": "System.in, System.out, System.err",
+        "allowed_scores": [0, 1, 2, 3],
+        "grading_policy": (
+            "Give 1 mark for each correct intended stream among System.in, System.out, System.err. "
+            "IMPORTANT: if the student writes weak spellings like System.i or System.o but the "
+            "intended stream is clearly System.in and System.out, count them as correct. "
+            "Minor spelling/OCR mistakes must not reduce the mark. Max 3."
+        ),
+    },
+    "1.10": {
+        "question": "Swing is built on top of what?",
+        "expected": "AWT / Abstract Window Toolkit",
+        "allowed_scores": [0, 3],
+        "grading_policy": (
+            "Give 3 only if the student gives AWT or Abstract Window Toolkit or a very clear equivalent. "
+            "Otherwise 0."
+        ),
+    },
+
+    "2.1": {
+        "question": "True/False 2.1",
+        "expected": "True",
+        "allowed_scores": [0, 3],
+        "grading_policy": "Give 3 only if the student chose True. Otherwise 0.",
+    },
+    "2.2": {
+        "question": "True/False 2.2",
+        "expected": "False",
+        "allowed_scores": [0, 3],
+        "grading_policy": "Give 3 only if the student chose False. Otherwise 0.",
+    },
+    "2.3": {
+        "question": "True/False 2.3",
+        "expected": "True",
+        "allowed_scores": [0, 3],
+        "grading_policy": "Give 3 only if the student chose True. Otherwise 0.",
+    },
+    "2.4": {
+        "question": "True/False 2.4",
+        "expected": "False",
+        "allowed_scores": [0, 3],
+        "grading_policy": "Give 3 only if the student chose False. Otherwise 0.",
+    },
+    "2.5": {
+        "question": "True/False 2.5",
+        "expected": "True",
+        "allowed_scores": [0, 3],
+        "grading_policy": "Give 3 only if the student chose True. Otherwise 0.",
+    },
+    "2.6": {
+        "question": "True/False 2.6",
+        "expected": "True",
+        "allowed_scores": [0, 3],
+        "grading_policy": "Give 3 only if the student chose True. Otherwise 0.",
+    },
+    "2.7": {
+        "question": "True/False 2.7",
+        "expected": "False",
+        "allowed_scores": [0, 3],
+        "grading_policy": "Give 3 only if the student chose False. Otherwise 0.",
+    },
+
+
+"3.1": {
+    "question": "Reason for computer language innovation.",
+    "expected": "Always full marks.",
+    "allowed_scores": [3],
+    "grading_policy": (
+        "Always give 3 marks, even if the answer is blank."
+    ),
+},
+    "3.2": {
+        "question": "Example of POP language.",
+        "expected": "C or Pascal",
+        "allowed_scores": [0, 3],
+        "grading_policy": (
+            "Give 3 if the student gives C or Pascal, even inside a longer phrase such as "
+            "'C programming language'. Otherwise 0."
+        ),
+    },
+    "3.3": {
+        "question": "POP does not allow _____ to flow freely in the program.",
+        "expected": "data",
+        "allowed_scores": [0, 3],
+        "grading_policy": (
+            "Give 3 if the intended answer is data, even if it appears in a phrase like "
+            "'and data'. Otherwise 0."
+        ),
+    },
+    "3.4": {
+        "question": "Small programs that need a Java-enabled web browser to execute.",
+        "expected": "Applets",
+        "allowed_scores": [0, 3],
+        "grading_policy": (
+            "Give 3 if the student gives Applet/Applets or a very clear equivalent/OCR form. "
+            "Otherwise 0."
+        ),
+    },
+
+"3.5": {
+    "question": "A component which can contain other elements like buttons.",
+    "expected": "Container or Frame",
+    "allowed_scores": [0, 3],
+    "grading_policy": (
+        "Give 3 if the student gives Container or Frame. "
+        "Accept spelling/OCR variations when the intended word is clear. "
+        "Otherwise 0. Blank answer gets 0."
+    ),
+},
+    "3.6": {
+        "question": "The model-view-_____ architecture used in Swing.",
+        "expected": "Controller",
+        "allowed_scores": [0, 3],
+        "grading_policy": "Give 3 if the student gives Controller. Otherwise 0.",
+    },
+    "3.7": {
+        "question": "Java API to connect and interact with databases.",
+        "expected": "JDBC or Java Database Connectivity",
+        "allowed_scores": [0, 3],
+        "grading_policy": (
+            "Give 3 if the student gives JDBC or Java Database Connectivity. Otherwise 0."
+        ),
+    },
+
+
+"4.1": {
+    "question": "Complete the code for seat assignment output.",
+    "expected": "Always full marks.",
+    "allowed_scores": [14],
+    "grading_policy": (
+        "Always give 14 marks, even if the answer is blank."
+    ),
+},
+    "4.2": {
+    "question": "Missing code for vote calculation output.",
+    "expected": "calculateVotes(totalVotes);",
+    "allowed_scores": [0, 7, 9, 11, 14],
+    "grading_policy": (
+        "Give 14 if both calculateVotes and totalVotes are mentioned. "
+        "Give 11 if only one of them is mentioned. "
+        "Give 9 if the answer is incorrect but mentions vote/votes or is clearly vote-related. "
+        "Give 7 if the answer is nonblank but unrelated to votes. "
+        "Give 0 if blank."
+    ),
+},
+
+}

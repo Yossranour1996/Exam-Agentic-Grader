@@ -1,0 +1,34 @@
+[
+  {
+    "page": "page_01.png",
+    "text": ""
+  },
+  {
+    "page": "page_02.png",
+    "text": ""
+  },
+  {
+    "page": "page_03.png",
+    "text": "1.1 It means that its independentent on the\ndevice and it's operating system.\n1.2 It supported the revolution of Java, that handled\nprogramming Languages like Java, that handled\nthe complexity Needed to deal with the WWWs,\nwith the technologies like applets\n1.3. OOP (Object oriented programming)\nbinds the data with code with the data\nIt manipulates using encapsulation and gives\nmore focus on the data than POP.\nPOP (procedure oriented programming)\nIt is a serial of procedures and\nfunctions that work on the data\nPOP\nOOP\nData , Code, procedures.\n1.4. JRE consists of the JVM\n(Java virtual machine) and other files\nand libraries.\n1.5. Inheritance is the process in which an object\nacquires the properties from another object.\npolymorphism is the procedure in which one\ninterface can do a Class of different of group"
+  },
+  {
+    "page": "page_04.png",
+    "text": "1.6. encapsulation is the property that\nbinds the code to the data that it\nmanipulates and wraps it from changes\nfrom external misuses.\n1.7 calsses and& interface absraction\n1.8 -\n① If it completed it task\n② due to unusual events\n③ if it's dead\n1.9 -\nSystem.in Stream.in\nSystem.out Stream.out\nSystem.err Stream.err\n1.10 java AWT"
+  },
+  {
+    "page": "page_05.png",
+    "text": "2-1 True\n2-2 False it is possible\n2-3 True\n2-4 False , by method overriding\n2-5 True\n2-6 True\n2-7 False , there are several JDBC drivers"
+  },
+  {
+    "page": "page_06.png",
+    "text": "3.1 Internet and the World Wide Web\n3.2 C\n3.3 data\n3.4 applet\n3.5 Container\n3.6 Controller\n3.7 JDBC\n3.1 Implementing improvements in the art of programming."
+  },
+  {
+    "page": "page_07.png",
+    "text": "4.1\nString [i] + \" \" you will take seat\" + i\nII each each time\nthe Code will\nprint the i'th element in the\n\"seats\" array, then it will then\nprint the index\n4.2\nAgree CalculateVotes (int total votes);"
+  },
+  {
+    "page": "page_08.png",
+    "text": "EMPTY"
+  }
+]

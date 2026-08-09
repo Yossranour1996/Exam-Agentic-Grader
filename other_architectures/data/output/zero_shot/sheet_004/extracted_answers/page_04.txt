@@ -1,0 +1,7 @@
+(1) True
+(2) True
+(3) True
+(4) False. It is achieved by method overriding.
+(5) False. It couldn't have a non-abstracted method inside it.
+(6) True
+(7) False There are more than one driver True

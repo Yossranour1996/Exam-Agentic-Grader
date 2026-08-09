@@ -1,0 +1,62 @@
+[
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q2",
+        "identified_errors": [
+          {
+            "sub_question": "Q2.4",
+            "description": "The student provided additional correct information about compile-time polymorphism, which should not affect the score as the rubric only requires the correct True/False answer. However, the justification should not include this additional information as it is irrelevant to the scoring."
+          }
+        ],
+        "summary": "The grading for Q2.4 included unnecessary justification about additional information provided by the student. The rubric only requires the correct True/False answer, and additional information should not be mentioned in the justification."
+      }
+    ]
+  },
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q1",
+        "identified_errors": [
+          {
+            "sub_question": "Q1.3",
+            "description": "The student described POP but did not mention OOP. However, the rubric requires a mention of both for full marks, not partial. The Grader correctly awarded 0 points."
+          },
+          {
+            "sub_question": "Q1.4",
+            "description": "The student mentioned JVM, which earns 1 point. However, the mention of JRE should also be considered for partial credit as it is closely related to JVM."
+          },
+          {
+            "sub_question": "Q1.10",
+            "description": "The student did not mention AWT or Abstract Window Toolkit, which is required for any points according to the rubric. The Grader correctly awarded 0 points."
+          }
+        ],
+        "summary": "Errors in Q1.4 regarding partial credit for mentioning JRE along with JVM. Q1.3 and Q1.10 were graded correctly."
+      },
+      {
+        "question": "Q2",
+        "identified_errors": [
+          {
+            "sub_question": "Q2.5",
+            "description": "The student answered 'False' instead of 'True'. The Grader correctly awarded 0 points."
+          },
+          {
+            "sub_question": "Q2.6",
+            "description": "The student answered 'False' instead of 'True'. The Grader correctly awarded 0 points."
+          },
+          {
+            "sub_question": "Q2.7",
+            "description": "The student answered 'True' instead of 'False'. The Grader correctly awarded 0 points."
+          }
+        ],
+        "summary": "All errors in Q2 were correctly identified and graded by the Grader."
+      }
+    ]
+  },
+  {
+    "decision": "<NO_REGRADE>",
+    "audits": []
+  }
+]

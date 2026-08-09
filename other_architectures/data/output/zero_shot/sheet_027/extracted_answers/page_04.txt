@@ -1,0 +1,7 @@
+2.1 true
+2.2 true
+2-3 true
+2-4 false / could be achieved by method overriding
+2.5 false / should have abstract methods within the
+2-6 true
+2-7 true

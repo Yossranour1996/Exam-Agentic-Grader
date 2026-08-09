@@ -1,0 +1,121 @@
+"Total Mark: 79
+
+Evaluations:
+Question: Q1
+Total Points: 26
+
+Sub-Question: Q1.1
+Awarded Points: 3
+Justification: The student correctly conveyed that Java is not restricted to a specific architecture.
+
+Sub-Question: Q1.2
+Awarded Points: 0
+Justification: The answer mentioned 'Applet' and 'Servlet', which are not allowed according to the rubric.
+
+Sub-Question: Q1.3
+Awarded Points: 3
+Justification: The student correctly differentiated between POP and OOP, focusing on procedures and objects respectively.
+
+Sub-Question: Q1.4
+Awarded Points: 2
+Justification: The student mentioned 'JVM' and 'files', but 'libraries' was misspelled as 'liberties'.
+
+Sub-Question: Q1.5
+Awarded Points: 3
+Justification: The student correctly explained both inheritance and polymorphism.
+
+Sub-Question: Q1.6
+Awarded Points: 3
+Justification: The student correctly described encapsulation as binding data and code together.
+
+Sub-Question: Q1.7
+Awarded Points: 3
+Justification: The student mentioned 'abstract class' and 'interface', which are correct.
+
+Sub-Question: Q1.8
+Awarded Points: 3
+Justification: The student provided three valid reasons for thread termination.
+
+Sub-Question: Q1.9
+Awarded Points: 3
+Justification: The student correctly identified the three default streams in Java.
+
+Sub-Question: Q1.10
+Awarded Points: 3
+Justification: The student correctly identified 'AWT' as the API on which Java Swing was built.
+
+
+Question: Q2
+Total Points: 21
+
+Sub-Question: Q2.1
+Awarded Points: 3
+Justification: The student correctly answered 'True'.
+
+Sub-Question: Q2.2
+Awarded Points: 3
+Justification: The student correctly answered 'False'.
+
+Sub-Question: Q2.3
+Awarded Points: 3
+Justification: The student correctly answered 'True'.
+
+Sub-Question: Q2.4
+Awarded Points: 3
+Justification: The student correctly answered 'False'.
+
+Sub-Question: Q2.5
+Awarded Points: 3
+Justification: The student correctly answered 'True'.
+
+Sub-Question: Q2.6
+Awarded Points: 3
+Justification: The student correctly answered 'True'.
+
+Sub-Question: Q2.7
+Awarded Points: 3
+Justification: The student correctly answered 'False'.
+
+
+Question: Q3
+Total Points: 18
+
+Sub-Question: Q3.1
+Awarded Points: 3
+Justification: Full marks are awarded as per rubric policy.
+
+Sub-Question: Q3.2
+Awarded Points: 3
+Justification: The student correctly identified 'C language' as an example of a POP language.
+
+Sub-Question: Q3.3
+Awarded Points: 3
+Justification: The student correctly identified 'data' as the missing word.
+
+Sub-Question: Q3.4
+Awarded Points: 3
+Justification: The student correctly identified 'Applet'.
+
+Sub-Question: Q3.5
+Awarded Points: 0
+Justification: The answer 'package Container' is incorrect.
+
+Sub-Question: Q3.6
+Awarded Points: 3
+Justification: The student correctly identified 'Controller'.
+
+Sub-Question: Q3.7
+Awarded Points: 3
+Justification: The student correctly identified 'JDBC'.
+
+
+Question: Q4
+Total Points: 14
+
+Sub-Question: Q4.1
+Awarded Points: 14
+Justification: Full marks are awarded as per rubric policy.
+
+Sub-Question: Q4.2
+Awarded Points: 0
+Justification: The student did not provide an answer.

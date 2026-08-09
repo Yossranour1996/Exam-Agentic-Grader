@@ -1,0 +1,34 @@
+[
+  {
+    "page": "page_01.png",
+    "text": ""
+  },
+  {
+    "page": "page_02.png",
+    "text": ""
+  },
+  {
+    "page": "page_03.png",
+    "text": "* 1-1 It is means Java is not restricted\nto a specific Architector in\ncomputers\n* 1-2 Internet help do improve and\ndevelopment the programming and programing\nlanguages such as java, C# like\n\"Applet\" which is a programme act on\nweb browser automatically by Java, also\nservlet (Small programme acts on the server)\n* 1-3 pop ----> main emphasis is the\nprocedure (Code) , not the data\nOop ----> the main emphasis is the data\nnot the Code, Oop encapsulates\nthe Data and Code manipulate the data\nPOP\nOOP objects\n* 1-4 liberties, files and JVM\n(java virtual machine)"
+  },
+  {
+    "page": "page_04.png",
+    "text": "1-5 Inheritence is creating new classes\nfrom another exciting class, holds the\nSome methods and field of the main\nClass -\nPolymorphism -> \"Many forms\" Interference one\nIt is a fucture on OOP for group\nClass of action, the action is determined\ndepends on the natur of the need -\n1-6 Mechanise that binds together\nboth Data and code manipulite it, for\nkeep it safe from misuse and outside\nInterference -\n1-7 Abstraction by Class\n\" Interface\n1.8\n① The tanth finished normally\n② Terminated for unusual events\n③ Dead or Stopped working\n1-9 - Streams - In\n- Streams - out\n- Streams - err\n1-10 JAVA AWT"
+  },
+  {
+    "page": "page_05.png",
+    "text": "2-1 True\n2-2 False\n→ it is possible and it Can inherit\nas many times\n2-3 True\n2-4 False\n→ method override overwrite\n2-5 True\n2-6 True\n2-7 False\n→ A lot of Java Database Connectivity\nfor Database Sources"
+  },
+  {
+    "page": "page_06.png",
+    "text": "3-1 Internet\n3-2 C language\n3-3 Data\n3-4 Applet\n3-5 package Container\n3-6 Controller\n3-7 JDBC"
+  },
+  {
+    "page": "page_07.png",
+    "text": "B Student[i] + \"you will take seat \"+(1)\n* another Code"
+  },
+  {
+    "page": "page_08.png",
+    "text": ""
+  }
+]

@@ -1,0 +1,128 @@
+{
+  "questions": [
+    {
+      "question": "Q1",
+      "sub_questions": [
+        {
+          "sub_question": "Q1.1",
+          "answer": "We mean that it is not restricted by aspasific architecture system"
+        },
+        {
+          "sub_question": "Q1.2",
+          "answer": "WWW and Internet participat in programming revolution because every code is written can't be shared and all the information about programming is available."
+        },
+        {
+          "sub_question": "Q1.3",
+          "answer": "POP: pruduse code that operate in program's goal OOP: uses class and opjeces to capsulate code and data POP code data OOP code data"
+        },
+        {
+          "sub_question": "Q1.4",
+          "answer": "there are many componenes of the JRE"
+        },
+        {
+          "sub_question": "Q1.5",
+          "answer": "Inheritance is making class based on existing one bue run time polymorphism can't be achieved by method overloading"
+        },
+        {
+          "sub_question": "Q1.6",
+          "answer": "We mean by encapsulation: dealing with data and code at the same time, as capsuls and we use it in OOP"
+        },
+        {
+          "sub_question": "Q1.7",
+          "answer": "Abstract class and interface"
+        },
+        {
+          "sub_question": "Q1.8",
+          "answer": "A thread could be terminate if: it finished his jop Broke for unusual reson Dead"
+        },
+        {
+          "sub_question": "Q1.9",
+          "answer": "The three Default streams in Java are: System.in System.out System.err"
+        },
+        {
+          "sub_question": "Q1.10",
+          "answer": "Java API is used for dealing with data base But API Java swing was built on top of model view of multilayer architecture"
+        }
+      ]
+    },
+    {
+      "question": "Q2",
+      "sub_questions": [
+        {
+          "sub_question": "Q2.1",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.2",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.3",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.4",
+          "answer": "False can't be achieved by overloading"
+        },
+        {
+          "sub_question": "Q2.5",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.6",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.7",
+          "answer": "False Many drivers are there."
+        }
+      ]
+    },
+    {
+      "question": "Q3",
+      "sub_questions": [
+        {
+          "sub_question": "Q3.1",
+          "answer": "To match environment updates and uses"
+        },
+        {
+          "sub_question": "Q3.2",
+          "answer": "C"
+        },
+        {
+          "sub_question": "Q3.3",
+          "answer": "Code"
+        },
+        {
+          "sub_question": "Q3.4",
+          "answer": "Ithesnet java enabled web browser execution"
+        },
+        {
+          "sub_question": "Q3.5",
+          "answer": "In compouent which resive information"
+        },
+        {
+          "sub_question": "Q3.6",
+          "answer": "Multi Layers"
+        },
+        {
+          "sub_question": "Q3.7",
+          "answer": "JDBC"
+        }
+      ]
+    },
+    {
+      "question": "Q4",
+      "sub_questions": [
+        {
+          "sub_question": "Q4.1",
+          "answer": "CODE: String [i] + \" you will take seat\" + (4-i) Saving [i] will print one of the letters: M, C, .. \" you will be printed as it is every time in the loop. (4-i): represent the number of seat"
+        },
+        {
+          "sub_question": "Q4.2",
+          "answer": "forLint Private string id; for loop"
+        }
+      ]
+    }
+  ]
+}

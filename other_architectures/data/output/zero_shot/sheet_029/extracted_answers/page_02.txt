@@ -1,0 +1,24 @@
+1) Isn't restricted to a specific system
+architecture
+2) As a new Problems arise with revolution of WWW
+and invention of internet. We need to adapt changing
+environment and uses and Implement improvements in art
+of Programming.
+3) A POP divide large Programs into smaller to overcome
+parts considered as a sequence of these Problems
+Procedures or functions. Major emphasis on Procedures
+not on data. In multifunction program, many
+important data are placed as Global.
+Global data are more vulnerable to change by Function.
+OOP treats data as a critical element in the
+Program. It ties data closely to function operates
+on it and Protect them both from accidental
+change. OOP allows decomposition of a problem
+into entities called objects and then builds
+function and data around these objects. Major
+Emphasis on Data.
+4) Compiler, Interpreter, JVM, Applets, Java Programs
+5) Inheritance is a process by which one object acquires
+Properties of another object. It's main advantage
+are Abstraction, Data Reusability, class hierarchy and
+Polymorphism, Inheritance.

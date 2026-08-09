@@ -1,0 +1,128 @@
+{
+  "questions": [
+    {
+      "question": "Q1",
+      "sub_questions": [
+        {
+          "sub_question": "Q1.1",
+          "answer": "Java not restricted to specific system Architecture."
+        },
+        {
+          "sub_question": "Q1.2",
+          "answer": "World Wide Web is in all the world become famous and because of entering it Some Kind of matter download automatic. it is become problem in security and portability but Java fix these problem in security and portability programmable"
+        },
+        {
+          "sub_question": "Q1.3",
+          "answer": "pop has Code that operate in Data to achieve prograus goals. OOP: has class That encapsulate both code and data PoP OOP code Data"
+        },
+        {
+          "sub_question": "Q1.4",
+          "answer": "JRE (Java Run-time Environment) provide environment for only Run (not develop) program on machine. it component of JVM [Java Virtual Machine] it is act as a Run time engine also Known by java interpreter."
+        },
+        {
+          "sub_question": "Q1.5",
+          "answer": "- inheritance is the inherit class [the process by which the inherit the attributes by another class] class. - polymorphism: the class can present and use in multiple form [is the feature that allow interface to be use for general class of action] process which"
+        },
+        {
+          "sub_question": "Q1.6",
+          "answer": "Encapsulation : It binds together data and code and keep it safe from any outside interference and misuse."
+        },
+        {
+          "sub_question": "Q1.7",
+          "answer": "1. Run time: which Dynamic and achieved by method Overriden. 2. climb abstraction : which static and achieve by function overriding or operator overriding."
+        },
+        {
+          "sub_question": "Q1.8",
+          "answer": "1- finished it task normally. 2- terminated due to unusall event. 3- Dead and no longer available."
+        },
+        {
+          "sub_question": "Q1.9",
+          "answer": "(1)- system in (2)- system out (3)- system Err."
+        },
+        {
+          "sub_question": "Q1.10",
+          "answer": "[AWT]"
+        }
+      ]
+    },
+    {
+      "question": "Q2",
+      "sub_questions": [
+        {
+          "sub_question": "Q2.1",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.2",
+          "answer": "False - possible"
+        },
+        {
+          "sub_question": "Q2.3",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.4",
+          "answer": "False - by method overriden"
+        },
+        {
+          "sub_question": "Q2.5",
+          "answer": "True could have abstract"
+        },
+        {
+          "sub_question": "Q2.6",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.7",
+          "answer": "False - for API"
+        }
+      ]
+    },
+    {
+      "question": "Q3",
+      "sub_questions": [
+        {
+          "sub_question": "Q3.1",
+          "answer": "adapp+"
+        },
+        {
+          "sub_question": "Q3.2",
+          "answer": "C"
+        },
+        {
+          "sub_question": "Q3.3",
+          "answer": "data"
+        },
+        {
+          "sub_question": "Q3.4",
+          "answer": "Applet"
+        },
+        {
+          "sub_question": "Q3.5",
+          "answer": "frame"
+        },
+        {
+          "sub_question": "Q3.6",
+          "answer": "control"
+        },
+        {
+          "sub_question": "Q3.7",
+          "answer": "JDBC"
+        }
+      ]
+    },
+    {
+      "question": "Q4",
+      "sub_questions": [
+        {
+          "sub_question": "Q4.1",
+          "answer": "[NO_ANSWER]"
+        },
+        {
+          "sub_question": "Q4.2",
+          "answer": "Student [UNK] you will take Seat \" + (4-2) because in Line 3 for (Int i=0; i<seats.length; i++) it is like the seat is opposite and the first be last one private class number of Notes = double portion"
+        }
+      ]
+    }
+  ]
+}

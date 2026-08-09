@@ -1,0 +1,42 @@
+[
+  {
+    "page": "page_01.png",
+    "text": ""
+  },
+  {
+    "page": "page_02.png",
+    "text": "1.1) JAVA's motto is \"write once, run anywhere\", but meaning\nit could run in multiple environments and architecture.\n1.2) The internet required flexible languages to work\non multiple platforms, it also required more complex\nprograms which required more complex programming languages.\n1.3) OOP :- object oriented programming. the \"object\" or\ndata are an integral part of the program and it's not\nfor just free flowing, contains classes.\nPOP :- procedural oriented programming, divides the program\ninto smaller procedure's or \"functions\".\n1.4) JRE = contains Byte compiler and JVE (JAVA\nvirtual Environment).\n(1.5) inheritance - is the idea that a parent class can inherit modifiers\nand functionality from another parent class.\nPolymorphism :- the using of interface to get around the\nmulti inheritance problem (Diamond problem)\n(1.6) encapsulation :- the use of setters for read-only\nand getters for write-only.\n(1.7) abstract classes\nin interface\n(1.8) if you catch a threat or made an exception, finally\n(1.9) system. In , system.err, system.out\n(1.10) the JAVA language was an improvement of C and C++"
+  },
+  {
+    "page": "page_03.png",
+    "text": "(2-1) T\n(2-2) F\n(2-3) T\n(2-4) F\n(2-5) T\n(2-6) T\n(2-7) F"
+  },
+  {
+    "page": "page_04.png",
+    "text": "(3.1) adaptation, improvement\n(3.2) C language\n(3.3) DATA\n(3.4) HTML\n(3.5) JADP\n(3.6) mobile\n(3.7) swing"
+  },
+  {
+    "page": "page_05.png",
+    "text": "(4.1) system.out.println(seats[i]+ \" you will tak seat \" + i )\n(4.2) Public int = votes"
+  },
+  {
+    "page": "page_06.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_07.png",
+    "text": ""
+  },
+  {
+    "page": "page_08.png",
+    "text": ""
+  },
+  {
+    "page": "page_09.png",
+    "text": ""
+  },
+  {
+    "page": "page_10.png",
+    "text": ""
+  }
+]

@@ -1,0 +1,128 @@
+{
+  "questions": [
+    {
+      "question": "Q1",
+      "sub_questions": [
+        {
+          "sub_question": "Q1.1",
+          "answer": "We mean that Java is not restricted to a specific architechure of computer."
+        },
+        {
+          "sub_question": "Q1.2",
+          "answer": "Java has taken a lot of instructions and Internet allowed and gave new features to the world of programing and Java created a special package simplified the internet."
+        },
+        {
+          "sub_question": "Q1.3",
+          "answer": "POP deals more about procedures (methods or code) and they are there major emphasis, on the other hand OOP uses the concept of classes to combine and focus on both data (which is not much focused on on POP) and methods (codes) and uses the concept of classes and objects."
+        },
+        {
+          "sub_question": "Q1.4",
+          "answer": "Compiler and implementation tools"
+        },
+        {
+          "sub_question": "Q1.5",
+          "answer": "Inheritance means to use create a class from initial class. The new class can content the methods and dat attributes of the first class (created from), but polymorphism that inst. is taking instruction and features of a class and use it in general and can be."
+        },
+        {
+          "sub_question": "Q1.6",
+          "answer": "Encapsulation is to combine together data and codes (methods) and secure them from outside (interfaces) the classes."
+        },
+        {
+          "sub_question": "Q1.7",
+          "answer": "run time compile time class abstraction, function abstraction and unusual unusual."
+        },
+        {
+          "sub_question": "Q1.8",
+          "answer": "@ Instructions executed normally. @ Execution stopped due to an event @ Could be dead and unavailable."
+        },
+        {
+          "sub_question": "Q1.9",
+          "answer": "System. In System. out System. err"
+        },
+        {
+          "sub_question": "Q1.10",
+          "answer": "API Java swing was built on the top of JDBC to connet and interact to database."
+        }
+      ]
+    },
+    {
+      "question": "Q2",
+      "sub_questions": [
+        {
+          "sub_question": "Q2.1",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.2",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.3",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.4",
+          "answer": "False. It is achieved by method overriding."
+        },
+        {
+          "sub_question": "Q2.5",
+          "answer": "False. It couldn't have a non-abstracted method inside it."
+        },
+        {
+          "sub_question": "Q2.6",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.7",
+          "answer": "False There are more than one driver True"
+        }
+      ]
+    },
+    {
+      "question": "Q3",
+      "sub_questions": [
+        {
+          "sub_question": "Q3.1",
+          "answer": "limitation"
+        },
+        {
+          "sub_question": "Q3.2",
+          "answer": "C"
+        },
+        {
+          "sub_question": "Q3.3",
+          "answer": "data"
+        },
+        {
+          "sub_question": "Q3.4",
+          "answer": "servlet and Applet"
+        },
+        {
+          "sub_question": "Q3.5",
+          "answer": "Frame"
+        },
+        {
+          "sub_question": "Q3.6",
+          "answer": "controller"
+        },
+        {
+          "sub_question": "Q3.7",
+          "answer": "JBDC"
+        }
+      ]
+    },
+    {
+      "question": "Q4",
+      "sub_questions": [
+        {
+          "sub_question": "Q4.1",
+          "answer": "[UNK] You will take seat Student's [UNK] # \"You will take seat\" (4-1):"
+        },
+        {
+          "sub_question": "Q4.2",
+          "answer": "Calculate [UNK] votes ():"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "questions": [
+    {
+      "question": "Q1",
+      "sub_questions": [
+        {
+          "sub_question": "Q1.1",
+          "answer": "It means that Java is not restricted by a specific system architecture."
+        },
+        {
+          "sub_question": "Q1.2",
+          "answer": "WWW provided a better overall environment for developing programs, introduced new uses for programming, made the shortcomings of early programming languages more prominent and allow worldwide collective effort to solve them."
+        },
+        {
+          "sub_question": "Q1.3",
+          "answer": "POP uses procedure (code) to act on data to achieve the program goal. OOP uses classes and objects to encapsulate both code and data."
+        },
+        {
+          "sub_question": "Q1.4",
+          "answer": "Java Virtual Machine (JVM) which acts as a run time engine to execute Java applications (interpreter) & Java compiler (javac)."
+        },
+        {
+          "sub_question": "Q1.5",
+          "answer": "Inheritance is the process by which one object acquires the properties of another object. This is important because it allows heirarchical classification. polymorphism (Greek for \"many forms\") is the feature that allows an interface to be used for a general set of actions. The specific action is determined by the exact nature of the situation."
+        },
+        {
+          "sub_question": "Q1.6",
+          "answer": "Encapsulation is the mechanism that binds code and data, and protects both from outside interference or misuse."
+        },
+        {
+          "sub_question": "Q1.7",
+          "answer": "abstraction of class and interface"
+        },
+        {
+          "sub_question": "Q1.8",
+          "answer": "a) The thread finished its task normally b) The thread was terminated due to unusual events. c) The thread is dead or no longer available."
+        },
+        {
+          "sub_question": "Q1.9",
+          "answer": "System.in, System.out and System.err"
+        },
+        {
+          "sub_question": "Q1.10",
+          "answer": "on the model-view -controller architecture"
+        }
+      ]
+    },
+    {
+      "question": "Q2",
+      "sub_questions": [
+        {
+          "sub_question": "Q2.1",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.2",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.3",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.4",
+          "answer": "False"
+        },
+        {
+          "sub_question": "Q2.5",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.6",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.7",
+          "answer": "False"
+        }
+      ]
+    },
+    {
+      "question": "Q3",
+      "sub_questions": [
+        {
+          "sub_question": "Q3.1",
+          "answer": "Implementing improvements to the art of programming, and, adapting to changes in environment and uses."
+        },
+        {
+          "sub_question": "Q3.2",
+          "answer": "C programming language"
+        },
+        {
+          "sub_question": "Q3.3",
+          "answer": "Procedures"
+        },
+        {
+          "sub_question": "Q3.4",
+          "answer": "[NO_ANSWER]"
+        },
+        {
+          "sub_question": "Q3.5",
+          "answer": "Frame"
+        },
+        {
+          "sub_question": "Q3.6",
+          "answer": "controller"
+        },
+        {
+          "sub_question": "Q3.7",
+          "answer": "Java DataBase Connectivity (JDBC)"
+        }
+      ]
+    },
+    {
+      "question": "Q4",
+      "sub_questions": [
+        {
+          "sub_question": "Q4.1",
+          "answer": "seats[i] + \", you will take seat \" + i explanations element orders in arrays start from 0, i starts from 0 up to 4 because seats.length = 5, and each member of the array is assigned their array order in the output."
+        },
+        {
+          "sub_question": "Q4.2",
+          "answer": "double numOFVotes = (double) totalVotes; explanations: totalVotes is defined as int value, but the input to calculateVotes is defined as double, so we need to define the total number of votes in the double type."
+        }
+      ]
+    }
+  ]
+}

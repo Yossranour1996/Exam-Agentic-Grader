@@ -1,0 +1,128 @@
+{
+  "questions": [
+    {
+      "question": "Q1",
+      "sub_questions": [
+        {
+          "sub_question": "Q1.1",
+          "answer": "That it's a language that don't depend on an architecture system."
+        },
+        {
+          "sub_question": "Q1.2",
+          "answer": "The world wide web participate in improving the programming language to deal with servers after being only for local Data transfer between computers."
+        },
+        {
+          "sub_question": "Q1.3",
+          "answer": "POP is a language that handels the functions more than organising data. but oop focus on data and how to axioss it more than functions."
+        },
+        {
+          "sub_question": "Q1.4",
+          "answer": "Java Run-time Environment is to contain of a Laibraries and JVM (Java virtual machin) the handle the run prod of the program process."
+        },
+        {
+          "sub_question": "Q1.5",
+          "answer": "inhepitence is used to implement a classes from the main class & polymorphism that you can't inherets don't depend on the small inherited classes but focus to get instructions from the main class directly."
+        },
+        {
+          "sub_question": "Q1.6",
+          "answer": "encapsulation : is the privet room that contains All of the data but-on and keep it praivet."
+        },
+        {
+          "sub_question": "Q1.7",
+          "answer": "abstract classes and interface."
+        },
+        {
+          "sub_question": "Q1.8",
+          "answer": "when the Program is fully finished. when it intrrupts due to unisuad actions when it's dead (loong run without results)"
+        },
+        {
+          "sub_question": "Q1.9",
+          "answer": "1. system.in 2. system.out 3. system.err"
+        },
+        {
+          "sub_question": "Q1.10",
+          "answer": "[NO_ANSWER]"
+        }
+      ]
+    },
+    {
+      "question": "Q2",
+      "sub_questions": [
+        {
+          "sub_question": "Q2.1",
+          "answer": "True."
+        },
+        {
+          "sub_question": "Q2.2",
+          "answer": "False, & possible for an interface to inherit from another main class prob."
+        },
+        {
+          "sub_question": "Q2.3",
+          "answer": "True."
+        },
+        {
+          "sub_question": "Q2.4",
+          "answer": "False, by method override."
+        },
+        {
+          "sub_question": "Q2.5",
+          "answer": "True."
+        },
+        {
+          "sub_question": "Q2.6",
+          "answer": "False, heavyweight and tight"
+        },
+        {
+          "sub_question": "Q2.7",
+          "answer": "True."
+        }
+      ]
+    },
+    {
+      "question": "Q3",
+      "sub_questions": [
+        {
+          "sub_question": "Q3.1",
+          "answer": "internet."
+        },
+        {
+          "sub_question": "Q3.2",
+          "answer": "the Language C"
+        },
+        {
+          "sub_question": "Q3.3",
+          "answer": "dose does not allow functions"
+        },
+        {
+          "sub_question": "Q3.4",
+          "answer": "interface"
+        },
+        {
+          "sub_question": "Q3.5",
+          "answer": "controller."
+        },
+        {
+          "sub_question": "Q3.6",
+          "answer": "interface"
+        },
+        {
+          "sub_question": "Q3.7",
+          "answer": "JDBC (Java Database connector)"
+        }
+      ]
+    },
+    {
+      "question": "Q4",
+      "sub_questions": [
+        {
+          "sub_question": "Q4.1",
+          "answer": "system.out.println( System[i] + \"You will take seat \" + (i+1)); from that we read (i) and let it read (i) then print our statment in addition of (i) after every seat written."
+        },
+        {
+          "sub_question": "Q4.2",
+          "answer": "Privet int [UNK] Votes; we don't need the program to edit in the number of votes."
+        }
+      ]
+    }
+  ]
+}

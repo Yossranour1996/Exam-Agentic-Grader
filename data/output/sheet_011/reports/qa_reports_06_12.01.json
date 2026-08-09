@@ -1,0 +1,44 @@
+[
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q1",
+        "identified_errors": [
+          {
+            "sub_question": "Q1.4",
+            "description": "The student's answer mentioned 'classes' and 'interfaces', which could be considered as libraries or supporting files. The rubric allows for partial credit, and the student should receive 1 point for mentioning 'classes'."
+          },
+          {
+            "sub_question": "Q1.7",
+            "description": "The student's answer mentioned 'interface', which should be awarded 1 point according to the rubric for mentioning either abstract classes or interfaces."
+          }
+        ],
+        "summary": "Q1.4 and Q1.7 require partial credit adjustments. Q1.4 should award 1 point for 'classes', and Q1.7 should award 1 point for 'interface'."
+      }
+    ]
+  },
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q1",
+        "identified_errors": [
+          {
+            "sub_question": "Q1.4",
+            "description": "The student mentioned 'classes' which should be considered as libraries or supporting files, but the rubric allows for 1 mark each for JVM, libraries, and supporting files. The student should receive 2 points for mentioning 'classes' and 'interfaces'."
+          },
+          {
+            "sub_question": "Q1.7",
+            "description": "The student mentioned 'interface' which should be awarded 1 point, but the rubric allows for 3 points if both abstract classes and interfaces are mentioned. The student mentioned 'interface' and 'abstraction', which should be considered equivalent to 'abstract class'. The student should receive 3 points."
+          }
+        ],
+        "summary": "Errors in Q1.4 and Q1.7 were identified where the student should have received more points based on the rubric's leniency for equivalent terms."
+      }
+    ]
+  },
+  {
+    "decision": "<NO_REGRADE>",
+    "audits": []
+  }
+]

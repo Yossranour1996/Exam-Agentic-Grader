@@ -1,0 +1,3 @@
+4.1. Students [IP] "you will take your seat " (students.length == 9)
+Students [IP3] "you will take your seat" (i=4)
+4.2. (print praivit Strong Id j

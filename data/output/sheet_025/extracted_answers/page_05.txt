@@ -1,0 +1,8 @@
+(2.1) True
+(2.2) False, it is possible
+(2.3) True
+(2.4) False, achieved by method overwriting
+(2.5) False, abstract classes can only have abstract methods
+(2.6) True
+(2.7) True
+(2.5) True

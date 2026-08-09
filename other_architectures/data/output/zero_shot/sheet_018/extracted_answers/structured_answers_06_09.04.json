@@ -1,0 +1,128 @@
+{
+  "questions": [
+    {
+      "question": "Q1",
+      "sub_questions": [
+        {
+          "sub_question": "Q1.1",
+          "answer": "It mean the Java is not restricted by SPECIFIC opreation system."
+        },
+        {
+          "sub_question": "Q1.2",
+          "answer": "by Small Programe called APPLE has function the binds together Code and data that it manipulate and transmited by Internet and excuted them by Java applet browser web"
+        },
+        {
+          "sub_question": "Q1.3",
+          "answer": "that while pop procedure (Code) oprating on Data the oop classes and object encapsulated Data and Code Class code data oop Code opration Code dat Pop"
+        },
+        {
+          "sub_question": "Q1.4",
+          "answer": "JVM (Java Virtual Machin) byt code"
+        },
+        {
+          "sub_question": "Q1.5",
+          "answer": "inheritence is creatin new class From exesting one and allow the for 'it' to used method and Function of Super class when it need it plus Attribut and method defind For specialization used - while Polymorphism Class has many Form and do not able to inhert -"
+        },
+        {
+          "sub_question": "Q1.6",
+          "answer": "encapsulation = Es machanism Previde to Protect Class data and Code From oulsid intrFance & and misuse. its wrapper encapsulated Cade and data"
+        },
+        {
+          "sub_question": "Q1.7",
+          "answer": "abstracted classes and InTer Face"
+        },
+        {
+          "sub_question": "Q1.8",
+          "answer": "1. dead or no longer avialable 2. Finished their task normaly 3. terminated due to unormal event"
+        },
+        {
+          "sub_question": "Q1.9",
+          "answer": "Streams - in Streams - out Streams - err"
+        },
+        {
+          "sub_question": "Q1.10",
+          "answer": "it Java API (Application Programing Interface) to connect and Interact with database connect"
+        }
+      ]
+    },
+    {
+      "question": "Q2",
+      "sub_questions": [
+        {
+          "sub_question": "Q2.1",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.2",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.3",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.4",
+          "answer": "False Run time ploy morphism could be achieved by method overriden -"
+        },
+        {
+          "sub_question": "Q2.5",
+          "answer": "False Could have qbstract method within them achieved also by Interface -"
+        },
+        {
+          "sub_question": "Q2.6",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.7",
+          "answer": "False = There is many JDBC driver"
+        }
+      ]
+    },
+    {
+      "question": "Q3",
+      "sub_questions": [
+        {
+          "sub_question": "Q3.1",
+          "answer": "environment"
+        },
+        {
+          "sub_question": "Q3.2",
+          "answer": "C Language"
+        },
+        {
+          "sub_question": "Q3.3",
+          "answer": "attributes"
+        },
+        {
+          "sub_question": "Q3.4",
+          "answer": "Applet"
+        },
+        {
+          "sub_question": "Q3.5",
+          "answer": "a container"
+        },
+        {
+          "sub_question": "Q3.6",
+          "answer": "Controlling"
+        },
+        {
+          "sub_question": "Q3.7",
+          "answer": "JDBC"
+        }
+      ]
+    },
+    {
+      "question": "Q4",
+      "sub_questions": [
+        {
+          "sub_question": "Q4.1",
+          "answer": "Seats [i] + \", you will take Seat \" + (seats.length -i-1 Seats [i] + \", you will take seat \" + (4 - i)"
+        },
+        {
+          "sub_question": "Q4.2",
+          "answer": "if num of Votr int total Voters (int) portion = double portion (int) portion = int total Votes * 0.15"
+        }
+      ]
+    }
+  ]
+}

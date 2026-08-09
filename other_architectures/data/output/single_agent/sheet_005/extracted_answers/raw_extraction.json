@@ -1,0 +1,42 @@
+[
+  {
+    "page": "page_01.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_02.png",
+    "text": ""
+  },
+  {
+    "page": "page_03.png",
+    "text": "1 It's mean Java is not restricted to\na spicific systems architecture\n2 by platforms independence based to distribution\nprogram interpreted. (Java allow that) (aplat)\n3 While POP has procedures (code) that operate\nin data to achieve the program good.\nbut OOP uses a classes and Objects that encapsulate\nboth Code and data.\nPOP OOP\ncode\ndata\ncode\ndata\n4 JRE (Java Running Engine)\nComponents =\n- JVM\n- Byte Code"
+  },
+  {
+    "page": "page_04.png",
+    "text": "(5) Inheritance is anew classes based existing\non one's, and uses (methods and properties of that class\nPolymorphism features that allowed in one interface\nand used of a general.\n(Polymorphism is interface but inheritance is (create a new class))\n(6) encapsulation:\nis a mechanism to bind data and Code is\ntogether in manipulations, to be both safe for outside\nand misuse.\n(7) two ways to achieve abstractions\n① abstract classes\n② interface\n(8) terminated due to three reasons:\n① finished it's a task normally\n② terminated due to unusual events\n③ dead and no longer available\n(9) three default streams in Java:\n① system.in\n② system.out\n③ system.err\n(10) Wendows interface."
+  },
+  {
+    "page": "page_05.png",
+    "text": "2.1 -> true\n2.2 -> False -> It is possible for an interface to inherit another interface's properties\n2.3 -> true\n2.4 -> False\nRuntime polymorphism could be achieved by\nmethod Overriding\n2.5 -> true\n2.6 -> true False\nJava threads are heavy weight threads\n2.7 -> true"
+  },
+  {
+    "page": "page_06.png",
+    "text": "Qs:\n3.1 (OOP)\n3.2: C programming language\n3.3: data\n3.4: aplet\n3.5: Container\n4.6: [UNK] controller\n3.7: (JDBC) Java Data Bases Connectly"
+  },
+  {
+    "page": "page_07.png",
+    "text": "Q4:\n4.1\nCode: Seats[i]+\"You will take seat.\" + (4-i)\n4.2:\nCode: X = new calculate Votes (total Votes);\ncalculate Votes (780);"
+  },
+  {
+    "page": "page_08.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_09.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_10.png",
+    "text": "EMPTY"
+  }
+]

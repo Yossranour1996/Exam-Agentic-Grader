@@ -1,0 +1,23 @@
+1.1 It means that its independentent on the
+device and it's operating system.
+1.2 It supported the revolution of Java, that handled
+programming Languages like Java, that handled
+the complexity Needed to deal with the WWWs,
+with the technologies like applets
+1.3. OOP (Object oriented programming)
+binds the data with code with the data
+It manipulates using encapsulation and gives
+more focus on the data than POP.
+POP (procedure oriented programming)
+It is a serial of procedures and
+functions that work on the data
+POP
+OOP
+Data , Code, procedures.
+1.4. JRE consists of the JVM
+(Java virtual machine) and other files
+and libraries.
+1.5. Inheritance is the process in which an object
+acquires the properties from another object.
+polymorphism is the procedure in which one
+interface can do a Class of different of group

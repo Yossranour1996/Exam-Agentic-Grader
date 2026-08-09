@@ -1,0 +1,128 @@
+{
+  "questions": [
+    {
+      "question": "Q1",
+      "sub_questions": [
+        {
+          "sub_question": "Q1.1",
+          "answer": "We mean by that is Java is not restricted to certain type of a computer architecture."
+        },
+        {
+          "sub_question": "Q1.2",
+          "answer": "The World Wide Web and internet participate in the programming revolution because the users mass for reaching of them led to development & the (Java) to connect between different platforms."
+        },
+        {
+          "sub_question": "Q1.3",
+          "answer": "The main difference is that procedure oriented programming (pop) uses the process (code) as a core, while object oriented programming uses the object (data) as core which binds the code and the data."
+        },
+        {
+          "sub_question": "Q1.4",
+          "answer": "The components of the JRE are getter, classes, interfaces, etc."
+        },
+        {
+          "sub_question": "Q1.5",
+          "answer": "The inheritance the creating of new class on top of existing one which can uses its methods and fields, while polymorphism allow the multithreading of programs."
+        },
+        {
+          "sub_question": "Q1.6",
+          "answer": "We mean by encapsulation is binding the data and the code together and restrict the accesses to it, only if its allowed."
+        },
+        {
+          "sub_question": "Q1.7",
+          "answer": "The two ways to achieve abstraction is by default like interface or by defining the abstraction itself."
+        },
+        {
+          "sub_question": "Q1.8",
+          "answer": "A thread could by terminated due to: 1- achieving its normal task 2- due to unusual event. 3- dead and no longer available."
+        },
+        {
+          "sub_question": "Q1.9",
+          "answer": "The three default streams are: 1- system.out (output stream) 2- system.in (input stream) 3- system.err (error stream)"
+        },
+        {
+          "sub_question": "Q1.10",
+          "answer": "The API Javaswing was built on top of AWT (application windows)"
+        }
+      ]
+    },
+    {
+      "question": "Q2",
+      "sub_questions": [
+        {
+          "sub_question": "Q2.1",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.2",
+          "answer": "False"
+        },
+        {
+          "sub_question": "Q2.3",
+          "answer": "False"
+        },
+        {
+          "sub_question": "Q2.4",
+          "answer": "False"
+        },
+        {
+          "sub_question": "Q2.5",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.6",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.7",
+          "answer": "False"
+        }
+      ]
+    },
+    {
+      "question": "Q3",
+      "sub_questions": [
+        {
+          "sub_question": "Q3.1",
+          "answer": "To deal with even environmental changes is one of the reasons that computer language innovation occurred."
+        },
+        {
+          "sub_question": "Q3.2",
+          "answer": "C is an example of a POP Language."
+        },
+        {
+          "sub_question": "Q3.3",
+          "answer": "POP does not allow data to flow freely in the program."
+        },
+        {
+          "sub_question": "Q3.4",
+          "answer": "JDK → JRE, JVM are small programs that need a java enabled webbrowser to be executed."
+        },
+        {
+          "sub_question": "Q3.5",
+          "answer": "a container (frame) is a component which can contain other elements like buttons."
+        },
+        {
+          "sub_question": "Q3.6",
+          "answer": "The model-view-controller architecture is used in Swing."
+        },
+        {
+          "sub_question": "Q3.7",
+          "answer": "JDBC is a java API to connect and interact with databases."
+        }
+      ]
+    },
+    {
+      "question": "Q4",
+      "sub_questions": [
+        {
+          "sub_question": "Q4.1",
+          "answer": "student s[i]. \" you will take seat\" \"student length -it)\" Oh:- student [i]. you will take seat', i * for the student [i] (for example) will have the seat * (i-1) => [UNK] will be seated up to and G = 2 For seat student[i] when i=0 the seat will be 0 i = 1 i = 4 the seat will be 4"
+        },
+        {
+          "sub_question": "Q4.2",
+          "answer": "Private String U:"
+        }
+      ]
+    }
+  ]
+}

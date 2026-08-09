@@ -1,0 +1,19 @@
+Q 1
+1) We mean by that is Java is not restricted to certain
+type of a computer architecture.
+2) The World Wide Web and internet participate in
+the programming revolution because the users mass
+for reaching of them led to development & the
+(Java) to connect between different platforms.
+3) The main difference is that procedure oriented programming
+(pop) uses the process (code) as a core, while
+object oriented programming uses the object (data) as core
+which binds the code and the data.
+4) The inheritance the creating of new class on top of
+existing one which can uses its methods and fields, while
+polymorphism allow the multithreading of programs.
+5) We mean by encapsulation is binding the data and
+the code together and restrict the accesses to it, only
+if its allowed.
+7) The two ways to achieve abstraction is by default
+like interface or by defining the abstraction itself.

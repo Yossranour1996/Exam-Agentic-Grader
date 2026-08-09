@@ -1,0 +1,86 @@
+STUDENT ANSWERS:
+
+Question: Q1
+Sub-Question: Q1.1
+Answer: JAVA's motto is "write once, run anywhere", but meaning it could run in multiple environments and architecture.
+
+Sub-Question: Q1.2
+Answer: The internet required flexible languages to work on multiple platforms, it also required more complex programs which required more complex programming languages.
+
+Sub-Question: Q1.3
+Answer: OOP :- object oriented programming. the "object" or data are an integral part of the program and it's not for just free flowing, contains classes. POP :- procedural oriented programming, divides the program into smaller procedure's or "functions".
+
+Sub-Question: Q1.4
+Answer: JRE = contains Byte compiler and JVE (JAVA virtual Environment).
+
+Sub-Question: Q1.5
+Answer: inheritance - is the idea that a parent class can inherit modifiers and functionality from another parent class. Polymorphism :- the using of interface to get around the multi inheritance problem (Diamond problem)
+
+Sub-Question: Q1.6
+Answer: encapsulation :- the use of setters for read-only and getters for write-only.
+
+Sub-Question: Q1.7
+Answer: abstract classes in interface
+
+Sub-Question: Q1.8
+Answer: if you catch a threat or made an exception, finally
+
+Sub-Question: Q1.9
+Answer: system. In , system.err, system.out
+
+Sub-Question: Q1.10
+Answer: the JAVA language was an improvement of C and C++
+
+
+Question: Q2
+Sub-Question: Q2.1
+Answer: T
+
+Sub-Question: Q2.2
+Answer: F
+
+Sub-Question: Q2.3
+Answer: T
+
+Sub-Question: Q2.4
+Answer: F
+
+Sub-Question: Q2.5
+Answer: T
+
+Sub-Question: Q2.6
+Answer: T
+
+Sub-Question: Q2.7
+Answer: F
+
+
+Question: Q3
+Sub-Question: Q3.1
+Answer: adaptation, improvement
+
+Sub-Question: Q3.2
+Answer: C language
+
+Sub-Question: Q3.3
+Answer: DATA
+
+Sub-Question: Q3.4
+Answer: HTML
+
+Sub-Question: Q3.5
+Answer: JADP
+
+Sub-Question: Q3.6
+Answer: mobile
+
+Sub-Question: Q3.7
+Answer: swing
+
+
+Question: Q4
+Sub-Question: Q4.1
+Answer: system.out.println(seats[i]+ " you will tak seat " + i )
+
+Sub-Question: Q4.2
+Answer: Public int = votes

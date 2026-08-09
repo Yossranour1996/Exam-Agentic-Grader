@@ -1,0 +1,10 @@
+Q (4)
+1- " seat [i], " you will take seat" + (i)
+System.out.println( // this line will take seat index
+from the seat list and substitute its value
+on the pointer place, repeat this until it reaches
+seat[i] + " , you will take seat" + (i) i=5 then it will
+// space stop
+// space
+2. num Of Votes = total Votes
+// we will notice 740 * 0.15 = 114 #

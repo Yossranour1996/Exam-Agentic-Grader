@@ -1,0 +1,25 @@
+Q2.
+1 The C++ language was called "C with class).
+((True))
+2 It is not possible for an interface to inherit another
+interface's properties -
+((False))
+- It's possible for interface to inherit multiple interfaces.
+3 The Java byte code is a class file that is executed
+by the Java runtime system.
+((False))
+- It is executed by JVM (Java virtual machine).
+4 Run time polymorphism could be achieved by method
+overloading.
+((False)).
+- It is achieved by method overriding.
+5 Abstract classes could have non-abstract methods
+within them.
+((True))
+6 Java threads are lightweight threads.
+((True))
+7 There is one JDBC driver for all database sources.
+((False)).
+- Two drivers:
+1- manager driver (to manage the server level)
+2- native driver : (to connect database)

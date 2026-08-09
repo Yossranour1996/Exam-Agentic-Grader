@@ -1,0 +1,19 @@
+1-1 & it is not tied on specific
+machine on operating Systems Architect.
+1-2 & it came up with Some problems
+in security and pretable, So programing
+language had to adopt the changing in
+the Environment
+1-3 OOP / POP
+-POP: processer-oriented procedures &
+it focuses on generate data on Code.
+So, in large number of procedure could.
+be more Complex and too long.
+-OOP: object oriented programing
+forces on the Code and method
+developing rather than data.
+-POP: data process in term of sequence
+but OOP: grouped code around data,
+So we have much controlling on data
+-OOP: is flexibility & efficency more than
+POP.

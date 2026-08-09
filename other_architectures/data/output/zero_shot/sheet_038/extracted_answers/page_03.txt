@@ -1,0 +1,18 @@
+* 1-1 It is means Java is not restricted
+to a specific Architector in
+computers
+* 1-2 Internet help do improve and
+development the programming and programing
+languages such as java, C# like
+"Applet" which is a programme act on
+web browser automatically by Java, also
+servlet (Small programme acts on the server)
+* 1-3 pop ----> main emphasis is the
+procedure (Code) , not the data
+Oop ----> the main emphasis is the data
+not the Code, Oop encapsulates
+the Data and Code manipulate the data
+POP
+OOP objects
+* 1-4 liberties, files and JVM
+(java virtual machine)

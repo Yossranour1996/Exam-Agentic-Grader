@@ -1,0 +1,86 @@
+STUDENT ANSWERS:
+
+Question: Q1
+Sub-Question: Q1.1
+Answer: That means java is not restricted to specific architecture environment.
+
+Sub-Question: Q1.2
+Answer: applications were shared over internet,
+
+Sub-Question: Q1.3
+Answer: POP use the code and operate it in the data, to achieve the program, while oop use objects and classes and encapsulate code and data to achieve the program.
+
+Sub-Question: Q1.4
+Answer: Compiler - JVN
+
+Sub-Question: Q1.5
+Answer: inheritance means the process in which one object take the properties of another object, while polymorphism means a feature that allows the interface to take general class of action
+
+Sub-Question: Q1.6
+Answer: encapsulation is the process in which both code and data are bind together and being protected from external interference
+
+Sub-Question: Q1.7
+Answer: Class, abstraction, interface, abstraction
+
+Sub-Question: Q1.8
+Answer: 1) the thread has been completed normally. 2) The thread has stopped because of unusual event 3) is dead or no longer available
+
+Sub-Question: Q1.9
+Answer: System.out, System.in, System.err
+
+Sub-Question: Q1.10
+Answer: connect with the database AWI
+
+
+Question: Q2
+Sub-Question: Q2.1
+Answer: True
+
+Sub-Question: Q2.2
+Answer: True
+
+Sub-Question: Q2.3
+Answer: True
+
+Sub-Question: Q2.4
+Answer: False by method override
+
+Sub-Question: Q2.5
+Answer: False. Could have abstract methods within them.
+
+Sub-Question: Q2.6
+Answer: True
+
+Sub-Question: Q2.7
+Answer: True
+
+
+Question: Q3
+Sub-Question: Q3.1
+Answer: Implement improvements in the art of programming
+
+Sub-Question: Q3.2
+Answer: C
+
+Sub-Question: Q3.3
+Answer: data
+
+Sub-Question: Q3.4
+Answer: Applet
+
+Sub-Question: Q3.5
+Answer: Container
+
+Sub-Question: Q3.6
+Answer: Controller
+
+Sub-Question: Q3.7
+Answer: JDBC
+
+
+Question: Q4
+Sub-Question: Q4.1
+Answer: Seats[i] + "you will take seat" + (i) because we need to define the printed output and it Contains the items of String[] Seats and their indexes.
+
+Sub-Question: Q4.2
+Answer: Calculate Votes (total Votes);

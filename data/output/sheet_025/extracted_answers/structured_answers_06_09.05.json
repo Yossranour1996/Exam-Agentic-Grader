@@ -1,0 +1,128 @@
+{
+  "questions": [
+    {
+      "question": "Q1",
+      "sub_questions": [
+        {
+          "sub_question": "Q1.1",
+          "answer": "we mean that Java isn't tied to a specific machine or operating system, but can work anywhere."
+        },
+        {
+          "sub_question": "Q1.2",
+          "answer": "The world wide web made sharing of computer software over it a very easy task, hence a need for a language that could work equally well in the variety of platforms involved. This marked the birth of the Java programming language."
+        },
+        {
+          "sub_question": "Q1.3",
+          "answer": "Object oriented programming (OOP) is a paradigm at which data is the central focus. It works on the principle of encapsulation which groups data and code into blocks. While procedure oriented programming (POP) is where the code (procedure/process) comes first. Programs are broken up to parts that are executed via a sequence of functions, and data is usually available globally for use in procedures."
+        },
+        {
+          "sub_question": "Q1.4",
+          "answer": "J.R.E. (Java Runtime Environment) is composed of the J.V.M. (Java Virtual Machine), standard libraries (e.g. rt.jar) and other files that help in execution of programs."
+        },
+        {
+          "sub_question": "Q1.5",
+          "answer": "In inheritance is the ability to build multiple classes based on the same base classes. Polymorphism on the other hand is the ability of an object to take different forms (poly = morphs = many + forms)."
+        },
+        {
+          "sub_question": "Q1.6",
+          "answer": "Encapsulation is the wrapping up of data in a single unit. It is the process of grouping data and code, and acts as a protective shield for the data from outside interference."
+        },
+        {
+          "sub_question": "Q1.7",
+          "answer": "Abstraction can be achieved either through the usage of abstract classes, or interfaces."
+        },
+        {
+          "sub_question": "Q1.8",
+          "answer": "1/ The task has finished execution normally 2/ Execution ended unexpectedly due to a problem. 3/ Thread has been going for too long and was terminated."
+        },
+        {
+          "sub_question": "Q1.9",
+          "answer": "1/ System.in stream 2/ System.out stream 3/ System.err stream"
+        },
+        {
+          "sub_question": "Q1.10",
+          "answer": "Java AWT (Abstract window Toolkit) API"
+        }
+      ]
+    },
+    {
+      "question": "Q2",
+      "sub_questions": [
+        {
+          "sub_question": "Q2.1",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.2",
+          "answer": "False, it is possible"
+        },
+        {
+          "sub_question": "Q2.3",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.4",
+          "answer": "False, achieved by method overwriting"
+        },
+        {
+          "sub_question": "Q2.5",
+          "answer": "False, abstract classes can only have abstract methods"
+        },
+        {
+          "sub_question": "Q2.6",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.7",
+          "answer": "True"
+        }
+      ]
+    },
+    {
+      "question": "Q3",
+      "sub_questions": [
+        {
+          "sub_question": "Q3.1",
+          "answer": "Adapting to new environments and uses (eg: internet boom)"
+        },
+        {
+          "sub_question": "Q3.2",
+          "answer": "C"
+        },
+        {
+          "sub_question": "Q3.3",
+          "answer": "Data"
+        },
+        {
+          "sub_question": "Q3.4",
+          "answer": "Applets"
+        },
+        {
+          "sub_question": "Q3.5",
+          "answer": "Container (window, panel, dialogue, frame)"
+        },
+        {
+          "sub_question": "Q3.6",
+          "answer": "Controller"
+        },
+        {
+          "sub_question": "Q3.7",
+          "answer": "JDBC (Java Database Connectivity)"
+        }
+      ]
+    },
+    {
+      "question": "Q4",
+      "sub_questions": [
+        {
+          "sub_question": "Q4.1",
+          "answer": "seats[i] + \" , you will take seat \" + i"
+        },
+        {
+          "sub_question": "Q4.2",
+          "answer": "calculateVotes (totalVotes);"
+        }
+      ]
+    }
+  ]
+}

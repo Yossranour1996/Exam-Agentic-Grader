@@ -1,0 +1,68 @@
+[
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q1",
+        "identified_errors": [
+          {
+            "sub_question": "Q1.4",
+            "description": "The student mentioned JVM and Java Virtual Machine, which should earn 1 mark each. The Grader only awarded 1 mark, missing the second mark for Java Virtual Machine."
+          },
+          {
+            "sub_question": "Q1.10",
+            "description": "The student incorrectly stated JDBC instead of AWT or Abstract Window Toolkit, which does not meet the rubric criteria. However, the rubric allows for semantic equivalence and does not penalize for extra incorrect content, so the justification should reflect this leniency."
+          }
+        ],
+        "summary": "Errors in Q1.4 and Q1.10: Q1.4 should have awarded 2 marks for mentioning both JVM and Java Virtual Machine. Q1.10's justification should reflect rubric leniency on extra incorrect content."
+      },
+      {
+        "question": "Q2",
+        "identified_errors": [
+          {
+            "sub_question": "Q2.5",
+            "description": "The student's explanation for 'False' was incorrect, but the rubric does not require an explanation. The Grader's justification incorrectly states that abstract classes can contain non-abstract methods, which is true, but the rubric only requires the correct True/False answer."
+          },
+          {
+            "sub_question": "Q2.7",
+            "description": "The student's answer 'True' was incorrect, but the rubric does not require an explanation. The Grader's justification incorrectly states that there is not one JDBC driver for all database sources, which is true, but the rubric only requires the correct True/False answer."
+          }
+        ],
+        "summary": "Errors in Q2.5 and Q2.7: The rubric only requires the correct True/False answer, not an explanation. The Grader's justifications incorrectly focus on explanations."
+      }
+    ]
+  },
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q1",
+        "identified_errors": [
+          {
+            "sub_question": "Q1.10",
+            "description": "The student incorrectly mentioned JDBC instead of AWT or Abstract Window Toolkit. The rubric requires a correct equivalent, which was not provided. The deduction of 3 points is justified."
+          }
+        ],
+        "summary": "Q1.10 was correctly graded as 0 due to the incorrect answer. No changes needed."
+      },
+      {
+        "question": "Q2",
+        "identified_errors": [
+          {
+            "sub_question": "Q2.5",
+            "description": "The student answered 'False', but the expected answer is 'True'. The rubric only requires the correct True/False answer. The deduction of 3 points is justified."
+          },
+          {
+            "sub_question": "Q2.7",
+            "description": "The student answered 'True', but the expected answer is 'False'. The rubric only requires the correct True/False answer. The deduction of 3 points is justified."
+          }
+        ],
+        "summary": "Q2.5 and Q2.7 were correctly graded as 0 due to incorrect answers. No changes needed."
+      }
+    ]
+  },
+  {
+    "decision": "<NO_REGRADE>",
+    "audits": []
+  }
+]

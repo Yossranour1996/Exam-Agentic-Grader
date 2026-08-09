@@ -1,0 +1,7 @@
+1) adapt changeing in environments and uses
+2) (C) language
+3) procedures (functions)
+4) Jave Applets
+5) [UNK] container
+6) model view controller
+7) JDBC = Jave data base conectivity

@@ -1,0 +1,12 @@
+4. 1
+system.out.println (seats[i] + ", " + "You will take
+seat " + i);
+seats [i] Access The array elements
+through the index
+& i is the loop iterator which starts from zero & stop
+at 4". it will not include "5" the array length because of
+less than operator.
+4. 2
+calculateVotes (totalVotes) ;
+by Calling the "calculateVotes" function & passing the
+parameter "totalVotes".

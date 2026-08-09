@@ -1,0 +1,6 @@
+1.7 achieve abstraction by : abstract classes & Interface
+(we can achieve 100% abstraction using interface-
+1.8 reasons are : normally finished the task . 2- Terminated due
+to un usual event . 3- Dead & no longer available.
+1.9 1-System.out 2-System.in 3.system.err
+1.10 model view controller AWT

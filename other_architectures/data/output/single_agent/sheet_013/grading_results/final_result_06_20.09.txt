@@ -1,0 +1,121 @@
+"Total Mark: 66
+
+Evaluations:
+Question: Q1
+Total Points: 21
+
+Sub-Question: Q1.1
+Awarded Points: 3
+Justification: The student conveyed that Java does not depend on a specific architecture, which aligns with the concept of architecture-neutral.
+
+Sub-Question: Q1.2
+Awarded Points: 3
+Justification: The student provided a non-blank answer that does not mention Applet or Servlet, thus full marks are awarded.
+
+Sub-Question: Q1.3
+Awarded Points: 3
+Justification: The student correctly identified that POP focuses on functions and OOP on data/objects, meeting the rubric's requirements.
+
+Sub-Question: Q1.4
+Awarded Points: 2
+Justification: The student mentioned JVM and libraries, earning 2 points. The mention of supporting files was unclear.
+
+Sub-Question: Q1.5
+Awarded Points: 2
+Justification: The student correctly described inheritance but had a flawed explanation of polymorphism. Partial credit awarded.
+
+Sub-Question: Q1.6
+Awarded Points: 0
+Justification: The student's answer did not clearly convey the concept of encapsulation as bundling code and data together.
+
+Sub-Question: Q1.7
+Awarded Points: 3
+Justification: The student mentioned abstract classes and interfaces, which is correct.
+
+Sub-Question: Q1.8
+Awarded Points: 3
+Justification: The student provided three valid reasons for thread termination, earning full marks.
+
+Sub-Question: Q1.9
+Awarded Points: 3
+Justification: The student correctly listed System.in, System.out, and System.err, earning full marks.
+
+Sub-Question: Q1.10
+Awarded Points: 0
+Justification: No answer was provided.
+
+
+Question: Q2
+Total Points: 12
+
+Sub-Question: Q2.1
+Awarded Points: 3
+Justification: The student correctly answered True.
+
+Sub-Question: Q2.2
+Awarded Points: 3
+Justification: The student correctly answered False.
+
+Sub-Question: Q2.3
+Awarded Points: 3
+Justification: The student correctly answered True.
+
+Sub-Question: Q2.4
+Awarded Points: 3
+Justification: The student correctly answered False.
+
+Sub-Question: Q2.5
+Awarded Points: 3
+Justification: The student correctly answered True.
+
+Sub-Question: Q2.6
+Awarded Points: 0
+Justification: The student incorrectly answered False.
+
+Sub-Question: Q2.7
+Awarded Points: 0
+Justification: The student incorrectly answered True.
+
+
+Question: Q3
+Total Points: 12
+
+Sub-Question: Q3.1
+Awarded Points: 3
+Justification: Full marks are awarded as per rubric policy.
+
+Sub-Question: Q3.2
+Awarded Points: 3
+Justification: The student correctly identified C as a POP language.
+
+Sub-Question: Q3.3
+Awarded Points: 0
+Justification: The student's answer did not correctly identify 'data' as the missing word.
+
+Sub-Question: Q3.4
+Awarded Points: 0
+Justification: The student incorrectly answered 'interface' instead of 'Applet' or 'Applets'.
+
+Sub-Question: Q3.5
+Awarded Points: 0
+Justification: The student incorrectly answered 'controller' instead of 'Container' or 'Frame'.
+
+Sub-Question: Q3.6
+Awarded Points: 0
+Justification: The student incorrectly answered 'interface' instead of 'Controller'.
+
+Sub-Question: Q3.7
+Awarded Points: 3
+Justification: The student correctly identified JDBC as the Java API for databases.
+
+
+Question: Q4
+Total Points: 21
+
+Sub-Question: Q4.1
+Awarded Points: 14
+Justification: Full marks are awarded as per rubric policy.
+
+Sub-Question: Q4.2
+Awarded Points: 7
+Justification: The student's answer was nonblank but unrelated to votes, earning partial credit.

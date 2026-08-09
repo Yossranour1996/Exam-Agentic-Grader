@@ -1,0 +1,14 @@
+1. True => it was renamed at "1985".
+2. False => Interface ✔️ Class ❌
+3. True => Specificly => Java Virtual Machine
+"JVM"
+4. False => Overridding
+5. False => Must be defined.
+6. True
+7. False => There is another Driver Manager
+True =>
+Java Application
+JDBC
+thus, it's just one => JDBC Drive
+Driver Manager
+Oracle MySQL MS Access

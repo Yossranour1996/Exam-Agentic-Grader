@@ -1,0 +1,23 @@
+1-1
+That mean Java is not restrict to specific a system
+architecture.
+1-3.
+POP has procedure (code) that operate the data
+to achieve program goals.
+1-4.
+JRE (Java Runtime Environment) is
+its environment for only run the Java program -
+l- JVM
+1-5
+the difference is (inheritance is creating a new
+class based on another class. The class inherits from
+another class can reuse the method and field
+of the another) and the polymorphism is (the
+feature feature that allows interface to be used
+from general class of actions)
+1-6.
+its the mechanism that binds both data and
+code it manipulates. and keep them safe from
+the interference and misuse.
+1-7.
+abstraction class and interface.

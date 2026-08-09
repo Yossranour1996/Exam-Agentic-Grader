@@ -1,0 +1,18 @@
+Q.1.
+8 A thread could by terminated due to:
+1- achieving its normal task
+2- due to unusual event.
+3- dead and no longer available.
+9 The three default streams are:
+1- system.out (output stream)
+2- system.in (input stream)
+3- system.err (error stream)
+10 The API Javaswing was built on top of AWT
+(application windows)
+4 The components of the JRE are getter, classes, interfaces, etc.
+3 code
+OOP
+Data
+code
+POP
+Difference between OOP and POP

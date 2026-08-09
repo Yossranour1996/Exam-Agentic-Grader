@@ -1,0 +1,21 @@
+[
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q1",
+        "identified_errors": [
+          {
+            "sub_question": "Q1.2",
+            "description": "The student was penalized for mentioning 'aplat', which is likely an OCR error for 'applet'. The rubric allows for leniency in spelling errors due to OCR issues, and the calculated partial credit confirms no deduction should be applied."
+          }
+        ],
+        "summary": "Q1.2 requires a regrade due to unjust penalty for an OCR-related spelling error. The student should receive full marks for this sub-question."
+      }
+    ]
+  },
+  {
+    "decision": "<NO_REGRADE>",
+    "audits": []
+  }
+]

@@ -1,0 +1,128 @@
+{
+  "questions": [
+    {
+      "question": "Q1",
+      "sub_questions": [
+        {
+          "sub_question": "Q1.1",
+          "answer": "JAVA's motto is \"write once, run anywhere\", but meaning it could run in multiple environments and architecture."
+        },
+        {
+          "sub_question": "Q1.2",
+          "answer": "The internet required flexible languages to work on multiple platforms, it also required more complex programs which required more complex programming languages."
+        },
+        {
+          "sub_question": "Q1.3",
+          "answer": "OOP :- object oriented programming. the \"object\" or data are an integral part of the program and it's not for just free flowing, contains classes. POP :- procedural oriented programming, divides the program into smaller procedure's or \"functions\"."
+        },
+        {
+          "sub_question": "Q1.4",
+          "answer": "JRE = contains Byte compiler and JVE (JAVA virtual Environment)."
+        },
+        {
+          "sub_question": "Q1.5",
+          "answer": "inheritance - is the idea that a parent class can inherit modifiers and functionality from another parent class. Polymorphism :- the using of interface to get around the multi inheritance problem (Diamond problem)"
+        },
+        {
+          "sub_question": "Q1.6",
+          "answer": "encapsulation :- the use of setters for read-only and getters for write-only."
+        },
+        {
+          "sub_question": "Q1.7",
+          "answer": "abstract classes in interface"
+        },
+        {
+          "sub_question": "Q1.8",
+          "answer": "if you catch a threat or made an exception, finally"
+        },
+        {
+          "sub_question": "Q1.9",
+          "answer": "system. In , system.err, system.out"
+        },
+        {
+          "sub_question": "Q1.10",
+          "answer": "the JAVA language was an improvement of C and C++"
+        }
+      ]
+    },
+    {
+      "question": "Q2",
+      "sub_questions": [
+        {
+          "sub_question": "Q2.1",
+          "answer": "T"
+        },
+        {
+          "sub_question": "Q2.2",
+          "answer": "F"
+        },
+        {
+          "sub_question": "Q2.3",
+          "answer": "T"
+        },
+        {
+          "sub_question": "Q2.4",
+          "answer": "F"
+        },
+        {
+          "sub_question": "Q2.5",
+          "answer": "T"
+        },
+        {
+          "sub_question": "Q2.6",
+          "answer": "T"
+        },
+        {
+          "sub_question": "Q2.7",
+          "answer": "F"
+        }
+      ]
+    },
+    {
+      "question": "Q3",
+      "sub_questions": [
+        {
+          "sub_question": "Q3.1",
+          "answer": "adaptation, improvement"
+        },
+        {
+          "sub_question": "Q3.2",
+          "answer": "C language"
+        },
+        {
+          "sub_question": "Q3.3",
+          "answer": "DATA"
+        },
+        {
+          "sub_question": "Q3.4",
+          "answer": "HTML"
+        },
+        {
+          "sub_question": "Q3.5",
+          "answer": "JADP"
+        },
+        {
+          "sub_question": "Q3.6",
+          "answer": "mobile"
+        },
+        {
+          "sub_question": "Q3.7",
+          "answer": "swing"
+        }
+      ]
+    },
+    {
+      "question": "Q4",
+      "sub_questions": [
+        {
+          "sub_question": "Q4.1",
+          "answer": "system.out.println(seats[i]+ \" you will tak seat \" + i )"
+        },
+        {
+          "sub_question": "Q4.2",
+          "answer": "Public int = votes"
+        }
+      ]
+    }
+  ]
+}

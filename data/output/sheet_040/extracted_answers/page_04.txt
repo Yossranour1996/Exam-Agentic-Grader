@@ -1,0 +1,14 @@
+1.6. encapsulation is the property that
+binds the code to the data that it
+manipulates and wraps it from changes
+from external misuses.
+1.7 calsses and& interface absraction
+1.8 -
+① If it completed it task
+② due to unusual events
+③ if it's dead
+1.9 -
+System.in Stream.in
+System.out Stream.out
+System.err Stream.err
+1.10 java AWT

@@ -1,0 +1,7 @@
+3.1- the need to improve in art of programming (like WWE or internet)
+3.2- c
+3.3- data
+3.4- applets
+3.5- Frame
+3.6- Web (widgets)
+3.7- JDBC (java database connectivity)

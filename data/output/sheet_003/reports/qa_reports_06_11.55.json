@@ -1,0 +1,44 @@
+[
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q1",
+        "identified_errors": [
+          {
+            "sub_question": "Q1.4",
+            "description": "The student was penalized for providing an answer related to encapsulation instead of the components of the JRE. However, the rubric allows for partial credit based on the mention of JVM, libraries, or supporting files. The student's answer should be re-evaluated for any partial credit opportunities."
+          },
+          {
+            "sub_question": "Q1.7",
+            "description": "The student was penalized for not mentioning abstract classes and interfaces. However, the rubric allows for leniency in grammar and order, such as 'class abstract' or 'interfaces abstract'. The student's answer should be re-evaluated for any partial credit opportunities."
+          }
+        ],
+        "summary": "Errors were found in the grading of Q1.4 and Q1.7. The student should be re-evaluated for potential partial credit based on rubric leniency."
+      }
+    ]
+  },
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q1",
+        "identified_errors": [
+          {
+            "sub_question": "Q1.4",
+            "description": "The student's answer was about encapsulation, not the components of the JRE. However, the rubric allows partial credit for mentioning JVM, libraries, or supporting files. The student should have been awarded partial credit if any of these were mentioned."
+          },
+          {
+            "sub_question": "Q1.7",
+            "description": "The student's answer did not mention abstract classes or interfaces, which are required for full marks according to the rubric. However, the rubric allows for semantic equivalence and weak grammar, so the answer should be reviewed for any equivalent expressions."
+          }
+        ],
+        "summary": "Errors found in Q1.4 and Q1.7. Q1.4 should be reviewed for partial credit opportunities, and Q1.7 should be checked for semantic equivalence."
+      }
+    ]
+  },
+  {
+    "decision": "<NO_REGRADE>",
+    "audits": []
+  }
+]

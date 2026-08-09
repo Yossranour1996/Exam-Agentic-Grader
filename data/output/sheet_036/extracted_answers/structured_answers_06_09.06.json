@@ -1,0 +1,128 @@
+{
+  "questions": [
+    {
+      "question": "Q1",
+      "sub_questions": [
+        {
+          "sub_question": "Q1.1",
+          "answer": "That mean Java is not restrict to specific a system architecture."
+        },
+        {
+          "sub_question": "Q1.2",
+          "answer": "[NO_ANSWER]"
+        },
+        {
+          "sub_question": "Q1.3",
+          "answer": "POP has procedure (code) that operate the data to achieve program goals."
+        },
+        {
+          "sub_question": "Q1.4",
+          "answer": "JRE (Java Runtime Environment) is its environment for only run the Java program - l- JVM"
+        },
+        {
+          "sub_question": "Q1.5",
+          "answer": "the difference is (inheritance is creating a new class based on another class. The class inherits from another class can reuse the method and field of the another) and the polymorphism is (the feature feature that allows interface to be used from general class of actions)"
+        },
+        {
+          "sub_question": "Q1.6",
+          "answer": "its the mechanism that binds both data and code it manipulates. and keep them safe from the interference and misuse."
+        },
+        {
+          "sub_question": "Q1.7",
+          "answer": "abstraction class and interface."
+        },
+        {
+          "sub_question": "Q1.8",
+          "answer": "1- finished it's task normally - 2- terminated due to unusul event. 3- dead or no longer available -"
+        },
+        {
+          "sub_question": "Q1.9",
+          "answer": "1- system.in , system.out , system.err ."
+        },
+        {
+          "sub_question": "Q1.10",
+          "answer": "Run command to run Java application."
+        }
+      ]
+    },
+    {
+      "question": "Q2",
+      "sub_questions": [
+        {
+          "sub_question": "Q2.1",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.2",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.3",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.4",
+          "answer": "False (Compile time Polymorphism could be achieved by method overloading)"
+        },
+        {
+          "sub_question": "Q2.5",
+          "answer": "False"
+        },
+        {
+          "sub_question": "Q2.6",
+          "answer": "False"
+        },
+        {
+          "sub_question": "Q2.7",
+          "answer": "True"
+        }
+      ]
+    },
+    {
+      "question": "Q3",
+      "sub_questions": [
+        {
+          "sub_question": "Q3.1",
+          "answer": "To implement improvment to the art of Programing."
+        },
+        {
+          "sub_question": "Q3.2",
+          "answer": "C"
+        },
+        {
+          "sub_question": "Q3.3",
+          "answer": "a data"
+        },
+        {
+          "sub_question": "Q3.4",
+          "answer": "applet"
+        },
+        {
+          "sub_question": "Q3.5",
+          "answer": "container"
+        },
+        {
+          "sub_question": "Q3.6",
+          "answer": "controller"
+        },
+        {
+          "sub_question": "Q3.7",
+          "answer": "JDBC"
+        }
+      ]
+    },
+    {
+      "question": "Q4",
+      "sub_questions": [
+        {
+          "sub_question": "Q4.1",
+          "answer": "Public class Example {\nPublic static Void main (String[] ag.s) {\nString[] seats = {\"M\", \"C\", \"B\", \"P\"};\nSystem.out.print(\"it's time to take your seat exm.\");\nfor (int i=0; i < seats.length; i++) {\nfor (int i=0; i < seats.length; i++) {\nseats[i] +\n4-1\nseats[i] + \", you will take seat\" + i"
+        },
+        {
+          "sub_question": "Q4.2",
+          "answer": "[NO_ANSWER]"
+        }
+      ]
+    }
+  ]
+}

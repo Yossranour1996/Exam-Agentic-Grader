@@ -1,0 +1,23 @@
+(1.5) In inheritance is the ability to build
+multiple classes based on the same base
+classes. Polymorphism on the other hand is
+the ability of an object to take different
+forms (poly = morphs = many + forms). So, it's
+clear that
+(1.6) Encapsulation is the wrapping up of data
+in a single unit. It is the process of grouping
+data and code, and acts as a protective
+shield for the data from outside interference.
+(1.7) Abstraction can be achieved either through
+the usage of abstract classes, or interfaces.
+thread.
+(1.8) 1/ The task has finished execution normally
+2/ Execution ended unexpectedly due to a
+problem.
+3/ Thread has been going for too long and was
+terminated.
+(1.9) 1/ System.in stream
+2/ System.out stream
+3/ System.err stream
+(1.10) Java AWT (Abstract window Toolkit)
+API

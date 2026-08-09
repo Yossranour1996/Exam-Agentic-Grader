@@ -1,0 +1,33 @@
+# src/core/config.yaml
+
+# ---------------------------------------------------------
+# Global Project Settings
+# ---------------------------------------------------------
+global:
+  default_model: "gpt-4o"
+  default_temperature: 0.0
+  max_tokens: 4096
+  max_regrade_attempts: 2
+
+# ---------------------------------------------------------
+# Individual Agent Configurations
+# ---------------------------------------------------------
+agents:
+  extractor:
+    ocr_model: "gpt-4o"        # Model handling vision/image parsing
+    shredder_model: "gpt-4o"   # Model handling Q/A mapping
+    temperature: 0.0
+    dpi_default: 300           # Default DPI for PDF to Image conversion
+    
+  grader:
+    model: "gpt-4o"
+    temperature: 0.0
+    fuzzy_match_threshold: 0.7 # Threshold for the fuzzy_keyword_match tool
+    
+  qa:
+    model: "gpt-4o"
+    temperature: 0.0
+    
+  feedback:
+    model: "gpt-4o"
+    temperature: 0.4           # Slightly higher for a warmer, encouraging tone

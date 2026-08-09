@@ -1,0 +1,14 @@
+4.1
+Seats
+Student [i]+ you will take seat + is seat length
+Seats [i]
+student i+ you will take seat + i-4
+here we
+print the index i | print the string
+from the array | you will tak seats
+seat[i]
+4.2 Private Id
+numOfVotes = total votes
+define the class private
+- assign the values of total votes to numOf Votes
+because it's defined like this in next-lines.

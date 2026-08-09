@@ -1,0 +1,24 @@
+(1.1) G.V : It means Java is not restricted to a specific architecture
+system.
+(1.2) The people changed the thoughts that By innovating applet
+which is a kind of Java programs designed to be transmitted over the
+internet and executed by Java compatible web browser, and serverlet
+which is a small programs executed by web server which changed the & thought about content
+(1.3) POP has procedure (code) on data to achieve program goal, while
+OOP & uses classes and objects to encapsulates both code and data.
+(1.4) JRE : Java run environment is an environment to run Java programs
+and inside it is the Java virtual machine (JVM) which acts as run time engine
+to run Java Programs into the machine.
+(1.5) Inheritance is creating new classes based on the existing ones, the [UNK]
+class that inherited from other class can reuse the methods and fields
+of that class, while polymorphism is a feature that allows interfaces
+to be used for a general class of actions, the specific action is determined
+by the exact nature of situation.
+(1.6) Encapsulation is a mechanism that binds together Code and data
+to be manipulated and keeps them safe from outside interference and
+misuse, the basis of encapsulation is classes, and it protectivity
+wrapper to prevent data and code.
+(1.7) Abstract classes and interfaces
+(1.8) If thread: (1) Finished it's task normally.
+(2) Terminated because of unusual events.
+(3) Dead or no longer available.

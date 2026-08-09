@@ -1,0 +1,16 @@
+3-1) To adapt to changing environments and uses -
+or to implement improvements in the art of programming-
+3-2) C
+3-3) encapsulated data
+3-4) Applet
+3-5) Frame
+3-6) Controller
+3-7) JDBC
+(Q4)
+4-1 Students[i]+", "You will take seat." + (Students.length-(i))
+or Students[i]+", "You will take seat." + (i-1)
+(4-2) If number of votes do agree with the statement = 15% * 760
+System.out.println("The number of people who agree with this statement is 114")
+or:
+int num of votes = 15% * 760
+System.out.println("The number of people who agree with this statement is 114")

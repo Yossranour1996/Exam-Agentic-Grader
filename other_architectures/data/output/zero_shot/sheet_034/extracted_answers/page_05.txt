@@ -1,0 +1,14 @@
+1-6 = encapsulation is a maganism to binds data and code, and
+prevent them from outside changing
+1-7- 2way to achieve abstracts:
+1- call it in place we difinition
+2- use modifier access modifier
+1-8- Thread could be terminated
+3 reason
+1- Some Application doesn't terminated
+2- protect from autsid strong
+1-9. 3 defult streams
+1- Input stream System.in
+Output stream System.Out
+error stream: System.err
+1-10= build in top of interase.

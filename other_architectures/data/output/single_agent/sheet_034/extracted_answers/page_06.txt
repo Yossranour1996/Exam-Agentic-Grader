@@ -1,0 +1,18 @@
+2-1 true
+2-2 false, It is possible, but
+2.3 inherit from inherited one
+2-3 true
+2-4 false, Runtime polymorphism could
+be achieved by method overriding
+2-5 False, Abstract classes
+should only have abstract method
+within them
+2-6 true
+2-7 true
+Q3. 3.1 To adapt the changing
+of environment and uses.
+3.2- C programming language
+3.3 instruction
+3.4 applet
+3.5 [UNK] package
+3.6. [UNK] system

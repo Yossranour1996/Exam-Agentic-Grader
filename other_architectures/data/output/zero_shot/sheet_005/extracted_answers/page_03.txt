@@ -1,0 +1,17 @@
+1 It's mean Java is not restricted to
+a spicific systems architecture
+2 by platforms independence based to distribution
+program interpreted. (Java allow that) (aplat)
+3 While POP has procedures (code) that operate
+in data to achieve the program good.
+but OOP uses a classes and Objects that encapsulate
+both Code and data.
+POP OOP
+code
+data
+code
+data
+4 JRE (Java Running Engine)
+Components =
+- JVM
+- Byte Code

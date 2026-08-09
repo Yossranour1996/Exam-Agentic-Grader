@@ -1,0 +1,26 @@
+1. That java is not tied to or restricted
+to specific machine or operating system
+architecture.
+2. They increase the demand for application
+and programs that were set suitable to
+be transferred over internet, to make
+share of data easier.
+3. POP emphasize code rather than data and
+divide the program into smaller processes
+parts each with set of instructions.
+OOP emphasize data and build functions
+around it. each class has its own variable
+which save them from accidental change.
+pop code oop
+data data
+General
+data
+4. Java Runtime Environment ⇒ environment to
+run the java program only, It component are
+① Compiler ② Java virtual machine.
+5. inheritance is to creat class based on existed
+class and the subclass can share all features of
+super class.
+Polymorphism is feature allow objects to
+be used as general and can take different forms
+according to required needs.

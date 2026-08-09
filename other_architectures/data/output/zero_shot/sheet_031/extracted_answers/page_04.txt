@@ -1,0 +1,23 @@
+JRE stands for Java Runtime Environment, it
+has JUM on it which is engine time to execute the
+code which is known also as interpreter.
+(JUM for windows)
+(JUM for linux)
+(JUM for MAC)
+Inheritance is the creation of new classes based on
+existing ones, the new class inherits method and field
+of Super class and it can add its new Fields & methods.
+While polymorphism is when you get a message
+appear in multiple form, it can override methods of
+the super class and change it to a new form.
+encapsulation is a protective shield for data and
+Code, it protect them from being access by anything
+outside the shield, it is a data hiding and achieved
+in Implementation level, it can be achieved by data hiding
+and abstraction.
+1. Abstract classes
+2. Interface.
+81 for that threads:
+1. the task is finished.
+2. due to unusual event.
+3. cloud or no Longer available.

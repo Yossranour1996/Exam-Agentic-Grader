@@ -1,0 +1,128 @@
+{
+  "questions": [
+    {
+      "question": "Q1",
+      "sub_questions": [
+        {
+          "sub_question": "Q1.1",
+          "answer": "it is not tied on specific machine on operating Systems Architect."
+        },
+        {
+          "sub_question": "Q1.2",
+          "answer": "it came up with Some problems in security and pretable, So programing language had to adopt the changing in the Environment"
+        },
+        {
+          "sub_question": "Q1.3",
+          "answer": "OOP / POP -POP: processer-oriented procedures & it focuses on generate data on Code. So, in large number of procedure could. be more Complex and too long. -OOP: object oriented programing forces on the Code and method developing rather than data. -POP: data process in term of sequence but OOP: grouped code around data, So we have much controlling on data -OOP: is flexibility & efficency more than POP."
+        },
+        {
+          "sub_question": "Q1.4",
+          "answer": "what are component of JBE - JBE, Java Runtime environment consist of developement component and alse JVM JVM laibary somefiles controlling tools JRE JDK"
+        },
+        {
+          "sub_question": "Q1.5",
+          "answer": "inheritance is to create new class base on an existing one polymorphism poly mean more, morphsm meen formg inheritance is a data hiding • Implement information and instruction by delifing common featers to sub class polymorphism if is result of inheritanse after Sub class inherte the member of Super class It can be modified by adding anther (attribute, constructor)"
+        },
+        {
+          "sub_question": "Q1.6",
+          "answer": "encapsulation is a maganism to binds data and code, and prevent them from outside changing"
+        },
+        {
+          "sub_question": "Q1.7",
+          "answer": "2way to achieve abstracts: 1- call it in place we difinition 2- use modifier access modifier"
+        },
+        {
+          "sub_question": "Q1.8",
+          "answer": "Thread could be terminated 3 reason 1- Some Application doesn't terminated 2- protect from autsid strong"
+        },
+        {
+          "sub_question": "Q1.9",
+          "answer": "3 defult streams 1- Input stream System.in Output stream System.Out error stream: System.err"
+        },
+        {
+          "sub_question": "Q1.10",
+          "answer": "build in top of interase."
+        }
+      ]
+    },
+    {
+      "question": "Q2",
+      "sub_questions": [
+        {
+          "sub_question": "Q2.1",
+          "answer": "true"
+        },
+        {
+          "sub_question": "Q2.2",
+          "answer": "false, It is possible, but 2.3 inherit from inherited one"
+        },
+        {
+          "sub_question": "Q2.3",
+          "answer": "true"
+        },
+        {
+          "sub_question": "Q2.4",
+          "answer": "false, Runtime polymorphism could be achieved by method overriding"
+        },
+        {
+          "sub_question": "Q2.5",
+          "answer": "False, Abstract classes should only have abstract method within them"
+        },
+        {
+          "sub_question": "Q2.6",
+          "answer": "true"
+        },
+        {
+          "sub_question": "Q2.7",
+          "answer": "true"
+        }
+      ]
+    },
+    {
+      "question": "Q3",
+      "sub_questions": [
+        {
+          "sub_question": "Q3.1",
+          "answer": "To adapt the changing of environment and uses."
+        },
+        {
+          "sub_question": "Q3.2",
+          "answer": "C programming language"
+        },
+        {
+          "sub_question": "Q3.3",
+          "answer": "instruction"
+        },
+        {
+          "sub_question": "Q3.4",
+          "answer": "applet"
+        },
+        {
+          "sub_question": "Q3.5",
+          "answer": "[NO_ANSWER]"
+        },
+        {
+          "sub_question": "Q3.6",
+          "answer": "[NO_ANSWER]"
+        },
+        {
+          "sub_question": "Q3.7",
+          "answer": "JDBE"
+        }
+      ]
+    },
+    {
+      "question": "Q4",
+      "sub_questions": [
+        {
+          "sub_question": "Q4.1",
+          "answer": "box & seats X [UNK] #Pactenter Succees"
+        },
+        {
+          "sub_question": "Q4.2",
+          "answer": "double numOFVal[UNK] = int total Volteg Lx1 & Seats [i] + \"you will take seat\" + i [UNK]"
+        }
+      ]
+    }
+  ]
+}

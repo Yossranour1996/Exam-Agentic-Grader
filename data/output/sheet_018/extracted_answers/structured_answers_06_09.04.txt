@@ -1,0 +1,86 @@
+STUDENT ANSWERS:
+
+Question: Q1
+Sub-Question: Q1.1
+Answer: It mean the Java is not restricted by SPECIFIC opreation system.
+
+Sub-Question: Q1.2
+Answer: by Small Programe called APPLE has function the binds together Code and data that it manipulate and transmited by Internet and excuted them by Java applet browser web
+
+Sub-Question: Q1.3
+Answer: that while pop procedure (Code) oprating on Data the oop classes and object encapsulated Data and Code Class code data oop Code opration Code dat Pop
+
+Sub-Question: Q1.4
+Answer: JVM (Java Virtual Machin) byt code
+
+Sub-Question: Q1.5
+Answer: inheritence is creatin new class From exesting one and allow the for 'it' to used method and Function of Super class when it need it plus Attribut and method defind For specialization used - while Polymorphism Class has many Form and do not able to inhert -
+
+Sub-Question: Q1.6
+Answer: encapsulation = Es machanism Previde to Protect Class data and Code From oulsid intrFance & and misuse. its wrapper encapsulated Cade and data
+
+Sub-Question: Q1.7
+Answer: abstracted classes and InTer Face
+
+Sub-Question: Q1.8
+Answer: 1. dead or no longer avialable 2. Finished their task normaly 3. terminated due to unormal event
+
+Sub-Question: Q1.9
+Answer: Streams - in Streams - out Streams - err
+
+Sub-Question: Q1.10
+Answer: it Java API (Application Programing Interface) to connect and Interact with database connect
+
+
+Question: Q2
+Sub-Question: Q2.1
+Answer: True
+
+Sub-Question: Q2.2
+Answer: True
+
+Sub-Question: Q2.3
+Answer: True
+
+Sub-Question: Q2.4
+Answer: False Run time ploy morphism could be achieved by method overriden -
+
+Sub-Question: Q2.5
+Answer: False Could have qbstract method within them achieved also by Interface -
+
+Sub-Question: Q2.6
+Answer: True
+
+Sub-Question: Q2.7
+Answer: False = There is many JDBC driver
+
+
+Question: Q3
+Sub-Question: Q3.1
+Answer: environment
+
+Sub-Question: Q3.2
+Answer: C Language
+
+Sub-Question: Q3.3
+Answer: attributes
+
+Sub-Question: Q3.4
+Answer: Applet
+
+Sub-Question: Q3.5
+Answer: a container
+
+Sub-Question: Q3.6
+Answer: Controlling
+
+Sub-Question: Q3.7
+Answer: JDBC
+
+
+Question: Q4
+Sub-Question: Q4.1
+Answer: Seats [i] + ", you will take Seat " + (seats.length -i-1 Seats [i] + ", you will take seat " + (4 - i)
+
+Sub-Question: Q4.2
+Answer: if num of Votr int total Voters (int) portion = double portion (int) portion = int total Votes * 0.15

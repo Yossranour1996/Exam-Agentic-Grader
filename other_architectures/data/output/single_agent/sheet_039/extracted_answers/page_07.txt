@@ -1,0 +1,7 @@
+4.2:
+Calculate Votes (760,0);
+calculate Votes (total Votes);
+Because when calling calculateVotes method
+with argument (760). The value of portion becomes
+760 x 0.15 = 114. Then, the method will print
+the desired output according to these circumstances.

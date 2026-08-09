@@ -1,0 +1,7 @@
+1) True
+2) False "It's possible for an interface to inherit another interface's properties"
+3) True
+4) False "could be achieved by method overriden"
+5) False "Abstract interfaces"
+6) True
+7) False "There are two. Drive manager and JDBC dive"

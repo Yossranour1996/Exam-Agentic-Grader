@@ -1,0 +1,128 @@
+{
+  "questions": [
+    {
+      "question": "Q1",
+      "sub_questions": [
+        {
+          "sub_question": "Q1.1",
+          "answer": "It means that its independentent on the\ndevice and it's operating system."
+        },
+        {
+          "sub_question": "Q1.2",
+          "answer": "It supported the revolution of Java, that handled\nprogramming Languages like Java, that handled\nthe complexity Needed to deal with the WWWs,\nwith the technologies like applets"
+        },
+        {
+          "sub_question": "Q1.3",
+          "answer": "OOP (Object oriented programming)\nbinds the data with code with the data\nIt manipulates using encapsulation and gives\nmore focus on the data than POP.\nPOP (procedure oriented programming)\nIt is a serial of procedures and\nfunctions that work on the data\nPOP\nOOP\nData , Code, procedures."
+        },
+        {
+          "sub_question": "Q1.4",
+          "answer": "JRE consists of the JVM\n(Java virtual machine) and other files\nand libraries."
+        },
+        {
+          "sub_question": "Q1.5",
+          "answer": "Inheritance is the process in which an object\nacquires the properties from another object.\npolymorphism is the procedure in which one\ninterface can do a Class of different of group"
+        },
+        {
+          "sub_question": "Q1.6",
+          "answer": "encapsulation is the property that\nbinds the code to the data that it\nmanipulates and wraps it from changes\nfrom external misuses."
+        },
+        {
+          "sub_question": "Q1.7",
+          "answer": "calsses and& interface absraction"
+        },
+        {
+          "sub_question": "Q1.8",
+          "answer": "① If it completed it task\n② due to unusual events\n③ if it's dead"
+        },
+        {
+          "sub_question": "Q1.9",
+          "answer": "System.in Stream.in\nSystem.out Stream.out\nSystem.err Stream.err"
+        },
+        {
+          "sub_question": "Q1.10",
+          "answer": "java AWT"
+        }
+      ]
+    },
+    {
+      "question": "Q2",
+      "sub_questions": [
+        {
+          "sub_question": "Q2.1",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.2",
+          "answer": "False it is possible"
+        },
+        {
+          "sub_question": "Q2.3",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.4",
+          "answer": "False , by method overriding"
+        },
+        {
+          "sub_question": "Q2.5",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.6",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.7",
+          "answer": "False , there are several JDBC drivers"
+        }
+      ]
+    },
+    {
+      "question": "Q3",
+      "sub_questions": [
+        {
+          "sub_question": "Q3.1",
+          "answer": "Internet and the World Wide Web"
+        },
+        {
+          "sub_question": "Q3.2",
+          "answer": "C"
+        },
+        {
+          "sub_question": "Q3.3",
+          "answer": "data"
+        },
+        {
+          "sub_question": "Q3.4",
+          "answer": "applet"
+        },
+        {
+          "sub_question": "Q3.5",
+          "answer": "Container"
+        },
+        {
+          "sub_question": "Q3.6",
+          "answer": "Controller"
+        },
+        {
+          "sub_question": "Q3.7",
+          "answer": "JDBC"
+        }
+      ]
+    },
+    {
+      "question": "Q4",
+      "sub_questions": [
+        {
+          "sub_question": "Q4.1",
+          "answer": "String [i] + \" \" you will take seat\" + i\nII each each time\nthe Code will\nprint the i'th element in the\n\"seats\" array, then it will then\nprint the index"
+        },
+        {
+          "sub_question": "Q4.2",
+          "answer": "Agree CalculateVotes (int total votes);"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+4.1)
+seats[i] + " You will take seat "+ i
+we can see the pattern from the output.
+First, we have a for loop with variable i
+starting from 0 and ending with 4
+Second, we start every output line with seat
+that is the same index as i so we
+used {seats[i]}.
+Finally the middle part is the same so we just
+used a string, and the final part is the same
+as i value.
+4.2)
+double votes = calculateVotes(totalVotes);
+System.out.println(
+the number of people
+4.2)
+calculateVotes (totalVotes);
+in this code we have a function that accept number
+of votes and calculate number of people agreeing
+with the statement. it just require number of
+votes which we have declared in the start of
+main function

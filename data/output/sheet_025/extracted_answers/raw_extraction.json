@@ -1,0 +1,42 @@
+[
+  {
+    "page": "page_01.png",
+    "text": ""
+  },
+  {
+    "page": "page_02.png",
+    "text": ""
+  },
+  {
+    "page": "page_03.png",
+    "text": "(1.1) we mean that Java isn't tied to a\nspecific machine or operating system, but\ncan work anywhere.\n(1.2) The world wide web made sharing of computer\nsoftware over it a very easy task, hence a\nneed for a language that could work\nequally well in the variety of platforms involved.\nThis marked the birth of the\nJava programming language.\n(1.3) Object oriented programming (OOP) is\na paradigm at which data is the central\nfocus. It works on the principle of encapsulation\nwhich groups data and code into blocks. While\nprocedure oriented programming (POP) is where\nthe code (procedure/process) comes first.\nPrograms are broken up to parts that are\nexecuted via a sequence of functions, and\ndata is usually available globally for use in\nprocedures.\n(1.4) J.R.E. (Java Runtime Environment) is\ncomposed of the J.V.M. (Java Virtual Machine),\nstandard libraries (e.g. rt.jar) and other files\nthat help in execution of programs."
+  },
+  {
+    "page": "page_04.png",
+    "text": "(1.5) In inheritance is the ability to build\nmultiple classes based on the same base\nclasses. Polymorphism on the other hand is\nthe ability of an object to take different\nforms (poly = morphs = many + forms). So, it's\nclear that\n(1.6) Encapsulation is the wrapping up of data\nin a single unit. It is the process of grouping\ndata and code, and acts as a protective\nshield for the data from outside interference.\n(1.7) Abstraction can be achieved either through\nthe usage of abstract classes, or interfaces.\nthread.\n(1.8) 1/ The task has finished execution normally\n2/ Execution ended unexpectedly due to a\nproblem.\n3/ Thread has been going for too long and was\nterminated.\n(1.9) 1/ System.in stream\n2/ System.out stream\n3/ System.err stream\n(1.10) Java AWT (Abstract window Toolkit)\nAPI"
+  },
+  {
+    "page": "page_05.png",
+    "text": "(2.1) True\n(2.2) False, it is possible\n(2.3) True\n(2.4) False, achieved by method overwriting\n(2.5) False, abstract classes can only have abstract methods\n(2.6) True\n(2.7) True\n(2.5) True"
+  },
+  {
+    "page": "page_06.png",
+    "text": "(3.1) Adapting to new environments and uses (eg: internet boom)\n(3.2) C\n(3.3) Data\n(3.4) Applets\n(3.5) Container (window, panel, dialogue, frame)\n(3.6) Controller\n(3.7) JDBC (Java Database Connectivity)"
+  },
+  {
+    "page": "page_07.png",
+    "text": "(4.1) seats[i] + \" , you will take seat \" + i\n(4.2) System.out.println (\"The number\n(4.2) calculatedVotes (totalVotes);\n(4.2) caculatedVotes (totalVotes);\n(4-1)\nCode: seats[i] + \", you will take seat \" + i\nExplanation: It is apparent that the output is\nlooping over the array \"seats\" printing every\nelement and its corresponding index along with\nan appropriate text message.\n(4-2)\nCode: calculateVotes (totalVotes);\nExplanation: The function \"calculateVotes\" calculates\n\"proportion\" which is 15% of its input parameter\n\"numOfVotes\", then prints the result with an\nappropriate message. From this it is clear that\nto get the needed output, we only need to\ncall the function \"calculateVotes\" and pass the\ntotalVotes variable on the parameter slot."
+  },
+  {
+    "page": "page_08.png",
+    "text": ""
+  },
+  {
+    "page": "page_09.png",
+    "text": ""
+  },
+  {
+    "page": "page_10.png",
+    "text": "EMPTY"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "page": "page_01.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_02.png",
+    "text": ""
+  },
+  {
+    "page": "page_03.png",
+    "text": "1.1 That it's a language that don't depend\non an architecture system.\n1.2 The world wide web participate in\nimproving the programming language to deal\nwith servers after being only for local\nData transfer between computers.\n1.3 POP is a language that handels the functions\nmore than organising data.\nbut oop focus on data and how to axioss\nit more than functions.\n1.4 Java Run-time Environment\nis to contain of a Laibraries\nand JVM (Java virtual machin) the handle\nthe run prod of the program process.\n1.5 inhepitence is used to implement a\nclasses from the main class &\npolymorphism that you can't inherets don't depend\non the small inherited classes but focus to\nget instructions from the main class directly."
+  },
+  {
+    "page": "page_04.png",
+    "text": "1.6 encapsulation : is the privet room\nthat contains All of the data but-on and\nkeep it praivet.\n1.7 abstract classes and interface .\n1.8 when the Program is fully finished.\nwhen it intrrupts due to unisuad actions\nwhen it's dead (loong run without results)\n1.9 1. system.in 2. system.out\n3. system.err\n1.10"
+  },
+  {
+    "page": "page_05.png",
+    "text": "2.1 True.\n2.2 False, & possible for an interface\nto inherit from another main class prob.\n2.3 True.\n2.4 False, by method override.\n2.5 True.\n2.6 False, heavyweight and tight\n2.7 True."
+  },
+  {
+    "page": "page_06.png",
+    "text": "internet.\nthe Language C\ndose does not allow functions\ninterface\ncontroller.\ninterface\nJDBC\n(Java Database connector)"
+  },
+  {
+    "page": "page_07.png",
+    "text": "4.1\nsystem.out.println(\nSystem[i] + \"You will take seat \" + (i+1));\nfrom that we read (i) and let it read (i)\nthen print our statment in addition of\n(i) after every seat written.\n4.2\nPrivet int [UNK] Votes;\nwe don't need the program to edit in the\nnumber of votes."
+  },
+  {
+    "page": "page_08.png",
+    "text": ""
+  }
+]

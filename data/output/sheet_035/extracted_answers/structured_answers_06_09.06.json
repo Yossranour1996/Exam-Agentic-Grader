@@ -1,0 +1,128 @@
+{
+  "questions": [
+    {
+      "question": "Q1",
+      "sub_questions": [
+        {
+          "sub_question": "Q1.1",
+          "answer": "Java is not restricted to a specific system architecture"
+        },
+        {
+          "sub_question": "Q1.2",
+          "answer": "Because it create the need for programs that can be executed in different operating systems and system architectures"
+        },
+        {
+          "sub_question": "Q1.3",
+          "answer": "POP use procedure code to operate on the data OOP use object and classes to Encapsulate Code and data"
+        },
+        {
+          "sub_question": "Q1.4",
+          "answer": "JVM"
+        },
+        {
+          "sub_question": "Q1.5",
+          "answer": "inheritance is an operation that let you creat classes and interfaces based on existing one and polymorphism is a feature that allows interface to be used in general class actions"
+        },
+        {
+          "sub_question": "Q1.6",
+          "answer": "it is a mechanism that bind the code and the data it's manipulate"
+        },
+        {
+          "sub_question": "Q1.7",
+          "answer": "abstract classes and interfaces"
+        },
+        {
+          "sub_question": "Q1.8",
+          "answer": "1- finish its task 2- terminated due an unusual event 3- dead or no longer available"
+        },
+        {
+          "sub_question": "Q1.9",
+          "answer": "System.in , System.out , System.err"
+        },
+        {
+          "sub_question": "Q1.10",
+          "answer": "JDBC"
+        }
+      ]
+    },
+    {
+      "question": "Q2",
+      "sub_questions": [
+        {
+          "sub_question": "Q2.1",
+          "answer": "true"
+        },
+        {
+          "sub_question": "Q2.2",
+          "answer": "False => it is not possible For an interface to implement another interFace properties"
+        },
+        {
+          "sub_question": "Q2.3",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.4",
+          "answer": "False => runtime polymorphism could be achieved by method overriding"
+        },
+        {
+          "sub_question": "Q2.5",
+          "answer": "true"
+        },
+        {
+          "sub_question": "Q2.6",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.7",
+          "answer": "True"
+        }
+      ]
+    },
+    {
+      "question": "Q3",
+      "sub_questions": [
+        {
+          "sub_question": "Q3.1",
+          "answer": "adapt changing envalironment and uses"
+        },
+        {
+          "sub_question": "Q3.2",
+          "answer": "C"
+        },
+        {
+          "sub_question": "Q3.3",
+          "answer": "Data"
+        },
+        {
+          "sub_question": "Q3.4",
+          "answer": "applet"
+        },
+        {
+          "sub_question": "Q3.5",
+          "answer": "Frame"
+        },
+        {
+          "sub_question": "Q3.6",
+          "answer": "Controle"
+        },
+        {
+          "sub_question": "Q3.7",
+          "answer": "JDBC"
+        }
+      ]
+    },
+    {
+      "question": "Q4",
+      "sub_questions": [
+        {
+          "sub_question": "Q4.1",
+          "answer": "seats [i] + \" you will take seat\" + i"
+        },
+        {
+          "sub_question": "Q4.2",
+          "answer": "doubl numOFVotes = total Votes + 200 ; Calculate Votes"
+        }
+      ]
+    }
+  ]
+}

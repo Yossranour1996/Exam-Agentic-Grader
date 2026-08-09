@@ -1,0 +1,26 @@
+1. it means that java is not restricted to any
+specific system architecture, and that it can
+run on almost all systems with its bytecode.
+2. when the world wide web came to view, many
+new languages came such as Java, which
+had the revolutionary applets, temm and service,
+that can run java applications on browser.
+3. POP works on procedural code,
+the data is it focuses on code by making many
+functions and using them to work on data. but in
+OOP, the focus was at grouping all the data
+together in form of objects and interfaces so
+its data working on code.
+4. Encapsulation can mean wrapping the data
+so that only the permissioned objects can have
+access to them, and that's by declaring it private.
+5. polymorphism means using the same method for
+different data types (overloading) and its works on methods
+and parameters, while inheritance means
+making a new class from an existing one that
+inherit all the methods, so inheritance works on
+classes and interfaces.
+6. it consists of java development environment, and
+java virtual machine to interpret the
+bytecode, while the environment is for setting and
+running the code.

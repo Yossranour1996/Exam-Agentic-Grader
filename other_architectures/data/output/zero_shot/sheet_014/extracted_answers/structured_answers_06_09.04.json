@@ -1,0 +1,128 @@
+{
+  "questions": [
+    {
+      "question": "Q1",
+      "sub_questions": [
+        {
+          "sub_question": "Q1.1",
+          "answer": "It does not rely on one architecture only, and you can write Java code once and run it everywhere thanks to the JVM"
+        },
+        {
+          "sub_question": "Q1.2",
+          "answer": "it was a new and fast way to connect between devices and created a whole new ecosystem including browsers which required new technologies to work with like Java applets. also the need for language that run in every computer architecture."
+        },
+        {
+          "sub_question": "Q1.3",
+          "answer": "OOP stands for Object Oriented Programming. which focused on data and its structure more than the functions (procedures) POP stands for procedural Oriented Programming which focused more in the functions instead of data. Thus it wasn't good enough when project scales and become more complex."
+        },
+        {
+          "sub_question": "Q1.4",
+          "answer": "JRE: Java Runtime Environment. it has 2 main components: 1- JVM: which execute Java bytecode 2- a set of classes and libraries required by Java program. for example: Scanner class is a class offered by the JRE"
+        },
+        {
+          "sub_question": "Q1.5",
+          "answer": "inheritance is the process where one class obtain all data (like fields and functions) from another class and extend it. polymorphism is the ability to interact with a class without needing to specify the implementation details. for example: you can interact with Car class without needing to know if it is of type Normal Car or SportCar"
+        },
+        {
+          "sub_question": "Q1.6",
+          "answer": "encapsulation is hiding the data and implementations & and make visible in certain classes"
+        },
+        {
+          "sub_question": "Q1.7",
+          "answer": "1- abstract classes 2- interfaces"
+        },
+        {
+          "sub_question": "Q1.8",
+          "answer": "1- it finishes all [UNK] instructions successfully and normally 2- it stops due to unexpected behavior behavior or error 3- it takes too long so it is dead or locked"
+        },
+        {
+          "sub_question": "Q1.9",
+          "answer": "1- System.in [standard input] 2- System.out [standard output] 3- System.err [standard error]"
+        },
+        {
+          "sub_question": "Q1.10",
+          "answer": "Swing is built on top of AWT JWT (Java window toolkit) API."
+        }
+      ]
+    },
+    {
+      "question": "Q2",
+      "sub_questions": [
+        {
+          "sub_question": "Q2.1",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.2",
+          "answer": "False, if it is possible"
+        },
+        {
+          "sub_question": "Q2.3",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.4",
+          "answer": "False, it is acheived by method overriding"
+        },
+        {
+          "sub_question": "Q2.5",
+          "answer": "False, it cannot"
+        },
+        {
+          "sub_question": "Q2.6",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.7",
+          "answer": "False, there is a seperate driver foreach source."
+        }
+      ]
+    },
+    {
+      "question": "Q3",
+      "sub_questions": [
+        {
+          "sub_question": "Q3.1",
+          "answer": "changing environment and use cases"
+        },
+        {
+          "sub_question": "Q3.2",
+          "answer": "C. language"
+        },
+        {
+          "sub_question": "Q3.3",
+          "answer": "data"
+        },
+        {
+          "sub_question": "Q3.4",
+          "answer": "Java applets"
+        },
+        {
+          "sub_question": "Q3.5",
+          "answer": "Frame"
+        },
+        {
+          "sub_question": "Q3.6",
+          "answer": "Controller"
+        },
+        {
+          "sub_question": "Q3.7",
+          "answer": "JDBC (Java Database Connector)"
+        }
+      ]
+    },
+    {
+      "question": "Q4",
+      "sub_questions": [
+        {
+          "sub_question": "Q4.1",
+          "answer": "seats[i] + \" You will take seat \"+ i we can see the pattern from the output. First, we have a for loop with variable i starting from 0 and ending with 4 Second, we start every output line with seat that is the same index as i so we used {seats[i]}. Finally the middle part is the same so we just used a string, and the final part is the same as i value."
+        },
+        {
+          "sub_question": "Q4.2",
+          "answer": "double votes = calculateVotes(totalVotes); System.out.println( the number of people calculateVotes (totalVotes); in this code we have a function that accept number of votes and calculate number of people agreeing with the statement. it just require number of votes which we have declared in the start of main function"
+        }
+      ]
+    }
+  ]
+}

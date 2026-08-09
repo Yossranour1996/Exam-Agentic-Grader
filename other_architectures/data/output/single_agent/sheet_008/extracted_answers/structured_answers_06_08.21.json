@@ -1,0 +1,128 @@
+{
+  "questions": [
+    {
+      "question": "Q1",
+      "sub_questions": [
+        {
+          "sub_question": "Q1.1",
+          "answer": "Jave not restricted by specifaing machine or operating system Architecture"
+        },
+        {
+          "sub_question": "Q1.2",
+          "answer": "by using Web browser and Create Java Applets"
+        },
+        {
+          "sub_question": "Q1.3",
+          "answer": "POP = procedural oriented language operates on data to achieve Some goal OOP = use objects and classes and instruction to encapsulated both data and Code data With Code encapsulate"
+        },
+        {
+          "sub_question": "Q1.4",
+          "answer": "Java Runtime environment that has (JVM) = Java Virtual machine"
+        },
+        {
+          "sub_question": "Q1.5",
+          "answer": "inheritance = creat new classes based on existing ones and a class inherit from anther class reuse all fields and methods of that class in addition new fields from polymorphism = having many forms in word or ability of massege to be disably in more then one form"
+        },
+        {
+          "sub_question": "Q1.6",
+          "answer": "machnism that bind together code and data it manipultes and Keep them safe from outside inter farance"
+        },
+        {
+          "sub_question": "Q1.7",
+          "answer": "interfaces and abstract classes"
+        },
+        {
+          "sub_question": "Q1.8",
+          "answer": "finisheel task normally —® terminet due to unusual events x —® dead or No longer avalible —®"
+        },
+        {
+          "sub_question": "Q1.9",
+          "answer": "System.in / System.out / system.err"
+        },
+        {
+          "sub_question": "Q1.10",
+          "answer": "Java AWT (Abstract Window toolKit) we built API Swing on top of it"
+        }
+      ]
+    },
+    {
+      "question": "Q2",
+      "sub_questions": [
+        {
+          "sub_question": "Q2.1",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.2",
+          "answer": "False = o other True"
+        },
+        {
+          "sub_question": "Q2.3",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.4",
+          "answer": "False = o by over overriding method or you can say compile time"
+        },
+        {
+          "sub_question": "Q2.5",
+          "answer": "False = o could not"
+        },
+        {
+          "sub_question": "Q2.6",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.7",
+          "answer": "True"
+        }
+      ]
+    },
+    {
+      "question": "Q3",
+      "sub_questions": [
+        {
+          "sub_question": "Q3.1",
+          "answer": "adapt changeing in environments and uses"
+        },
+        {
+          "sub_question": "Q3.2",
+          "answer": "(C) language"
+        },
+        {
+          "sub_question": "Q3.3",
+          "answer": "procedures (functions)"
+        },
+        {
+          "sub_question": "Q3.4",
+          "answer": "Jave Applets"
+        },
+        {
+          "sub_question": "Q3.5",
+          "answer": "[UNK] container"
+        },
+        {
+          "sub_question": "Q3.6",
+          "answer": "model view controller"
+        },
+        {
+          "sub_question": "Q3.7",
+          "answer": "JDBC = Jave data base conectivity"
+        }
+      ]
+    },
+    {
+      "question": "Q4",
+      "sub_questions": [
+        {
+          "sub_question": "Q4.1",
+          "answer": "① Student student seats student [i] + \"you will take seat\" + stor seat.length [i] first you call choractor from list = seats and then goes through loop and after that length of seats => like index [0] = [\"M\"] and less than length of list so + \"you will take seat\""
+        },
+        {
+          "sub_question": "Q4.2",
+          "answer": "double num Of Votes = total Votes;"
+        }
+      ]
+    }
+  ]
+}

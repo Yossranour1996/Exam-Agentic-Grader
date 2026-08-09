@@ -1,0 +1,160 @@
+exam_id: java
+total_marks: 100
+policy:
+  tolerate_ocr_noise: true
+  semantic_equivalence: true
+  penalize_extra_incorrect_content: false
+sections:
+  - id: Q1
+    type: short_answer
+    total_marks: 30
+    questions:
+      - id: Q1.1
+        marks: 3
+        allowed_scores: [0, 3]
+        expected: "Student should express that Java can work across different architectures / is not restricted to one specific system architecture."
+        rule: "Give 3 if the student conveys the idea that Java can work on different architectures/devices/systems, even if the wording is weak or grammatically wrong. Otherwise 0."
+      - id: Q1.2
+        marks: 3
+        allowed_scores: [0, 3]
+        expected: "Any nonblank answer is accepted unless it mentions Applet/Applets or Servlet/Servlets."
+        rule: "Give 0 if the answer is blank. Give 0 if the answer mentions Applet, Applets, Servlet, or Servlets. Otherwise give 3."
+      - id: Q1.3
+        marks: 3
+        allowed_scores: [0, 3]
+        expected: "POP is procedure/data oriented; OOP is object/class oriented."
+        rule: "Give 3 if the student conveys that POP is related to procedures/functions/data and OOP is related to objects/classes. Exact textbook wording is not required. Otherwise 0."
+      - id: Q1.4
+        marks: 3
+        allowed_scores: [0, 1, 2, 3]
+        expected: "JVM, libraries, supporting files/components."
+        rule: "Give 1 mark for JVM or Java Virtual Machine, 1 mark for library/libraries, and 1 mark for file/files/supporting files. Maximum 3. Blank answer gets 0."
+      - id: Q1.5
+        marks: 3
+        allowed_scores: [0, 2, 3]
+        expected: "Inheritance = class gets properties/behavior from another existing class. Polymorphism = many forms / one interface / general class of actions / common type with different forms."
+        rule: "Give 3 if both inheritance and polymorphism meanings are correct. Give 2 if only one of the two is clearly correct. Give 0 if neither is correct."
+      - id: Q1.6
+        marks: 3
+        allowed_scores: [0, 3]
+        expected: "Binding/bundling code and data together in one unit/class."
+        rule: "Give 3 if the student expresses binding/bundling code and data together, or an equivalent meaning. Otherwise 0."
+      - id: Q1.7
+        marks: 3
+        allowed_scores: [0, 3]
+        expected: "Abstract classes and interfaces."
+        rule: "Give 3 if the student mentions abstract class/classes and interfaces, even if grammar/order is weak such as 'class abstract' or 'interfaces abstract'. Otherwise 0."
+      - id: Q1.8
+        marks: 3
+        allowed_scores: [0, 1, 2, 3]
+        expected: "Finished normally, unusual event/exception/error, dead/stopped/terminated."
+        rule: "Give 1 mark for each clearly correct reason among: (1) finished/completed task, (2) unusual event/exception/error, (3) dead/stopped/terminated/no longer available. Accept equivalent wording. Max 3."
+      - id: Q1.9
+        marks: 3
+        allowed_scores: [0, 1, 2, 3]
+        expected: "System.in, System.out, System.err"
+        rule: "Give 1 mark for each correct intended stream among System.in, System.out, System.err. IMPORTANT: if the student writes weak spellings like System.i or System.o but the intended stream is clearly System.in and System.out, count them as correct. Minor spelling/OCR mistakes must not reduce the mark. Max 3."
+      - id: Q1.10
+        marks: 3
+        allowed_scores: [0, 3]
+        expected: "AWT / Abstract Window Toolkit"
+        rule: "Give 3 only if the student gives AWT or Abstract Window Toolkit or a very clear equivalent. Otherwise 0."
+  - id: Q2
+    type: true_false
+    total_marks: 21
+    questions:
+      - id: Q2.1
+        marks: 3
+        allowed_scores: [0, 3]
+        expected: "True"
+        rule: "Give 3 only if the student chose True. Otherwise 0."
+      - id: Q2.2
+        marks: 3
+        allowed_scores: [0, 3]
+        expected: "False"
+        rule: "Give 3 only if the student chose False. Otherwise 0."
+      - id: Q2.3
+        marks: 3
+        allowed_scores: [0, 3]
+        expected: "True"
+        rule: "Give 3 only if the student chose True. Otherwise 0."
+      - id: Q2.4
+        marks: 3
+        allowed_scores: [0, 3]
+        expected: "False"
+        rule: "Give 3 only if the student chose False. Otherwise 0."
+      - id: Q2.5
+        marks: 3
+        allowed_scores: [0, 3]
+        expected: "True"
+        rule: "Give 3 only if the student chose True. Otherwise 0."
+      - id: Q2.6
+        marks: 3
+        allowed_scores: [0, 3]
+        expected: "True"
+        rule: "Give 3 only if the student chose True. Otherwise 0."
+      - id: Q2.7
+        marks: 3
+        allowed_scores: [0, 3]
+        expected: "False"
+        rule: "Give 3 only if the student chose False. Otherwise 0."
+  - id: Q3
+    type: fill_blank
+    total_marks: 21
+    questions:
+      - id: Q3.1
+        marks: 3
+        allowed_scores: [3]
+        accepted: [improvement, "improvement in programming", "improving programming", "adapting to change", "adapting to changing environments", "adapting to changing uses"]
+        expected: "Always full marks."
+        rule: "Always give 3 marks, even if the answer is blank."
+      - id: Q3.2
+        marks: 3
+        allowed_scores: [0, 3]
+        accepted: [C, Pascal, "C programming language", "Pascal programming language"]
+        expected: "C or Pascal"
+        rule: "Give 3 if the student gives C or Pascal, even inside a longer phrase such as 'C programming language'. Otherwise 0."
+      - id: Q3.3
+        marks: 3
+        allowed_scores: [0, 3]
+        accepted: [data, "and data"]
+        expected: "data"
+        rule: "Give 3 if the intended answer is data, even if it appears in a phrase like 'and data'. Otherwise 0."
+      - id: Q3.4
+        marks: 3
+        allowed_scores: [0, 3]
+        accepted: [Applet, Applets]
+        expected: "Applets"
+        rule: "Give 3 if the student gives Applet/Applets or a very clear equivalent/OCR form. Otherwise 0."
+      - id: Q3.5
+        marks: 3
+        allowed_scores: [0, 3]
+        accepted: [Container, Frame]
+        expected: "Container or Frame"
+        rule: "Give 3 if the student gives Container or Frame. Accept spelling/OCR variations when the intended word is clear. Otherwise 0. Blank answer gets 0."
+      - id: Q3.6
+        marks: 3
+        allowed_scores: [0, 3]
+        accepted: [Controller]
+        expected: "Controller"
+        rule: "Give 3 if the student gives Controller. Otherwise 0."
+      - id: Q3.7
+        marks: 3
+        allowed_scores: [0, 3]
+        accepted: [JDBC, "Java Database Connectivity"]
+        expected: "JDBC or Java Database Connectivity"
+        rule: "Give 3 if the student gives JDBC or Java Database Connectivity. Otherwise 0."
+  - id: Q4
+    type: code_completion
+    total_marks: 28
+    questions:
+      - id: Q4.1
+        marks: 14
+        allowed_scores: [14]
+        expected: "Always full marks."
+        rule: "Always give 14 marks, even if the answer is blank."
+      - id: Q4.2
+        marks: 14
+        allowed_scores: [0, 7, 9, 11, 14]
+        expected: "calculateVotes(totalVotes);"
+        rule: "Give 14 if both calculateVotes and totalVotes are mentioned. Give 11 if only one of them is mentioned. Give 9 if the answer is incorrect but mentions vote/votes or is clearly vote-related. Give 7 if the answer is nonblank but unrelated to votes. Give 0 if blank."

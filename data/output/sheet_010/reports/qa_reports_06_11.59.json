@@ -1,0 +1,102 @@
+[
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q1",
+        "identified_errors": [
+          {
+            "sub_question": "Q1.4",
+            "description": "The student mentioned 'JVE' which could be a minor typo for 'JVM'. Given the rubric's leniency towards OCR noise and semantic equivalence, partial credit should be considered."
+          },
+          {
+            "sub_question": "Q1.5",
+            "description": "The student's explanation of inheritance was incorrect, but the explanation of polymorphism was correct. The awarded score of 2 is appropriate, but the justification should clearly state that partial credit is for the correct explanation of polymorphism."
+          },
+          {
+            "sub_question": "Q1.6",
+            "description": "The student's answer did not convey the concept of encapsulation as binding code and data together. The awarded score of 0 is appropriate."
+          },
+          {
+            "sub_question": "Q1.8",
+            "description": "The student's answer 'if you catch a threat or made an exception, finally' is unclear but could be interpreted as an attempt to describe exception handling. Given the rubric's leniency, partial credit should be considered."
+          },
+          {
+            "sub_question": "Q1.10",
+            "description": "The student's answer did not mention AWT or Abstract Window Toolkit, which was required for full marks. The awarded score of 0 is appropriate."
+          }
+        ],
+        "summary": "Q1.4 and Q1.8 require reconsideration for partial credit due to potential OCR noise and semantic equivalence. Q1.5 and Q1.6 are correctly graded, but Q1.5's justification should be clearer. Q1.10 is correctly graded."
+      },
+      {
+        "question": "Q3",
+        "identified_errors": [
+          {
+            "sub_question": "Q3.1",
+            "description": "The student was correctly awarded full marks for including 'improvement', which matches the accepted concept."
+          },
+          {
+            "sub_question": "Q3.2",
+            "description": "The student was correctly awarded full marks for 'C language', which matches the accepted term 'C'."
+          },
+          {
+            "sub_question": "Q3.3",
+            "description": "The student was correctly awarded full marks for 'DATA', which matches the accepted term 'data'."
+          },
+          {
+            "sub_question": "Q3.4",
+            "description": "The student's answer 'HTML' does not match any accepted terms such as 'Applet' or 'Applets'. The awarded score of 0 is appropriate."
+          },
+          {
+            "sub_question": "Q3.5",
+            "description": "The student's answer 'JADP' does not match any accepted terms such as 'Container' or 'Frame'. The awarded score of 0 is appropriate."
+          },
+          {
+            "sub_question": "Q3.6",
+            "description": "The student's answer 'mobile' does not match the accepted term 'Controller'. The awarded score of 0 is appropriate."
+          },
+          {
+            "sub_question": "Q3.7",
+            "description": "The student's answer 'swing' does not match any accepted terms such as 'JDBC' or 'Java Database Connectivity'. The awarded score of 0 is appropriate."
+          }
+        ],
+        "summary": "Q3.1, Q3.2, and Q3.3 are correctly graded with full marks. Q3.4, Q3.5, Q3.6, and Q3.7 are correctly graded with 0 marks as the answers do not match accepted terms."
+      }
+    ]
+  },
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q1",
+        "identified_errors": [
+          {
+            "sub_question": "Q1.4",
+            "description": "The student mentioned 'JVE' which is likely a typo for 'JVM'. Given the rubric's leniency towards OCR noise, full credit should be awarded as the student also mentioned 'Java Virtual Environment' and 'Byte compiler' as components."
+          },
+          {
+            "sub_question": "Q1.5",
+            "description": "The student's explanation of inheritance was incorrect, but the explanation of polymorphism was correct. The rubric allows for 2 points if one of the two is correct, which was correctly applied."
+          },
+          {
+            "sub_question": "Q1.6",
+            "description": "The student's answer did not convey the concept of encapsulation as binding code and data together. The score of 0 is justified."
+          },
+          {
+            "sub_question": "Q1.8",
+            "description": "The student's answer was unclear but could be interpreted as an attempt to describe exception handling. The rubric allows for partial credit for mentioning exceptions, which was correctly applied."
+          },
+          {
+            "sub_question": "Q1.10",
+            "description": "The student's answer did not mention AWT or Abstract Window Toolkit, which was required for full marks. The score of 0 is justified."
+          }
+        ],
+        "summary": "Q1.4 requires a regrade due to leniency towards OCR noise. The student should receive full marks for mentioning 'Java Virtual Environment' and 'Byte compiler'."
+      }
+    ]
+  },
+  {
+    "decision": "<NO_REGRADE>",
+    "audits": []
+  }
+]

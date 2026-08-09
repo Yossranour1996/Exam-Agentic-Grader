@@ -1,0 +1,86 @@
+STUDENT ANSWERS:
+
+Question: Q1
+Sub-Question: Q1.1
+Answer: Java is not restricted to a specific system architecture
+
+Sub-Question: Q1.2
+Answer: Because it create the need for programs that can be executed in different operating systems and system architectures
+
+Sub-Question: Q1.3
+Answer: POP use procedure code to operate on the data OOP use object and classes to Encapsulate Code and data
+
+Sub-Question: Q1.4
+Answer: JVM
+
+Sub-Question: Q1.5
+Answer: inheritance is an operation that let you creat classes and interfaces based on existing one and polymorphism is a feature that allows interface to be used in general class actions
+
+Sub-Question: Q1.6
+Answer: it is a mechanism that bind the code and the data it's manipulate
+
+Sub-Question: Q1.7
+Answer: abstract classes and interfaces
+
+Sub-Question: Q1.8
+Answer: 1- finish its task 2- terminated due an unusual event 3- dead or no longer available
+
+Sub-Question: Q1.9
+Answer: System.in , System.out , System.err
+
+Sub-Question: Q1.10
+Answer: JDBC
+
+
+Question: Q2
+Sub-Question: Q2.1
+Answer: true
+
+Sub-Question: Q2.2
+Answer: False => it is not possible For an interface to implement another interFace properties
+
+Sub-Question: Q2.3
+Answer: True
+
+Sub-Question: Q2.4
+Answer: False => runtime polymorphism could be achieved by method overriding
+
+Sub-Question: Q2.5
+Answer: true
+
+Sub-Question: Q2.6
+Answer: True
+
+Sub-Question: Q2.7
+Answer: True
+
+
+Question: Q3
+Sub-Question: Q3.1
+Answer: adapt changing envalironment and uses
+
+Sub-Question: Q3.2
+Answer: C
+
+Sub-Question: Q3.3
+Answer: Data
+
+Sub-Question: Q3.4
+Answer: applet
+
+Sub-Question: Q3.5
+Answer: Frame
+
+Sub-Question: Q3.6
+Answer: Controle
+
+Sub-Question: Q3.7
+Answer: JDBC
+
+
+Question: Q4
+Sub-Question: Q4.1
+Answer: seats [i] + " you will take seat" + i
+
+Sub-Question: Q4.2
+Answer: doubl numOFVotes = total Votes + 200 ; Calculate Votes

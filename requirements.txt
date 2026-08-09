@@ -1,6 +1,25 @@
-opencv-python
-numpy
+# Agent orchestration and model providers
+langgraph
+langchain
+langchain-core
+langchain-openai
+langchain-community
+langchain-text-splitters
+langchain-chroma
+pydantic
+
+# Document and image processing
 pdf2image
 pillow
-scikit-image
-tqdm
+opencv-python
+pypdf
+
+# Optional OCR backends
+google-genai
+torch
+transformers
+
+# Configuration and exports
+python-dotenv
+openpyxl
+pyyaml

@@ -1,0 +1,2 @@
+B Student[i] + "you will take seat "+(1)
+* another Code

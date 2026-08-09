@@ -1,0 +1,23 @@
+1-1 :
+we mean that Java is not restrrited to a specific
+architecture.
+1-2 Java introduces integrated multi threading and it allows
+for writing simplified programs to access of internal (automatically), Also
+Java came with an applet which is a small program that
+can be transmitted over the Internet exceented by a compatible
+Java Runtime system in web browser, it extend dynamically the
+functionality of web browser, Servlet is also a program that extend
+→ functionality of web server.
+3 OOP is Object oriented programming that has classes
+and objects, the data and code are encapsulated together
+and act on code while POP which is procedure [UNK]
+Oriented programming which consist of series of instruction
+(code) acting on data, the functions are called by others.
+→ code
+→ data
+OOP
+code
+data
+POP
+OOP code & data tightly
+POP code & data are encapsulated.

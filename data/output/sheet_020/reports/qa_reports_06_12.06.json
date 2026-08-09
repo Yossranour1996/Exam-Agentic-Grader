@@ -1,0 +1,56 @@
+[
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q1",
+        "identified_errors": [
+          {
+            "sub_question": "Q1.6",
+            "description": "The student's answer 'hiding data and codes to not be achieved by external code of interface' suggests encapsulation, which is conceptually similar to binding code and data together. The grader should have awarded 3 points as per the rubric's leniency for semantic equivalence."
+          }
+        ],
+        "summary": "Q1.6 requires a regrade as the student's answer aligns with the concept of encapsulation, which should be awarded full marks according to the rubric."
+      },
+      {
+        "question": "Q3",
+        "identified_errors": [
+          {
+            "sub_question": "Q3.1",
+            "description": "The rubric states that Q3.1 should always receive full marks, even if the answer is blank. The grader correctly awarded full marks, but the justification should reflect the rubric's unconditional full marks policy."
+          }
+        ],
+        "summary": "Q3.1's justification should reflect the rubric's policy of always awarding full marks, regardless of the answer."
+      }
+    ]
+  },
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q1",
+        "identified_errors": [
+          {
+            "sub_question": "Q1.6",
+            "description": "The student's answer aligns with the concept of encapsulation, which is semantically equivalent to the expected answer. The Grader's justification is correct, but the initial deduction was unnecessary."
+          }
+        ],
+        "summary": "The arithmetic validation failed as the sum of sub-scores (73) does not equal the total awarded score (76). Additionally, Q1.6 was initially marked incorrectly but later corrected by the Grader."
+      },
+      {
+        "question": "Q3",
+        "identified_errors": [
+          {
+            "sub_question": "Q3.3",
+            "description": "The Grader awarded 0 points for the answer 'error', which does not match the accepted term 'data'. This is correct according to the rubric."
+          }
+        ],
+        "summary": "The arithmetic validation failed as the sum of sub-scores (73) does not equal the total awarded score (76). No issues found with Q3.3 grading."
+      }
+    ]
+  },
+  {
+    "decision": "<NO_REGRADE>",
+    "audits": []
+  }
+]

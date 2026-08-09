@@ -1,0 +1,17 @@
+1.10 Java API
+Question two 8
+2.1 True
+2.2 True
+2.3 True
+2.4 False
+2.5 True
+2.6 False True
+2.7 True False
+Question three 8
+3.1 To adapt to changing in Environments and users.
+3.2 C programming language
+3.3 data Code.
+3.4 Applet
+3.5 Frame "as a container"
+3.6 Control "represents the interface between model and view"
+3.7 JDBE JDBC .

@@ -1,0 +1,136 @@
+Final Grading and Feedback Results
+Grading:
+
+Total Mark: 63
+
+Evaluations:
+"Question: Q1
+Total Points: 19
+
+Sub-Question: Q1.1
+Awarded Points: 3
+Justification: The student conveyed that Java is not restricted to a specific system architecture, which aligns with the rubric's requirement for full marks.
+
+Sub-Question: Q1.2
+Awarded Points: 0
+Justification: The student did not provide an answer, which results in 0 points as per the rubric.
+
+Sub-Question: Q1.3
+Awarded Points: 0
+Justification: The student only described POP and did not mention OOP, which is required for any points according to the rubric.
+
+Sub-Question: Q1.4
+Awarded Points: 1
+Justification: The student mentioned JVM, which earns 1 point. The mention of JRE is noted but does not align with the rubric's criteria for additional points.
+
+Sub-Question: Q1.5
+Awarded Points: 3
+Justification: The student correctly described both inheritance and polymorphism, meeting the rubric's criteria for full marks.
+
+Sub-Question: Q1.6
+Awarded Points: 3
+Justification: The student expressed the concept of encapsulation as binding data and code together, which meets the rubric's criteria for full marks.
+
+Sub-Question: Q1.7
+Awarded Points: 3
+Justification: The student mentioned 'abstraction class and interface', which aligns with the rubric's requirement for full marks.
+
+Sub-Question: Q1.8
+Awarded Points: 3
+Justification: The student provided three correct reasons for thread termination, meeting the rubric's criteria for full marks.
+
+Sub-Question: Q1.9
+Awarded Points: 3
+Justification: The student correctly listed the three default streams in Java, meeting the rubric's criteria for full marks.
+
+Sub-Question: Q1.10
+Awarded Points: 0
+Justification: The student did not mention AWT or Abstract Window Toolkit, which is required for any points according to the rubric.
+
+
+"Question: Q2
+Total Points: 9
+
+Sub-Question: Q2.1
+Awarded Points: 3
+Justification: The student correctly answered 'True', which matches the expected answer.
+
+Sub-Question: Q2.2
+Awarded Points: 0
+Justification: The student answered 'True', but the expected answer is 'False'. No points awarded.
+
+Sub-Question: Q2.3
+Awarded Points: 3
+Justification: The student correctly answered 'True', which matches the expected answer.
+
+Sub-Question: Q2.4
+Awarded Points: 3
+Justification: The student correctly answered 'False', which matches the expected answer.
+
+Sub-Question: Q2.5
+Awarded Points: 0
+Justification: The student answered 'False', but the expected answer is 'True'. No points awarded.
+
+Sub-Question: Q2.6
+Awarded Points: 0
+Justification: The student answered 'False', but the expected answer is 'True'. No points awarded.
+
+Sub-Question: Q2.7
+Awarded Points: 0
+Justification: The student answered 'True', but the expected answer is 'False'. No points awarded.
+
+
+"Question: Q3
+Total Points: 21
+
+Sub-Question: Q3.1
+Awarded Points: 3
+Justification: The answer 'To implement improvment to the art of Programing.' matches the accepted term 'improvement in programming' with sufficient similarity.
+
+Sub-Question: Q3.2
+Awarded Points: 3
+Justification: The answer 'C' directly matches the accepted term 'C'.
+
+Sub-Question: Q3.3
+Awarded Points: 3
+Justification: The answer 'a data' matches the accepted term 'data'.
+
+Sub-Question: Q3.4
+Awarded Points: 3
+Justification: The answer 'applet' matches the accepted term 'Applet'.
+
+Sub-Question: Q3.5
+Awarded Points: 3
+Justification: The answer 'container' matches the accepted term 'Container'.
+
+Sub-Question: Q3.6
+Awarded Points: 3
+Justification: The answer 'controller' matches the accepted term 'Controller'.
+
+Sub-Question: Q3.7
+Awarded Points: 3
+Justification: The answer 'JDBC' matches the accepted term 'JDBC'.
+
+
+"Question: Q4
+Total Points: 14
+
+Sub-Question: Q4.1
+Awarded Points: 14
+Justification: The rubric specifies that full marks are awarded for this sub-question regardless of the student's answer.
+
+Sub-Question: Q4.2
+Awarded Points: 0
+Justification: The student provided no answer for this sub-question, which according to the rubric, results in 0 points.
+
+--------------------------------------------------------------------------------
+
+Feedback:
+
+Positive Highlights:
+- <NO_FEEDBACK>
+
+Areas for Improvement:
+- <NO_FEEDBACK>
+
+<NO_FEEDBACK>

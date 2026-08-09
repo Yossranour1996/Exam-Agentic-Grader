@@ -1,0 +1,42 @@
+[
+  {
+    "page": "page_01.png",
+    "text": "٨/١١/٢٢\nالهندسة\nالكهربائية والإلكترونيه\nJava programming\nمنى عبدالغني علي يوسف\n١٤٩١٥٣"
+  },
+  {
+    "page": "page_02.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_03.png",
+    "text": "1.1 It means that Java isn't specified for specific machine\nor Operating system architecture.\n1.2 The complexity increased so Java was made in labs and\nJava is ene enhancement in programming\nlanguages.\n1.3 - While POP have a procedure to deal with data \"Code\"\nOOP uses classes and objects to encapsulate code and\nits data.\n1.4 Java virtual machine JVM\nexecuting programmes \"java\"\nand compiling ones \"javac\"\n1.5 inheritance: making new classes based on already existing\nones but & polymorphism: mechanism of having many\nforms of each class.\n1.6 Encapsulation is the mechanism of binding up data\nand its code together.\n1.7 Interface, abstracted classes\n1.8 (i) the program accomplished its goal.\n(ii) Oet Unusual events occure\n(iii) The program is dead or no longer available.\n1.9 (i) System.in\n(ii) System.out\n(iii) System.err"
+  },
+  {
+    "page": "page_04.png",
+    "text": "1.10 Java API\nQuestion two 8\n2.1 True\n2.2 True\n2.3 True\n2.4 False\n2.5 True\n2.6 False True\n2.7 True False\nQuestion three 8\n3.1 To adapt to changing in Environments and users.\n3.2 C programming language\n3.3 data Code.\n3.4 Applet\n3.5 Frame \"as a container\"\n3.6 Control \"represents the interface between model and view\"\n3.7 JDBE JDBC ."
+  },
+  {
+    "page": "page_05.png",
+    "text": "4.1 set\nSeats [i] + \"/\" +\nSeats [i] + \"/\" , you will take seat\" + i\nTo get outputs as desiered.\n4.2 BreakLn\nto go to the next class."
+  },
+  {
+    "page": "page_06.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_07.png",
+    "text": ""
+  },
+  {
+    "page": "page_08.png",
+    "text": ""
+  },
+  {
+    "page": "page_09.png",
+    "text": ""
+  },
+  {
+    "page": "page_10.png",
+    "text": ""
+  }
+]

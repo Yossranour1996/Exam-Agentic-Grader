@@ -1,0 +1,42 @@
+[
+  {
+    "page": "page_01.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_02.png",
+    "text": "1.1 Java is not tied to specific machine or operating\nSystem architecture.\n1.2 They help catapult Java to the forefront of programming, and\nThey will soon reach critical mass.\n1.3 POP: Process oriented model can be thought as code acting on\ndata & its major emphasize is on developing Procedures (Function)\nrather than data & can divide program into smaller part & each\npart consist of sequence of procedures & function. While\nOOP: object oriented programming can be thought as\ndata controlling access to code, it uses class & methods\nto manipulate data & code, it can divide problems into smaller\nentities called \"object\" & build function and data around\nthese objects.\n1.4 JRE: is Java runtime environment to only run (execute)\nnot develop the Java application Program.\n1.5 Inheritance is a process in which one object acquire the\nproperties of other objects (creating new class based on already\nexisting one. Subclass reuse all method & attributes of super\nclass. While polymorphism is a feature that allow one interface\nto be used for general class of action, and specific action is\ndetermined based on nature of the situation.\n1.6 encapsulation mean bind together data & code it manipulate\n& keep both safe from outside interference & misuse."
+  },
+  {
+    "page": "page_03.png",
+    "text": "1.7 achieve abstraction by : abstract classes & Interface\n(we can achieve 100% abstraction using interface-\n1.8 reasons are : normally finished the task . 2- Terminated due\nto un usual event . 3- Dead & no longer available.\n1.9 1-System.out 2-System.in 3.system.err\n1.10 model view controller AWT"
+  },
+  {
+    "page": "page_04.png",
+    "text": "2-1 True\n2-2 True\n2-3 True\n2-4 False\nRun time polymer phism could be acheived by method overriding\n2-5 False\nabstract classes only could have abstract methods within them\n2-6 True\n2-7 True"
+  },
+  {
+    "page": "page_05.png",
+    "text": "3-1 adapt to changing environment and uses is one of reasons.\n3-2 C is an example of a POP language.\n3-3 POP does not allow data\n3-4 a container is a component which\n3-4 Applet are small programs\n3-5 a From container is a component which\n3-6 The model view controlled architecture.\n3-7 JDBC is a Java API"
+  },
+  {
+    "page": "page_06.png",
+    "text": "4.1\nCode = (Students E I ] + \"You will take seat\" + (i))\n4.2\nCode =\nCalculate Votes (total votes);"
+  },
+  {
+    "page": "page_07.png",
+    "text": ""
+  },
+  {
+    "page": "page_08.png",
+    "text": ""
+  },
+  {
+    "page": "page_09.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_10.png",
+    "text": ""
+  }
+]

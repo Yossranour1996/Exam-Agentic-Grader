@@ -1,0 +1,117 @@
+STUDENT ANSWERS:
+
+Question: Q1
+Sub-Question: Q1.1
+Answer: It means that Java does not reject working on specific architectural devices. So, it can work in any architectural environment or device.
+
+Sub-Question: Q1.2
+Answer: It derived to the innovation of more programming languages like C++ which was invented after C with more features. So the programming revolution was fixing and meeting some of the world wide web and internet needs.
+
+Sub-Question: Q1.3
+Answer: POP has procedures that operates on data to achieve the program goal. While OOP uses classes and objects that encapsulate code and data.
+
+Sub-Question: Q1.4
+Answer: JRE is the Java run time environment which offers and environment to run the program. It contains the JVM (Java Virtual machine which works as a runtime engine to run Java applications and also known as an interpreter.
+
+Sub-Question: Q1.5
+Answer: Inheritance is the Mechanism that allows a class to acquire properties from of another class that already existed. Polymorphism is the mechanism that allows one interface to work for general class of actions.
+
+Sub-Question: Q1.6
+Answer: Encapsulation is the mechanism that binds both code and data it manipulates and keeps them safe and secure.
+
+Sub-Question: Q1.7
+Answer: Two ways to achieve abstractions:
+① Class abstract
+② Interfaces abstract.
+
+Sub-Question: Q1.8
+Answer: A thread could be terminated due:
+① IF it completedits task completely.
+② Stopped because of unusual events.
+③ lost Turned off and stopped
+
+Sub-Question: Q1.9
+Answer: Three default streams in Java:
+① System.i
+② System.o
+③ System.err
+
+Sub-Question: Q1.10
+Answer: JDBC to connect and interact with database.
+
+
+Question: Q2
+Sub-Question: Q2.1
+Answer: True
+
+Sub-Question: Q2.2
+Answer: True
+
+Sub-Question: Q2.3
+Answer: True
+
+Sub-Question: Q2.4
+Answer: False
+Runtime polymorphism could not be achieved by method overloading
+
+Sub-Question: Q2.5
+Answer: False
+Abstracts could not have non abstracts method within them
+
+Sub-Question: Q2.6
+Answer: True
+
+Sub-Question: Q2.7
+Answer: True
+
+
+Question: Q3
+Sub-Question: Q3.1
+Answer: Improvement
+
+Sub-Question: Q3.2
+Answer: C programming language.
+
+Sub-Question: Q3.3
+Answer: data.
+
+Sub-Question: Q3.4
+Answer: Applet
+
+Sub-Question: Q3.5
+Answer: Container
+
+Sub-Question: Q3.6
+Answer: Controller
+
+Sub-Question: Q3.7
+Answer: JDBC
+
+
+Question: Q4
+Sub-Question: Q4.1
+Answer: Student [i] + "You will take seat" + (i)
+According to the out put:-
+Each student will take a seat with an index equals to the index
+written above.
+Student M was in index O and took seat O
+Student C was in index 1 and took seat 1
+Student G was in index 2 and took seat 2
+Student P was in index 3 and took seat 3
+Student D was in index 4 and took seat 4
+.. The missing is:
+Student [i] + "you will take seat" + (i)
+
+Sub-Question: Q4.2
+Answer: The code above contains 760 votes from people.
+The code will print the statement:-
+① Statement "If Java was easy, they would call it python!"
+② The number of people agreeing with this statement
+It will Calculate the number of people agreeing by multiplying
+the total number of them by 15%.
+= 760 x 0.15 = 114
+∴ will print: "The number of people who agree with the
+Statement is 114.
+The missing code is:
+private String totalVotes
+private String totalVotes

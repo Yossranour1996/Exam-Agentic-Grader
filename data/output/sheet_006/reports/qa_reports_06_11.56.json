@@ -1,0 +1,54 @@
+[
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q1",
+        "identified_errors": [
+          {
+            "sub_question": "Q1.4",
+            "description": "The student mentioned 'JVM' (misspelled as 'JVN') and should have been awarded 1 point for 'libraries' as 'Compiler' is not part of JRE components. However, the rubric allows for 1 point for 'supporting files/components', which could be interpreted as 'Compiler'. The student should receive 2 points."
+          },
+          {
+            "sub_question": "Q1.7",
+            "description": "The student mentioned 'abstraction' and 'interface', which should be considered as mentioning 'abstract classes' and 'interfaces'. The student should receive 3 points."
+          }
+        ],
+        "summary": "Errors were found in Q1.4 and Q1.7. In Q1.4, the student should receive 2 points for mentioning 'JVM' and 'supporting files/components'. In Q1.7, the student should receive 3 points for mentioning 'abstraction' and 'interface'."
+      },
+      {
+        "question": "Q4",
+        "identified_errors": [
+          {
+            "sub_question": "Q4.2",
+            "description": "The rubric states that mentioning both 'calculateVotes' and 'totalVotes' should award 14 points, regardless of capitalization or spacing errors. The student mentioned both elements and should receive 14 points."
+          }
+        ],
+        "summary": "In Q4.2, the student mentioned both 'calculateVotes' and 'totalVotes', which should award full marks (14 points) according to the rubric, despite capitalization and spacing errors."
+      }
+    ]
+  },
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q2",
+        "identified_errors": [
+          {
+            "sub_question": "Q2.5",
+            "description": "The student answered 'False. Could have abstract methods within them.' The rubric requires the answer to be 'True'. The justification provided by the grader is correct, but the student's answer indicates a misunderstanding that should be addressed."
+          },
+          {
+            "sub_question": "Q2.7",
+            "description": "The student answered 'True', but the expected answer is 'False'. The justification provided by the grader is correct, but the student's answer indicates a misunderstanding that should be addressed."
+          }
+        ],
+        "summary": "The grading for Q2.5 and Q2.7 is correct according to the rubric, but the student's answers indicate a misunderstanding that should be addressed. No arithmetic errors were found."
+      }
+    ]
+  },
+  {
+    "decision": "<NO_REGRADE>",
+    "audits": []
+  }
+]

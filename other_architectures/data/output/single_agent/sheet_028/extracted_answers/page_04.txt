@@ -1,0 +1,15 @@
+"Pop" -> Procedure Oriented Programming is working
+with "Code" acts on Data principle "
+"operate"
+4. JRE -> Java Run-Time Environment Ps
+including "JVM" Java Virtual Machine.
+beside other packages and libraries.
+(A) Inheritance -> is when a new class inherit new
+features "attributes + methods" from an existing class,
+or it's when an object acquires new features from
+a new existing object.
+(B) Polymorphism -> Comes from the Greek words
+"Poly" -> many + "morph" -> form = many forms
+It's when a message could be delivered in more than
+one forms.
+PS: Both of them are from "OOP" main features.

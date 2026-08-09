@@ -1,0 +1,42 @@
+[
+  {
+    "page": "page_01.png",
+    "text": ""
+  },
+  {
+    "page": "page_02.png",
+    "text": "(1.1) G.V : It means Java is not restricted to a specific architecture\nsystem.\n(1.2) The people changed the thoughts that By innovating applet\nwhich is a kind of Java programs designed to be transmitted over the\ninternet and executed by Java compatible web browser, and serverlet\nwhich is a small programs executed by web server which changed the & thought about content\n(1.3) POP has procedure (code) on data to achieve program goal, while\nOOP & uses classes and objects to encapsulates both code and data.\n(1.4) JRE : Java run environment is an environment to run Java programs\nand inside it is the Java virtual machine (JVM) which acts as run time engine\nto run Java Programs into the machine.\n(1.5) Inheritance is creating new classes based on the existing ones, the [UNK]\nclass that inherited from other class can reuse the methods and fields\nof that class, while polymorphism is a feature that allows interfaces\nto be used for a general class of actions, the specific action is determined\nby the exact nature of situation.\n(1.6) Encapsulation is a mechanism that binds together Code and data\nto be manipulated and keeps them safe from outside interference and\nmisuse, the basis of encapsulation is classes, and it protectivity\nwrapper to prevent data and code.\n(1.7) Abstract classes and interfaces\n(1.8) If thread: (1) Finished it's task normally.\n(2) Terminated because of unusual events.\n(3) Dead or no longer available."
+  },
+  {
+    "page": "page_03.png",
+    "text": "1.9 System.in, System.out, System.err\n1.10 JAP I swing was built on top of Java Data Base connectivity (JDBC) to connect and interact with databases.\n2.1 True\n2.2 True\n2.3 True\n2.4 False -> Run time polymorphism could be achieved by method overriding and compile time could be achieved by method overloading.\n2.5 False True. Abstract class has constructors, while interface doesn't. True\n2.6 True\n2.7 True"
+  },
+  {
+    "page": "page_04.png",
+    "text": "3-1) To adapt to changing environments and uses -\nor to implement improvements in the art of programming-\n3-2) C\n3-3) encapsulated data\n3-4) Applet\n3-5) Frame\n3-6) Controller\n3-7) JDBC\n(Q4)\n4-1 Students[i]+\", \"You will take seat.\" + (Students.length-(i))\nor Students[i]+\", \"You will take seat.\" + (i-1)\n(4-2) If number of votes do agree with the statement = 15% * 760\nSystem.out.println(\"The number of people who agree with this statement is 114\")\nor:\nint num of votes = 15% * 760\nSystem.out.println(\"The number of people who agree with this statement is 114\")"
+  },
+  {
+    "page": "page_05.png",
+    "text": ""
+  },
+  {
+    "page": "page_06.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_07.png",
+    "text": ""
+  },
+  {
+    "page": "page_08.png",
+    "text": ""
+  },
+  {
+    "page": "page_09.png",
+    "text": ""
+  },
+  {
+    "page": "page_10.png",
+    "text": ""
+  }
+]

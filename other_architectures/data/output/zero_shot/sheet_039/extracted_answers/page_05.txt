@@ -1,0 +1,17 @@
+action of the method regardless of the specific object calls it.
+1.6 :-
+Wrapping up code and data into a single
+entity.
+1.7
+1- Abstract classes 2- Interfaces.
+1.8
+1- Finishes their task and terminate normally
+2- It is dead and becomes not available.
+3- It terminates before finishing task due to
+unusual events.
+1.9 :-
+1- Standard Input Stream [Sys System.in]
+2- Standard Output Stream [System.out]
+3- Standard Error Stream [System.err]
+1.10 :-
+JFC API

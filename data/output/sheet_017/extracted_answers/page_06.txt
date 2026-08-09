@@ -1,0 +1,8 @@
+3.1 - To adapt to changing environments and
+uses.
+3.2 - C
+3.3 - Data ec
+3.4 - Applet
+3.5 - Frame
+3.6 - collecter.
+3.7 - JDBC

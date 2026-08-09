@@ -1,0 +1,128 @@
+{
+  "questions": [
+    {
+      "question": "Q1",
+      "sub_questions": [
+        {
+          "sub_question": "Q1.1",
+          "answer": "It means that Java is not represented to a specific system"
+        },
+        {
+          "sub_question": "Q1.2",
+          "answer": "It participated by holding the programming languages inside the network. and created Java"
+        },
+        {
+          "sub_question": "Q1.3",
+          "answer": "POP uses the data operate (codes) to achieve program goal, OOP interacts with the classes and encapsulate it with code and data"
+        },
+        {
+          "sub_question": "Q1.4",
+          "answer": "develop environment run [UNK] execute the code"
+        },
+        {
+          "sub_question": "Q1.5",
+          "answer": "inheritance means create class over existing one, polymorphism means interacting only once with the class"
+        },
+        {
+          "sub_question": "Q1.6",
+          "answer": "Expect encapsulation is to ban between code and data, also manipulate them and protect it and keep it safe"
+        },
+        {
+          "sub_question": "Q1.7",
+          "answer": "abstract classes and interface"
+        },
+        {
+          "sub_question": "Q1.8",
+          "answer": "do-perform normally terminated due unusual events dead and no longer available"
+        },
+        {
+          "sub_question": "Q1.9",
+          "answer": "System.in System.out System.err"
+        },
+        {
+          "sub_question": "Q1.10",
+          "answer": "built on multilayer system architecture JDBC JPBC"
+        }
+      ]
+    },
+    {
+      "question": "Q2",
+      "sub_questions": [
+        {
+          "sub_question": "Q2.1",
+          "answer": "TRUE"
+        },
+        {
+          "sub_question": "Q2.2",
+          "answer": "FALSE (Possible)"
+        },
+        {
+          "sub_question": "Q2.3",
+          "answer": "TRUE"
+        },
+        {
+          "sub_question": "Q2.4",
+          "answer": "FALSE"
+        },
+        {
+          "sub_question": "Q2.5",
+          "answer": "TRUE"
+        },
+        {
+          "sub_question": "Q2.6",
+          "answer": "TRUE"
+        },
+        {
+          "sub_question": "Q2.7",
+          "answer": "FALSE"
+        }
+      ]
+    },
+    {
+      "question": "Q3",
+      "sub_questions": [
+        {
+          "sub_question": "Q3.1",
+          "answer": "need of Solving Problems"
+        },
+        {
+          "sub_question": "Q3.2",
+          "answer": "C"
+        },
+        {
+          "sub_question": "Q3.3",
+          "answer": "data"
+        },
+        {
+          "sub_question": "Q3.4",
+          "answer": "Abstraction"
+        },
+        {
+          "sub_question": "Q3.5",
+          "answer": "container"
+        },
+        {
+          "sub_question": "Q3.6",
+          "answer": "controller"
+        },
+        {
+          "sub_question": "Q3.7",
+          "answer": "JDBC"
+        }
+      ]
+    },
+    {
+      "question": "Q4",
+      "sub_questions": [
+        {
+          "sub_question": "Q4.1",
+          "answer": "Student[i]+\", you will take a seat\" + Cstudent.length-i-1] Student[i]+\" you will take a Seat\" +(4-i)"
+        },
+        {
+          "sub_question": "Q4.2",
+          "answer": "[NO_ANSWER]"
+        }
+      ]
+    }
+  ]
+}

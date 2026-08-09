@@ -1,0 +1,24 @@
+1-3 OOP is encapsulate code and data togther
+pop is procedure the code over data
+1-5 Inheritance is the feature that allows a class
+to take any other class field attributes objects
+polymorphism is the feature that allows to reuse
+the particular code in different data type.
+without any modifing.
+1-6 Encapsulation is to compain data and code
+togthe to keep them away from interterence and
+misuses.
+1-8 ① done its work
+② Unsual event
+③ dead or not found
+1-9 ① System.in
+② System.out
+③ System.err
+1-1 It doesn't need any external archdeeture
+System.
+1-2 It needs to be used in differnt devices with
+different characteristics, so there was a deep
+need to find a language that is secure and
+could be use in web in differnt devices.
+1-7 ① Class Abstraction classes
+② Abstraction interfaces

@@ -1,0 +1,42 @@
+[
+  {
+    "page": "page_01.png",
+    "text": ""
+  },
+  {
+    "page": "page_02.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_03.png",
+    "text": "1. it means that java is not restricted to any\nspecific system architecture, and that it can\nrun on almost all systems with its bytecode.\n2. when the world wide web came to view, many\nnew languages came such as Java, which\nhad the revolutionary applets, temm and service,\nthat can run java applications on browser.\n3. POP works on procedural code,\nthe data is it focuses on code by making many\nfunctions and using them to work on data. but in\nOOP, the focus was at grouping all the data\ntogether in form of objects and interfaces so\nits data working on code.\n4. Encapsulation can mean wrapping the data\nso that only the permissioned objects can have\naccess to them, and that's by declaring it private.\n5. polymorphism means using the same method for\ndifferent data types (overloading) and its works on methods\nand parameters, while inheritance means\nmaking a new class from an existing one that\ninherit all the methods, so inheritance works on\nclasses and interfaces.\n6. it consists of java development environment, and\njava virtual machine to interpret the\nbytecode, while the environment is for setting and\nrunning the code."
+  },
+  {
+    "page": "page_04.png",
+    "text": "1.5 inheritance means making new class from\nan existing class, so it works on classes and interfaces\nand the inherited class can use methods of the other class.\nwhile polymorphism means methods having many\nforms such as overloading or overriding, so polymorphism\nworks on methods.\n1.6 encapsulation can mean wrapping data together\nso that only commissioned classes or packages can have\naccess to it and that's by declaring attributes private.\n1.7 it can be made by declaring attributes private\nor classes, or making interface so its methods and\nattributes by default.\n1.8 A when it has finished its assigned task.\nB unknown behaviours.\nC it reached dead end.\n1.9 A system.in (input stream)\nB system.out (output stream)\nC system.err (error stream)\n1.10 it was built on top of AWTC application window\n(toolkit)"
+  },
+  {
+    "page": "page_05.png",
+    "text": "21. true\n22. False - interfaces can inherit from each others.\n23. true\n24. False - it can be achieved by overriding.\n25. true.\n26. true.\n27. False - there are many drivens for all data base sources."
+  },
+  {
+    "page": "page_06.png",
+    "text": "3.1- the need to improve in art of programming (like WWE or internet)\n3.2- c\n3.3- data\n3.4- applets\n3.5- Frame\n3.6- Web (widgets)\n3.7- JDBC (java database connectivity)"
+  },
+  {
+    "page": "page_07.png",
+    "text": "4.1 CODE = seats[i] + \" you will take seat \" + i\nCODE = seats[i] + \" you will take seat \" + i\nexplanation: Consist\nwe can observe the series that the letters are been\nprinted for each line as the letters from empty string\nseats printed in ascending index order (starting from 0)\ncompensate letters\nsecond: we read the string to string (you will take seats)\nand concatenate all the seats with (i) which is\nthe index of the letters\n4.2\nCODE = calculateVotes(totalVotes);\nexplanation:-\nwe have an already defined Function (calculateVotes) and\nwe have a parameter total Votes with a value 769.50\nwe can pass the function and get the parameter\nand call to it to get the final output viewed."
+  },
+  {
+    "page": "page_08.png",
+    "text": ""
+  },
+  {
+    "page": "page_09.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_10.png",
+    "text": ""
+  }
+]

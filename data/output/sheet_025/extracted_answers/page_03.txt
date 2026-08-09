@@ -1,0 +1,23 @@
+(1.1) we mean that Java isn't tied to a
+specific machine or operating system, but
+can work anywhere.
+(1.2) The world wide web made sharing of computer
+software over it a very easy task, hence a
+need for a language that could work
+equally well in the variety of platforms involved.
+This marked the birth of the
+Java programming language.
+(1.3) Object oriented programming (OOP) is
+a paradigm at which data is the central
+focus. It works on the principle of encapsulation
+which groups data and code into blocks. While
+procedure oriented programming (POP) is where
+the code (procedure/process) comes first.
+Programs are broken up to parts that are
+executed via a sequence of functions, and
+data is usually available globally for use in
+procedures.
+(1.4) J.R.E. (Java Runtime Environment) is
+composed of the J.V.M. (Java Virtual Machine),
+standard libraries (e.g. rt.jar) and other files
+that help in execution of programs.

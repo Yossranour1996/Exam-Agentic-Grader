@@ -1,0 +1,16 @@
+# other_architectures/zero_shot/core/paths.yaml
+
+# Contains the paths for all the base directories used in the workflow
+
+base_directories:
+  base_dir: "data"
+  input_base: "data/input"
+  output_base: "data/output/zero_shot"
+
+inputs:
+  exams_dir: "data/input/exams"
+  criteria_dir: "data/input/rubrics"
+  sheets_dir: "data/input/answer_sheets"
+
+outputs:
+  exports_dir: "data/output/zero_shot/exports"

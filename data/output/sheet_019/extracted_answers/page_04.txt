@@ -1,0 +1,16 @@
+1- True
+2- False
+Corrections:
+It's possible
+It's not possible for an interface to implement another
+3- True
+4- False
+Correction:
+Could be achieved by method overriding.
+5- False
+Correction:
+Could not have
+6- True
+7- False
+Correction:
+more than one JDBC driver.

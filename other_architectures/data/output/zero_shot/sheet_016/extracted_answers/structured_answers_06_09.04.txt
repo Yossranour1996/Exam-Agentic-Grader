@@ -1,0 +1,86 @@
+STUDENT ANSWERS:
+
+Question: Q1
+Sub-Question: Q1.1
+Answer: Java program is not tied to a specific machine or operating system
+
+Sub-Question: Q1.2
+Answer: by providing access to critical mass Of Information
+
+Sub-Question: Q1.3
+Answer: In oop the major emphasis is on data whereas in pop the major emphasis is on the procedure "function"
+
+Sub-Question: Q1.4
+Answer: [NO_ANSWER]
+
+Sub-Question: Q1.5
+Answer: inheritance is the creation of new classes based on the existing ones & the new class can take the fields & methods of the parent class, whereas polymorphism is a feature that allows one Interface to be used in multiple classes or actions.
+
+Sub-Question: Q1.6
+Answer: Encapsulation A mechanism that binds together the code & data it manipulates & prevents it from being accessed by another Interface or mis use.
+
+Sub-Question: Q1.7
+Answer: through Interfaces or abstract classes
+
+Sub-Question: Q1.8
+Answer: 1. No action occurs 2. dead or no longer available 3. Due to unusual events
+
+Sub-Question: Q1.9
+Answer: 1. System.in 2. System.out 3 System.err
+
+Sub-Question: Q1.10
+Answer: Applet
+
+
+Question: Q2
+Sub-Question: Q2.1
+Answer: true
+
+Sub-Question: Q2.2
+Answer: true
+
+Sub-Question: Q2.3
+Answer: true
+
+Sub-Question: Q2.4
+Answer: False achieved by method overriding
+
+Sub-Question: Q2.5
+Answer: False have an abstract method with then
+
+Sub-Question: Q2.6
+Answer: true
+
+Sub-Question: Q2.7
+Answer: False two database drivers
+
+
+Question: Q3
+Sub-Question: Q3.1
+Answer: implement new refinements & improvements in the art of programming
+
+Sub-Question: Q3.2
+Answer: C
+
+Sub-Question: Q3.3
+Answer: The Data
+
+Sub-Question: Q3.4
+Answer: Applet
+
+Sub-Question: Q3.5
+Answer: Frame
+
+Sub-Question: Q3.6
+Answer: Controller
+
+Sub-Question: Q3.7
+Answer: JDBC (Java Database Connectivity)
+
+
+Question: Q4
+Sub-Question: Q4.1
+Answer: system.out.println (seats[i] + ", " + "You will take seat " + i); seats [i] Access The array elements through the index & i is the loop iterator which starts from zero & stop at 4". it will not include "5" the array length because of less than operator.
+
+Sub-Question: Q4.2
+Answer: calculateVotes (totalVotes) ; by Calling the "calculateVotes" function & passing the parameter "totalVotes".

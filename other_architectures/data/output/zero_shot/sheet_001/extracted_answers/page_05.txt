@@ -1,0 +1,27 @@
+Q3 + Q4
+Q.2
+① True it is possible to inherit properties
+② True False overrid overriding
+③ True have abstract methods only with them
+④ False
+⑤ False
+⑥ True
+⑦ True
+Q.3
+① to adapt change in environment and use.
+② C
+③ data
+④ Applets
+⑤ Container
+⑥ Controller
+⑦ JDBC
+Q.4 4.1 show (seats [i]," You will take seat "+ (i+1)). Code
+Exp the first part seats[i] call the elements of seat[i]
+according to index then the text you will take
+seat " then ? because count is from o to
+u same as the index.
+double
+4.2 CalculateVotes (totalVotes); Code
+explain = we call method calculateVotes to be executed
+for the total votes and then give out-put portions
+in form of integer, after the second statment.

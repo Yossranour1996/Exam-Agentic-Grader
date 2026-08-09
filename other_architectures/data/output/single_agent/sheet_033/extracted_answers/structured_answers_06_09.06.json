@@ -1,0 +1,128 @@
+{
+  "questions": [
+    {
+      "question": "Q1",
+      "sub_questions": [
+        {
+          "sub_question": "Q1.1",
+          "answer": "It means Java is not restricted to a specific architecture system."
+        },
+        {
+          "sub_question": "Q1.2",
+          "answer": "The people changed the thoughts that By innovating applet which is a kind of Java programs designed to be transmitted over the internet and executed by Java compatible web browser, and serverlet which is a small programs executed by web server which changed the & thought about content"
+        },
+        {
+          "sub_question": "Q1.3",
+          "answer": "POP has procedure (code) on data to achieve program goal, while OOP & uses classes and objects to encapsulates both code and data."
+        },
+        {
+          "sub_question": "Q1.4",
+          "answer": "JRE : Java run environment is an environment to run Java programs and inside it is the Java virtual machine (JVM) which acts as run time engine to run Java Programs into the machine."
+        },
+        {
+          "sub_question": "Q1.5",
+          "answer": "Inheritance is creating new classes based on the existing ones, the class that inherited from other class can reuse the methods and fields of that class, while polymorphism is a feature that allows interfaces to be used for a general class of actions, the specific action is determined by the exact nature of situation."
+        },
+        {
+          "sub_question": "Q1.6",
+          "answer": "Encapsulation is a mechanism that binds together Code and data to be manipulated and keeps them safe from outside interference and misuse, the basis of encapsulation is classes, and it protectivity wrapper to prevent data and code."
+        },
+        {
+          "sub_question": "Q1.7",
+          "answer": "Abstract classes and interfaces"
+        },
+        {
+          "sub_question": "Q1.8",
+          "answer": "If thread: (1) Finished it's task normally. (2) Terminated because of unusual events. (3) Dead or no longer available."
+        },
+        {
+          "sub_question": "Q1.9",
+          "answer": "System.in, System.out, System.err"
+        },
+        {
+          "sub_question": "Q1.10",
+          "answer": "JAP I swing was built on top of Java Data Base connectivity (JDBC) to connect and interact with databases."
+        }
+      ]
+    },
+    {
+      "question": "Q2",
+      "sub_questions": [
+        {
+          "sub_question": "Q2.1",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.2",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.3",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.4",
+          "answer": "False -> Run time polymorphism could be achieved by method overriding and compile time could be achieved by method overloading."
+        },
+        {
+          "sub_question": "Q2.5",
+          "answer": "False True. Abstract class has constructors, while interface doesn't. True"
+        },
+        {
+          "sub_question": "Q2.6",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.7",
+          "answer": "True"
+        }
+      ]
+    },
+    {
+      "question": "Q3",
+      "sub_questions": [
+        {
+          "sub_question": "Q3.1",
+          "answer": "To adapt to changing environments and uses - or to implement improvements in the art of programming-"
+        },
+        {
+          "sub_question": "Q3.2",
+          "answer": "C"
+        },
+        {
+          "sub_question": "Q3.3",
+          "answer": "encapsulated data"
+        },
+        {
+          "sub_question": "Q3.4",
+          "answer": "Applet"
+        },
+        {
+          "sub_question": "Q3.5",
+          "answer": "Frame"
+        },
+        {
+          "sub_question": "Q3.6",
+          "answer": "Controller"
+        },
+        {
+          "sub_question": "Q3.7",
+          "answer": "JDBC"
+        }
+      ]
+    },
+    {
+      "question": "Q4",
+      "sub_questions": [
+        {
+          "sub_question": "Q4.1",
+          "answer": "Students[i]+\", \"You will take seat.\" + (Students.length-(i)) or Students[i]+\", \"You will take seat.\" + (i-1)"
+        },
+        {
+          "sub_question": "Q4.2",
+          "answer": "If number of votes do agree with the statement = 15% * 760 System.out.println(\"The number of people who agree with this statement is 114\") or: int num of votes = 15% * 760 System.out.println(\"The number of people who agree with this statement is 114\")"
+        }
+      ]
+    }
+  ]
+}

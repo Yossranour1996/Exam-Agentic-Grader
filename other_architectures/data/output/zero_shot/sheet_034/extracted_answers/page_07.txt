@@ -1,0 +1,9 @@
+3.7 JDBE
+Q 40-
+box & seats
+X [UNK]
+#Pactenter Succees
+answer (4-2)
+double numOFVal[UNK] = int total Volteg
+Lx1
+& Seats [i] + "you will take seat" + i [UNK]

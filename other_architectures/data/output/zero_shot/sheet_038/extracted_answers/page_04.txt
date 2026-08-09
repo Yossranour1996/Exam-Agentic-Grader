@@ -1,0 +1,22 @@
+1-5 Inheritence is creating new classes
+from another exciting class, holds the
+Some methods and field of the main
+Class -
+Polymorphism -> "Many forms" Interference one
+It is a fucture on OOP for group
+Class of action, the action is determined
+depends on the natur of the need -
+1-6 Mechanise that binds together
+both Data and code manipulite it, for
+keep it safe from misuse and outside
+Interference -
+1-7 Abstraction by Class
+" Interface
+1.8
+① The tanth finished normally
+② Terminated for unusual events
+③ Dead or Stopped working
+1-9 - Streams - In
+- Streams - out
+- Streams - err
+1-10 JAVA AWT

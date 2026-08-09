@@ -1,0 +1,20 @@
+1.4 = what are component of JBE
+- JBE, Java Runtime environment
+consist of developement component and
+alse JVM
+JVM
+laibary somefiles
+controlling tools
+JRE
+JDK
+1.5 = inheritance is to create new
+class base on an existing one
+polymorphism poly mean more,
+morphsm meen formg
+inheritance is a data hiding
+• Implement information and instruction
+by delifing common featers to sub class
+polymorphism if is result of inheritanse
+after Sub class inherte the member of
+Super class It can be modified by adding
+anther (attribute, constructor)

@@ -1,21 +1,81 @@
 # src/app.py
+"""Application entry point that loads configuration and runs the grading workflow."""
+
 from __future__ import annotations
 
-from src.graph.workflow import build_extraction_graph
+import yaml
+from pathlib import Path
+from dotenv import load_dotenv
+
+from src.core.state import InputState, Context
+from src.graph.workflow import build_graph
+
+# Load configuration from the local environment file so the app can access
+# API keys and runtime settings without hard-coding them into the source.
+load_dotenv()
+
+def get_config(config_dir: str = "src/core") -> dict:
+    """Load model, path, and directory settings into a single config mapping.
+
+    The application keeps runtime settings in separate YAML files, so this helper
+    merges them into one dictionary that the workflow can consume consistently.
+    """
+    config_dir_path = Path(config_dir)
+
+    with open(config_dir_path / "config.yaml", "r") as file:
+        config_data = yaml.safe_load(file)
+    with open(config_dir_path / "paths.yaml", "r") as file:
+        paths_data = yaml.safe_load(file)
+
+    return {**config_data, **paths_data}
+
 
 def main():
-    graph = build_extraction_graph()
+    """Build and run the workflow against a sample exam input for local testing."""
+    print("Loading application configuration...\n")
+    app_config = get_config()
 
-    final_state = graph.invoke({
-        "student_id": "student_03",
-        "student_pdf": "data/input/answers_sheets/student_03.pdf",
-        "dpi": 300,
-        "max_pages": 10
-    })
+    global_settings = app_config["global"]
+    extractor_settings = app_config["agents"]["extractor"]
+    base_dirs = app_config["base_directories"]
+    input_dirs = app_config["inputs"]
+    output_dirs = app_config["outputs"]
 
-    print("\n✅ DONE")
-    print("Saved under:", f"data/output/{final_state['student_id']}/extracted_text")
-    print("Pages OCR'd:", len(final_state.get("ocr_pages", [])))
+    print("Building workflow graph...\n")
+    graph = build_graph(
+        model=global_settings["default_model"],
+        ocr_model=extractor_settings["ocr_model"],
+        temperature=global_settings["default_temperature"],
+        max_tokens=global_settings["max_tokens"]
+    )
+
+    print("Invoking graph with test data...\n")
+    final_state = graph.invoke(
+        input=InputState({
+            "sheet_id": "sheet_001",
+            "dpi": global_settings["dpi_default"],
+            "max_regrade": global_settings["max_regrade_attempts"],
+            "do_extract": False,
+            "do_feedback": False,
+            "exam_file": "exam_java.yaml",
+            "rubric_file": "java_criteria.yaml",
+            "review_criteria_file": "review_criteria.yaml"
+        }),
+        context=Context(
+            sheets_dir=Path(input_dirs["sheets_dir"]),
+            exams_dir=Path(input_dirs["exams_dir"]),
+            criteria_dir=Path(input_dirs["criteria_dir"]),
+            output_base=Path(base_dirs["output_base"]),
+            export_dir=Path(output_dirs["exports_dir"])
+        )
+    )
+
+    print("DONE")
+    print("Extraction results saved under:", f"{final_state['extract_dir']}")
+    print("Grading and QA reports saved under:", f"{final_state['reports_dir']}")
+    print("Final grading, QA and feedback results saved under:", f"{final_state['results_dir']}")
+    print("Grading data exported to:", f"{output_dirs["exports_dir"]}")
+    print("Message log saved in:", f"{final_state['log_path']}")
 
 if __name__ == "__main__":
     main()

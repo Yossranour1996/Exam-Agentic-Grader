@@ -1,0 +1,86 @@
+STUDENT ANSWERS:
+
+Question: Q1
+Sub-Question: Q1.1
+Answer: We mean that it is not restricted by aspasific architecture system
+
+Sub-Question: Q1.2
+Answer: WWW and Internet participat in programming revolution because every code is written can't be shared and all the information about programming is available.
+
+Sub-Question: Q1.3
+Answer: POP: pruduse code that operate in program's goal OOP: uses class and opjeces to capsulate code and data POP code data OOP code data
+
+Sub-Question: Q1.4
+Answer: there are many componenes of the JRE
+
+Sub-Question: Q1.5
+Answer: Inheritance is making class based on existing one bue run time polymorphism can't be achieved by method overloading
+
+Sub-Question: Q1.6
+Answer: We mean by encapsulation: dealing with data and code at the same time, as capsuls and we use it in OOP
+
+Sub-Question: Q1.7
+Answer: Abstract class and interface
+
+Sub-Question: Q1.8
+Answer: A thread could be terminate if: it finished his jop Broke for unusual reson Dead
+
+Sub-Question: Q1.9
+Answer: The three Default streams in Java are: System.in System.out System.err
+
+Sub-Question: Q1.10
+Answer: Java API is used for dealing with data base But API Java swing was built on top of model view of multilayer architecture
+
+
+Question: Q2
+Sub-Question: Q2.1
+Answer: True
+
+Sub-Question: Q2.2
+Answer: True
+
+Sub-Question: Q2.3
+Answer: True
+
+Sub-Question: Q2.4
+Answer: False can't be achieved by overloading
+
+Sub-Question: Q2.5
+Answer: True
+
+Sub-Question: Q2.6
+Answer: True
+
+Sub-Question: Q2.7
+Answer: False Many drivers are there.
+
+
+Question: Q3
+Sub-Question: Q3.1
+Answer: To match environment updates and uses
+
+Sub-Question: Q3.2
+Answer: C
+
+Sub-Question: Q3.3
+Answer: Code
+
+Sub-Question: Q3.4
+Answer: Ithesnet java enabled web browser execution
+
+Sub-Question: Q3.5
+Answer: In compouent which resive information
+
+Sub-Question: Q3.6
+Answer: Multi Layers
+
+Sub-Question: Q3.7
+Answer: JDBC
+
+
+Question: Q4
+Sub-Question: Q4.1
+Answer: CODE: String [i] + " you will take seat" + (4-i) Saving [i] will print one of the letters: M, C, .. " you will be printed as it is every time in the loop. (4-i): represent the number of seat
+
+Sub-Question: Q4.2
+Answer: forLint Private string id; for loop

@@ -1,0 +1,68 @@
+id: java
+title: Java Programming Exam
+total_marks: 100
+questions:
+  - id: Q1
+    type: short_answer
+    total_marks: 30
+    prompt: Briefly answer each question.
+    sub_questions:
+      - {id: Q1.1, text: "What does it mean that Java is architecture-neutral?"}
+      - {id: Q1.2, text: "How did the World Wide Web and Internet participate in the programming revolution?"}
+      - {id: Q1.3, text: "What is the main difference between OOP and POP?"}
+      - {id: Q1.4, text: "What are the components of the JRE?"}
+      - {id: Q1.5, text: "What is the difference between inheritance and polymorphism?"}
+      - {id: Q1.6, text: "What is encapsulation?"}
+      - {id: Q1.7, text: "Mention the two ways to achieve abstraction."}
+      - {id: Q1.8, text: "Mention three reasons a thread can terminate."}
+      - {id: Q1.9, text: "What are the three default streams in Java?"}
+      - {id: Q1.10, text: "On which API was Java Swing built?"}
+  - id: Q2
+    type: true_false
+    total_marks: 21
+    prompt: State whether each statement is true or false.
+    sub_questions:
+      - {id: Q2.1, text: "C++ was called C with classes."}
+      - {id: Q2.2, text: "An interface cannot inherit another interface's properties."}
+      - {id: Q2.3, text: "Java bytecode is a class file executed by the Java runtime system."}
+      - {id: Q2.4, text: "Runtime polymorphism can be achieved by method overloading."}
+      - {id: Q2.5, text: "Abstract classes can contain non-abstract methods."}
+      - {id: Q2.6, text: "Java threads are lightweight threads."}
+      - {id: Q2.7, text: "There is one JDBC driver for all database sources."}
+  - id: Q3
+    type: fill_blank
+    total_marks: 21
+    prompt: Fill in each blank.
+    sub_questions:
+      - {id: Q3.1, text: "_____ is one reason computer-language innovation occurred."}
+      - {id: Q3.2, text: "_____ is an example of a POP language."}
+      - {id: Q3.3, text: "POP does not allow _____ to flow freely in the program."}
+      - {id: Q3.4, text: "_____ are small programs requiring a Java-enabled browser."}
+      - {id: Q3.5, text: "A _____ is a component that can contain elements such as buttons."}
+      - {id: Q3.6, text: "The model-view-_____ architecture is used in Swing."}
+      - {id: Q3.7, text: "_____ is the Java API for interacting with databases."}
+  - id: Q4
+    type: code_completion
+    total_marks: 28
+    prompt: Complete CODE to produce the stated output.
+    sub_questions:
+      - id: Q4.1
+        text: |
+          public class Exams {
+            public static void main(String[] args) {
+              String[] seats = {'M', 'C', 'G', 'P', 'D'};
+              for (int i = 0; i < seats.length; i++) {
+                System.out.println(CODE);
+              }
+            }
+          }
+          Required output: M, you will take seat 0 (and equivalently for each seat).
+      - id: Q4.2
+        text: |
+          int totalVotes = 760;
+          CODE
+          public static void calculateVotes(double numOfVotes) {
+            double portion = numOfVotes * 0.15;
+            System.out.println((int) portion);
+          }
+          Required output: 114.

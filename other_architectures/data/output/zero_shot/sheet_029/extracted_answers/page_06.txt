@@ -1,0 +1,20 @@
+4.1 -> seats [i] " you will take seat", i
+double
+Public num Of Votes = total Votes
+-In Block code numbe 1, We have an array called
+seats that has 5 elements starting with index
+from "zero to 4" .Because We have a "for loop"
+starts from i=0 until i < seats.length" Which is number
+of elements = 5" and "i" Ts incremented by "one"
+We will notice the output starts with first member
+of an array which is a seats [0] and seat numbe 0 .
+Hence when we First we enter the loop, initial value
+of "i" would be "zero" so we can Write inside
+the Print function "seats [i], "you will take seat",i
+to output the First member of the array seats and
+seats numbe zero. The loop continues and Print
+Element numbe "2" which is seats [1] and seat numbe
+one. Remeber that"i" incremented by one after the
+First loop. [UNK] "i=i+1" . The loop continues until
+it prints all values of the seats array and their
+corresponding seats number.

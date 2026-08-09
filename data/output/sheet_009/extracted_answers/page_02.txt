@@ -1,0 +1,22 @@
+Question (4)
+1] We mean that the JAVA is not restricted by a
+specific system architecture .
+2] They introduced Applets which extend the
+functionality of the web, and also servlet that extended
+functionality of the server.
+3] The OOP treats the code lines as instructions
+and emphasizes on the procedure, on the other hand
+OOP encapsulate the code and data is manipulates and
+emphasized on data.
+4] JRE or JAVA Runtime Environment consists of library
+and JVM to Run the code.
+5] Inheritance: new classes inherits the attributes and
+methods of older classes. Polymorphism: Allow one
+interface to be used for general use case, Inheritance keep
+the old classes methods while polymorphism might alter them
+6] Encapsulations is the mechanism that binds the code
+and data is manipulates, and Keep them safe from
+outside interference and misuse.
+7] Class abstracts and interfaces.
+8] 1) finished and completed the task normally.
+2) terminated due to unusual events.

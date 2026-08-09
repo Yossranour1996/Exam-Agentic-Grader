@@ -1,0 +1,11 @@
+Q.2.8
+2.1: True
+2.2: False.
+It is possible for an interface to inherit another interface's properties.
+2.3: True.
+2.4: False.
+Run time polymorphism could be achieved by method overloading.
+2.5: False.
+Abstract classes could have abstract methods within them
+2.6: True.
+2.7: True.

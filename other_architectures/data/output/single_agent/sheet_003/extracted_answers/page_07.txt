@@ -1,0 +1,17 @@
+4.1 CODE = seats[i] + " you will take seat " + i
+CODE = seats[i] + " you will take seat " + i
+explanation: Consist
+we can observe the series that the letters are been
+printed for each line as the letters from empty string
+seats printed in ascending index order (starting from 0)
+compensate letters
+second: we read the string to string (you will take seats)
+and concatenate all the seats with (i) which is
+the index of the letters
+4.2
+CODE = calculateVotes(totalVotes);
+explanation:-
+we have an already defined Function (calculateVotes) and
+we have a parameter total Votes with a value 769.50
+we can pass the function and get the parameter
+and call to it to get the final output viewed.

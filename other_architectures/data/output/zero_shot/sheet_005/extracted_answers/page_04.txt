@@ -1,0 +1,21 @@
+(5) Inheritance is anew classes based existing
+on one's, and uses (methods and properties of that class
+Polymorphism features that allowed in one interface
+and used of a general.
+(Polymorphism is interface but inheritance is (create a new class))
+(6) encapsulation:
+is a mechanism to bind data and Code is
+together in manipulations, to be both safe for outside
+and misuse.
+(7) two ways to achieve abstractions
+① abstract classes
+② interface
+(8) terminated due to three reasons:
+① finished it's a task normally
+② terminated due to unusual events
+③ dead and no longer available
+(9) three default streams in Java:
+① system.in
+② system.out
+③ system.err
+(10) Wendows interface.

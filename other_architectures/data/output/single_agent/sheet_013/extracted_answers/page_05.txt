@@ -1,0 +1,8 @@
+2.1 True.
+2.2 False, & possible for an interface
+to inherit from another main class prob.
+2.3 True.
+2.4 False, by method override.
+2.5 True.
+2.6 False, heavyweight and tight
+2.7 True.

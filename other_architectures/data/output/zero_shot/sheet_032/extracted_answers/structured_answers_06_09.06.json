@@ -1,0 +1,128 @@
+{
+  "questions": [
+    {
+      "question": "Q1",
+      "sub_questions": [
+        {
+          "sub_question": "Q1.1",
+          "answer": "It means that Java does not reject working on specific architectural devices. So, it can work in any architectural environment or device."
+        },
+        {
+          "sub_question": "Q1.2",
+          "answer": "It derived to the innovation of more programming languages like C++ which was invented after C with more features. So the programming revolution was fixing and meeting some of the world wide web and internet needs."
+        },
+        {
+          "sub_question": "Q1.3",
+          "answer": "POP has procedures that operates on data to achieve the program goal. While OOP uses classes and objects that encapsulate code and data."
+        },
+        {
+          "sub_question": "Q1.4",
+          "answer": "JRE is the Java run time environment which offers and environment to run the program. It contains the JVM (Java Virtual machine which works as a runtime engine to run Java applications and also known as an interpreter."
+        },
+        {
+          "sub_question": "Q1.5",
+          "answer": "Inheritance is the Mechanism that allows a class to acquire properties from of another class that already existed. Polymorphism is the mechanism that allows one interface to work for general class of actions."
+        },
+        {
+          "sub_question": "Q1.6",
+          "answer": "Encapsulation is the mechanism that binds both code and data it manipulates and keeps them safe and secure."
+        },
+        {
+          "sub_question": "Q1.7",
+          "answer": "Two ways to achieve abstractions:\n① Class abstract\n② Interfaces abstract."
+        },
+        {
+          "sub_question": "Q1.8",
+          "answer": "A thread could be terminated due:\n① IF it completedits task completely.\n② Stopped because of unusual events.\n③ lost Turned off and stopped"
+        },
+        {
+          "sub_question": "Q1.9",
+          "answer": "Three default streams in Java:\n① System.i\n② System.o\n③ System.err"
+        },
+        {
+          "sub_question": "Q1.10",
+          "answer": "JDBC to connect and interact with database."
+        }
+      ]
+    },
+    {
+      "question": "Q2",
+      "sub_questions": [
+        {
+          "sub_question": "Q2.1",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.2",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.3",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.4",
+          "answer": "False\nRuntime polymorphism could not be achieved by method overloading"
+        },
+        {
+          "sub_question": "Q2.5",
+          "answer": "False\nAbstracts could not have non abstracts method within them"
+        },
+        {
+          "sub_question": "Q2.6",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.7",
+          "answer": "True"
+        }
+      ]
+    },
+    {
+      "question": "Q3",
+      "sub_questions": [
+        {
+          "sub_question": "Q3.1",
+          "answer": "Improvement"
+        },
+        {
+          "sub_question": "Q3.2",
+          "answer": "C programming language."
+        },
+        {
+          "sub_question": "Q3.3",
+          "answer": "data."
+        },
+        {
+          "sub_question": "Q3.4",
+          "answer": "Applet"
+        },
+        {
+          "sub_question": "Q3.5",
+          "answer": "Container"
+        },
+        {
+          "sub_question": "Q3.6",
+          "answer": "Controller"
+        },
+        {
+          "sub_question": "Q3.7",
+          "answer": "JDBC"
+        }
+      ]
+    },
+    {
+      "question": "Q4",
+      "sub_questions": [
+        {
+          "sub_question": "Q4.1",
+          "answer": "Student [i] + \"You will take seat\" + (i)\nAccording to the out put:-\nEach student will take a seat with an index equals to the index\nwritten above.\nStudent M was in index O and took seat O\nStudent C was in index 1 and took seat 1\nStudent G was in index 2 and took seat 2\nStudent P was in index 3 and took seat 3\nStudent D was in index 4 and took seat 4\n.. The missing is:\nStudent [i] + \"you will take seat\" + (i)"
+        },
+        {
+          "sub_question": "Q4.2",
+          "answer": "The code above contains 760 votes from people.\nThe code will print the statement:-\n① Statement \"If Java was easy, they would call it python!\"\n② The number of people agreeing with this statement\nIt will Calculate the number of people agreeing by multiplying\nthe total number of them by 15%.\n= 760 x 0.15 = 114\n∴ will print: \"The number of people who agree with the\nStatement is 114.\nThe missing code is:\nprivate String totalVotes\nprivate String totalVotes"
+        }
+      ]
+    }
+  ]
+}

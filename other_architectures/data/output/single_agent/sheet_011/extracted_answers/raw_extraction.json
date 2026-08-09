@@ -1,0 +1,34 @@
+[
+  {
+    "page": "page_01.png",
+    "text": ""
+  },
+  {
+    "page": "page_02.png",
+    "text": ""
+  },
+  {
+    "page": "page_03.png",
+    "text": "Q 1\n1) We mean by that is Java is not restricted to certain\ntype of a computer architecture.\n2) The World Wide Web and internet participate in\nthe programming revolution because the users mass\nfor reaching of them led to development & the\n(Java) to connect between different platforms.\n3) The main difference is that procedure oriented programming\n(pop) uses the process (code) as a core, while\nobject oriented programming uses the object (data) as core\nwhich binds the code and the data.\n4) The inheritance the creating of new class on top of\nexisting one which can uses its methods and fields, while\npolymorphism allow the multithreading of programs.\n5) We mean by encapsulation is binding the data and\nthe code together and restrict the accesses to it, only\nif its allowed.\n7) The two ways to achieve abstraction is by default\nlike interface or by defining the abstraction itself."
+  },
+  {
+    "page": "page_04.png",
+    "text": "Q.1.\n8 A thread could by terminated due to:\n1- achieving its normal task\n2- due to unusual event.\n3- dead and no longer available.\n9 The three default streams are:\n1- system.out (output stream)\n2- system.in (input stream)\n3- system.err (error stream)\n10 The API Javaswing was built on top of AWT\n(application windows)\n4 The components of the JRE are getter, classes, interfaces, etc.\n3 code\nOOP\nData\ncode\nPOP\nDifference between OOP and POP"
+  },
+  {
+    "page": "page_05.png",
+    "text": "Q2.\n1 The C++ language was called \"C with class).\n((True))\n2 It is not possible for an interface to inherit another\ninterface's properties -\n((False))\n- It's possible for interface to inherit multiple interfaces.\n3 The Java byte code is a class file that is executed\nby the Java runtime system.\n((False))\n- It is executed by JVM (Java virtual machine).\n4 Run time polymorphism could be achieved by method\noverloading.\n((False)).\n- It is achieved by method overriding.\n5 Abstract classes could have non-abstract methods\nwithin them.\n((True))\n6 Java threads are lightweight threads.\n((True))\n7 There is one JDBC driver for all database sources.\n((False)).\n- Two drivers:\n1- manager driver (to manage the server level)\n2- native driver : (to connect database)"
+  },
+  {
+    "page": "page_06.png",
+    "text": "1 To deal with even environmental changes is one\nof the reasons that computer language innovation\noccurred.\n2 C is an example of a POP Language.\n3 POP does not allow data\nto flow freely in\nthe program.\n4 JDK → JRE, JVM are small programs that need\na java enabled webbrowser to be executed.\n5 a container (frame) is a component which\ncan contain other elements like buttons.\n6 The model-view-controller architecture is\nused in Swing.\n7 JDBC is a java API to connect and interact\nwith databases."
+  },
+  {
+    "page": "page_07.png",
+    "text": "1) student s[i]. \" you will take seat\" \"student length -it)\"\nOh:-\nstudent [i]. you will take seat', i\n* for the student [i] (for example) will have the seat\n* (i-1) => [UNK] will be seated up to and G = 2\nFor seat student[i] when i=0 the seat will be 0\ni = 1\ni = 4 the seat will be 4\n2] Private String U:"
+  },
+  {
+    "page": "page_08.png",
+    "text": ""
+  }
+]

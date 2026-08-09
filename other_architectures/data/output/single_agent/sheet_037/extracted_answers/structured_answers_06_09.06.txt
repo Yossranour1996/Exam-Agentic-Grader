@@ -1,0 +1,97 @@
+STUDENT ANSWERS:
+
+Question: Q1
+Sub-Question: Q1.1
+Answer: It doesn't depend on a specific machine or operating system architecture.
+
+Sub-Question: Q1.2
+Answer: There was a need for more efficient programming language to handle more
+
+Sub-Question: Q1.3
+Answer: P.O.P uses procedure applied on data to achieve some goal. O.O.P uses Classes and Objects and binding data and codes.
+
+Sub-Question: Q1.4
+Answer: Java Virtual machine and many other running tools.
+
+Sub-Question: Q1.5
+Answer: -Inheritance is to Create a new class from existing one. - polymorphism is an object that can take many forms.
+
+Sub-Question: Q1.6
+Answer: The mechanism that binds data and codes.
+
+Sub-Question: Q1.7
+Answer: Abstract class and Interface.
+
+Sub-Question: Q1.8
+Answer: 1) It reaches its terminal. 2) unusual events. 3) Dead and no longer available.
+
+Sub-Question: Q1.9
+Answer: - System.in - System.err - System.Out
+
+Sub-Question: Q1.10
+Answer: Java AWT.
+
+
+Question: Q2
+Sub-Question: Q2.1
+Answer: True.
+
+Sub-Question: Q2.2
+Answer: False. It's not possible for an interface to implement another interface properties.
+
+Sub-Question: Q2.3
+Answer: True.
+
+Sub-Question: Q2.4
+Answer: False. Could be achieved by method overridden.
+
+Sub-Question: Q2.5
+Answer: True.
+
+Sub-Question: Q2.6
+Answer: True.
+
+Sub-Question: Q2.7
+Answer: False. There is Drive manager and Drivers.
+
+
+Question: Q3
+Sub-Question: Q3.1
+Answer: Adapt to change in environments and uses.
+
+Sub-Question: Q3.2
+Answer: C programming language.
+
+Sub-Question: Q3.3
+Answer: Data.
+
+Sub-Question: Q3.4
+Answer: Applet. Servlet.
+
+Sub-Question: Q3.5
+Answer: Containers.
+
+Sub-Question: Q3.6
+Answer: Controller.
+
+Sub-Question: Q3.7
+Answer: JDBC.
+
+
+Question: Q4
+Sub-Question: Q4.1
+Answer: Student [i] t", You
+Student [i] t", you will take seat" + [UNK] length
+(student.length)
+Student [i] t", you will take seat" + i [UNK] the output String.
+- You will take seat is the output String.
+- i (Student.length), because the Counting
+Started from i=0.
+
+Sub-Question: Q4.2
+Answer: private S&r
+Agree. Calculate Votes (total Votes)
+Calculate Votes (total Votes)
+no. Of Votes = total Votes.
+We have to define the function
+firstly.

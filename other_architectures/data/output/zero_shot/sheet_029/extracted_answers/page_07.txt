@@ -1,0 +1,15 @@
+In Block code number 2,
+The We have two Public class called "Agree" which
+includes the integer total number of votes = 760 in this
+case". It also includes print function. In second part
+of code we have to print number of Votes
+multiplied by 0.15 of the total votes and store the
+result in "Portion" of kind double. We can define
+a public integer called "NumOfVotes" takes the
+Value of total votes. It's defined public to be accessed
+by any other other classes. "numOfVotes" can has the
+Value of total Votes in class "Agree" which be used to
+determine the votes of people who agree. Then print
+the "Portion" in "int" form because Votes can't be
+anything other than integer values. The "Portion" is equal
+to numOfVotes multiplied by 0.15.

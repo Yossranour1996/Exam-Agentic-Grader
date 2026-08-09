@@ -1,0 +1,121 @@
+"Total Mark: 72
+
+Evaluations:
+Question: Q1
+Total Points: 25
+
+Sub-Question: Q1.1
+Awarded Points: 3
+Justification: The student correctly conveyed that Java can work on different architectures/devices/systems.
+
+Sub-Question: Q1.2
+Awarded Points: 3
+Justification: The answer is nonblank and does not mention Applet or Servlet, so full marks are awarded.
+
+Sub-Question: Q1.3
+Awarded Points: 3
+Justification: The student correctly explained that POP is procedure/data oriented and OOP is object/class oriented.
+
+Sub-Question: Q1.4
+Awarded Points: 1
+Justification: The student mentioned JVM, but did not mention libraries or supporting files.
+
+Sub-Question: Q1.5
+Awarded Points: 3
+Justification: The student correctly explained both inheritance and polymorphism.
+
+Sub-Question: Q1.6
+Awarded Points: 3
+Justification: The student correctly described encapsulation as binding code and data together.
+
+Sub-Question: Q1.7
+Awarded Points: 3
+Justification: The student mentioned abstract classes and interfaces, fulfilling the requirement.
+
+Sub-Question: Q1.8
+Awarded Points: 3
+Justification: The student provided three valid reasons for thread termination.
+
+Sub-Question: Q1.9
+Awarded Points: 3
+Justification: The student correctly identified the three default streams, despite minor spelling errors.
+
+Sub-Question: Q1.10
+Awarded Points: 0
+Justification: The student incorrectly mentioned JDBC instead of AWT or Abstract Window Toolkit.
+
+
+Question: Q2
+Total Points: 12
+
+Sub-Question: Q2.1
+Awarded Points: 3
+Justification: The student correctly identified the statement as True.
+
+Sub-Question: Q2.2
+Awarded Points: 0
+Justification: The student incorrectly identified the statement as True; it should be False.
+
+Sub-Question: Q2.3
+Awarded Points: 3
+Justification: The student correctly identified the statement as True.
+
+Sub-Question: Q2.4
+Awarded Points: 3
+Justification: The student correctly identified the statement as False.
+
+Sub-Question: Q2.5
+Awarded Points: 0
+Justification: The student incorrectly identified the statement as False; it should be True.
+
+Sub-Question: Q2.6
+Awarded Points: 3
+Justification: The student correctly identified the statement as True.
+
+Sub-Question: Q2.7
+Awarded Points: 0
+Justification: The student incorrectly identified the statement as True; it should be False.
+
+
+Question: Q3
+Total Points: 21
+
+Sub-Question: Q3.1
+Awarded Points: 3
+Justification: Full marks are awarded as per rubric policy.
+
+Sub-Question: Q3.2
+Awarded Points: 3
+Justification: The student correctly identified C as an example of a POP language.
+
+Sub-Question: Q3.3
+Awarded Points: 3
+Justification: The student correctly identified 'data' as the missing word.
+
+Sub-Question: Q3.4
+Awarded Points: 3
+Justification: The student correctly identified 'Applet' as the missing word.
+
+Sub-Question: Q3.5
+Awarded Points: 3
+Justification: The student correctly identified 'Container' as the missing word.
+
+Sub-Question: Q3.6
+Awarded Points: 3
+Justification: The student correctly identified 'Controller' as the missing word.
+
+Sub-Question: Q3.7
+Awarded Points: 3
+Justification: The student correctly identified 'JDBC' as the missing word.
+
+
+Question: Q4
+Total Points: 14
+
+Sub-Question: Q4.1
+Awarded Points: 14
+Justification: Full marks are awarded as per rubric policy.
+
+Sub-Question: Q4.2
+Awarded Points: 0
+Justification: The student's answer did not mention calculateVotes or totalVotes, and was unrelated to votes.

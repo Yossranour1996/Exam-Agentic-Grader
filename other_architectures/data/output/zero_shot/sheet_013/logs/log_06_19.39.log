@@ -1,0 +1,99 @@
+2026-08-06 19:39:53 | DEBUG  
+================================================================================
+[Prepare]: Prepared state for sheet_013.
+Paths ready.
+2026-08-06 19:39:53 | DEBUG  
+================================================================================
+[Extraction]: Extracting answers for sheet_013 from data\input\answer_sheets\sheet_013.pdf
+2026-08-06 19:39:53 | DEBUG  
+================================================================================
+[Grading]: Grading exam based on extracted answers and rubric.
+2026-08-06 19:40:00 | INFO   
+================================================================================
+[Grading] Message log:
+
+------------------------------------------------------------
+HUMAN: [{'type': 'text', 'text': 'Given the following exam and rubric, grade the student\'s answers against the rubric to determine the total mark and provide a detailed evaluation for each question and sub-question.\n\n## EXAM:\n{"id": "java", "title": "Java Programming Exam", "total_marks": 100, "questions": [{"id": "Q1", "type": "short_answer", "total_marks": 30, "prompt": "Briefly answer each question.", "sub_questions": [{"id": "Q1.1", "text": "What does it mean that Java is architecture-neutral?"}, {"id": "Q1.2", "text": "How did the World Wide Web and Internet participate in the programming revolution?"}, {"id": "Q1.3", "text": "What is the main difference between OOP and POP?"}, {"id": "Q1.4", "text": "What are the components of the JRE?"}, {"id": "Q1.5", "text": "What is the difference between inheritance and polymorphism?"}, {"id": "Q1.6", "text": "What is encapsulation?"}, {"id": "Q1.7", "text": "Mention the two ways to achieve abstraction."}, {"id": "Q1.8", "text": "Mention three reasons a thread can terminate."}, {"id": "Q1.9", "text": "What are the three default streams in Java?"}, {"id": "Q1.10", "text": "On which API was Java Swing built?"}]}, {"id": "Q2", "type": "true_false", "total_marks": 21, "prompt": "State whether each statement is true or false.", "sub_questions": [{"id": "Q2.1", "text": "C++ was called C with classes."}, {"id": "Q2.2", "text": "An interface cannot inherit another interface\'s properties."}, {"id": "Q2.3", "text": "Java bytecode is a class file executed by the Java runtime system."}, {"id": "Q2.4", "text": "Runtime polymorphism can be achieved by method overloading."}, {"id": "Q2.5", "text": "Abstract classes can contain non-abstract methods."}, {"id": "Q2.6", "text": "Java threads are lightweight threads."}, {"id": "Q2.7", "text": "There is one JDBC driver for all database sources."}]}, {"id": "Q3", "type": "fill_blank", "total_marks": 21, "prompt": "Fill in each blank.", "sub_questions": [{"id": "Q3.1", "text": "_____ is one reason computer-language innovation occurred."}, {"id": "Q3.2", "text": "_____ is an example of a POP language."}, {"id": "Q3.3", "text": "POP does not allow _____ to flow freely in the program."}, {"id": "Q3.4", "text": "_____ are small programs requiring a Java-enabled browser."}, {"id": "Q3.5", "text": "A _____ is a component that can contain elements such as buttons."}, {"id": "Q3.6", "text": "The model-view-_____ architecture is used in Swing."}, {"id": "Q3.7", "text": "_____ is the Java API for interacting with databases."}]}, {"id": "Q4", "type": "code_completion", "total_marks": 28, "prompt": "Complete CODE to produce the stated output.", "sub_questions": [{"id": "Q4.1", "text": "public class Exams {\\n  public static void main(String[] args) {\\n    String[] seats = {\'M\', \'C\', \'G\', \'P\', \'D\'};\\n    for (int i = 0; i < seats.length; i++) {\\n      System.out.println(CODE);\\n    }\\n  }\\n}\\nRequired output: M, you will take seat 0 (and equivalently for each seat).\\n"}, {"id": "Q4.2", "text": "int totalVotes = 760;\\nCODE\\npublic static void calculateVotes(double numOfVotes) {\\n  double portion = numOfVotes * 0.15;\\n  System.out.println((int) portion);\\n}\\nRequired output: 114.\\n"}]}]}\n\n## RUBRIC\n{"exam_id": "java", "total_marks": 100, "policy": {"tolerate_ocr_noise": true, "semantic_equivalence": true, "penalize_extra_incorrect_content": false}, "sections": [{"id": "Q1", "type": "short_answer", "total_marks": 30, "questions": [{"id": "Q1.1", "marks": 3, "allowed_scores": [0, 3], "expected": "Student should express that Java can work across different architectures / is not restricted to one specific system architecture.", "rule": "Give 3 if the student conveys the idea that Java can work on different architectures/devices/systems, even if the wording is weak or grammatically wrong. Otherwise 0."}, {"id": "Q1.2", "marks": 3, "allowed_scores": [0, 3], "expected": "Any nonblank answer is accepted unless it mentions Applet/Applets or Servlet/Servlets.", "rule": "Give 0 if the answer is blank. Give 0 if the answer mentions Applet, Applets, Servlet, or Servlets. Otherwise give 3."}, {"id": "Q1.3", "marks": 3, "allowed_scores": [0, 3], "expected": "POP is procedure/data oriented; OOP is object/class oriented.", "rule": "Give 3 if the student conveys that POP is related to procedures/functions/data and OOP is related to objects/classes. Exact textbook wording is not required. Otherwise 0."}, {"id": "Q1.4", "marks": 3, "allowed_scores": [0, 1, 2, 3], "expected": "JVM, libraries, supporting files/components.", "rule": "Give 1 mark for JVM or Java Virtual Machine, 1 mark for library/libraries, and 1 mark for file/files/supporting files. Maximum 3. Blank answer gets 0."}, {"id": "Q1.5", "marks": 3, "allowed_scores": [0, 2, 3], "expected": "Inheritance = class gets properties/behavior from another existing class. Polymorphism = many forms / one interface / general class of actions / common type with different forms.", "rule": "Give 3 if both inheritance and polymorphism meanings are correct. Give 2 if only one of the two is clearly correct. Give 0 if neither is correct."}, {"id": "Q1.6", "marks": 3, "allowed_scores": [0, 3], "expected": "Binding/bundling code and data together in one unit/class.", "rule": "Give 3 if the student expresses binding/bundling code and data together, or an equivalent meaning. Otherwise 0."}, {"id": "Q1.7", "marks": 3, "allowed_scores": [0, 3], "expected": "Abstract classes and interfaces.", "rule": "Give 3 if the student mentions abstract class/classes and interfaces, even if grammar/order is weak such as \'class abstract\' or \'interfaces abstract\'. Otherwise 0."}, {"id": "Q1.8", "marks": 3, "allowed_scores": [0, 1, 2, 3], "expected": "Finished normally, unusual event/exception/error, dead/stopped/terminated.", "rule": "Give 1 mark for each clearly correct reason among: (1) finished/completed task, (2) unusual event/exception/error, (3) dead/stopped/terminated/no longer available. Accept equivalent wording. Max 3."}, {"id": "Q1.9", "marks": 3, "allowed_scores": [0, 1, 2, 3], "expected": "System.in, System.out, System.err", "rule": "Give 1 mark for each correct intended stream among System.in, System.out, System.err. IMPORTANT: if the student writes weak spellings like System.i or System.o but the intended stream is clearly System.in and System.out, count them as correct. Minor spelling/OCR mistakes must not reduce the mark. Max 3."}, {"id": "Q1.10", "marks": 3, "allowed_scores": [0, 3], "expected": "AWT / Abstract Window Toolkit", "rule": "Give 3 only if the student gives AWT or Abstract Window Toolkit or a very clear equivalent. Otherwise 0."}]}, {"id": "Q2", "type": "true_false", "total_marks": 21, "questions": [{"id": "Q2.1", "marks": 3, "allowed_scores": [0, 3], "expected": "True", "rule": "Give 3 only if the student chose True. Otherwise 0."}, {"id": "Q2.2", "marks": 3, "allowed_scores": [0, 3], "expected": "False", "rule": "Give 3 only if the student chose False. Otherwise 0."}, {"id": "Q2.3", "marks": 3, "allowed_scores": [0, 3], "expected": "True", "rule": "Give 3 only if the student chose True. Otherwise 0."}, {"id": "Q2.4", "marks": 3, "allowed_scores": [0, 3], "expected": "False", "rule": "Give 3 only if the student chose False. Otherwise 0."}, {"id": "Q2.5", "marks": 3, "allowed_scores": [0, 3], "expected": "True", "rule": "Give 3 only if the student chose True. Otherwise 0."}, {"id": "Q2.6", "marks": 3, "allowed_scores": [0, 3], "expected": "True", "rule": "Give 3 only if the student chose True. Otherwise 0."}, {"id": "Q2.7", "marks": 3, "allowed_scores": [0, 3], "expected": "False", "rule": "Give 3 only if the student chose False. Otherwise 0."}]}, {"id": "Q3", "type": "fill_blank", "total_marks": 21, "questions": [{"id": "Q3.1", "marks": 3, "allowed_scores": [3], "accepted": ["improvement", "improvement in programming", "improving programming", "adapting to change", "adapting to changing environments", "adapting to changing uses"], "expected": "Always full marks.", "rule": "Always give 3 marks, even if the answer is blank."}, {"id": "Q3.2", "marks": 3, "allowed_scores": [0, 3], "accepted": ["C", "Pascal", "C programming language", "Pascal programming language"], "expected": "C or Pascal", "rule": "Give 3 if the student gives C or Pascal, even inside a longer phrase such as \'C programming language\'. Otherwise 0."}, {"id": "Q3.3", "marks": 3, "allowed_scores": [0, 3], "accepted": ["data", "and data"], "expected": "data", "rule": "Give 3 if the intended answer is data, even if it appears in a phrase like \'and data\'. Otherwise 0."}, {"id": "Q3.4", "marks": 3, "allowed_scores": [0, 3], "accepted": ["Applet", "Applets"], "expected": "Applets", "rule": "Give 3 if the student gives Applet/Applets or a very clear equivalent/OCR form. Otherwise 0."}, {"id": "Q3.5", "marks": 3, "allowed_scores": [0, 3], "accepted": ["Container", "Frame"], "expected": "Container or Frame", "rule": "Give 3 if the student gives Container or Frame. Accept spelling/OCR variations when the intended word is clear. Otherwise 0. Blank answer gets 0."}, {"id": "Q3.6", "marks": 3, "allowed_scores": [0, 3], "accepted": ["Controller"], "expected": "Controller", "rule": "Give 3 if the student gives Controller. Otherwise 0."}, {"id": "Q3.7", "marks": 3, "allowed_scores": [0, 3], "accepted": ["JDBC", "Java Database Connectivity"], "expected": "JDBC or Java Database Connectivity", "rule": "Give 3 if the student gives JDBC or Java Database Connectivity. Otherwise 0."}]}, {"id": "Q4", "type": "code_completion", "total_marks": 28, "questions": [{"id": "Q4.1", "marks": 14, "allowed_scores": [14], "expected": "Always full marks.", "rule": "Always give 14 marks, even if the answer is blank."}, {"id": "Q4.2", "marks": 14, "allowed_scores": [0, 7, 9, 11, 14], "expected": "calculateVotes(totalVotes);", "rule": "Give 14 if both calculateVotes and totalVotes are mentioned. Give 11 if only one of them is mentioned. Give 9 if the answer is incorrect but mentions vote/votes or is clearly vote-related. Give 7 if the answer is nonblank but unrelated to votes. Give 0 if blank."}]}]}\n\n## STUDENT ANSWERS:\n{"questions": [{"question": "Q1", "sub_questions": [{"sub_question": "Q1.1", "answer": "That it\'s a language that don\'t depend on an architecture system."}, {"sub_question": "Q1.2", "answer": "The world wide web participate in improving the programming language to deal with servers after being only for local Data transfer between computers."}, {"sub_question": "Q1.3", "answer": "POP is a language that handels the functions more than organising data. but oop focus on data and how to axioss it more than functions."}, {"sub_question": "Q1.4", "answer": "Java Run-time Environment is to contain of a Laibraries and JVM (Java virtual machin) the handle the run prod of the program process."}, {"sub_question": "Q1.5", "answer": "inhepitence is used to implement a classes from the main class & polymorphism that you can\'t inherets don\'t depend on the small inherited classes but focus to get instructions from the main class directly."}, {"sub_question": "Q1.6", "answer": "encapsulation : is the privet room that contains All of the data but-on and keep it praivet."}, {"sub_question": "Q1.7", "answer": "abstract classes and interface."}, {"sub_question": "Q1.8", "answer": "when the Program is fully finished. when it intrrupts due to unisuad actions when it\'s dead (loong run without results)"}, {"sub_question": "Q1.9", "answer": "1. system.in 2. system.out 3. system.err"}, {"sub_question": "Q1.10", "answer": "[NO_ANSWER]"}]}, {"question": "Q2", "sub_questions": [{"sub_question": "Q2.1", "answer": "True."}, {"sub_question": "Q2.2", "answer": "False, & possible for an interface to inherit from another main class prob."}, {"sub_question": "Q2.3", "answer": "True."}, {"sub_question": "Q2.4", "answer": "False, by method override."}, {"sub_question": "Q2.5", "answer": "True."}, {"sub_question": "Q2.6", "answer": "False, heavyweight and tight"}, {"sub_question": "Q2.7", "answer": "True."}]}, {"question": "Q3", "sub_questions": [{"sub_question": "Q3.1", "answer": "internet."}, {"sub_question": "Q3.2", "answer": "the Language C"}, {"sub_question": "Q3.3", "answer": "dose does not allow functions"}, {"sub_question": "Q3.4", "answer": "interface"}, {"sub_question": "Q3.5", "answer": "controller."}, {"sub_question": "Q3.6", "answer": "interface"}, {"sub_question": "Q3.7", "answer": "JDBC (Java Database connector)"}]}, {"question": "Q4", "sub_questions": [{"sub_question": "Q4.1", "answer": "system.out.println( System[i] + \\"You will take seat \\" + (i+1)); from that we read (i) and let it read (i) then print our statment in addition of (i) after every seat written."}, {"sub_question": "Q4.2", "answer": "Privet int [UNK] Votes; we don\'t need the program to edit in the number of votes."}]}]}'}]
+
+------------------------------------------------------------
+HUMAN: ## OUTPUT FORMAT:
+You MUST return your evaluation in the following JSON format:
+{
+  "total_mark": <integer>,
+  "evaluations": [
+	{
+	  "question_id": "<string>",
+	  "total_score": <integer>,
+	  "sub_evaluations": [
+		{
+		  "sub_question_id": "<string>",
+		  "score": <integer>,
+		  "justification": "<string>"
+		}
+	  ]
+	}
+]
+
+------------------------------------------------------------
+AI: ```json
+{
+  "total_mark": 61,
+  "evaluations": [
+    {
+      "question_id": "Q1",
+      "total_score": 19,
+      "sub_evaluations": [
+        {
+          "sub_question_id": "Q1.1",
+          "score": 3,
+          "justification": "The student conveyed that Java does not depend on a specific architecture, which aligns with the expected answer."
+        },
+        {
+          "sub_question_id": "Q1.2",
+          "score": 3,
+          "justification": "The student provided a non-blank answer that did not mention Applet or Servlet, thus meeting the criteria for full marks."
+        },
+        {
+          "sub_question_id": "Q1.3",
+.
+.
+.
+    },
+    {
+      "question_id": "Q4",
+      "total_score": 21,
+      "sub_evaluations": [
+        {
+          "sub_question_id": "Q4.1",
+          "score": 14,
+          "justification": "Full marks are awarded regardless of the answer."
+        },
+        {
+          "sub_question_id": "Q4.2",
+          "score": 7,
+          "justification": "The answer was nonblank but unrelated to votes."
+        }
+      ]
+    }
+  ]
+}
+```
+
+
+2026-08-06 19:40:00 | DEBUG  
+================================================================================
+[Grading]: Grading completed.
+2026-08-06 19:40:00 | DEBUG  
+================================================================================
+[Exporter]: Exporting grading results to specified directory.
+2026-08-06 19:40:00 | INFO   
+================================================================================
+[Exporter]: Saved final grading results to data\output\zero_shot\sheet_013\grading_results.
+2026-08-06 19:40:01 | DEBUG  
+================================================================================
+[Exporter]: Exported final grading, qa and feedback results to data\output\zero_shot\sheet_013\grading_results. Exported data to data\output\zero_shot\exports
+
+2026-08-06 19:40:01 | DEBUG  
+================================================================================
+[Exporter]: Exported final grading, qa and feedback results to data\output\zero_shot\sheet_013\grading_results. Exported data to data\output\zero_shot\exports
+

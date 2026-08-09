@@ -1,0 +1,42 @@
+[
+  {
+    "page": "page_01.png",
+    "text": "المصرفية\nالفصل الدراسي الأول\nJava programming\nأحمد حسن عبد الله\n184015"
+  },
+  {
+    "page": "page_02.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_03.png",
+    "text": "Q.1.\n1.18- We mean that Java is not restricted to a specific architecture\nlanguage.\n1.38-\nWhile POP has a procedures (code) make opperates in data to\nachive the program goal, OOP use classes and objectes to\nencapsulate both data and code.\n1.78-\nAbstract classes and interfaces.\n1.98-\n(system.in), (system.out), (system.err).\n1.108-\nJDBC.\n1.28-\nBy use it in many websites."
+  },
+  {
+    "page": "page_04.png",
+    "text": "Q.2.8\n2.1: True\n2.2: False.\nIt is possible for an interface to inherit another interface's properties.\n2.3: True.\n2.4: False.\nRun time polymorphism could be achieved by method overloading.\n2.5: False.\nAbstract classes could have abstract methods within them\n2.6: True.\n2.7: True."
+  },
+  {
+    "page": "page_05.png",
+    "text": "Q3:-\n3.1: To adapt to Changing environment and uses.\n3.2: C language.\n3.3: data.\n3.4: Aplet.\n3.5: Frame.\n3.6: Control.\n3.7: JDBC."
+  },
+  {
+    "page": "page_06.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_07.png",
+    "text": ""
+  },
+  {
+    "page": "page_08.png",
+    "text": ""
+  },
+  {
+    "page": "page_09.png",
+    "text": ""
+  },
+  {
+    "page": "page_10.png",
+    "text": "EMPTY"
+  }
+]

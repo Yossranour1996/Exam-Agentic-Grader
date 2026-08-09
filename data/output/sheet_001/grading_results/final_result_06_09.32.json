@@ -1,0 +1,179 @@
+{
+  "grading": {
+    "total_mark": 92,
+    "evaluations": [
+      {
+        "question": "Q1",
+        "total_points": 28,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q1.1",
+            "awarded_points": 3,
+            "justification": "The student correctly conveyed that Java is not tied to or restricted to specific machine or operating system architecture, which aligns with the rubric's requirement."
+          },
+          {
+            "sub_question": "Q1.2",
+            "awarded_points": 3,
+            "justification": "The student provided a non-blank answer that did not mention Applet or Servlet, thus meeting the rubric's criteria for full marks."
+          },
+          {
+            "sub_question": "Q1.3",
+            "awarded_points": 3,
+            "justification": "The student correctly described that POP emphasizes code and procedures, while OOP emphasizes data and objects, fulfilling the rubric's requirements."
+          },
+          {
+            "sub_question": "Q1.4",
+            "awarded_points": 1,
+            "justification": "Following the auditor's notes, the student receives 1 point for mentioning 'Java Virtual Machine'. 'Compiler' does not qualify as supporting files/components, so the score is adjusted to 1 point."
+          },
+          {
+            "sub_question": "Q1.5",
+            "awarded_points": 3,
+            "justification": "The student correctly explained both inheritance and polymorphism, meeting the rubric's criteria for full marks."
+          },
+          {
+            "sub_question": "Q1.6",
+            "awarded_points": 3,
+            "justification": "The student expressed the concept of binding code and data together, which aligns with the rubric's definition of encapsulation."
+          },
+          {
+            "sub_question": "Q1.7",
+            "awarded_points": 3,
+            "justification": "The student mentioned 'Interface' and 'Abstraction classes', which are acceptable according to the rubric, despite minor typographical errors."
+          },
+          {
+            "sub_question": "Q1.8",
+            "awarded_points": 3,
+            "justification": "The student provided three valid reasons for thread termination: finished task, unusual events, and dead/no longer available, meeting the rubric's criteria."
+          },
+          {
+            "sub_question": "Q1.9",
+            "awarded_points": 3,
+            "justification": "The student correctly identified 'system.in', 'system.out', and 'system.err', despite minor typographical errors, fulfilling the rubric's requirements."
+          },
+          {
+            "sub_question": "Q1.10",
+            "awarded_points": 3,
+            "justification": "The student correctly identified AWT as the API on which Java Swing was built, meeting the rubric's criteria for full marks."
+          }
+        ]
+      },
+      {
+        "question": "Q2",
+        "total_points": 15,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q2.1",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as True, which matches the expected answer."
+          },
+          {
+            "sub_question": "Q2.2",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as False, which matches the expected answer."
+          },
+          {
+            "sub_question": "Q2.3",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as True, which matches the expected answer."
+          },
+          {
+            "sub_question": "Q2.4",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as False, which matches the expected answer."
+          },
+          {
+            "sub_question": "Q2.5",
+            "awarded_points": 0,
+            "justification": "The student incorrectly identified the statement as False, while the expected answer is True."
+          },
+          {
+            "sub_question": "Q2.6",
+            "awarded_points": 3,
+            "justification": "The student correctly identified the statement as True, which matches the expected answer."
+          },
+          {
+            "sub_question": "Q2.7",
+            "awarded_points": 0,
+            "justification": "The student incorrectly identified the statement as True, while the expected answer is False."
+          }
+        ]
+      },
+      {
+        "question": "Q3",
+        "total_points": 21,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q3.1",
+            "awarded_points": 3,
+            "justification": "The answer 'to adapt change in environment and use.' matches the accepted term 'adapting to change'. Full marks awarded as per rubric."
+          },
+          {
+            "sub_question": "Q3.2",
+            "awarded_points": 3,
+            "justification": "The answer 'C' directly matches the accepted concept 'C'. Full marks awarded."
+          },
+          {
+            "sub_question": "Q3.3",
+            "awarded_points": 3,
+            "justification": "The answer 'data' directly matches the accepted concept 'data'. Full marks awarded."
+          },
+          {
+            "sub_question": "Q3.4",
+            "awarded_points": 3,
+            "justification": "The answer 'Applets' directly matches the accepted concept 'Applet'. Full marks awarded."
+          },
+          {
+            "sub_question": "Q3.5",
+            "awarded_points": 3,
+            "justification": "The answer 'Container' directly matches the accepted concept 'Container'. Full marks awarded."
+          },
+          {
+            "sub_question": "Q3.6",
+            "awarded_points": 3,
+            "justification": "The answer 'Controller' directly matches the accepted concept 'Controller'. Full marks awarded."
+          },
+          {
+            "sub_question": "Q3.7",
+            "awarded_points": 3,
+            "justification": "The answer 'JDBC' directly matches the accepted concept 'JDBC'. Full marks awarded."
+          }
+        ]
+      },
+      {
+        "question": "Q4",
+        "total_points": 28,
+        "sub_evaluations": [
+          {
+            "sub_question": "Q4.1",
+            "awarded_points": 14,
+            "justification": "The rubric explicitly states to always award full marks for this sub-question, regardless of the answer's content."
+          },
+          {
+            "sub_question": "Q4.2",
+            "awarded_points": 14,
+            "justification": "The student's answer correctly mentions both 'calculateVotes' and 'totalVotes', which aligns with the rubric's criteria for awarding full marks."
+          }
+        ]
+      }
+    ]
+  },
+  "feedback": {
+    "positive_highlights": [
+      "Your answer to Question 1.1 correctly explained that Java is architecture-neutral, meaning it can operate across different systems.",
+      "In Question 1.2, you provided a thoughtful response about the role of the World Wide Web and Internet in the programming revolution, avoiding restricted terms like 'Applet' or 'Servlet'.",
+      "You demonstrated a clear understanding of the differences between OOP and POP in Question 1.3, highlighting the focus on data and objects in OOP versus procedures in POP.",
+      "Your explanation of encapsulation in Question 1.6 was spot on, capturing the essence of binding code and data together.",
+      "In Question 1.8, you accurately listed three reasons a thread can terminate, showing a good grasp of thread management.",
+      "You correctly identified the API on which Java Swing was built in Question 1.10, recognizing AWT as the foundation.",
+      "Your responses to the fill-in-the-blank questions in Section 3 were all correct, demonstrating a solid understanding of the key concepts.",
+      "In the code completion section, you successfully included both 'calculateVotes' and 'totalVotes', earning full marks."
+    ],
+    "areas_for_improvement": [
+      "In Question 1.4, while you correctly mentioned 'Java Virtual Machine', remember that the JRE also includes libraries and supporting files, which were not mentioned.",
+      "For Question 2.5, remember that abstract classes can indeed contain non-abstract methods, which is why the statement is true.",
+      "In Question 2.7, note that there isn't a single JDBC driver for all database sources, which makes the statement false."
+    ],
+    "encouraging_closing": "Great job on your exam! You've demonstrated a strong understanding of Java programming concepts. Keep up the good work and continue to refine your knowledge in the areas highlighted for improvement. You're on the right track to mastering Java!"
+  }
+}

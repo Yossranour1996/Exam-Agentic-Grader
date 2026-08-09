@@ -1,0 +1,7 @@
+3.1 Adapting to changing [UNK] and uses.
+3.2 C
+3.3 Compiler
+3.4 Servlet
+3.5 Java Api
+3.6 Read
+3.7 Servlet

@@ -1,0 +1,15 @@
+process which
+1-6- Encapsulation : It binds together data and code
+and keep it safe from any outside interference and misuse.
+abstraction
+1-7- 1. Run time: which Dynamic and
+achieved by method Overriden.
+2. climb abstraction : which static and achieve
+by function overriding or operator overriding.
+1-8- 1- finished it task normally.
+2- terminated due to unusall event.
+3- Dead and no longer available.
+1-9- (1)- system in
+(2)- system out
+(3)- system Err.
+1-10 [AWT]

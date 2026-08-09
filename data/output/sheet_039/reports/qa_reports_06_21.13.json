@@ -1,0 +1,46 @@
+[
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q2",
+        "identified_errors": [
+          {
+            "sub_question": "Q2.7",
+            "description": "The student answered 'True' for Q2.7, which is incorrect according to the rubric. However, the rubric does not provide a clear explanation for the correct answer, and the student's reasoning might be valid. The Grader should provide a more detailed justification for the deduction."
+          }
+        ],
+        "summary": "Q2.7 requires further justification for the deduction as the rubric lacks clarity on the correct answer."
+      },
+      {
+        "question": "Q3",
+        "identified_errors": [
+          {
+            "sub_question": "Q3.7",
+            "description": "The student's answer 'DBC' was accepted as correct for 'JDBC'. This is a significant deviation from the expected answer and should not have been awarded full marks."
+          }
+        ],
+        "summary": "Q3.7 was incorrectly awarded full marks for 'DBC', which does not match the accepted answer 'JDBC'."
+      }
+    ]
+  },
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q1",
+        "identified_errors": [
+          {
+            "sub_question": "Q1.5",
+            "description": "The awarded score of 2 is correct based on the rubric, but the total awarded score for Q1 is incorrect due to arithmetic errors."
+          }
+        ],
+        "summary": "The arithmetic validation failed as the sum of sub-scores (83) does not equal the total awarded score (86). The score for Q1.5 is correct as per the rubric, but the total score needs adjustment."
+      }
+    ]
+  },
+  {
+    "decision": "<NO_REGRADE>",
+    "audits": []
+  }
+]

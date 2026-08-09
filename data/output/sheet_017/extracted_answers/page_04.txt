@@ -1,0 +1,12 @@
+1.6- the wrapped of data by a single unit.
+and it is the mechanism that ties the code
+with the data it manipulates.
+1.7. E. abstraction abstrac classes
+inter face.
+1.8. - completed its task normally.
+- it terminated due to unexpected events.
+- dead or no longer available.
+1.9. System.in
+System.out
+System.err
+1.10. C++

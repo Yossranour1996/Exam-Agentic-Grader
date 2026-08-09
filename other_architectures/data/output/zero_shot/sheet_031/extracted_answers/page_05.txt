@@ -1,0 +1,4 @@
+1- System.in
+2- System.out
+3- System.err
+It is built in top of Abstraction Window Tool (AWT)

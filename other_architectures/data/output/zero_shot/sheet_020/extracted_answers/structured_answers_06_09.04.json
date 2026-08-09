@@ -1,0 +1,128 @@
+{
+  "questions": [
+    {
+      "question": "Q1",
+      "sub_questions": [
+        {
+          "sub_question": "Q1.1",
+          "answer": "Java is not tied to external architecture"
+        },
+        {
+          "sub_question": "Q1.2",
+          "answer": "make it hereach easy to develop programs."
+        },
+        {
+          "sub_question": "Q1.3",
+          "answer": "the POP have Procedure with data, but OOP treat by Classes and objects to encapsulate data and codes."
+        },
+        {
+          "sub_question": "Q1.4",
+          "answer": "JVD"
+        },
+        {
+          "sub_question": "Q1.5",
+          "answer": "Inheritance is to decide with which class has the properties of the other, but polymorphism is features deffent inactions (many forms), that program can be implemented by different forms."
+        },
+        {
+          "sub_question": "Q1.6",
+          "answer": "hiding data and codes to not be achieved by external code of interface"
+        },
+        {
+          "sub_question": "Q1.7",
+          "answer": "abstraction interface, and abstraction class"
+        },
+        {
+          "sub_question": "Q1.8",
+          "answer": "unusual treated terminated finish"
+        },
+        {
+          "sub_question": "Q1.9",
+          "answer": "System.in, System.out, System.err"
+        },
+        {
+          "sub_question": "Q1.10",
+          "answer": "Data"
+        }
+      ]
+    },
+    {
+      "question": "Q2",
+      "sub_questions": [
+        {
+          "sub_question": "Q2.1",
+          "answer": "False - The Java language"
+        },
+        {
+          "sub_question": "Q2.2",
+          "answer": "False - Possible"
+        },
+        {
+          "sub_question": "Q2.3",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.4",
+          "answer": "False - threading"
+        },
+        {
+          "sub_question": "Q2.5",
+          "answer": "False - couldnot"
+        },
+        {
+          "sub_question": "Q2.6",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.7",
+          "answer": "False - for AP1"
+        }
+      ]
+    },
+    {
+      "question": "Q3",
+      "sub_questions": [
+        {
+          "sub_question": "Q3.1",
+          "answer": "To adapt the changing in environment and users."
+        },
+        {
+          "sub_question": "Q3.2",
+          "answer": "C"
+        },
+        {
+          "sub_question": "Q3.3",
+          "answer": "error"
+        },
+        {
+          "sub_question": "Q3.4",
+          "answer": "applet"
+        },
+        {
+          "sub_question": "Q3.5",
+          "answer": "[NO_ANSWER]"
+        },
+        {
+          "sub_question": "Q3.6",
+          "answer": "API"
+        },
+        {
+          "sub_question": "Q3.7",
+          "answer": "JDBC"
+        }
+      ]
+    },
+    {
+      "question": "Q4",
+      "sub_questions": [
+        {
+          "sub_question": "Q4.1",
+          "answer": "Seats Student [i]+ you will take seat + is seat length Seats [i] student i+ you will take seat + i-4 here we print the index i | print the string from the array | you will tak seats seat[i]"
+        },
+        {
+          "sub_question": "Q4.2",
+          "answer": "Private Id numOfVotes = total votes define the class private - assign the values of total votes to numOf Votes because it's defined like this in next-lines."
+        }
+      ]
+    }
+  ]
+}

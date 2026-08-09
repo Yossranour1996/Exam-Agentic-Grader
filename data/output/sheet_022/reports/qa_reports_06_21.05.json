@@ -1,0 +1,56 @@
+[
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q1",
+        "identified_errors": [
+          {
+            "sub_question": "Q1.7",
+            "description": "The student's answer was penalized for not mentioning abstract classes or interfaces. However, the rubric allows for weak grammar or order, and the student's answer mentions 'climb abstraction', which could be interpreted as an attempt to refer to abstraction. Given the rubric's leniency, this should be reconsidered."
+          }
+        ],
+        "summary": "Q1.7 requires a re-evaluation due to potential misinterpretation of the student's intent regarding abstraction."
+      },
+      {
+        "question": "Q3",
+        "identified_errors": [
+          {
+            "sub_question": "Q3.6",
+            "description": "The student's answer 'control' was marked incorrect. However, given the rubric's leniency towards spelling/OCR variations, this should be reconsidered as a potential OCR error for 'Controller'."
+          }
+        ],
+        "summary": "Q3.6 requires a re-evaluation due to potential OCR error in the student's answer."
+      }
+    ]
+  },
+  {
+    "decision": "<REGRADE_REQUIRED>",
+    "audits": [
+      {
+        "question": "Q1",
+        "identified_errors": [
+          {
+            "sub_question": "Q1.7",
+            "description": "The student's answer did not mention abstract classes or interfaces, which are required for full marks. The justification provided does not align with the rubric's requirements."
+          }
+        ],
+        "summary": "Q1.7 was incorrectly awarded full marks despite the student's answer not meeting the rubric's criteria. The student did not mention abstract classes or interfaces, which are necessary for full marks."
+      },
+      {
+        "question": "Q3",
+        "identified_errors": [
+          {
+            "sub_question": "Q3.6",
+            "description": "The student's answer 'control' does not match the accepted term 'Controller'. The justification incorrectly accepts 'control' as a potential OCR error for 'Controller', which is not supported by the rubric."
+          }
+        ],
+        "summary": "Q3.6 was incorrectly awarded full marks. The rubric does not support 'control' as an acceptable answer for 'Controller', and the justification provided is not valid."
+      }
+    ]
+  },
+  {
+    "decision": "<NO_REGRADE>",
+    "audits": []
+  }
+]

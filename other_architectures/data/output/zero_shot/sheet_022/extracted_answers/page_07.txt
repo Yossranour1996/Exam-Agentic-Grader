@@ -1,0 +1,7 @@
+4.2
+Student [UNK] you will take Seat " + (4-2)
+because in Line 3 for (Int i=0; i<seats.length; i++)
+it is like the seat is opposite and the first be last one
+4.2
+private class
+number of Notes = double portion

@@ -1,0 +1,7 @@
+2.1 True
+2.2 False - possible
+2.3 True
+2.4 False - by method overriden
+2.5 True could have abstract
+2.6 True
+2.7 False - for API

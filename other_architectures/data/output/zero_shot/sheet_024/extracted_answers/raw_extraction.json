@@ -1,0 +1,42 @@
+[
+  {
+    "page": "page_01.png",
+    "text": ""
+  },
+  {
+    "page": "page_02.png",
+    "text": "1.1 We mean that it is not restricted by aspasific\narchitecture system\n1.2 WWW and Internet participat in programming\nrevolution because every code is written can't be shared\nand all the information about programming is available.\n1.3 POP: pruduse code that operate in program's goal\nOOP: uses class and opjeces to capsulate code and\ndata\nPOP\ncode\ndata\nOOP\ncode\ndata\n1.4 there are many componenes of the JRE\n1.5 Inheritance is making class based on existing one\nbue run time polymorphism can't be achieved by method\noverloading"
+  },
+  {
+    "page": "page_03.png",
+    "text": "1.6 We mean by encapsulation: dealing with data and\ncode at the same time, as capsuls and we\nuse it in OOP\n1.7 Abstract class and interface\n1.8 A thread could be terminate if:\nit finished his jop\nBroke for unusual reson\nDead\n1.9 The three Default streams in Java are:\nSystem.in\nSystem.out\nSystem.err\n1.10 Java API is used for dealing with data base\nBut API Java swing was built on top of model\nview of multilayer architecture"
+  },
+  {
+    "page": "page_04.png",
+    "text": "2.1 True\n2.2 True\n2.3 True\n2.4 False can't be achieved by overloading\n2.5 True\n2.6 True\n2.7 False Many drivers are there."
+  },
+  {
+    "page": "page_05.png",
+    "text": "3.1 To match environment updates and uses\n3.2 C\n3.3 Code\n3.4 Ithesnet java enabled web browser execution\n3.5 In compouent which resive information\n3.6 Multi Layers\n3.7 JDBC"
+  },
+  {
+    "page": "page_06.png",
+    "text": "4.1 CODE: String [i] + \" you will take seat\" + (4-i)\nSaving [i] will print one of the letters: M, C, ..\n\" you will be printed as it is every time in the\nloop.\n(4-i): represent the number of seat\n4.2 forLint\nPrivate string id;\nfor loop"
+  },
+  {
+    "page": "page_07.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_08.png",
+    "text": ""
+  },
+  {
+    "page": "page_09.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_10.png",
+    "text": ""
+  }
+]

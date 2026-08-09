@@ -1,0 +1,34 @@
+[
+  {
+    "page": "page_01.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_02.png",
+    "text": ""
+  },
+  {
+    "page": "page_03.png",
+    "text": "It means that\nquestion 1.\n1.1. It means the execution of Java program does\nnor depend on the Environment it runs on it [UNK] The\narchitecture of the Hardware and operating system\nof this environment I.\n1.2 WWW and Internet necessitated Cross-Platform\nPrograms to be distributed over many platform\nWhich consisted WWW and Internet. This necessity\nderived inventions and development of architecture-\nneutral languages.\n1.3\nPOP:-\n1- Its code is a sequence of functions acting on data.\n2- The concentration is on functions not data.\n3- In a multifunction programs, it defines some data be global\nin order to be used by multiple functions. That makes\nabsolute no restrictions on using data which increases\nthe possibility of being corrupted by misusing.\nWhen the program becomes much larger it is\nvery difficult to determine for data used by\nthose functions.\n4- They are described as code acting on data."
+  },
+  {
+    "page": "page_04.png",
+    "text": "OOP:-\n1- The code is a messages between objects\nwhich hold data and defining functions called\non that data.\n2- The concentration is on data rather than\nfunctions\n3- The data are grouped into objects which\ndefine the functions called on this data and make\nrestrictions on access and modifying this data.\n4- The code can be described as data controlling\nfunctions.\n1.4:-\n1- JVM\n2- Built-in packages\n3- programs for compiling, running Java code\n1.5:-\n1- polymorphism is a design concept or\ndesign method of making single object acts on many\nforms and inheritance is the actual implementation\nof that paradigm by making multiple objects\nof a given on different manner inherits a single\nobject.\n2- polymorphism is a design paradigm, but\ninheritance is implementation part by code.\n3- Inheritance is done used in class definition.\npolymorphism is used in calling of objects' functions\n4- Inheritance enables a programmer design a class\nby concentrate on only specific details of the class,\nand transfer but polymorphism and enables programmer\nin calling methods to concentrate on the function of"
+  },
+  {
+    "page": "page_05.png",
+    "text": "action of the method regardless of the specific object calls it.\n1.6 :-\nWrapping up code and data into a single\nentity.\n1.7\n1- Abstract classes 2- Interfaces.\n1.8\n1- Finishes their task and terminate normally\n2- It is dead and becomes not available.\n3- It terminates before finishing task due to\nunusual events.\n1.9 :-\n1- Standard Input Stream [Sys System.in]\n2- Standard Output Stream [System.out]\n3- Standard Error Stream [System.err]\n1.10 :-\nJFC API"
+  },
+  {
+    "page": "page_06.png",
+    "text": "Question TWO :-\n2.1 : True\n2.2 : Flase ; It is possible for an interface to inherits\nfrom multiple other interfaces, Properties,\n2.3 : True\n2.4 : Flase ; Runtime polymorphism could\nbe achieved by method overriding\n2.5 : flase ; abstract classes could have\nabstract methods within them\n2.6 : True\n2.7 : True\nQuestion 3 :-\n3.1 :- Implementing new innovations and features\nin the art of programming.\n3.2 : C language\n3.3 : The execution order of functions' definition\n3.4 : applets\n3.5 : a container\n3.6 : The Model-View-Controller\n3.7 : DBC\nQuestion 4 :-\n4.1 :-\nSystem.out.println (seats [i] + \", you will take\nseat \" + seats.get(i));\n// Because this code will print the name of the seat\nand its index in the list [seats] which is equal\nto the set seat's number. So the code will print\nthe desired output."
+  },
+  {
+    "page": "page_07.png",
+    "text": "4.2:\nCalculate Votes (760,0);\ncalculate Votes (total Votes);\nBecause when calling calculateVotes method\nwith argument (760). The value of portion becomes\n760 x 0.15 = 114. Then, the method will print\nthe desired output according to these circumstances."
+  },
+  {
+    "page": "page_08.png",
+    "text": ""
+  }
+]

@@ -1,0 +1,15 @@
+4). 1)
+Student [i] t", You
+Student [i] t", you will take seat" + [UNK] length
+(student.length)
+Student [i] t", you will take seat" + i [UNK] the output String.
+- You will take seat is the output String.
+- i (Student.length), because the Counting
+Started from i=0.
+4.2)
+private S&r
+Agree. Calculate Votes (total Votes)
+Calculate Votes (total Votes)
+no. Of Votes = total Votes.
+We have to define the function
+firstly.

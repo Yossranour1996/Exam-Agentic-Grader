@@ -1,0 +1,86 @@
+STUDENT ANSWERS:
+
+Question: Q1
+Sub-Question: Q1.1
+Answer: We mean that Java is not restricted to a specific architechure of computer.
+
+Sub-Question: Q1.2
+Answer: Java has taken a lot of instructions and Internet allowed and gave new features to the world of programing and Java created a special package simplified the internet.
+
+Sub-Question: Q1.3
+Answer: POP deals more about procedures (methods or code) and they are there major emphasis, on the other hand OOP uses the concept of classes to combine and focus on both data (which is not much focused on on POP) and methods (codes) and uses the concept of classes and objects.
+
+Sub-Question: Q1.4
+Answer: Compiler and implementation tools
+
+Sub-Question: Q1.5
+Answer: Inheritance means to use create a class from initial class. The new class can content the methods and dat attributes of the first class (created from), but polymorphism that inst. is taking instruction and features of a class and use it in general and can be.
+
+Sub-Question: Q1.6
+Answer: Encapsulation is to combine together data and codes (methods) and secure them from outside (interfaces) the classes.
+
+Sub-Question: Q1.7
+Answer: run time compile time class abstraction, function abstraction and unusual unusual.
+
+Sub-Question: Q1.8
+Answer: @ Instructions executed normally. @ Execution stopped due to an event @ Could be dead and unavailable.
+
+Sub-Question: Q1.9
+Answer: System. In System. out System. err
+
+Sub-Question: Q1.10
+Answer: API Java swing was built on the top of JDBC to connet and interact to database.
+
+
+Question: Q2
+Sub-Question: Q2.1
+Answer: True
+
+Sub-Question: Q2.2
+Answer: True
+
+Sub-Question: Q2.3
+Answer: True
+
+Sub-Question: Q2.4
+Answer: False. It is achieved by method overriding.
+
+Sub-Question: Q2.5
+Answer: False. It couldn't have a non-abstracted method inside it.
+
+Sub-Question: Q2.6
+Answer: True
+
+Sub-Question: Q2.7
+Answer: False There are more than one driver True
+
+
+Question: Q3
+Sub-Question: Q3.1
+Answer: limitation
+
+Sub-Question: Q3.2
+Answer: C
+
+Sub-Question: Q3.3
+Answer: data
+
+Sub-Question: Q3.4
+Answer: servlet and Applet
+
+Sub-Question: Q3.5
+Answer: Frame
+
+Sub-Question: Q3.6
+Answer: controller
+
+Sub-Question: Q3.7
+Answer: JBDC
+
+
+Question: Q4
+Sub-Question: Q4.1
+Answer: [UNK] You will take seat Student's [UNK] # "You will take seat" (4-1):
+
+Sub-Question: Q4.2
+Answer: Calculate [UNK] votes ():

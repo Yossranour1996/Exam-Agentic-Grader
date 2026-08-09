@@ -1,0 +1,42 @@
+[
+  {
+    "page": "page_01.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_02.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_03.png",
+    "text": "1.1 Java is not tied to external architecture\n1.2 make it hereach easy to develop programs.\n1.3 the POP have Procedure with data, but OOP treat\nby Classes and objects to encapsulate data and codes.\n1.4 JVD\n1.5 Inheritance is to decide with which class has the properties of the\nother, but polymorphism is features deffent\ninactions (many forms), that program can be implemented\nby different forms.\n1.6 hiding data and codes to not be achieved by\nexternal code of interface\n1.7. abstraction interface, and abstraction class\n1.8. unusual treated terminated\nfinish\n1.9 System.in, System.out, System.err\n1.10 Data"
+  },
+  {
+    "page": "page_04.png",
+    "text": "2.1 False - The Java language\n2.2 False - Possible\n2.3 True\n2.4 False - threading\n2.5 False - couldnot\n2.6 True\n2.7 False - for AP1\n3.1 To adapt the changing in environment and users.\n3.2 C\n3.3 error\n3.4 applet\n3.6 API\n3.7 JDBC"
+  },
+  {
+    "page": "page_05.png",
+    "text": "4.1\nSeats\nStudent [i]+ you will take seat + is seat length\nSeats [i]\nstudent i+ you will take seat + i-4\nhere we\nprint the index i | print the string\nfrom the array | you will tak seats\nseat[i]\n4.2 Private Id\nnumOfVotes = total votes\ndefine the class private\n- assign the values of total votes to numOf Votes\nbecause it's defined like this in next-lines."
+  },
+  {
+    "page": "page_06.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_07.png",
+    "text": ""
+  },
+  {
+    "page": "page_08.png",
+    "text": "EMPTY"
+  },
+  {
+    "page": "page_09.png",
+    "text": ""
+  },
+  {
+    "page": "page_10.png",
+    "text": "EMPTY"
+  }
+]

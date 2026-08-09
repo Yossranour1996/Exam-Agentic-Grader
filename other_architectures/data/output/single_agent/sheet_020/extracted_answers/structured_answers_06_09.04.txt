@@ -1,0 +1,86 @@
+STUDENT ANSWERS:
+
+Question: Q1
+Sub-Question: Q1.1
+Answer: Java is not tied to external architecture
+
+Sub-Question: Q1.2
+Answer: make it hereach easy to develop programs.
+
+Sub-Question: Q1.3
+Answer: the POP have Procedure with data, but OOP treat by Classes and objects to encapsulate data and codes.
+
+Sub-Question: Q1.4
+Answer: JVD
+
+Sub-Question: Q1.5
+Answer: Inheritance is to decide with which class has the properties of the other, but polymorphism is features deffent inactions (many forms), that program can be implemented by different forms.
+
+Sub-Question: Q1.6
+Answer: hiding data and codes to not be achieved by external code of interface
+
+Sub-Question: Q1.7
+Answer: abstraction interface, and abstraction class
+
+Sub-Question: Q1.8
+Answer: unusual treated terminated finish
+
+Sub-Question: Q1.9
+Answer: System.in, System.out, System.err
+
+Sub-Question: Q1.10
+Answer: Data
+
+
+Question: Q2
+Sub-Question: Q2.1
+Answer: False - The Java language
+
+Sub-Question: Q2.2
+Answer: False - Possible
+
+Sub-Question: Q2.3
+Answer: True
+
+Sub-Question: Q2.4
+Answer: False - threading
+
+Sub-Question: Q2.5
+Answer: False - couldnot
+
+Sub-Question: Q2.6
+Answer: True
+
+Sub-Question: Q2.7
+Answer: False - for AP1
+
+
+Question: Q3
+Sub-Question: Q3.1
+Answer: To adapt the changing in environment and users.
+
+Sub-Question: Q3.2
+Answer: C
+
+Sub-Question: Q3.3
+Answer: error
+
+Sub-Question: Q3.4
+Answer: applet
+
+Sub-Question: Q3.5
+Answer: [NO_ANSWER]
+
+Sub-Question: Q3.6
+Answer: API
+
+Sub-Question: Q3.7
+Answer: JDBC
+
+
+Question: Q4
+Sub-Question: Q4.1
+Answer: Seats Student [i]+ you will take seat + is seat length Seats [i] student i+ you will take seat + i-4 here we print the index i | print the string from the array | you will tak seats seat[i]
+
+Sub-Question: Q4.2
+Answer: Private Id numOfVotes = total votes define the class private - assign the values of total votes to numOf Votes because it's defined like this in next-lines.

@@ -1,0 +1,121 @@
+Total Mark: 66
+
+Evaluations:
+Question: Q1
+Total Score: 18
+
+Sub-Question: Q1.1
+Score: 3
+Justification: The student correctly conveyed that Java can run in multiple environments and architectures.
+
+Sub-Question: Q1.2
+Score: 3
+Justification: The student provided a valid explanation without mentioning Applet or Servlet.
+
+Sub-Question: Q1.3
+Score: 3
+Justification: The student correctly differentiated between OOP and POP, mentioning objects/classes and procedures/functions.
+
+Sub-Question: Q1.4
+Score: 0
+Justification: The student did not mention JVM, libraries, or supporting files.
+
+Sub-Question: Q1.5
+Score: 2
+Justification: The student correctly explained inheritance but provided an incorrect explanation for polymorphism.
+
+Sub-Question: Q1.6
+Score: 0
+Justification: The student did not correctly explain encapsulation as binding code and data together.
+
+Sub-Question: Q1.7
+Score: 3
+Justification: The student correctly mentioned abstract classes and interfaces.
+
+Sub-Question: Q1.8
+Score: 0
+Justification: The student did not provide any correct reasons for thread termination.
+
+Sub-Question: Q1.9
+Score: 3
+Justification: The student correctly identified System.in, System.out, and System.err, despite minor spelling errors.
+
+Sub-Question: Q1.10
+Score: 0
+Justification: The student did not mention AWT or Abstract Window Toolkit.
+
+
+Question: Q2
+Total Score: 21
+
+Sub-Question: Q2.1
+Score: 3
+Justification: The student correctly chose True.
+
+Sub-Question: Q2.2
+Score: 3
+Justification: The student correctly chose False.
+
+Sub-Question: Q2.3
+Score: 3
+Justification: The student correctly chose True.
+
+Sub-Question: Q2.4
+Score: 3
+Justification: The student correctly chose False.
+
+Sub-Question: Q2.5
+Score: 3
+Justification: The student correctly chose True.
+
+Sub-Question: Q2.6
+Score: 3
+Justification: The student correctly chose True.
+
+Sub-Question: Q2.7
+Score: 3
+Justification: The student correctly chose False.
+
+
+Question: Q3
+Total Score: 9
+
+Sub-Question: Q3.1
+Score: 3
+Justification: The student was given full marks as per the rubric.
+
+Sub-Question: Q3.2
+Score: 3
+Justification: The student correctly mentioned 'C language'.
+
+Sub-Question: Q3.3
+Score: 3
+Justification: The student correctly mentioned 'DATA'.
+
+Sub-Question: Q3.4
+Score: 0
+Justification: The student incorrectly mentioned 'HTML' instead of 'Applet/Applets'.
+
+Sub-Question: Q3.5
+Score: 0
+Justification: The student incorrectly mentioned 'JADP'.
+
+Sub-Question: Q3.6
+Score: 0
+Justification: The student incorrectly mentioned 'mobile'.
+
+Sub-Question: Q3.7
+Score: 0
+Justification: The student incorrectly mentioned 'swing'.
+
+
+Question: Q4
+Total Score: 18
+
+Sub-Question: Q4.1
+Score: 14
+Justification: The student was given full marks as per the rubric.
+
+Sub-Question: Q4.2
+Score: 4
+Justification: The student provided an incorrect answer unrelated to votes, but it was nonblank.

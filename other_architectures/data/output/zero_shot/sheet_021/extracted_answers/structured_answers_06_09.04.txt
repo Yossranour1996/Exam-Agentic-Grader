@@ -1,0 +1,86 @@
+STUDENT ANSWERS:
+
+Question: Q1
+Sub-Question: Q1.1
+Answer: that mean that Java is not reschival (tidup) with Sepsific architecture system.
+
+Sub-Question: Q1.2
+Answer: the internet websites need programs programs, make pep people wants to use the PC because of the internet.
+
+Sub-Question: Q1.3
+Answer: (pop) Use peruden to achieve the gole of the program (oop) use objects and classes and encapsulation.
+
+Sub-Question: Q1.4
+Answer: For fann, contApps program
+
+Sub-Question: Q1.5
+Answer: inheritance is creating a Class based on the old one and use their is ability. polymorphism is it allow to let the the interface to be used by all public classes
+
+Sub-Question: Q1.6
+Answer: is encrypting data in mainplus and protect it from our side interface.
+
+Sub-Question: Q1.7
+Answer: abstract interface
+
+Sub-Question: Q1.8
+Answer: is finished the task interface with unusual situations ( [UNK] ) ability to make Change.
+
+Sub-Question: Q1.9
+Answer: System.in System.Out Sg. System.h
+
+Sub-Question: Q1.10
+Answer: C++ and C Language
+
+
+Question: Q2
+Sub-Question: Q2.1
+Answer: true
+
+Sub-Question: Q2.2
+Answer: true
+
+Sub-Question: Q2.3
+Answer: true
+
+Sub-Question: Q2.4
+Answer: False By data overloading
+
+Sub-Question: Q2.5
+Answer: False abstract classes is protected from any abstract method
+
+Sub-Question: Q2.6
+Answer: false
+
+Sub-Question: Q2.7
+Answer: False then is JBR JDB for every group of data
+
+
+Question: Q3
+Sub-Question: Q3.1
+Answer: to Apapr to environment and the usos.
+
+Sub-Question: Q3.2
+Answer: Cta (C) Language
+
+Sub-Question: Q3.3
+Answer: interface
+
+Sub-Question: Q3.4
+Answer: Java applets
+
+Sub-Question: Q3.5
+Answer: form
+
+Sub-Question: Q3.6
+Answer: control
+
+Sub-Question: Q3.7
+Answer: [UNK] JDBC
+
+
+Question: Q4
+Sub-Question: Q4.1
+Answer: Students [IP] "you will take your seat " (students.length == 9) Students [IP3] "you will take your seat" (i=4)
+
+Sub-Question: Q4.2
+Answer: (print praivit Strong Id j

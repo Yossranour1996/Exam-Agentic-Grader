@@ -1,0 +1,128 @@
+{
+  "questions": [
+    {
+      "question": "Q1",
+      "sub_questions": [
+        {
+          "sub_question": "Q1.1",
+          "answer": "That means java is not restricted to specific architecture environment."
+        },
+        {
+          "sub_question": "Q1.2",
+          "answer": "applications were shared over internet,"
+        },
+        {
+          "sub_question": "Q1.3",
+          "answer": "POP use the code and operate it in the data, to achieve the program, while oop use objects and classes and encapsulate code and data to achieve the program."
+        },
+        {
+          "sub_question": "Q1.4",
+          "answer": "Compiler - JVN"
+        },
+        {
+          "sub_question": "Q1.5",
+          "answer": "inheritance means the process in which one object take the properties of another object, while polymorphism means a feature that allows the interface to take general class of action"
+        },
+        {
+          "sub_question": "Q1.6",
+          "answer": "encapsulation is the process in which both code and data are bind together and being protected from external interference"
+        },
+        {
+          "sub_question": "Q1.7",
+          "answer": "Class, abstraction, interface, abstraction"
+        },
+        {
+          "sub_question": "Q1.8",
+          "answer": "1) the thread has been completed normally. 2) The thread has stopped because of unusual event 3) is dead or no longer available"
+        },
+        {
+          "sub_question": "Q1.9",
+          "answer": "System.out, System.in, System.err"
+        },
+        {
+          "sub_question": "Q1.10",
+          "answer": "connect with the database AWI"
+        }
+      ]
+    },
+    {
+      "question": "Q2",
+      "sub_questions": [
+        {
+          "sub_question": "Q2.1",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.2",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.3",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.4",
+          "answer": "False by method override"
+        },
+        {
+          "sub_question": "Q2.5",
+          "answer": "False. Could have abstract methods within them."
+        },
+        {
+          "sub_question": "Q2.6",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.7",
+          "answer": "True"
+        }
+      ]
+    },
+    {
+      "question": "Q3",
+      "sub_questions": [
+        {
+          "sub_question": "Q3.1",
+          "answer": "Implement improvements in the art of programming"
+        },
+        {
+          "sub_question": "Q3.2",
+          "answer": "C"
+        },
+        {
+          "sub_question": "Q3.3",
+          "answer": "data"
+        },
+        {
+          "sub_question": "Q3.4",
+          "answer": "Applet"
+        },
+        {
+          "sub_question": "Q3.5",
+          "answer": "Container"
+        },
+        {
+          "sub_question": "Q3.6",
+          "answer": "Controller"
+        },
+        {
+          "sub_question": "Q3.7",
+          "answer": "JDBC"
+        }
+      ]
+    },
+    {
+      "question": "Q4",
+      "sub_questions": [
+        {
+          "sub_question": "Q4.1",
+          "answer": "Seats[i] + \"you will take seat\" + (i) because we need to define the printed output and it Contains the items of String[] Seats and their indexes."
+        },
+        {
+          "sub_question": "Q4.2",
+          "answer": "Calculate Votes (total Votes);"
+        }
+      ]
+    }
+  ]
+}

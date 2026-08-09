@@ -1,0 +1,161 @@
+{
+  "grading": {
+    "total_mark": 76,
+    "evaluations": [
+      {
+        "question_id": "Q1",
+        "total_score": 18,
+        "sub_evaluations": [
+          {
+            "sub_question_id": "Q1.1",
+            "score": 3,
+            "justification": "The student correctly conveyed that Java is not restricted to a specific architecture."
+          },
+          {
+            "sub_question_id": "Q1.2",
+            "score": 3,
+            "justification": "The answer is nonblank and does not mention Applet or Servlet."
+          },
+          {
+            "sub_question_id": "Q1.3",
+            "score": 3,
+            "justification": "The student correctly described the difference between POP and OOP."
+          },
+          {
+            "sub_question_id": "Q1.4",
+            "score": 0,
+            "justification": "The student did not mention any of the expected components (JVM, libraries, supporting files)."
+          },
+          {
+            "sub_question_id": "Q1.5",
+            "score": 2,
+            "justification": "The student correctly described inheritance but the explanation of polymorphism was unclear."
+          },
+          {
+            "sub_question_id": "Q1.6",
+            "score": 3,
+            "justification": "The student correctly described encapsulation as combining data and methods."
+          },
+          {
+            "sub_question_id": "Q1.7",
+            "score": 0,
+            "justification": "The student did not mention abstract classes or interfaces."
+          },
+          {
+            "sub_question_id": "Q1.8",
+            "score": 3,
+            "justification": "The student provided three valid reasons for thread termination."
+          },
+          {
+            "sub_question_id": "Q1.9",
+            "score": 3,
+            "justification": "The student correctly identified the three default streams in Java."
+          },
+          {
+            "sub_question_id": "Q1.10",
+            "score": 0,
+            "justification": "The student incorrectly stated that Java Swing was built on JDBC."
+          }
+        ]
+      },
+      {
+        "question_id": "Q2",
+        "total_score": 12,
+        "sub_evaluations": [
+          {
+            "sub_question_id": "Q2.1",
+            "score": 3,
+            "justification": "The student correctly chose True."
+          },
+          {
+            "sub_question_id": "Q2.2",
+            "score": 0,
+            "justification": "The student incorrectly chose True."
+          },
+          {
+            "sub_question_id": "Q2.3",
+            "score": 3,
+            "justification": "The student correctly chose True."
+          },
+          {
+            "sub_question_id": "Q2.4",
+            "score": 3,
+            "justification": "The student correctly chose False."
+          },
+          {
+            "sub_question_id": "Q2.5",
+            "score": 0,
+            "justification": "The student incorrectly chose False."
+          },
+          {
+            "sub_question_id": "Q2.6",
+            "score": 3,
+            "justification": "The student correctly chose True."
+          },
+          {
+            "sub_question_id": "Q2.7",
+            "score": 0,
+            "justification": "The student provided an unclear answer, mentioning both False and True."
+          }
+        ]
+      },
+      {
+        "question_id": "Q3",
+        "total_score": 18,
+        "sub_evaluations": [
+          {
+            "sub_question_id": "Q3.1",
+            "score": 3,
+            "justification": "Always full marks."
+          },
+          {
+            "sub_question_id": "Q3.2",
+            "score": 3,
+            "justification": "The student correctly answered C."
+          },
+          {
+            "sub_question_id": "Q3.3",
+            "score": 3,
+            "justification": "The student correctly answered data."
+          },
+          {
+            "sub_question_id": "Q3.4",
+            "score": 3,
+            "justification": "The student correctly mentioned Applet."
+          },
+          {
+            "sub_question_id": "Q3.5",
+            "score": 3,
+            "justification": "The student correctly answered Frame."
+          },
+          {
+            "sub_question_id": "Q3.6",
+            "score": 0,
+            "justification": "The student incorrectly answered controller with a lowercase 'c'."
+          },
+          {
+            "sub_question_id": "Q3.7",
+            "score": 3,
+            "justification": "The student correctly answered JBDC, which is a minor spelling error but clearly intended to be JDBC."
+          }
+        ]
+      },
+      {
+        "question_id": "Q4",
+        "total_score": 28,
+        "sub_evaluations": [
+          {
+            "sub_question_id": "Q4.1",
+            "score": 14,
+            "justification": "Always full marks."
+          },
+          {
+            "sub_question_id": "Q4.2",
+            "score": 14,
+            "justification": "The student mentioned both calculateVotes and totalVotes."
+          }
+        ]
+      }
+    ]
+  }
+}

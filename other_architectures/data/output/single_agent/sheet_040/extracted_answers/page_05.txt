@@ -1,0 +1,7 @@
+2-1 True
+2-2 False it is possible
+2-3 True
+2-4 False , by method overriding
+2-5 True
+2-6 True
+2-7 False , there are several JDBC drivers

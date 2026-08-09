@@ -1,0 +1,9 @@
+2.1: true
+2.2: False => it is not possible For an interface to implement
+another interFace properties
+2.3: True
+2.4: False => runtime polymorphism could be achieved
+by method overriding
+2.5: true
+2.6: True
+2.7: True

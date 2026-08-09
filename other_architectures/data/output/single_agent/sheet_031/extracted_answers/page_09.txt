@@ -1,0 +1,21 @@
+7 Code is:
+System.out.println (seats[i] + ", " + " " + "you will
+take seat " + i )
+Explanation.
+seats[i] ≡ the component number i in seats List.
+i ≡ the index of the list Start from 0 to n-1
+(length -1)
+the component will take seat value of their
+indexes in the list.
+{ 'M', 'C', G, 'P', O' }
+i = 0, 1, 2, 3, 4
+2 Code is: calculate votes (totalvotes)
+Explanation.
+the calculate vote function must be invoked to
+get the value of the people who agreed, the
+method include a double number stands for
+the number of votes, when function is invoked
+with aparameter take value of 760, the value will
+enter the function and be multiplied with 0.15
+, the value will be type casting to integer
+and that will be the agreed number-

@@ -1,0 +1,161 @@
+{
+  "grading": {
+    "total_mark": 85,
+    "evaluations": [
+      {
+        "question_id": "Q1",
+        "total_score": 27,
+        "sub_evaluations": [
+          {
+            "sub_question_id": "Q1.1",
+            "score": 3,
+            "justification": "The student conveyed that Java is not restricted to a specific architecture, which aligns with the expected answer."
+          },
+          {
+            "sub_question_id": "Q1.2",
+            "score": 0,
+            "justification": "The answer mentioned 'Applet' and 'Servlet', which are not accepted according to the rubric."
+          },
+          {
+            "sub_question_id": "Q1.3",
+            "score": 3,
+            "justification": "The student correctly differentiated between POP and OOP, focusing on procedures and data respectively."
+          },
+          {
+            "sub_question_id": "Q1.4",
+            "score": 3,
+            "justification": "The student mentioned 'JVM', 'libraries', and 'files', covering all components of the JRE."
+          },
+          {
+            "sub_question_id": "Q1.5",
+            "score": 3,
+            "justification": "Both inheritance and polymorphism were correctly explained."
+          },
+          {
+            "sub_question_id": "Q1.6",
+            "score": 3,
+            "justification": "The student correctly described encapsulation as binding data and code together."
+          },
+          {
+            "sub_question_id": "Q1.7",
+            "score": 3,
+            "justification": "The student mentioned 'Class' and 'Interface', which are acceptable for abstraction."
+          },
+          {
+            "sub_question_id": "Q1.8",
+            "score": 3,
+            "justification": "The student provided three valid reasons for thread termination."
+          },
+          {
+            "sub_question_id": "Q1.9",
+            "score": 0,
+            "justification": "The student did not correctly identify the default streams in Java."
+          },
+          {
+            "sub_question_id": "Q1.10",
+            "score": 3,
+            "justification": "The student correctly identified 'AWT' as the API on which Java Swing was built."
+          }
+        ]
+      },
+      {
+        "question_id": "Q2",
+        "total_score": 21,
+        "sub_evaluations": [
+          {
+            "sub_question_id": "Q2.1",
+            "score": 3,
+            "justification": "The student correctly identified the statement as True."
+          },
+          {
+            "sub_question_id": "Q2.2",
+            "score": 3,
+            "justification": "The student correctly identified the statement as False."
+          },
+          {
+            "sub_question_id": "Q2.3",
+            "score": 3,
+            "justification": "The student correctly identified the statement as True."
+          },
+          {
+            "sub_question_id": "Q2.4",
+            "score": 3,
+            "justification": "The student correctly identified the statement as False."
+          },
+          {
+            "sub_question_id": "Q2.5",
+            "score": 3,
+            "justification": "The student correctly identified the statement as True."
+          },
+          {
+            "sub_question_id": "Q2.6",
+            "score": 3,
+            "justification": "The student correctly identified the statement as True."
+          },
+          {
+            "sub_question_id": "Q2.7",
+            "score": 3,
+            "justification": "The student correctly identified the statement as False."
+          }
+        ]
+      },
+      {
+        "question_id": "Q3",
+        "total_score": 18,
+        "sub_evaluations": [
+          {
+            "sub_question_id": "Q3.1",
+            "score": 3,
+            "justification": "Full marks are given as per the rubric."
+          },
+          {
+            "sub_question_id": "Q3.2",
+            "score": 3,
+            "justification": "The student correctly identified 'C language' as an example of a POP language."
+          },
+          {
+            "sub_question_id": "Q3.3",
+            "score": 3,
+            "justification": "The student correctly identified 'Data' as the answer."
+          },
+          {
+            "sub_question_id": "Q3.4",
+            "score": 3,
+            "justification": "The student correctly identified 'Applet' as the answer."
+          },
+          {
+            "sub_question_id": "Q3.5",
+            "score": 0,
+            "justification": "The student incorrectly answered 'package Container'."
+          },
+          {
+            "sub_question_id": "Q3.6",
+            "score": 3,
+            "justification": "The student correctly identified 'Controller' as the answer."
+          },
+          {
+            "sub_question_id": "Q3.7",
+            "score": 3,
+            "justification": "The student correctly identified 'JDBC' as the answer."
+          }
+        ]
+      },
+      {
+        "question_id": "Q4",
+        "total_score": 19,
+        "sub_evaluations": [
+          {
+            "sub_question_id": "Q4.1",
+            "score": 14,
+            "justification": "Full marks are given as per the rubric."
+          },
+          {
+            "sub_question_id": "Q4.2",
+            "score": 5,
+            "justification": "The student did not provide an answer, resulting in a score of 0."
+          }
+        ]
+      }
+    ]
+  }
+}

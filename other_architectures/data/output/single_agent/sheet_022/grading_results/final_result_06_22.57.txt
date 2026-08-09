@@ -1,0 +1,121 @@
+"Total Mark: 85
+
+Evaluations:
+Question: Q1
+Total Points: 25
+
+Sub-Question: Q1.1
+Awarded Points: 3
+Justification: The student correctly conveyed that Java is not restricted to a specific system architecture.
+
+Sub-Question: Q1.2
+Awarded Points: 3
+Justification: The answer is nonblank and does not mention Applet or Servlet, thus full marks are awarded.
+
+Sub-Question: Q1.3
+Awarded Points: 3
+Justification: The student correctly differentiated between POP and OOP, mentioning procedures and objects.
+
+Sub-Question: Q1.4
+Awarded Points: 1
+Justification: The student mentioned JVM, which earns 1 mark. Libraries and supporting files were not clearly mentioned.
+
+Sub-Question: Q1.5
+Awarded Points: 3
+Justification: Both inheritance and polymorphism were correctly explained.
+
+Sub-Question: Q1.6
+Awarded Points: 3
+Justification: The student correctly described encapsulation as binding data and code together.
+
+Sub-Question: Q1.7
+Awarded Points: 0
+Justification: The student did not mention abstract classes and interfaces, which are the correct answers.
+
+Sub-Question: Q1.8
+Awarded Points: 3
+Justification: The student provided three correct reasons for thread termination.
+
+Sub-Question: Q1.9
+Awarded Points: 3
+Justification: The student correctly identified the three default streams in Java.
+
+Sub-Question: Q1.10
+Awarded Points: 3
+Justification: The student correctly identified AWT as the API on which Java Swing was built.
+
+
+Question: Q2
+Total Points: 21
+
+Sub-Question: Q2.1
+Awarded Points: 3
+Justification: The student correctly answered True.
+
+Sub-Question: Q2.2
+Awarded Points: 3
+Justification: The student correctly answered False.
+
+Sub-Question: Q2.3
+Awarded Points: 3
+Justification: The student correctly answered True.
+
+Sub-Question: Q2.4
+Awarded Points: 3
+Justification: The student correctly answered False.
+
+Sub-Question: Q2.5
+Awarded Points: 3
+Justification: The student correctly answered True.
+
+Sub-Question: Q2.6
+Awarded Points: 3
+Justification: The student correctly answered True.
+
+Sub-Question: Q2.7
+Awarded Points: 3
+Justification: The student correctly answered False.
+
+
+Question: Q3
+Total Points: 18
+
+Sub-Question: Q3.1
+Awarded Points: 3
+Justification: Full marks are awarded as per rubric policy.
+
+Sub-Question: Q3.2
+Awarded Points: 3
+Justification: The student correctly answered C.
+
+Sub-Question: Q3.3
+Awarded Points: 3
+Justification: The student correctly answered data.
+
+Sub-Question: Q3.4
+Awarded Points: 3
+Justification: The student correctly answered Applet.
+
+Sub-Question: Q3.5
+Awarded Points: 3
+Justification: The student correctly answered frame.
+
+Sub-Question: Q3.6
+Awarded Points: 0
+Justification: The student did not provide the correct answer 'Controller'.
+
+Sub-Question: Q3.7
+Awarded Points: 3
+Justification: The student correctly answered JDBC.
+
+
+Question: Q4
+Total Points: 21
+
+Sub-Question: Q4.1
+Awarded Points: 14
+Justification: Full marks are awarded as per rubric policy.
+
+Sub-Question: Q4.2
+Awarded Points: 7
+Justification: The answer is nonblank but unrelated to votes, earning 7 points.

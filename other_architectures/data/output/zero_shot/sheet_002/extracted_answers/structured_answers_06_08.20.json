@@ -1,0 +1,128 @@
+{
+  "questions": [
+    {
+      "question": "Q1",
+      "sub_questions": [
+        {
+          "sub_question": "Q1.1",
+          "answer": "Java is not tied to specific machine or operating System architecture."
+        },
+        {
+          "sub_question": "Q1.2",
+          "answer": "They help catapult Java to the forefront of programming, and They will soon reach critical mass."
+        },
+        {
+          "sub_question": "Q1.3",
+          "answer": "POP: Process oriented model can be thought as code acting on data & its major emphasize is on developing Procedures (Function) rather than data & can divide program into smaller part & each part consist of sequence of procedures & function. While OOP: object oriented programming can be thought as data controlling access to code, it uses class & methods to manipulate data & code, it can divide problems into smaller entities called \"object\" & build function and data around these objects."
+        },
+        {
+          "sub_question": "Q1.4",
+          "answer": "JRE: is Java runtime environment to only run (execute) not develop the Java application Program."
+        },
+        {
+          "sub_question": "Q1.5",
+          "answer": "Inheritance is a process in which one object acquire the properties of other objects (creating new class based on already existing one. Subclass reuse all method & attributes of super class. While polymorphism is a feature that allow one interface to be used for general class of action, and specific action is determined based on nature of the situation."
+        },
+        {
+          "sub_question": "Q1.6",
+          "answer": "encapsulation mean bind together data & code it manipulate & keep both safe from outside interference & misuse."
+        },
+        {
+          "sub_question": "Q1.7",
+          "answer": "achieve abstraction by : abstract classes & Interface (we can achieve 100% abstraction using interface-"
+        },
+        {
+          "sub_question": "Q1.8",
+          "answer": "reasons are : normally finished the task . 2- Terminated due to un usual event . 3- Dead & no longer available."
+        },
+        {
+          "sub_question": "Q1.9",
+          "answer": "1-System.out 2-System.in 3.system.err"
+        },
+        {
+          "sub_question": "Q1.10",
+          "answer": "model view controller AWT"
+        }
+      ]
+    },
+    {
+      "question": "Q2",
+      "sub_questions": [
+        {
+          "sub_question": "Q2.1",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.2",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.3",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.4",
+          "answer": "False"
+        },
+        {
+          "sub_question": "Q2.5",
+          "answer": "False"
+        },
+        {
+          "sub_question": "Q2.6",
+          "answer": "True"
+        },
+        {
+          "sub_question": "Q2.7",
+          "answer": "True"
+        }
+      ]
+    },
+    {
+      "question": "Q3",
+      "sub_questions": [
+        {
+          "sub_question": "Q3.1",
+          "answer": "adapt to changing environment and uses is one of reasons."
+        },
+        {
+          "sub_question": "Q3.2",
+          "answer": "C is an example of a POP language."
+        },
+        {
+          "sub_question": "Q3.3",
+          "answer": "POP does not allow data"
+        },
+        {
+          "sub_question": "Q3.4",
+          "answer": "Applet are small programs"
+        },
+        {
+          "sub_question": "Q3.5",
+          "answer": "a From container is a component which"
+        },
+        {
+          "sub_question": "Q3.6",
+          "answer": "The model view controlled architecture."
+        },
+        {
+          "sub_question": "Q3.7",
+          "answer": "JDBC is a Java API"
+        }
+      ]
+    },
+    {
+      "question": "Q4",
+      "sub_questions": [
+        {
+          "sub_question": "Q4.1",
+          "answer": "Code = (Students E I ] + \"You will take seat\" + (i))"
+        },
+        {
+          "sub_question": "Q4.2",
+          "answer": "Code = Calculate Votes (total votes);"
+        }
+      ]
+    }
+  ]
+}

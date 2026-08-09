@@ -1,0 +1,7 @@
+1. adapt the environmental change and uses
+2. C
+3. Data.
+4. Applets -
+5. Panel
+6. Controller.
+7. Data base manyal connectivity "DBMC"

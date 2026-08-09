@@ -1,0 +1,136 @@
+Final Grading and Feedback Results
+Grading:
+
+Total Mark: 81
+
+Evaluations:
+"Question: Q1
+Total Points: 25
+
+Sub-Question: Q1.1
+Awarded Points: 3
+Justification: The student correctly conveyed that Java can work on any architectural environment or device, which aligns with the concept of architecture-neutral.
+
+Sub-Question: Q1.2
+Awarded Points: 3
+Justification: The student provided a non-blank answer that did not mention Applet or Servlet, thus meeting the rubric criteria for full marks.
+
+Sub-Question: Q1.3
+Awarded Points: 3
+Justification: The student correctly described POP as procedure-oriented and OOP as class/object-oriented, fulfilling the rubric requirements.
+
+Sub-Question: Q1.4
+Awarded Points: 1
+Justification: The student mentioned JVM, which earns 1 mark. However, libraries and supporting files were not mentioned, so only partial credit is awarded.
+
+Sub-Question: Q1.5
+Awarded Points: 3
+Justification: The student correctly explained both inheritance and polymorphism, meeting the rubric criteria for full marks.
+
+Sub-Question: Q1.6
+Awarded Points: 3
+Justification: The student correctly described encapsulation as binding code and data together, fulfilling the rubric requirements.
+
+Sub-Question: Q1.7
+Awarded Points: 3
+Justification: The student mentioned 'Class abstract' and 'Interfaces abstract', which are acceptable variations of abstract classes and interfaces, thus earning full marks.
+
+Sub-Question: Q1.8
+Awarded Points: 3
+Justification: The student provided three valid reasons for thread termination: task completion, unusual events, and being stopped, earning full marks.
+
+Sub-Question: Q1.9
+Awarded Points: 3
+Justification: Despite minor spelling errors, the student's intent was clear for System.in, System.out, and System.err, thus earning full marks.
+
+Sub-Question: Q1.10
+Awarded Points: 0
+Justification: The student incorrectly mentioned JDBC instead of AWT or Abstract Window Toolkit. The rubric requires a correct equivalent, which was not provided.
+
+
+"Question: Q2
+Total Points: 12
+
+Sub-Question: Q2.1
+Awarded Points: 3
+Justification: The student correctly answered 'True', which matches the expected answer.
+
+Sub-Question: Q2.2
+Awarded Points: 0
+Justification: The student answered 'True', but the expected answer is 'False'. Therefore, 0 points are awarded.
+
+Sub-Question: Q2.3
+Awarded Points: 3
+Justification: The student correctly answered 'True', which matches the expected answer.
+
+Sub-Question: Q2.4
+Awarded Points: 3
+Justification: The student correctly answered 'False', which matches the expected answer.
+
+Sub-Question: Q2.5
+Awarded Points: 0
+Justification: The student answered 'False', but the expected answer is 'True'. Therefore, 0 points are awarded.
+
+Sub-Question: Q2.6
+Awarded Points: 3
+Justification: The student correctly answered 'True', which matches the expected answer.
+
+Sub-Question: Q2.7
+Awarded Points: 0
+Justification: The student answered 'True', but the expected answer is 'False'. Therefore, 0 points are awarded.
+
+
+"Question: Q3
+Total Points: 21
+
+Sub-Question: Q3.1
+Awarded Points: 3
+Justification: The answer 'Improvement' directly matches the accepted concept 'improvement'. Award full points.
+
+Sub-Question: Q3.2
+Awarded Points: 3
+Justification: The answer 'C programming language.' directly matches the accepted concept 'C'. Award full points.
+
+Sub-Question: Q3.3
+Awarded Points: 3
+Justification: The answer 'data.' directly matches the accepted concept 'data'. Award full points.
+
+Sub-Question: Q3.4
+Awarded Points: 3
+Justification: The answer 'Applet' directly matches the accepted concept 'Applet'. Award full points.
+
+Sub-Question: Q3.5
+Awarded Points: 3
+Justification: The answer 'Container' directly matches the accepted concept 'Container'. Award full points.
+
+Sub-Question: Q3.6
+Awarded Points: 3
+Justification: The answer 'Controller' directly matches the accepted concept 'Controller'. Award full points.
+
+Sub-Question: Q3.7
+Awarded Points: 3
+Justification: The answer 'JDBC' directly matches the accepted concept 'JDBC'. Award full points.
+
+
+"Question: Q4
+Total Points: 23
+
+Sub-Question: Q4.1
+Awarded Points: 14
+Justification: The rubric specifies that Q4.1 should always receive full marks regardless of the answer provided.
+
+Sub-Question: Q4.2
+Awarded Points: 9
+Justification: The student's answer is incorrect but mentions 'votes' and is clearly related to the concept of calculating votes. According to the rubric, this warrants 9 points.
+
+--------------------------------------------------------------------------------
+
+Feedback:
+
+Positive Highlights:
+- <NO_FEEDBACK>
+
+Areas for Improvement:
+- <NO_FEEDBACK>
+
+<NO_FEEDBACK>

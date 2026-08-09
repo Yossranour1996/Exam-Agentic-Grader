@@ -1,0 +1,42 @@
+[
+  {
+    "page": "page_01.png",
+    "text": ""
+  },
+  {
+    "page": "page_02.png",
+    "text": ""
+  },
+  {
+    "page": "page_03.png",
+    "text": "1-1 :\nwe mean that Java is not restrrited to a specific\narchitecture.\n1-2 Java introduces integrated multi threading and it allows\nfor writing simplified programs to access of internal (automatically), Also\nJava came with an applet which is a small program that\ncan be transmitted over the Internet exceented by a compatible\nJava Runtime system in web browser, it extend dynamically the\nfunctionality of web browser, Servlet is also a program that extend\n→ functionality of web server.\n3 OOP is Object oriented programming that has classes\nand objects, the data and code are encapsulated together\nand act on code while POP which is procedure [UNK]\nOriented programming which consist of series of instruction\n(code) acting on data, the functions are called by others.\n→ code\n→ data\nOOP\ncode\ndata\nPOP\nOOP code & data tightly\nPOP code & data are encapsulated."
+  },
+  {
+    "page": "page_04.png",
+    "text": "JRE stands for Java Runtime Environment, it\nhas JUM on it which is engine time to execute the\ncode which is known also as interpreter.\n(JUM for windows)\n(JUM for linux)\n(JUM for MAC)\nInheritance is the creation of new classes based on\nexisting ones, the new class inherits method and field\nof Super class and it can add its new Fields & methods.\nWhile polymorphism is when you get a message\nappear in multiple form, it can override methods of\nthe super class and change it to a new form.\nencapsulation is a protective shield for data and\nCode, it protect them from being access by anything\noutside the shield, it is a data hiding and achieved\nin Implementation level, it can be achieved by data hiding\nand abstraction.\n1. Abstract classes\n2. Interface.\n81 for that threads:\n1. the task is finished.\n2. due to unusual event.\n3. cloud or no Longer available."
+  },
+  {
+    "page": "page_05.png",
+    "text": "1- System.in\n2- System.out\n3- System.err\nIt is built in top of Abstraction Window Tool (AWT)"
+  },
+  {
+    "page": "page_06.png",
+    "text": "1. True\n2. False\n3. True\n4. False\n5. False\n6. True\n7. True"
+  },
+  {
+    "page": "page_07.png",
+    "text": "1. adapt the environmental change and uses\n2. C\n3. Data.\n4. Applets -\n5. Panel\n6. Controller.\n7. Data base manyal connectivity \"DBMC\""
+  },
+  {
+    "page": "page_08.png",
+    "text": "System.out.println(X student);\nSystem.out.println(seats[i] + \" you will take seat\" + 1);"
+  },
+  {
+    "page": "page_09.png",
+    "text": "7 Code is:\nSystem.out.println (seats[i] + \", \" + \" \" + \"you will\ntake seat \" + i )\nExplanation.\nseats[i] ≡ the component number i in seats List.\ni ≡ the index of the list Start from 0 to n-1\n(length -1)\nthe component will take seat value of their\nindexes in the list.\n{ 'M', 'C', G, 'P', O' }\ni = 0, 1, 2, 3, 4\n2 Code is: calculate votes (totalvotes)\nExplanation.\nthe calculate vote function must be invoked to\nget the value of the people who agreed, the\nmethod include a double number stands for\nthe number of votes, when function is invoked\nwith aparameter take value of 760, the value will\nenter the function and be multiplied with 0.15\n, the value will be type casting to integer\nand that will be the agreed number-"
+  },
+  {
+    "page": "page_10.png",
+    "text": "EMPTY"
+  }
+]
