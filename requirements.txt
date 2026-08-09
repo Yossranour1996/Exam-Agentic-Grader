@@ -1,4 +1,4 @@
-# Core dependencies
+# Agent orchestration and model providers
 langgraph
 langchain
 langchain-core
@@ -8,22 +8,18 @@ langchain-text-splitters
 langchain-chroma
 pydantic
 
-# Image processing
+# Document and image processing
 pdf2image
 pillow
-scikit-image
 opencv-python
+pypdf
 
-# Vision & OCR APIs
-google-generativeai
+# Optional OCR backends
 google-genai
 torch
 transformers
 
-# Utilities
+# Configuration and exports
 python-dotenv
-numpy
-tqdm
 openpyxl
 pyyaml
-python-dotenv
